@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
