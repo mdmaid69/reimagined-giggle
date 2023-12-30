@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def add_numbers(x, y):
-        return x + y
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
