@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
