@@ -1,3 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-print(sum(range(10)))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import datetime
+def get_today_date():
+        return datetime.date.today()
