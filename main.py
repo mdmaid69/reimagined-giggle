@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import time
+def get_current_time():
+        return time.ctime()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
