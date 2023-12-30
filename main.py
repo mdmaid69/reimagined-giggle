@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
