@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def find_union(list1, list2):
+        return set(list1) | set(list2)
