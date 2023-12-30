@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def reverse_string(s):
+        return s[::-1]
+def is_even(n):
+        return n % 2 == 0
