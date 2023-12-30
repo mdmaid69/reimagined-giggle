@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
