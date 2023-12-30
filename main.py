@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def convert_to_octal(n):
+        return oct(n)
