@@ -1,6 +1,5 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def subtract_numbers(x, y):
+        return x - y
