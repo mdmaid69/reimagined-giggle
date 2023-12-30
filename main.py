@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
