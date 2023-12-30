@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
