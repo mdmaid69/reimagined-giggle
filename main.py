@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def cube_number(x):
+        return x**3
+import array
+def get_array_as_int(array):
+        return int(array[0])
