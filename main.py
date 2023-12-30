@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def find_max(numbers):
+        return max(numbers)
+def calculate_area_circle(r):
+        return 3.14 * r**2
