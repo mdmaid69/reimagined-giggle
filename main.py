@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
