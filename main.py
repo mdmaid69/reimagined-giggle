@@ -1,5 +1,6 @@
+import array
+def get_array_index(array, item):
+        return array.index(item)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def subtract_numbers(x, y):
-        return x - y
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
