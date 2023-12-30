@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_max(lst):
-        return max(lst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def count_elements(lst):
+        return len(lst)
