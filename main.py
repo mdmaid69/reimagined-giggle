@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
