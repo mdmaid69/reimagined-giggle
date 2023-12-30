@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
