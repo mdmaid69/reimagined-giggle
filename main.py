@@ -1,5 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def add_numbers(a, b):
-        return a + b
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
