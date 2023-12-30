@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
