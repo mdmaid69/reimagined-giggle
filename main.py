@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
