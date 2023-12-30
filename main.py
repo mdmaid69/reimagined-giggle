@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def divide_numbers(x, y):
-        return x / y
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
