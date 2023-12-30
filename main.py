@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+from collections import Counter
+print(Counter("hello world"))
+import time
+def get_current_time():
+        return time.ctime()
