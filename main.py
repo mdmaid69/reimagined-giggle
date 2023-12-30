@@ -1,5 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
