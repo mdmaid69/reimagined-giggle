@@ -1,6 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def convert_array_to_list(array):
+        return array.tolist()
