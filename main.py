@@ -1,6 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
