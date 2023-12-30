@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def is_even(n):
+        return n % 2 == 0
