@@ -1,6 +1,12 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
