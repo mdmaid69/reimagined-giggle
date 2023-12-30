@@ -1,4 +1,6 @@
-import time
-print(time.time())
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
