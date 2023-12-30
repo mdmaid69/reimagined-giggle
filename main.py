@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-for i in range(5):
-        print(i)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
