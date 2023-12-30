@@ -1,6 +1,5 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
