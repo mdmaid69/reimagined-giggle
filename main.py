@@ -1,8 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
