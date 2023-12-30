@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
