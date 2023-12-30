@@ -1,9 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import random
+print(random.randint(0, 100))
