@@ -1,5 +1,6 @@
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
