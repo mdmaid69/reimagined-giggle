@@ -1,7 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def find_union(list1, list2):
+        return set(list1) | set(list2)
