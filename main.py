@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  def multiply_numbers(x, y):
+        return x * y
