@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_speed(distance, time):
+        return distance / time
