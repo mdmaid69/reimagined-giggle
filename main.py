@@ -1,8 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
