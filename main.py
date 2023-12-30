@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
