@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
