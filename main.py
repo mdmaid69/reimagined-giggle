@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
