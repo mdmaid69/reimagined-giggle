@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
