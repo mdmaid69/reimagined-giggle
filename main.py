@@ -1,5 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
