@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
