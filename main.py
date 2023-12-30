@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
