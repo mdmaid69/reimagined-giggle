@@ -1,6 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
 import array
-def clear_array(array):
-        array *= 0
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def set_array_item(array, i, item):
+        array[i] = item
