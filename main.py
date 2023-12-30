@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
