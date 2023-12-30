@@ -1,4 +1,4 @@
-for i in range(5):
-        print(i)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def reverse_list(lst):
+        return lst[::-1]
+  def is_even(n):
+        return n % 2 == 0
