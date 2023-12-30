@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
