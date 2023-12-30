@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
