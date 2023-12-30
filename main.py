@@ -1,5 +1,7 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import collections
+def create_user_string():
+        return collections.UserString()
