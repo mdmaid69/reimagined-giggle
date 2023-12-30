@@ -1,5 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
