@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import time
+def get_current_time():
+        return time.time()
