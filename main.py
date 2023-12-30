@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
