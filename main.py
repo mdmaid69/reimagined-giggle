@@ -1,5 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
