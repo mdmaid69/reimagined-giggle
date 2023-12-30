@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
