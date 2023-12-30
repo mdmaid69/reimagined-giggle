@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_density(mass, volume):
+        return mass / volume
