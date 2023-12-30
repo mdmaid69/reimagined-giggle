@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
