@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
