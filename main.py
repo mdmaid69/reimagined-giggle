@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def is_even(n):
+        return n % 2 == 0
