@@ -1,6 +1,6 @@
+import array
+def convert_array_to_string(array):
+        return array.tostring()
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def delete_file(file_name):
+        os.remove(file_name)
