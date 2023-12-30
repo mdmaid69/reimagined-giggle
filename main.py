@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
