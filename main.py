@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
