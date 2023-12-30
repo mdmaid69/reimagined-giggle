@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
