@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
