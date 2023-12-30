@@ -1,7 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def count_words(sentence):
+        return len(sentence.split())
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
