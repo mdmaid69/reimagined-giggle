@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_int(array):
+        return int(array[0])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
