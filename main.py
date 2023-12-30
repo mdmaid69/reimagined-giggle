@@ -1,5 +1,7 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
