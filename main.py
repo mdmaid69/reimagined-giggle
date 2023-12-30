@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import random
+print(random.randint(0, 100))
