@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
