@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
