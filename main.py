@@ -1,6 +1,5 @@
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def get_array_as_bytearray(array):
+        return bytearray(array)
