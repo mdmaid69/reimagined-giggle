@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
