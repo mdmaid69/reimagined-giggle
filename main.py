@@ -1,6 +1,9 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
