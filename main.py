@@ -1,4 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def square_number(x):
-        return x**2
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
