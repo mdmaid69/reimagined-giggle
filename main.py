@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
