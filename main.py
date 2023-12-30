@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def divide_numbers(x, y):
+        return x / y
