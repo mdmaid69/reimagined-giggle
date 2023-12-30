@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def add_numbers(x, y):
+        return x + y
