@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
