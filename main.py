@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def cube_number(x):
-        return x**3
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
