@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
