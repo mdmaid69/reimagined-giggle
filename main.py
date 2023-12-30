@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
