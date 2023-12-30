@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def get_array_as_str(array):
+        return str(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
