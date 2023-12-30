@@ -1,9 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_area_rectangle(l, w):
+        return l * w
