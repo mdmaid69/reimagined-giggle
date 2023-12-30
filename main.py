@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
