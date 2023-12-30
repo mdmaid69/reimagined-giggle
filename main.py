@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  def sort_list(lst):
+        return sorted(lst)
