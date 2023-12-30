@@ -1,4 +1,7 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def count_elements(lst):
-        return len(lst)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def find_min(numbers):
+        return min(numbers)
