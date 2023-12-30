@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
