@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
