@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
