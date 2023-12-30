@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
