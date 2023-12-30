@@ -1,5 +1,9 @@
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def iterate_over_array(array):
+        for item in array:
+        print(item)
