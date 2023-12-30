@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
