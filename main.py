@@ -1,7 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import random
-print(random.randint(0, 100))
+print("Hello, world!")
+import array
+def get_array_index(array, item):
+        return array.index(item)
