@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
