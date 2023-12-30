@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import array
+def get_array_as_str(array):
+        return str(array)
+import datetime
+def get_today_date():
+        return datetime.date.today()
