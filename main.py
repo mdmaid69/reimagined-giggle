@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
