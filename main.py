@@ -1,6 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
