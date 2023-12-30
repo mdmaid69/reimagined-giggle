@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-import time
-print(time.time())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def find_min(lst):
+        return min(lst)
