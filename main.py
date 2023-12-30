@@ -1,8 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
