@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_index(array, item):
+        return array.index(item)
