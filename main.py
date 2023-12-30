@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_pressure(force, area):
+        return force / area
