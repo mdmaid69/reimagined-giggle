@@ -1,6 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
