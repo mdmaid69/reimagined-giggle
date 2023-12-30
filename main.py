@@ -1,5 +1,12 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def reverse_array(array):
-        array.reverse()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
