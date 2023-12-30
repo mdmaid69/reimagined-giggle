@@ -1,5 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
