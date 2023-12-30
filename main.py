@@ -1,5 +1,8 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
