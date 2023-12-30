@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def append_to_array(array, item):
+        array.append(item)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
