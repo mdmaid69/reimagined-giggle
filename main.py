@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import platform
+def get_os_info():
+        return platform.uname()
