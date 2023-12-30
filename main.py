@@ -1,5 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
