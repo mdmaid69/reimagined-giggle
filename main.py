@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  def sort_list(lst):
+        return sorted(lst)
