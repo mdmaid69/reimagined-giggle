@@ -1,3 +1,6 @@
-print("Hello, world!")
-def calculate_pressure(force, area):
-        return force / area
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
