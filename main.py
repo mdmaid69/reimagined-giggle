@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import logging
+def log_message(message):
+        logging.info(message)
