@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
