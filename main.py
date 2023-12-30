@@ -1,14 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
