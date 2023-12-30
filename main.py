@@ -1,6 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import collections
-def create_user_list():
-        return collections.UserList()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
