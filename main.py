@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
