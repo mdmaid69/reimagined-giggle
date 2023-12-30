@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import platform
-def get_os_info():
-        return platform.uname()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import os
+print(os.getcwd())
