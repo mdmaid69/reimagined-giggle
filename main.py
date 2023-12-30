@@ -1,6 +1,5 @@
+def find_max(lst):
+        return max(lst)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
