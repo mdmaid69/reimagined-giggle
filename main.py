@@ -1,5 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  def convert_to_binary(n):
-        return bin(n)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
