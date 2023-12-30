@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
