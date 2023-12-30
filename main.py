@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
