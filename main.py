@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
