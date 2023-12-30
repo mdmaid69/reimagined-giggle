@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
