@@ -1,6 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
