@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
