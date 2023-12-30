@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_power(work, time):
+        return work / time
