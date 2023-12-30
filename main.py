@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import collections
-def create_user_string():
-        return collections.UserString()
+def subtract_numbers(x, y):
+        return x - y
+def calculate_acceleration(speed, time):
+        return speed / time
