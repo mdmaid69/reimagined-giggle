@@ -1,8 +1,8 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
