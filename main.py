@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
