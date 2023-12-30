@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
