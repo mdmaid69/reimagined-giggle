@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
