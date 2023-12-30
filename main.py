@@ -1,5 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
