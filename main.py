@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
