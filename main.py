@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import os
+print(os.getcwd())
