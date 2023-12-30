@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def get_array_length(array):
-        return len(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+name = "Python"
+print("Hello,", name)
