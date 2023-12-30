@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def add_numbers(a, b):
-        return a + b
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
