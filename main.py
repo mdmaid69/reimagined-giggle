@@ -1,6 +1,9 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
