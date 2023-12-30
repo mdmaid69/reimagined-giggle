@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
