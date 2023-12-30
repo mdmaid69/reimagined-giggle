@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
