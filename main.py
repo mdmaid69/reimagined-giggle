@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def is_even(n):
+        return n % 2 == 0
