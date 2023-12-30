@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import collections
-def create_stack():
-        return collections.deque()
+def find_min(numbers):
+        return min(numbers)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
