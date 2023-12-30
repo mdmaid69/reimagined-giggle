@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def is_even(n):
+        return n % 2 == 0
