@@ -1,11 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def square_number(x):
+        return x**2
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
