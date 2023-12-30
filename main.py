@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
