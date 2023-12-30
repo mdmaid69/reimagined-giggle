@@ -1,6 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
