@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
