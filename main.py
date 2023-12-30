@@ -1,8 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_acceleration(speed, time):
+        return speed / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
