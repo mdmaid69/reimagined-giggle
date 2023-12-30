@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def square_number(x):
+        return x**2
