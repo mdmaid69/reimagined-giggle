@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+x = 10
+y = 20
+print("Sum:", x + y)
