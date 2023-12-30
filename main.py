@@ -1,4 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
