@@ -1,6 +1,5 @@
+  def square_number(x):
+        return x**2
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
