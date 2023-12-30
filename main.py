@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+text = "Hello, world!"
+print("Characters:", len(text))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
