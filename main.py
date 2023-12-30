@@ -1,6 +1,7 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import collections
+def create_user_string():
+        return collections.UserString()
