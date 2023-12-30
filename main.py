@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def is_even(n):
+        return n % 2 == 0
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
