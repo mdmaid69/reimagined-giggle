@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import tensorflow as tf
-print(tf.__version__)
+for i in range(5):
+        print(i)
+def multiply_numbers(x, y):
+        return x * y
