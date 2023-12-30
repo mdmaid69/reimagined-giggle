@@ -1,6 +1,5 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
