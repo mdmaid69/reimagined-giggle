@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import logging
+def log_message(message):
+        logging.info(message)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
