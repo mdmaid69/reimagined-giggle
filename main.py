@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def get_current_directory():
+        return os.getcwd()
