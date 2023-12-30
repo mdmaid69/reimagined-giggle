@@ -1,5 +1,6 @@
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def convert_to_hex(n):
-        return hex(n)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
