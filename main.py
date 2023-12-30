@@ -1,6 +1,8 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
