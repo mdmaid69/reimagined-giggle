@@ -1,5 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_volume(length, width, height):
+        return length * width * height
+def multiply_numbers(x, y):
+        return x * y
