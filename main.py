@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_counter():
-        return collections.Counter()
+text = "Hello, world!"
+print("Characters:", len(text))
+def multiply_numbers(x, y):
+        return x * y
