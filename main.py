@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
