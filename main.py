@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def reverse_string(s):
-        return s[::-1]
+  def is_even(n):
+        return n % 2 == 0
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
