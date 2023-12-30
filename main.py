@@ -1,5 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_union(list1, list2):
+        return set(list1) | set(list2)
