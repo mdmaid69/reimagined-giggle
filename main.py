@@ -1,6 +1,9 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
