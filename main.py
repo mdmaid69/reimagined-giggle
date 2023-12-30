@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
