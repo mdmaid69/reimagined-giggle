@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
