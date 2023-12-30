@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
