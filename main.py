@@ -1,5 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
