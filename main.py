@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_work(force, distance):
+        return force * distance
