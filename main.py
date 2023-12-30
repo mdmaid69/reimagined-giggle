@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
