@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_current_working_directory():
+        return os.getcwd()
