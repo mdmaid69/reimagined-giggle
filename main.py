@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
