@@ -1,6 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
