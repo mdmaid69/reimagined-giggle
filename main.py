@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
