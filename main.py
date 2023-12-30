@@ -1,12 +1,8 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+x = 10
+y = 20
+print("Sum:", x + y)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
