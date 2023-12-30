@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_power(work, time):
-        return work / time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
