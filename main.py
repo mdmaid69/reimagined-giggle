@@ -1,6 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
