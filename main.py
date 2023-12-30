@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import array
-def get_array_as_set(array):
-        return set(array)
+def get_array_as_bool(array):
+        return bool(array)
