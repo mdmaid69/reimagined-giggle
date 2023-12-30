@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_volume(length, width, height):
+        return length * width * height
