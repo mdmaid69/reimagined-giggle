@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+from collections import Counter
+print(Counter("hello world"))
