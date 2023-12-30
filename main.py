@@ -1,4 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-for i in range(10): print(i)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import sys
+def print_python_version():
+        print(sys.version)
