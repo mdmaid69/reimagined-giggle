@@ -1,6 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
