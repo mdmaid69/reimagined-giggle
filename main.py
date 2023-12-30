@@ -1,6 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
