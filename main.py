@@ -1,6 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
