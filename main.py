@@ -1,5 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+print(sum(range(10)))
