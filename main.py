@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-x = 10
-y = 20
-print("Sum:", x + y)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
