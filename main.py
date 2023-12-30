@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
