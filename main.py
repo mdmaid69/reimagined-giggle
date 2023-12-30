@@ -1,5 +1,5 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def is_odd(n):
-        return n % 2 != 0
+def get_array_as_repr(array):
+        return repr(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
