@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
