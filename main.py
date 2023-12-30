@@ -1,5 +1,12 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_list_from_array(array):
+        return array.tolist()
