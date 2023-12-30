@@ -1,5 +1,6 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-def convert_to_binary(n):
-        return bin(n)
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
