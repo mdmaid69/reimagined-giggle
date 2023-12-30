@@ -1,7 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
