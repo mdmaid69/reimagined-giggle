@@ -1,5 +1,6 @@
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_absolute_value(x):
+        return math.fabs(x)
