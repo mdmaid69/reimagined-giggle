@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
