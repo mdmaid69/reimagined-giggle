@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def is_odd(n):
+        return n % 2 != 0
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
