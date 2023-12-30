@@ -1,9 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  def is_even(n):
+        return n % 2 == 0
