@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
