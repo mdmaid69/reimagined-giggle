@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
