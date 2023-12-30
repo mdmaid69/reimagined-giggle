@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
