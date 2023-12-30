@@ -1,4 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
