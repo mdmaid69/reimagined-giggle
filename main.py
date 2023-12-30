@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
