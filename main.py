@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
