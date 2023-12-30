@@ -1,7 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
