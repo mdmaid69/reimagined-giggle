@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import time
+def get_current_time():
+        return time.ctime()
