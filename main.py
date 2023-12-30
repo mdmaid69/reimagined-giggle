@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
