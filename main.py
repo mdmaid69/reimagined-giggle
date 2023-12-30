@@ -1,8 +1,7 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
