@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
