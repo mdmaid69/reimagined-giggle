@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def reverse_array(array):
+        array.reverse()
