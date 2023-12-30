@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def is_even(n):
+        return n % 2 == 0
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_as_float(array):
+        return float(array[0])
