@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
