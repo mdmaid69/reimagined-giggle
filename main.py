@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
