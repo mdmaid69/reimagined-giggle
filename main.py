@@ -1,6 +1,6 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_slice(array, i, j):
+        return array[i:j]
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_as_bool(array):
+        return bool(array)
