@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_exponential(x):
+        return math.exp(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
