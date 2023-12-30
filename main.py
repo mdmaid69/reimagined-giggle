@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
