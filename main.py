@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
