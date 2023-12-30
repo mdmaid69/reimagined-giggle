@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def convert_to_hex(n):
+        return hex(n)
