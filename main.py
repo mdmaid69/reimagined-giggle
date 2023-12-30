@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
