@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def append_to_array(array, item):
+        array.append(item)
