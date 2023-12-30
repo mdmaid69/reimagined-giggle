@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
