@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
