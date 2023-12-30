@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def convert_array_to_unicode(array):
+        return array.tounicode()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
