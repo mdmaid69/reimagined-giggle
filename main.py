@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+from collections import Counter
+print(Counter("hello world"))
