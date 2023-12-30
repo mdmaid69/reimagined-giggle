@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
