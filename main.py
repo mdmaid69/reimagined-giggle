@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import array
+def reverse_array(array):
+        array.reverse()
+import collections
+def create_user_list():
+        return collections.UserList()
