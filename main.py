@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
