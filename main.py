@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
