@@ -1,6 +1,5 @@
+  def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
