@@ -1,4 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-print([x**2 for x in range(10)])
+def reverse_array(array):
+        array.reverse()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
