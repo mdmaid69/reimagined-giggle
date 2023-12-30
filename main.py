@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
