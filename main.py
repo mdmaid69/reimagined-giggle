@@ -1,5 +1,6 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
 text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import time
-def get_time_since_epoch():
-        return time.time()
+print("Reversed:", text[::-1])
