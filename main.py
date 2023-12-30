@@ -1,6 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
