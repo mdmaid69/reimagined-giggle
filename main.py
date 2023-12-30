@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
