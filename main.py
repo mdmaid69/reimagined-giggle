@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
