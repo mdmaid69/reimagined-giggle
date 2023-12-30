@@ -1,5 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
