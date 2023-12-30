@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
