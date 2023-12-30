@@ -1,8 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
