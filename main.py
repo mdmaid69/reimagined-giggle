@@ -1,5 +1,5 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_power(work, time):
-        return work / time
+def calculate_gamma_function(x):
+        return math.gamma(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
