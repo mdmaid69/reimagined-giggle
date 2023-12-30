@@ -1,6 +1,6 @@
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
 import math
 def calculate_pythagorean_theorem(a, b):
         return math.sqrt(a**2 + b**2)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
