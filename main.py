@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def cube_number(x):
+        return x**3
