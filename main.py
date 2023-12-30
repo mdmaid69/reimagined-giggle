@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import sys
-def exit_program():
-        sys.exit()
+def find_min(numbers):
+        return min(numbers)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
