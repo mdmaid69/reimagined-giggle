@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
