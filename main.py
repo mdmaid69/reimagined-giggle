@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
