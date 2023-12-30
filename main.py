@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
