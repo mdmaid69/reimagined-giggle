@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
