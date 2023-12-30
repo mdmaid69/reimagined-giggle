@@ -1,4 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
