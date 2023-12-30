@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_speed(distance, time):
-        return distance / time
+import collections
+def create_user_list():
+        return collections.UserList()
+def greet(name):
+        print(f"Hello, {name}!")
