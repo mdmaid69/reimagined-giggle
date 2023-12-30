@@ -1,7 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
