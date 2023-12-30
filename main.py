@@ -1,9 +1,8 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import array
-def get_array_from_file(filename, typecode):
+def get_array_from_bytes(bytes, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.frombytes(bytes)
         return a
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
