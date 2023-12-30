@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def convert_to_hex(n):
+        return hex(n)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
