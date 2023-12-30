@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def divide_numbers(x, y):
+        return x / y
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
