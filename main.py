@@ -1,5 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def add_numbers(x, y):
-        return x + y
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
