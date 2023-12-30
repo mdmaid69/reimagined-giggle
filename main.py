@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_volume(length, width, height):
-        return length * width * height
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
