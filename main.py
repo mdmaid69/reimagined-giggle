@@ -1,6 +1,7 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
