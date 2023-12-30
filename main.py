@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
