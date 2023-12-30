@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+print([x**2 for x in range(10)])
