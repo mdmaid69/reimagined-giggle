@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import time
+def get_time_since_epoch():
+        return time.time()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
