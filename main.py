@@ -1,5 +1,6 @@
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def is_odd(n):
-        return n % 2 != 0
+def get_array_as_str(array):
+        return str(array)
