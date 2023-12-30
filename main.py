@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def convert_array_to_string(array):
+        return array.tostring()
