@@ -1,8 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_average(lst):
+        return sum(lst) / len(lst)
