@@ -1,5 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_speed(distance, time):
-        return distance / time
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
