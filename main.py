@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
