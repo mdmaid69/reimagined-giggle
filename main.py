@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_acceleration(speed, time):
+        return speed / time
