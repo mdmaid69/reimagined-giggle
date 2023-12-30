@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
