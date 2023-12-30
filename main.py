@@ -1,7 +1,4 @@
-import time
-print(time.time())
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def count_words(sentence):
+        return len(sentence.split())
+def is_odd(n):
+        return n % 2 != 0
