@@ -1,5 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
