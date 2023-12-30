@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_index(array, item):
+        return array.index(item)
