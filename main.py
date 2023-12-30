@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
