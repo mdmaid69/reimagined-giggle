@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
