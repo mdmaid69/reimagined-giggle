@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_volume(length, width, height):
+        return length * width * height
