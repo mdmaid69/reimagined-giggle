@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def get_array_as_bool(array):
+        return bool(array)
