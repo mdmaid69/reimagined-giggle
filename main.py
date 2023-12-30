@@ -1,5 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import random
+print(random.randint(0, 100))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
