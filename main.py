@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import numpy as np
+print(np.array([1, 2, 3]))
