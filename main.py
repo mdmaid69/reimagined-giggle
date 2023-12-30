@@ -1,5 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def find_max(numbers):
-        return max(numbers)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_acceleration(speed, time):
+        return speed / time
