@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import sys
+print(sys.version)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
