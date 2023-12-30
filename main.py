@@ -1,6 +1,12 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
   import os
-  def get_file_dev(file_name):
+  def get_file_device(file_name):
         return os.stat(file_name).st_dev
