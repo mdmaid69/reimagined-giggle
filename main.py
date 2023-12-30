@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
