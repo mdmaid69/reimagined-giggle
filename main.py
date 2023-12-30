@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
