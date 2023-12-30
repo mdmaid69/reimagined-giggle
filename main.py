@@ -1,6 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
