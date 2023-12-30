@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
