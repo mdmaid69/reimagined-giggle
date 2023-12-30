@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def get_array_item(array, i):
-        return array[i]
+from collections import Counter
+print(Counter("hello world"))
+import collections
+def create_stack():
+        return collections.deque()
