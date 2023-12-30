@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def add_numbers(a, b):
-        return a + b
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_density(mass, volume):
+        return mass / volume
