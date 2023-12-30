@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+for i in range(5):
+        print(i)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
