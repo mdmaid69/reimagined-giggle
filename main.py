@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def find_min(numbers):
-        return min(numbers)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
