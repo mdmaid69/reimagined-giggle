@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
