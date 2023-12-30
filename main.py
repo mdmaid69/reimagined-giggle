@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
