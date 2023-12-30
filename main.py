@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def multiply_numbers(x, y):
-        return x * y
+import collections
+def create_queue():
+        return collections.deque()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
