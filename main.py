@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import tensorflow as tf
-print(tf.__version__)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
