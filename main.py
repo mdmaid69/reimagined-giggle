@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
