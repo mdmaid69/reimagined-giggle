@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
