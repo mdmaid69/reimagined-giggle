@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-from collections import Counter
-print(Counter("hello world"))
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
