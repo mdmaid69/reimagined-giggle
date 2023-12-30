@@ -1,5 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def is_even(n):
-        return n % 2 == 0
+def calculate_speed(distance, time):
+        return distance / time
+for i in range(5):
+        print(i)
