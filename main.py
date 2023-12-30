@@ -1,5 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-def divide_numbers(x, y):
-        return x / y
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
