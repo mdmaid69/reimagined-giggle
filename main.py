@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
