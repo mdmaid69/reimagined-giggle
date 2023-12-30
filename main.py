@@ -1,7 +1,7 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
   import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
         plt.show()
