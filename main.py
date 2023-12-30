@@ -1,7 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def calculate_work(force, distance):
+        return force * distance
