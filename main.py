@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
