@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
