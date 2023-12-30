@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_area_circle(r):
+        return 3.14 * r**2
