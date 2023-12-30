@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
