@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
