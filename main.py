@@ -1,5 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def is_odd(n):
+        return n % 2 != 0
