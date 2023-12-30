@@ -1,6 +1,8 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import platform
-def get_os_info():
-        return platform.uname()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_sine(x):
+        return math.sin(x)
