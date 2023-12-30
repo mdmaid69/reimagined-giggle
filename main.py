@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def cube_number(x):
+        return x**3
