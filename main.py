@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
