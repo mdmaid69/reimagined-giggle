@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import collections
+def create_user_dict():
+        return collections.UserDict()
