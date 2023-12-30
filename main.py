@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import sys
+def exit_program():
+        sys.exit()
