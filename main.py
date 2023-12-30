@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+x = 10
+y = 20
+print("Sum:", x + y)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
