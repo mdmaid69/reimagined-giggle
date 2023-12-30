@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
