@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  import os
+  def split_path(path):
+        return os.path.split(path)
