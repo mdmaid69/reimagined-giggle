@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def reverse_list(lst):
+        return lst[::-1]
+def is_palindrome(s):
+        return s == s[::-1]
