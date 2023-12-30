@@ -1,10 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
