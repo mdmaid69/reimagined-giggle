@@ -1,6 +1,7 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  def get_current_working_directory():
+        return os.getcwd()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
