@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
