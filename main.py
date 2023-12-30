@@ -1,6 +1,7 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
