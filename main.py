@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
