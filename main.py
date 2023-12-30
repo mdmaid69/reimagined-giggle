@@ -1,5 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
