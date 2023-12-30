@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
