@@ -1,7 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
