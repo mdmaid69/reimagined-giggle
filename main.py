@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import collections
+def create_stack():
+        return collections.deque()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
