@@ -1,6 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
