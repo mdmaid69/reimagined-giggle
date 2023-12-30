@@ -1,8 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def remove_from_array(array, item):
+        array.remove(item)
