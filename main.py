@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
