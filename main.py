@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import collections
-def create_user_string():
-        return collections.UserString()
+import time
+def get_current_time():
+        return time.ctime()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
