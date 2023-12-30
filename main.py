@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_list_from_array(array):
+        return array.tolist()
