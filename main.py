@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
