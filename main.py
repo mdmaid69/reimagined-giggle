@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_index(array, item):
+        return array.index(item)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
