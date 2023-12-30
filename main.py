@@ -1,6 +1,11 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  def multiply_numbers(x, y):
+        return x * y
