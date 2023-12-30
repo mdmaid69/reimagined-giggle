@@ -1,6 +1,7 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
