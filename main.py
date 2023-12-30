@@ -1,4 +1,4 @@
-  def square_number(x):
-        return x**2
-def find_max(lst):
-        return max(lst)
+import tensorflow as tf
+print(tf.__version__)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
