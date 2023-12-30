@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+print([x**2 for x in range(10)])
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
