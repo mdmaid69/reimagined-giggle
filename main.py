@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_volume(length, width, height):
-        return length * width * height
+name = "Python"
+print("Hello,", name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
