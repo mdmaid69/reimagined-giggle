@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
