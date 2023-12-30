@@ -2,5 +2,5 @@
   def get_file_gen(file_name):
         return os.stat(file_name).st_gen
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
