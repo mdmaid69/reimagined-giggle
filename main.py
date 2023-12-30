@@ -1,4 +1,7 @@
-import random
-print(random.randint(0, 100))
-def calculate_speed(distance, time):
-        return distance / time
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
