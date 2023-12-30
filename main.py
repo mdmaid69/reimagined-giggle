@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
