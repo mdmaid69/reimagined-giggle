@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
