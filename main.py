@@ -1,6 +1,7 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def reverse_array(array):
-        array.reverse()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import time
+def get_current_time():
+        return time.time()
