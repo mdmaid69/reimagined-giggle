@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
