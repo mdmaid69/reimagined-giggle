@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
