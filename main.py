@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def square_number(x):
+        return x**2
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
