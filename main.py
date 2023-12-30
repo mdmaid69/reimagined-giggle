@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
