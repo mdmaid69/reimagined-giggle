@@ -1,6 +1,8 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import tensorflow as tf
-print(tf.__version__)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
