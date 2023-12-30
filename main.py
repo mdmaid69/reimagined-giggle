@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def split_path(path):
+        return os.path.split(path)
