@@ -1,5 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
