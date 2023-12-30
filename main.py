@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
