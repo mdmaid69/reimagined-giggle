@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
