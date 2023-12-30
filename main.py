@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
