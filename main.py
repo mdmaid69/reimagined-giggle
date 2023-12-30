@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
