@@ -1,5 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def add_numbers(x, y):
-        return x + y
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
