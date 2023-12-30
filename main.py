@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def sort_list(lst):
+        return sorted(lst)
