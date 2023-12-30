@@ -1,8 +1,6 @@
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
 import array
-def append_to_array(array, item):
-        array.append(item)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
