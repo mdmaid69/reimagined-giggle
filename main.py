@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
