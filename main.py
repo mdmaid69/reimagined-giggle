@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def find_max(lst):
+        return max(lst)
