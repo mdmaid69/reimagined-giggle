@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_array_as_int(array):
+        return int(array[0])
