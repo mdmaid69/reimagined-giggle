@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
