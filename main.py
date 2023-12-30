@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def convert_to_hex(n):
+        return hex(n)
