@@ -1,6 +1,9 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import sys
-def exit_program():
-        sys.exit()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
