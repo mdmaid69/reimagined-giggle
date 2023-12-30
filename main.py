@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
