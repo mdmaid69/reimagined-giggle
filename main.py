@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
