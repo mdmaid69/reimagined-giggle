@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
