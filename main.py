@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
