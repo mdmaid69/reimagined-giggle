@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import os
-print(os.getcwd())
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
