@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def create_stack():
+        return collections.deque()
