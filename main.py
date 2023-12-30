@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def sort_list(lst):
+        return sorted(lst)
