@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
