@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
