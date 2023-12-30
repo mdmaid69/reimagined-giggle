@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
