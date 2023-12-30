@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import sys
+  def get_python_version():
+        return sys.version
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
