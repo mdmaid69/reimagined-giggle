@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_list_from_array(array):
+        return array.tolist()
