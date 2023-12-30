@@ -1,4 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-print(sum(range(10)))
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
