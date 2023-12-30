@@ -1,5 +1,8 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_as_list(array):
+        return list(array)
