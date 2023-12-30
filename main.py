@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_pressure(force, area):
+        return force / area
+def convert_to_binary(n):
+        return bin(n)
