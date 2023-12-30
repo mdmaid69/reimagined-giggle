@@ -1,5 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
