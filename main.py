@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def reverse_string(s):
+        return s[::-1]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
