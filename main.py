@@ -1,8 +1,6 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import array
-def get_array_length(array):
-        return len(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import numpy as np
+print(np.array([1, 2, 3]))
