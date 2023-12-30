@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_gamma_function(x):
+        return math.gamma(x)
