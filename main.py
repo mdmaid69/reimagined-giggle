@@ -1,4 +1,9 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
