@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
