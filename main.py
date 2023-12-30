@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def add_numbers(x, y):
-        return x + y
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
