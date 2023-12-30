@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
