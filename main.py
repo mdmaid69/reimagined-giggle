@@ -1,5 +1,5 @@
   import os
-  def get_file_mode(file_name):
+  def get_file_permissions(file_name):
         return os.stat(file_name).st_mode
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
