@@ -1,6 +1,8 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
