@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import collections
-def create_queue():
-        return collections.deque()
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
