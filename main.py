@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_directory_name(path):
+        return os.path.dirname(path)
