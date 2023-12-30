@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def clear_array(array):
+        array *= 0
