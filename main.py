@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
