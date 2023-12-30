@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
