@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import platform
+def get_os_info():
+        return platform.uname()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
