@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import sys
+def exit_program():
+        sys.exit()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
