@@ -1,5 +1,7 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
