@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
