@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
