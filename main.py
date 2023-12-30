@@ -1,8 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def reverse_array(array):
+        array.reverse()
