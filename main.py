@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
