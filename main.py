@@ -1,7 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
