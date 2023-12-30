@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
