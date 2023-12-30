@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_area_rectangle(l, w):
-        return l * w
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
