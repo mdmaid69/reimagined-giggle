@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
