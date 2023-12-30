@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
