@@ -1,7 +1,4 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def square_number(x):
+        return x**2
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
