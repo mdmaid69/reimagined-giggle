@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import collections
+def create_queue():
+        return collections.deque()
+def remove_duplicates(lst):
+        return list(set(lst))
