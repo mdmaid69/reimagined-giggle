@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-x = 10
-y = 20
-print("Sum:", x + y)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
