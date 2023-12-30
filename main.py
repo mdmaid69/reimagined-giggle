@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
