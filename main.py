@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
