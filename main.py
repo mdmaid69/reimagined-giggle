@@ -1,11 +1,12 @@
-from flask import Flask
-app = Flask(__name__)
+import queue
 
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
