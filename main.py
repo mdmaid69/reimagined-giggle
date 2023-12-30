@@ -1,5 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-from collections import Counter
-print(Counter("hello world"))
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
