@@ -1,6 +1,8 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
