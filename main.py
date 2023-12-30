@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def get_list_from_array(array):
-        return array.tolist()
+print("Hello, world!")
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
