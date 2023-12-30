@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import re
+print(re.match("h.*o", "hello world"))
