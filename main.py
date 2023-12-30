@@ -1,7 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
