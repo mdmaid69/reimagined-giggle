@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_area_circle(r):
+        return 3.14 * r**2
