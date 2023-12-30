@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
