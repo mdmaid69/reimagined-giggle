@@ -1,6 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import sys
-def print_python_version():
-        return sys.version
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
