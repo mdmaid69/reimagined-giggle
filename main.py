@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
