@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import logging
-def log_message(message):
-        logging.info(message)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
