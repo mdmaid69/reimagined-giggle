@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def multiply_numbers(x, y):
+        return x * y
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
