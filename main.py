@@ -1,6 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_counter():
-        return collections.Counter()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
