@@ -1,5 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
