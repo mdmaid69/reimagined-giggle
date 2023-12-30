@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
