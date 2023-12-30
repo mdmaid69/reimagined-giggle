@@ -1,4 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
