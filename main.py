@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def convert_to_hex(n):
-        return hex(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
