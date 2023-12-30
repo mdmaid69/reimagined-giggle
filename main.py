@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import platform
-def get_os_info():
-        return platform.uname()
+def is_odd(n):
+        return n % 2 != 0
+i = 0
+while i < 5:
+        print(i)
+        i += 1
