@@ -1,10 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_index(array, item):
+        return array.index(item)
