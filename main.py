@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import os
+def remove_directory(path):
+        os.rmdir(path)
