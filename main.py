@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
