@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
