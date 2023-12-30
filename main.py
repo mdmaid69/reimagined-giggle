@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
