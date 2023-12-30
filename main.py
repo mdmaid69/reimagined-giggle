@@ -1,6 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def append_to_array(array, item):
+        array.append(item)
