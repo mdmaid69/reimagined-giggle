@@ -1,7 +1,8 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
