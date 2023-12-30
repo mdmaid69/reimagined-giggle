@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  def square_number(x):
-        return x**2
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
