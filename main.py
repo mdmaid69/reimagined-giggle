@@ -1,4 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
