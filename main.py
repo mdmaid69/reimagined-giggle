@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+text = "Hello, world!"
+print("Characters:", len(text))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
