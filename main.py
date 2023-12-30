@@ -1,6 +1,7 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def find_max(numbers):
+        return max(numbers)
