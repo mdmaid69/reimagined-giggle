@@ -1,7 +1,4 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
