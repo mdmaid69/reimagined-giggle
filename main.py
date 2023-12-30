@@ -1,10 +1,7 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
