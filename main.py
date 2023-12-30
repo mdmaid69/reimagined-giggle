@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
