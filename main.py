@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
