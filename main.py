@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import time
-def get_time_since_epoch():
-        return time.time()
+import tensorflow as tf
+print(tf.__version__)
+import os
+def change_working_directory(path):
+        os.chdir(path)
