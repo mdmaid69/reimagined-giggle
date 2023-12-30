@@ -1,4 +1,6 @@
-print(sum(range(10)))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
