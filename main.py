@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def is_palindrome(s):
+        return s == s[::-1]
