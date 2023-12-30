@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def find_min(lst):
-        return min(lst)
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
