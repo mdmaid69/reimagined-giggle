@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_acceleration(speed, time):
+        return speed / time
