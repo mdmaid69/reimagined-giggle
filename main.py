@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
