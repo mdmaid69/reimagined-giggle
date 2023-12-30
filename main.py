@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
