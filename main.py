@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import random
+print(random.randint(0, 100))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
