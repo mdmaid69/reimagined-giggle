@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
