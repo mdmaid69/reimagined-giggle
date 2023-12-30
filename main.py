@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
