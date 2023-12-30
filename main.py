@@ -1,5 +1,7 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
