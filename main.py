@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
