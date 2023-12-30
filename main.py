@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
