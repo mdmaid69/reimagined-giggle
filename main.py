@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def get_array_as_float(array):
+        return float(array[0])
