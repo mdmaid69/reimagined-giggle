@@ -1,3 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-for i in range(10): print(i)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_density(mass, volume):
+        return mass / volume
