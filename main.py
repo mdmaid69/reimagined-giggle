@@ -1,7 +1,11 @@
-import unittest
+import threading
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def reverse_list(lst):
-        return lst[::-1]
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def clear_array(array):
+        array *= 0
