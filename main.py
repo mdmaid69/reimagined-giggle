@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
