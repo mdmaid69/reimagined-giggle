@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
