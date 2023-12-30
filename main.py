@@ -1,4 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_acceleration(speed, time):
+        return speed / time
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
