@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_power(work, time):
+        return work / time
