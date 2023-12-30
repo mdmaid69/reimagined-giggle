@@ -1,5 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_power(work, time):
+        return work / time
