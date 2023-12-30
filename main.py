@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
