@@ -1,6 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def check_if_array_contains_item(array, item):
+        return item in array
