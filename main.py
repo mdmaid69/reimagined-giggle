@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
