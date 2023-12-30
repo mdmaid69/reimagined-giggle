@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
