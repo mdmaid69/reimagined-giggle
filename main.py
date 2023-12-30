@@ -1,5 +1,3 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def multiply_numbers(x, y):
-        return x * y
+import numpy as np
+print(np.array([1, 2, 3]))
+for i in range(10): print(i)
