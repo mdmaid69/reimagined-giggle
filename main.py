@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def square_number(x):
+        return x**2
