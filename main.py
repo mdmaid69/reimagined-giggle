@@ -1,6 +1,5 @@
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def list_files_in_directory(path):
+        return os.listdir(path)
+import sys
+print(sys.version)
