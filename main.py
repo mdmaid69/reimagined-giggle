@@ -1,6 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
