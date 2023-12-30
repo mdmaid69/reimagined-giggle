@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import array
-def get_array_as_str(array):
-        return str(array)
+def divide_numbers(x, y):
+        return x / y
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
