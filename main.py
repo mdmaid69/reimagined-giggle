@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
