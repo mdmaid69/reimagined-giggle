@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def reverse_list(lst):
+        return lst[::-1]
