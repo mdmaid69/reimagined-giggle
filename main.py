@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
