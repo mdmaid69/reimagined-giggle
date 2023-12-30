@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def count_elements(lst):
+        return len(lst)
