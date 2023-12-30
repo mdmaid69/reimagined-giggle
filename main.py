@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
