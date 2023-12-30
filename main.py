@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
