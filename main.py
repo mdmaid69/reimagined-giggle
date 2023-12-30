@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
