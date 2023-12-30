@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import time
+def get_current_time():
+        return time.ctime()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
