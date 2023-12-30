@@ -1,8 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
