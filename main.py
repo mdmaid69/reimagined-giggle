@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import random
+print(random.randint(0, 100))
