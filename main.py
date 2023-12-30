@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
