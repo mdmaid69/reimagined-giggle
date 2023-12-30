@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_array_item(array, i):
+        return array[i]
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
