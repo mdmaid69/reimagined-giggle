@@ -1,5 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
