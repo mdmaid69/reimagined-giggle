@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def is_odd(n):
-        return n % 2 != 0
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
