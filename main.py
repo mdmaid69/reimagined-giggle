@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_area_rectangle(l, w):
+        return l * w
