@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_as_int(array):
+        return int(array[0])
