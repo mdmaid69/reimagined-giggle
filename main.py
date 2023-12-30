@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
