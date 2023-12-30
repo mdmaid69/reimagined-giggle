@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
