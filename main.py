@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
