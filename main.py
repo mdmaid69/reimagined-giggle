@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_queue():
+        return collections.deque()
