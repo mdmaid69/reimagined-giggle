@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
