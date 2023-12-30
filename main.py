@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
