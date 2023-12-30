@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
