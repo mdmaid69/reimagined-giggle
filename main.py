@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
