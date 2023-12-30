@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
