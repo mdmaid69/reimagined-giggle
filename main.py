@@ -1,4 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
