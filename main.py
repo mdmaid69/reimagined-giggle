@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  def convert_to_hex(n):
-        return hex(n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_as_int(array):
+        return int(array[0])
