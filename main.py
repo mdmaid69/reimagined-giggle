@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
