@@ -1,6 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
