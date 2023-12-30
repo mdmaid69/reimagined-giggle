@@ -1,6 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
