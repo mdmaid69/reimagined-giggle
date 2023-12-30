@@ -1,6 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def get_array_typecode(array):
+        return array.typecode
