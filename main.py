@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
