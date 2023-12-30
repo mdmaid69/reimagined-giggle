@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def get_array_as_set(array):
-        return set(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
