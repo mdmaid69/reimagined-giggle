@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
