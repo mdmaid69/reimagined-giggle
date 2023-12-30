@@ -1,8 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_set(array):
+        return set(array)
