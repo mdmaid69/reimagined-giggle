@@ -1,6 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def get_array_typecode(array):
+        return array.typecode
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
