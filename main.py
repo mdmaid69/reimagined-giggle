@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
