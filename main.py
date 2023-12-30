@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+print([x**2 for x in range(10)])
