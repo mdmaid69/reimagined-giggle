@@ -1,7 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_acceleration(speed, time):
+        return speed / time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
