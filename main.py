@@ -1,5 +1,5 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
