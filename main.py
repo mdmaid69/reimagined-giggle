@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
