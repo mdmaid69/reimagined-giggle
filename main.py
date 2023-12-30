@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
