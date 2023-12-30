@@ -1,6 +1,8 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
