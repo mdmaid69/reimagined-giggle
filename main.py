@@ -1,5 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_work(force, distance):
-        return force * distance
+def set_array_item(array, i, item):
+        array[i] = item
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
