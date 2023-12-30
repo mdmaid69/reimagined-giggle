@@ -1,6 +1,7 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+x = 10
+y = 20
+print("Sum:", x + y)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
