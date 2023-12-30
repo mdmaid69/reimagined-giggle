@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import re
+print(re.match("h.*o", "hello world"))
