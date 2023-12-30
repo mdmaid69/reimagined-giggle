@@ -1,6 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+print([x**2 for x in range(10)])
