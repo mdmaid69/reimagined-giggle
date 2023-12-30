@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import platform
+def get_os_info():
+        return platform.uname()
