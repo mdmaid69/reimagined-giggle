@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
