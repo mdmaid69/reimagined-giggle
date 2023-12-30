@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
