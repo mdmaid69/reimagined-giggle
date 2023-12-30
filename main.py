@@ -1,6 +1,8 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import sys
-def exit_program():
-        sys.exit()
+def add_to_python_path(path):
+        sys.path.append(path)
