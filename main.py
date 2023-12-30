@@ -1,7 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
