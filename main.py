@@ -1,6 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
