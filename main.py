@@ -1,8 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def count_elements(lst):
+        return len(lst)
