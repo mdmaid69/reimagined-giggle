@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
