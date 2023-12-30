@@ -1,7 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
