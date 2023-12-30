@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
