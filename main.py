@@ -1,6 +1,7 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
