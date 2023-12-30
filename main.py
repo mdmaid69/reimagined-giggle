@@ -1,6 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
