@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
