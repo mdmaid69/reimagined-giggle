@@ -1,5 +1,8 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
