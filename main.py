@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
