@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
