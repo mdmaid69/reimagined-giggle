@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def is_even(n):
+        return n % 2 == 0
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
