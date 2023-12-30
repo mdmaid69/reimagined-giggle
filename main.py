@@ -1,3 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-print("Hello, world!")
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def get_array_as_int(array):
+        return int(array[0])
