@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def count_elements(lst):
+        return len(lst)
+import os
+print(os.getcwd())
