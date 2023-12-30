@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
