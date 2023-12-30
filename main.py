@@ -1,5 +1,5 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
