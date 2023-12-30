@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def is_odd(n):
+        return n % 2 != 0
 import collections
-def create_counter():
-        return collections.Counter()
+def count_elements(iterable):
+        return collections.Counter(iterable)
