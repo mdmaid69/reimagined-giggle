@@ -1,9 +1,7 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
