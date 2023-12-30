@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
