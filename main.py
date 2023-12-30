@@ -1,6 +1,5 @@
+def divide_numbers(x, y):
+        return x / y
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_permutations(n, k):
+        return math.perm(n, k)
