@@ -1,8 +1,5 @@
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
