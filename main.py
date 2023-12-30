@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import collections
+def create_user_string():
+        return collections.UserString()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
