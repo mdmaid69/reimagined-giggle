@@ -1,8 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
