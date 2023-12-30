@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def find_min(lst):
-        return min(lst)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
