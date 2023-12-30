@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_density(mass, volume):
-        return mass / volume
+  def cube_number(x):
+        return x**3
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
