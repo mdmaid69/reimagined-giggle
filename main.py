@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  def sort_list(lst):
-        return sorted(lst)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
