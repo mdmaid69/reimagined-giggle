@@ -1,5 +1,5 @@
+import sys
+print(sys.version)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def subtract_numbers(x, y):
-        return x - y
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
