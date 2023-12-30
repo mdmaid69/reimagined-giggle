@@ -1,8 +1,12 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
