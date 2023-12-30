@@ -1,9 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
