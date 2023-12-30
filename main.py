@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import collections
-def create_counter():
-        return collections.Counter()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
