@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
