@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
