@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
