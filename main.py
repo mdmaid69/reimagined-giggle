@@ -1,6 +1,7 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
