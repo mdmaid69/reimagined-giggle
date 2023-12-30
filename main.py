@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_area(radius):
+        return 3.14 * radius * radius
