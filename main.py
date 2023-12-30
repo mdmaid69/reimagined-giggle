@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
