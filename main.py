@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
