@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
