@@ -1,7 +1,10 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+x = 10
+y = 20
+print("Sum:", x + y)
