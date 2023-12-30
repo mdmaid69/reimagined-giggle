@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+x = 10
+y = 20
+print("Sum:", x + y)
