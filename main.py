@@ -1,6 +1,8 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
