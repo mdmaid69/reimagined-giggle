@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_power(work, time):
+        return work / time
