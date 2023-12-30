@@ -1,5 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def add_numbers(x, y):
+        return x + y
