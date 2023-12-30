@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
