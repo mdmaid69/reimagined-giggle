@@ -1,5 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
