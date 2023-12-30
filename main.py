@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
