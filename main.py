@@ -1,5 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
