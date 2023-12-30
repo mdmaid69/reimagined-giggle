@@ -1,6 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import tensorflow as tf
+print(tf.__version__)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
