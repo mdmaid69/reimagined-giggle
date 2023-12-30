@@ -1,6 +1,5 @@
 import collections
-def create_counter():
-        return collections.Counter()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def create_user_dict():
+        return collections.UserDict()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
