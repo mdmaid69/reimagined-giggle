@@ -1,5 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def reverse_array(array):
+        array.reverse()
