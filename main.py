@@ -1,6 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
