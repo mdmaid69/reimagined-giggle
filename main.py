@@ -1,5 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
