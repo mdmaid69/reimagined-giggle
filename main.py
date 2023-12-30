@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
