@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_str(array):
+        return str(array)
