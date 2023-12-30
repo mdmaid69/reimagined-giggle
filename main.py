@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  def remove_duplicates(lst):
+        return list(set(lst))
