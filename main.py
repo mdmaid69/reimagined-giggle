@@ -1,7 +1,6 @@
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_factorial(n):
+        return math.factorial(n)
