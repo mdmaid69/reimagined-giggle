@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
