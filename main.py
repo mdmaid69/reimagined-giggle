@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  def reverse_list(lst):
+        return lst[::-1]
