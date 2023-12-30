@@ -1,4 +1,7 @@
-def count_elements(lst):
-        return len(lst)
-def greet(name):
-        print(f"Hello, {name}!")
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
