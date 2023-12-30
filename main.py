@@ -1,8 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
