@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
