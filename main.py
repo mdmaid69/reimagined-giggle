@@ -1,5 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
