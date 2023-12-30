@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def multiply_numbers(x, y):
+        return x * y
