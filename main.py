@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
