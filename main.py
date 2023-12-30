@@ -1,8 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def get_array_as_repr(array):
+        return repr(array)
