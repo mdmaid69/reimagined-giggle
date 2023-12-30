@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def convert_to_octal(n):
+        return oct(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
