@@ -1,4 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-print([x**2 for x in range(10)])
+  def split_path(path):
+        return os.path.split(path)
+def add_numbers(a, b):
+        return a + b
