@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import sys
-def exit_program():
-        sys.exit()
+import array
+def clear_array(array):
+        array *= 0
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
