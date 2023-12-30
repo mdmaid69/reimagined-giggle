@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import random
+print(random.randint(0, 100))
+def count_words(sentence):
+        return len(sentence.split())
