@@ -1,5 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def remove_duplicates(lst):
+  def remove_duplicates(lst):
         return list(set(lst))
+import array
+def get_array_itemsize(array):
+        return array.itemsize
