@@ -1,5 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def find_min(numbers):
-        return min(numbers)
+from collections import Counter
+print(Counter("hello world"))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
