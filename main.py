@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
