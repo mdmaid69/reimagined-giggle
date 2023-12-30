@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+text = "Hello, world!"
+print("Uppercase:", text.upper())
