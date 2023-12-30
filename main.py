@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
