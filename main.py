@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
