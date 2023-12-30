@@ -1,6 +1,7 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
