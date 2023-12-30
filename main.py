@@ -1,5 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import collections
+def create_priority_queue():
+        return collections.deque()
