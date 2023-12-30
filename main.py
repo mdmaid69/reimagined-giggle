@@ -1,6 +1,8 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
