@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
