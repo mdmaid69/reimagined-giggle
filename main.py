@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_typecode(array):
+        return array.typecode
