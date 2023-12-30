@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_work(force, distance):
+        return force * distance
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
