@@ -1,5 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_acceleration(speed, time):
+        return speed / time
+from collections import Counter
+print(Counter("hello world"))
