@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def find_min(numbers):
+        return min(numbers)
