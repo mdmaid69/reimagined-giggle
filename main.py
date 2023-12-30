@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
