@@ -1,7 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
