@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import random
+def roll_die():
+        return random.randint(1, 6)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
