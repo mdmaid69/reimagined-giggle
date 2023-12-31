@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def square_number(x):
+        return x**2
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
