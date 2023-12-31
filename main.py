@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  def convert_to_octal(n):
-        return oct(n)
+  import sys
+  def get_python_version():
+        return sys.version
+def reverse_list(lst):
+        return lst[::-1]
