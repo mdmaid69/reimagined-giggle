@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def append_to_array(array, item):
+        array.append(item)
