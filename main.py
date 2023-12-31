@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
