@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_area(radius):
+        return 3.14 * radius * radius
