@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
