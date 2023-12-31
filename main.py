@@ -1,8 +1,9 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+def calculate_speed(distance, time):
+        return distance / time
