@@ -1,6 +1,7 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
