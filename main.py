@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
