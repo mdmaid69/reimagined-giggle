@@ -1,6 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def convert_array_to_bytes(array):
+        return array.tobytes()
