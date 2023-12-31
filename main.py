@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
