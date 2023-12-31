@@ -1,5 +1,6 @@
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def split_path(path):
-        return os.path.split(path)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
