@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
