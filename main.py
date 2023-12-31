@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def add_numbers(x, y):
+        return x + y
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
