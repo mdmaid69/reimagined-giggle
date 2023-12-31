@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
