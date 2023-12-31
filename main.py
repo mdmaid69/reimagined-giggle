@@ -1,5 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
