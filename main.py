@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
