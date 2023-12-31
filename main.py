@@ -1,6 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
