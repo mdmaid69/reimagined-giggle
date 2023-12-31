@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def convert_to_binary(n):
+        return bin(n)
