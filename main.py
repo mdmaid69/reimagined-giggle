@@ -1,7 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  def cube_number(x):
+        return x**3
