@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def sort_numbers(numbers):
-        return sorted(numbers)
+import sys
+print(sys.version)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
