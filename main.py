@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def square_number(x):
+        return x**2
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
