@@ -1,6 +1,8 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
