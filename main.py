@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def count_elements(lst):
+        return len(lst)
