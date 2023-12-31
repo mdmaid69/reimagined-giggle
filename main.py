@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  def calculate_area_rectangle(l, w):
+        return l * w
