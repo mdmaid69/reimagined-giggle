@@ -1,6 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def convert_to_hex(n):
+        return hex(n)
+  def square_number(x):
+        return x**2
