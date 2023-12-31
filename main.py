@@ -1,7 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
