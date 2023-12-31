@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
