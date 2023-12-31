@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_speed(distance, time):
+        return distance / time
