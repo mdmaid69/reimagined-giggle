@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
