@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
