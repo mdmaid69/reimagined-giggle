@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import getpass
+def get_username():
+        return getpass.getuser()
   import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def calculate_variance(arr):
+        return np.var(arr)
