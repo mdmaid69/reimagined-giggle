@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
