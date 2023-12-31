@@ -1,6 +1,7 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
