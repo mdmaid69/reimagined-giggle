@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_pressure(force, area):
-        return force / area
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
