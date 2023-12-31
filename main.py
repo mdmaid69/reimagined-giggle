@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import datetime
-print(datetime.datetime.now())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
