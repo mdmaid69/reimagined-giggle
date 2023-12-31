@@ -1,5 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
