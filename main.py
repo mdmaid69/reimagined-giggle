@@ -1,5 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+print([x**2 for x in range(10)])
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
