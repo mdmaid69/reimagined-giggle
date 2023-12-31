@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def append_to_array(array, item):
+        array.append(item)
