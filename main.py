@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_stack():
+        return collections.deque()
