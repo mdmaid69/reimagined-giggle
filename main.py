@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
