@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
