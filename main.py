@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
