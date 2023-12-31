@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import platform
-def get_python_version():
-        return platform.python_version()
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
