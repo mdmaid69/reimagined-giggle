@@ -1,4 +1,8 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
