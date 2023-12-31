@@ -1,8 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
