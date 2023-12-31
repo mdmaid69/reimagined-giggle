@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
