@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
