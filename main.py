@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+print(math.pi)
