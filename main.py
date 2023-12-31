@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_pressure(force, area):
+        return force / area
