@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
