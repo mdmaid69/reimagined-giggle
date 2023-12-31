@@ -1,4 +1,7 @@
-from collections import Counter
-print(Counter("hello world"))
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
