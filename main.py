@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import random
+print(random.randint(0, 100))
