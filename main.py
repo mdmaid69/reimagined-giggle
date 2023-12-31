@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
