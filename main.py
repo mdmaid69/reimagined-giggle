@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import collections
+def create_stack():
+        return collections.deque()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
