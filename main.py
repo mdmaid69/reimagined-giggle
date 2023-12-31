@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
