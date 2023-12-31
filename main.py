@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def sort_numbers(numbers):
-        return sorted(numbers)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
