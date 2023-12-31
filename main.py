@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def set_array_item(array, i, item):
+        array[i] = item
