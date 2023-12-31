@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  def cube_number(x):
-        return x**3
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
