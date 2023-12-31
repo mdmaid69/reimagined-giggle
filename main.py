@@ -1,6 +1,6 @@
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import array
-def get_array_as_list(array):
-        return list(array)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
