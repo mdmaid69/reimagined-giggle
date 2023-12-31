@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_work(force, distance):
+        return force * distance
