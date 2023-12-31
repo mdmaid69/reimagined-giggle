@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def cube_number(x):
-        return x**3
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
