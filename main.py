@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
