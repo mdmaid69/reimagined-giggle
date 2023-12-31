@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
