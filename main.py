@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
