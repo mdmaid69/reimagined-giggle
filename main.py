@@ -1,6 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
