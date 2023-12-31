@@ -1,6 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
