@@ -1,6 +1,4 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def find_min(numbers):
+        return min(numbers)
+import numpy as np
+print(np.array([1, 2, 3]))
