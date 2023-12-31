@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
