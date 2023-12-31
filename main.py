@@ -1,7 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
