@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import tensorflow as tf
+print(tf.__version__)
