@@ -1,5 +1,6 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def greet(name):
-        print(f"Hello, {name}!")
+def convert_array_to_string(array):
+        return array.tostring()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
