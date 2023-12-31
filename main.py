@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-name = "Python"
-print("Hello,", name)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
