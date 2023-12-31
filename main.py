@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def find_min(lst):
+        return min(lst)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
