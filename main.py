@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
