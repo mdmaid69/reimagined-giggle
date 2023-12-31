@@ -1,5 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
