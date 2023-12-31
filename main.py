@@ -1,4 +1,12 @@
-  def convert_to_hex(n):
-        return hex(n)
-import tensorflow as tf
-print(tf.__version__)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
