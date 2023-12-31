@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
