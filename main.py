@@ -1,7 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import collections
+def create_priority_queue():
+        return collections.deque()
