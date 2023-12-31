@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import collections
-def create_counter():
-        return collections.Counter()
+def subtract_numbers(x, y):
+        return x - y
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
