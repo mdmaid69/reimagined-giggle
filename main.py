@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
