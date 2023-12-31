@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
