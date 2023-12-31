@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import sys
+  def get_python_version():
+        return sys.version
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
