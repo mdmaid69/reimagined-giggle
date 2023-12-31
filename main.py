@@ -1,5 +1,6 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
