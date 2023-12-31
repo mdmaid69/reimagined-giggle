@@ -1,7 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
