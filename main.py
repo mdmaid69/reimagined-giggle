@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def count_elements(lst):
+        return len(lst)
