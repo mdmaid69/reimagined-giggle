@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def is_palindrome(s):
+        return s == s[::-1]
