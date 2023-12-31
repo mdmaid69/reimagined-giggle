@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import tensorflow as tf
+print(tf.__version__)
