@@ -1,3 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-print(sum(range(10)))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_pressure(force, area):
+        return force / area
