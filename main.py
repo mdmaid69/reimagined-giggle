@@ -1,7 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
