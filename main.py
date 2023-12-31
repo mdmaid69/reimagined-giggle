@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_pressure(force, area):
-        return force / area
+  def count_elements(lst):
+        return len(lst)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
