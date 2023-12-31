@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def add_numbers(a, b):
-        return a + b
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
