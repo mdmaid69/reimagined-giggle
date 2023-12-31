@@ -1,6 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+print([x**2 for x in range(10)])
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
