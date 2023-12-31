@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def reverse_array(array):
-        array.reverse()
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
