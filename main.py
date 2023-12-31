@@ -1,5 +1,8 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
