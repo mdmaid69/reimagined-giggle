@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
