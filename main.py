@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  def square_number(x):
-        return x**2
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
