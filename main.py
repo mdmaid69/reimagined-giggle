@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import array
+def get_array_as_set(array):
+        return set(array)
+import time
+def get_time_since_epoch():
+        return time.time()
