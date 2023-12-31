@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def get_array_typecode(array):
+        return array.typecode
+text = "Hello, world!"
+print("Characters:", len(text))
