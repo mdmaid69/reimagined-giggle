@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
