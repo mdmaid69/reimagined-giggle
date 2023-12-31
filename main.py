@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
