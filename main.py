@@ -1,6 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
