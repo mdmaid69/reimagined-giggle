@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def convert_to_hex(n):
-        return hex(n)
+def find_min(lst):
+        return min(lst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
