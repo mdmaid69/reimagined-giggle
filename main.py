@@ -1,4 +1,8 @@
-  def convert_to_octal(n):
-        return oct(n)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def get_array_as_str(array):
+        return str(array)
