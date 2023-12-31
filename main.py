@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import sys
+def exit_program():
+        sys.exit()
+def calculate_speed(distance, time):
+        return distance / time
