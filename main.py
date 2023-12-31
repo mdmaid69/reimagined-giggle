@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def convert_to_hex(n):
+        return hex(n)
