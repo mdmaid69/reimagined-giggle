@@ -1,5 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
