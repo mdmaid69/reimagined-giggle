@@ -1,5 +1,9 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
