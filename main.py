@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
