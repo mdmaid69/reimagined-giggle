@@ -1,5 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
