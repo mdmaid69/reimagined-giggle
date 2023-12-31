@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+from collections import Counter
+print(Counter("hello world"))
