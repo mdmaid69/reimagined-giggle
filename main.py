@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import re
-print(re.match("h.*o", "hello world"))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_power(work, time):
+        return work / time
