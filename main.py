@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def remove_from_array(array, item):
+        array.remove(item)
