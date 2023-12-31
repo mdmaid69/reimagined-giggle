@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
