@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def count_characters(sentence):
+        return len(sentence)
