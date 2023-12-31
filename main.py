@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
