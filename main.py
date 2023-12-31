@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def is_odd(n):
-        return n % 2 != 0
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
