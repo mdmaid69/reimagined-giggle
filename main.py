@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_density(mass, volume):
+        return mass / volume
