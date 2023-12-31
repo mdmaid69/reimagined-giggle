@@ -1,7 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
