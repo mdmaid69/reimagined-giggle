@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import collections
-def create_user_list():
-        return collections.UserList()
+def add_numbers(a, b):
+        return a + b
+  def remove_duplicates(lst):
+        return list(set(lst))
