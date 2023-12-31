@@ -1,5 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def convert_to_octal(n):
+        return oct(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
