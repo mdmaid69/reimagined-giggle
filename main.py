@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
