@@ -1,6 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
