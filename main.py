@@ -1,8 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
