@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+from collections import Counter
+print(Counter("hello world"))
