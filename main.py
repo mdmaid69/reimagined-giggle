@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_power(work, time):
+        return work / time
+import random
+def roll_die():
+        return random.randint(1, 6)
