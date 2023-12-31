@@ -1,8 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
