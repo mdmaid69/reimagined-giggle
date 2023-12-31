@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
