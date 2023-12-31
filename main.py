@@ -1,7 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
