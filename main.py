@@ -1,5 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+print([x**2 for x in range(10)])
