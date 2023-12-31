@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
