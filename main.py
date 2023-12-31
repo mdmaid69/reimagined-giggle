@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
