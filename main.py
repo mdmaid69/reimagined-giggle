@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
