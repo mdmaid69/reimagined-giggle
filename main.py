@@ -1,5 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def convert_to_octal(n):
+        return oct(n)
+text = "Hello, world!"
+print("Characters:", len(text))
