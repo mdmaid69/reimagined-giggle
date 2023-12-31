@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def find_min(lst):
+        return min(lst)
