@@ -1,6 +1,4 @@
 import collections
-def create_queue():
-        return collections.deque()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def create_user_dict():
+        return collections.UserDict()
+print([x**2 for x in range(10)])
