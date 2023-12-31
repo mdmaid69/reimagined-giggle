@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
