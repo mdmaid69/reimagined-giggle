@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def is_odd(n):
+        return n % 2 != 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
