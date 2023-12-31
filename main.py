@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
