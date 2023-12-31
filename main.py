@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+for i in range(5):
+        print(i)
