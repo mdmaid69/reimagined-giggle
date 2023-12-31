@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def split_path(path):
+        return os.path.split(path)
