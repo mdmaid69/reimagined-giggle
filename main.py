@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
