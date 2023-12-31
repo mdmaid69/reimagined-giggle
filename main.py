@@ -1,6 +1,8 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
