@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def divide_numbers(x, y):
+        return x / y
