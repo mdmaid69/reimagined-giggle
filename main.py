@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
