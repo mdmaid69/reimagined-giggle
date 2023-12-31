@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
