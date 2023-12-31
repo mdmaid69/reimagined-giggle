@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import sys
+def print_python_version():
+        print(sys.version)
