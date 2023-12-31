@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
