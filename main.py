@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import time
+def get_current_time():
+        return time.time()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
