@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
