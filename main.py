@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_work(force, distance):
+        return force * distance
