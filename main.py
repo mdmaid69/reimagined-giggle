@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
