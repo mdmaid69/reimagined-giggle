@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  def count_elements(lst):
+        return len(lst)
