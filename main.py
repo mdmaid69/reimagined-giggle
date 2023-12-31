@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
