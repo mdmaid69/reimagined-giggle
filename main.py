@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def reverse_array(array):
-        array.reverse()
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
