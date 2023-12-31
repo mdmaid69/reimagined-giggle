@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
