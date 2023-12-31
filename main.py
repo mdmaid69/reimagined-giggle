@@ -1,6 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
