@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import collections
+def create_counter():
+        return collections.Counter()
