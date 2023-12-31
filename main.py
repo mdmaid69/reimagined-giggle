@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
