@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def find_min(numbers):
+        return min(numbers)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
