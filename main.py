@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import collections
-def create_user_list():
-        return collections.UserList()
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_int(array):
+        return int(array[0])
