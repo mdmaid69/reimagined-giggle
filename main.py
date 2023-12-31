@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
