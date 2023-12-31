@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
