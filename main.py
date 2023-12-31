@@ -1,8 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
