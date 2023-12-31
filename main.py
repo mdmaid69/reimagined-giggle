@@ -1,4 +1,8 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
