@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
