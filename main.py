@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
