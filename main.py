@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def square_number(x):
+        return x**2
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
