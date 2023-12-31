@@ -1,6 +1,8 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_as_int(array):
+        return int(array[0])
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
