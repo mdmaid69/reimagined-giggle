@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
