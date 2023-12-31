@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import sys
+def print_python_version():
+        print(sys.version)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
