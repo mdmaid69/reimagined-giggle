@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
