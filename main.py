@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def convert_to_binary(n):
+        return bin(n)
+def calculate_area_rectangle(l, w):
+        return l * w
