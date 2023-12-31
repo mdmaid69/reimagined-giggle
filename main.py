@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
