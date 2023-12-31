@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-print(math.pi)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
