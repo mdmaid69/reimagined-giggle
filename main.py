@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_as_list(array):
+        return list(array)
