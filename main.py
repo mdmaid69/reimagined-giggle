@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import collections
+def create_stack():
+        return collections.deque()
