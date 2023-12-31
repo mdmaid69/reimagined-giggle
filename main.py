@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_current_directory():
+        return os.getcwd()
