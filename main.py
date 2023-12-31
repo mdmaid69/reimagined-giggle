@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import re
+print(re.match("h.*o", "hello world"))
+def is_odd(n):
+        return n % 2 != 0
