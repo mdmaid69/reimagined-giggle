@@ -1,6 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
