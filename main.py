@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def append_to_array(array, item):
+        array.append(item)
