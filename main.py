@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
