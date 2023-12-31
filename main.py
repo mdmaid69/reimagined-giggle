@@ -1,8 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def calculate_acceleration(speed, time):
-        return speed / time
+  def multiply_numbers(x, y):
+        return x * y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
