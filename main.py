@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def add_numbers(x, y):
+        return x + y
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
