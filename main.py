@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
