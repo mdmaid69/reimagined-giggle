@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_length(array):
-        return len(array)
+  import sys
+  def get_python_version():
+        return sys.version
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
