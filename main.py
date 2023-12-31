@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
