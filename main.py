@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_power(work, time):
-        return work / time
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
