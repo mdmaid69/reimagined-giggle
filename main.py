@@ -1,5 +1,5 @@
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
