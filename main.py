@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
