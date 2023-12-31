@@ -1,5 +1,8 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
