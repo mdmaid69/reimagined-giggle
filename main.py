@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
