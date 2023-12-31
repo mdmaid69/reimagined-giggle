@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
+  def multiply_numbers(x, y):
+        return x * y
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_list_from_array(array):
+        return array.tolist()
