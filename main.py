@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def append_to_array(array, item):
+        array.append(item)
