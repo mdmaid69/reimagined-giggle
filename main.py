@@ -1,7 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
