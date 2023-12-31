@@ -1,6 +1,9 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import collections
+def create_user_dict():
+        return collections.UserDict()
