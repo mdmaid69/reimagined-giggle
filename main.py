@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import platform
+def get_python_version():
+        return platform.python_version()
