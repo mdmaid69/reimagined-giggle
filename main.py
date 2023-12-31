@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
