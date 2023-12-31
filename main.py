@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_speed(distance, time):
+        return distance / time
