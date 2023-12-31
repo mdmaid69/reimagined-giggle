@@ -1,5 +1,5 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import sys
-print(sys.version)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_power(work, time):
+        return work / time
