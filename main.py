@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import collections
+def create_user_dict():
+        return collections.UserDict()
