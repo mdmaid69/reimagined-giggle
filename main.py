@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def calculate_area_rectangle(l, w):
-        return l * w
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
