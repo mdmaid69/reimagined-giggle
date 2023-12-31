@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def is_palindrome(s):
-        return s == s[::-1]
+def add_numbers(x, y):
+        return x + y
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
