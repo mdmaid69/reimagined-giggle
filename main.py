@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
