@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
