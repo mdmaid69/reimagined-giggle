@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import json
-def convert_to_json(data):
-        return json.dumps(data)
+def read_from_json(json_string):
+        return json.loads(json_string)
