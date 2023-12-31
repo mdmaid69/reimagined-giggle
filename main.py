@@ -1,4 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def is_odd(n):
+        return n % 2 != 0
