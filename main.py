@@ -1,4 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_speed(distance, time):
+        return distance / time
+def convert_to_octal(n):
+        return oct(n)
