@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
