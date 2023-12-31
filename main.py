@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
