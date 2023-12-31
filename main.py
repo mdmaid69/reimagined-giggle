@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def clear_array(array):
+        array *= 0
