@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
