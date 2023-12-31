@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_array_as_bool(array):
+        return bool(array)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
