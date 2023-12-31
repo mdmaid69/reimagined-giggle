@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
