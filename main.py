@@ -1,5 +1,11 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
