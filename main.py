@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_length(array):
+        return len(array)
