@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def find_min(lst):
-        return min(lst)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
