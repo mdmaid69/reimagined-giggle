@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
