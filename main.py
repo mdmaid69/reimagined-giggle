@@ -1,5 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import sys
-print(sys.version)
+def calculate_work(force, distance):
+        return force * distance
+import json
+print(json.dumps({"name": "John", "age": 30}))
