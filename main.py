@@ -1,4 +1,6 @@
-print("Hello, world!")
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
