@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import time
+def get_time_since_epoch():
+        return time.time()
