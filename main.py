@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
