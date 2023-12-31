@@ -1,7 +1,5 @@
 import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
