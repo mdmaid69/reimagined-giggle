@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
