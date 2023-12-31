@@ -1,6 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
