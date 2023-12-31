@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
