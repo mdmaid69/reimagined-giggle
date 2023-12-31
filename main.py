@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def square_number(x):
-        return x**2
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
