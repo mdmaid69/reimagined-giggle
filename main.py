@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+print(sum(range(10)))
+import datetime
+def get_today_date():
+        return datetime.date.today()
