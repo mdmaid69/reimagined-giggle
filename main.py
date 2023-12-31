@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_array_as_list(array):
+        return list(array)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
