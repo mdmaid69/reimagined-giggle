@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
