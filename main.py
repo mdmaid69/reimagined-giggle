@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-def multiply_numbers(x, y):
-        return x * y
+for i in range(5):
+        print(i)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
