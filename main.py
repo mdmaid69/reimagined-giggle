@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import sys
+def print_python_version():
+        return sys.version
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
