@@ -1,5 +1,8 @@
-def find_min(lst):
-        return min(lst)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
