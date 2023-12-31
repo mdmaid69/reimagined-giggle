@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_as_int(array):
+        return int(array[0])
