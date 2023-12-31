@@ -1,6 +1,6 @@
   import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
   def get_file_uid(file_name):
         return os.stat(file_name).st_uid
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
