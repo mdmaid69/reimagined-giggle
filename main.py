@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_base_name(path):
+        return os.path.basename(path)
