@@ -1,5 +1,7 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import re
+print(re.match("h.*o", "hello world"))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
