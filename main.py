@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
