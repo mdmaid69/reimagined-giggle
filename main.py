@@ -1,8 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
