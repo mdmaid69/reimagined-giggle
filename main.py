@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
