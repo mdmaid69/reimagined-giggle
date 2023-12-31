@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
