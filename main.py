@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import logging
+def log_message(message):
+        logging.info(message)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
