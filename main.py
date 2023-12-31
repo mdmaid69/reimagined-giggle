@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import getpass
-def get_username():
-        return getpass.getuser()
+def add_numbers(a, b):
+        return a + b
+def calculate_power(work, time):
+        return work / time
