@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def exit_program():
+        sys.exit()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
