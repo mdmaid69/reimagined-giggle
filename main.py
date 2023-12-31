@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_power(work, time):
+        return work / time
