@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
