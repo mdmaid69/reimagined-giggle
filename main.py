@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_exponential(x):
+        return math.exp(x)
+import platform
+def get_os_info():
+        return platform.uname()
