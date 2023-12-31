@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
