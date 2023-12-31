@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
