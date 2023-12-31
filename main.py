@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
