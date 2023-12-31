@@ -1,7 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def reverse_string(s):
+        return s[::-1]
+def find_max(numbers):
+        return max(numbers)
