@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_array_item(array, i):
+        return array[i]
