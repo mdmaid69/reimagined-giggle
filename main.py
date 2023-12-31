@@ -1,6 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
