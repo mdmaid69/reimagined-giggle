@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
