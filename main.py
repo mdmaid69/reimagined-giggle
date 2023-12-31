@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
