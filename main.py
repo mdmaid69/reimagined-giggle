@@ -1,5 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def clear_array(array):
+        array *= 0
