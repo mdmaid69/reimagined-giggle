@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def multiply_numbers(x, y):
+        return x * y
