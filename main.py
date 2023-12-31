@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import sys
-def print_python_version():
-        print(sys.version)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
