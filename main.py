@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
