@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
