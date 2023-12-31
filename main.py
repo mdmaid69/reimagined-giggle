@@ -1,4 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-print([x**2 for x in range(10)])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
