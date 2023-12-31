@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def convert_to_hex(n):
-        return hex(n)
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
