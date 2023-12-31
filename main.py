@@ -1,6 +1,6 @@
+import math
+def calculate_tangent(x):
+        return math.tan(x)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
