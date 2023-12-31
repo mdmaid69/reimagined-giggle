@@ -1,6 +1,5 @@
+def cube_number(x):
+        return x**3
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
