@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
