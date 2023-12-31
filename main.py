@@ -1,6 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def get_array_as_str(array):
+        return str(array)
+import tensorflow as tf
+print(tf.__version__)
