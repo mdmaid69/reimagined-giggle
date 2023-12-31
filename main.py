@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
