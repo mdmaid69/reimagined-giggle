@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_factorial(n):
+        return math.factorial(n)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
