@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
