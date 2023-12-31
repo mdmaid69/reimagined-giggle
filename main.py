@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
