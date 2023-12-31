@@ -1,8 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def set_array_item(array, i, item):
+        array[i] = item
