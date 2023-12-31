@@ -1,6 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
