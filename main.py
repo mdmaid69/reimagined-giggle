@@ -1,6 +1,7 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def calculate_area_circle(r):
+        return 3.14 * r**2
