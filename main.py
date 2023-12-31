@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
