@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
