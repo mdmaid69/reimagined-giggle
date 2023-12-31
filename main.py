@@ -1,5 +1,5 @@
+import os
+print(os.getcwd())
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
