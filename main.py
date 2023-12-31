@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def find_max(lst):
-        return max(lst)
+import random
+def roll_die():
+        return random.randint(1, 6)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
