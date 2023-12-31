@@ -1,6 +1,11 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
