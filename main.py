@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
