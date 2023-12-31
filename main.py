@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
