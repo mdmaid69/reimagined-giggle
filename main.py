@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
