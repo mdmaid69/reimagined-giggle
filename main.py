@@ -1,5 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import time
+print(time.time())
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
