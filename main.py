@@ -1,5 +1,8 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import time
-def get_time_since_epoch():
-        return time.time()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
