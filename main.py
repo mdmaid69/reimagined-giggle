@@ -1,5 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-import collections
-def create_user_string():
-        return collections.UserString()
+print(sum(range(10)))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
