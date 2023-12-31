@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
