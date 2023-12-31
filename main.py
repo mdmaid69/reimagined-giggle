@@ -1,6 +1,12 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
