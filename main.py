@@ -1,5 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_work(force, distance):
+        return force * distance
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
