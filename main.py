@@ -1,12 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
