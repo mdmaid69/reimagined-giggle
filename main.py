@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
