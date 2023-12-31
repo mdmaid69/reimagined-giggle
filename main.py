@@ -1,9 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
