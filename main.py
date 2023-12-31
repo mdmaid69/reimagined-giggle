@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_power(work, time):
+        return work / time
+def convert_to_binary(n):
+        return bin(n)
