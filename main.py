@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import sys
+def print_python_version():
+        print(sys.version)
