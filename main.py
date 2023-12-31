@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
