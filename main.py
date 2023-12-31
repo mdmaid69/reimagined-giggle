@@ -1,5 +1,5 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-  def add_numbers(x, y):
-        return x + y
+def get_array_slice(array, i, j):
+        return array[i:j]
+def find_max(lst):
+        return max(lst)
