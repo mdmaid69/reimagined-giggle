@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
