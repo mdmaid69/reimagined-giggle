@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
