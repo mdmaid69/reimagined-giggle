@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def reverse_string(s):
+        return s[::-1]
+def convert_to_hex(n):
+        return hex(n)
