@@ -1,9 +1,7 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def get_array_as_int(array):
+        return int(array[0])
