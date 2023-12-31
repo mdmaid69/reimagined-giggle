@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
