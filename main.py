@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
