@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def sort_list(lst):
+        return sorted(lst)
