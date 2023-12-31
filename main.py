@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
