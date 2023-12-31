@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  def sort_list(lst):
-        return sorted(lst)
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
