@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
+import tensorflow as tf
+print(tf.__version__)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
