@@ -1,5 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def get_array_as_bool(array):
+        return bool(array)
