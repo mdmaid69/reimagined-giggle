@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import logging
+def log_message(message):
+        logging.info(message)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
