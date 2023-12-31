@@ -1,5 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def convert_to_octal(n):
+        return oct(n)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
