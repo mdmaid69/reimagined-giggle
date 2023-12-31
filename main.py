@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import sys
-print(sys.version)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  def square_number(x):
+        return x**2
