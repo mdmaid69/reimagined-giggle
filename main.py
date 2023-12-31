@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import os
+print(os.getcwd())
