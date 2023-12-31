@@ -1,8 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
