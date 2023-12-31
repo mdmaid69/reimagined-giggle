@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_as_list(array):
-        return list(array)
+import sys
+print(sys.version)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
