@@ -1,6 +1,7 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def greet(name):
+        print(f"Hello, {name}!")
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
