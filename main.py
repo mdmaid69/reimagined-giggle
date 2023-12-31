@@ -1,5 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
