@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_length(array):
+        return len(array)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
