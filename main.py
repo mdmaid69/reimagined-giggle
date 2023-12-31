@@ -1,6 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
