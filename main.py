@@ -1,6 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
