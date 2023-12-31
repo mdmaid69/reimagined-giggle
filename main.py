@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
