@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
