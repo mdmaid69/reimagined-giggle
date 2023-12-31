@@ -1,6 +1,9 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
