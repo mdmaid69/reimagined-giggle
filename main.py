@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def cube_number(x):
-        return x**3
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def subtract_numbers(x, y):
+        return x - y
