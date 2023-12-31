@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def reverse_array(array):
+        array.reverse()
+def square_number(x):
+        return x**2
