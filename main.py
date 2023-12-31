@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
