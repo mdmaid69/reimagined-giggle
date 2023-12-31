@@ -1,8 +1,8 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import os
+def change_working_directory(path):
+        os.chdir(path)
