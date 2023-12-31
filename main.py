@@ -1,5 +1,8 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def cube_number(x):
-        return x**3
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
