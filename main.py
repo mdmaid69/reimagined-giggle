@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def reverse_list(lst):
-        return lst[::-1]
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
