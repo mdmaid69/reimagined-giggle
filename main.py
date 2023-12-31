@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
