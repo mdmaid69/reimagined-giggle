@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def get_array_as_int(array):
-        return int(array[0])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  def add_numbers(x, y):
+        return x + y
