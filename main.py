@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
