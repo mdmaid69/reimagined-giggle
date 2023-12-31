@@ -1,8 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
