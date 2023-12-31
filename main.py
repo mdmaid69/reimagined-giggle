@@ -1,5 +1,4 @@
-def square_number(x):
-        return x**2
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  def is_even(n):
+        return n % 2 == 0
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
