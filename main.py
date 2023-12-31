@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def remove_from_array(array, item):
+        array.remove(item)
