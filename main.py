@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
