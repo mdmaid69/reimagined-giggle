@@ -1,4 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-print("Hello, world!")
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
