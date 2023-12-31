@@ -1,7 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import platform
+def get_os_info():
+        return platform.uname()
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
