@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
