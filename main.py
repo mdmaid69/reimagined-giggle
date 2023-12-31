@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
