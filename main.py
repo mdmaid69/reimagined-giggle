@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
