@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
