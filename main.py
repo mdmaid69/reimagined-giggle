@@ -1,8 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
