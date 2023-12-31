@@ -1,5 +1,5 @@
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
