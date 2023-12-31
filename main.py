@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import sys
+def exit_program():
+        sys.exit()
