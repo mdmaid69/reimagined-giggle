@@ -1,5 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_current_directory():
-        return os.getcwd()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
