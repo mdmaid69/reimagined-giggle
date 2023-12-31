@@ -1,8 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
