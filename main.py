@@ -1,8 +1,6 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def get_array_as_complex(array):
+        return complex(array[0])
