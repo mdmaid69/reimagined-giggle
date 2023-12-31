@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
