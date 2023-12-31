@@ -1,5 +1,3 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import sys
-def print_python_version():
-        return sys.version
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+print([x**2 for x in range(10)])
