@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
