@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
