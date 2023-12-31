@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_power(work, time):
+        return work / time
