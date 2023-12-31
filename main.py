@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import collections
+def create_user_list():
+        return collections.UserList()
