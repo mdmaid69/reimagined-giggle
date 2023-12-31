@@ -1,6 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
