@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_sine(x):
+        return math.sin(x)
