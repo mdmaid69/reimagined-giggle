@@ -1,5 +1,7 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
