@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
