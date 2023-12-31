@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
