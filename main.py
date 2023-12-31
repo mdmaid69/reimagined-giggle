@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_as_float(array):
+        return float(array[0])
