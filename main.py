@@ -1,5 +1,8 @@
-import sys
-def exit_program():
-        sys.exit()
-def convert_to_hex(n):
-        return hex(n)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
