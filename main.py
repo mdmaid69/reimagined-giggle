@@ -1,5 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
