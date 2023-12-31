@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_tuple(array):
+        return tuple(array)
