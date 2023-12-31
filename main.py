@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_power(work, time):
+        return work / time
