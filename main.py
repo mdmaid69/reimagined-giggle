@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def add_numbers(x, y):
-        return x + y
+import array
+def get_array_item(array, i):
+        return array[i]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
