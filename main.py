@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def convert_to_hex(n):
+        return hex(n)
+import os
+print(os.getcwd())
