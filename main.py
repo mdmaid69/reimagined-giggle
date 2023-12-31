@@ -1,8 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
