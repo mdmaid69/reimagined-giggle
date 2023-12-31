@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+print([x**2 for x in range(10)])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
