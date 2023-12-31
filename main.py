@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def square_number(x):
+        return x**2
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
