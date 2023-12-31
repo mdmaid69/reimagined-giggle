@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def split_path(path):
+        return os.path.split(path)
