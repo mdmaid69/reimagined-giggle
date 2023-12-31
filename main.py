@@ -1,7 +1,4 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+print(sum(range(10)))
