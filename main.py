@@ -1,4 +1,4 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  def is_even(n):
-        return n % 2 == 0
+def cube_number(x):
+        return x**3
+def sort_list(lst):
+        return sorted(lst)
