@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
