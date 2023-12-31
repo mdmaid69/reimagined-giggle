@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
