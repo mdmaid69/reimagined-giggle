@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
