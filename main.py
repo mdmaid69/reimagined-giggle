@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
