@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import random
+print(random.randint(0, 100))
