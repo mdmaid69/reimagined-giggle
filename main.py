@@ -1,6 +1,7 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def get_array_length(array):
+        return len(array)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
