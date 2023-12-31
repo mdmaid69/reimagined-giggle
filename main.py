@@ -1,5 +1,7 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
