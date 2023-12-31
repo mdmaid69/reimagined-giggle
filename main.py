@@ -1,6 +1,5 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
