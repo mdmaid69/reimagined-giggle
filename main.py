@@ -1,5 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+print([x**2 for x in range(10)])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
