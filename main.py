@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
