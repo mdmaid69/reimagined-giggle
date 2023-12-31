@@ -1,6 +1,10 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
