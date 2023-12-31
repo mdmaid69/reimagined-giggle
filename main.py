@@ -1,7 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
