@@ -1,8 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def greet(name):
+        print(f"Hello, {name}!")
+import sys
+def print_python_version():
+        return sys.version
