@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
 def calculate_force(mass, acceleration):
         return mass * acceleration
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
