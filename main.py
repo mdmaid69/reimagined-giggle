@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def reverse_array(array):
+        array.reverse()
