@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
