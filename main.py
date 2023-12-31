@@ -1,6 +1,8 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import sys
-  def get_python_version():
-        return sys.version
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
