@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
