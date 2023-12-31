@@ -1,5 +1,6 @@
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-print(math.pi)
+def get_array_length(array):
+        return len(array)
