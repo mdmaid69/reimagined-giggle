@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
