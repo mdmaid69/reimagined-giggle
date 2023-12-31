@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_area_rectangle(l, w):
+        return l * w
+def convert_to_octal(n):
+        return oct(n)
