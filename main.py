@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
