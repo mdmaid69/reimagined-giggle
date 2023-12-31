@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
