@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_error_function(x):
+        return math.erf(x)
