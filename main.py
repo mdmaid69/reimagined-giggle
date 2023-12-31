@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
