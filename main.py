@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
