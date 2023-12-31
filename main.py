@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-for i in range(5):
-        print(i)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
