@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
