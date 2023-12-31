@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def get_string_from_array(array):
+        return array.tobytes()
