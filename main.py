@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import random
+print(random.randint(0, 100))
