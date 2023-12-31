@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
