@@ -1,11 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
