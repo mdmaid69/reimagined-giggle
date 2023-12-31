@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import logging
+def log_message(message):
+        logging.info(message)
