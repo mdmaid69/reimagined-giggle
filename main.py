@@ -1,8 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
