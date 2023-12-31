@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import collections
-def create_user_string():
-        return collections.UserString()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def reverse_list(lst):
+        return lst[::-1]
