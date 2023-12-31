@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
