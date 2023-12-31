@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  def cube_number(x):
-        return x**3
+import time
+def get_current_time():
+        return time.time()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
