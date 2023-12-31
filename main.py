@@ -1,5 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import collections
+def create_user_list():
+        return collections.UserList()
