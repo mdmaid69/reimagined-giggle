@@ -1,4 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-def convert_to_hex(n):
-        return hex(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+text = "Hello, world!"
+print("Words:", len(text.split()))
