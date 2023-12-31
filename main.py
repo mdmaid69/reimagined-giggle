@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
