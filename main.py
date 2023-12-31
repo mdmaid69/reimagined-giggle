@@ -1,7 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
