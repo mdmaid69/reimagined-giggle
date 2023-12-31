@@ -1,7 +1,8 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
