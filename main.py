@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import logging
+def log_message(message):
+        logging.info(message)
+def remove_duplicates(lst):
+        return list(set(lst))
