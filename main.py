@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def is_even(n):
+        return n % 2 == 0
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
