@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
