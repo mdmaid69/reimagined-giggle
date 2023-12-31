@@ -1,5 +1,8 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
