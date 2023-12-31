@@ -1,6 +1,12 @@
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
