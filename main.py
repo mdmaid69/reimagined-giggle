@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
