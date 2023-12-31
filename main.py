@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
