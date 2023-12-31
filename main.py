@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
