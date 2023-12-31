@@ -1,5 +1,7 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+i = 0
+while i < 5:
+        print(i)
+        i += 1
