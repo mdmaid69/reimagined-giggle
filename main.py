@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
