@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def convert_to_hex(n):
+        return hex(n)
