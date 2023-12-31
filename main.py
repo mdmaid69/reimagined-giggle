@@ -1,6 +1,4 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
