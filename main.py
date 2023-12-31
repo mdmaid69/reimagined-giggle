@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
