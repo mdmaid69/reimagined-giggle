@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
