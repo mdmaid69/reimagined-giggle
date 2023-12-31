@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_length(array):
+        return len(array)
