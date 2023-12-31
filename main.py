@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
