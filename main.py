@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_user_string():
+        return collections.UserString()
+import array
+def get_array_as_float(array):
+        return float(array[0])
