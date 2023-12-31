@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import time
+def get_time_since_epoch():
+        return time.time()
+import random
+def roll_die():
+        return random.randint(1, 6)
