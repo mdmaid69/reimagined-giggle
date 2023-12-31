@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_as_int(array):
+        return int(array[0])
