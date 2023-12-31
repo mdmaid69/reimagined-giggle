@@ -1,7 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
