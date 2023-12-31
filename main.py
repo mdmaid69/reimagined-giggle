@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import os
+def remove_directory(path):
+        os.rmdir(path)
