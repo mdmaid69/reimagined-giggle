@@ -1,8 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def reverse_string(s):
+        return s[::-1]
