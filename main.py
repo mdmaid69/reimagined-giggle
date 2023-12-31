@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import time
-def get_time_since_epoch():
-        return time.time()
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
