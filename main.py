@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
