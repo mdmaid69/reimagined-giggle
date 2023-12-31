@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
