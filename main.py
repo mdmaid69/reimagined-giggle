@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  def sort_list(lst):
-        return sorted(lst)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
