@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def count_words(sentence):
-        return len(sentence.split())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
