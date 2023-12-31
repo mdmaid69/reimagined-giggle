@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def convert_to_binary(n):
+        return bin(n)
