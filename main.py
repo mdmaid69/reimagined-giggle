@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
