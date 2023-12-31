@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
