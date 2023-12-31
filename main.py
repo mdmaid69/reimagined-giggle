@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import datetime
+print(datetime.datetime.now())
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
