@@ -1,6 +1,6 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def get_array_item(array, i):
+        return array[i]
+import datetime
+def get_today_date():
+        return datetime.date.today()
