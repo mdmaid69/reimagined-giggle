@@ -1,5 +1,8 @@
-def count_characters(sentence):
-        return len(sentence)
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
