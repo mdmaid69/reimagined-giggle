@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
