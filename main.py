@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import datetime
+print(datetime.datetime.now())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
