@@ -1,4 +1,10 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_acceleration(speed, time):
-        return speed / time
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
