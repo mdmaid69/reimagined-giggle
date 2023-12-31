@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
