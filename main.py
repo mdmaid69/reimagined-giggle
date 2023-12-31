@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_user_list():
+        return collections.UserList()
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
