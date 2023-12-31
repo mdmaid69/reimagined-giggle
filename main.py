@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
