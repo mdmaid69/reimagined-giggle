@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
