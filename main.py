@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def count_elements(lst):
+        return len(lst)
+import json
+print(json.dumps({"name": "John", "age": 30}))
