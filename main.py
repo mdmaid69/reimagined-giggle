@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def calculate_speed(distance, time):
+        return distance / time
