@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
