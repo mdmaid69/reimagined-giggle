@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_list_from_array(array):
+        return array.tolist()
