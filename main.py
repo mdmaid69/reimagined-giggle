@@ -1,6 +1,6 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
