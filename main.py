@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_item(array, i):
-        return array[i]
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
