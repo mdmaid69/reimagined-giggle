@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
