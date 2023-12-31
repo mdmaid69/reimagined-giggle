@@ -1,6 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import array
+def reverse_array(array):
+        array.reverse()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
