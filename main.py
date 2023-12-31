@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
