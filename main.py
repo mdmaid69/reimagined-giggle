@@ -1,7 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+from collections import Counter
+print(Counter("hello world"))
