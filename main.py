@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  def add_numbers(x, y):
+        return x + y
