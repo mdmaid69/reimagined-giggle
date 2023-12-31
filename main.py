@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
