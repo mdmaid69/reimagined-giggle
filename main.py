@@ -1,8 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
