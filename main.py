@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
