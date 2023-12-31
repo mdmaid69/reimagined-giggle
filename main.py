@@ -1,5 +1,7 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def is_odd(n):
-        return n % 2 != 0
+import array
+def append_to_array(array, item):
+        array.append(item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
