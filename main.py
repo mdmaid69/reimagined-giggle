@@ -1,7 +1,12 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
