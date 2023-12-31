@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
