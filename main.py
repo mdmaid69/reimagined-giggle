@@ -1,5 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
