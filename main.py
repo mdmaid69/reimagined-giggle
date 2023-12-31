@@ -1,5 +1,9 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
