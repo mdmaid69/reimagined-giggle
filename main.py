@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_array_as_str(array):
+        return str(array)
