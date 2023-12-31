@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
