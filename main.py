@@ -1,6 +1,8 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
