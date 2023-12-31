@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
