@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
