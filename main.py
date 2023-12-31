@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+for i in range(5):
+        print(i)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
