@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_item(array, i):
-        return array[i]
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
