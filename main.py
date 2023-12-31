@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
