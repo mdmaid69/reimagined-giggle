@@ -1,5 +1,9 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def find_unique_words(sentence):
+        return set(sentence.split())
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
