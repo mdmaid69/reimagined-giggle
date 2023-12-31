@@ -1,6 +1,6 @@
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def convert_to_octal(n):
-        return oct(n)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
