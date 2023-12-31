@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
