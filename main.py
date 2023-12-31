@@ -1,5 +1,6 @@
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def check_if_array_contains_item(array, item):
+        return item in array
