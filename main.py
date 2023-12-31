@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
