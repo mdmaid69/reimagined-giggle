@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
