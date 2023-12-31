@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-def subtract_numbers(x, y):
-        return x - y
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
