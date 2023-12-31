@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def cube_number(x):
-        return x**3
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
