@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def is_even(n):
+        return n % 2 == 0
+def count_words(sentence):
+        return len(sentence.split())
