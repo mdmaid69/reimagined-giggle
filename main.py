@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
