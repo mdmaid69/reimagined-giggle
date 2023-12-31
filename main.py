@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-for i in range(5):
-        print(i)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import sys
+def exit_program():
+        sys.exit()
