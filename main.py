@@ -1,5 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def multiply_numbers(x, y):
-        return x * y
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
