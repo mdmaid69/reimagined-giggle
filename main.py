@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def reverse_string(s):
+        return s[::-1]
