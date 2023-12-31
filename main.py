@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
