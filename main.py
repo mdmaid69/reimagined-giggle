@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
