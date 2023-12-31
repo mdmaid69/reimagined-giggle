@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
