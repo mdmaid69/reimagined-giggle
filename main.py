@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-import datetime
-print(datetime.datetime.now())
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
