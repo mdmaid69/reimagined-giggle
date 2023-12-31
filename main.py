@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
