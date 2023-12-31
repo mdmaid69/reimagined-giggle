@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import collections
+def create_user_string():
+        return collections.UserString()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
