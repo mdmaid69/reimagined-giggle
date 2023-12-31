@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
