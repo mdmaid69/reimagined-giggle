@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
