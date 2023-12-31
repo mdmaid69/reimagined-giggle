@@ -1,4 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_acceleration(speed, time):
-        return speed / time
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
