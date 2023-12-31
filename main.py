@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
