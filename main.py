@@ -1,5 +1,4 @@
-import os
-print(os.getcwd())
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def square_number(x):
+        return x**2
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
