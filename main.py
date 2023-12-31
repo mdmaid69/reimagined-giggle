@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
