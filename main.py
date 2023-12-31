@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def cube_number(x):
+        return x**3
+  def calculate_area_rectangle(l, w):
+        return l * w
