@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
