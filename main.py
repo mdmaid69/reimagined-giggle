@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
