@@ -1,7 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
