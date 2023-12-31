@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
