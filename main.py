@@ -1,7 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import platform
+def get_os_info():
+        return platform.uname()
