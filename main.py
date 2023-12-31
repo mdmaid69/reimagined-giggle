@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def get_array_index(array, item):
+        return array.index(item)
