@@ -1,5 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  def reverse_list(lst):
-        return lst[::-1]
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
