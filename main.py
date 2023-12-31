@@ -1,6 +1,5 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def add_numbers(x, y):
+        return x + y
