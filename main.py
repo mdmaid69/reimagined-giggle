@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def find_max(lst):
-        return max(lst)
+import numpy as np
+print(np.array([1, 2, 3]))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
