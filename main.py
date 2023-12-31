@@ -1,4 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
