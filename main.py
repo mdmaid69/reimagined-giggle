@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
