@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
