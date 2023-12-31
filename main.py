@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import sys
-print(sys.version)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def get_array_item(array, i):
+        return array[i]
