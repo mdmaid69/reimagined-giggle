@@ -1,4 +1,7 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import numpy as np
-print(np.array([1, 2, 3]))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
