@@ -1,6 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
