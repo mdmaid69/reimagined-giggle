@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import time
-print(time.time())
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_average(lst):
+        return sum(lst) / len(lst)
