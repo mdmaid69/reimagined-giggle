@@ -1,6 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_as_str(array):
-        return str(array)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
