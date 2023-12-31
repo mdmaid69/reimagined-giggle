@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def find_min(numbers):
-        return min(numbers)
+import logging
+def log_message(message):
+        logging.info(message)
+  def cube_number(x):
+        return x**3
