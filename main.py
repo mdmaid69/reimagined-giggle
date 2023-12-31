@@ -1,5 +1,8 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
