@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
