@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+text = "Hello, world!"
+print("Characters:", len(text))
+x = 10
+y = 20
+print("Sum:", x + y)
