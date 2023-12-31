@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import numpy as np
+print(np.array([1, 2, 3]))
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
