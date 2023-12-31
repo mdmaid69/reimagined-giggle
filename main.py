@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import time
+def get_current_time():
+        return time.time()
+def count_elements(lst):
+        return len(lst)
