@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
