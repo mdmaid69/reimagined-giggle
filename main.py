@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
