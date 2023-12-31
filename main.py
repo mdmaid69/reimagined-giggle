@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  def convert_to_octal(n):
-        return oct(n)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def get_array_as_repr(array):
+        return repr(array)
