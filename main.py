@@ -1,6 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+text = "Hello, world!"
+print("Words:", len(text.split()))
