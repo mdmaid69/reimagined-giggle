@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_pressure(force, area):
+        return force / area
+import logging
+def log_message(message):
+        logging.info(message)
