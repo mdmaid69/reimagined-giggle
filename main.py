@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_acceleration(speed, time):
+        return speed / time
