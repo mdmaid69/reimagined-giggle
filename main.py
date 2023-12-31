@@ -1,5 +1,8 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
