@@ -1,4 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
-def convert_to_hex(n):
-        return hex(n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
