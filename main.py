@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def convert_to_hex(n):
+        return hex(n)
