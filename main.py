@@ -1,5 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
