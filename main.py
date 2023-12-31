@@ -1,6 +1,6 @@
 import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_as_bool(array):
+        return bool(array)
