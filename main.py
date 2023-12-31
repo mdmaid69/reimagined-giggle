@@ -1,4 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import array
-def reverse_array(array):
-        array.reverse()
-for i in range(10): print(i)
+def get_array_as_bytes(array):
+        return bytes(array)
