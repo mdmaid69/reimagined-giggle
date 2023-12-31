@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
