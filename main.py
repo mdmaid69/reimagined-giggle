@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
