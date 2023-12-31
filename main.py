@@ -1,6 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
