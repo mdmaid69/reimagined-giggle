@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
