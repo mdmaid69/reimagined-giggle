@@ -1,6 +1,7 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
