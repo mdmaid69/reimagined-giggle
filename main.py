@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
