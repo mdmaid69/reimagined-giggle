@@ -1,6 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import collections
-def create_priority_queue():
-        return collections.deque()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def create_user_dict():
+        return collections.UserDict()
