@@ -1,4 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+print("Powers of 2:", [2**x for x in range(n)])
