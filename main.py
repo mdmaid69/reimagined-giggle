@@ -1,5 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def convert_to_binary(n):
-        return bin(n)
+name = "Python"
+print("Hello,", name)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
