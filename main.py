@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import time
+def get_time_since_epoch():
+        return time.time()
