@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
