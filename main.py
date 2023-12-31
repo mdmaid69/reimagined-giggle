@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
