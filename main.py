@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
