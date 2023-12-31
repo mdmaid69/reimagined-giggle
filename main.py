@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  def subtract_numbers(x, y):
+        return x - y
