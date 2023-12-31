@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
