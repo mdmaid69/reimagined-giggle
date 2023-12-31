@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import time
+def get_current_time():
+        return time.time()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
