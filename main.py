@@ -1,6 +1,6 @@
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
