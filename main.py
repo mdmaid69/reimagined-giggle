@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
