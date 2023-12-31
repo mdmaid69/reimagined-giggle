@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def square_number(x):
-        return x**2
+def add_numbers(a, b):
+        return a + b
+import collections
+def create_stack():
+        return collections.deque()
