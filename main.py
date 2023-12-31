@@ -1,5 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def reverse_list(lst):
+        return lst[::-1]
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
