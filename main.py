@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def remove_duplicates(lst):
+        return list(set(lst))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
