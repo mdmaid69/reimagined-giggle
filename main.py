@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-  def square_number(x):
-        return x**2
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
