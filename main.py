@@ -1,6 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
