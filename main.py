@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
