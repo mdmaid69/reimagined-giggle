@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_set(array):
+        return set(array)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
