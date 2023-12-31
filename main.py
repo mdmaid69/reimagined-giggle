@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import platform
+def get_python_version():
+        return platform.python_version()
+def is_palindrome(s):
+        return s == s[::-1]
