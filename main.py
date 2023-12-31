@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def clear_array(array):
-        array *= 0
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
