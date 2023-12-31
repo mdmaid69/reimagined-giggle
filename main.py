@@ -1,6 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def change_working_directory(path):
+        os.chdir(path)
+import collections
+def create_counter():
+        return collections.Counter()
