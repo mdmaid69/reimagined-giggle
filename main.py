@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
