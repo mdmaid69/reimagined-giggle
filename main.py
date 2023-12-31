@@ -1,7 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
