@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
