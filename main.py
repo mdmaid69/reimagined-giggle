@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
