@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
