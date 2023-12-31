@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
