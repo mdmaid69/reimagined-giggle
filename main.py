@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
