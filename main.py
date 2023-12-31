@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def add_numbers(a, b):
-        return a + b
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
