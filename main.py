@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
