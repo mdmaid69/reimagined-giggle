@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def is_odd(n):
+        return n % 2 != 0
