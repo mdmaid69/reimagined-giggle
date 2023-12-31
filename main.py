@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def convert_to_binary(n):
+        return bin(n)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
