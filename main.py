@@ -1,5 +1,7 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import sys
-print(sys.version)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
