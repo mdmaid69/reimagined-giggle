@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
