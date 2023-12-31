@@ -1,7 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
