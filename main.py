@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def get_array_as_float(array):
+        return float(array[0])
