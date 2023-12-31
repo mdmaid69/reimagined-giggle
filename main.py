@@ -1,6 +1,9 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
