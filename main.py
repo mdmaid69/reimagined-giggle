@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
