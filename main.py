@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
