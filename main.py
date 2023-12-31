@@ -1,6 +1,7 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_volume(length, width, height):
+        return length * width * height
