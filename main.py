@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def count_elements(lst):
-        return len(lst)
+  import sys
+  def get_python_version():
+        return sys.version
+import sys
+def print_python_version():
+        return sys.version
