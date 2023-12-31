@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
