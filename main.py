@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
