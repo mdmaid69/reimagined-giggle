@@ -1,5 +1,8 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
