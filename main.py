@@ -1,5 +1,10 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
