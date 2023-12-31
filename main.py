@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
