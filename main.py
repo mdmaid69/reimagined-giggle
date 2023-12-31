@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
