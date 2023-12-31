@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
