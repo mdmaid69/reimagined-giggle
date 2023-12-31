@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  def sort_list(lst):
+        return sorted(lst)
