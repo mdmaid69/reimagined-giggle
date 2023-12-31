@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def count_elements(lst):
+        return len(lst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
