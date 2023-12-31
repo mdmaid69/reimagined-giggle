@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def convert_to_hex(n):
-        return hex(n)
+import time
+print(time.time())
+import json
+print(json.dumps({"name": "John", "age": 30}))
