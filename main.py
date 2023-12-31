@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import platform
-def get_python_version():
-        return platform.python_version()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
