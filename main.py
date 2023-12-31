@@ -1,11 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def add_numbers(x, y):
+        return x + y
+  def sort_list(lst):
+        return sorted(lst)
