@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
