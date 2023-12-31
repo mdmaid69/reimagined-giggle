@@ -1,8 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
