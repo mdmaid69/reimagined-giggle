@@ -1,6 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def get_array_item_count(array, item):
+        return array.count(item)
