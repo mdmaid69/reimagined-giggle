@@ -1,5 +1,7 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def count_elements(lst):
-        return len(lst)
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
