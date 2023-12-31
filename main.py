@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_pressure(force, area):
+        return force / area
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
