@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_speed(distance, time):
-        return distance / time
+from collections import Counter
+print(Counter("hello world"))
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
