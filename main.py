@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def find_unique_words(sentence):
-        return set(sentence.split())
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def split_path(path):
+        return os.path.split(path)
