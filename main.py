@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_area_rectangle(l, w):
+        return l * w
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
