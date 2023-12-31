@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+print(sum(range(10)))
+import datetime
+def get_today_date():
+        return datetime.date.today()
