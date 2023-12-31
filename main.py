@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import random
+print(random.randint(0, 100))
