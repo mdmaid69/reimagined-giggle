@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def divide_numbers(x, y):
+        return x / y
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
