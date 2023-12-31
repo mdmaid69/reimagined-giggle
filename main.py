@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import collections
-def create_stack():
-        return collections.deque()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
