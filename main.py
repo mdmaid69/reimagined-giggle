@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
