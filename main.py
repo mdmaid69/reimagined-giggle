@@ -1,5 +1,7 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
