@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-x = 10
-y = 20
-print("Sum:", x + y)
+def count_characters(sentence):
+        return len(sentence)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
