@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
