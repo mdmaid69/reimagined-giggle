@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
