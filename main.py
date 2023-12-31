@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
