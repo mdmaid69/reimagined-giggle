@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
