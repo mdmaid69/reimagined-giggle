@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def remove_from_array(array, item):
+        array.remove(item)
