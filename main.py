@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import random
-print(random.randint(0, 100))
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_power(work, time):
+        return work / time
