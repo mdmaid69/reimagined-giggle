@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
