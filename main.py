@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-from collections import Counter
-print(Counter("hello world"))
+  def square_number(x):
+        return x**2
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
