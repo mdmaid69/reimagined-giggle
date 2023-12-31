@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def multiply_numbers(x, y):
+        return x * y
