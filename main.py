@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
