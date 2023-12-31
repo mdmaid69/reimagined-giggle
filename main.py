@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def get_array_as_str(array):
+        return str(array)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
