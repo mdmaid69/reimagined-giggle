@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
