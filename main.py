@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import random
+print(random.randint(0, 100))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
