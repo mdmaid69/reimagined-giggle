@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import sys
-def print_python_version():
-        return sys.version
+def calculate_work(force, distance):
+        return force * distance
+def count_words(sentence):
+        return len(sentence.split())
