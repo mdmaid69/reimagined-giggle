@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def convert_to_octal(n):
+        return oct(n)
