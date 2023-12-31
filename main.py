@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
