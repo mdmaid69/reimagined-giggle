@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+for i in range(10): print(i)
+import array
+def append_to_array(array, item):
+        array.append(item)
