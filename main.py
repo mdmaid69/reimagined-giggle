@@ -1,6 +1,6 @@
+  import sys
+  def get_python_version():
+        return sys.version
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def get_array_length(array):
+        return len(array)
