@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
