@@ -1,6 +1,10 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
