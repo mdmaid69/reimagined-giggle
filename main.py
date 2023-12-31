@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_power(work, time):
-        return work / time
+for i in range(5):
+        print(i)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
