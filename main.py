@@ -1,7 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
