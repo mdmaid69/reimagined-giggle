@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
