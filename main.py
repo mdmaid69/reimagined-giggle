@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_pressure(force, area):
-        return force / area
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
