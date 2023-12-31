@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
