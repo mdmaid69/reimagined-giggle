@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
