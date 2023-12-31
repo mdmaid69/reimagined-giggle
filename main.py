@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_pressure(force, area):
+        return force / area
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
