@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import time
+def get_current_time():
+        return time.time()
