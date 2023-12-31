@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def greet(name):
-        print(f"Hello, {name}!")
+import collections
+def create_priority_queue():
+        return collections.deque()
+import time
+def get_time_since_epoch():
+        return time.time()
