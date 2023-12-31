@@ -1,7 +1,6 @@
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
