@@ -1,6 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
