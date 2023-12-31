@@ -1,6 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_pressure(force, area):
+        return force / area
