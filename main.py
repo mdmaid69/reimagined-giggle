@@ -1,6 +1,5 @@
+def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
