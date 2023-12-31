@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  def convert_to_hex(n):
-        return hex(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
