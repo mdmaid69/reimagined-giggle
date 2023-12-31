@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_area_rectangle(l, w):
+        return l * w
