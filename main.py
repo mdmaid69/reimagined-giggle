@@ -1,4 +1,7 @@
-def cube_number(x):
-        return x**3
-def find_min(numbers):
-        return min(numbers)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
