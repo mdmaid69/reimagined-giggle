@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
