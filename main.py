@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
