@@ -1,6 +1,5 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def find_max(lst):
+        return max(lst)
