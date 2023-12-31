@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
