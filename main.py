@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_cosine(x):
+        return math.cos(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
