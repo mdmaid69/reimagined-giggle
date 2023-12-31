@@ -1,7 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
