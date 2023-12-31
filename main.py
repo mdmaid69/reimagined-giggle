@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def count_words(sentence):
+        return len(sentence.split())
+import os
+def remove_directory(path):
+        os.rmdir(path)
