@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
