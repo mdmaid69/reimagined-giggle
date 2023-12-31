@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
