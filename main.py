@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-from collections import Counter
-print(Counter("hello world"))
+import time
+print(time.time())
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
