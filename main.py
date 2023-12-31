@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
