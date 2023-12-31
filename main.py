@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
