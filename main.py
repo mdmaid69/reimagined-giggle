@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def get_current_directory():
+        return os.getcwd()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
