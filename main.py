@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
