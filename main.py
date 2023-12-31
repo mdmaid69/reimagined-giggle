@@ -1,6 +1,8 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
