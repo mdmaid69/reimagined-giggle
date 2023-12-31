@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def square_number(x):
-        return x**2
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
