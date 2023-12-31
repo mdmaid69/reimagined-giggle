@@ -1,6 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_array_as_bytearray(array):
+        return bytearray(array)
