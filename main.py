@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
