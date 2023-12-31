@@ -1,5 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def reverse_list(lst):
+        return lst[::-1]
+from collections import Counter
+print(Counter("hello world"))
