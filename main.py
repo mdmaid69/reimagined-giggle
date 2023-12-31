@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
