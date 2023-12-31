@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
