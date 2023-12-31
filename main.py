@@ -1,4 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-for i in range(10): print(i)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
