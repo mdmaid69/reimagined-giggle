@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
 sentence = "Hello, world!"
 print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
