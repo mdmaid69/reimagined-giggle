@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
