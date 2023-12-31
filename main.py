@@ -1,5 +1,8 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
