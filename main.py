@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import sys
+def print_python_version():
+        return sys.version
