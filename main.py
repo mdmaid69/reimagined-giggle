@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_as_float(array):
+        return float(array[0])
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
