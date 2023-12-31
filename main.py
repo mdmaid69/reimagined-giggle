@@ -1,6 +1,8 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
