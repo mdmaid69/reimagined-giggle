@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
