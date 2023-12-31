@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
