@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
