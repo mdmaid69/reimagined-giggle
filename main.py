@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_sine(x):
+        return math.sin(x)
