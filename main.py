@@ -1,5 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
