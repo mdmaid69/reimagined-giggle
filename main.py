@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
