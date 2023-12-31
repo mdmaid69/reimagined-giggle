@@ -1,10 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+def get_array_as_str(array):
+        return str(array)
