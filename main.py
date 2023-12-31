@@ -1,5 +1,8 @@
-def square_number(x):
-        return x**2
-import platform
-def get_os_info():
-        return platform.uname()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
