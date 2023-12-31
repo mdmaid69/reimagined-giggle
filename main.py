@@ -1,5 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_exponential(x):
+        return math.exp(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
