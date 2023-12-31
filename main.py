@@ -1,5 +1,6 @@
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
