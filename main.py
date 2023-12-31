@@ -1,4 +1,7 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
