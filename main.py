@@ -1,4 +1,7 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
