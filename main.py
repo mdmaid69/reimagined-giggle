@@ -1,6 +1,7 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+i = 0
+while i < 5:
+        print(i)
+        i += 1
