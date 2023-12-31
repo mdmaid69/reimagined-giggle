@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import time
+def get_time_since_epoch():
+        return time.time()
