@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
