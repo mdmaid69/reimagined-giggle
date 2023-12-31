@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
