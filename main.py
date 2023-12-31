@@ -1,7 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_area_rectangle(l, w):
+        return l * w
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
