@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def convert_to_binary(n):
+        return bin(n)
