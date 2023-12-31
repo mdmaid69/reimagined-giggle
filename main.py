@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import sys
+def exit_program():
+        sys.exit()
