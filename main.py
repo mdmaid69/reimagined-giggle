@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
