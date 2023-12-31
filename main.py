@@ -1,6 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
