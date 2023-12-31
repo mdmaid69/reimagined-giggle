@@ -1,6 +1,5 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_area_rectangle(l, w):
+        return l * w
