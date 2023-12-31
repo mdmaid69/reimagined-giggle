@@ -1,6 +1,10 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def append_to_array(array, item):
+        array.append(item)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
