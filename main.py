@@ -1,5 +1,5 @@
 import collections
-def create_user_list():
-        return collections.UserList()
-  def multiply_numbers(x, y):
-        return x * y
+def create_counter():
+        return collections.Counter()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
