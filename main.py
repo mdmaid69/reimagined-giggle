@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def is_even(n):
-        return n % 2 == 0
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
