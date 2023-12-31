@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  def square_number(x):
+        return x**2
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
