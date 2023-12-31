@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
