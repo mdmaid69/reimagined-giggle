@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
