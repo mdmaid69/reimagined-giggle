@@ -1,6 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def count_elements(lst):
+        return len(lst)
+def find_min(lst):
+        return min(lst)
