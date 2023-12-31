@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import sys
-print(sys.version)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  def subtract_numbers(x, y):
+        return x - y
