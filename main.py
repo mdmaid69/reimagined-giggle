@@ -1,4 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-for i in range(10): print(i)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
