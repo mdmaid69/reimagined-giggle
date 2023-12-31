@@ -1,5 +1,11 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def sort_list(lst):
-        return sorted(lst)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
