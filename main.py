@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
