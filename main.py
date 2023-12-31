@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def subtract_numbers(x, y):
+        return x - y
