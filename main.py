@@ -1,7 +1,7 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
