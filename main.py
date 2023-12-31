@@ -1,12 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  def convert_to_hex(n):
+        return hex(n)
