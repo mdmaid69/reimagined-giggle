@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def sort_list(lst):
+        return sorted(lst)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
