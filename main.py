@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_power(work, time):
+        return work / time
+def calculate_work(force, distance):
+        return force * distance
