@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
