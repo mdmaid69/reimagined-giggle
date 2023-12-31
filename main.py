@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
