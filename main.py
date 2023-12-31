@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
