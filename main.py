@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
