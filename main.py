@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
