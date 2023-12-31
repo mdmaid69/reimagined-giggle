@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
