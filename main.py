@@ -1,6 +1,8 @@
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
