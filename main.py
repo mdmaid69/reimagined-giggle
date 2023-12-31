@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
