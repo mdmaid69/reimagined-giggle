@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-def calculate_power(work, time):
-        return work / time
+for i in range(5):
+        print(i)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
