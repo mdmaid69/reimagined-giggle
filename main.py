@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import collections
+def create_user_string():
+        return collections.UserString()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
