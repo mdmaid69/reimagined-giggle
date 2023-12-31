@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
