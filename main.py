@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_sine(x):
+        return math.sin(x)
