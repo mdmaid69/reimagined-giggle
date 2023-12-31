@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
