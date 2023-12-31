@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
