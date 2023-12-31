@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
