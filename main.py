@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_area_rectangle(l, w):
+        return l * w
