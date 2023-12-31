@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
