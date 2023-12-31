@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import sys
+def exit_program():
+        sys.exit()
