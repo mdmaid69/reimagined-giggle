@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
