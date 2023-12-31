@@ -1,6 +1,5 @@
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
