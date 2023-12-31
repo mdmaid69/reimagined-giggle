@@ -1,7 +1,5 @@
-for i in range(5):
-        print(i)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
