@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
