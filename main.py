@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+def calculate_power(work, time):
+        return work / time
+import time
+def get_current_time():
+        return time.time()
