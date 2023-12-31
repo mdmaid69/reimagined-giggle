@@ -1,6 +1,10 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import sys
-def print_python_version():
-        print(sys.version)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import datetime
+print(datetime.datetime.now())
