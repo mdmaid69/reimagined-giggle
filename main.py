@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
