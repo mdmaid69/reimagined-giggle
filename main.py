@@ -1,4 +1,7 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  def multiply_numbers(x, y):
-        return x * y
+def count_elements(lst):
+        return len(lst)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
