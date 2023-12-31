@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
