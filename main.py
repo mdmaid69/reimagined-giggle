@@ -1,5 +1,8 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def convert_to_binary(n):
-        return bin(n)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
