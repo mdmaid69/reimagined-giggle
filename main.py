@@ -1,7 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
