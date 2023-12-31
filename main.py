@@ -1,9 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
