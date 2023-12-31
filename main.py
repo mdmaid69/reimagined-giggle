@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
