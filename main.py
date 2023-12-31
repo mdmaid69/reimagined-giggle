@@ -1,5 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
