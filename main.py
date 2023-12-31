@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
