@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def convert_to_octal(n):
-        return oct(n)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
