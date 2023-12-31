@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
