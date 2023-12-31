@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def sort_list(lst):
+        return sorted(lst)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
