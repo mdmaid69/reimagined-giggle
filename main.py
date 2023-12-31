@@ -1,9 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
