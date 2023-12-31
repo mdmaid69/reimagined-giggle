@@ -1,5 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
