@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def count_elements(lst):
+        return len(lst)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
