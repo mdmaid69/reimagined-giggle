@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import getpass
-def get_username():
-        return getpass.getuser()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
