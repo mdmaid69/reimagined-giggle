@@ -1,6 +1,3 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+print(sum(range(10)))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
