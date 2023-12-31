@@ -1,5 +1,5 @@
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def cube_number(x):
-        return x**3
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
