@@ -1,6 +1,7 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
