@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def find_max(lst):
+        return max(lst)
