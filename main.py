@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  def count_elements(lst):
+        return len(lst)
