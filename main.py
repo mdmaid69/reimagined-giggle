@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def clear_array(array):
-        array *= 0
+def convert_to_binary(n):
+        return bin(n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
