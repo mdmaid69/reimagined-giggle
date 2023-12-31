@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
