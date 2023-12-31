@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
