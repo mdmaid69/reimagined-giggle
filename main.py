@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def is_even(n):
+        return n % 2 == 0
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
