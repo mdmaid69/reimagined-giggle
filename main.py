@@ -1,4 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-for i in range(10): print(i)
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def convert_array_to_string(array):
+        return array.tostring()
