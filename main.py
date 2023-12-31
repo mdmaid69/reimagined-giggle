@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def multiply_numbers(x, y):
+        return x * y
