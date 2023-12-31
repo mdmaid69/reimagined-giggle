@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
