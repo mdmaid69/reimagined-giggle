@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
