@@ -1,6 +1,6 @@
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def reverse_array(array):
-        array.reverse()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
