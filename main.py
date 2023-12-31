@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import sys
+  def get_python_version():
+        return sys.version
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_list_from_array(array):
+        return array.tolist()
