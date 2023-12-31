@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
