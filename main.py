@@ -1,6 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
