@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
