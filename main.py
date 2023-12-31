@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
