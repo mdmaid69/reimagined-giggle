@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def multiply_numbers(x, y):
+        return x * y
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
