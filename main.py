@@ -1,8 +1,3 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def convert_to_octal(n):
+        return oct(n)
+print("Hello, world!")
