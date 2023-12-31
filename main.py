@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def is_odd(n):
-        return n % 2 != 0
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
