@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+print(os.getcwd())
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
