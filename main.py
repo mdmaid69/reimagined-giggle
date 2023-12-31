@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_volume(length, width, height):
+        return length * width * height
