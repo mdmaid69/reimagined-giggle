@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def sort_numbers(numbers):
-        return sorted(numbers)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
