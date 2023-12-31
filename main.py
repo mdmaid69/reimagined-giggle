@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
