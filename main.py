@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
