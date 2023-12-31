@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
