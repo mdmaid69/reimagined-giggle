@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
