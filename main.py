@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
