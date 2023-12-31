@@ -1,8 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def reverse_string(s):
+        return s[::-1]
+def convert_to_binary(n):
+        return bin(n)
