@@ -1,6 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
