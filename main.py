@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def multiply_numbers(x, y):
-        return x * y
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
