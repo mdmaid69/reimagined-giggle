@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def sort_numbers(numbers):
+        return sorted(numbers)
