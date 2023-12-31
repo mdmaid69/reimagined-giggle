@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
