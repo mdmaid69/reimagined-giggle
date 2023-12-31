@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
