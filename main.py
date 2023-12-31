@@ -1,6 +1,12 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
