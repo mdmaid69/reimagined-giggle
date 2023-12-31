@@ -1,5 +1,6 @@
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
