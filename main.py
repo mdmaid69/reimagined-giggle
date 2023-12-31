@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_as_repr(array):
+        return repr(array)
