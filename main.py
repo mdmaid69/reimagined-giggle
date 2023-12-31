@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
