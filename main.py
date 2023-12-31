@@ -1,5 +1,11 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
