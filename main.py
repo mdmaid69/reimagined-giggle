@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_length(array):
+        return len(array)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
