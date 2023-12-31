@@ -1,5 +1,7 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
