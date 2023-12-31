@@ -1,6 +1,8 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
