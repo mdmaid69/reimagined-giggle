@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import os
+print(os.getcwd())
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
