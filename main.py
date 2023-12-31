@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
