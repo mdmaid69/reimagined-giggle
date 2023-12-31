@@ -1,6 +1,8 @@
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
