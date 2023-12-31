@@ -1,5 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def get_array_typecode(array):
+        return array.typecode
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
