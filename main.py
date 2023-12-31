@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import time
+print(time.time())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
