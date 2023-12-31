@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def is_palindrome(s):
+        return s == s[::-1]
