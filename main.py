@@ -1,7 +1,8 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
