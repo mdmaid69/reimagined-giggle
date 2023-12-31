@@ -1,5 +1,4 @@
-import math
-print(math.pi)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+print(sum(range(10)))
+import logging
+def log_message(message):
+        logging.info(message)
