@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
