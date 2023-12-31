@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
