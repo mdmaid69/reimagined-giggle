@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
