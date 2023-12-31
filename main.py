@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import collections
-def create_priority_queue():
-        return collections.deque()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
