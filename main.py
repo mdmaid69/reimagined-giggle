@@ -1,5 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def is_odd(n):
+        return n % 2 != 0
+def calculate_power(work, time):
+        return work / time
