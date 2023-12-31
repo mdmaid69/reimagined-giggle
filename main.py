@@ -1,5 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
