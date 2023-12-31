@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
