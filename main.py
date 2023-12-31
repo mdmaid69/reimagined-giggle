@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_typecode(array):
-        return array.typecode
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
