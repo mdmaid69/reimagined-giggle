@@ -1,6 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
