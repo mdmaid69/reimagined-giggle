@@ -1,7 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def remove_duplicates(lst):
+        return list(set(lst))
