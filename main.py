@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
