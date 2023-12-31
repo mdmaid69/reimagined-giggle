@@ -1,8 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def find_max(numbers):
+        return max(numbers)
