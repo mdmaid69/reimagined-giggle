@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
