@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def convert_to_binary(n):
+        return bin(n)
