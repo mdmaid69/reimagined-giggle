@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
