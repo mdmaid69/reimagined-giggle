@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
