@@ -1,6 +1,6 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
