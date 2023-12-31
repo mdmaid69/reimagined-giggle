@@ -1,5 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def clear_array(array):
+        array *= 0
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
