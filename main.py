@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
