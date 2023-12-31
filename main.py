@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+print([x**2 for x in range(10)])
