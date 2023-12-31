@@ -1,6 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
