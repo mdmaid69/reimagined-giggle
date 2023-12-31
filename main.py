@@ -1,5 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def divide_numbers(x, y):
+        return x / y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
