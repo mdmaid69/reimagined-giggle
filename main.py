@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+from collections import Counter
+print(Counter("hello world"))
