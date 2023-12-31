@@ -1,5 +1,7 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
