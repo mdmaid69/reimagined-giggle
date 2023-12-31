@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
