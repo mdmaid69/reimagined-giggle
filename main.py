@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
