@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
