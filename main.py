@@ -1,5 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
