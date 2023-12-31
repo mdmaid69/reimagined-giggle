@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_area_circle(r):
+        return 3.14 * r**2
