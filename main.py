@@ -1,7 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
