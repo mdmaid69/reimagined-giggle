@@ -1,6 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_pressure(force, area):
+        return force / area
+def convert_to_binary(n):
+        return bin(n)
