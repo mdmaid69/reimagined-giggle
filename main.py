@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+print(sum(range(10)))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
