@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
