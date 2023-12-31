@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
