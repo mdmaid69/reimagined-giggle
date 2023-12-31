@@ -1,9 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
