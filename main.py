@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def square_number(x):
+        return x**2
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
