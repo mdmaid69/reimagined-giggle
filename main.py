@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_sine(x):
+        return math.sin(x)
