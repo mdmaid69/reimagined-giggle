@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
