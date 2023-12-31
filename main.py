@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import time
-def get_current_time():
-        return time.ctime()
+def find_min(lst):
+        return min(lst)
+import array
+def append_to_array(array, item):
+        array.append(item)
