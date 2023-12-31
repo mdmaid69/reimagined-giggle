@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
