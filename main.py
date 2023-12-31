@@ -1,7 +1,7 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
