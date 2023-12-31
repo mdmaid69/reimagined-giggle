@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
