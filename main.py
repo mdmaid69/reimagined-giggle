@@ -1,5 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
