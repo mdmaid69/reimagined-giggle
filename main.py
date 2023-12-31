@@ -1,8 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
