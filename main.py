@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
