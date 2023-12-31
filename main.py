@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
