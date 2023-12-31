@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
