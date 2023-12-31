@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
