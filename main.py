@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
