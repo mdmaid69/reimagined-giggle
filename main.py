@@ -1,3 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-print("Hello, world!")
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
