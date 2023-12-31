@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
