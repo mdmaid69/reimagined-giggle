@@ -1,5 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
