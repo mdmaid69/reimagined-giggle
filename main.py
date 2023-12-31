@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def is_even(n):
+        return n % 2 == 0
