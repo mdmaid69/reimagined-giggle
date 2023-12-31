@@ -1,5 +1,5 @@
 import math
-print(math.pi)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_tangent(x):
+        return math.tan(x)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
