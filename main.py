@@ -1,6 +1,3 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+print(sum(range(10)))
