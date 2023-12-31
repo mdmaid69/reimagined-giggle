@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def square_number(x):
+        return x**2
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
