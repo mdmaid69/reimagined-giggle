@@ -1,7 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
