@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import sys
+def print_python_version():
+        return sys.version
