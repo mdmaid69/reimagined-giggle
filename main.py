@@ -1,7 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_cosine(x):
+        return math.cos(x)
