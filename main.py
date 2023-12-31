@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
