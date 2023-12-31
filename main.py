@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def is_odd(n):
-        return n % 2 != 0
+import platform
+def get_python_version():
+        return platform.python_version()
+def is_palindrome(s):
+        return s == s[::-1]
