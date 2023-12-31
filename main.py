@@ -1,6 +1,7 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def is_palindrome(s):
+        return s == s[::-1]
