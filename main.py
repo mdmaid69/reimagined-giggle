@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
