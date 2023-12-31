@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_work(force, distance):
+        return force * distance
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
