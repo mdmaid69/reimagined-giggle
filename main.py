@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def convert_to_binary(n):
+        return bin(n)
