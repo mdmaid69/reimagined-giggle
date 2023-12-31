@@ -1,8 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import collections
+def create_counter():
+        return collections.Counter()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
