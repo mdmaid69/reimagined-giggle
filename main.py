@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import os
+print(os.getcwd())
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
