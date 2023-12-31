@@ -1,6 +1,6 @@
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_stack():
-        return collections.deque()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
