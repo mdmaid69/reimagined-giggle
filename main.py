@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
