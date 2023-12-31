@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def reverse_array(array):
+        array.reverse()
+for i in range(10): print(i)
