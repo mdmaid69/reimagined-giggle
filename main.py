@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
