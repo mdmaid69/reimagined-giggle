@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
