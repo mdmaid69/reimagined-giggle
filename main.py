@@ -1,6 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
