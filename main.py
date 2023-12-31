@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def reverse_array(array):
+        array.reverse()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
