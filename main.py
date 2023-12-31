@@ -1,4 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
