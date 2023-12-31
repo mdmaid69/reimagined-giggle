@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
