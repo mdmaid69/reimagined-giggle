@@ -1,10 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
