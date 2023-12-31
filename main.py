@@ -1,7 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def sort_list(lst):
+        return sorted(lst)
+def is_odd(n):
+        return n % 2 != 0
