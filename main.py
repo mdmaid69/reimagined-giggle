@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def get_array_typecode(array):
+        return array.typecode
