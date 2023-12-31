@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
