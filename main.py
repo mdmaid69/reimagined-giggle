@@ -1,5 +1,5 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
 for i in range(5):
         print(i)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
