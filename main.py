@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
