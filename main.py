@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
