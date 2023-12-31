@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import datetime
+print(datetime.datetime.now())
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
