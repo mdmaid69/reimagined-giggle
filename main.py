@@ -1,4 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-def greet(name):
-        print(f"Hello, {name}!")
+  def add_numbers(x, y):
+        return x + y
+def cube_number(x):
+        return x**3
