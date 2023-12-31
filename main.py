@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
