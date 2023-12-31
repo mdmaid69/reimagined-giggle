@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def find_min(lst):
-        return min(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
