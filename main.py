@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import time
-def get_current_time():
-        return time.time()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
