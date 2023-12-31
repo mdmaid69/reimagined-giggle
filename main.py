@@ -1,6 +1,8 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
