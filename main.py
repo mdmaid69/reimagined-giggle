@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
