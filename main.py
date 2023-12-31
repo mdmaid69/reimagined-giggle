@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
