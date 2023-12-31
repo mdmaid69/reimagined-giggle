@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
