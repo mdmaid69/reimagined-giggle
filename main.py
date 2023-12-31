@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import sys
+def exit_program():
+        sys.exit()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
