@@ -1,6 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
