@@ -1,6 +1,8 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
