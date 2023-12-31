@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
