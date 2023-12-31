@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
