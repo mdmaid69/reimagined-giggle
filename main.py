@@ -1,8 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_work(force, distance):
+        return force * distance
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
