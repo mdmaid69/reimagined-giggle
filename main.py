@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
