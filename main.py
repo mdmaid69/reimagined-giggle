@@ -1,6 +1,6 @@
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_floor(x):
+        return math.floor(x)
