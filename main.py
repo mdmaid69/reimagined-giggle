@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
