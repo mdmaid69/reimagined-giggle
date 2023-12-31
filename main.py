@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
