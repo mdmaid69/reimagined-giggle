@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
