@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import re
+print(re.match("h.*o", "hello world"))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
