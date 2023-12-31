@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
