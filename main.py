@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  def square_number(x):
-        return x**2
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
