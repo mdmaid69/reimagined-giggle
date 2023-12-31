@@ -1,8 +1,5 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
