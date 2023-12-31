@@ -1,5 +1,7 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
