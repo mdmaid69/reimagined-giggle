@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def is_even(n):
+        return n % 2 == 0
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_list(array):
+        return list(array)
