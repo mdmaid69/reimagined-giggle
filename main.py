@@ -1,6 +1,5 @@
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def reverse_array(array):
-        array.reverse()
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
