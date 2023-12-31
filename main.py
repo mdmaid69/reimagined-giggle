@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
