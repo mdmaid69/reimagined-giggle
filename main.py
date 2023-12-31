@@ -1,8 +1,7 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
