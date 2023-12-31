@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_typecode(array):
+        return array.typecode
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
