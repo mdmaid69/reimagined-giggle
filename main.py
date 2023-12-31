@@ -1,5 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def calculate_area_rectangle(l, w):
+        return l * w
+def cube_number(x):
+        return x**3
