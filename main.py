@@ -1,5 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def count_words(sentence):
-        return len(sentence.split())
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_power(work, time):
+        return work / time
