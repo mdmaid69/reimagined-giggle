@@ -1,6 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
