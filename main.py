@@ -1,5 +1,13 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
