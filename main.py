@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
