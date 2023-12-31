@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
