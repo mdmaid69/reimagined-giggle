@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def find_max(numbers):
+        return max(numbers)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
