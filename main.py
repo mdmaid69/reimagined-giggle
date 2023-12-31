@@ -1,5 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-text = "Hello, world!"
-print("Characters:", len(text))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def find_min(numbers):
+        return min(numbers)
