@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import numpy as np
+print(np.array([1, 2, 3]))
