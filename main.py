@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
