@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_speed(distance, time):
+        return distance / time
