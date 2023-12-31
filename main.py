@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def subtract_numbers(x, y):
-        return x - y
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def divide_numbers(x, y):
+        return x / y
