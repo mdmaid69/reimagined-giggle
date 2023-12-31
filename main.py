@@ -1,7 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_slice(array, i, j):
+        return array[i:j]
