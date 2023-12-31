@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
