@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
