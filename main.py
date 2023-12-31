@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
