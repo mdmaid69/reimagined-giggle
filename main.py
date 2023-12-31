@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def reverse_array(array):
+        array.reverse()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
