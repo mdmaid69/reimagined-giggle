@@ -1,6 +1,8 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
