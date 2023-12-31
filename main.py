@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_current_directory():
+        return os.getcwd()
+import sys
+def exit_program():
+        sys.exit()
