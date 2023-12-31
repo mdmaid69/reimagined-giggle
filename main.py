@@ -1,5 +1,8 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import sys
+def print_python_version():
+        print(sys.version)
