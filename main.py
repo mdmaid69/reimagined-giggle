@@ -1,6 +1,4 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import time
-def get_time_since_epoch():
-        return time.time()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
