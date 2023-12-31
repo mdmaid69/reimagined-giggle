@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import sys
-def print_python_version():
-        return sys.version
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
