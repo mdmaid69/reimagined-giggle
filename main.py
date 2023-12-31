@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def cube_number(x):
+        return x**3
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
