@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import collections
+def create_queue():
+        return collections.deque()
