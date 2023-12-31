@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+print([x**2 for x in range(10)])
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
