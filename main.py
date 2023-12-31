@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
