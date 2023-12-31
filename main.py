@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
