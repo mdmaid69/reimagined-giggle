@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
