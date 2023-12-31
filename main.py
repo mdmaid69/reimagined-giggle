@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
