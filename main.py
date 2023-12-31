@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import datetime
+print(datetime.datetime.now())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
