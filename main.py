@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_sine(x):
+        return math.sin(x)
