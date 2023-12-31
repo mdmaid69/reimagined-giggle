@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import sys
-def print_python_version():
-        return sys.version
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
