@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def convert_to_hex(n):
+        return hex(n)
