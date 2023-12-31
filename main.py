@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_power(work, time):
+        return work / time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
