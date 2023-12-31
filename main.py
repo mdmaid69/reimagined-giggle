@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
