@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def cube_number(x):
+        return x**3
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
