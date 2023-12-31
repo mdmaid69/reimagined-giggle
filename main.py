@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def count_elements(lst):
+        return len(lst)
