@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+for i in range(10): print(i)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
