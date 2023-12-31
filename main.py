@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
