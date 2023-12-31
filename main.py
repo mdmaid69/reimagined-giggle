@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
