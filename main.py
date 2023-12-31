@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
