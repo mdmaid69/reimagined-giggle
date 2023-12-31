@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import platform
-def get_python_version():
-        return platform.python_version()
+def square_number(x):
+        return x**2
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
