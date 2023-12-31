@@ -1,5 +1,7 @@
-  def cube_number(x):
-        return x**3
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
