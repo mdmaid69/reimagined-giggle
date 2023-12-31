@@ -1,5 +1,9 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
