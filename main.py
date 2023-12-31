@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def subtract_numbers(x, y):
+        return x - y
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
