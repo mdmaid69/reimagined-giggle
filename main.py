@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def add_numbers(x, y):
+        return x + y
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_float(array):
+        return float(array[0])
