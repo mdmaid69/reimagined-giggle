@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def is_even(n):
+        return n % 2 == 0
