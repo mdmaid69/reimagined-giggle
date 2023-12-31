@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_typecode(array):
+        return array.typecode
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
