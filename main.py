@@ -1,5 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
