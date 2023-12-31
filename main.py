@@ -1,4 +1,6 @@
-import time
-print(time.time())
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
