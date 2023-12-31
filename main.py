@@ -1,5 +1,5 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def count_elements(lst):
-        return len(lst)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def count_characters(sentence):
+        return len(sentence)
