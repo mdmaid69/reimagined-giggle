@@ -1,6 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
