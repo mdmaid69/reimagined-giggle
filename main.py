@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
