@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
