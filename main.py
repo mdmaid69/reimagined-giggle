@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
