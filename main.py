@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def square_number(x):
+        return x**2
+def multiply_numbers(x, y):
+        return x * y
