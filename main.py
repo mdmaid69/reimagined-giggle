@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def find_min(lst):
+        return min(lst)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
