@@ -1,5 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import sys
+def print_python_version():
+        print(sys.version)
