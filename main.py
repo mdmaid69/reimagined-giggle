@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
