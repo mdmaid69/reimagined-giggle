@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
