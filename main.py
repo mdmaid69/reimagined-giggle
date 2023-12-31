@@ -1,6 +1,7 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
