@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
