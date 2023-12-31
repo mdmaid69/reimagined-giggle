@@ -1,5 +1,7 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
