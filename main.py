@@ -1,5 +1,5 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
