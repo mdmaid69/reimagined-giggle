@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import array
-def get_array_length(array):
-        return len(array)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def get_string_from_array(array):
+        return array.tobytes()
