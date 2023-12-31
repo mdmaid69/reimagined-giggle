@@ -1,6 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
