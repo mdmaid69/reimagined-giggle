@@ -1,6 +1,9 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
