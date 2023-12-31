@@ -1,7 +1,8 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def get_array_length(array):
+        return len(array)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
