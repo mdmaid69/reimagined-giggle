@@ -1,5 +1,3 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+for i in range(10): print(i)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
