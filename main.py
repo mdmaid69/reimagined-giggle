@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_typecode(array):
-        return array.typecode
+def reverse_list(lst):
+        return lst[::-1]
+import getpass
+def get_username():
+        return getpass.getuser()
