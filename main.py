@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
