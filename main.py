@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
