@@ -1,6 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def get_array_item_count(array, item):
+        return array.count(item)
