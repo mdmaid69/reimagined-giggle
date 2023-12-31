@@ -1,5 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_array_as_set(array):
+        return set(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
