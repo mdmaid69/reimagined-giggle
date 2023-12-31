@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
