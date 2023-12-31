@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
