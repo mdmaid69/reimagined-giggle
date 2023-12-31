@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import random
+def roll_die():
+        return random.randint(1, 6)
