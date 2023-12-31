@@ -1,7 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import re
-print(re.match("h.*o", "hello world"))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
