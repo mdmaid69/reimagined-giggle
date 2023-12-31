@@ -1,6 +1,10 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
