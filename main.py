@@ -1,5 +1,6 @@
+import time
+def get_current_time():
+        return time.ctime()
 import collections
-def create_priority_queue():
-        return collections.deque()
-import tensorflow as tf
-print(tf.__version__)
+def create_ordered_dict():
+        return collections.OrderedDict()
