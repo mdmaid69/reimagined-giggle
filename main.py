@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import re
+print(re.match("h.*o", "hello world"))
