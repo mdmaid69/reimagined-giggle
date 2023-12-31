@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
