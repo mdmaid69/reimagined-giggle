@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def square_number(x):
+        return x**2
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
