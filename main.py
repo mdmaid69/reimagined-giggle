@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_work(force, distance):
+        return force * distance
