@@ -1,5 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
