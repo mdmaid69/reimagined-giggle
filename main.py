@@ -1,6 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
