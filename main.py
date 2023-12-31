@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import sys
+def print_python_version():
+        return sys.version
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
