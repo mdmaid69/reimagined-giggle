@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
