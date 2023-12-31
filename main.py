@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
