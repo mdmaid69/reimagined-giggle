@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
