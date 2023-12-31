@@ -1,7 +1,6 @@
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_error_function(x):
+        return math.erf(x)
