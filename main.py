@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
