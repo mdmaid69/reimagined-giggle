@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
