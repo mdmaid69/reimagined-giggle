@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
