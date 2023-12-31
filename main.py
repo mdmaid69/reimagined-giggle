@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
