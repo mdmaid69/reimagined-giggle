@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def convert_to_octal(n):
+        return oct(n)
