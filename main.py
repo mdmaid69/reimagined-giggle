@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_error_function(x):
+        return math.erf(x)
