@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import time
+def get_current_time():
+        return time.time()
