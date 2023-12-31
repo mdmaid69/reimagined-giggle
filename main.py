@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_item(array, i):
+        return array[i]
