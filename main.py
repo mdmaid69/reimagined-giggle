@@ -1,8 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
