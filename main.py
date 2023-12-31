@@ -1,5 +1,7 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def add_numbers(a, b):
-        return a + b
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
