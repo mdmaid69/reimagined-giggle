@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
