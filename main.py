@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
