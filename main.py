@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_as_str(array):
+        return str(array)
