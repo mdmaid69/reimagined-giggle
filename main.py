@@ -1,5 +1,3 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+print(sum(range(10)))
+def convert_to_binary(n):
+        return bin(n)
