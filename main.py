@@ -1,7 +1,4 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def count_characters(sentence):
+        return len(sentence)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
