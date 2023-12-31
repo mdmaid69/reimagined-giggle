@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
