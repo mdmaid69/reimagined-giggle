@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+text = "Hello, world!"
+print("Characters:", len(text))
