@@ -1,6 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_current_directory():
+        return os.getcwd()
