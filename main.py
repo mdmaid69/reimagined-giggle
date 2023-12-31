@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
