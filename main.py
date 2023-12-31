@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import time
+print(time.time())
