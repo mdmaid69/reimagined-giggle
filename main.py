@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
