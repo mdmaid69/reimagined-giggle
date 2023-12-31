@@ -1,5 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def cube_number(x):
-        return x**3
+def sort_list(lst):
+        return sorted(lst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
