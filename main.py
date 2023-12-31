@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import sys
+  def get_python_version():
+        return sys.version
