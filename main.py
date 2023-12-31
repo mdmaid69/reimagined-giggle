@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def convert_to_octal(n):
-        return oct(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
