@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import collections
+def create_priority_queue():
+        return collections.deque()
+import platform
+def get_os_info():
+        return platform.uname()
