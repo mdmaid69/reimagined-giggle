@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def find_max(lst):
+        return max(lst)
