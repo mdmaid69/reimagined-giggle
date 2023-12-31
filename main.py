@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def remove_duplicates(lst):
-        return list(set(lst))
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
