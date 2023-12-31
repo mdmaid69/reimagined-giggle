@@ -1,6 +1,5 @@
+import time
+print(time.time())
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
