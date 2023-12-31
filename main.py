@@ -1,5 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_work(force, distance):
+        return force * distance
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
