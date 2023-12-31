@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_acceleration(speed, time):
-        return speed / time
+import platform
+def get_python_version():
+        return platform.python_version()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
