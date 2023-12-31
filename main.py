@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def is_palindrome(s):
+        return s == s[::-1]
