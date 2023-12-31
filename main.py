@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
