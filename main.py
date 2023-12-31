@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_current_working_directory():
+        return os.getcwd()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
