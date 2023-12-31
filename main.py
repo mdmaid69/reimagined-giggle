@@ -1,8 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def is_odd(n):
+        return n % 2 != 0
