@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
