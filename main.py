@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import os
-def change_working_directory(path):
-        os.chdir(path)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
