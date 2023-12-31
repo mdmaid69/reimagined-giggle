@@ -1,6 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
