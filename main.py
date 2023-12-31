@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
