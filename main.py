@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-def find_max(numbers):
-        return max(numbers)
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
