@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import json
+def convert_to_json(data):
+        return json.dumps(data)
