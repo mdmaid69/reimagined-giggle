@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
