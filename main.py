@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  def reverse_list(lst):
+        return lst[::-1]
