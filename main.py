@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
