@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
