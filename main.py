@@ -1,6 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_work(force, distance):
-        return force * distance
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
