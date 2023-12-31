@@ -1,6 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
