@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import os
+def change_working_directory(path):
+        os.chdir(path)
