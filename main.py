@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+x = 10
+y = 20
+print("Sum:", x + y)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def get_array_as_bytearray(array):
+        return bytearray(array)
