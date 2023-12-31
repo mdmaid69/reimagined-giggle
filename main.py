@@ -1,5 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def count_words(sentence):
+        return len(sentence.split())
