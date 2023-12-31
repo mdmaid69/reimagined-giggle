@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
