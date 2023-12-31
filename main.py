@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def square_number(x):
+        return x**2
+import array
+def convert_array_to_string(array):
+        return array.tostring()
