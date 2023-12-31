@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_as_list(array):
+        return list(array)
