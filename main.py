@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
