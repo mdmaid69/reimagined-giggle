@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import random
-print(random.randint(0, 100))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def reverse_string(s):
+        return s[::-1]
