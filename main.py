@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
