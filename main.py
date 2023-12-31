@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
