@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def count_words(sentence):
+        return len(sentence.split())
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
