@@ -1,5 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def greet(name):
-        print(f"Hello, {name}!")
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
