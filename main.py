@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
