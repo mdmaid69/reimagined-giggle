@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
