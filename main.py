@@ -1,5 +1,5 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import sys
-print(sys.version)
+def get_array_typecode(array):
+        return array.typecode
+def calculate_acceleration(speed, time):
+        return speed / time
