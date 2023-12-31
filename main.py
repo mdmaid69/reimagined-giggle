@@ -1,5 +1,8 @@
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def subtract_numbers(x, y):
-        return x - y
+def get_array_as_set(array):
+        return set(array)
