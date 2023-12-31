@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_max(lst):
+        return max(lst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
