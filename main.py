@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
