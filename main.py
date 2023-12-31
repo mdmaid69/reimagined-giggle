@@ -1,6 +1,9 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
