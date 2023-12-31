@@ -1,6 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def convert_to_hex(n):
+        return hex(n)
