@@ -1,5 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import time
+def get_time_since_epoch():
+        return time.time()
