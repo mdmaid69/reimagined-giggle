@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_current_directory():
+        return os.getcwd()
+def remove_duplicates(lst):
+        return list(set(lst))
