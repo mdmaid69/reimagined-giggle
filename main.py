@@ -1,5 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_area(radius):
+        return 3.14 * radius * radius
