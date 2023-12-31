@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
