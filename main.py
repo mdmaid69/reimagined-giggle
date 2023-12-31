@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
