@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_current_working_directory():
+        return os.getcwd()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
