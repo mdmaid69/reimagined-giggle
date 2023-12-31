@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
