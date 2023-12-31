@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
