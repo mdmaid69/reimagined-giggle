@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  def sort_list(lst):
-        return sorted(lst)
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
