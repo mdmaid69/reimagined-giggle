@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
+import collections
+def create_user_list():
+        return collections.UserList()
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_base_name(path):
+        return os.path.basename(path)
