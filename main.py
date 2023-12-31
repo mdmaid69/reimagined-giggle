@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
