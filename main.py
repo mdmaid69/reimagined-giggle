@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import numpy as np
+print(np.array([1, 2, 3]))
