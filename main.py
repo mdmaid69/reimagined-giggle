@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
