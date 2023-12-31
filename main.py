@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import sys
+def exit_program():
+        sys.exit()
