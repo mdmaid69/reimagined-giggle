@@ -1,4 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
