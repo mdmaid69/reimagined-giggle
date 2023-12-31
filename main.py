@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import collections
+def create_user_list():
+        return collections.UserList()
+def multiply_numbers(x, y):
+        return x * y
