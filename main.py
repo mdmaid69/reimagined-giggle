@@ -1,6 +1,9 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
