@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
