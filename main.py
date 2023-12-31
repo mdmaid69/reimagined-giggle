@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import os
+def get_current_working_directory():
+        return os.getcwd()
