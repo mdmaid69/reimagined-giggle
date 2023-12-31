@@ -1,5 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_sine(x):
+        return math.sin(x)
