@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
