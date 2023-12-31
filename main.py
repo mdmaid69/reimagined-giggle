@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
