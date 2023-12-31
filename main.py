@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
