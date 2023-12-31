@@ -1,4 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-print(sum(range(10)))
+  def multiply_numbers(x, y):
+        return x * y
+  def sort_list(lst):
+        return sorted(lst)
