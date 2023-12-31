@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def clear_array(array):
+        array *= 0
+import json
+def convert_to_json(data):
+        return json.dumps(data)
