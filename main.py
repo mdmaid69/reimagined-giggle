@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  def add_numbers(x, y):
-        return x + y
+import array
+def get_array_as_set(array):
+        return set(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
