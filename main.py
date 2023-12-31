@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
