@@ -1,5 +1,4 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+print([x**2 for x in range(10)])
