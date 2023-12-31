@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
