@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
