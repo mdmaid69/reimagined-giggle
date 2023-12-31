@@ -1,5 +1,8 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
