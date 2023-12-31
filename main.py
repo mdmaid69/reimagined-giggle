@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
   import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
