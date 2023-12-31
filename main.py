@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import logging
-def log_message(message):
-        logging.info(message)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def convert_to_hex(n):
+        return hex(n)
