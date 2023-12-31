@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_pressure(force, area):
+        return force / area
+import array
+def set_array_item(array, i, item):
+        array[i] = item
