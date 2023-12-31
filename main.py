@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
