@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+from collections import Counter
+print(Counter("hello world"))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
