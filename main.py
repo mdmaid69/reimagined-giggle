@@ -1,6 +1,6 @@
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def get_base_name(path):
+        return os.path.basename(path)
