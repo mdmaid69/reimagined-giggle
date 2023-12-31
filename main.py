@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
+import array
+def get_array_as_str(array):
+        return str(array)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
