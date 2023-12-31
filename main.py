@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import getpass
+def get_username():
+        return getpass.getuser()
