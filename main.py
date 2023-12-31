@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
