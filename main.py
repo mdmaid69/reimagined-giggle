@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import collections
+def create_user_list():
+        return collections.UserList()
+def convert_to_binary(n):
+        return bin(n)
