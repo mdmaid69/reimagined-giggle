@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+x = 10
+y = 20
+print("Sum:", x + y)
