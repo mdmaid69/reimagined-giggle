@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
