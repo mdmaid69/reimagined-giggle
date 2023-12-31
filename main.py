@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import datetime
-print(datetime.datetime.now())
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  def reverse_list(lst):
+        return lst[::-1]
