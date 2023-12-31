@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
