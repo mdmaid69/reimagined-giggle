@@ -1,6 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import platform
-def get_os_info():
-        return platform.uname()
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
