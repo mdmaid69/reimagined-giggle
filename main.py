@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
