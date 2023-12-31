@@ -1,6 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
