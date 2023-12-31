@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
