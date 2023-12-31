@@ -1,3 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-for i in range(10): print(i)
+def calculate_density(mass, volume):
+        return mass / volume
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
