@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
