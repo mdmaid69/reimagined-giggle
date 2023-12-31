@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+print(math.pi)
+import array
+def get_list_from_array(array):
+        return array.tolist()
