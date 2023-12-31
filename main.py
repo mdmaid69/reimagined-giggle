@@ -1,4 +1,9 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-name = "Python"
-print("Hello,", name)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
