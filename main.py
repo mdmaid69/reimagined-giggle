@@ -1,5 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
