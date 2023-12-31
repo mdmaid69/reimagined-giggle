@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_as_repr(array):
+        return repr(array)
