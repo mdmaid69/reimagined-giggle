@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
