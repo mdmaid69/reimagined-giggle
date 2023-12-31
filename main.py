@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_power(work, time):
-        return work / time
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import random
+def roll_die():
+        return random.randint(1, 6)
