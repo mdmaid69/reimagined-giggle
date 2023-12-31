@@ -1,4 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  def subtract_numbers(x, y):
-        return x - y
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
