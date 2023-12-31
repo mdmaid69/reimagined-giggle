@@ -1,3 +1,8 @@
-print([x**2 for x in range(10)])
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
