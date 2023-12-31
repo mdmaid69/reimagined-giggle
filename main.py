@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
