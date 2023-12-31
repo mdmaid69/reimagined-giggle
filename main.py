@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
