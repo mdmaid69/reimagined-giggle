@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
