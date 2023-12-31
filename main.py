@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
