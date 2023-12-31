@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
