@@ -1,7 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
