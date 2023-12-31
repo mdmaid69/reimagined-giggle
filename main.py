@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import sys
-def exit_program():
-        sys.exit()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
