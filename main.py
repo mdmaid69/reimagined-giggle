@@ -1,11 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
