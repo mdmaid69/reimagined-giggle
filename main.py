@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import collections
+def create_queue():
+        return collections.deque()
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_factorial(n):
+        return math.factorial(n)
