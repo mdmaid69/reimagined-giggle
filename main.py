@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
