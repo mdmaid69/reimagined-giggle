@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
