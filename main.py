@@ -1,4 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_pressure(force, area):
+        return force / area
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
