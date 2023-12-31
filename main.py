@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
