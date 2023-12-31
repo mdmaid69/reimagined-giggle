@@ -1,7 +1,11 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import socket
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import threading
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
