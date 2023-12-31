@@ -1,8 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_acceleration(speed, time):
+        return speed / time
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
