@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_speed(distance, time):
+        return distance / time
