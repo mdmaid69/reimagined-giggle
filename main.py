@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
 import os
-def remove_directory(path):
-        os.rmdir(path)
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
