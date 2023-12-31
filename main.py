@@ -1,5 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def find_unique_words(sentence):
+        return set(sentence.split())
