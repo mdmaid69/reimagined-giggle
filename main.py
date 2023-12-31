@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
