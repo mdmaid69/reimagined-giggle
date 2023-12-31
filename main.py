@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_str(array):
+        return str(array)
