@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def get_array_item(array, i):
+        return array[i]
+def square_number(x):
+        return x**2
