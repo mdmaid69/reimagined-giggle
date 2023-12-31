@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
