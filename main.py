@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
