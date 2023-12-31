@@ -1,5 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def cube_number(x):
+        return x**3
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
