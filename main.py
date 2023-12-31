@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import collections
-def create_stack():
-        return collections.deque()
+from collections import Counter
+print(Counter("hello world"))
+def calculate_work(force, distance):
+        return force * distance
