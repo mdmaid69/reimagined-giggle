@@ -1,8 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def sort_list(lst):
+        return sorted(lst)
