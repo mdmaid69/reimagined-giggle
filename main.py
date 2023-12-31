@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_list(array):
+        return list(array)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
