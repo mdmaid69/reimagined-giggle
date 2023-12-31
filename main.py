@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
