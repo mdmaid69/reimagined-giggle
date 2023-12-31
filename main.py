@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def multiply_numbers(x, y):
-        return x * y
+def calculate_speed(distance, time):
+        return distance / time
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
