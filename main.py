@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def sort_list(lst):
+        return sorted(lst)
