@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import time
+def get_current_time():
+        return time.ctime()
