@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
