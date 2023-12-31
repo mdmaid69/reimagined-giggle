@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
