@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import datetime
+def get_current_date():
+        return datetime.date.today()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
