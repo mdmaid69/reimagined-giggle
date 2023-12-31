@@ -1,4 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
