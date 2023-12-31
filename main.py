@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
