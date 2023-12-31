@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
+  def subtract_numbers(x, y):
+        return x - y
 import collections
-def create_user_list():
-        return collections.UserList()
+def create_counter():
+        return collections.Counter()
