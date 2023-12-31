@@ -1,5 +1,11 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_speed(distance, time):
-        return distance / time
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
