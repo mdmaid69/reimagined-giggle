@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+i = 0
+while i < 5:
+        print(i)
+        i += 1
