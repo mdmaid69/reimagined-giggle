@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def split_path(path):
+        return os.path.split(path)
