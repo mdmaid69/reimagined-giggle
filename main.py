@@ -1,4 +1,7 @@
-def square_number(x):
-        return x**2
-  def multiply_numbers(x, y):
-        return x * y
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
