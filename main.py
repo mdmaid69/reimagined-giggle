@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
