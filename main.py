@@ -1,9 +1,7 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import array
-def get_array_from_file(filename, typecode):
+def get_array_from_bytes(bytes, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.frombytes(bytes)
         return a
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
