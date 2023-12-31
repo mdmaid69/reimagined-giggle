@@ -1,5 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def square_number(x):
-        return x**2
+from collections import Counter
+print(Counter("hello world"))
+  def convert_to_octal(n):
+        return oct(n)
