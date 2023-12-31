@@ -1,7 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
