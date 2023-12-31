@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
