@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
