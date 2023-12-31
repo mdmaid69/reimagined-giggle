@@ -1,5 +1,6 @@
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
