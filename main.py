@@ -1,6 +1,8 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import datetime
+def get_current_date():
+        return datetime.date.today()
