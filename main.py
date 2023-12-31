@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import logging
+def log_message(message):
+        logging.info(message)
