@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def add_numbers(a, b):
+        return a + b
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
