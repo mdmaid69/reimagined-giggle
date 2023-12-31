@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
