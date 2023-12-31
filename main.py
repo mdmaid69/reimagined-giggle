@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import platform
-def get_python_version():
-        return platform.python_version()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
