@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def count_elements(lst):
-        return len(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def square_number(x):
+        return x**2
