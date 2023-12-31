@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
