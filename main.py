@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def reverse_array(array):
-        array.reverse()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
