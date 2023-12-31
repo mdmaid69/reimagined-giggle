@@ -1,7 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
