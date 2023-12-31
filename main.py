@@ -1,3 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-for i in range(10): print(i)
+import re
+print(re.match("h.*o", "hello world"))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
