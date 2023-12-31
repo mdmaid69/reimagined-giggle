@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_cosine(x):
+        return math.cos(x)
