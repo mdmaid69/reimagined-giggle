@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_area_rectangle(l, w):
-        return l * w
+import time
+def get_current_time():
+        return time.time()
+import datetime
+print(datetime.datetime.now())
