@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
