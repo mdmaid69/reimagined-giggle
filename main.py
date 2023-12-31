@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
