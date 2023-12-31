@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
