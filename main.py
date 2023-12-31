@@ -1,4 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
