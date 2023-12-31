@@ -1,7 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
