@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
