@@ -1,8 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def count_characters(sentence):
+        return len(sentence)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
