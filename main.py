@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
