@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_sine(x):
+        return math.sin(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
