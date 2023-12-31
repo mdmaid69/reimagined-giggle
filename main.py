@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+x = 10
+y = 20
+print("Sum:", x + y)
