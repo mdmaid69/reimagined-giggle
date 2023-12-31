@@ -1,9 +1,6 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-  def is_odd(n):
-        return n % 2 != 0
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
