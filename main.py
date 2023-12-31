@@ -1,5 +1,8 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-from collections import Counter
-print(Counter("hello world"))
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
