@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
