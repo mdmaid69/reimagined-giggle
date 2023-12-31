@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
