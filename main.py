@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
