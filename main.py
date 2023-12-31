@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
