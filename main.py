@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
