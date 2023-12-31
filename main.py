@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import collections
-def create_user_list():
-        return collections.UserList()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
