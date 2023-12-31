@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
