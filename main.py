@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def is_even(n):
-        return n % 2 == 0
+import array
+def reverse_array(array):
+        array.reverse()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
