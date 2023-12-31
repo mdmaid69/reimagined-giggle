@@ -1,5 +1,7 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
