@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
