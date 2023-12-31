@@ -1,6 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
