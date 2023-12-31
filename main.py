@@ -1,8 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_area(radius):
+        return 3.14 * radius * radius
