@@ -1,12 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import sys
+def print_python_version():
+        return sys.version
+import tensorflow as tf
+print(tf.__version__)
