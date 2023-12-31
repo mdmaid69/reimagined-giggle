@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def greet(name):
-        print(f"Hello, {name}!")
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def count_characters(sentence):
+        return len(sentence)
