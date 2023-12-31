@@ -1,6 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def set_array_item(array, i, item):
+        array[i] = item
