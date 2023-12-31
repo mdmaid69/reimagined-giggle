@@ -1,6 +1,5 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import tensorflow as tf
+print(tf.__version__)
