@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
