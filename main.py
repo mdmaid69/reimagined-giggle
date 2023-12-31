@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import collections
-def create_user_list():
-        return collections.UserList()
+def reverse_string(s):
+        return s[::-1]
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
