@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_user_list():
+        return collections.UserList()
