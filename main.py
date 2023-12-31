@@ -1,5 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_pressure(force, area):
-        return force / area
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
