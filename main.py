@@ -1,4 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-print([x**2 for x in range(10)])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
