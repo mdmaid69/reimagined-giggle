@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
