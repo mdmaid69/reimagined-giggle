@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
