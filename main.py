@@ -1,5 +1,7 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def count_characters(sentence):
+        return len(sentence)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
