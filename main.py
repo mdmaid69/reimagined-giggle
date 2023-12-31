@@ -1,5 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def cube_number(x):
+        return x**3
