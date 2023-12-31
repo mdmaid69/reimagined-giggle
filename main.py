@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
