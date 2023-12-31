@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
