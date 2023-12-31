@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
