@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
