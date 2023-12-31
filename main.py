@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def get_array_as_list(array):
+        return list(array)
