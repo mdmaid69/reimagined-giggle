@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import datetime
+def get_current_date():
+        return datetime.date.today()
