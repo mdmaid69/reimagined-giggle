@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
+import tensorflow as tf
+print(tf.__version__)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_error_function(x):
+        return math.erf(x)
