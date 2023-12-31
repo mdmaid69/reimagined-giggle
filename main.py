@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
