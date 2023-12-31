@@ -1,5 +1,5 @@
 numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+print("Even:", [n for n in numbers if n % 2 == 0])
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
