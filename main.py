@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def is_odd(n):
+        return n % 2 != 0
+def calculate_acceleration(speed, time):
+        return speed / time
