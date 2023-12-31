@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import time
-def get_current_time():
-        return time.ctime()
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
