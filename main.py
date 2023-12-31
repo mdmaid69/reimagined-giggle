@@ -1,6 +1,5 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def is_odd(n):
+        return n % 2 != 0
