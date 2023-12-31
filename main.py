@@ -1,4 +1,9 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
