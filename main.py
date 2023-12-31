@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
