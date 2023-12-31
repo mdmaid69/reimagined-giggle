@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def add_numbers(x, y):
-        return x + y
+import array
+def clear_array(array):
+        array *= 0
+import array
+def reverse_array(array):
+        array.reverse()
