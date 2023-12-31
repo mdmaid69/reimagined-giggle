@@ -1,6 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import sys
+def exit_program():
+        sys.exit()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
