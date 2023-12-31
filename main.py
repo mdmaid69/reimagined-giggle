@@ -1,5 +1,6 @@
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def print_python_version():
+        print(sys.version)
+import time
+def get_current_time():
+        return time.time()
