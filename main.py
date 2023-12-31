@@ -1,6 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import array
+def reverse_array(array):
+        array.reverse()
