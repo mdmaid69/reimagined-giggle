@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def square_number(x):
+        return x**2
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
