@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import sys
-def print_python_version():
-        return sys.version
+def square_number(x):
+        return x**2
+for i in range(5):
+        print(i)
