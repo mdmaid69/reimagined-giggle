@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
 import array
-def get_array_item(array, i):
-        return array[i]
+def append_to_array(array, item):
+        array.append(item)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
