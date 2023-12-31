@@ -1,6 +1,8 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
 import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
