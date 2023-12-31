@@ -1,7 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
