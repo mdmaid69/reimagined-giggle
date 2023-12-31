@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
