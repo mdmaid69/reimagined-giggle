@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
