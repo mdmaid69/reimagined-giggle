@@ -1,5 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_array_length(array):
+        return len(array)
