@@ -1,7 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
+import platform
+def get_python_version():
+        return platform.python_version()
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_list_from_array(array):
+        return array.tolist()
