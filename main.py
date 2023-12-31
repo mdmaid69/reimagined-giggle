@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
