@@ -1,5 +1,6 @@
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
