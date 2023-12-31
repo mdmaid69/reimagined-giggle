@@ -1,8 +1,8 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
