@@ -1,8 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
