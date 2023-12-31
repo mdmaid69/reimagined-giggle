@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
