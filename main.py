@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
