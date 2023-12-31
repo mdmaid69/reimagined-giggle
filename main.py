@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
