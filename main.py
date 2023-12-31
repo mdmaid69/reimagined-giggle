@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import array
-def get_array_item(array, i):
-        return array[i]
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
