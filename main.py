@@ -1,6 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
