@@ -1,4 +1,7 @@
-def find_min(lst):
-        return min(lst)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def split_path(path):
+        return os.path.split(path)
