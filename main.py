@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_itemsize(array):
+        return array.itemsize
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
