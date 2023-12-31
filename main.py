@@ -1,6 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
