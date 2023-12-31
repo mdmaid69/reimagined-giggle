@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
