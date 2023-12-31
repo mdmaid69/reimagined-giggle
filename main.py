@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-x = 10
-y = 20
-print("Sum:", x + y)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_work(force, distance):
+        return force * distance
