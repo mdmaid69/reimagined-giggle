@@ -1,5 +1,7 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_square_root(x):
+        return math.sqrt(x)
