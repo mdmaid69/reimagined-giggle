@@ -1,5 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_as_list(array):
-        return list(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
