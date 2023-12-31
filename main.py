@@ -1,6 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import sys
-print(sys.version)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
