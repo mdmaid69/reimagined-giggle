@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
