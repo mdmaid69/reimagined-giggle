@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
