@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
