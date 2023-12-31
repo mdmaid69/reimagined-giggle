@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def reverse_list(lst):
+        return lst[::-1]
