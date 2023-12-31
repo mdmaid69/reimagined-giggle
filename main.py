@@ -1,6 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
