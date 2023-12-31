@@ -1,5 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def square_number(x):
+        return x**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
