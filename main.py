@@ -1,5 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def delete_file(file_name):
+        os.remove(file_name)
