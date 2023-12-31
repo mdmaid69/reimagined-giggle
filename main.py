@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
