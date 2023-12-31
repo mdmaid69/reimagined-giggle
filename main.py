@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_pressure(force, area):
-        return force / area
+  def is_odd(n):
+        return n % 2 != 0
+import datetime
+print(datetime.datetime.now())
