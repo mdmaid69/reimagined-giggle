@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
