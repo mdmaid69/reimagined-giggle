@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
