@@ -1,5 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-for i in range(5):
-        print(i)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
