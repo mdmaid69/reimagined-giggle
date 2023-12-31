@@ -1,5 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
