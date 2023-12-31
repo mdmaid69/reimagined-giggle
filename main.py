@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def multiply_numbers(x, y):
-        return x * y
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
