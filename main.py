@@ -1,6 +1,6 @@
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
