@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
