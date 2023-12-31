@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_power(work, time):
+        return work / time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
