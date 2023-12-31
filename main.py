@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+i = 0
+while i < 5:
+        print(i)
+        i += 1
