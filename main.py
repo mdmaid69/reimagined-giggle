@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_density(mass, volume):
-        return mass / volume
+import sys
+def print_python_version():
+        print(sys.version)
+def reverse_list(lst):
+        return lst[::-1]
