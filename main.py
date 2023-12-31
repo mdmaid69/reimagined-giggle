@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import time
+print(time.time())
+import array
+def get_array_item(array, i):
+        return array[i]
