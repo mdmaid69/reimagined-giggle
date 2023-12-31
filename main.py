@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
