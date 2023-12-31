@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
