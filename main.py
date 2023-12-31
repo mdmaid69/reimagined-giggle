@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
