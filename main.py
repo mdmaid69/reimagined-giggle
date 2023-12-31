@@ -1,5 +1,10 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
