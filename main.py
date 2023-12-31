@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
