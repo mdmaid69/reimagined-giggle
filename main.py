@@ -1,8 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
