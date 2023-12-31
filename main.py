@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def count_characters(sentence):
+        return len(sentence)
+import array
+def get_array_as_set(array):
+        return set(array)
