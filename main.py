@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_area(radius):
+        return 3.14 * radius * radius
