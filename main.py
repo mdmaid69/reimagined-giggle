@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
