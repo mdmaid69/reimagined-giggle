@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-  def convert_to_octal(n):
-        return oct(n)
+def add_numbers(a, b):
+        return a + b
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
