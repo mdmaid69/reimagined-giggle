@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
