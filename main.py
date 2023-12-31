@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
