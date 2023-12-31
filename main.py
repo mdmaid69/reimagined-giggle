@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
