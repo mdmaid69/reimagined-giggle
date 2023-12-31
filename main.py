@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
