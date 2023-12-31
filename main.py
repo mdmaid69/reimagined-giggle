@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
