@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import sys
+print(sys.version)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
