@@ -1,6 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_as_complex(array):
+        return complex(array[0])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
