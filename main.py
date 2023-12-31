@@ -1,4 +1,5 @@
+import time
+print(time.time())
 import math
-print(math.pi)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
