@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
