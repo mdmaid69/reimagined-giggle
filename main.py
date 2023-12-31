@@ -1,6 +1,3 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def multiply_numbers(x, y):
+        return x * y
+print([x**2 for x in range(10)])
