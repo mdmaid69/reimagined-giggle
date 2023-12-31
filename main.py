@@ -1,5 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def calculate_area_rectangle(l, w):
-        return l * w
+import tensorflow as tf
+print(tf.__version__)
+import time
+print(time.time())
