@@ -1,5 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
