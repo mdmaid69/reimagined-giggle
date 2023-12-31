@@ -1,4 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def reverse_list(lst):
+        return lst[::-1]
+  def square_number(x):
+        return x**2
