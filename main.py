@@ -1,4 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def is_odd(n):
+        return n % 2 != 0
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
