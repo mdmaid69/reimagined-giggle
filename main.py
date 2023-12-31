@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def clear_array(array):
-        array *= 0
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
