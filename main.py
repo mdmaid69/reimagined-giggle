@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  def sort_list(lst):
+        return sorted(lst)
