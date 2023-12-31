@@ -1,4 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def cube_number(x):
-        return x**3
+print(sum(range(10)))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
