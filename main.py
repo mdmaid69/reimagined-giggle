@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def is_palindrome(s):
+        return s == s[::-1]
