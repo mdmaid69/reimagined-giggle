@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
