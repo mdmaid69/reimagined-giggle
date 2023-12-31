@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
