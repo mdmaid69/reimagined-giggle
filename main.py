@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
