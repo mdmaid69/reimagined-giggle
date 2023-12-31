@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
