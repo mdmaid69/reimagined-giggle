@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def multiply_numbers(x, y):
-        return x * y
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
