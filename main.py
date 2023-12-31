@@ -1,6 +1,8 @@
+  def square_number(x):
+        return x**2
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
