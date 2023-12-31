@@ -1,5 +1,5 @@
+def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_sine(x):
-        return math.sin(x)
-  def square_number(x):
-        return x**2
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
