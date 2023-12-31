@@ -1,3 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-print([x**2 for x in range(10)])
+def count_words(sentence):
+        return len(sentence.split())
+import time
+def get_current_time():
+        return time.time()
