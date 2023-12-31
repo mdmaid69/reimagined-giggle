@@ -1,6 +1,5 @@
+  def convert_to_octal(n):
+        return oct(n)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
