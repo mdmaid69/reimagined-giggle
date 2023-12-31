@@ -1,4 +1,8 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_volume(length, width, height):
-        return length * width * height
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
