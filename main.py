@@ -1,5 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def convert_to_hex(n):
+        return hex(n)
