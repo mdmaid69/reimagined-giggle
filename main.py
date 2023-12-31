@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def reverse_list(lst):
+        return lst[::-1]
