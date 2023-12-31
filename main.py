@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_speed(distance, time):
+        return distance / time
