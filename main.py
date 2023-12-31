@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
