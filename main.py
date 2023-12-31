@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
