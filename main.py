@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
