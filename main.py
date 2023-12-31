@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def multiply_numbers(x, y):
+        return x * y
