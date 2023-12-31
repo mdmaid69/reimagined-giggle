@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import os
+def get_current_working_directory():
+        return os.getcwd()
