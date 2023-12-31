@@ -1,5 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def count_characters(sentence):
-        return len(sentence)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
