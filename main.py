@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def is_odd(n):
+        return n % 2 != 0
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
