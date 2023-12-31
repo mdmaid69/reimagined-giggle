@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
