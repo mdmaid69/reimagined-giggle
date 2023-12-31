@@ -1,6 +1,6 @@
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
