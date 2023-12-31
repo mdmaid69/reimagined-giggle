@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def greet(name):
-        print(f"Hello, {name}!")
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
