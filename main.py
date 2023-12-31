@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def multiply_numbers(x, y):
+        return x * y
