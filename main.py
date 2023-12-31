@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
