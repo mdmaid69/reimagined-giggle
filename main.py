@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_slice(array, i, j):
+        return array[i:j]
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
