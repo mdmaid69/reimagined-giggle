@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_directory_name(path):
+        return os.path.dirname(path)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
