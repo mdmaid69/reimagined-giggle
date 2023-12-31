@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
