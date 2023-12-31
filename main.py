@@ -1,4 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def count_elements(lst):
+        return len(lst)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
