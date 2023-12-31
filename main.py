@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
+import array
+def get_array_length(array):
+        return len(array)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_square_root(x):
+        return math.sqrt(x)
