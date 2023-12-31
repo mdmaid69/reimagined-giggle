@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def calculate_work(force, distance):
-        return force * distance
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
