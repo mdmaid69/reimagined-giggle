@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_as_str(array):
-        return str(array)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_volume(length, width, height):
+        return length * width * height
