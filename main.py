@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-name = "Python"
-print("Hello,", name)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_array_length(array):
+        return len(array)
