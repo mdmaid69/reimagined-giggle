@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import re
+print(re.match("h.*o", "hello world"))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
