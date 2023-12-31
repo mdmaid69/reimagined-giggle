@@ -1,7 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
