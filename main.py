@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
