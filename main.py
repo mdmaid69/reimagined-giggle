@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def find_min(numbers):
+        return min(numbers)
