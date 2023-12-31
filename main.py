@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
