@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
