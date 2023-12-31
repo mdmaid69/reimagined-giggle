@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import sys
+def exit_program():
+        sys.exit()
