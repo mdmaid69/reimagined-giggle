@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  def multiply_numbers(x, y):
+        return x * y
