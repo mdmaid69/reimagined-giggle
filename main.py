@@ -1,5 +1,12 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
