@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def get_array_as_tuple(array):
+        return tuple(array)
