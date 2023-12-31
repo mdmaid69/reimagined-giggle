@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import collections
+def create_queue():
+        return collections.deque()
