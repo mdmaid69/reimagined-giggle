@@ -1,3 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-for i in range(10): print(i)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
