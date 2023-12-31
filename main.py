@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import time
-def get_current_time():
-        return time.ctime()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
