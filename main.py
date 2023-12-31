@@ -1,8 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def get_array_item(array, i):
+        return array[i]
