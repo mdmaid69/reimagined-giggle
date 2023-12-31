@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import tensorflow as tf
+print(tf.__version__)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
