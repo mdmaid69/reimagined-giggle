@@ -1,4 +1,7 @@
-def find_max(lst):
-        return max(lst)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import collections
+def create_user_list():
+        return collections.UserList()
