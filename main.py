@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
