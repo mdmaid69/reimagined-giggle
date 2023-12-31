@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
