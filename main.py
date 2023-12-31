@@ -1,9 +1,5 @@
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
 import array
-def clear_array(array):
-        array *= 0
+def append_to_array(array, item):
+        array.append(item)
+import json
+print(json.dumps({"name": "John", "age": 30}))
