@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def append_to_array(array, item):
+        array.append(item)
