@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def square_number(x):
+        return x**2
+import platform
+def get_python_version():
+        return platform.python_version()
