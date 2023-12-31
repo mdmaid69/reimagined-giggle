@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_acceleration(speed, time):
-        return speed / time
+import getpass
+def get_username():
+        return getpass.getuser()
+import platform
+def get_python_version():
+        return platform.python_version()
