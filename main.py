@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
