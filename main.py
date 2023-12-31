@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
