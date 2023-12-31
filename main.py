@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
