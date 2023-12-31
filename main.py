@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
