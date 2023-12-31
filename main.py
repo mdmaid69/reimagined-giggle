@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import sys
-def exit_program():
-        sys.exit()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import getpass
+def get_username():
+        return getpass.getuser()
