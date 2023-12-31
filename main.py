@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import collections
-def create_queue():
-        return collections.deque()
+print(sum(range(10)))
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
