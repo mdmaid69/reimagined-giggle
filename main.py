@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
