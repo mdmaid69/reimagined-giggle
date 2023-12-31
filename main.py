@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
