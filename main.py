@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_list(array):
-        return list(array)
+  def convert_to_hex(n):
+        return hex(n)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
