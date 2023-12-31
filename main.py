@@ -1,6 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
