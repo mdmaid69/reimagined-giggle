@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
