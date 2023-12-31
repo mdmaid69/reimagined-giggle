@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
