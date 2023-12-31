@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
