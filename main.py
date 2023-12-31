@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
