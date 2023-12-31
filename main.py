@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
