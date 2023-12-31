@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
