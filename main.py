@@ -1,8 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
