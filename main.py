@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  def calculate_area_rectangle(l, w):
+        return l * w
