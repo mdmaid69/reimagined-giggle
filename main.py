@@ -1,6 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def find_max(numbers):
+        return max(numbers)
