@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
