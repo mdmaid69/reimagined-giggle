@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
