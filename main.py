@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def count_elements(lst):
+        return len(lst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
