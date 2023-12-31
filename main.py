@@ -1,7 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
