@@ -1,6 +1,7 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
