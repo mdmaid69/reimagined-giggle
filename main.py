@@ -1,7 +1,8 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def divide_numbers(x, y):
-        return x / y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
