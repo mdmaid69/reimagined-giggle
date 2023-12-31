@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def convert_to_octal(n):
+        return oct(n)
+def remove_duplicates(lst):
+        return list(set(lst))
