@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def count_elements(lst):
+        return len(lst)
