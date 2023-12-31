@@ -1,7 +1,6 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
