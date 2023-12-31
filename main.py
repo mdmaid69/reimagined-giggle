@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
