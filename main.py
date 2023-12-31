@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
