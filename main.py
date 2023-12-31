@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
