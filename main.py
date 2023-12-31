@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+text = "Hello, world!"
+print("Words:", len(text.split()))
