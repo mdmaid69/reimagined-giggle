@@ -1,5 +1,11 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
