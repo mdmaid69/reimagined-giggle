@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_current_working_directory():
+        return os.getcwd()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
