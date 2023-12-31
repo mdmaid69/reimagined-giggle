@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
