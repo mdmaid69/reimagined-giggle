@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import sys
+def exit_program():
+        sys.exit()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
