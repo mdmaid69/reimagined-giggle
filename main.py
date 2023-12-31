@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
