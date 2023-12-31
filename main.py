@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
