@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import datetime
+def get_today_date():
+        return datetime.date.today()
