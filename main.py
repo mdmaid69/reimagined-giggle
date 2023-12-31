@@ -1,7 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_string_from_array(array):
+        return array.tobytes()
