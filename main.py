@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import platform
-def get_python_version():
-        return platform.python_version()
+def get_array_as_repr(array):
+        return repr(array)
+import collections
+def create_user_string():
+        return collections.UserString()
