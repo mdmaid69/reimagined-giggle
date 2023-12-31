@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import collections
+def create_counter():
+        return collections.Counter()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
