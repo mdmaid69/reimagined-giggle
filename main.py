@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_acceleration(speed, time):
+        return speed / time
+def greet(name):
+        print(f"Hello, {name}!")
