@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
