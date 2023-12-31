@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
