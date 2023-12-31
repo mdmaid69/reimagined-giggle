@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import os
-print(os.getcwd())
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
