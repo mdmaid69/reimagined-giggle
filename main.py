@@ -1,5 +1,8 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
