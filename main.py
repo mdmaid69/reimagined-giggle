@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def remove_duplicates(lst):
-        return list(set(lst))
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
