@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_as_str(array):
+        return str(array)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
