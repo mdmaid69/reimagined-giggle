@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def find_unique_words(sentence):
-        return set(sentence.split())
+def sort_list(lst):
+        return sorted(lst)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
