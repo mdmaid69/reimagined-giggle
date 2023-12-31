@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
