@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_item(array, i):
-        return array[i]
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
