@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_cosine(x):
+        return math.cos(x)
