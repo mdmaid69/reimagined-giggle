@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def is_palindrome(s):
+        return s == s[::-1]
   import os
-  def get_file_uid(file_name):
+  def get_file_owner(file_name):
         return os.stat(file_name).st_uid
