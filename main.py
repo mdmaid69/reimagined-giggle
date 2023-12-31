@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_counter():
+        return collections.Counter()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
