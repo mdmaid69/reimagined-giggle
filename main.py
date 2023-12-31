@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
