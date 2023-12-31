@@ -1,4 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-print(sum(range(10)))
+import array
+def get_array_typecode(array):
+        return array.typecode
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
