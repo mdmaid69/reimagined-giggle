@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_as_list(array):
+        return list(array)
