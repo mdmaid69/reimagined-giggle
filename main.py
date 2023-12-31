@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
