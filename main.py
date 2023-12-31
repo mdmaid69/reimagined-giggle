@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import sys
-print(sys.version)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def subtract_numbers(x, y):
+        return x - y
