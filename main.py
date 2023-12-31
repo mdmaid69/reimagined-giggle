@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
