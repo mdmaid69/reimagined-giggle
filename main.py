@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import sys
-print(sys.version)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
