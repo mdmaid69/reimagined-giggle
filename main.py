@@ -1,6 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
