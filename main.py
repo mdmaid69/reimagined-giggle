@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
