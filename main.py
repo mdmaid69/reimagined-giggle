@@ -1,6 +1,7 @@
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
