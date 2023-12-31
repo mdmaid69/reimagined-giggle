@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_speed(distance, time):
-        return distance / time
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
