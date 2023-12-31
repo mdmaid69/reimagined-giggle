@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
