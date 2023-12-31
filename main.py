@@ -1,8 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
