@@ -1,7 +1,5 @@
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def reverse_array(array):
-        array.reverse()
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def find_min(lst):
+        return min(lst)
