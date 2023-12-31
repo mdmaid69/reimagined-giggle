@@ -1,5 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_force(mass, acceleration):
+        return mass * acceleration
