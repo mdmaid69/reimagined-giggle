@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
