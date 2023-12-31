@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def find_max(lst):
-        return max(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
