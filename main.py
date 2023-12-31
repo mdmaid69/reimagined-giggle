@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import collections
+def create_counter():
+        return collections.Counter()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
