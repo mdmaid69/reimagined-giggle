@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
