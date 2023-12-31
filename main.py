@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
