@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import numpy as np
+print(np.array([1, 2, 3]))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
