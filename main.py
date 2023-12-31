@@ -1,5 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
