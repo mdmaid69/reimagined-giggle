@@ -1,5 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+name = "Python"
+print("Hello,", name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
