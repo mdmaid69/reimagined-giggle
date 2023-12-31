@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def get_array_typecode(array):
-        return array.typecode
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
