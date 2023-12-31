@@ -1,5 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
