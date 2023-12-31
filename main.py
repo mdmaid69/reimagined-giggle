@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
