@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_volume(length, width, height):
+        return length * width * height
