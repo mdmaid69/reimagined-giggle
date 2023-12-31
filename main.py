@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def square_number(x):
+        return x**2
