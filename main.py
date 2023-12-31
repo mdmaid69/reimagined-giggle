@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
