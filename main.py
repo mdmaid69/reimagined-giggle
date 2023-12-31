@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import random
-print(random.randint(0, 100))
+  def convert_to_binary(n):
+        return bin(n)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
