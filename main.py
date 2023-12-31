@@ -1,6 +1,8 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
