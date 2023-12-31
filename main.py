@@ -1,8 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
