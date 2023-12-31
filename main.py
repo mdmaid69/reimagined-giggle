@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
