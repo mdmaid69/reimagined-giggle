@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def count_elements(lst):
+        return len(lst)
+import collections
+def create_counter():
+        return collections.Counter()
