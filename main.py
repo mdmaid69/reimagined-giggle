@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
