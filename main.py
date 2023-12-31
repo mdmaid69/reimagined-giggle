@@ -1,6 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import sys
+def exit_program():
+        sys.exit()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
