@@ -1,5 +1,7 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def clear_array(array):
+        array *= 0
