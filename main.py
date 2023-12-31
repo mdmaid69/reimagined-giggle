@@ -1,7 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def get_array_as_bool(array):
+        return bool(array)
