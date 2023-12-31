@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
