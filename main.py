@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
