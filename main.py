@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
