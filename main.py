@@ -1,5 +1,7 @@
-name = "Python"
-print("Hello,", name)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import sys
+def print_python_version():
+        return sys.version
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
