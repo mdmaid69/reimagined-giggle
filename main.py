@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
