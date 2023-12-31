@@ -1,6 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
