@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_error_function(x):
+        return math.erf(x)
