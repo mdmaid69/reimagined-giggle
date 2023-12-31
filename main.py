@@ -1,6 +1,13 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
