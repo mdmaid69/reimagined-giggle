@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
