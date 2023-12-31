@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def find_max(lst):
+        return max(lst)
