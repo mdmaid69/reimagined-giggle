@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
