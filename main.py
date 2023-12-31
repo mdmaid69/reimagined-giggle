@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
