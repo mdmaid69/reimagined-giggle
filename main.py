@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
