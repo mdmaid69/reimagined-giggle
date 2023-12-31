@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
