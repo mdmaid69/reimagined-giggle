@@ -1,6 +1,5 @@
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def set_array_item(array, i, item):
+        array[i] = item
