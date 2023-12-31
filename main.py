@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_user_list():
+        return collections.UserList()
