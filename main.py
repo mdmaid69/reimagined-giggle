@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
