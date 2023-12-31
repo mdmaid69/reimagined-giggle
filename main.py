@@ -1,5 +1,4 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def cube_number(x):
+        return x**3
+  def convert_to_binary(n):
+        return bin(n)
