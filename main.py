@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import time
+def get_current_time():
+        return time.time()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
