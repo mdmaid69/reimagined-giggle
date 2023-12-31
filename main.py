@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
