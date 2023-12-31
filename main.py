@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
