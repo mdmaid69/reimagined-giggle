@@ -1,12 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def sort_list(lst):
+        return sorted(lst)
