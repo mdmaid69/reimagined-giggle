@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
