@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
