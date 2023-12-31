@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import time
-def get_current_time():
-        return time.ctime()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def is_palindrome(s):
+        return s == s[::-1]
