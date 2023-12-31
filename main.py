@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
