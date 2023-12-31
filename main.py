@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def convert_to_hex(n):
-        return hex(n)
+print(math.pi)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
