@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def get_list_from_array(array):
+        return array.tolist()
