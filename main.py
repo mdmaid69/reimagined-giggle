@@ -1,5 +1,6 @@
+import array
+def get_array_as_list(array):
+        return list(array)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
