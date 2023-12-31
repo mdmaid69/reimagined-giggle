@@ -1,6 +1,8 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
