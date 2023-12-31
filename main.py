@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
