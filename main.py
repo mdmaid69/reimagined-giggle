@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
