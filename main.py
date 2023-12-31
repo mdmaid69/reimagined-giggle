@@ -1,5 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def is_palindrome(s):
-        return s == s[::-1]
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import collections
+def create_stack():
+        return collections.deque()
