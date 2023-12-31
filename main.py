@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
