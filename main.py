@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import logging
+def log_message(message):
+        logging.info(message)
