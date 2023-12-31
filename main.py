@@ -1,6 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+print([x**2 for x in range(10)])
