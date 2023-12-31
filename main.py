@@ -1,7 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import sys
+def print_python_version():
+        print(sys.version)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
