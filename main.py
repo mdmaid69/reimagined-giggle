@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
