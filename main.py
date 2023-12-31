@@ -1,7 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+import array
+def get_array_as_set(array):
+        return set(array)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
