@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
