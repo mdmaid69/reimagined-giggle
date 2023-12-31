@@ -1,6 +1,9 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
