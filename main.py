@@ -1,7 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def convert_to_hex(n):
+        return hex(n)
+  def convert_to_binary(n):
+        return bin(n)
