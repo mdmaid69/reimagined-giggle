@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def convert_to_octal(n):
+        return oct(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
