@@ -1,5 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
