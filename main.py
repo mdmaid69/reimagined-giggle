@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_exponential(x):
+        return math.exp(x)
