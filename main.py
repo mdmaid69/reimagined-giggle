@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
