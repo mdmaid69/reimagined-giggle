@@ -1,5 +1,7 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
