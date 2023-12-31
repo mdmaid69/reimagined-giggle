@@ -1,6 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
