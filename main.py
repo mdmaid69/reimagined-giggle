@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_speed(distance, time):
+        return distance / time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
