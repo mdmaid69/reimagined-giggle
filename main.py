@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
