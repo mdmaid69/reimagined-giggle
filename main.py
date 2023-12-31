@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def subtract_numbers(x, y):
+        return x - y
