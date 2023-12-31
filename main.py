@@ -1,4 +1,4 @@
-for i in range(5):
-        print(i)
-import time
-print(time.time())
+import sys
+print(sys.version)
+name = "Python"
+print("Hello,", name)
