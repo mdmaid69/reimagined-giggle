@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import logging
+def log_message(message):
+        logging.info(message)
