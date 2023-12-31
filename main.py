@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def add_numbers(x, y):
+        return x + y
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
