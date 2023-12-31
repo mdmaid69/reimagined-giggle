@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def find_min(numbers):
+        return min(numbers)
+def convert_to_hex(n):
+        return hex(n)
