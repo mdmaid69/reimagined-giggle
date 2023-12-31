@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import sys
-def exit_program():
-        sys.exit()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def count_elements(lst):
+        return len(lst)
