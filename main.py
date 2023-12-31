@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def append_to_array(array, item):
-        array.append(item)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
