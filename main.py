@@ -1,6 +1,5 @@
+def find_min(lst):
+        return min(lst)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
