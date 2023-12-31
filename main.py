@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
