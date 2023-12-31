@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def split_path(path):
+        return os.path.split(path)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
