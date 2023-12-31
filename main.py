@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def convert_to_hex(n):
+        return hex(n)
