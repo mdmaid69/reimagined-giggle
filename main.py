@@ -1,6 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+print("Hello, world!")
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
