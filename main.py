@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import collections
+def create_user_list():
+        return collections.UserList()
+import tensorflow as tf
+print(tf.__version__)
