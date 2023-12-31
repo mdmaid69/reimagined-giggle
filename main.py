@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def sort_numbers(numbers):
+        return sorted(numbers)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
