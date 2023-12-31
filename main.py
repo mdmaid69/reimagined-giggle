@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import sys
+def print_python_version():
+        return sys.version
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
