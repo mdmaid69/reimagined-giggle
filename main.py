@@ -1,7 +1,5 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  def sort_list(lst):
+        return sorted(lst)
