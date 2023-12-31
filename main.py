@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
