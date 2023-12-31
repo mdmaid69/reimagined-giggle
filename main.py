@@ -1,7 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
