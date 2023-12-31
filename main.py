@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def subtract_numbers(x, y):
+        return x - y
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
