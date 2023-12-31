@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_array_as_bool(array):
+        return bool(array)
