@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import time
+def get_current_time():
+        return time.time()
