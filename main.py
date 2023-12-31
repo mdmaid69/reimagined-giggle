@@ -1,8 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_list_from_array(array):
+        return array.tolist()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
