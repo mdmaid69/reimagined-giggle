@@ -1,4 +1,7 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
