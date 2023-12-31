@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import collections
-def create_counter():
-        return collections.Counter()
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
