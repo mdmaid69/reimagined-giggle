@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+print(math.pi)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
