@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
