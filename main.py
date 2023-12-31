@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
