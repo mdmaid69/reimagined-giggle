@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
