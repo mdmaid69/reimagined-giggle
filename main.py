@@ -1,6 +1,8 @@
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
