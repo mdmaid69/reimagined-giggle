@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
