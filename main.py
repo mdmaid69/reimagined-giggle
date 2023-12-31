@@ -1,5 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
 import array
-def append_to_array(array, item):
-        array.append(item)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
