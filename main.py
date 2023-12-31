@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_acceleration(speed, time):
+        return speed / time
