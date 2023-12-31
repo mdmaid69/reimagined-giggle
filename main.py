@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import collections
+def create_user_string():
+        return collections.UserString()
