@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
