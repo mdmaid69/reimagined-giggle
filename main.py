@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
