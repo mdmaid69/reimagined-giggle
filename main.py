@@ -1,6 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def count_elements(lst):
+        return len(lst)
+def add_numbers(a, b):
+        return a + b
