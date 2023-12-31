@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
