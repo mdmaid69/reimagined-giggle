@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def count_elements(lst):
-        return len(lst)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
