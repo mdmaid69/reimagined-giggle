@@ -1,8 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
