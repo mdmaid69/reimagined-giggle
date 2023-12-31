@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
