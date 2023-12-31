@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
