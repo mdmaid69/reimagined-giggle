@@ -1,5 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_cosine(x):
+        return math.cos(x)
