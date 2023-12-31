@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
