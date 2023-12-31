@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
