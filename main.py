@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  def cube_number(x):
-        return x**3
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_area_rectangle(l, w):
+        return l * w
