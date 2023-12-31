@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
