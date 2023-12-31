@@ -1,6 +1,10 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_floor(x):
+        return math.floor(x)
