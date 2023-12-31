@@ -1,5 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
