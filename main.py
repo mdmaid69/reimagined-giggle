@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def greet(name):
+        print(f"Hello, {name}!")
