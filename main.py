@@ -1,5 +1,5 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
