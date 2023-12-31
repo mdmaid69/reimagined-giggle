@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
