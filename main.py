@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import sys
-def exit_program():
-        sys.exit()
+def is_palindrome(s):
+        return s == s[::-1]
+import collections
+def create_user_list():
+        return collections.UserList()
