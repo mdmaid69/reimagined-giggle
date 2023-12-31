@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def count_elements(lst):
+        return len(lst)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
