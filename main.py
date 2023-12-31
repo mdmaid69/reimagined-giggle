@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def cube_number(x):
+        return x**3
