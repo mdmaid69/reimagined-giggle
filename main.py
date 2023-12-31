@@ -1,7 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
