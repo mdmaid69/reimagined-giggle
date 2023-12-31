@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
