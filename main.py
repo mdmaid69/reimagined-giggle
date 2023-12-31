@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_list_from_array(array):
+        return array.tolist()
