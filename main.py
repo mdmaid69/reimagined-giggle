@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
