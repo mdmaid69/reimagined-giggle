@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import collections
+def create_priority_queue():
+        return collections.deque()
