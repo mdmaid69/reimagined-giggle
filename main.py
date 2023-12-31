@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import platform
-def get_python_version():
-        return platform.python_version()
+  def is_even(n):
+        return n % 2 == 0
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
