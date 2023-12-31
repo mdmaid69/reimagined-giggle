@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import collections
+def create_user_list():
+        return collections.UserList()
 import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
