@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
