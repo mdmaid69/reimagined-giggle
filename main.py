@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import array
+def reverse_array(array):
+        array.reverse()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
