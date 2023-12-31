@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
