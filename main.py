@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
