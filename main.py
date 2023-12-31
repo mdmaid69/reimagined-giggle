@@ -1,5 +1,8 @@
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
