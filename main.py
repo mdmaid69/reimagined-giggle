@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
