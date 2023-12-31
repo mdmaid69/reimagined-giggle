@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_item(array, i):
+        return array[i]
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
