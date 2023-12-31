@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
