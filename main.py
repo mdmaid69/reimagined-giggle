@@ -1,5 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
