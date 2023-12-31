@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_work(force, distance):
+        return force * distance
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
