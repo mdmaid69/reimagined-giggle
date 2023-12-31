@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
