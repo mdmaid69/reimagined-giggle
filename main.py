@@ -1,7 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+print(random.randint(0, 100))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
