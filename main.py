@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
