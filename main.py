@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import sys
+def print_python_version():
+        return sys.version
+def count_words(sentence):
+        return len(sentence.split())
