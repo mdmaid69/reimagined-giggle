@@ -1,7 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
