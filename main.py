@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import collections
+def create_user_string():
+        return collections.UserString()
