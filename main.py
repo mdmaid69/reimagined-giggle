@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def convert_to_binary(n):
+        return bin(n)
