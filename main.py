@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def clear_array(array):
+        array *= 0
+import collections
+def create_queue():
+        return collections.deque()
