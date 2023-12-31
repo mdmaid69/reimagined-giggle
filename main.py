@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def cube_number(x):
+        return x**3
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
