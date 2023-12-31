@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
