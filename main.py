@@ -1,4 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def sort_numbers(numbers):
-        return sorted(numbers)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
