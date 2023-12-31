@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
