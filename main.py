@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
