@@ -1,6 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def square_number(x):
+        return x**2
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
