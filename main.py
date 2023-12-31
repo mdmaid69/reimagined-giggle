@@ -1,5 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def split_path(path):
+        return os.path.split(path)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
