@@ -1,6 +1,6 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
