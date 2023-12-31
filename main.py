@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  def is_odd(n):
+        return n % 2 != 0
