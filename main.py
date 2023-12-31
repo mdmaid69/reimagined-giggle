@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-x = 10
-y = 20
-print("Sum:", x + y)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
