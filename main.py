@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def get_current_directory():
+        return os.getcwd()
+import re
+print(re.match("h.*o", "hello world"))
