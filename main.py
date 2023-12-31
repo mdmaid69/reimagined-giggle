@@ -1,6 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
