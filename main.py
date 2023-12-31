@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import getpass
+def get_username():
+        return getpass.getuser()
