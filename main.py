@@ -1,6 +1,5 @@
 import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def get_current_time():
+        return time.time()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
