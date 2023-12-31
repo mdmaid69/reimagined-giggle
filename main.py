@@ -1,6 +1,8 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import sys
+print(sys.version)
