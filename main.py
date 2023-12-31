@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
