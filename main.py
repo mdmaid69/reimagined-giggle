@@ -1,10 +1,10 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+import threading
 
-{body}")
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
