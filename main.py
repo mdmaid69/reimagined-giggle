@@ -1,5 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def multiply_numbers(x, y):
-        return x * y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def cube_number(x):
+        return x**3
