@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
