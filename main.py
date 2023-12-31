@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
