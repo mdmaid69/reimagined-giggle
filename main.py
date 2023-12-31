@@ -1,5 +1,6 @@
-import time
-print(time.time())
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
