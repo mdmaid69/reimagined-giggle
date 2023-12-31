@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import collections
+def create_user_dict():
+        return collections.UserDict()
