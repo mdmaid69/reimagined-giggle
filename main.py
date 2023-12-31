@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-from collections import Counter
-print(Counter("hello world"))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
