@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import time
+def get_current_time():
+        return time.time()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
