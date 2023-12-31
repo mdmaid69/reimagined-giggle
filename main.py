@@ -1,5 +1,8 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import datetime
-print(datetime.datetime.now())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
