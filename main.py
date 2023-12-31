@@ -1,6 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def change_working_directory(path):
+        os.chdir(path)
