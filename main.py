@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
