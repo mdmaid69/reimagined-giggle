@@ -1,5 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-name = "Python"
-print("Hello,", name)
+import math
+print(math.pi)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
