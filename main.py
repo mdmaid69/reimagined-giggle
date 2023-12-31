@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_complex(array):
+        return complex(array[0])
