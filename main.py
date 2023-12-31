@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import time
-def get_current_time():
-        return time.time()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
