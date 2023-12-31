@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
