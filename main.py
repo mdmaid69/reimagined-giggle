@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
