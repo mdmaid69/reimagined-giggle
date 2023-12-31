@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_counter():
+        return collections.Counter()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
