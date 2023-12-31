@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
