@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_volume(length, width, height):
+        return length * width * height
