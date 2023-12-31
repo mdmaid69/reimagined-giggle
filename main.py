@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
