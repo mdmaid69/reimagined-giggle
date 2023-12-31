@@ -1,5 +1,6 @@
 import sys
-print(sys.version)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def print_python_version():
+        return sys.version
+import array
+def convert_array_to_list(array):
+        return array.tolist()
