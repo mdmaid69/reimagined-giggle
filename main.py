@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def multiply_numbers(x, y):
-        return x * y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def convert_to_binary(n):
+        return bin(n)
