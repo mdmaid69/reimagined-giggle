@@ -1,5 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import datetime
-print(datetime.datetime.now())
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
