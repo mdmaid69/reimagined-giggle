@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
