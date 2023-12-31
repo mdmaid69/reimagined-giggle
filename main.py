@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import datetime
+def get_current_date():
+        return datetime.date.today()
