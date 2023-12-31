@@ -1,5 +1,7 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def is_even(n):
+        return n % 2 == 0
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
