@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
