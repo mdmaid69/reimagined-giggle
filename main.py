@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
