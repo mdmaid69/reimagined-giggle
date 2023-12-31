@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_max(numbers):
+        return max(numbers)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
