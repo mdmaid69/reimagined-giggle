@@ -1,5 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def convert_to_binary(n):
-        return bin(n)
+def find_min(lst):
+        return min(lst)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
