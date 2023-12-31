@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def get_array_as_list(array):
+        return list(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
