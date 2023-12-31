@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
