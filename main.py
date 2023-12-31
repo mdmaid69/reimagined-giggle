@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import array
+def get_array_item(array, i):
+        return array[i]
+import sys
+def print_python_version():
+        return sys.version
