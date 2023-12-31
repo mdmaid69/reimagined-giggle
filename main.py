@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  def square_number(x):
-        return x**2
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
