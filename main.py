@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
