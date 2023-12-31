@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def cube_number(x):
+        return x**3
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
