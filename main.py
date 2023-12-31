@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_string_from_array(array):
+        return array.tobytes()
