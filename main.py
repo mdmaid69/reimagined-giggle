@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
