@@ -1,6 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def convert_to_hex(n):
+        return hex(n)
+import tensorflow as tf
+print(tf.__version__)
