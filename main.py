@@ -1,6 +1,6 @@
+import array
+def convert_array_to_string(array):
+        return array.tostring()
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
