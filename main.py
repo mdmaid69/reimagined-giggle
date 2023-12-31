@@ -1,6 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def get_array_as_float(array):
+        return float(array[0])
