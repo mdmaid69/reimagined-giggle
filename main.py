@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import sys
-print(sys.version)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import collections
+def create_stack():
+        return collections.deque()
