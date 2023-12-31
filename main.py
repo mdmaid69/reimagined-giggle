@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def is_palindrome(s):
-        return s == s[::-1]
+def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_counter():
+        return collections.Counter()
