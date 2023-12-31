@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
