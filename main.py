@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_min(numbers):
+        return min(numbers)
