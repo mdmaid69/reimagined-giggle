@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
