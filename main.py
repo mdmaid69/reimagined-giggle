@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
