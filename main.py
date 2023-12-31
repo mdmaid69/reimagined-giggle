@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import time
-def get_current_time():
-        return time.ctime()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import os
+def remove_directory(path):
+        os.rmdir(path)
