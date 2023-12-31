@@ -1,6 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import collections
-def create_user_string():
-        return collections.UserString()
+import time
+print(time.time())
+def calculate_acceleration(speed, time):
+        return speed / time
