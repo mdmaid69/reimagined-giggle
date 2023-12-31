@@ -1,6 +1,8 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
