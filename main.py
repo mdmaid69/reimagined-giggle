@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  def convert_to_octal(n):
-        return oct(n)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
