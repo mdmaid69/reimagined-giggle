@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
