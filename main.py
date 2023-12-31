@@ -1,6 +1,7 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+text = "Hello, world!"
+print("Characters:", len(text))
