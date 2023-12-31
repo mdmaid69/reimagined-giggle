@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
