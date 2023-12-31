@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def find_min(lst):
-        return min(lst)
+def find_max(lst):
+        return max(lst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
