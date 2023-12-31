@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import getpass
+def get_username():
+        return getpass.getuser()
+def square_number(x):
+        return x**2
