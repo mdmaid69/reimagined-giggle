@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
