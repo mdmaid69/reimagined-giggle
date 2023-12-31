@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
