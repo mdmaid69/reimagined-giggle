@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
