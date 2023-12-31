@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_buffer_info(array):
+        return array.buffer_info()
