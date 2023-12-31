@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import time
-def get_current_time():
-        return time.time()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
