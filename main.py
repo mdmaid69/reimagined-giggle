@@ -1,6 +1,5 @@
 import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+print(sys.version)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
