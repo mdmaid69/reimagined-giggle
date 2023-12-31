@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import random
+print(random.randint(0, 100))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
