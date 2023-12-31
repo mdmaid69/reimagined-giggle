@@ -1,6 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
