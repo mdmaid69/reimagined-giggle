@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
