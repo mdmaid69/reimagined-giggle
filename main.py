@@ -1,5 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def convert_to_binary(n):
-        return bin(n)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_acceleration(speed, time):
+        return speed / time
