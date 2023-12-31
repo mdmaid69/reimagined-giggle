@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
