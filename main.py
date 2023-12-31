@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
