@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
