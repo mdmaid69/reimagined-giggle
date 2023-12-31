@@ -1,6 +1,6 @@
+import array
+def set_array_item(array, i, item):
+        array[i] = item
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
