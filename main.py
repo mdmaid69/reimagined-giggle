@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
