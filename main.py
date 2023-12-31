@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
