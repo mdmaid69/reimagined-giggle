@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
