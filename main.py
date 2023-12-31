@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
