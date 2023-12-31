@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_square_root(x):
+        return math.sqrt(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
