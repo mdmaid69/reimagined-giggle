@@ -1,5 +1,8 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def square_number(x):
+        return x**2
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
