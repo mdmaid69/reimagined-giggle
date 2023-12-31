@@ -1,6 +1,6 @@
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
