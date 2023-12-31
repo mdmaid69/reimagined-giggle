@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
