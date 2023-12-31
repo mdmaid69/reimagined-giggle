@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
