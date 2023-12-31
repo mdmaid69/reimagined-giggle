@@ -1,5 +1,5 @@
+def find_min(lst):
+        return min(lst)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
