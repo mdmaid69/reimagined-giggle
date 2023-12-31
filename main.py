@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
