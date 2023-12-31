@@ -1,6 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
