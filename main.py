@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
