@@ -1,5 +1,6 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import tensorflow as tf
-print(tf.__version__)
+def clear_array(array):
+        array *= 0
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
