@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_array_as_list(array):
+        return list(array)
