@@ -1,5 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
