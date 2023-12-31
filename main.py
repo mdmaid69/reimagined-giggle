@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
