@@ -1,5 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
