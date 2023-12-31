@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
