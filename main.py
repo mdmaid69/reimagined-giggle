@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+text = "Hello, world!"
+print("Words:", len(text.split()))
