@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
