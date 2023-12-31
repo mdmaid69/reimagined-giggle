@@ -1,4 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def find_min(numbers):
-        return min(numbers)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
