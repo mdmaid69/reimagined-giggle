@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_power(work, time):
+        return work / time
