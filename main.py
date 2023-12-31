@@ -1,5 +1,6 @@
   import os
-  def get_file_block_size(file_name):
+  def get_file_blksize(file_name):
         return os.stat(file_name).st_blksize
-def calculate_density(mass, volume):
-        return mass / volume
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
