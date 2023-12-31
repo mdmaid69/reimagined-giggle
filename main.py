@@ -1,8 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
