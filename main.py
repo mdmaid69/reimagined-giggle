@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
