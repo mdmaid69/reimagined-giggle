@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_pressure(force, area):
+        return force / area
+import tensorflow as tf
+print(tf.__version__)
