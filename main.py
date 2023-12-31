@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_area(radius):
+        return 3.14 * radius * radius
