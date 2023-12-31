@@ -1,6 +1,5 @@
+def find_unique_words(sentence):
+        return set(sentence.split())
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
