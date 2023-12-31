@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
