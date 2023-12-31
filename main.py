@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def add_numbers(a, b):
+        return a + b
+def sort_list(lst):
+        return sorted(lst)
