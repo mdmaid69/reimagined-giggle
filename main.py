@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
