@@ -1,8 +1,5 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
