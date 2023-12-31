@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
