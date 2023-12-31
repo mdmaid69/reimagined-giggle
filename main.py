@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
