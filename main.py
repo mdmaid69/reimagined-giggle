@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def square_number(x):
+        return x**2
+import array
+def get_string_from_array(array):
+        return array.tobytes()
