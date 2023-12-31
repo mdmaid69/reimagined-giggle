@@ -1,5 +1,12 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
