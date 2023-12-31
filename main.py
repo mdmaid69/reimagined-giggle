@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
