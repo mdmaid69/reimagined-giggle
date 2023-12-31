@@ -1,3 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-for i in range(10): print(i)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
