@@ -1,5 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_pressure(force, area):
-        return force / area
+import random
+print(random.randint(0, 100))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
