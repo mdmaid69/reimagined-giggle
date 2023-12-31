@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
