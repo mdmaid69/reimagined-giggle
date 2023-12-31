@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def add_numbers(a, b):
+        return a + b
