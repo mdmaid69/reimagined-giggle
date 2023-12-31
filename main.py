@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
