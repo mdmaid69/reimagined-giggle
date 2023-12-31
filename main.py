@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
