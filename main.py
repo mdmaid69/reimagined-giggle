@@ -1,7 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def count_elements(lst):
+        return len(lst)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
