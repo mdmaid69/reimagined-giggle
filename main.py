@@ -1,8 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def find_unique_words(sentence):
+        return set(sentence.split())
