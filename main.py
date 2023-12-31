@@ -1,6 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_error_function(x):
+        return math.erf(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
