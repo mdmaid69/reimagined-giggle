@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import re
-print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
