@@ -1,5 +1,6 @@
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
