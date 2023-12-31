@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+for i in range(10): print(i)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_slice(array, i, j):
+        return array[i:j]
