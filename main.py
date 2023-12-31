@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import getpass
+def get_username():
+        return getpass.getuser()
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def convert_array_to_string(array):
+        return array.tostring()
