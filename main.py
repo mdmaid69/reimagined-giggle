@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
