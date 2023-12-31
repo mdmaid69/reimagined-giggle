@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
