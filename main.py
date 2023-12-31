@@ -1,6 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+for i in range(10): print(i)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
