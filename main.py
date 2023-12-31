@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-x = 10
-y = 20
-print("Sum:", x + y)
+def convert_to_octal(n):
+        return oct(n)
+import os
+print(os.getcwd())
