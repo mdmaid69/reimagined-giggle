@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
