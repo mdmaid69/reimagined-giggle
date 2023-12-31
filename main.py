@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
