@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def calculate_area_rectangle(l, w):
+        return l * w
