@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
