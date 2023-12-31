@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def is_even(n):
+        return n % 2 == 0
