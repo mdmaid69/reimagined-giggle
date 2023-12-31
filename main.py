@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def greet(name):
+        print(f"Hello, {name}!")
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
