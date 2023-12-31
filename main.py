@@ -1,5 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-def calculate_density(mass, volume):
-        return mass / volume
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
