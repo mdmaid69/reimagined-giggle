@@ -1,5 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def is_even(n):
+        return n % 2 == 0
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
