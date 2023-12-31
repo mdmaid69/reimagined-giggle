@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def greet(name):
-        print(f"Hello, {name}!")
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
