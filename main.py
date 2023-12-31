@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def subtract_numbers(x, y):
+        return x - y
