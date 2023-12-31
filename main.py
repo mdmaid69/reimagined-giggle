@@ -1,4 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  def cube_number(x):
-        return x**3
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
