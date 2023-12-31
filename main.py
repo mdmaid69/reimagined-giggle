@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import collections
+def create_user_list():
+        return collections.UserList()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
