@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
