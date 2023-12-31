@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import os
-print(os.getcwd())
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
