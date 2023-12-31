@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
+import collections
+def create_user_string():
+        return collections.UserString()
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
