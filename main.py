@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def square_number(x):
-        return x**2
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
