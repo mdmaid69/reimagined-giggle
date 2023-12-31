@@ -1,6 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
