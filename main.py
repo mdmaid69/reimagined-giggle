@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_volume(length, width, height):
+        return length * width * height
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
