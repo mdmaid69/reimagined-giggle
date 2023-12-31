@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
