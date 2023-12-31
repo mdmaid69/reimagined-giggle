@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def convert_to_hex(n):
+        return hex(n)
