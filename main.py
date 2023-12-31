@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def square_number(x):
-        return x**2
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  def convert_to_hex(n):
+        return hex(n)
