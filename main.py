@@ -1,9 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+name = "Python"
+print("Hello,", name)
