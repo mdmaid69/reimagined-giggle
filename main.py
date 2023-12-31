@@ -1,4 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-print([x**2 for x in range(10)])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
