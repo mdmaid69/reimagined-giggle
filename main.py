@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_area_rectangle(l, w):
-        return l * w
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
