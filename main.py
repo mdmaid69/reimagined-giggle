@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
