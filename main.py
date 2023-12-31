@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_error_function(x):
+        return math.erf(x)
