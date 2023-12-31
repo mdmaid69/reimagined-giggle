@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
