@@ -1,6 +1,5 @@
+  def is_odd(n):
+        return n % 2 != 0
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
