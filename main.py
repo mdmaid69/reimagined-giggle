@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
