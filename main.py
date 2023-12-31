@@ -1,5 +1,7 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
+def add_numbers(x, y):
+        return x + y
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
