@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_density(mass, volume):
+        return mass / volume
