@@ -1,7 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
