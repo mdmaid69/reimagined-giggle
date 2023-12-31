@@ -1,6 +1,8 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
