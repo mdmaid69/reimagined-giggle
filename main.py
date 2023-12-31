@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def cube_number(x):
+        return x**3
+import math
+print(math.pi)
