@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
