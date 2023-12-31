@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
