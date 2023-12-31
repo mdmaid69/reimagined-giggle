@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
