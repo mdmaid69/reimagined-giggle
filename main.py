@@ -1,5 +1,8 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
