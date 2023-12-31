@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
