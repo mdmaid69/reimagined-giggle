@@ -1,7 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import os
+def get_current_working_directory():
+        return os.getcwd()
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
