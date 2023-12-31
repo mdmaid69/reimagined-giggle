@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
