@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def multiply_numbers(x, y):
+        return x * y
