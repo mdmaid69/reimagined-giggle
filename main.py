@@ -1,8 +1,6 @@
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
