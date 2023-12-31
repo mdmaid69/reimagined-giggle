@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
