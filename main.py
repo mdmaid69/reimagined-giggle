@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
