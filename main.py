@@ -1,7 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_pressure(force, area):
+        return force / area
+  def convert_to_binary(n):
+        return bin(n)
