@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
