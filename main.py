@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import sys
+def exit_program():
+        sys.exit()
+def is_odd(n):
+        return n % 2 != 0
