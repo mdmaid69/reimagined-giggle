@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_typecode(array):
+        return array.typecode
