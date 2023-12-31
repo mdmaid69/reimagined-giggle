@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
