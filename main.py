@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
