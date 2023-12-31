@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
