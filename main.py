@@ -1,6 +1,8 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
