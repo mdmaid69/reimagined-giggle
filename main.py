@@ -1,5 +1,7 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
