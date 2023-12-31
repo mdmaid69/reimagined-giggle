@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import time
+def get_current_time():
+        return time.ctime()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
