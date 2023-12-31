@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
