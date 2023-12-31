@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
