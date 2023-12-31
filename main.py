@@ -1,5 +1,8 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
