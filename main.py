@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
