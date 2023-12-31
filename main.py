@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import sys
-print(sys.version)
+def remove_duplicates(lst):
+        return list(set(lst))
+import getpass
+def get_username():
+        return getpass.getuser()
