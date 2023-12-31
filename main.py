@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
