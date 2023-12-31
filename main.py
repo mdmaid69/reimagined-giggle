@@ -1,8 +1,6 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
