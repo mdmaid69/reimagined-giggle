@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
