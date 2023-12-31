@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
