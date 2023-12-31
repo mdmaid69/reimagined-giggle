@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
