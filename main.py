@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def is_palindrome(s):
+        return s == s[::-1]
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
