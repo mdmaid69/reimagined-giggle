@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import sys
+  def get_python_version():
+        return sys.version
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
