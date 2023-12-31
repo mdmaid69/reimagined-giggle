@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
