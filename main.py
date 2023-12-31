@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import time
-def get_current_time():
-        return time.time()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def get_array_item(array, i):
+        return array[i]
