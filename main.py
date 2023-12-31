@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_work(force, distance):
-        return force * distance
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
