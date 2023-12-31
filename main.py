@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
