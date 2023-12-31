@@ -1,6 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
