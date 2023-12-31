@@ -1,6 +1,8 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
