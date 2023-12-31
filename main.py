@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
