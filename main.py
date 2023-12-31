@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
