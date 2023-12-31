@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
