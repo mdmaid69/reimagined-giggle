@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
