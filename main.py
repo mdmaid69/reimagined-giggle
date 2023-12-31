@@ -1,6 +1,5 @@
+def add_numbers(x, y):
+        return x + y
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
