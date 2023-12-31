@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def sort_list(lst):
-        return sorted(lst)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import datetime
+def get_current_date():
+        return datetime.date.today()
