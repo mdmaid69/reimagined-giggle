@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_sine(x):
+        return math.sin(x)
