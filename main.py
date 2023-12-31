@@ -1,7 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
