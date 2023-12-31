@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import numpy as np
-print(np.array([1, 2, 3]))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
