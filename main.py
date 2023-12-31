@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
