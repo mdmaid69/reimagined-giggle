@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def count_elements(lst):
-        return len(lst)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+x = 10
+y = 20
+print("Sum:", x + y)
