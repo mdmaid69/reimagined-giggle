@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
