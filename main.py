@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
