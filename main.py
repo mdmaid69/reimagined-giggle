@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+def is_odd(n):
+        return n % 2 != 0
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def generate_random_choice(choices):
+        return random.choice(choices)
