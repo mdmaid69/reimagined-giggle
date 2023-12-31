@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
