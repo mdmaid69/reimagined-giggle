@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
