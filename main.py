@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+print(math.pi)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
