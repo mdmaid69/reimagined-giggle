@@ -1,5 +1,8 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
