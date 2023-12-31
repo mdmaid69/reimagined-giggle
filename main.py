@@ -1,7 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
