@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
