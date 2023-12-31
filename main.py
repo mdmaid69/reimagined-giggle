@@ -1,5 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def convert_to_binary(n):
+        return bin(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
