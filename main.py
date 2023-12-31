@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
