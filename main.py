@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
