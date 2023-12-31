@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import sys
-def print_python_version():
-        print(sys.version)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_speed(distance, time):
+        return distance / time
