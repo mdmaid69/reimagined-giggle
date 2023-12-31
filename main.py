@@ -1,5 +1,8 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def clear_array(array):
+        array *= 0
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
