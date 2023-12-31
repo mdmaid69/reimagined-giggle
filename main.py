@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
