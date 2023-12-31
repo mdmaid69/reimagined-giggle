@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
