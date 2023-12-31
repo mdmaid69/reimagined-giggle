@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
