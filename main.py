@@ -1,5 +1,8 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-text = "Hello, world!"
-print("Characters:", len(text))
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
