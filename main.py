@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
