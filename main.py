@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
