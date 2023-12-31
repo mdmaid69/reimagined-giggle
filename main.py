@@ -1,4 +1,7 @@
-  def cube_number(x):
-        return x**3
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def multiply_numbers(x, y):
+        return x * y
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
