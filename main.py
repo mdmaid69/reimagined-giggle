@@ -1,5 +1,8 @@
-import tensorflow as tf
-print(tf.__version__)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
