@@ -1,4 +1,7 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-print([x**2 for x in range(10)])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
