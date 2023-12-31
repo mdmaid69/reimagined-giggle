@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
