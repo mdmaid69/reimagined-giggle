@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
