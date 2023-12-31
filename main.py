@@ -1,5 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def convert_to_hex(n):
-        return hex(n)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def get_array_as_list(array):
+        return list(array)
