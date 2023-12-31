@@ -1,5 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
