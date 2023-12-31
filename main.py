@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
