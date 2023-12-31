@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
