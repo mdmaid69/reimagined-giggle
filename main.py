@@ -1,5 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def reverse_string(s):
-        return s[::-1]
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
