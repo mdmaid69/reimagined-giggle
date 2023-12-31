@@ -1,8 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
