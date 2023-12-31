@@ -1,6 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import platform
-def get_python_version():
-        return platform.python_version()
+from collections import Counter
+print(Counter("hello world"))
+import sys
+print(sys.version)
