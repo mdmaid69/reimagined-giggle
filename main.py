@@ -1,7 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
