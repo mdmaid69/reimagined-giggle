@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
