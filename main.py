@@ -1,6 +1,4 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def cube_number(x):
-        return x**3
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def convert_to_binary(n):
+        return bin(n)
