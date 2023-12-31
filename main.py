@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
