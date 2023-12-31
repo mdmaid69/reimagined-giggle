@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
