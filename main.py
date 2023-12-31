@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def get_array_as_bytes(array):
+        return bytes(array)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
