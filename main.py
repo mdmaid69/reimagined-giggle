@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import sys
-def exit_program():
-        sys.exit()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def is_palindrome(s):
+        return s == s[::-1]
