@@ -1,5 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def calculate_speed(distance, time):
-        return distance / time
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
