@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import collections
+def create_user_list():
+        return collections.UserList()
