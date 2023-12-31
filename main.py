@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
