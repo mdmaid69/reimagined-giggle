@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
