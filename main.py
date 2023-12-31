@@ -1,5 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def find_unique_words(sentence):
-        return set(sentence.split())
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
