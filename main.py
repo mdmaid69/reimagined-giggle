@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_array_as_str(array):
-        return str(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
