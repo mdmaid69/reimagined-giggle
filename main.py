@@ -1,5 +1,5 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def get_array_slice(array, i, j):
+        return array[i:j]
+def is_palindrome(s):
+        return s == s[::-1]
