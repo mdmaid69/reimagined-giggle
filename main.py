@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
