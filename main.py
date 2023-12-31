@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import random
+def roll_die():
+        return random.randint(1, 6)
