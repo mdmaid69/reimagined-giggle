@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
