@@ -1,5 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def get_array_as_int(array):
+        return int(array[0])
