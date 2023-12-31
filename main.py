@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import sys
+def exit_program():
+        sys.exit()
