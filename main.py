@@ -1,5 +1,8 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
