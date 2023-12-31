@@ -1,6 +1,6 @@
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
 import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
