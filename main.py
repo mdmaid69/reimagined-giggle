@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def remove_from_array(array, item):
+        array.remove(item)
