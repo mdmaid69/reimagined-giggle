@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
