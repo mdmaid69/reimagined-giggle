@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
