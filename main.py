@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
