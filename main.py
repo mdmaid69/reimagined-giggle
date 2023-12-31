@@ -1,6 +1,6 @@
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def clear_array(array):
+        array *= 0
