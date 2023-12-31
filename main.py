@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_work(force, distance):
+        return force * distance
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
