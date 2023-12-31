@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_work(force, distance):
+        return force * distance
