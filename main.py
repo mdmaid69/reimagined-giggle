@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_work(force, distance):
+        return force * distance
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
