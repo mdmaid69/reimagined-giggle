@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import collections
+def create_user_list():
+        return collections.UserList()
