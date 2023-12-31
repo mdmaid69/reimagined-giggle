@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
