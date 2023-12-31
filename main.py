@@ -1,5 +1,7 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
