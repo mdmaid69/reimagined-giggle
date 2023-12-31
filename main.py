@@ -1,6 +1,7 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
