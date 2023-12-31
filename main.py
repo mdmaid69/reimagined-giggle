@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
