@@ -1,6 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_volume(length, width, height):
+        return length * width * height
+def reverse_string(s):
+        return s[::-1]
