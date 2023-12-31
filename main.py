@@ -1,5 +1,10 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
