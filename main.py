@@ -1,6 +1,8 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
