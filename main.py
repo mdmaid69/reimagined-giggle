@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
