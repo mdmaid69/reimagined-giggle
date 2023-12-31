@@ -1,8 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_exponential(x):
+        return math.exp(x)
