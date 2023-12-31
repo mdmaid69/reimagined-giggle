@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
