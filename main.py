@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
