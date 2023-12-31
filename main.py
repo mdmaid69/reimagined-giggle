@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_density(mass, volume):
+        return mass / volume
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
