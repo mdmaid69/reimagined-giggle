@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
