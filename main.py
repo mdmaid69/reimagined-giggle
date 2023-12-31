@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
