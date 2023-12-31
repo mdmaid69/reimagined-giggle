@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+from collections import Counter
+print(Counter("hello world"))
