@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
