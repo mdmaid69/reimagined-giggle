@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
