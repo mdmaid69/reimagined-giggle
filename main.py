@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  def cube_number(x):
-        return x**3
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
