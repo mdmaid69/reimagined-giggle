@@ -1,4 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
