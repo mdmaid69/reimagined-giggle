@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
