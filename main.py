@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
