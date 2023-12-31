@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
