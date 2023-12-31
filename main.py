@@ -1,4 +1,7 @@
-def square_number(x):
-        return x**2
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
