@@ -1,6 +1,8 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
