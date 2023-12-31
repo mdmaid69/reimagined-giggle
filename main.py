@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import getpass
+def get_username():
+        return getpass.getuser()
