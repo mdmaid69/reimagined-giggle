@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
