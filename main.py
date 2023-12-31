@@ -1,6 +1,7 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import platform
+def get_python_version():
+        return platform.python_version()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
