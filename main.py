@@ -1,6 +1,7 @@
-name = "Python"
-print("Hello,", name)
-import socket
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import unittest
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
