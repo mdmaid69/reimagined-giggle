@@ -1,6 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def is_odd(n):
+        return n % 2 != 0
+from collections import Counter
+print(Counter("hello world"))
