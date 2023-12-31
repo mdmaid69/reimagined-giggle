@@ -1,5 +1,8 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
