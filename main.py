@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def multiply_numbers(x, y):
+        return x * y
