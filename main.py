@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
