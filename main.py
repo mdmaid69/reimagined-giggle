@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import os
+def change_working_directory(path):
+        os.chdir(path)
