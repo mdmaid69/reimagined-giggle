@@ -1,7 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
