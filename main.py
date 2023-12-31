@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_density(mass, volume):
+        return mass / volume
