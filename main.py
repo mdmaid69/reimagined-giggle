@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
