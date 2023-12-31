@@ -1,5 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  def remove_duplicates(lst):
-        return list(set(lst))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
