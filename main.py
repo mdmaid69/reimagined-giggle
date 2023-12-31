@@ -1,7 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def is_palindrome(s):
-        return s == s[::-1]
+def add_numbers(a, b):
+        return a + b
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
