@@ -1,6 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  def is_even(n):
+        return n % 2 == 0
