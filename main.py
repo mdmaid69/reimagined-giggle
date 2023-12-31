@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def cube_number(x):
+        return x**3
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
