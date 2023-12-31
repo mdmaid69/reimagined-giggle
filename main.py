@@ -1,4 +1,4 @@
-for i in range(5):
-        print(i)
-import os
-print(os.getcwd())
+print("Hello, world!")
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
