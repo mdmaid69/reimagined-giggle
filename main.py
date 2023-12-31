@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
