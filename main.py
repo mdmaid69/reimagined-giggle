@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
