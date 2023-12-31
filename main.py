@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def cube_number(x):
+        return x**3
