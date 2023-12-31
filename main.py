@@ -1,8 +1,5 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def find_unique_words(sentence):
+        return set(sentence.split())
