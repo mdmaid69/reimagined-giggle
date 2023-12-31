@@ -1,6 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
