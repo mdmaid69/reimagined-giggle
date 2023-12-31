@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import sys
+def print_python_version():
+        print(sys.version)
