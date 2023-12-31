@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
