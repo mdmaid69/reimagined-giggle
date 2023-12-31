@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def greet(name):
-        print(f"Hello, {name}!")
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def multiply_numbers(x, y):
+        return x * y
