@@ -1,6 +1,8 @@
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def get_array_as_str(array):
-        return str(array)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
