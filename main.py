@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def count_elements(lst):
+        return len(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
