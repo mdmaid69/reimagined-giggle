@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def convert_to_octal(n):
+        return oct(n)
