@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
