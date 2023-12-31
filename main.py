@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_factorial(n):
+        return math.factorial(n)
