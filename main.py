@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def add_numbers(a, b):
-        return a + b
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import logging
+def log_message(message):
+        logging.info(message)
