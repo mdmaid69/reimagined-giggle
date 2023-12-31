@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
