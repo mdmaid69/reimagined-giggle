@@ -1,8 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
