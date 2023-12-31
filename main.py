@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import datetime
+def get_current_date():
+        return datetime.date.today()
