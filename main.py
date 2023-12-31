@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def calculate_area_rectangle(l, w):
+        return l * w
