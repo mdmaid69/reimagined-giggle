@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import time
+print(time.time())
+import collections
+def create_user_dict():
+        return collections.UserDict()
