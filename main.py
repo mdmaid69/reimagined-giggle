@@ -1,5 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def is_palindrome(s):
+        return s == s[::-1]
