@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
