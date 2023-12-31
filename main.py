@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import json
+print(json.dumps({"name": "John", "age": 30}))
