@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def add_numbers(x, y):
+        return x + y
