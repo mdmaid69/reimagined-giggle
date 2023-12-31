@@ -1,3 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-print([x**2 for x in range(10)])
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def divide_numbers(x, y):
+        return x / y
