@@ -1,4 +1,12 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
