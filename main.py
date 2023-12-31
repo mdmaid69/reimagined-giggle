@@ -1,4 +1,9 @@
-  def convert_to_octal(n):
-        return oct(n)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import sys
+def exit_program():
+        sys.exit()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
