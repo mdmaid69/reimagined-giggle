@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
