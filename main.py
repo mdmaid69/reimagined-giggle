@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def multiply_numbers(x, y):
+        return x * y
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
