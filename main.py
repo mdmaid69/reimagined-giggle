@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-x = 10
-y = 20
-print("Sum:", x + y)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
