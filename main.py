@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import sys
+def print_python_version():
+        print(sys.version)
