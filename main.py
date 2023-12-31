@@ -1,6 +1,8 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
