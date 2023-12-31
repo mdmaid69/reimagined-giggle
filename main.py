@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_pressure(force, area):
+        return force / area
