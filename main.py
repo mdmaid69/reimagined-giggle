@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import time
+def get_current_time():
+        return time.ctime()
