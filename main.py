@@ -1,3 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-for i in range(10): print(i)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
