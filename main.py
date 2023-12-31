@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
