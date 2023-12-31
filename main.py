@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def cube_number(x):
-        return x**3
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
