@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
