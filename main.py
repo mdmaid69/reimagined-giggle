@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
