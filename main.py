@@ -1,6 +1,6 @@
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
