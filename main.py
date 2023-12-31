@@ -1,4 +1,4 @@
-print(sum(range(10)))
-import array
-def get_array_as_str(array):
-        return str(array)
+for i in range(5):
+        print(i)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
