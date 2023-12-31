@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
