@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
