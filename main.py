@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
