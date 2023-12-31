@@ -1,6 +1,7 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_exponential(x):
+        return math.exp(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
