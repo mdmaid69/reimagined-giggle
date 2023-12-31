@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import sys
+  def get_python_version():
+        return sys.version
+def convert_to_binary(n):
+        return bin(n)
