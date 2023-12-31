@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def is_even(n):
+        return n % 2 == 0
