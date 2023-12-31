@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import random
+print(random.randint(0, 100))
