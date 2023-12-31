@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
