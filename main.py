@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def is_even(n):
+        return n % 2 == 0
