@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import platform
+def get_os_info():
+        return platform.uname()
