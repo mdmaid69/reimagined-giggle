@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_as_list(array):
+        return list(array)
