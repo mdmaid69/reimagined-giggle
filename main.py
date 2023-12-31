@@ -1,6 +1,6 @@
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
