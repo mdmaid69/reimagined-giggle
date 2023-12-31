@@ -1,7 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def clear_array(array):
+        array *= 0
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
