@@ -1,4 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_acceleration(speed, time):
-        return speed / time
+  def cube_number(x):
+        return x**3
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
