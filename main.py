@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
