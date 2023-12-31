@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_factorial(n):
+        return math.factorial(n)
