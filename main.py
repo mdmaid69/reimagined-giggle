@@ -1,8 +1,6 @@
+import array
+def get_array_itemsize(array):
+        return array.itemsize
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
