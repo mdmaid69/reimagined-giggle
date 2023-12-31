@@ -1,6 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_density(mass, volume):
+        return mass / volume
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
