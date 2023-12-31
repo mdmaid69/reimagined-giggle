@@ -1,5 +1,10 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
