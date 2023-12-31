@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-def count_characters(sentence):
-        return len(sentence)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
