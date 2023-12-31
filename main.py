@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-x = 10
-y = 20
-print("Sum:", x + y)
+import collections
+def create_user_string():
+        return collections.UserString()
+import time
+def get_time_since_epoch():
+        return time.time()
