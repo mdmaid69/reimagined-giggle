@@ -1,10 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_as_list(array):
+        return list(array)
