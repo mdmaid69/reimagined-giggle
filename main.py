@@ -1,6 +1,8 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
