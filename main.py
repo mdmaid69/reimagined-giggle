@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
