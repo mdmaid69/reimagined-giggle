@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
