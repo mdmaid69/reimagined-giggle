@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def get_array_item(array, i):
+        return array[i]
