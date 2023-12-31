@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def get_array_typecode(array):
+        return array.typecode
