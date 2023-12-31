@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_average(lst):
+        return sum(lst) / len(lst)
