@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
