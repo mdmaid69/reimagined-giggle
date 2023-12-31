@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import collections
-def create_user_list():
-        return collections.UserList()
+import time
+def get_current_time():
+        return time.time()
+import array
+def append_to_array(array, item):
+        array.append(item)
