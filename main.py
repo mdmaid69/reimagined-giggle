@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
