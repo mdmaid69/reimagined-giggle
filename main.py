@@ -1,5 +1,9 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
