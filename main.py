@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
