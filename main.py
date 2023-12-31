@@ -1,11 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def append_to_array(array, item):
+        array.append(item)
