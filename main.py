@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
