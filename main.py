@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def is_palindrome(s):
+        return s == s[::-1]
