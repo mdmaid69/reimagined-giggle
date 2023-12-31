@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
