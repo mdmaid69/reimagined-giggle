@@ -1,6 +1,8 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
