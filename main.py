@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
