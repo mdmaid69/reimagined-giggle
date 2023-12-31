@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def square_number(x):
+        return x**2
