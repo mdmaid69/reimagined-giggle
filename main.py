@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def count_words(sentence):
+        return len(sentence.split())
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
