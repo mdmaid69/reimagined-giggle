@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import sys
-def exit_program():
-        sys.exit()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def reverse_string(s):
+        return s[::-1]
