@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
