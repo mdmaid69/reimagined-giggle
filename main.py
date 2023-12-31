@@ -1,8 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def reverse_string(s):
+        return s[::-1]
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
