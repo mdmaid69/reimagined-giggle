@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
