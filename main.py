@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
