@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import os
+def change_working_directory(path):
+        os.chdir(path)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
