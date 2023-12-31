@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import time
-print(time.time())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
