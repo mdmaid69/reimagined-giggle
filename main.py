@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
