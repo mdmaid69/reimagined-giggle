@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
