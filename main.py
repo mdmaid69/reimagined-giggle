@@ -1,5 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
