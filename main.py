@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
