@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import sys
+def exit_program():
+        sys.exit()
