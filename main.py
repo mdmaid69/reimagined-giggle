@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import sys
+def exit_program():
+        sys.exit()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
