@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import numpy as np
+print(np.array([1, 2, 3]))
