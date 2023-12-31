@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
