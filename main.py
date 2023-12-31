@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import collections
+def create_stack():
+        return collections.deque()
