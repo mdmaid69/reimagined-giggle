@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
