@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
