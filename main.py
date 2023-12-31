@@ -1,6 +1,9 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
