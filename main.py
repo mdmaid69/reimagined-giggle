@@ -1,5 +1,5 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
