@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
