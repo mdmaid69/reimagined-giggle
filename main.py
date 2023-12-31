@@ -1,5 +1,8 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-for i in range(5):
-        print(i)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
