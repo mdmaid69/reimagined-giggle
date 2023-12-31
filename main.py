@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def add_numbers(x, y):
+        return x + y
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
