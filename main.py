@@ -1,5 +1,9 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import time
-def get_current_time():
-        return time.ctime()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
