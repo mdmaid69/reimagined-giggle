@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def count_characters(sentence):
-        return len(sentence)
+import sys
+def print_python_version():
+        print(sys.version)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
