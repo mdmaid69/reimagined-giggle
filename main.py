@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
