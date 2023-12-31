@@ -1,5 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
