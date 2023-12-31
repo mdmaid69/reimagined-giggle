@@ -1,8 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
