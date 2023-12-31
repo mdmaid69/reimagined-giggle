@@ -1,5 +1,5 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import os
+def change_working_directory(path):
+        os.chdir(path)
