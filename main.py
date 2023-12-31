@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+x = 10
+y = 20
+print("Sum:", x + y)
