@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
