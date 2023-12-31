@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import time
+def get_current_time():
+        return time.ctime()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
