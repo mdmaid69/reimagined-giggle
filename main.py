@@ -1,5 +1,8 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
