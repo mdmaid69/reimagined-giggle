@@ -1,7 +1,4 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def square_number(x):
+        return x**2
