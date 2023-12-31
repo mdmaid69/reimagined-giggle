@@ -1,5 +1,13 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
