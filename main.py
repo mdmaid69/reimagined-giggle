@@ -1,5 +1,6 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
