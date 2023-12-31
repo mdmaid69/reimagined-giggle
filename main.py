@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import re
-def split_by_pattern(pattern, string):
+def split_string(pattern, string):
         return re.split(pattern, string)
