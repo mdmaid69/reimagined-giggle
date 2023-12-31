@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  def square_number(x):
+        return x**2
