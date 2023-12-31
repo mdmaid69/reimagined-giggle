@@ -1,6 +1,8 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
