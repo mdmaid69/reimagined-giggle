@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import random
+print(random.randint(0, 100))
