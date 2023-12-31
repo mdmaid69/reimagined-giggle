@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
