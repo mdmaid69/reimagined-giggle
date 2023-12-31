@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
