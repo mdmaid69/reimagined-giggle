@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
