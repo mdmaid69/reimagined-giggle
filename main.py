@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def convert_to_binary(n):
+        return bin(n)
