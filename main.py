@@ -1,7 +1,7 @@
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def iterate_over_array(array):
+        for item in array:
+        print(item)
