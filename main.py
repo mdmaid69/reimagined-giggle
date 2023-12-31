@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
