@@ -1,8 +1,7 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
