@@ -1,6 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
