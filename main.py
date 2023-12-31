@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
