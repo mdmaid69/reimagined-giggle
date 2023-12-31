@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
