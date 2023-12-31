@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def divide_numbers(x, y):
+        return x / y
