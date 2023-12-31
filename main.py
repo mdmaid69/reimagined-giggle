@@ -1,5 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_speed(distance, time):
-        return distance / time
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
