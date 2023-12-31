@@ -1,5 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import random
+print(random.randint(0, 100))
