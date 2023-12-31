@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def square_number(x):
+        return x**2
