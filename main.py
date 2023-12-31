@@ -1,4 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-print([x**2 for x in range(10)])
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
