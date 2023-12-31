@@ -1,6 +1,4 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import tensorflow as tf
+print(tf.__version__)
