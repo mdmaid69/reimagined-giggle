@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-text = "Hello, world!"
-print("Characters:", len(text))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
