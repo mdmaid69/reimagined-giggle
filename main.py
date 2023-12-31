@@ -1,7 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+text = "Hello, world!"
+print("Words:", len(text.split()))
