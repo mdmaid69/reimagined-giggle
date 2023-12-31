@@ -1,5 +1,5 @@
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
