@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
