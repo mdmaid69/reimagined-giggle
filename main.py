@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def get_array_as_list(array):
-        return list(array)
+import platform
+def get_python_version():
+        return platform.python_version()
+import random
+def roll_die():
+        return random.randint(1, 6)
