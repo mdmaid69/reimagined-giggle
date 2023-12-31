@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def append_to_array(array, item):
+        array.append(item)
+def calculate_speed(distance, time):
+        return distance / time
