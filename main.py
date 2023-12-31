@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def add_numbers(a, b):
-        return a + b
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
