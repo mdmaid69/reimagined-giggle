@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def calculate_area_rectangle(l, w):
+        return l * w
