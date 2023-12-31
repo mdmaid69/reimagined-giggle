@@ -1,5 +1,9 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
