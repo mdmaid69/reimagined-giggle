@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_acceleration(speed, time):
+        return speed / time
