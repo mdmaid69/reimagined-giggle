@@ -1,6 +1,8 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
