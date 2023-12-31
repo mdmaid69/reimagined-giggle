@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def reverse_string(s):
+        return s[::-1]
