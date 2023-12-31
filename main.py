@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_volume(length, width, height):
-        return length * width * height
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
