@@ -1,12 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
