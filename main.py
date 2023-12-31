@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+print(math.pi)
