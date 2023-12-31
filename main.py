@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  def multiply_numbers(x, y):
-        return x * y
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
