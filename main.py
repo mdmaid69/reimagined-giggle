@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
