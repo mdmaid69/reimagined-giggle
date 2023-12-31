@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import random
+print(random.randint(0, 100))
 import time
-def get_current_time():
+def get_time_since_epoch():
         return time.time()
