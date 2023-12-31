@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
