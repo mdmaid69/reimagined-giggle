@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
