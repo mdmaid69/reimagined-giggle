@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
