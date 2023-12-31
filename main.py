@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def convert_to_binary(n):
+        return bin(n)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
