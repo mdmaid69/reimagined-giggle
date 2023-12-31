@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
