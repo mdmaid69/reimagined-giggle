@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_exponential(x):
+        return math.exp(x)
