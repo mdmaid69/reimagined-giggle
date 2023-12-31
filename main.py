@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-for i in range(5):
-        print(i)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
