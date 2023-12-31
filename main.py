@@ -1,6 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
