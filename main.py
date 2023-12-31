@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def find_unique_words(sentence):
-        return set(sentence.split())
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
