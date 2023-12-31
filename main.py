@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_area_circle(r):
+        return 3.14 * r**2
