@@ -1,6 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def add_to_python_path(path):
+        sys.path.append(path)
