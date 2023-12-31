@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
