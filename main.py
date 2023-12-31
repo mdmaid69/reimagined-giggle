@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import array
-def get_array_as_list(array):
-        return list(array)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
