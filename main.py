@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
