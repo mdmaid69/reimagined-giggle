@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
