@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
