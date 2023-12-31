@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
