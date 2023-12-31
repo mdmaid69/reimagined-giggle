@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import collections
-def create_user_string():
-        return collections.UserString()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
