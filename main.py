@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
