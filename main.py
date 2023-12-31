@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
