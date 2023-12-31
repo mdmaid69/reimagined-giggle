@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
