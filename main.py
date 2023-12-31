@@ -1,6 +1,11 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
