@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_volume(length, width, height):
+        return length * width * height
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
