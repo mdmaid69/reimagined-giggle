@@ -1,11 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
