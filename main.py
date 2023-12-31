@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import tensorflow as tf
+print(tf.__version__)
