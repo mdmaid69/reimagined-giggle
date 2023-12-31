@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import tensorflow as tf
+print(tf.__version__)
