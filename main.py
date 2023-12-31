@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
