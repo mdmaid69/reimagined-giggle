@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
