@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def convert_to_octal(n):
+        return oct(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
