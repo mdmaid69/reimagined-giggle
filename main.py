@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
