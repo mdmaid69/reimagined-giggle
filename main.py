@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def greet(name):
+        print(f"Hello, {name}!")
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
