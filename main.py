@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
