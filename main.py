@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import time
+def get_current_time():
+        return time.time()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
