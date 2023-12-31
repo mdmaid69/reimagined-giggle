@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def is_odd(n):
+        return n % 2 != 0
