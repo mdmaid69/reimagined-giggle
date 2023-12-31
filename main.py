@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
