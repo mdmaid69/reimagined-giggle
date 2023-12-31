@@ -1,6 +1,8 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
