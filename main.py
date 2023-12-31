@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def subtract_numbers(x, y):
+        return x - y
