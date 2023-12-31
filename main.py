@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_density(mass, volume):
+        return mass / volume
