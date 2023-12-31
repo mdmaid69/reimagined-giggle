@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
