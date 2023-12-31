@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
