@@ -1,12 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
