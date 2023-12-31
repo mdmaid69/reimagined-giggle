@@ -1,6 +1,5 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_work(force, distance):
+        return force * distance
