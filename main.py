@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_as_str(array):
+        return str(array)
