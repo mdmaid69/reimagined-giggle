@@ -1,6 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def reverse_list(lst):
+        return lst[::-1]
