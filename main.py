@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
