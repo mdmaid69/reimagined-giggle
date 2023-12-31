@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
