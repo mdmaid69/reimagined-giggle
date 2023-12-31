@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import sys
+def exit_program():
+        sys.exit()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
