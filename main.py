@@ -1,6 +1,11 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
