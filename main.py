@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
