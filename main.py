@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import numpy as np
+print(np.array([1, 2, 3]))
