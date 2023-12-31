@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  def count_elements(lst):
-        return len(lst)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
