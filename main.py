@@ -1,6 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
