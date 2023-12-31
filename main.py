@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def get_array_item(array, i):
-        return array[i]
+  def square_number(x):
+        return x**2
+import datetime
+def get_today_date():
+        return datetime.date.today()
