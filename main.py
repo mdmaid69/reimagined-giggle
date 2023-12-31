@@ -1,5 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def subtract_numbers(x, y):
+        return x - y
