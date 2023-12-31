@@ -1,6 +1,8 @@
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
