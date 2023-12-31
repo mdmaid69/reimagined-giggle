@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def count_elements(lst):
+        return len(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
