@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
