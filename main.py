@@ -1,7 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
