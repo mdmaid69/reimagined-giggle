@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
