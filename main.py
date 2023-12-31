@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_item(array, i):
-        return array[i]
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
