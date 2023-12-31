@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def is_even(n):
+        return n % 2 == 0
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
