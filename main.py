@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-name = "Python"
-print("Hello,", name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
