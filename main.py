@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
