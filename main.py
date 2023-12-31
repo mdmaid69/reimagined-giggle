@@ -1,5 +1,7 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
