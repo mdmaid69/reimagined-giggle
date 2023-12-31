@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
