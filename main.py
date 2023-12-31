@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
