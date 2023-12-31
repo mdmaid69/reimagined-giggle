@@ -1,5 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def find_unique_words(sentence):
+        return set(sentence.split())
