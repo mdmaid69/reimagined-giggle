@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import getpass
+def get_username():
+        return getpass.getuser()
