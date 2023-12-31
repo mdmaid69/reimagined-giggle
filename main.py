@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
