@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
