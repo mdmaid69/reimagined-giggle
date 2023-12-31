@@ -1,6 +1,8 @@
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
