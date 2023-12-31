@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
