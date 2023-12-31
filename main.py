@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
