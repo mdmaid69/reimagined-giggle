@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
