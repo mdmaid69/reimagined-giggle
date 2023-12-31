@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_speed(distance, time):
-        return distance / time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def convert_to_octal(n):
+        return oct(n)
