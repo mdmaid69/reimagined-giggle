@@ -1,6 +1,3 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+for i in range(10): print(i)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
