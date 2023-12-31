@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_speed(distance, time):
+        return distance / time
