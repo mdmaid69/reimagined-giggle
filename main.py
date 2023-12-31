@@ -1,6 +1,5 @@
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
