@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+for i in range(10): print(i)
