@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def is_odd(n):
-        return n % 2 != 0
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
