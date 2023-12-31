@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
