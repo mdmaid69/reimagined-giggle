@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_volume(length, width, height):
+        return length * width * height
