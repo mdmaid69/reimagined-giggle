@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import datetime
+def get_current_date():
+        return datetime.date.today()
