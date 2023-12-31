@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def get_array_typecode(array):
+        return array.typecode
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
