@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
