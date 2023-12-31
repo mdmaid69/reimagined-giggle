@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_density(mass, volume):
+        return mass / volume
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
