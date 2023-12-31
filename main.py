@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
