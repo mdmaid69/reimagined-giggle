@@ -1,8 +1,9 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import collections
+def create_user_dict():
+        return collections.UserDict()
