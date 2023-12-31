@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_length(array):
+        return len(array)
