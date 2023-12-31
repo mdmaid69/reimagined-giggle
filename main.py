@@ -1,6 +1,7 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
+def is_even(n):
+        return n % 2 == 0
