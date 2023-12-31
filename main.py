@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
