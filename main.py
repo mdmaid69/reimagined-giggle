@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
