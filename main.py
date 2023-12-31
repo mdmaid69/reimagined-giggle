@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
