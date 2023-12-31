@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  def calculate_area_rectangle(l, w):
+        return l * w
