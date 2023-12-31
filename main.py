@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
