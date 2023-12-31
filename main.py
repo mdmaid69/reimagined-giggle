@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_power(work, time):
+        return work / time
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
