@@ -1,5 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
