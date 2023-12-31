@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_area_rectangle(l, w):
+        return l * w
