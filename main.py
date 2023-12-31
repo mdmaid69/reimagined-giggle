@@ -1,9 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def is_palindrome(s):
+        return s == s[::-1]
