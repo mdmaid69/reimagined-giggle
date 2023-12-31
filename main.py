@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def convert_to_binary(n):
+        return bin(n)
