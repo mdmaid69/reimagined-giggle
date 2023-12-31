@@ -1,6 +1,7 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
