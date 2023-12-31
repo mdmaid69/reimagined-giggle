@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def convert_to_hex(n):
+        return hex(n)
