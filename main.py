@@ -1,5 +1,5 @@
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
