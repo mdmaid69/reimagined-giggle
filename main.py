@@ -1,6 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_floor(x):
+        return math.floor(x)
+import random
+print(random.randint(0, 100))
