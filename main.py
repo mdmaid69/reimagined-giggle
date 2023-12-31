@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
