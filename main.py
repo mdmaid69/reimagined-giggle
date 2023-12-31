@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def add_numbers(x, y):
+        return x + y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
