@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def roll_die():
+        return random.randint(1, 6)
