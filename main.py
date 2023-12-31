@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
