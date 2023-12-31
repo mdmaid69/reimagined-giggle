@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
