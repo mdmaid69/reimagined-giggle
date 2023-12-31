@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
