@@ -1,5 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
