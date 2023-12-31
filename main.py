@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+x = 10
+y = 20
+print("Sum:", x + y)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
