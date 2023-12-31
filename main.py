@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def find_max(lst):
-        return max(lst)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
