@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
