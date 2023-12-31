@@ -1,6 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def convert_to_hex(n):
+        return hex(n)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
