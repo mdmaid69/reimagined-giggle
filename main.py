@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
