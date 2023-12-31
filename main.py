@@ -1,5 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
