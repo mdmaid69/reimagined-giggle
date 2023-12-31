@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_array_as_bool(array):
+        return bool(array)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
