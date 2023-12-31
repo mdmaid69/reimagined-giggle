@@ -1,5 +1,8 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
