@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
