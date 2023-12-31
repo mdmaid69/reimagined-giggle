@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
