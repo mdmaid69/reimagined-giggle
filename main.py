@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
