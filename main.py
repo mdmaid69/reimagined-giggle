@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def square_number(x):
+        return x**2
