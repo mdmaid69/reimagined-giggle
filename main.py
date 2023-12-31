@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  def convert_to_hex(n):
-        return hex(n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def convert_to_octal(n):
+        return oct(n)
