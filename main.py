@@ -1,5 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
