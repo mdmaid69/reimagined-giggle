@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_min(numbers):
-        return min(numbers)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
