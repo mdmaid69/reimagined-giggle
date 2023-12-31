@@ -1,5 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def count_elements(lst):
-        return len(lst)
+def get_array_as_float(array):
+        return float(array[0])
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
