@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_pressure(force, area):
+        return force / area
+def calculate_area(radius):
+        return 3.14 * radius * radius
