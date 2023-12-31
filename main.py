@@ -1,4 +1,7 @@
-def find_min(lst):
-        return min(lst)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
