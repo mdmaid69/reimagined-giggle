@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def find_min(lst):
+        return min(lst)
+import array
+def get_array_item(array, i):
+        return array[i]
