@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
