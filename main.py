@@ -1,5 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def reverse_string(s):
-        return s[::-1]
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
