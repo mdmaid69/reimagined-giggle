@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def reverse_list(lst):
+        return lst[::-1]
