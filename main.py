@@ -1,6 +1,10 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def clear_array(array):
+        array *= 0
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
