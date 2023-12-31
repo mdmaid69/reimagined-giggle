@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-print(math.pi)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
