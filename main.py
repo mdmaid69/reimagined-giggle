@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
