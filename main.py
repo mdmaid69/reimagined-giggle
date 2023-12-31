@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_counter():
-        return collections.Counter()
+  def cube_number(x):
+        return x**3
+  def convert_to_hex(n):
+        return hex(n)
