@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
