@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import random
+def roll_die():
+        return random.randint(1, 6)
