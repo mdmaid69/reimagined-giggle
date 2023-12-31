@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
