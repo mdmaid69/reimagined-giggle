@@ -1,8 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
