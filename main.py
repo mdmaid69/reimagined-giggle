@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+x = 10
+y = 20
+print("Sum:", x + y)
