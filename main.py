@@ -1,8 +1,6 @@
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def get_array_as_int(array):
+        return int(array[0])
