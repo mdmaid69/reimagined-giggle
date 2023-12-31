@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import time
+def get_current_time():
+        return time.ctime()
