@@ -1,5 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-for i in range(5):
-        print(i)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
