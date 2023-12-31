@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+for i in range(10): print(i)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
