@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+for i in range(5):
+        print(i)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
