@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
