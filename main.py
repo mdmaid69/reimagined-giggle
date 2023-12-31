@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def find_max(lst):
-        return max(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def clear_array(array):
+        array *= 0
