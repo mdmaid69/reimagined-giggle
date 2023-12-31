@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
