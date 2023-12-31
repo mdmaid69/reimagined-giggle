@@ -1,6 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def is_palindrome(s):
+        return s == s[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
