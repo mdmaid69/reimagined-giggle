@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def is_palindrome(s):
+        return s == s[::-1]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
