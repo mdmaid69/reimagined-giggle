@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
