@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
