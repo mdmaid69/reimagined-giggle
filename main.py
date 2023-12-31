@@ -1,6 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-print("Hello, world!")
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
