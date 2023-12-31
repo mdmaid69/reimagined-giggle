@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def reverse_list(lst):
+        return lst[::-1]
