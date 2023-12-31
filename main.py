@@ -1,12 +1,9 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import queue
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+from flask import Flask
+app = Flask(__name__)
 
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+@app.route("/")
+def hello():
+        return "Hello, World!"
