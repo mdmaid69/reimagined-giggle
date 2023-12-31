@@ -1,5 +1,6 @@
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def exit_program():
+        sys.exit()
+import array
+def get_array_length(array):
+        return len(array)
