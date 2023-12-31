@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def square_number(x):
-        return x**2
+import array
+def get_array_as_int(array):
+        return int(array[0])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
