@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
