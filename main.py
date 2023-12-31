@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
