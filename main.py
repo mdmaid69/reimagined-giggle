@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_base_name(path):
+        return os.path.basename(path)
+  def square_number(x):
+        return x**2
