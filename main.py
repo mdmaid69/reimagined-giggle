@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import array
-def clear_array(array):
-        array *= 0
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
