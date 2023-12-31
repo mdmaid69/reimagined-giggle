@@ -1,8 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import random
+def roll_die():
+        return random.randint(1, 6)
