@@ -1,5 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+from collections import Counter
+print(Counter("hello world"))
+def calculate_pressure(force, area):
+        return force / area
