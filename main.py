@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
