@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
