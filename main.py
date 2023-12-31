@@ -1,6 +1,6 @@
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_tangent(x):
+        return math.tan(x)
