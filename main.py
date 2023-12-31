@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
