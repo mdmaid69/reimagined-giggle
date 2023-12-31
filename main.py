@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def square_number(x):
+        return x**2
