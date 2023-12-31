@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
