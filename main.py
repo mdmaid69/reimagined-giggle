@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
