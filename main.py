@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
