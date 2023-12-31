@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
