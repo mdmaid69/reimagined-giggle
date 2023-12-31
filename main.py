@@ -1,6 +1,6 @@
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_itemsize(array):
+        return array.itemsize
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
