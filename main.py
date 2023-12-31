@@ -1,6 +1,6 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
