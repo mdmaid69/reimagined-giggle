@@ -1,6 +1,5 @@
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
 sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+print("Unique words:", len(set(sentence.split())))
