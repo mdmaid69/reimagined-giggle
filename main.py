@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
+import os
+def get_current_working_directory():
+        return os.getcwd()
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
