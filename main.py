@@ -1,5 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_work(force, distance):
-        return force * distance
+def get_array_itemsize(array):
+        return array.itemsize
