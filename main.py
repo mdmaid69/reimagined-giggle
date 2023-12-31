@@ -1,6 +1,7 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def get_array_as_set(array):
-        return set(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
