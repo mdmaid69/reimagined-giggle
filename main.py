@@ -1,5 +1,8 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
