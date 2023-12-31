@@ -1,6 +1,7 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def find_max(numbers):
-        return max(numbers)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
