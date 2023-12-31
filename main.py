@@ -1,12 +1,7 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
