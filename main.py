@@ -1,6 +1,9 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
