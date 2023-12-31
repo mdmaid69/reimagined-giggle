@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
