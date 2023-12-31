@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def count_elements(lst):
+        return len(lst)
