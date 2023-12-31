@@ -1,6 +1,5 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  def square_number(x):
+        return x**2
