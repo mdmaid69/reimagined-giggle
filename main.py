@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
