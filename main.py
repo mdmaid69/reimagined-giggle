@@ -1,6 +1,5 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
