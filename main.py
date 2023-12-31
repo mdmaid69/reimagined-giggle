@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
