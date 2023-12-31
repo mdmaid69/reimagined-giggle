@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
