@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def extend_array(array, iterable):
+        array.extend(iterable)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
