@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+print(math.pi)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
