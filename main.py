@@ -1,6 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import time
+def get_time_since_epoch():
+        return time.time()
