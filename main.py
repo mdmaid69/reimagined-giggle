@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
