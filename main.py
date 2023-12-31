@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def convert_to_hex(n):
+        return hex(n)
