@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+x = 10
+y = 20
+print("Sum:", x + y)
