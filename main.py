@@ -1,4 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def cube_number(x):
-        return x**3
+  def convert_to_octal(n):
+        return oct(n)
+for i in range(5):
+        print(i)
