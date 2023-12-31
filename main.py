@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_list_from_array(array):
+        return array.tolist()
