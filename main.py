@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import platform
+def get_os_info():
+        return platform.uname()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
