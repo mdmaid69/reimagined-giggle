@@ -1,8 +1,8 @@
 import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
