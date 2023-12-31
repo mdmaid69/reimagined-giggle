@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
