@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import collections
+def create_user_string():
+        return collections.UserString()
