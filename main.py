@@ -1,8 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
