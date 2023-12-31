@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import sys
+def print_python_version():
+        print(sys.version)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
