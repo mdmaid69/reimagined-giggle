@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
