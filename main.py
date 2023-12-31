@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
