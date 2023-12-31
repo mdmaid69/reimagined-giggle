@@ -1,5 +1,8 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
