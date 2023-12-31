@@ -1,6 +1,7 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
