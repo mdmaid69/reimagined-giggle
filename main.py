@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
