@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
