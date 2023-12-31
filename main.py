@@ -1,6 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
