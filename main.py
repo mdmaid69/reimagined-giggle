@@ -1,6 +1,8 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def get_array_as_list(array):
+        return list(array)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
