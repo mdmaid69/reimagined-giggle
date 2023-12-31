@@ -1,6 +1,10 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
