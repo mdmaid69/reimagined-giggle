@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+x = 10
+y = 20
+print("Sum:", x + y)
