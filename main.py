@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
