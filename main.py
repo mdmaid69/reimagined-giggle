@@ -1,5 +1,11 @@
-def calculate_pressure(force, area):
-        return force / area
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import platform
+def get_os_info():
+        return platform.uname()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
