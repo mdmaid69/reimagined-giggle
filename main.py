@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def cube_number(x):
-        return x**3
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
