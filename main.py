@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
 import array
-def get_array_as_set(array):
-        return set(array)
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
