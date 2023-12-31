@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_pressure(force, area):
+        return force / area
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
