@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def reverse_list(lst):
+        return lst[::-1]
