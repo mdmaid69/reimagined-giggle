@@ -1,11 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def convert_to_binary(n):
+        return bin(n)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
