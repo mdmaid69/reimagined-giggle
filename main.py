@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
