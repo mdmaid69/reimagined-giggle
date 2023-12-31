@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_power(work, time):
-        return work / time
+import time
+print(time.time())
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
