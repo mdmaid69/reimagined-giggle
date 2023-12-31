@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def convert_to_hex(n):
+        return hex(n)
+  def convert_to_binary(n):
+        return bin(n)
