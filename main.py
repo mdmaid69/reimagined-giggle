@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import platform
-def get_python_version():
-        return platform.python_version()
+import collections
+def create_user_string():
+        return collections.UserString()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
