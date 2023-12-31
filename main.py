@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def count_elements(lst):
-        return len(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def convert_to_binary(n):
+        return bin(n)
