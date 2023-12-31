@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import time
-def get_current_time():
-        return time.ctime()
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
