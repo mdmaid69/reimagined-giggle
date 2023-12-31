@@ -1,7 +1,8 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
