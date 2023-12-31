@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
