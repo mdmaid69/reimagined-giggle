@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import time
-def get_current_time():
-        return time.ctime()
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
