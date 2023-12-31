@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
