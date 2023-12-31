@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
