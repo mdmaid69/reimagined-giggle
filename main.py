@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
