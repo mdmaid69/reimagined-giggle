@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def delete_file(file_name):
+        os.remove(file_name)
