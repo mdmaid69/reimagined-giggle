@@ -1,4 +1,11 @@
-def cube_number(x):
-        return x**3
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
