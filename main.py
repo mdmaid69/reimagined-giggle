@@ -1,6 +1,8 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
