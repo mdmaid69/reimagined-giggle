@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def convert_array_to_list(array):
+        return array.tolist()
