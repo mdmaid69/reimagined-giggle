@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import getpass
-def get_username():
-        return getpass.getuser()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
