@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
