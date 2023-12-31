@@ -1,8 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
