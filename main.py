@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def get_array_item(array, i):
-        return array[i]
+def add_numbers(x, y):
+        return x + y
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
