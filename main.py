@@ -1,6 +1,10 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
