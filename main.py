@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
