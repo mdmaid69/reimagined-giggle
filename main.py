@@ -1,7 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
