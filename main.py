@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
