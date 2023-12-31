@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
