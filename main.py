@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
