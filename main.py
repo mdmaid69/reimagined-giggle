@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+for i in range(10): print(i)
