@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
