@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
