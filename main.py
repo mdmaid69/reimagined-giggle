@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
