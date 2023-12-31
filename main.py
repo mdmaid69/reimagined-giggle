@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def reverse_string(s):
-        return s[::-1]
+import random
+print(random.randint(0, 100))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
