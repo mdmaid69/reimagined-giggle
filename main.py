@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
