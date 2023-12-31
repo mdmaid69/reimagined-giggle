@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import logging
+def log_message(message):
+        logging.info(message)
