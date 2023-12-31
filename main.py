@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
