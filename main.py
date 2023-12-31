@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
