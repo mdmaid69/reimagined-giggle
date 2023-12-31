@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
