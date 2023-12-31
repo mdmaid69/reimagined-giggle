@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def find_unique_words(sentence):
+        return set(sentence.split())
