@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import logging
+def log_message(message):
+        logging.info(message)
+name = "Python"
+print("Hello,", name)
