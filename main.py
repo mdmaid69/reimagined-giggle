@@ -1,4 +1,8 @@
-  def is_even(n):
-        return n % 2 == 0
-import os
-print(os.getcwd())
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
