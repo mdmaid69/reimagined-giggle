@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def multiply_numbers(x, y):
+        return x * y
