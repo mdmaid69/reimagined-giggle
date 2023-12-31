@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_power(work, time):
+        return work / time
