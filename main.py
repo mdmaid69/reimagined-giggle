@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def divide_numbers(x, y):
-        return x / y
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import sys
+def print_python_version():
+        print(sys.version)
