@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import tensorflow as tf
+print(tf.__version__)
+def convert_to_hex(n):
+        return hex(n)
