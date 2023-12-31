@@ -1,7 +1,8 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
