@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
