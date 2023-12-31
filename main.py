@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import platform
+def get_python_version():
+        return platform.python_version()
