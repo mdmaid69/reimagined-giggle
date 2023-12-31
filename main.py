@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def convert_to_binary(n):
-        return bin(n)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import json
+print(json.dumps({"name": "John", "age": 30}))
