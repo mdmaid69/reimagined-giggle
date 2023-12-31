@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def square_number(x):
+        return x**2
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
