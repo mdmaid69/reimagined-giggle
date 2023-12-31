@@ -1,6 +1,5 @@
-import math
-print(math.pi)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def add_numbers(a, b):
+        return a + b
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
