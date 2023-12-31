@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
