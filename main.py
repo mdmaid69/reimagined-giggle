@@ -1,7 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def is_even(n):
+        return n % 2 == 0
+def cube_number(x):
+        return x**3
