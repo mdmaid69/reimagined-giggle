@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  def reverse_list(lst):
-        return lst[::-1]
+  def convert_to_octal(n):
+        return oct(n)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
