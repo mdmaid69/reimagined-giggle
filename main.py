@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
