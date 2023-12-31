@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
