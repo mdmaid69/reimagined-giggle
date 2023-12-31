@@ -1,6 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def sort_list(lst):
-        return sorted(lst)
+def get_array_index(array, item):
+        return array.index(item)
