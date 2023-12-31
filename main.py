@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def is_palindrome(s):
-        return s == s[::-1]
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
