@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_area_rectangle(l, w):
+        return l * w
