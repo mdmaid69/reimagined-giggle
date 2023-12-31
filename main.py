@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import sys
+def print_python_version():
+        print(sys.version)
