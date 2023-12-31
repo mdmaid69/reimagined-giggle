@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def count_characters(sentence):
+        return len(sentence)
