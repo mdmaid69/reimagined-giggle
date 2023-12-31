@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
