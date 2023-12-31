@@ -1,5 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
