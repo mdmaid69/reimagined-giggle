@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
