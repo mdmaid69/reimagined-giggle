@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
 import array
-def get_array_as_list(array):
-        return list(array)
+def convert_array_to_string(array):
+        return array.tostring()
