@@ -1,5 +1,7 @@
-import sys
-print(sys.version)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def is_palindrome(s):
+        return s == s[::-1]
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
