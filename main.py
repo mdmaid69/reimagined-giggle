@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import re
+print(re.match("h.*o", "hello world"))
