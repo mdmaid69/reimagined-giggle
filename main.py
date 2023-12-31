@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
