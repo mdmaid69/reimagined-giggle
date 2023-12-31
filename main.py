@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
