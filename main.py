@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
