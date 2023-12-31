@@ -1,5 +1,9 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
