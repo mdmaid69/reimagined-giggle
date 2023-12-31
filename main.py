@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
