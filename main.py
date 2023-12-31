@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def count_characters(sentence):
-        return len(sentence)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
