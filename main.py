@@ -1,6 +1,5 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
