@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+x = 10
+y = 20
+print("Sum:", x + y)
