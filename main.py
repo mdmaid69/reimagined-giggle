@@ -1,6 +1,4 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+print("Hello, world!")
