@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def add_numbers(x, y):
-        return x + y
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
