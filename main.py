@@ -1,6 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
