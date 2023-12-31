@@ -1,6 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def add_numbers(x, y):
+        return x + y
+def is_odd(n):
+        return n % 2 != 0
