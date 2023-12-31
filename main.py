@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def add_numbers(x, y):
+        return x + y
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
