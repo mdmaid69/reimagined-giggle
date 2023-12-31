@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
