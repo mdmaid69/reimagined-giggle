@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
