@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def count_words(sentence):
+        return len(sentence.split())
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
