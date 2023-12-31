@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
