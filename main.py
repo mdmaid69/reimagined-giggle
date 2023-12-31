@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
