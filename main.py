@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def count_characters(sentence):
-        return len(sentence)
+def reverse_string(s):
+        return s[::-1]
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
