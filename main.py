@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_bytes(array):
+        return bytes(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
