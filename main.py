@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
