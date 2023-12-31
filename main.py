@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import sys
+  def get_python_version():
+        return sys.version
