@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def multiply_numbers(x, y):
+        return x * y
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
