@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def convert_to_binary(n):
+        return bin(n)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
