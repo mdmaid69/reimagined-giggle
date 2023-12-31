@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import tensorflow as tf
+print(tf.__version__)
