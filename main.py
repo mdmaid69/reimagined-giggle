@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
