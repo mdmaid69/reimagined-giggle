@@ -1,8 +1,7 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
