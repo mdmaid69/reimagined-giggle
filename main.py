@@ -1,4 +1,8 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
