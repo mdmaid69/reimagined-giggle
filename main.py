@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_as_set(array):
+        return set(array)
