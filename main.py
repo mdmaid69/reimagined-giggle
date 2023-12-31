@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
