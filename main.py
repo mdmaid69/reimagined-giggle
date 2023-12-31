@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def cube_number(x):
+        return x**3
