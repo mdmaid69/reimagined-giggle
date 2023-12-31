@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
