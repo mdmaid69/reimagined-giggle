@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
