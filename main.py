@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
