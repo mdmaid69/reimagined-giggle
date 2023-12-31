@@ -1,6 +1,6 @@
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def extend_array(array, iterable):
+        array.extend(iterable)
