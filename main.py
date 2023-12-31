@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import collections
+def create_user_list():
+        return collections.UserList()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
