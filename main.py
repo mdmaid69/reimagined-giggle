@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
