@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
