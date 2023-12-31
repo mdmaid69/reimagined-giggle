@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
