@@ -1,5 +1,4 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_pressure(force, area):
+        return force / area
+def convert_to_binary(n):
+        return bin(n)
