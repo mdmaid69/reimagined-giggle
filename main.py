@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def sort_numbers(numbers):
+        return sorted(numbers)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
