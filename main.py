@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-  def convert_to_octal(n):
-        return oct(n)
+def count_elements(lst):
+        return len(lst)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
