@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import time
+print(time.time())
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
