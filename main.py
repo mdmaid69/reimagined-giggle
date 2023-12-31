@@ -1,8 +1,5 @@
-print(sum(range(10)))
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def subtract_numbers(x, y):
+        return x - y
