@@ -1,3 +1,5 @@
-def square_number(x):
-        return x**2
-for i in range(10): print(i)
+import time
+def get_current_time():
+        return time.time()
+text = "Hello, world!"
+print("Characters:", len(text))
