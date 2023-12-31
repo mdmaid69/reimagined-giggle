@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
