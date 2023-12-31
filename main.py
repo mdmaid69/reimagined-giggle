@@ -1,5 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def count_characters(sentence):
+        return len(sentence)
