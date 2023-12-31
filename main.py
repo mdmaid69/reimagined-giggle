@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def cube_number(x):
-        return x**3
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
