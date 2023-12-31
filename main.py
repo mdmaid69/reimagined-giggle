@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import datetime
-print(datetime.datetime.now())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
