@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import platform
+def get_os_info():
+        return platform.uname()
