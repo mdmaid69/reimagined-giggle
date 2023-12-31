@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
