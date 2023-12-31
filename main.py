@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def sort_list(lst):
+        return sorted(lst)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_list(array):
+        return list(array)
