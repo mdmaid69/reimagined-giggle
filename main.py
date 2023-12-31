@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
