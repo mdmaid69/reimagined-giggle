@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
