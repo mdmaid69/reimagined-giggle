@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
