@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
