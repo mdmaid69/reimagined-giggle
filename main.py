@@ -1,6 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
