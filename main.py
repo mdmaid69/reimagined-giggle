@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def find_max(numbers):
+        return max(numbers)
+def calculate_area(radius):
+        return 3.14 * radius * radius
