@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
