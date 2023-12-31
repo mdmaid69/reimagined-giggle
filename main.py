@@ -1,8 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
