@@ -1,6 +1,7 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
