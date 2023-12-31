@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def count_elements(lst):
+        return len(lst)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_as_tuple(array):
+        return tuple(array)
