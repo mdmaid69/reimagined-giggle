@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_speed(distance, time):
+        return distance / time
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
