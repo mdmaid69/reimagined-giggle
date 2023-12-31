@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
