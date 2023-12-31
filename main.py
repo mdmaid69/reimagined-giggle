@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def cube_number(x):
+        return x**3
