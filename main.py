@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
