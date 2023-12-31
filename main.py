@@ -1,7 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
