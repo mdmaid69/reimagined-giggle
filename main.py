@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
