@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
