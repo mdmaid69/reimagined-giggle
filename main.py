@@ -1,8 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
