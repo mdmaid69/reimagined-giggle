@@ -1,7 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
