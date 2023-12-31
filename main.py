@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def convert_to_hex(n):
+        return hex(n)
+  def convert_to_octal(n):
+        return oct(n)
