@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
