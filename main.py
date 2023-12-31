@@ -1,7 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  def convert_to_octal(n):
-        return oct(n)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
