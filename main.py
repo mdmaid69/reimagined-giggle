@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
