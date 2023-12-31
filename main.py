@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_acceleration(speed, time):
+        return speed / time
