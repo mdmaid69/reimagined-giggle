@@ -1,5 +1,12 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
