@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_density(mass, volume):
+        return mass / volume
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
