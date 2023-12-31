@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+print(sum(range(10)))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
