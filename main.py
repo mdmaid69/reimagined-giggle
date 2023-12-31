@@ -1,5 +1,11 @@
-import math
-print(math.pi)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
