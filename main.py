@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_power(work, time):
+        return work / time
