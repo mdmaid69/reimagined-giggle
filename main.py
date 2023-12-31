@@ -1,5 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def is_even(n):
+        return n % 2 == 0
