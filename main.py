@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+x = 10
+y = 20
+print("Sum:", x + y)
