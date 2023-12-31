@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
