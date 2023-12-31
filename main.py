@@ -1,5 +1,5 @@
 import datetime
-print(datetime.datetime.now())
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_current_date():
+        return datetime.date.today()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
