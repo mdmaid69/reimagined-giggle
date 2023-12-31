@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+import datetime
+def get_current_date():
+        return datetime.date.today()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
