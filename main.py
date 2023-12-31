@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
