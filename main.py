@@ -1,8 +1,6 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
