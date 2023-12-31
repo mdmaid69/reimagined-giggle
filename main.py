@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
