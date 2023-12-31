@@ -1,8 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
