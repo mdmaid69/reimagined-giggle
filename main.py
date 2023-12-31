@@ -1,5 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-from collections import Counter
-print(Counter("hello world"))
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
