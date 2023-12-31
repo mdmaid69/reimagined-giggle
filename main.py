@@ -1,5 +1,6 @@
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
