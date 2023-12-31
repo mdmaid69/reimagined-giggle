@@ -1,6 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
