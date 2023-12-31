@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
