@@ -1,8 +1,7 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
