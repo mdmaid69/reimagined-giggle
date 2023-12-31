@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
