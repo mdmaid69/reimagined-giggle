@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  def count_elements(lst):
-        return len(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
