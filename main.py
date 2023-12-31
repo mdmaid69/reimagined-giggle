@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def is_even(n):
+        return n % 2 == 0
