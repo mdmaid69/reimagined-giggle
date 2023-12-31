@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-name = "Python"
-print("Hello,", name)
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
