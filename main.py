@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
