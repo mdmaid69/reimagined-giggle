@@ -1,6 +1,6 @@
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
