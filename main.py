@@ -1,7 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
