@@ -1,6 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import platform
+def get_python_version():
+        return platform.python_version()
