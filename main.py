@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
