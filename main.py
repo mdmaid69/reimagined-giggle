@@ -1,4 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def is_even(n):
+        return n % 2 == 0
+def calculate_volume(length, width, height):
+        return length * width * height
