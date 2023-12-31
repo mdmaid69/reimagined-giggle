@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import sys
-def print_python_version():
-        return sys.version
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import tensorflow as tf
+print(tf.__version__)
