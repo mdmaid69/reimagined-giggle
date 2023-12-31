@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+text = "Hello, world!"
+print("Characters:", len(text))
+def find_max(numbers):
+        return max(numbers)
