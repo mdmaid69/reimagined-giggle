@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def sort_numbers(numbers):
+        return sorted(numbers)
