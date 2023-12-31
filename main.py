@@ -1,5 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
