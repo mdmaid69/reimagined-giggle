@@ -1,5 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def greet(name):
+        print(f"Hello, {name}!")
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
