@@ -1,7 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
