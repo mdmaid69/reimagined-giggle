@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_priority_queue():
-        return collections.deque()
+def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
