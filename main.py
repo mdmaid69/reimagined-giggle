@@ -1,5 +1,7 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def is_even(n):
-        return n % 2 == 0
+def greet(name):
+        print(f"Hello, {name}!")
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
