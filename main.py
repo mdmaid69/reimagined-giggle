@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def calculate_area_rectangle(l, w):
-        return l * w
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
