@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import sys
+  def get_python_version():
+        return sys.version
