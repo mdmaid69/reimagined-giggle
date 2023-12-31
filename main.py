@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
