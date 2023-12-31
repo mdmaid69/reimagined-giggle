@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
