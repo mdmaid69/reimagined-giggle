@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_counter():
+        return collections.Counter()
+def reverse_list(lst):
+        return lst[::-1]
