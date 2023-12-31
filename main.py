@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
