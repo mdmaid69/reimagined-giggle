@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
