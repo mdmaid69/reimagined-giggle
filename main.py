@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
