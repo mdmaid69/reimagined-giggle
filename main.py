@@ -1,6 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def clear_array(array):
-        array *= 0
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
