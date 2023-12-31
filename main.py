@@ -1,7 +1,7 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
