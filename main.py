@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import random
-print(random.randint(0, 100))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
