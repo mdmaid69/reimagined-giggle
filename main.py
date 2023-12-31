@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
