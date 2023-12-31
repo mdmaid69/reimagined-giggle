@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
