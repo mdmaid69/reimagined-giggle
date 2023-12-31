@@ -1,6 +1,11 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
