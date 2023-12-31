@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def get_list_from_array(array):
+        return array.tolist()
