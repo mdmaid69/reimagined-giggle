@@ -1,8 +1,5 @@
+def find_union(list1, list2):
+        return set(list1) | set(list2)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_gamma_function(x):
+        return math.gamma(x)
