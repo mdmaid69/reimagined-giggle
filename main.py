@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import platform
-def get_os_info():
-        return platform.uname()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
