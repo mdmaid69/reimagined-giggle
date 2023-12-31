@@ -1,6 +1,7 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
