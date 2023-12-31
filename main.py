@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
