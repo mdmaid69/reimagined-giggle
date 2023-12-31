@@ -1,5 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
