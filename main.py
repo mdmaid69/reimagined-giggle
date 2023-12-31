@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
