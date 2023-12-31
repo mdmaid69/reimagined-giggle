@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def convert_to_binary(n):
+        return bin(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
