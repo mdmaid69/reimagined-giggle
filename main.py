@@ -1,8 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
