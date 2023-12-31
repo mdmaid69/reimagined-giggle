@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-text = "Hello, world!"
-print("Characters:", len(text))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def convert_to_hex(n):
+        return hex(n)
