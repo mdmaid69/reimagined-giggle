@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
