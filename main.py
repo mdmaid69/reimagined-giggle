@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
