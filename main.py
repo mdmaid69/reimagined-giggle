@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
