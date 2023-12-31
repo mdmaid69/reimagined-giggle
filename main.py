@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
