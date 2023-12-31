@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
