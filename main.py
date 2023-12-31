@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
