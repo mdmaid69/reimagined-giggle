@@ -1,5 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def reverse_string(s):
-        return s[::-1]
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_area_circle(r):
+        return 3.14 * r**2
