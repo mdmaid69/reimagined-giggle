@@ -1,4 +1,12 @@
-def calculate_power(work, time):
-        return work / time
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
