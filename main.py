@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
