@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def is_even(n):
+        return n % 2 == 0
