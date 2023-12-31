@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def count_elements(lst):
+        return len(lst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
