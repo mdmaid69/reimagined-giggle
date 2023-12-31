@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def is_odd(n):
+        return n % 2 != 0
