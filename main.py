@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
