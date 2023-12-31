@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
