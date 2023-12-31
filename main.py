@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import os
+def remove_directory(path):
+        os.rmdir(path)
