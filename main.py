@@ -1,4 +1,5 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-for i in range(10): print(i)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def is_odd(n):
+        return n % 2 != 0
