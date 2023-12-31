@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
