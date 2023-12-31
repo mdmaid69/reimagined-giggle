@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  def cube_number(x):
-        return x**3
+  def convert_to_binary(n):
+        return bin(n)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
