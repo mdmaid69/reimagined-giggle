@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def calculate_area_circle(r):
+        return 3.14 * r**2
