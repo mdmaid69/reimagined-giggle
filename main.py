@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import collections
-def create_counter():
-        return collections.Counter()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
