@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_area_rectangle(l, w):
+        return l * w
