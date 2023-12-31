@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_typecode(array):
+        return array.typecode
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
