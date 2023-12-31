@@ -1,5 +1,7 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
