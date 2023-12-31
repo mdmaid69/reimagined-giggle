@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import sys
+print(sys.version)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
