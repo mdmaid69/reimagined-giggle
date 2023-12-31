@@ -1,7 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
