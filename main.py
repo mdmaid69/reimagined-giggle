@@ -1,3 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-print([x**2 for x in range(10)])
+def cube_number(x):
+        return x**3
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
