@@ -1,5 +1,8 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
