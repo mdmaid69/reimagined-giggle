@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_tangent(x):
+        return math.tan(x)
