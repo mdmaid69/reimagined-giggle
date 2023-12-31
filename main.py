@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import numpy as np
+print(np.array([1, 2, 3]))
