@@ -1,5 +1,7 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def find_min(lst):
+        return min(lst)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
