@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
