@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
