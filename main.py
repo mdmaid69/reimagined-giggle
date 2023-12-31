@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
