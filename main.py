@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  def cube_number(x):
-        return x**3
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
