@@ -1,8 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
