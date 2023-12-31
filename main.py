@@ -1,5 +1,9 @@
-def count_words(sentence):
-        return len(sentence.split())
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def add_numbers(a, b):
+        return a + b
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
