@@ -1,8 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
