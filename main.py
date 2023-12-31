@@ -1,7 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
