@@ -1,6 +1,4 @@
+print(sum(range(10)))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
