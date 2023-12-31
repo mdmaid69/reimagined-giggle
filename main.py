@@ -1,6 +1,6 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
