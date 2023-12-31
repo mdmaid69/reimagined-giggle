@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
