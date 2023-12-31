@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
