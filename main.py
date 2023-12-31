@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import time
-def get_current_time():
-        return time.time()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
