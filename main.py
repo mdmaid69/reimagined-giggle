@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def calculate_acceleration(speed, time):
-        return speed / time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
