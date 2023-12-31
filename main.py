@@ -1,8 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def square_number(x):
+        return x**2
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
