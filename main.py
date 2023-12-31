@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def convert_to_binary(n):
+        return bin(n)
