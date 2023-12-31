@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import collections
+def create_priority_queue():
+        return collections.deque()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
