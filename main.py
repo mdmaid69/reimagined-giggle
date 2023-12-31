@@ -1,5 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def convert_to_hex(n):
+        return hex(n)
