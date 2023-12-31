@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
