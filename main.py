@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
