@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
