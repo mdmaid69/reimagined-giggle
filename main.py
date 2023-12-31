@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def convert_to_binary(n):
+        return bin(n)
