@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
