@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
