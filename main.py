@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import time
-def get_time_since_epoch():
-        return time.time()
+def is_palindrome(s):
+        return s == s[::-1]
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
