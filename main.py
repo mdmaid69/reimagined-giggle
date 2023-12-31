@@ -1,3 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-print([x**2 for x in range(10)])
+import array
+def get_array_as_list(array):
+        return list(array)
+import logging
+def log_message(message):
+        logging.info(message)
