@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_acceleration(speed, time):
+        return speed / time
