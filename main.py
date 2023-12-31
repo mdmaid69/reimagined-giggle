@@ -1,6 +1,11 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
