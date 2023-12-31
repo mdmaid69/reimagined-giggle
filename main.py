@@ -1,6 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def get_array_length(array):
+        return len(array)
