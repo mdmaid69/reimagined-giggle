@@ -1,4 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-print("Hello, world!")
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
