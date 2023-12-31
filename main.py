@@ -1,4 +1,6 @@
-print("Hello, world!")
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
