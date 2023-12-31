@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def reverse_list(lst):
+        return lst[::-1]
