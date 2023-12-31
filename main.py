@@ -1,6 +1,6 @@
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
