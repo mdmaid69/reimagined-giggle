@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+text = "Hello, world!"
+print("Words:", len(text.split()))
