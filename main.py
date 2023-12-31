@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+  def is_odd(n):
+        return n % 2 != 0
