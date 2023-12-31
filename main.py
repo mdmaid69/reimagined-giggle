@@ -1,5 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_speed(distance, time):
-        return distance / time
+def get_array_as_str(array):
+        return str(array)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
