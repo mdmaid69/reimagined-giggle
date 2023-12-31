@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def square_number(x):
+        return x**2
