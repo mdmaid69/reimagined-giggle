@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
