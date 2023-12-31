@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_work(force, distance):
+        return force * distance
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_string_from_array(array):
+        return array.tobytes()
