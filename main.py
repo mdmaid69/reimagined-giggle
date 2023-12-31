@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import random
-def roll_die():
-        return random.randint(1, 6)
+def is_palindrome(s):
+        return s == s[::-1]
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
