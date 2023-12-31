@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  def add_numbers(x, y):
+        return x + y
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
