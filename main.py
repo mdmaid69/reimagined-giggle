@@ -1,6 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
