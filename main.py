@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_cosine(x):
+        return math.cos(x)
