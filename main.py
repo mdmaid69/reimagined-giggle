@@ -1,3 +1,6 @@
-print("Hello, world!")
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
