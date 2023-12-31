@@ -1,5 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import tensorflow as tf
+print(tf.__version__)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
