@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
