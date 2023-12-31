@@ -1,5 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_item_count(array, item):
+        return array.count(item)
