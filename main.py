@@ -1,5 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
