@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
