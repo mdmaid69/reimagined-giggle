@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import random
-print(random.randint(0, 100))
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
