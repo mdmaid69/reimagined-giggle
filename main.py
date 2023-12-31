@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import re
+print(re.match("h.*o", "hello world"))
