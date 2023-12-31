@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
