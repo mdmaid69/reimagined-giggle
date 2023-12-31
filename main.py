@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
