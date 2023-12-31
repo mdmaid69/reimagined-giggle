@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_work(force, distance):
-        return force * distance
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
