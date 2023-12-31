@@ -1,6 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def get_array_as_complex(array):
+        return complex(array[0])
