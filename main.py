@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
