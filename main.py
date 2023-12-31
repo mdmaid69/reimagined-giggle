@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
