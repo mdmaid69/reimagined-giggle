@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import os
-def change_working_directory(path):
-        os.chdir(path)
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
