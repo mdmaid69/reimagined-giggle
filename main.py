@@ -1,5 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
