@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
