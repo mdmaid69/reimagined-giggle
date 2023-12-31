@@ -1,6 +1,5 @@
+  def sort_list(lst):
+        return sorted(lst)
 import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def get_array_buffer_info(array):
+        return array.buffer_info()
