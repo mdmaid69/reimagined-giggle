@@ -1,7 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
