@@ -1,5 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def add_numbers(a, b):
+        return a + b
