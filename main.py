@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
