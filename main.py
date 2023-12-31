@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_pressure(force, area):
+        return force / area
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
