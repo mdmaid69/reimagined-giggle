@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import sys
+  def get_python_version():
+        return sys.version
