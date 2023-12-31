@@ -1,6 +1,8 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
