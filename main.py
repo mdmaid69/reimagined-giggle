@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  def square_number(x):
-        return x**2
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
