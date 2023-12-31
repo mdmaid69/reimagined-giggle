@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
