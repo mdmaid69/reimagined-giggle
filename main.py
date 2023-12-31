@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_item(array, i):
-        return array[i]
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
