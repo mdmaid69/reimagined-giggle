@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_typecode(array):
+        return array.typecode
