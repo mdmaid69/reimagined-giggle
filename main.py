@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import random
+print(random.randint(0, 100))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
