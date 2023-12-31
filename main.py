@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
