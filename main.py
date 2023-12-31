@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
