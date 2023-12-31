@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def cube_number(x):
-        return x**3
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
