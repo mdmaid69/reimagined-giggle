@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
