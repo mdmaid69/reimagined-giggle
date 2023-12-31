@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
