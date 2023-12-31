@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
