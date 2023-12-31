@@ -1,4 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  def count_elements(lst):
-        return len(lst)
+def find_min(numbers):
+        return min(numbers)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
