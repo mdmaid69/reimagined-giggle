@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def remove_duplicates(lst):
+        return list(set(lst))
+import sys
+def print_python_version():
+        print(sys.version)
