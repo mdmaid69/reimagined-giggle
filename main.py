@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
