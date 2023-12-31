@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
