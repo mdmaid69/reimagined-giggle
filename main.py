@@ -1,7 +1,7 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
