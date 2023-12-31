@@ -1,6 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
