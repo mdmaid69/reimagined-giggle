@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
