@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_as_float(array):
+        return float(array[0])
