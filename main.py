@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
