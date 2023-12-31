@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
 import array
-def reverse_array(array):
-        array.reverse()
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
