@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
