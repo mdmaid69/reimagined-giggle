@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_area_circle(r):
+        return 3.14 * r**2
