@@ -1,7 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import logging
+def log_message(message):
+        logging.info(message)
+import platform
+def get_python_version():
+        return platform.python_version()
