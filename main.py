@@ -1,6 +1,5 @@
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
