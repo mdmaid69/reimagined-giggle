@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_item(array, i):
+        return array[i]
