@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def reverse_list(lst):
+        return lst[::-1]
