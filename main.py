@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
