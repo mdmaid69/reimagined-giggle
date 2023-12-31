@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def find_min(numbers):
-        return min(numbers)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import random
+print(random.randint(0, 100))
