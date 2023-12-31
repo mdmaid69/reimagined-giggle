@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import time
+def get_time_since_epoch():
+        return time.time()
