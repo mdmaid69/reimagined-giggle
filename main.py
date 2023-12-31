@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def multiply_numbers(x, y):
+        return x * y
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
