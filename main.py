@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
