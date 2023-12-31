@@ -1,7 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
