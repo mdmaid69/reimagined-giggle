@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
