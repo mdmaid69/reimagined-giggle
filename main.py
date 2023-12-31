@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
