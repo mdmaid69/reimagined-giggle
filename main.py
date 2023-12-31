@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
