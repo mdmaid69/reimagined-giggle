@@ -1,6 +1,6 @@
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
