@@ -1,5 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_floor(x):
+        return math.floor(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
