@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def reverse_string(s):
+        return s[::-1]
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
