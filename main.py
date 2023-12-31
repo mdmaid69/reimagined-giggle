@@ -1,6 +1,8 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
