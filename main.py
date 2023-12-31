@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
