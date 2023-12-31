@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
