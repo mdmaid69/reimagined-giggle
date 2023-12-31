@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
