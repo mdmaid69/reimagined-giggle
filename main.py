@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
