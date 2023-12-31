@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_repr(array):
+        return repr(array)
