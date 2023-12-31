@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def get_current_working_directory():
+        return os.getcwd()
