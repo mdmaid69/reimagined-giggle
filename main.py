@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def convert_to_binary(n):
+        return bin(n)
+text = "Hello, world!"
+print("Characters:", len(text))
