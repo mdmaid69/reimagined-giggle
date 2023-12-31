@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
