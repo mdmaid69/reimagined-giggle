@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_density(mass, volume):
+        return mass / volume
