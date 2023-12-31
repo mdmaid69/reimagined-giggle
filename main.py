@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_area_rectangle(l, w):
+        return l * w
+def find_min(numbers):
+        return min(numbers)
