@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import collections
+def create_counter():
+        return collections.Counter()
