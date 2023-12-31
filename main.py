@@ -1,5 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
