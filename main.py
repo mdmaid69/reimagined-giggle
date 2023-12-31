@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
