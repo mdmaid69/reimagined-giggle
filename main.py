@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
