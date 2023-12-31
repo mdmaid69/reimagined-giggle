@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
