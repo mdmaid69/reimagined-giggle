@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
