@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
