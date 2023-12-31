@@ -1,6 +1,3 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+name = "Python"
+print("Hello,", name)
+print([x**2 for x in range(10)])
