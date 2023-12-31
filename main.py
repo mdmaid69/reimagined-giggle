@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def reverse_list(lst):
-        return lst[::-1]
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
