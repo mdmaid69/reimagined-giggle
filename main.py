@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
