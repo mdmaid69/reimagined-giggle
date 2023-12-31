@@ -1,6 +1,8 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
