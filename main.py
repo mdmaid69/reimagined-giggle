@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
