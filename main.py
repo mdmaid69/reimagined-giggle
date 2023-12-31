@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
