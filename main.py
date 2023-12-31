@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
