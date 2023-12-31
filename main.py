@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
