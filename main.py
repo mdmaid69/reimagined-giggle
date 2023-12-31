@@ -1,6 +1,7 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import sys
-def exit_program():
-        sys.exit()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
