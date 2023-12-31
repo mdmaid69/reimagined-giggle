@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
