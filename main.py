@@ -1,8 +1,9 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
