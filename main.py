@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def count_words(sentence):
+        return len(sentence.split())
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
