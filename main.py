@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  def add_numbers(x, y):
+        return x + y
