@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_power(work, time):
+        return work / time
