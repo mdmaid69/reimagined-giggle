@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def reverse_array(array):
+        array.reverse()
