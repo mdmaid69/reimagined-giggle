@@ -1,6 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
