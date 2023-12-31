@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
