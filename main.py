@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
