@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def convert_to_octal(n):
-        return oct(n)
+def count_elements(lst):
+        return len(lst)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
