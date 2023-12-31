@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import platform
+def get_python_version():
+        return platform.python_version()
