@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
