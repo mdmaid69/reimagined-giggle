@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+print(time.time())
+def calculate_power(work, time):
+        return work / time
