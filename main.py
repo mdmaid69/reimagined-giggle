@@ -1,4 +1,5 @@
 text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_pressure(force, area):
-        return force / area
+print("Characters:", len(text))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
