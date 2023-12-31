@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
