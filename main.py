@@ -1,5 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
