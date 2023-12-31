@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
