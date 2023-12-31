@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import collections
-def create_counter():
-        return collections.Counter()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
