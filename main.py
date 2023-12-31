@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import time
+def get_current_time():
+        return time.ctime()
