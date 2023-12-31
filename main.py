@@ -1,5 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import getpass
-def get_username():
-        return getpass.getuser()
+def reverse_list(lst):
+        return lst[::-1]
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
