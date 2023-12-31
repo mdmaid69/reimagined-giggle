@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def check_if_array_contains_item(array, item):
+        return item in array
