@@ -1,4 +1,8 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
