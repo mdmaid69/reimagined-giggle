@@ -1,7 +1,4 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def find_min(numbers):
-        return min(numbers)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
