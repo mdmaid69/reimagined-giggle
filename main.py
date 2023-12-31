@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
