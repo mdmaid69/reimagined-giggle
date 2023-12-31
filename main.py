@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def add_numbers(a, b):
+        return a + b
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
