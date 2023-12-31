@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
