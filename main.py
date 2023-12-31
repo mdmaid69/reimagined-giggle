@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
