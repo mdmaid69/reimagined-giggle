@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import datetime
+def get_current_date():
+        return datetime.date.today()
