@@ -1,5 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
