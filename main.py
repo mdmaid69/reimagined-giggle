@@ -1,5 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
