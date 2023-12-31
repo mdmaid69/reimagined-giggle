@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
