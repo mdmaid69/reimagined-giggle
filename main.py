@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
