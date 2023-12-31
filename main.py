@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
