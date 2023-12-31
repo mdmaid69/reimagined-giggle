@@ -1,6 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
