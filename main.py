@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def add_numbers(x, y):
+        return x + y
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
