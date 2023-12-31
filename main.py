@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def find_min(numbers):
-        return min(numbers)
+def find_min(lst):
+        return min(lst)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
