@@ -1,4 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-print(sum(range(10)))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_as_float(array):
+        return float(array[0])
