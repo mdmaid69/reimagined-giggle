@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
