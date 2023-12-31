@@ -1,5 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
