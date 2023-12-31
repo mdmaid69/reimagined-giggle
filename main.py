@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
