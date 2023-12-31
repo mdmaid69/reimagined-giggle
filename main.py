@@ -1,5 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
