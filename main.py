@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
