@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
