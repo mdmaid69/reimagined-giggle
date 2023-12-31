@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
