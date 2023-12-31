@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_slice(array, i, j):
+        return array[i:j]
