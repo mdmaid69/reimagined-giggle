@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import random
-print(random.randint(0, 100))
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_as_set(array):
+        return set(array)
