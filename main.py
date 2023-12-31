@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def reverse_list(lst):
+        return lst[::-1]
