@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
