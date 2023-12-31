@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
