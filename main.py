@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
