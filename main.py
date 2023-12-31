@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
