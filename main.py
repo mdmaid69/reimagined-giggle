@@ -1,6 +1,8 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
