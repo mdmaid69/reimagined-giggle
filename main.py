@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
