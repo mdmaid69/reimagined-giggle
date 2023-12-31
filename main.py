@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def is_even(n):
-        return n % 2 == 0
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+for i in range(5):
+        print(i)
