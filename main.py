@@ -1,6 +1,5 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
