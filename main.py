@@ -1,6 +1,5 @@
+  def add_numbers(x, y):
+        return x + y
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def get_array_typecode(array):
+        return array.typecode
