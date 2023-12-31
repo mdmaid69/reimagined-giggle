@@ -1,6 +1,7 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_floor(x):
+        return math.floor(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
