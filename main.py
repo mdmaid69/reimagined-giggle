@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
