@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
