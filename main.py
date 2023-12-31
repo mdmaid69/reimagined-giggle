@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
