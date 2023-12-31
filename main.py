@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
