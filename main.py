@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import tensorflow as tf
+print(tf.__version__)
