@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
