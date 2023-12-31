@@ -1,5 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
