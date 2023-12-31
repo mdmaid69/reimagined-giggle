@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
