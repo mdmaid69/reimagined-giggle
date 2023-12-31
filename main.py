@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import os
-print(os.getcwd())
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
