@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
