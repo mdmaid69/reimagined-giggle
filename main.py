@@ -1,5 +1,7 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
