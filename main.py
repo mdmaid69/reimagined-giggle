@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def convert_to_hex(n):
+        return hex(n)
+def is_palindrome(s):
+        return s == s[::-1]
