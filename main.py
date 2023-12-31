@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def subtract_numbers(x, y):
-        return x - y
+  import sys
+  def get_python_version():
+        return sys.version
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
