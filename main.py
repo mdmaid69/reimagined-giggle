@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
