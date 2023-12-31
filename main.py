@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
