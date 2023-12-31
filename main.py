@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
