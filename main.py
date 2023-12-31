@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_as_float(array):
+        return float(array[0])
