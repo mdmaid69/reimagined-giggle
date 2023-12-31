@@ -1,5 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def is_odd(n):
-        return n % 2 != 0
+  def remove_duplicates(lst):
+        return list(set(lst))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
