@@ -1,4 +1,8 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
