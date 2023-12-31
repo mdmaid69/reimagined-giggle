@@ -1,6 +1,6 @@
 import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
