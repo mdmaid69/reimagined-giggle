@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def convert_array_to_list(array):
+        return array.tolist()
