@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
