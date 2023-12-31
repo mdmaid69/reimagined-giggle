@@ -1,5 +1,7 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
