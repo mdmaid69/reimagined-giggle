@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
