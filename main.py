@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import time
+def get_current_time():
+        return time.time()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
