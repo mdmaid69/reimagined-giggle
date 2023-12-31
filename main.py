@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def subtract_numbers(x, y):
+        return x - y
