@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
+def subtract_numbers(x, y):
+        return x - y
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
