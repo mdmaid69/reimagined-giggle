@@ -1,4 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
