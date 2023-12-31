@@ -1,7 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_square_root(x):
+        return math.sqrt(x)
+import sys
+def exit_program():
+        sys.exit()
