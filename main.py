@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_base_name(path):
+        return os.path.basename(path)
