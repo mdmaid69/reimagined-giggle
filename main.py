@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
+def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
