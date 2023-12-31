@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def append_to_array(array, item):
+        array.append(item)
