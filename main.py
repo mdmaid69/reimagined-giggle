@@ -1,5 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def is_palindrome(s):
+        return s == s[::-1]
