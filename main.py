@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
