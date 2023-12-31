@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
