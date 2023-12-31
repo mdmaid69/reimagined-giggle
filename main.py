@@ -1,6 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_bytes_from_array(array):
+        return array.tobytes()
