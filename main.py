@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def subtract_numbers(x, y):
+        return x - y
+import sys
+def print_python_version():
+        return sys.version
