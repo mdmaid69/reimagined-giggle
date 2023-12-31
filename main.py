@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
