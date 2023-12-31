@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def reverse_array(array):
+        array.reverse()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
