@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
