@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
