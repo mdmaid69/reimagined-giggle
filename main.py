@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-for i in range(5):
-        print(i)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
