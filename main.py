@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  def add_numbers(x, y):
+        return x + y
