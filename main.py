@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
