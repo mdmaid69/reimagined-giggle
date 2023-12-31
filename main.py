@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_density(mass, volume):
+        return mass / volume
