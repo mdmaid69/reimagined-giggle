@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import time
+def get_current_time():
+        return time.time()
