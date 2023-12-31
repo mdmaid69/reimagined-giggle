@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
