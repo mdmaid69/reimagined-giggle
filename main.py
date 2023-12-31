@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
