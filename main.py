@@ -1,8 +1,6 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
