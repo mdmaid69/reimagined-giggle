@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import platform
+def get_python_version():
+        return platform.python_version()
