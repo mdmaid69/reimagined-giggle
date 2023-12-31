@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
