@@ -1,5 +1,7 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import time
-print(time.time())
+def calculate_density(mass, volume):
+        return mass / volume
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
