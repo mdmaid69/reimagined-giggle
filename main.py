@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
