@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_pressure(force, area):
-        return force / area
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
