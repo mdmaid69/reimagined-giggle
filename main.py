@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
