@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
