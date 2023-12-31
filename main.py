@@ -1,6 +1,7 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
