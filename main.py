@@ -1,6 +1,7 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def divide_numbers(x, y):
+        return x / y
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
