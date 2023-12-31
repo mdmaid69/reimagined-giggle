@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_error_function(x):
+        return math.erf(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
