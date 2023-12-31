@@ -1,8 +1,5 @@
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
