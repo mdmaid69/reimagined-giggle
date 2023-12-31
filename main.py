@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import os
-print(os.getcwd())
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+print(math.pi)
