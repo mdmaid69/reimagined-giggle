@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
