@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
