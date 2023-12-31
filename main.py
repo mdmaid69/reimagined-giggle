@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
+def calculate_perpetuity(payment, rate):
+        return payment / rate
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
