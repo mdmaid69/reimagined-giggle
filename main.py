@@ -1,6 +1,8 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
