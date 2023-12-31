@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def square_number(x):
-        return x**2
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
