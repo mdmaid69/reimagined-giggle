@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_sine(x):
+        return math.sin(x)
