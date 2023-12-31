@@ -1,6 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_square_root(x):
+        return math.sqrt(x)
