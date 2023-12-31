@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def calculate_area_rectangle(l, w):
-        return l * w
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
