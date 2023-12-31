@@ -1,4 +1,5 @@
-print("Hello, world!")
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
