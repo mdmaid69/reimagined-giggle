@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
