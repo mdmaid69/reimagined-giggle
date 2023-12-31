@@ -1,5 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_area_rectangle(l, w):
+        return l * w
+  def cube_number(x):
+        return x**3
