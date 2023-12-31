@@ -1,7 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
