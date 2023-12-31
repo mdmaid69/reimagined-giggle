@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import collections
-def create_priority_queue():
-        return collections.deque()
+def divide_numbers(x, y):
+        return x / y
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
