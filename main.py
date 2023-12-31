@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
