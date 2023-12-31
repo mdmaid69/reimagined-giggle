@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
