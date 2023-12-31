@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_item(array, i):
+        return array[i]
