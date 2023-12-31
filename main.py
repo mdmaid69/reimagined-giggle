@@ -1,4 +1,6 @@
-import time
-print(time.time())
-for i in range(5):
-        print(i)
+def calculate_speed(distance, time):
+        return distance / time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
