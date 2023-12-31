@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
