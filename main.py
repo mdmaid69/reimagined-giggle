@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
