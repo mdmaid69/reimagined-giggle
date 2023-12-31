@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
