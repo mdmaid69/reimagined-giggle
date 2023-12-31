@@ -1,7 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def count_words(sentence):
+        return len(sentence.split())
