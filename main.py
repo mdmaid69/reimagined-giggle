@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
