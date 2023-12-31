@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
