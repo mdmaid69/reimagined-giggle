@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
