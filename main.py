@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+for i in range(5):
+        print(i)
+x = 10
+y = 20
+print("Sum:", x + y)
