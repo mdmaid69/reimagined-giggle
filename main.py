@@ -1,5 +1,7 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+def calculate_pressure(force, area):
+        return force / area
