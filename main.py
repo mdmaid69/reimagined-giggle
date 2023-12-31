@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  def calculate_area_rectangle(l, w):
-        return l * w
+for i in range(5):
+        print(i)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
