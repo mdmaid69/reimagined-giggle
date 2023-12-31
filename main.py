@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
