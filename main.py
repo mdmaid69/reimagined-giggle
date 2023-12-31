@@ -1,6 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
