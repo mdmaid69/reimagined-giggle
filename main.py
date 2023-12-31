@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+for i in range(5):
+        print(i)
