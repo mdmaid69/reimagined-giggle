@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_current_directory():
+        return os.getcwd()
