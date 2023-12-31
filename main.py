@@ -1,6 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import time
-def get_time_since_epoch():
-        return time.time()
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
