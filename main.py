@@ -1,4 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-for i in range(10): print(i)
+def calculate_acceleration(speed, time):
+        return speed / time
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
