@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def is_even(n):
+        return n % 2 == 0
