@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import getpass
+def get_username():
+        return getpass.getuser()
