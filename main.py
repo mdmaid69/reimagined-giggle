@@ -1,6 +1,5 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_area_circle(r):
+        return 3.14 * r**2
