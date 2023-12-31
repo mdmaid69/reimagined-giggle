@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def convert_to_binary(n):
-        return bin(n)
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_current_directory():
+        return os.getcwd()
