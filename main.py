@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_time_since_epoch():
+        return time.time()
