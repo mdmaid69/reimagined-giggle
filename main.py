@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
