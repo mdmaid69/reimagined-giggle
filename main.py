@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+text = "Hello, world!"
+print("Words:", len(text.split()))
