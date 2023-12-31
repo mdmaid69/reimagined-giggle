@@ -1,6 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def clear_array(array):
-        array *= 0
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
