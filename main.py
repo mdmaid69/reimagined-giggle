@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-def find_max(lst):
-        return max(lst)
+import sys
+def exit_program():
+        sys.exit()
+def find_max(numbers):
+        return max(numbers)
