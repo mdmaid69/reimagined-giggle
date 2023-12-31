@@ -1,4 +1,8 @@
-def count_words(sentence):
-        return len(sentence.split())
-def convert_to_octal(n):
-        return oct(n)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
