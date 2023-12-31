@@ -1,5 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_power(work, time):
+        return work / time
