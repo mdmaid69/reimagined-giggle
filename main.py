@@ -1,5 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def convert_to_octal(n):
-        return oct(n)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
