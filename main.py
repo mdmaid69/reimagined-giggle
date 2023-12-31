@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import time
-def get_time_since_epoch():
-        return time.time()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import collections
+def create_user_dict():
+        return collections.UserDict()
