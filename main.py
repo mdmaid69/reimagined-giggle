@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
