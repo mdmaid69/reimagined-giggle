@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
