@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
