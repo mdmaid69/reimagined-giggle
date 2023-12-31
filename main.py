@@ -1,8 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_error_function(x):
+        return math.erf(x)
