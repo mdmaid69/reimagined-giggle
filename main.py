@@ -1,5 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def add_numbers(x, y):
-        return x + y
+def get_bytes_from_array(array):
+        return array.tobytes()
+import collections
+def create_stack():
+        return collections.deque()
