@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
