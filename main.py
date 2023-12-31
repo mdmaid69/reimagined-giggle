@@ -1,6 +1,8 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import logging
+def log_message(message):
+        logging.info(message)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
