@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def convert_to_octal(n):
+        return oct(n)
