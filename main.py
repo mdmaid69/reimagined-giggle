@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
