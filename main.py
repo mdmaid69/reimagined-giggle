@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
