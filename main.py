@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_as_set(array):
+        return set(array)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
