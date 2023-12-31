@@ -1,8 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
