@@ -1,6 +1,3 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+print([x**2 for x in range(10)])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
