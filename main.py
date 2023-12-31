@@ -1,5 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+text = "Hello, world!"
+print("Characters:", len(text))
