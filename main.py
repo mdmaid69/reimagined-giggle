@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
+import os
+def get_current_working_directory():
+        return os.getcwd()
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
