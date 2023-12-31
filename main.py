@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def reverse_list(lst):
-        return lst[::-1]
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
