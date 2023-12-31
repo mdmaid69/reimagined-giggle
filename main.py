@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
