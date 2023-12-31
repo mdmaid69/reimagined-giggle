@@ -1,5 +1,8 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
