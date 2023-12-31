@@ -1,6 +1,8 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
