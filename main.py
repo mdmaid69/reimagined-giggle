@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import sys
+print(sys.version)
+import time
+print(time.time())
