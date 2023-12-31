@@ -1,7 +1,6 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
