@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
