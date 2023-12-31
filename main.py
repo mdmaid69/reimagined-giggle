@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def add_numbers(x, y):
+        return x + y
