@@ -1,6 +1,6 @@
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_gamma_function(x):
+        return math.gamma(x)
