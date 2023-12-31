@@ -1,6 +1,7 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
