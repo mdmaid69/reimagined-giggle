@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def multiply_numbers(x, y):
+        return x * y
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
