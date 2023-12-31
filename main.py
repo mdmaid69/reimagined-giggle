@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import random
+print(random.randint(0, 100))
