@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import random
+print(random.randint(0, 100))
