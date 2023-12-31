@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
