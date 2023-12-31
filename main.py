@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
