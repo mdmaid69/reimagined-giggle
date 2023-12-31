@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_acceleration(speed, time):
+        return speed / time
