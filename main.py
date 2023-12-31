@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
