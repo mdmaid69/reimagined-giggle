@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
