@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
