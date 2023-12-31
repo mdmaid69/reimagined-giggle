@@ -1,5 +1,7 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def find_max(numbers):
-        return max(numbers)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
