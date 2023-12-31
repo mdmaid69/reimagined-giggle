@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_length(array):
+        return len(array)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
