@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_user_string():
-        return collections.UserString()
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+def calculate_density(mass, volume):
+        return mass / volume
