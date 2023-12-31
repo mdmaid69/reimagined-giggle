@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def sort_list(lst):
+        return sorted(lst)
