@@ -1,8 +1,7 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
