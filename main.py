@@ -1,7 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def cube_number(x):
+        return x**3
