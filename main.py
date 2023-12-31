@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
