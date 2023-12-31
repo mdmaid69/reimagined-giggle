@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-text = "Hello, world!"
-print("Characters:", len(text))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
