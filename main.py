@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
