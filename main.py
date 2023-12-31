@@ -1,9 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
