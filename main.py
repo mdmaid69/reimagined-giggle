@@ -1,8 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
