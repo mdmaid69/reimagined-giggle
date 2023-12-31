@@ -1,10 +1,8 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
