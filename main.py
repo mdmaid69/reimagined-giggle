@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
