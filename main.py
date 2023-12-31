@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
