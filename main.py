@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
