@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
