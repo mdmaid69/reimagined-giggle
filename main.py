@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import collections
+def create_user_string():
+        return collections.UserString()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
