@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_speed(distance, time):
+        return distance / time
