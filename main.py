@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
