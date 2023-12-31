@@ -1,4 +1,5 @@
-print(sum(range(10)))
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_current_working_directory():
+        return os.getcwd()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
