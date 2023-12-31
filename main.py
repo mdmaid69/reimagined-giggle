@@ -1,5 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
