@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
