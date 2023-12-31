@@ -1,6 +1,5 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
