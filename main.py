@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_area_rectangle(l, w):
+        return l * w
