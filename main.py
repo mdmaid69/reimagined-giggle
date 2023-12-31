@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
+import sys
+def print_python_version():
+        print(sys.version)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_array_to_bytes(array):
+        return array.tobytes()
