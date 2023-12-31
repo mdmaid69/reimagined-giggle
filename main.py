@@ -1,6 +1,7 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import time
+print(time.time())
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
