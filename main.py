@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
