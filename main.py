@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
