@@ -1,5 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-from collections import Counter
-print(Counter("hello world"))
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
