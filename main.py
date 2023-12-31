@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
