@@ -1,9 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
