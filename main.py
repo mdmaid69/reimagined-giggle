@@ -1,6 +1,7 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
