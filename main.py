@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
