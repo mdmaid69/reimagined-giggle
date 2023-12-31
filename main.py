@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
