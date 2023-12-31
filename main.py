@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def sort_numbers(numbers):
-        return sorted(numbers)
+import time
+def get_current_time():
+        return time.time()
+import os
+def change_working_directory(path):
+        os.chdir(path)
