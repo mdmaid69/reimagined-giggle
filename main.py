@@ -1,5 +1,8 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
