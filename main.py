@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import sys
+def print_python_version():
+        print(sys.version)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
