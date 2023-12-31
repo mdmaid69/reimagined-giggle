@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
