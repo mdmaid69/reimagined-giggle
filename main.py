@@ -1,6 +1,9 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
