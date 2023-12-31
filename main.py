@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import collections
-def create_stack():
-        return collections.deque()
+import getpass
+def get_username():
+        return getpass.getuser()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
