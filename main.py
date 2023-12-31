@@ -1,6 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
