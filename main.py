@@ -1,6 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+print([x**2 for x in range(10)])
 import array
-def reverse_array(array):
-        array.reverse()
+def clear_array(array):
+        array *= 0
