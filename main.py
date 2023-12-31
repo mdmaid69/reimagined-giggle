@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def get_array_as_set(array):
+        return set(array)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
