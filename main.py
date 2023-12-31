@@ -1,7 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def convert_to_hex(n):
+        return hex(n)
