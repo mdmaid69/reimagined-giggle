@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
