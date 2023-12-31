@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def find_min(numbers):
+        return min(numbers)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
