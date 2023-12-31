@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
