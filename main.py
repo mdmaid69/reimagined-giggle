@@ -1,7 +1,7 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-text = "Hello, world!"
-print("Characters:", len(text))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
