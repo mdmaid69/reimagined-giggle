@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def remove_duplicates(lst):
+        return list(set(lst))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
