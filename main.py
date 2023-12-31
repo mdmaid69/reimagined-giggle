@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import collections
-def create_user_list():
-        return collections.UserList()
+for i in range(5):
+        print(i)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
