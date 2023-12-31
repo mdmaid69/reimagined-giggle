@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+text = "Hello, world!"
+print("Characters:", len(text))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
