@@ -1,4 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-  def count_elements(lst):
-        return len(lst)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  def convert_to_hex(n):
+        return hex(n)
