@@ -1,7 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def reverse_array(array):
+        array.reverse()
