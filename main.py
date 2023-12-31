@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
