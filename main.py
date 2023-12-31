@@ -1,8 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
