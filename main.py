@@ -1,7 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
