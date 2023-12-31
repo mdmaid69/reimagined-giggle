@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import time
+def get_time_since_epoch():
+        return time.time()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
