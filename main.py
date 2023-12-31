@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import collections
-def create_stack():
-        return collections.deque()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
