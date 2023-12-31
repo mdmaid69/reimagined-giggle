@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
