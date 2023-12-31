@@ -1,5 +1,7 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
