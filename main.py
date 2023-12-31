@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
