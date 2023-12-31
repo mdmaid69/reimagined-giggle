@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  def count_elements(lst):
+        return len(lst)
