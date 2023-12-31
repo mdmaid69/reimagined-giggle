@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
