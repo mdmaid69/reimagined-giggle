@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
