@@ -1,6 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
