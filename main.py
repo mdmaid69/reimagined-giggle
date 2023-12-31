@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+for i in range(5):
+        print(i)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
