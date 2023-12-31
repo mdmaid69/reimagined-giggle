@@ -1,7 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+from collections import Counter
+print(Counter("hello world"))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
