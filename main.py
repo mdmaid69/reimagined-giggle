@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
