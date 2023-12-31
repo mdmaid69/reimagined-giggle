@@ -1,7 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
