@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def convert_to_binary(n):
-        return bin(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
