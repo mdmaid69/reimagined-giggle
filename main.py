@@ -1,4 +1,4 @@
-def square_number(x):
-        return x**2
-def count_characters(sentence):
-        return len(sentence)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+for i in range(5):
+        print(i)
