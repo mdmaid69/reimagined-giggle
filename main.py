@@ -1,6 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import sys
+print(sys.version)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
