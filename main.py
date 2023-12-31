@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
