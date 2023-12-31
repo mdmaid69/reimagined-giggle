@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import random
+print(random.randint(0, 100))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
