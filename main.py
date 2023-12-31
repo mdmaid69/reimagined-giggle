@@ -1,5 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
