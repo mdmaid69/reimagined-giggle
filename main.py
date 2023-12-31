@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def is_odd(n):
-        return n % 2 != 0
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
