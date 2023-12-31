@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import sys
+def print_python_version():
+        return sys.version
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
