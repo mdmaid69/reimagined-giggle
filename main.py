@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_pressure(force, area):
+        return force / area
+import sys
+def print_python_version():
+        print(sys.version)
