@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def convert_to_hex(n):
+        return hex(n)
+import time
+def get_time_since_epoch():
+        return time.time()
