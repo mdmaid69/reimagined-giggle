@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
