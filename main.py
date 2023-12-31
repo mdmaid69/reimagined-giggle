@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def greet(name):
+        print(f"Hello, {name}!")
