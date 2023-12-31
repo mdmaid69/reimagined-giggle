@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
