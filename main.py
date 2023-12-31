@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import collections
+def create_stack():
+        return collections.deque()
