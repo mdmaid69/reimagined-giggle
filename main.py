@@ -1,6 +1,5 @@
-import math
-print(math.pi)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def find_min(numbers):
+        return min(numbers)
+import collections
+def create_priority_queue():
+        return collections.deque()
