@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
