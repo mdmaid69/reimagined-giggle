@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
