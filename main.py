@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
