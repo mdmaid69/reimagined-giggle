@@ -1,6 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
