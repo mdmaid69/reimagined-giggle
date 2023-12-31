@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
