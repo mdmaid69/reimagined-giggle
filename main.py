@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
