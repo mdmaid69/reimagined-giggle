@@ -1,5 +1,8 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def is_even(n):
-        return n % 2 == 0
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
