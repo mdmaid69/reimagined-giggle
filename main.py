@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
+def find_min(numbers):
+        return min(numbers)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
