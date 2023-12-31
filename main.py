@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_power(work, time):
-        return work / time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
