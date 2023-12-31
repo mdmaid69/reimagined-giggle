@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
