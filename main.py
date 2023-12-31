@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
