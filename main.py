@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
