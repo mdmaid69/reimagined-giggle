@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
