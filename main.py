@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import collections
+def create_stack():
+        return collections.deque()
