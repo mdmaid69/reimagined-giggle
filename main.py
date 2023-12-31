@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
