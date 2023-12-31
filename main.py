@@ -4,4 +4,6 @@ def get_array_from_file(filename, typecode):
         with open(filename, "rb") as f:
         a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
-print(sum(range(10)))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
