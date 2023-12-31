@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
