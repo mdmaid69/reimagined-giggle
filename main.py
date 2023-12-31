@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
