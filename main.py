@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_volume(length, width, height):
+        return length * width * height
