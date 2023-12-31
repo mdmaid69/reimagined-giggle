@@ -1,6 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
