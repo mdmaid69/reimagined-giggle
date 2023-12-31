@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
