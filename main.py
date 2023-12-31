@@ -1,5 +1,5 @@
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
