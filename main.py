@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
