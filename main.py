@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_area_rectangle(l, w):
-        return l * w
+from collections import Counter
+print(Counter("hello world"))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
