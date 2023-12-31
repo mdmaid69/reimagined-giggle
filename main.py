@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def add_numbers(a, b):
-        return a + b
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
