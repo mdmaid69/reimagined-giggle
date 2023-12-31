@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
