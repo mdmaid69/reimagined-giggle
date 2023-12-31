@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def is_palindrome(s):
-        return s == s[::-1]
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
