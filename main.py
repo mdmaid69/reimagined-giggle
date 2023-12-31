@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
