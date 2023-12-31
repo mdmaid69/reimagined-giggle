@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
