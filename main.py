@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
