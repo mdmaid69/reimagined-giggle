@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def add_numbers(x, y):
-        return x + y
+def cube_number(x):
+        return x**3
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
