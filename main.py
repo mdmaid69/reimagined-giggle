@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def cube_number(x):
+        return x**3
