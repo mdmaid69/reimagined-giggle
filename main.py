@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def get_array_as_float(array):
+        return float(array[0])
