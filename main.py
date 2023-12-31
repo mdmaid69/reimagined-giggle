@@ -1,7 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import numpy as np
+print(np.array([1, 2, 3]))
