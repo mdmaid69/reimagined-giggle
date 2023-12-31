@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def get_array_as_bool(array):
+        return bool(array)
