@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
