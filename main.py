@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
