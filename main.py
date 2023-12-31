@@ -1,8 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def calculate_pressure(force, area):
+        return force / area
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
