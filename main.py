@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def append_to_array(array, item):
+        array.append(item)
