@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import sys
-  def get_python_version():
-        return sys.version
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
