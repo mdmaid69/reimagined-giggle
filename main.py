@@ -1,7 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
