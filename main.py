@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
