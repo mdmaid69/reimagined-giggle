@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import time
+def get_time_since_epoch():
+        return time.time()
