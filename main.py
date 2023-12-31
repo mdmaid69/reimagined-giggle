@@ -1,4 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def find_max(numbers):
+        return max(numbers)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
