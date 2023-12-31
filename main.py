@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
