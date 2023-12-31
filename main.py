@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def reverse_list(lst):
-        return lst[::-1]
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
