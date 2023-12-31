@@ -1,5 +1,9 @@
-import collections
-def create_queue():
-        return collections.deque()
-  def sort_list(lst):
-        return sorted(lst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
