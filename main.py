@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
