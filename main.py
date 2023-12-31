@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
