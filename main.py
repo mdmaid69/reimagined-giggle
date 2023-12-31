@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
