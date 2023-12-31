@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def find_min(lst):
-        return min(lst)
+def subtract_numbers(x, y):
+        return x - y
+def is_odd(n):
+        return n % 2 != 0
