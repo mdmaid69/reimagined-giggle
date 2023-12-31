@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_area_rectangle(l, w):
+        return l * w
