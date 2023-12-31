@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import sys
+def print_python_version():
+        return sys.version
