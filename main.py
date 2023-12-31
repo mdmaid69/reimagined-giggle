@@ -1,4 +1,4 @@
-def convert_to_octal(n):
-        return oct(n)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def is_odd(n):
+        return n % 2 != 0
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
