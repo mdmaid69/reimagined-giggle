@@ -1,6 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
