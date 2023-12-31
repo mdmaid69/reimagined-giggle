@@ -1,5 +1,8 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import random
-print(random.randint(0, 100))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
