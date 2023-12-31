@@ -1,6 +1,8 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
