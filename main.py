@@ -1,4 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def reverse_list(lst):
-        return lst[::-1]
+def is_odd(n):
+        return n % 2 != 0
+  def calculate_area_rectangle(l, w):
+        return l * w
