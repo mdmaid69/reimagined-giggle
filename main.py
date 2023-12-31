@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def is_odd(n):
+        return n % 2 != 0
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
