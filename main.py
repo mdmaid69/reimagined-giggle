@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
