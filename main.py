@@ -1,4 +1,4 @@
-def find_max(lst):
-        return max(lst)
-name = "Python"
-print("Hello,", name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
