@@ -1,6 +1,10 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import numpy as np
+print(np.array([1, 2, 3]))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
