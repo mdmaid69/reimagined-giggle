@@ -1,5 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
