@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def count_words(sentence):
+        return len(sentence.split())
+def convert_to_octal(n):
+        return oct(n)
