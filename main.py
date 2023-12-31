@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def multiply_numbers(x, y):
+        return x * y
+import json
+def convert_to_json(data):
+        return json.dumps(data)
