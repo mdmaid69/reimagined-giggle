@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def sort_numbers(numbers):
-        return sorted(numbers)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
