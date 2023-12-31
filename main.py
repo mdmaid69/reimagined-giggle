@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import time
-def get_time_since_epoch():
-        return time.time()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
