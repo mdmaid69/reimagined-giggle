@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_density(mass, volume):
+        return mass / volume
