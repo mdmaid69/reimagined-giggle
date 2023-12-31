@@ -1,5 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import sys
-print(sys.version)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
