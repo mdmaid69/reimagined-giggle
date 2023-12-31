@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
