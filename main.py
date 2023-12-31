@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def is_palindrome(s):
-        return s == s[::-1]
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_work(force, distance):
+        return force * distance
