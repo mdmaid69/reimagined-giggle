@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Characters:", len(text))
