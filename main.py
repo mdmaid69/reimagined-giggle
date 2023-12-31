@@ -1,6 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
