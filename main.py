@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_error_function(x):
+        return math.erf(x)
