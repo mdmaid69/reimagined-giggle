@@ -1,6 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
