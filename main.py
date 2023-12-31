@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
