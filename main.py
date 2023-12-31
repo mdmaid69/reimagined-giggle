@@ -1,6 +1,7 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
