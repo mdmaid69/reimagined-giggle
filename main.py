@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import platform
-def get_python_version():
-        return platform.python_version()
+  def is_even(n):
+        return n % 2 == 0
+import time
+def get_current_time():
+        return time.ctime()
