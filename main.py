@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import sys
+def exit_program():
+        sys.exit()
