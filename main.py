@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
