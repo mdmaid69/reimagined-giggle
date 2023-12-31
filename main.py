@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_volume(length, width, height):
-        return length * width * height
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
