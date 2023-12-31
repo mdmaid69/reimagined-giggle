@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import logging
-def log_message(message):
-        logging.info(message)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
