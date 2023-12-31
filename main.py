@@ -1,6 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
