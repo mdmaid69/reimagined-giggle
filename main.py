@@ -1,6 +1,6 @@
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import array
-def append_to_array(array, item):
-        array.append(item)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def get_array_as_str(array):
+        return str(array)
