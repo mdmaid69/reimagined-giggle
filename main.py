@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
