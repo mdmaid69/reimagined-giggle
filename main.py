@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
