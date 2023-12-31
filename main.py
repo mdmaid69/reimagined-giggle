@@ -1,5 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
