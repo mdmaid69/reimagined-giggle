@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_work(force, distance):
+        return force * distance
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
