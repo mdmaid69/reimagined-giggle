@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def get_array_as_str(array):
-        return str(array)
+import random
+print(random.randint(0, 100))
+  def reverse_list(lst):
+        return lst[::-1]
