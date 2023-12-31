@@ -1,4 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-print([x**2 for x in range(10)])
+import collections
+def create_counter():
+        return collections.Counter()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
