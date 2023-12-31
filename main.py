@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import sys
-  def get_python_version():
-        return sys.version
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
