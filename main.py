@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
