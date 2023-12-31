@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
