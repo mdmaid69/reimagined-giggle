@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import time
+def get_current_time():
+        return time.time()
