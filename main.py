@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_power(work, time):
+        return work / time
