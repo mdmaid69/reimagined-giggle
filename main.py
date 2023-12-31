@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
