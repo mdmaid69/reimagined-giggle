@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import getpass
-def get_username():
-        return getpass.getuser()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
