@@ -1,8 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
