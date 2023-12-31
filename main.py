@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
