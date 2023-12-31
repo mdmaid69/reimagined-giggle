@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_string_from_array(array):
+        return array.tobytes()
+text = "Hello, world!"
+print("Characters:", len(text))
