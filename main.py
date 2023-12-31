@@ -1,5 +1,7 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
