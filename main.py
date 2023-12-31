@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
