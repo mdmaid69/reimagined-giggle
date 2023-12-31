@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import time
+def get_current_time():
+        return time.ctime()
