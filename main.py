@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
