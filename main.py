@@ -1,8 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
