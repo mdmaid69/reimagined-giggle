@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
