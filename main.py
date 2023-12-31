@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
