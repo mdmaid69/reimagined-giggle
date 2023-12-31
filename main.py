@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
