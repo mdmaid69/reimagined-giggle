@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
