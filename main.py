@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import json
-def convert_to_json(data):
-        return json.dumps(data)
+print(json.dumps({"name": "John", "age": 30}))
