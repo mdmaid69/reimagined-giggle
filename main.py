@@ -1,5 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_tangent(x):
+        return math.tan(x)
