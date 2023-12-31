@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_itemsize(array):
+        return array.itemsize
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
