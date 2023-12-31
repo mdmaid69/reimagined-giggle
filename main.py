@@ -1,7 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
