@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def remove_duplicates(lst):
-        return list(set(lst))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
