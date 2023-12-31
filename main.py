@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
