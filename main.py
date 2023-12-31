@@ -1,6 +1,11 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def append_to_array(array, item):
-        array.append(item)
+name = "Python"
+print("Hello,", name)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
