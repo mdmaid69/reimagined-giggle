@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def sort_list(lst):
+        return sorted(lst)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
