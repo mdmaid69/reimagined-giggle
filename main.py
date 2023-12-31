@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def get_array_typecode(array):
+        return array.typecode
