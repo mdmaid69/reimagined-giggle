@@ -1,5 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-import sys
-def exit_program():
-        sys.exit()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
