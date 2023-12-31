@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def cube_number(x):
-        return x**3
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
