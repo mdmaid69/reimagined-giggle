@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
