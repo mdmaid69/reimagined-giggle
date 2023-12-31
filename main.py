@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
