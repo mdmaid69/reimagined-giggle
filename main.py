@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
