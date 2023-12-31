@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def square_number(x):
-        return x**2
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def is_odd(n):
+        return n % 2 != 0
