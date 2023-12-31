@@ -1,7 +1,6 @@
-import math
-print(math.pi)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import platform
+def get_python_version():
+        return platform.python_version()
