@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
