@@ -1,6 +1,7 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
