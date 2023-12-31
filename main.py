@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import sys
+def print_python_version():
+        print(sys.version)
