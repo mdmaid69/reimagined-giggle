@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def convert_to_hex(n):
-        return hex(n)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
