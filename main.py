@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import os
+def get_current_working_directory():
+        return os.getcwd()
