@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
