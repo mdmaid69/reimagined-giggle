@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def square_number(x):
+        return x**2
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
