@@ -1,5 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def get_array_as_str(array):
+        return str(array)
+x = 10
+y = 20
+print("Sum:", x + y)
