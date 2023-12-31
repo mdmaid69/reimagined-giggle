@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
