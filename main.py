@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def find_min(lst):
+        return min(lst)
