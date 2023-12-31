@@ -1,5 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def find_max(lst):
-        return max(lst)
+def reverse_list(lst):
+        return lst[::-1]
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
