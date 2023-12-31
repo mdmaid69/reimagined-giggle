@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
