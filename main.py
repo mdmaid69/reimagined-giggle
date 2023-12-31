@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
