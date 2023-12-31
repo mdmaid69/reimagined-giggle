@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def find_max(lst):
+        return max(lst)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
