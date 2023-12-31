@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def convert_to_octal(n):
-        return oct(n)
+for i in range(10): print(i)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
