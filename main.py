@@ -1,10 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def remove_duplicates(lst):
+        return list(set(lst))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
