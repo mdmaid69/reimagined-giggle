@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
