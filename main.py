@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def sort_list(lst):
-        return sorted(lst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
