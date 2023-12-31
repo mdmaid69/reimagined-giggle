@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import time
+print(time.time())
