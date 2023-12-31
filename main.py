@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import sys
-def print_python_version():
-        return sys.version
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_list_from_array(array):
+        return array.tolist()
