@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
