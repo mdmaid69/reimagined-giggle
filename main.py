@@ -1,6 +1,7 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
