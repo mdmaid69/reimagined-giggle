@@ -1,5 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def cube_number(x):
-        return x**3
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
