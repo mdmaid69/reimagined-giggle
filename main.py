@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
