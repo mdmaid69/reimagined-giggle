@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
