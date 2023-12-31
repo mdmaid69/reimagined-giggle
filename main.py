@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
