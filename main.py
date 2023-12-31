@@ -1,7 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+name = "Python"
+print("Hello,", name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
