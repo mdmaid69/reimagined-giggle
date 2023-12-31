@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
