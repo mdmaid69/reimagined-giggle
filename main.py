@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_work(force, distance):
-        return force * distance
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def is_odd(n):
+        return n % 2 != 0
