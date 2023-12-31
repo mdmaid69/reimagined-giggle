@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
