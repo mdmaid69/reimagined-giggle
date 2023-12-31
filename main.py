@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
