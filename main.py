@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
