@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def add_numbers(x, y):
-        return x + y
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
