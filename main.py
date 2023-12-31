@@ -1,8 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
