@@ -1,9 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+import random
+print(random.randint(0, 100))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
