@@ -1,5 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
