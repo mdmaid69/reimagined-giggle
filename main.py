@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def greet(name):
+        print(f"Hello, {name}!")
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
