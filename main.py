@@ -1,6 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
