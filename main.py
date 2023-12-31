@@ -1,6 +1,7 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
