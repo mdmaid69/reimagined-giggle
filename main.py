@@ -1,8 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+text = "Hello, world!"
+print("Characters:", len(text))
