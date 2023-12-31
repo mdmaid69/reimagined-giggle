@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
