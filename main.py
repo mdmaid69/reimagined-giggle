@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
