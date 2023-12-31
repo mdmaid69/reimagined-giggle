@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def count_words(sentence):
-        return len(sentence.split())
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def calculate_acceleration(speed, time):
+        return speed / time
