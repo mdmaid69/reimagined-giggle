@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
