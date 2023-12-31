@@ -1,5 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def subtract_numbers(x, y):
-        return x - y
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import sys
+def print_python_version():
+        print(sys.version)
