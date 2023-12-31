@@ -1,5 +1,3 @@
-def calculate_pressure(force, area):
-        return force / area
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+for i in range(10): print(i)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
