@@ -1,4 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
