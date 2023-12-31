@@ -1,5 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_area_rectangle(l, w):
-        return l * w
+def convert_to_octal(n):
+        return oct(n)
+def calculate_area(radius):
+        return 3.14 * radius * radius
