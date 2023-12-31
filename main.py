@@ -1,5 +1,9 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import collections
+def create_counter():
+        return collections.Counter()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
