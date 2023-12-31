@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
