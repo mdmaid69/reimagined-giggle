@@ -1,5 +1,11 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
