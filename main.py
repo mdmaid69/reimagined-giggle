@@ -1,10 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def find_max(numbers):
+        return max(numbers)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
