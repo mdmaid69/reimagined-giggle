@@ -1,6 +1,8 @@
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
