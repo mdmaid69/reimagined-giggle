@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def add_numbers(x, y):
+        return x + y
