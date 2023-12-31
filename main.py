@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
