@@ -1,4 +1,8 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def cube_number(x):
-        return x**3
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
