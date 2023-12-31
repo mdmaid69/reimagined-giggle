@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_length(array):
+        return len(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
