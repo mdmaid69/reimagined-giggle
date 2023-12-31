@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
