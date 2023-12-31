@@ -1,5 +1,8 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def count_characters(sentence):
-        return len(sentence)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
