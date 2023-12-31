@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
