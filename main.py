@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+print(math.pi)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
