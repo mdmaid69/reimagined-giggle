@@ -1,4 +1,6 @@
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-print([x**2 for x in range(10)])
+  def split_path(path):
+        return os.path.split(path)
