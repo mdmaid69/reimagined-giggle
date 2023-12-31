@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
