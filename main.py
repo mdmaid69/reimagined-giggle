@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
