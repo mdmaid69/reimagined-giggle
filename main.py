@@ -1,6 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
