@@ -1,6 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
 import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def get_array_as_list(array):
-        return list(array)
+def create_priority_queue():
+        return collections.deque()
