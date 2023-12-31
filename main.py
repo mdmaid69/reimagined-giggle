@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
