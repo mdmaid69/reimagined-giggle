@@ -1,7 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
