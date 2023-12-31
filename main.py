@@ -1,5 +1,9 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def delete_file(file_name):
+        os.remove(file_name)
