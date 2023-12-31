@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def convert_to_octal(n):
-        return oct(n)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def is_palindrome(s):
+        return s == s[::-1]
