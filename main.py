@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
