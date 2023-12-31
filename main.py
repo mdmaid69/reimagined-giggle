@@ -1,6 +1,8 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
