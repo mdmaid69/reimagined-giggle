@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import datetime
+def get_current_date():
+        return datetime.date.today()
