@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
