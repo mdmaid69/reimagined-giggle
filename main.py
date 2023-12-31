@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def list_files_in_directory(path):
+        return os.listdir(path)
