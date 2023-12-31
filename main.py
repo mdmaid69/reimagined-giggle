@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import sys
+def print_python_version():
+        return sys.version
 import math
-def calculate_hyperbolic_arc_tangent(x):
+def calculate_inverse_hyperbolic_tangent(x):
         return math.atanh(x)
