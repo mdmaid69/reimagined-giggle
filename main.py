@@ -1,5 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
