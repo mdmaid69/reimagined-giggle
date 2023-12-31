@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
