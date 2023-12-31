@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
