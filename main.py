@@ -1,6 +1,5 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
