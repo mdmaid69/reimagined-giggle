@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def get_array_as_float(array):
+        return float(array[0])
