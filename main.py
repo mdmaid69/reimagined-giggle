@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
