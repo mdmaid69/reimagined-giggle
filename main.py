@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import getpass
-def get_username():
-        return getpass.getuser()
+def reverse_list(lst):
+        return lst[::-1]
+def convert_to_octal(n):
+        return oct(n)
