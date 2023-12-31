@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import os
+print(os.getcwd())
+import datetime
+print(datetime.datetime.now())
