@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
