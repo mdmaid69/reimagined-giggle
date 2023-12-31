@@ -1,5 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
