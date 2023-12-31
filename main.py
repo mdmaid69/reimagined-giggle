@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_list(array):
+        return list(array)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
