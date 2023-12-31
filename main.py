@@ -1,8 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
