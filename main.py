@@ -1,5 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-for i in range(5):
-        print(i)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
