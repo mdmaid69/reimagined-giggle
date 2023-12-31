@@ -1,6 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def divide_numbers(x, y):
+        return x / y
+  def convert_to_binary(n):
+        return bin(n)
