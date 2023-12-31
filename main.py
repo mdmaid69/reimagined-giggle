@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def convert_to_octal(n):
+        return oct(n)
+import re
+print(re.match("h.*o", "hello world"))
