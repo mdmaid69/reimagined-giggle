@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
