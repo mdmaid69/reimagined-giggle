@@ -1,12 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
