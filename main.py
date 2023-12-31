@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def add_numbers(x, y):
+        return x + y
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
