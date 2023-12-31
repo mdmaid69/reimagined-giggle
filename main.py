@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
