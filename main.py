@@ -1,5 +1,6 @@
+import platform
+def get_os_info():
+        return platform.uname()
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def find_max(lst):
-        return max(lst)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
