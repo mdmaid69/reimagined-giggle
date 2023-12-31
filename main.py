@@ -1,4 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-print([x**2 for x in range(10)])
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
