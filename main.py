@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
