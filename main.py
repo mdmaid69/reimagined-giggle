@@ -1,8 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import sys
-def exit_program():
-        sys.exit()
+  def cube_number(x):
+        return x**3
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
