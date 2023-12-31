@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
