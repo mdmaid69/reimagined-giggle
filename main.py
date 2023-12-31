@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
