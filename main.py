@@ -1,4 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_area_rectangle(l, w):
+        return l * w
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
