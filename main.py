@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def convert_to_hex(n):
+        return hex(n)
