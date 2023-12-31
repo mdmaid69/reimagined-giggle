@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import datetime
+def get_current_date():
+        return datetime.date.today()
