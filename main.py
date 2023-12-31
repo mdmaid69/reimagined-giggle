@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
