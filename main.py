@@ -1,6 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def cube_number(x):
+        return x**3
