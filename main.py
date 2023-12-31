@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
