@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
