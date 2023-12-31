@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
