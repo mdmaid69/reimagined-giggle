@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_density(mass, volume):
+        return mass / volume
+import sys
+def exit_program():
+        sys.exit()
