@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def is_odd(n):
-        return n % 2 != 0
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
