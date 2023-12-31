@@ -1,6 +1,6 @@
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
