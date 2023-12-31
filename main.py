@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
