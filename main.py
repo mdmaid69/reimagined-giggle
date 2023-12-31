@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import collections
+def create_priority_queue():
+        return collections.deque()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
