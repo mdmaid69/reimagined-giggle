@@ -1,5 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
