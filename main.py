@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
