@@ -1,8 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
