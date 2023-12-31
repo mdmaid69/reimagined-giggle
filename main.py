@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
