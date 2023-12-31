@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_speed(distance, time):
-        return distance / time
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
