@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import time
-def get_current_time():
-        return time.time()
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
