@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
