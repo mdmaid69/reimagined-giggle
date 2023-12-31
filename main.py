@@ -1,6 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import platform
+def get_os_info():
+        return platform.uname()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
