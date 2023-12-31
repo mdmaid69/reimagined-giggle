@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
