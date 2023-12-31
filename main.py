@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
