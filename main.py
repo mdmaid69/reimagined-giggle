@@ -1,6 +1,9 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
