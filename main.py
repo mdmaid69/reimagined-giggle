@@ -1,6 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
