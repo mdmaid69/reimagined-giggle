@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
