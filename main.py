@@ -1,10 +1,9 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import threading
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+from flask import Flask
+app = Flask(__name__)
 
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+@app.route("/")
+def hello():
+        return "Hello, World!"
