@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
