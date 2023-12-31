@@ -1,4 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-for i in range(10): print(i)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
