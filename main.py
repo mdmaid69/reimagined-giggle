@@ -1,6 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def print_python_version():
+        print(sys.version)
