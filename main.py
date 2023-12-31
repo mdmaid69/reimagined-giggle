@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
