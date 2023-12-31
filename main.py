@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_power(work, time):
+        return work / time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
