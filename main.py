@@ -1,5 +1,4 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
