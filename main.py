@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def count_characters(sentence):
+        return len(sentence)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
