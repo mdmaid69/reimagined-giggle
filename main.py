@@ -1,5 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def find_min(lst):
+        return min(lst)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
