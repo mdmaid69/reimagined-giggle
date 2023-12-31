@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+name = "Python"
+print("Hello,", name)
