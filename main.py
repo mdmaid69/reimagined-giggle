@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
