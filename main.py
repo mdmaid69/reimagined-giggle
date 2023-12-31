@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_typecode(array):
+        return array.typecode
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
