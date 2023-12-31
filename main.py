@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-name = "Python"
-print("Hello,", name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_as_float(array):
+        return float(array[0])
