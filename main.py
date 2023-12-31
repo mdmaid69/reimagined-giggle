@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
