@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-  def reverse_list(lst):
-        return lst[::-1]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
