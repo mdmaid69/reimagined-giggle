@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
