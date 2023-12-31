@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
