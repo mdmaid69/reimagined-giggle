@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import sys
+def print_python_version():
+        print(sys.version)
+  def convert_to_hex(n):
+        return hex(n)
