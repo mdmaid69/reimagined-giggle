@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
