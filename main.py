@@ -1,5 +1,7 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
