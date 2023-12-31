@@ -1,5 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def multiply_numbers(x, y):
+        return x * y
