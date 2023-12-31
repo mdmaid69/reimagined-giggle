@@ -1,6 +1,4 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def count_characters(sentence):
-        return len(sentence)
+  def count_elements(lst):
+        return len(lst)
+  def convert_to_binary(n):
+        return bin(n)
