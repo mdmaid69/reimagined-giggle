@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
