@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_typecode(array):
+        return array.typecode
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_cosine(x):
+        return math.cos(x)
