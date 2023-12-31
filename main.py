@@ -1,5 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
