@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
