@@ -1,7 +1,6 @@
   import os
   def get_file_uid(file_name):
         return os.stat(file_name).st_uid
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
