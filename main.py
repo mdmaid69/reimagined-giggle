@@ -1,5 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_power(work, time):
-        return work / time
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
