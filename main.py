@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
