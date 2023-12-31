@@ -1,7 +1,8 @@
 import array
-def get_array_from_bytes(bytes, typecode):
+def get_array_from_string(string, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromstring(string)
         return a
-  def convert_to_octal(n):
-        return oct(n)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
