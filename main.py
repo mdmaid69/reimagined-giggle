@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import sys
-def print_python_version():
-        return sys.version
+def count_elements(lst):
+        return len(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
