@@ -1,5 +1,7 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
