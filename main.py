@@ -1,4 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_area_circle(r):
+        return 3.14 * r**2
