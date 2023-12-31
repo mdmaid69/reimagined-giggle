@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
