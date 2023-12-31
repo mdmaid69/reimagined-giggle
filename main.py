@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
