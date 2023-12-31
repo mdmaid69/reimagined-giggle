@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import tensorflow as tf
+print(tf.__version__)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_item(array, i):
+        return array[i]
