@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
