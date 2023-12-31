@@ -1,7 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
