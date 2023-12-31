@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
