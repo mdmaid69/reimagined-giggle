@@ -1,5 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def cube_number(x):
+        return x**3
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
