@@ -1,9 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
