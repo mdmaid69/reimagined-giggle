@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def subtract_numbers(x, y):
-        return x - y
+import math
+print(math.pi)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
