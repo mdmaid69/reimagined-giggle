@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
