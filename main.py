@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def reverse_array(array):
+        array.reverse()
