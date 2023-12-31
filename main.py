@@ -1,4 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
