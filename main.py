@@ -1,7 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-text = "Hello, world!"
-print("Characters:", len(text))
+def find_max(numbers):
+        return max(numbers)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
