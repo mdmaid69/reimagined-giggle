@@ -1,8 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
