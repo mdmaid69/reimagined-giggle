@@ -1,6 +1,7 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import collections
+def create_counter():
+        return collections.Counter()
