@@ -1,7 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
