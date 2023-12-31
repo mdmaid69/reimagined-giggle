@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
