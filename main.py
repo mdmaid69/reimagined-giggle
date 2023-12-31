@@ -1,7 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def reverse_string(s):
+        return s[::-1]
