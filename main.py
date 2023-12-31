@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_error_function(x):
+        return math.erf(x)
