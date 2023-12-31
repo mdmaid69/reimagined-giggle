@@ -1,7 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_current_directory():
+        return os.getcwd()
