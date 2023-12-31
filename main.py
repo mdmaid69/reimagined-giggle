@@ -1,4 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-print(sum(range(10)))
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
