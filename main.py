@@ -1,6 +1,7 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
