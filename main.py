@@ -1,3 +1,5 @@
-print(sum(range(10)))
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_acceleration(speed, time):
+        return speed / time
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
