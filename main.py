@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def find_min(numbers):
-        return min(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
