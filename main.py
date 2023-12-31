@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import sys
-def exit_program():
-        sys.exit()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
