@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def find_max(numbers):
+        return max(numbers)
