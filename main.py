@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
