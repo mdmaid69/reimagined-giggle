@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
