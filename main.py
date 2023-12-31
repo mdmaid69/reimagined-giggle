@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def cube_number(x):
-        return x**3
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
