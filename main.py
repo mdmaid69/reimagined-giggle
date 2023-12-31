@@ -1,6 +1,6 @@
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
