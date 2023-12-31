@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
