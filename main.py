@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def is_even(n):
+        return n % 2 == 0
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
