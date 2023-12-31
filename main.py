@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
