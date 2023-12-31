@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
