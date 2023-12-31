@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def create_user_dict():
+        return collections.UserDict()
