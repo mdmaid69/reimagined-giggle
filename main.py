@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
