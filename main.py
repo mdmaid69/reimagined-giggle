@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def cube_number(x):
+        return x**3
