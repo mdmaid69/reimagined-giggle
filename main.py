@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
