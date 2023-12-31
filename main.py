@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
