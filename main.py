@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def calculate_work(force, distance):
-        return force * distance
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def calculate_area_circle(r):
+        return 3.14 * r**2
