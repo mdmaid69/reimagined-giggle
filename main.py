@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
