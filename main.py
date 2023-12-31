@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
