@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
