@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def get_array_as_set(array):
+        return set(array)
