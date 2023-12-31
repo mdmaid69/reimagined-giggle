@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
