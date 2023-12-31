@@ -1,5 +1,3 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+for i in range(10): print(i)
