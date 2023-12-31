@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def is_palindrome(s):
-        return s == s[::-1]
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
