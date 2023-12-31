@@ -1,6 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
