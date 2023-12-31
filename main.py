@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
+  def add_numbers(x, y):
+        return x + y
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
