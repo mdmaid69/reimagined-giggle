@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
