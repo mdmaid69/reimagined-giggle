@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
