@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import collections
+def create_user_dict():
+        return collections.UserDict()
