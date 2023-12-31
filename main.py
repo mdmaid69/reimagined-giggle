@@ -1,6 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
