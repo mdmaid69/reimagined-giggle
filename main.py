@@ -1,7 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+x = 10
+y = 20
+print("Sum:", x + y)
