@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
