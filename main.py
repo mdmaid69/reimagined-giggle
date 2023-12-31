@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def reverse_string(s):
+        return s[::-1]
