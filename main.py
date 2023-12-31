@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
