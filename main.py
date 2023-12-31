@@ -1,6 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_density(mass, volume):
+        return mass / volume
