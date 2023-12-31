@@ -1,5 +1,5 @@
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def convert_to_hex(n):
+        return hex(n)
