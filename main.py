@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def reverse_list(lst):
+        return lst[::-1]
