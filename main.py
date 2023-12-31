@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_volume(length, width, height):
+        return length * width * height
