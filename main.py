@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
