@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
