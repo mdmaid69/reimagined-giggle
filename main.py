@@ -1,6 +1,7 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
