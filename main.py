@@ -1,5 +1,8 @@
-import time
-print(time.time())
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import json
+def convert_to_json(data):
+        return json.dumps(data)
