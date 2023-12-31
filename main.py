@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
