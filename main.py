@@ -1,5 +1,12 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def add_numbers(x, y):
-        return x + y
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
