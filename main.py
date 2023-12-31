@@ -1,5 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  def cube_number(x):
-        return x**3
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
