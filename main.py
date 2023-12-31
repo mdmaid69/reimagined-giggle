@@ -1,5 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
