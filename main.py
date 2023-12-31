@@ -1,8 +1,6 @@
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
