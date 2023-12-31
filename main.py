@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
