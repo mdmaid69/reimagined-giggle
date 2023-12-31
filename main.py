@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def sort_numbers(numbers):
+        return sorted(numbers)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
