@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
