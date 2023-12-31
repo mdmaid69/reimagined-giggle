@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  def add_numbers(x, y):
-        return x + y
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
