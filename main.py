@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
