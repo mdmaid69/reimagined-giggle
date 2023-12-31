@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
