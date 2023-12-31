@@ -1,6 +1,7 @@
-import array
-def get_array_length(array):
-        return len(array)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
