@@ -1,5 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+  def subtract_numbers(x, y):
+        return x - y
+  def convert_to_binary(n):
+        return bin(n)
