@@ -1,6 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
