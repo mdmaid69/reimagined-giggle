@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
