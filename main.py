@@ -1,5 +1,6 @@
 import math
-print(math.pi)
-import time
-def get_current_time():
-        return time.time()
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
