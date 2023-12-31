@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def count_words(sentence):
+        return len(sentence.split())
+import random
+def roll_die():
+        return random.randint(1, 6)
