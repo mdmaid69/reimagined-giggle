@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_float(array):
+        return float(array[0])
