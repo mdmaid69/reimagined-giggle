@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def multiply_numbers(x, y):
-        return x * y
+  def cube_number(x):
+        return x**3
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
