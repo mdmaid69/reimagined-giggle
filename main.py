@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
