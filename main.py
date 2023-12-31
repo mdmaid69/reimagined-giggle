@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
