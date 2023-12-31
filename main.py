@@ -1,5 +1,7 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
