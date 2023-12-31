@@ -1,5 +1,5 @@
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
