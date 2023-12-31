@@ -1,5 +1,6 @@
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def get_array_slice(array, i, j):
+        return array[i:j]
