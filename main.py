@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-name = "Python"
-print("Hello,", name)
+def find_max(lst):
+        return max(lst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
