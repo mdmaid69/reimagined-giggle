@@ -1,4 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import getpass
+def get_username():
+        return getpass.getuser()
+def divide_numbers(x, y):
+        return x / y
