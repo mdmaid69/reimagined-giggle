@@ -1,4 +1,4 @@
-def cube_number(x):
-        return x**3
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def count_words(sentence):
+        return len(sentence.split())
+def is_palindrome(s):
+        return s == s[::-1]
