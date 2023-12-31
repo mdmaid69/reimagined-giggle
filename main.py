@@ -1,5 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
