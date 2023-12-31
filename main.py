@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
