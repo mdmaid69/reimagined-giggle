@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
