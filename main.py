@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def add_numbers(x, y):
-        return x + y
+import array
+def get_array_as_list(array):
+        return list(array)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
