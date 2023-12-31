@@ -1,6 +1,8 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
