@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
