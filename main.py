@@ -1,8 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
