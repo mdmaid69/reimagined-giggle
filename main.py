@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
