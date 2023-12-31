@@ -1,5 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def is_odd(n):
-        return n % 2 != 0
+def reverse_string(s):
+        return s[::-1]
+def calculate_density(mass, volume):
+        return mass / volume
