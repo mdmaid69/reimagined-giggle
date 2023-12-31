@@ -1,7 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
