@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+text = "Hello, world!"
+print("Reversed:", text[::-1])
