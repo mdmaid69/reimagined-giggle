@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_bool(array):
+        return bool(array)
+import array
+def append_to_array(array, item):
+        array.append(item)
