@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def reverse_array(array):
+        array.reverse()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
