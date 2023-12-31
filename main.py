@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
