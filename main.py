@@ -1,4 +1,7 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-print([x**2 for x in range(10)])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
