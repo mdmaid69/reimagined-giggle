@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
