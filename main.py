@@ -1,5 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
