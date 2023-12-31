@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
