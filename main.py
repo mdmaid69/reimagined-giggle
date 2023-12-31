@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
