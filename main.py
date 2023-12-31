@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
