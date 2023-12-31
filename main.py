@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
