@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
