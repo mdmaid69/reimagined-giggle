@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import getpass
+def get_username():
+        return getpass.getuser()
