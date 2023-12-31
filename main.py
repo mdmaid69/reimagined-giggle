@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  def reverse_list(lst):
-        return lst[::-1]
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
