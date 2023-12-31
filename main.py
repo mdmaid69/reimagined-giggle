@@ -1,6 +1,5 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+from collections import Counter
+print(Counter("hello world"))
