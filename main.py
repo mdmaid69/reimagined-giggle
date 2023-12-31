@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def is_palindrome(s):
+        return s == s[::-1]
+def reverse_string(s):
+        return s[::-1]
