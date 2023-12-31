@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def convert_to_binary(n):
+        return bin(n)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
