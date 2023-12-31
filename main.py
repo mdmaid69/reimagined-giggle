@@ -1,6 +1,7 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
