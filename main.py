@@ -1,5 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_density(mass, volume):
-        return mass / volume
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
