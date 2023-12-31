@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+from collections import Counter
+print(Counter("hello world"))
