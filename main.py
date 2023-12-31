@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def split_path(path):
+        return os.path.split(path)
