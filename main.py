@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def get_array_length(array):
+        return len(array)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
