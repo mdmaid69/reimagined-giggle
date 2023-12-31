@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
