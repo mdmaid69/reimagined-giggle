@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def get_array_as_str(array):
-        return str(array)
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
