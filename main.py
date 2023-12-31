@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
