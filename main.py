@@ -1,5 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
