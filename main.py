@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import json
+print(json.dumps({"name": "John", "age": 30}))
