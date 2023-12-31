@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_error_function(x):
+        return math.erf(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
