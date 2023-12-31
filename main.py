@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_area_circle(r):
+        return 3.14 * r**2
