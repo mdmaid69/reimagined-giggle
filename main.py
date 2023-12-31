@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def square_number(x):
+        return x**2
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
