@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
