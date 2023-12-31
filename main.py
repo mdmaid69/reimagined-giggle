@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
