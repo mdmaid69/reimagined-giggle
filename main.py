@@ -1,5 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+print([x**2 for x in range(10)])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
