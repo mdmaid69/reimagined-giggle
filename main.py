@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_power(work, time):
-        return work / time
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
