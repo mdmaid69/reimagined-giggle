@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
