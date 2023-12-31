@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
   import os
-  def get_file_size(file_name):
+  def get_file_size_in_bytes(file_name):
         return os.stat(file_name).st_size
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
