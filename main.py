@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
