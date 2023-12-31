@@ -1,4 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-print(sum(range(10)))
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
