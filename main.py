@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
