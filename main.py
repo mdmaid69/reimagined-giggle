@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def reverse_string(s):
+        return s[::-1]
