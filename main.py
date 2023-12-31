@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  def is_odd(n):
-        return n % 2 != 0
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import getpass
+def get_username():
+        return getpass.getuser()
