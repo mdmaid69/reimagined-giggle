@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+print(sum(range(10)))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
