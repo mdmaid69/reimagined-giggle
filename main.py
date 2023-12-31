@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
