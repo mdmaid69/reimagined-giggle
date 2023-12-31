@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
