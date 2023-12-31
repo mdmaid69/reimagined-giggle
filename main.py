@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def check_if_array_contains_item(array, item):
+        return item in array
