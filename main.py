@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_as_str(array):
+        return str(array)
