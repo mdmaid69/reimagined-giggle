@@ -1,6 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
