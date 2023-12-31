@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import time
+def get_current_time():
+        return time.time()
