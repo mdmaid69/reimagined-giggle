@@ -1,4 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-for i in range(10): print(i)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
