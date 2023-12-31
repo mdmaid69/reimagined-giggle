@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  def square_number(x):
+        return x**2
