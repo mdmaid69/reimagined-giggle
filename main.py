@@ -1,12 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
