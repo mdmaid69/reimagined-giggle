@@ -1,6 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
