@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
