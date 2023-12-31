@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
