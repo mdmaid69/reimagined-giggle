@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import getpass
-def get_username():
-        return getpass.getuser()
+  def reverse_list(lst):
+        return lst[::-1]
+def is_even(n):
+        return n % 2 == 0
