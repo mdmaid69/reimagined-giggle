@@ -1,6 +1,9 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
