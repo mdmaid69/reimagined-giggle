@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
