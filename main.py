@@ -1,5 +1,6 @@
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_sign(x):
+        return math.copysign(1, x)
