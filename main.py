@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
