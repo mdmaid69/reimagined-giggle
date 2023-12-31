@@ -1,8 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def convert_array_to_list(array):
+        return array.tolist()
