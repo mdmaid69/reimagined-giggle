@@ -1,8 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def append_to_array(array, item):
+        array.append(item)
