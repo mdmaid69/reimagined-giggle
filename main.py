@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
