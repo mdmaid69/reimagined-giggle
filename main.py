@@ -1,6 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
