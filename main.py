@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
