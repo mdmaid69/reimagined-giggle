@@ -1,7 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def add_numbers(x, y):
+        return x + y
