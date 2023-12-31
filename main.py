@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def add_numbers(a, b):
+        return a + b
