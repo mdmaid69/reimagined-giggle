@@ -1,6 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def get_array_slice(array, i, j):
+        return array[i:j]
