@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def is_odd(n):
-        return n % 2 != 0
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
