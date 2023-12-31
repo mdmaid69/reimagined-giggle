@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_power(work, time):
+        return work / time
