@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
