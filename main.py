@@ -1,6 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import collections
 def create_queue():
         return collections.deque()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
