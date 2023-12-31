@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
