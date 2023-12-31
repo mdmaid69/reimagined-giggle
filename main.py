@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
