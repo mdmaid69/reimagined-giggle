@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def count_elements(lst):
+        return len(lst)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
