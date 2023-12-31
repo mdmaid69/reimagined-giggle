@@ -1,5 +1,8 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
