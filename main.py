@@ -1,8 +1,5 @@
-  def square_number(x):
-        return x**2
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
