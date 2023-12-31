@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def calculate_volume(length, width, height):
+        return length * width * height
