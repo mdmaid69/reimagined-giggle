@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_list(array):
-        return list(array)
+  def cube_number(x):
+        return x**3
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
