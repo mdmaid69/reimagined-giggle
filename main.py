@@ -1,8 +1,6 @@
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
