@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
