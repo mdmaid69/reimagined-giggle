@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import datetime
-print(datetime.datetime.now())
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import re
+print(re.match("h.*o", "hello world"))
