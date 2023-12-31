@@ -1,5 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
