@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def is_even(n):
+        return n % 2 == 0
