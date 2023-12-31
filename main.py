@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
