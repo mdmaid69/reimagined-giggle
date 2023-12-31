@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
