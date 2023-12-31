@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
