@@ -1,3 +1,8 @@
-print([x**2 for x in range(10)])
-def remove_duplicates(lst):
-        return list(set(lst))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
