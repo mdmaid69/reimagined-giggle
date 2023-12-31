@@ -1,5 +1,8 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def add_numbers(x, y):
-        return x + y
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
