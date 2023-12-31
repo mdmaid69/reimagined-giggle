@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def count_characters(sentence):
+        return len(sentence)
