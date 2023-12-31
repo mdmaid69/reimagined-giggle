@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_queue():
+        return collections.deque()
