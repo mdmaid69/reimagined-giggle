@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
