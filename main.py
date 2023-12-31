@@ -1,8 +1,6 @@
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
