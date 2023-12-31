@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def multiply_numbers(x, y):
+        return x * y
+import time
+def get_time_since_epoch():
+        return time.time()
