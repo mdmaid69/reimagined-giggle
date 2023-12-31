@@ -1,5 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_work(force, distance):
+        return force * distance
+def find_min(lst):
+        return min(lst)
