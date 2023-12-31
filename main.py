@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
