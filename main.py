@@ -1,5 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+print("Hello, world!")
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
