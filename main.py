@@ -1,5 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
