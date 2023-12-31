@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
