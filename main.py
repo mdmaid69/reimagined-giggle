@@ -1,7 +1,7 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
