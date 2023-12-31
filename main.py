@@ -1,6 +1,7 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
