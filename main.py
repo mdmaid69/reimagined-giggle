@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import sys
+def exit_program():
+        sys.exit()
+def count_characters(sentence):
+        return len(sentence)
