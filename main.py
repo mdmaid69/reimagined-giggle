@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
