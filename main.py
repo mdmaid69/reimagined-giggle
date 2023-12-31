@@ -1,8 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def append_to_array(array, item):
+        array.append(item)
