@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import sys
-  def get_python_version():
-        return sys.version
+def add_numbers(a, b):
+        return a + b
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
