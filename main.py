@@ -1,9 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
