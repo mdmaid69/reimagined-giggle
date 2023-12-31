@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
