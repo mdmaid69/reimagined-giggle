@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import tensorflow as tf
+print(tf.__version__)
