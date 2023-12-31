@@ -1,6 +1,7 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def divide_numbers(x, y):
+        return x / y
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
