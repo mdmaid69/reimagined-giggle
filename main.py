@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
