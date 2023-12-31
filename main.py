@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
