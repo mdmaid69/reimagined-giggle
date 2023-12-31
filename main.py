@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
