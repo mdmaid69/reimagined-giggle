@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import os
+print(os.getcwd())
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
