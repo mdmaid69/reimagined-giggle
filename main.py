@@ -1,5 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def subtract_numbers(x, y):
+        return x - y
+def add_numbers(x, y):
+        return x + y
