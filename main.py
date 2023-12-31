@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def count_elements(lst):
-        return len(lst)
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
