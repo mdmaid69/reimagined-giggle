@@ -1,5 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+print([x**2 for x in range(10)])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
