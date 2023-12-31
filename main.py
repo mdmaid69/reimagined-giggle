@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
