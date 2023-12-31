@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
