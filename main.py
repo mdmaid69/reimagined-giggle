@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  def count_elements(lst):
+        return len(lst)
