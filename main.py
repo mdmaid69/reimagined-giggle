@@ -1,3 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 def calculate_irr(cash_flows):
         rate = 0.1
         for _ in range(100):
@@ -6,6 +10,3 @@ def calculate_irr(cash_flows):
                 return rate
         rate += 0.01
         return None
-import array
-def clear_array(array):
-        array *= 0
