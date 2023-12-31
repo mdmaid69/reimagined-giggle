@@ -1,6 +1,5 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_acceleration(speed, time):
+        return speed / time
