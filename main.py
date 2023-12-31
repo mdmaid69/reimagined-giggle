@@ -1,5 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def multiply_numbers(x, y):
+        return x * y
