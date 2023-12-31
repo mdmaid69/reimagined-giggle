@@ -1,6 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_square_root(x):
+        return math.sqrt(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
