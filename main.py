@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-x = 10
-y = 20
-print("Sum:", x + y)
+def find_max(lst):
+        return max(lst)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
