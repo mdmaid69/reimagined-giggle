@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
