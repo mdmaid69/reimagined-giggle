@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def divide_numbers(x, y):
+        return x / y
