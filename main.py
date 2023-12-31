@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import array
+def clear_array(array):
+        array *= 0
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
