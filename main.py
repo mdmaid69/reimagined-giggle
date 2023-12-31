@@ -1,5 +1,5 @@
 n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import sys
+def exit_program():
+        sys.exit()
