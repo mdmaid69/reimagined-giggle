@@ -1,6 +1,6 @@
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def convert_array_to_list(array):
+        return array.tolist()
