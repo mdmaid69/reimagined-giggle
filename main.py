@@ -1,5 +1,6 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def calculate_power(work, time):
-        return work / time
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
