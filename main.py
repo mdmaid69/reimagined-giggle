@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def is_palindrome(s):
+        return s == s[::-1]
