@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
