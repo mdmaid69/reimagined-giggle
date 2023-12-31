@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
