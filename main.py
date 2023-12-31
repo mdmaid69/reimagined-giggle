@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
