@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def sort_list(lst):
-        return sorted(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
