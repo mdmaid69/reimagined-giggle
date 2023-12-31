@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
