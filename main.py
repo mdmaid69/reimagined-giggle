@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
