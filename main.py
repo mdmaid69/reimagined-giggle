@@ -1,6 +1,6 @@
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_arc_sine(x):
+        return math.asin(x)
