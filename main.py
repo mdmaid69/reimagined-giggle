@@ -1,5 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_work(force, distance):
+        return force * distance
+  def calculate_area_circle(r):
+        return 3.14 * r**2
