@@ -1,5 +1,6 @@
   import os
   def split_path(path):
         return os.path.split(path)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
