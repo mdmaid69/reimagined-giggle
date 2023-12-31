@@ -1,5 +1,4 @@
-for i in range(5):
-        print(i)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def reverse_string(s):
+        return s[::-1]
