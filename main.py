@@ -1,6 +1,12 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
