@@ -1,6 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_error_function(x):
+        return math.erf(x)
