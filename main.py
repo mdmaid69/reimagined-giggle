@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
