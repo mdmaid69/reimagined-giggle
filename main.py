@@ -1,5 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
