@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import os
-print(os.getcwd())
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
