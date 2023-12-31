@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def get_array_slice(array, i, j):
+        return array[i:j]
