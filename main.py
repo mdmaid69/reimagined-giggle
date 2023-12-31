@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def add_numbers(a, b):
+        return a + b
