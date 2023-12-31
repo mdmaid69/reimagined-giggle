@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
