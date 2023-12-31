@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_pressure(force, area):
-        return force / area
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
