@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def append_to_array(array, item):
+        array.append(item)
