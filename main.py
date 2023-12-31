@@ -1,6 +1,11 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
