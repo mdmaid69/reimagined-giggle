@@ -1,3 +1,12 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-print([x**2 for x in range(10)])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import sys
+def print_python_version():
+        return sys.version
