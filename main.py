@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
