@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def find_max(lst):
+        return max(lst)
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_as_bytes(array):
+        return bytes(array)
