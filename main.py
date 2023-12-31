@@ -1,5 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
