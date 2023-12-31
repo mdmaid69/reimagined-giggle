@@ -1,5 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_power(work, time):
-        return work / time
+def reverse_list(lst):
+        return lst[::-1]
+def convert_to_hex(n):
+        return hex(n)
