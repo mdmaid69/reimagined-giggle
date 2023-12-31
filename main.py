@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+def sort_numbers(numbers):
+        return sorted(numbers)
 import array
-def get_list_from_array(array):
+def convert_array_to_list(array):
         return array.tolist()
