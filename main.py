@@ -1,8 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def cube_number(x):
+        return x**3
