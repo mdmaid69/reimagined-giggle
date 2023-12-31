@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def cube_number(x):
-        return x**3
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def multiply_numbers(x, y):
+        return x * y
