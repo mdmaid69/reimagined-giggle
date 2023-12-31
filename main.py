@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_arc_sine(x):
+        return math.asin(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
