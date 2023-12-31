@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import datetime
+print(datetime.datetime.now())
+def calculate_volume(length, width, height):
+        return length * width * height
