@@ -1,7 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import sys
+def exit_program():
+        sys.exit()
