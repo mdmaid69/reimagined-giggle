@@ -1,4 +1,3 @@
-def subtract_numbers(x, y):
-        return x - y
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+print("Hello, world!")
+def find_max(numbers):
+        return max(numbers)
