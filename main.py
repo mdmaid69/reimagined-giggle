@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def is_even(n):
+        return n % 2 == 0
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
