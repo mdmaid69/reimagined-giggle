@@ -1,6 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def subtract_numbers(x, y):
+        return x - y
+def is_palindrome(s):
+        return s == s[::-1]
