@@ -1,5 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import time
+def get_current_time():
+        return time.time()
