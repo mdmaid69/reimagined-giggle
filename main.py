@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
