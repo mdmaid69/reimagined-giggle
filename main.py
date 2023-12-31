@@ -1,8 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
