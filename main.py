@@ -1,5 +1,8 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
