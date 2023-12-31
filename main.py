@@ -1,7 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def add_numbers(x, y):
-        return x + y
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
