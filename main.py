@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
 import array
-def get_array_as_bool(array):
-        return bool(array)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def extend_array(array, iterable):
+        array.extend(iterable)
