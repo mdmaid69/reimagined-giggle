@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
