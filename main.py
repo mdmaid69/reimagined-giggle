@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def cube_number(x):
+        return x**3
