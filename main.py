@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
