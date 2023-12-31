@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
