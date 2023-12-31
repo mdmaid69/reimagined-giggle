@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
