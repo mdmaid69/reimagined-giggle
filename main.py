@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def get_array_as_float(array):
+        return float(array[0])
