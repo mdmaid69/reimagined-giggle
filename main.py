@@ -1,6 +1,7 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
