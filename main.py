@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import random
-print(random.randint(0, 100))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def sort_numbers(numbers):
+        return sorted(numbers)
