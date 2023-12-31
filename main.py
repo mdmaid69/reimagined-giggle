@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def count_characters(sentence):
+        return len(sentence)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
