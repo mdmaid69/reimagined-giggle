@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
