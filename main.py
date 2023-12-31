@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_perpetuity(payment, rate):
+        return payment / rate
