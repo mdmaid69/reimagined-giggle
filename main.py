@@ -1,5 +1,3 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def reverse_list(lst):
+        return lst[::-1]
+for i in range(10): print(i)
