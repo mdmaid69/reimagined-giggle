@@ -1,11 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
