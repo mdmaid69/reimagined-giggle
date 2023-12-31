@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
