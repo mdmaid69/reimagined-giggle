@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
