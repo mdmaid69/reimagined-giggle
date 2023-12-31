@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import array
-def get_array_as_set(array):
-        return set(array)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
