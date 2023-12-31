@@ -1,8 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def is_palindrome(s):
+        return s == s[::-1]
+  def convert_to_binary(n):
+        return bin(n)
