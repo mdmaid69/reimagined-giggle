@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
