@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
