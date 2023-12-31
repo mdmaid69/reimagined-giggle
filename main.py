@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
