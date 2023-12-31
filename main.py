@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
