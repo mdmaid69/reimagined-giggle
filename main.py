@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
