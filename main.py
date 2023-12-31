@@ -1,4 +1,8 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import random
-print(random.randint(0, 100))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
