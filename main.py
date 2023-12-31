@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
