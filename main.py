@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def convert_to_hex(n):
-        return hex(n)
+def square_number(x):
+        return x**2
+import collections
+def create_user_dict():
+        return collections.UserDict()
