@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def is_palindrome(s):
+        return s == s[::-1]
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
