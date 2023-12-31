@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
