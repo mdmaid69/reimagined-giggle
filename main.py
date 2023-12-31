@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
