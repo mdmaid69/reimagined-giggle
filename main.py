@@ -1,7 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
