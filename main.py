@@ -1,5 +1,7 @@
-def convert_to_binary(n):
-        return bin(n)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
