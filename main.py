@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import sys
-def print_python_version():
-        return sys.version
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_acceleration(speed, time):
+        return speed / time
