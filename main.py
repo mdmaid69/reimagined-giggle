@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
