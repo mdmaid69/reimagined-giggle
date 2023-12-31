@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_work(force, distance):
+        return force * distance
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
