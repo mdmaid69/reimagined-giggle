@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
