@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
