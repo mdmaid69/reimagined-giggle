@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
