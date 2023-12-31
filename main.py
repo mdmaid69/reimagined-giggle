@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
