@@ -1,8 +1,6 @@
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def get_bytes_from_array(array):
+        return array.tobytes()
