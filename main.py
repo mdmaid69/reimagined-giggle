@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_acceleration(speed, time):
-        return speed / time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
