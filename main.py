@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
