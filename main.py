@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
