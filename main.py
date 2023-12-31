@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
