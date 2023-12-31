@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
