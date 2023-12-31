@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
