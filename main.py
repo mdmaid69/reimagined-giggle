@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
