@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+from collections import Counter
+print(Counter("hello world"))
