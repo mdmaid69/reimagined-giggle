@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def reverse_list(lst):
+        return lst[::-1]
