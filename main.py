@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_base_name(path):
+        return os.path.basename(path)
+text = "Hello, world!"
+print("Words:", len(text.split()))
