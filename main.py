@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_power(work, time):
+        return work / time
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
