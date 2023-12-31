@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
