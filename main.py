@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
