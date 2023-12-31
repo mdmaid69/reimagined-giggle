@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_typecode(array):
+        return array.typecode
