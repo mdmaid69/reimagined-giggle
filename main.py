@@ -1,7 +1,8 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
