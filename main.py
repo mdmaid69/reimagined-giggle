@@ -1,6 +1,7 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
