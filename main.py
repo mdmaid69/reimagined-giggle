@@ -1,6 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
