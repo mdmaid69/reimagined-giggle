@@ -1,5 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def convert_to_binary(n):
+        return bin(n)
