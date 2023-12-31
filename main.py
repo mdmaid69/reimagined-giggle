@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import collections
-def create_stack():
-        return collections.deque()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
