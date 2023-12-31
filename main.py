@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_speed(distance, time):
+        return distance / time
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_string_from_array(array):
+        return array.tobytes()
