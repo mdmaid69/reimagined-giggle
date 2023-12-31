@@ -1,5 +1,7 @@
+import math
+def calculate_error_function(x):
+        return math.erf(x)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def count_elements(lst):
-        return len(lst)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
