@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
