@@ -1,5 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def convert_to_binary(n):
-        return bin(n)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
