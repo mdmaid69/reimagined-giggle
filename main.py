@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def clear_array(array):
-        array *= 0
+def calculate_density(mass, volume):
+        return mass / volume
+x = 10
+y = 20
+print("Sum:", x + y)
