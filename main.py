@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
