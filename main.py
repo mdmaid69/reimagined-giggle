@@ -1,6 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
