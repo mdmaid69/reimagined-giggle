@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
