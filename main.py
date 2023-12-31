@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
