@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-print(math.pi)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def remove_from_array(array, item):
+        array.remove(item)
