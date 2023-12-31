@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_as_repr(array):
+        return repr(array)
