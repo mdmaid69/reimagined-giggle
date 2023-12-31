@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def find_max(lst):
-        return max(lst)
+def convert_to_hex(n):
+        return hex(n)
+import sys
+def exit_program():
+        sys.exit()
