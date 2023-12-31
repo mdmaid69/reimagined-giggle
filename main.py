@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
