@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def get_array_as_str(array):
-        return str(array)
+import collections
+def create_priority_queue():
+        return collections.deque()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
