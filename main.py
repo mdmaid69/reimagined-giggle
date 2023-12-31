@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
