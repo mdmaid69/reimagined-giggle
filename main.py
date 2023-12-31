@@ -1,6 +1,5 @@
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
