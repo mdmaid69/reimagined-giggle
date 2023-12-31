@@ -1,9 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
