@@ -1,11 +1,4 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+for i in range(10): print(i)
