@@ -1,5 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def square_number(x):
-        return x**2
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
