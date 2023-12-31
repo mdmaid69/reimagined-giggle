@@ -1,5 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
