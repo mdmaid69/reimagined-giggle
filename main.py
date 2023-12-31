@@ -1,7 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
