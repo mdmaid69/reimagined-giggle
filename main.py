@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
