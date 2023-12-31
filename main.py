@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def is_palindrome(s):
+        return s == s[::-1]
