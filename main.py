@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
