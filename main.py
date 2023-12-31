@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_factorial(n):
+        return math.factorial(n)
