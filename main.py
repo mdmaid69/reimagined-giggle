@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
