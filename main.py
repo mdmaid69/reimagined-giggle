@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
