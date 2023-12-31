@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
