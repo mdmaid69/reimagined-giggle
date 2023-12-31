@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
