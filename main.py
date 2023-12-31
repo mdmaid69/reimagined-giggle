@@ -1,6 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
