@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
