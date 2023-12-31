@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_work(force, distance):
-        return force * distance
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
