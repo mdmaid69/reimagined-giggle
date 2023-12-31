@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
