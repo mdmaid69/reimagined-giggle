@@ -1,4 +1,4 @@
-for i in range(10): print(i)
 import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
