@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
