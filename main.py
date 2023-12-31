@@ -1,3 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-print(sum(range(10)))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
