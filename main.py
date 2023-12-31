@@ -1,6 +1,8 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
