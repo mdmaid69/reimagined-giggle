@@ -1,10 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
