@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import collections
+def create_counter():
+        return collections.Counter()
