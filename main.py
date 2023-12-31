@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
