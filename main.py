@@ -1,6 +1,6 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def convert_array_to_bytes(array):
+        return array.tobytes()
