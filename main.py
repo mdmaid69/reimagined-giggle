@@ -1,8 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_area_rectangle(l, w):
+        return l * w
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
