@@ -1,7 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def is_even(n):
+        return n % 2 == 0
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
