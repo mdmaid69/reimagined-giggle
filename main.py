@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
