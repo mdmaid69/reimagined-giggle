@@ -1,6 +1,5 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
