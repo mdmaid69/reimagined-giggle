@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def subtract_numbers(x, y):
-        return x - y
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
