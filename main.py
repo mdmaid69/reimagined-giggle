@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
