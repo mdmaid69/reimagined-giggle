@@ -1,5 +1,7 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
