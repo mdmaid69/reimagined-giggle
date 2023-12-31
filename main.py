@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_itemsize(array):
+        return array.itemsize
+def greet(name):
+        print(f"Hello, {name}!")
