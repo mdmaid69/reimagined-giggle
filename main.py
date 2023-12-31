@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
