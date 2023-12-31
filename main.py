@@ -1,4 +1,4 @@
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+text = "Hello, world!"
+print("Reversed:", text[::-1])
