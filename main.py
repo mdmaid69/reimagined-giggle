@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_typecode(array):
+        return array.typecode
+import array
+def convert_array_to_string(array):
+        return array.tostring()
