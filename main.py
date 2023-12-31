@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import collections
+def create_queue():
+        return collections.deque()
+def remove_duplicates(lst):
+        return list(set(lst))
