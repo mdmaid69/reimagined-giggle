@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
