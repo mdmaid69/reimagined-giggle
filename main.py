@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import getpass
-def get_username():
-        return getpass.getuser()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
