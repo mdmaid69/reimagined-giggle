@@ -1,6 +1,7 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
