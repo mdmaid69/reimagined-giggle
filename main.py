@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
