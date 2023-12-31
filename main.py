@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def split_path(path):
+        return os.path.split(path)
