@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
