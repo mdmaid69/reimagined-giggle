@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
