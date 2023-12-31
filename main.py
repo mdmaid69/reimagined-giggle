@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
