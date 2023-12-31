@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
