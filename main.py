@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
