@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
