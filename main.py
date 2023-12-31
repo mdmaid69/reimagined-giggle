@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
