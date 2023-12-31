@@ -1,5 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_error_function(x):
+        return math.erf(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
