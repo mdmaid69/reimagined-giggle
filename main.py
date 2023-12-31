@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_area(radius):
+        return 3.14 * radius * radius
