@@ -1,5 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def find_max(lst):
-        return max(lst)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_string_from_array(array):
+        return array.tobytes()
