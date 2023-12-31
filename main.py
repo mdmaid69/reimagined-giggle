@@ -1,5 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def get_array_typecode(array):
+        return array.typecode
