@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
