@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
