@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
