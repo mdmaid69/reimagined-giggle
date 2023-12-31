@@ -1,7 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
