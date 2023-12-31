@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
