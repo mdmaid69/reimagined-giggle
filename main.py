@@ -1,6 +1,8 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import array
-def get_array_as_str(array):
-        return str(array)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
