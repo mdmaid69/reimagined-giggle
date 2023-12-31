@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
