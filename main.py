@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
