@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  def count_elements(lst):
-        return len(lst)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import time
+def get_time_since_epoch():
+        return time.time()
