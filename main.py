@@ -1,6 +1,8 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
