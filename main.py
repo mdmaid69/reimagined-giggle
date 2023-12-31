@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+from collections import Counter
+print(Counter("hello world"))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
