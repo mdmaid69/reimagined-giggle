@@ -1,4 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
