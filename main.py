@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import collections
-def create_user_dict():
-        return collections.UserDict()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import getpass
+def get_username():
+        return getpass.getuser()
