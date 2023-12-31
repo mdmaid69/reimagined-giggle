@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
