@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import time
+def get_current_time():
+        return time.time()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
