@@ -1,5 +1,7 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
