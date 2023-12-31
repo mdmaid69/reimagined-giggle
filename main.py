@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
