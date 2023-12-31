@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
