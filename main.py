@@ -1,5 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def square_number(x):
+        return x**2
+def convert_to_binary(n):
+        return bin(n)
