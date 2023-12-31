@@ -1,6 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
