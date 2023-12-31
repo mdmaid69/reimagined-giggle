@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
