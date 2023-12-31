@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def is_palindrome(s):
+        return s == s[::-1]
+for i in range(5):
+        print(i)
