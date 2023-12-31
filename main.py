@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import time
-def get_current_time():
-        return time.ctime()
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
