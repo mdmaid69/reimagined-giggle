@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def calculate_density(mass, volume):
+        return mass / volume
