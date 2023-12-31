@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
