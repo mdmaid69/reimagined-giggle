@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def find_max(lst):
-        return max(lst)
+def add_numbers(a, b):
+        return a + b
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
