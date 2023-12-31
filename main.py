@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+def exit_program():
+        sys.exit()
