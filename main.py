@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
