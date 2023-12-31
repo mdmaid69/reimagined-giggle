@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
