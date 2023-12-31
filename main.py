@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
