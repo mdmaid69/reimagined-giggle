@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
