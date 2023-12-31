@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def greet(name):
+        print(f"Hello, {name}!")
+import numpy as np
+print(np.array([1, 2, 3]))
