@@ -1,6 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
