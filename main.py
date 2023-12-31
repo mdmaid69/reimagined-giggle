@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
