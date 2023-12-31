@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_work(force, distance):
-        return force * distance
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_area_rectangle(l, w):
+        return l * w
