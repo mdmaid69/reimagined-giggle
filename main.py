@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_str(array):
+        return str(array)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
