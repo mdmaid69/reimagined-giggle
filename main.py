@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def sort_numbers(numbers):
-        return sorted(numbers)
+import time
+def get_time_since_epoch():
+        return time.time()
+  def calculate_area_rectangle(l, w):
+        return l * w
