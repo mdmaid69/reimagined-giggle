@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
