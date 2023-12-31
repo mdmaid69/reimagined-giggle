@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import time
+def get_current_time():
+        return time.time()
