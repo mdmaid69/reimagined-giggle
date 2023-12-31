@@ -1,6 +1,5 @@
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
