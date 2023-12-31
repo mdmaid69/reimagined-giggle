@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
