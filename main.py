@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def count_characters(sentence):
-        return len(sentence)
+import sys
+print(sys.version)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
