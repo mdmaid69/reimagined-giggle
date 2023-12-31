@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
