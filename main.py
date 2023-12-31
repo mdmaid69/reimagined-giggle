@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
