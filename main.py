@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
