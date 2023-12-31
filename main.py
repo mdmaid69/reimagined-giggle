@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import random
+def roll_die():
+        return random.randint(1, 6)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
