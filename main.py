@@ -1,6 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
