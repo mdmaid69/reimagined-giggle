@@ -1,5 +1,8 @@
-  def multiply_numbers(x, y):
-        return x * y
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
