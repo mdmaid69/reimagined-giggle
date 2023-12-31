@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import sys
+def print_python_version():
+        return sys.version
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
