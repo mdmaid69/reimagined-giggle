@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import getpass
+def get_username():
+        return getpass.getuser()
