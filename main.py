@@ -1,5 +1,8 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
