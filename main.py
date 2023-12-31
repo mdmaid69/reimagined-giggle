@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import sys
-def print_python_version():
-        return sys.version
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
