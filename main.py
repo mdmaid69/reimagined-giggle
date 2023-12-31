@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+from collections import Counter
+print(Counter("hello world"))
