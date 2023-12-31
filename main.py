@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def split_path(path):
+        return os.path.split(path)
