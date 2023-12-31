@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
