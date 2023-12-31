@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
