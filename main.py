@@ -1,6 +1,7 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
