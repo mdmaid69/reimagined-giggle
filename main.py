@@ -1,7 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
