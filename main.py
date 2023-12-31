@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
