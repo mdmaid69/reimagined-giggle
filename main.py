@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def convert_to_octal(n):
-        return oct(n)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
