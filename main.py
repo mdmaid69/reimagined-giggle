@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
