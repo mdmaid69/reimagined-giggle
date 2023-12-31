@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def reverse_string(s):
+        return s[::-1]
