@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
