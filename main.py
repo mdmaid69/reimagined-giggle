@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+import time
+def get_current_time():
+        return time.ctime()
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
