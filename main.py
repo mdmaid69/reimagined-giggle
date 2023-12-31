@@ -1,8 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
