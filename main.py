@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
