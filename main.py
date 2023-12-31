@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import time
-def get_current_time():
-        return time.ctime()
+import sys
+def exit_program():
+        sys.exit()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
