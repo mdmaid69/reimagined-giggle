@@ -1,5 +1,8 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import platform
-def get_python_version():
-        return platform.python_version()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
