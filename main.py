@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  def count_elements(lst):
+        return len(lst)
