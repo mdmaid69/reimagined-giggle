@@ -1,7 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
