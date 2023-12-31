@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
