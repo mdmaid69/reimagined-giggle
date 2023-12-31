@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
