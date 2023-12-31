@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import random
-def roll_die():
-        return random.randint(1, 6)
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
