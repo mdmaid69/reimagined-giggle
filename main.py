@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
