@@ -1,4 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  def square_number(x):
-        return x**2
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
