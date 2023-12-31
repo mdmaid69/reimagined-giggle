@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
