@@ -1,9 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
