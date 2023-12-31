@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
