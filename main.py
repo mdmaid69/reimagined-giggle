@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
