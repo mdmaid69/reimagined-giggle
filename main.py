@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
