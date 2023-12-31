@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_acceleration(speed, time):
+        return speed / time
