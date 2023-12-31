@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def greet(name):
+        print(f"Hello, {name}!")
