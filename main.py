@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import sys
+def print_python_version():
+        return sys.version
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
