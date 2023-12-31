@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def sort_numbers(numbers):
+        return sorted(numbers)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
