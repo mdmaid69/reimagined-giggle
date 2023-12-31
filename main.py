@@ -1,7 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
