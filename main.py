@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
