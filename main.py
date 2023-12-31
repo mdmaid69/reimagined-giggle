@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
