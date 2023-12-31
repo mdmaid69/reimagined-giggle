@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
