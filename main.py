@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
