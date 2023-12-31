@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
