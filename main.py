@@ -1,7 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def remove_duplicates(lst):
+        return list(set(lst))
+def cube_number(x):
+        return x**3
