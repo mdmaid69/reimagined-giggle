@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
