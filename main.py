@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
