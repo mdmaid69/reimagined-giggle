@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import time
+def get_time_since_epoch():
+        return time.time()
+  def is_odd(n):
+        return n % 2 != 0
