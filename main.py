@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
