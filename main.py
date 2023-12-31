@@ -1,6 +1,8 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
