@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
