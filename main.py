@@ -1,5 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def square_number(x):
-        return x**2
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
