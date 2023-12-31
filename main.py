@@ -1,10 +1,5 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import datetime
+print(datetime.datetime.now())
