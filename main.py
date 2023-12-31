@@ -1,5 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
