@@ -1,5 +1,7 @@
+def calculate_pressure(force, area):
+        return force / area
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def remove_duplicates(lst):
-        return list(set(lst))
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
