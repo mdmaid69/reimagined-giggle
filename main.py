@@ -1,6 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
