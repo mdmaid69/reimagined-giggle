@@ -1,5 +1,5 @@
-import time
-print(time.time())
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def is_odd(n):
+        return n % 2 != 0
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
