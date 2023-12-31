@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_volume(length, width, height):
+        return length * width * height
