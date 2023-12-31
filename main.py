@@ -1,4 +1,9 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
