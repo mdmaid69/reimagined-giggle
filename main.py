@@ -1,6 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
