@@ -1,5 +1,7 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
