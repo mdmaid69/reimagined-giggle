@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import time
-print(time.time())
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
