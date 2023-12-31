@@ -1,5 +1,8 @@
-import time
-def get_current_time():
-        return time.time()
-def cube_number(x):
-        return x**3
+import platform
+def get_os_info():
+        return platform.uname()
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
