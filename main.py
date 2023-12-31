@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def square_number(x):
+        return x**2
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
