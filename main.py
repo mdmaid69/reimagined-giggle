@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
