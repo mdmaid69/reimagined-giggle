@@ -1,5 +1,7 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  def is_even(n):
-        return n % 2 == 0
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
