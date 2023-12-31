@@ -1,5 +1,7 @@
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
 import array
-def get_array_as_set(array):
-        return set(array)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def iterate_over_array(array):
+        for item in array:
+        print(item)
