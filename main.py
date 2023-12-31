@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_volume(length, width, height):
+        return length * width * height
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
