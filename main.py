@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def square_number(x):
+        return x**2
+import time
+def get_current_time():
+        return time.time()
