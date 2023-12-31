@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  def square_number(x):
-        return x**2
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
