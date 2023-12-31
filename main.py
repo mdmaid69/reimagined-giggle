@@ -1,4 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
