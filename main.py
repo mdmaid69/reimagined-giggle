@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def is_palindrome(s):
+        return s == s[::-1]
+  def remove_duplicates(lst):
+        return list(set(lst))
