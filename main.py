@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
