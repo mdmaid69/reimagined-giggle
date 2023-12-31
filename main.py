@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  def cube_number(x):
-        return x**3
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import os
+def remove_directory(path):
+        os.rmdir(path)
