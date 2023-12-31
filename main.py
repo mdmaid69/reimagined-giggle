@@ -1,6 +1,6 @@
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
