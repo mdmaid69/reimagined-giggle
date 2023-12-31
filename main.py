@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
