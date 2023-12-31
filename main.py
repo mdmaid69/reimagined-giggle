@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import json
+def convert_to_json(data):
+        return json.dumps(data)
