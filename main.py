@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
