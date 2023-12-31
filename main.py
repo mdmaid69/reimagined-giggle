@@ -1,5 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
