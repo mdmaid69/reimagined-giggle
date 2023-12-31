@@ -1,7 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_speed(distance, time):
-        return distance / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_average(lst):
+        return sum(lst) / len(lst)
