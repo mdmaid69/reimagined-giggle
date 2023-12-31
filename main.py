@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import random
+print(random.randint(0, 100))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
