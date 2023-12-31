@@ -1,4 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def find_min(lst):
+        return min(lst)
+  def reverse_list(lst):
+        return lst[::-1]
