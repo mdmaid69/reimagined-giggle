@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
