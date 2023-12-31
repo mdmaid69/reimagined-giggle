@@ -1,5 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
