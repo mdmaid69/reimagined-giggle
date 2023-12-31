@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import sys
+def exit_program():
+        sys.exit()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
