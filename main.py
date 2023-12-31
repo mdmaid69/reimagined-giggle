@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_as_list(array):
+        return list(array)
