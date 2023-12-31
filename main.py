@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import random
+def roll_die():
+        return random.randint(1, 6)
