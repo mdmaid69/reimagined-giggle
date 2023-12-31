@@ -1,6 +1,5 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def get_array_as_str(array):
+        return str(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
