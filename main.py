@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
