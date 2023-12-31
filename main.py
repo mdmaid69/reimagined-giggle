@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def reverse_array(array):
+        array.reverse()
+import getpass
+def get_username():
+        return getpass.getuser()
