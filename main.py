@@ -1,8 +1,6 @@
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_complex(array):
+        return complex(array[0])
