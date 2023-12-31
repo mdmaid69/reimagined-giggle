@@ -1,5 +1,7 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import time
+def get_time_since_epoch():
+        return time.time()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
