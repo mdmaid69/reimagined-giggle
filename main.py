@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
