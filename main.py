@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
