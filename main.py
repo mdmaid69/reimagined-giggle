@@ -1,5 +1,9 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
