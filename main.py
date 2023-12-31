@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
