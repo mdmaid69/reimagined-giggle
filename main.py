@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
