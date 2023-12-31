@@ -1,5 +1,8 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
