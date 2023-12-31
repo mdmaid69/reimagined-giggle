@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
