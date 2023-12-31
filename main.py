@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
