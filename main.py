@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import sys
+  def get_python_version():
+        return sys.version
