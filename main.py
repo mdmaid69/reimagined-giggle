@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
