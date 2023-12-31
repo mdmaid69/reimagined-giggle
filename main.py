@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def clear_array(array):
+        array *= 0
