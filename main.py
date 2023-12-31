@@ -1,7 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def get_list_from_array(array):
+        return array.tolist()
