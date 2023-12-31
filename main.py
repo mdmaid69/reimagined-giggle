@@ -1,5 +1,8 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
