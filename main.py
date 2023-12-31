@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
