@@ -1,5 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+print(sum(range(10)))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
