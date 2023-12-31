@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
