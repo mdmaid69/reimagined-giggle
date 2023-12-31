@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def divide_numbers(x, y):
-        return x / y
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
