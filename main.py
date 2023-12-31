@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def count_elements(lst):
+        return len(lst)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
