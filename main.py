@@ -1,8 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
