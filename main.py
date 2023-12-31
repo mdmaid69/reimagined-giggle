@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
