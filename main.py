@@ -1,5 +1,6 @@
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
