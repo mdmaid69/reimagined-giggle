@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
