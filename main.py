@@ -1,5 +1,8 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
 import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
