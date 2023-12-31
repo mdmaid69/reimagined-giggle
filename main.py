@@ -1,6 +1,8 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import platform
-def get_python_version():
-        return platform.python_version()
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
