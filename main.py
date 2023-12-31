@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
