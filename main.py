@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
