@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
