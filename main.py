@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
