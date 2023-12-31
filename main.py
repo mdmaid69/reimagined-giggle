@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
