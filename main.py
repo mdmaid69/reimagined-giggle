@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
