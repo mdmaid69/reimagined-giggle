@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
