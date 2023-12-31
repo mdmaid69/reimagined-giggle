@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
