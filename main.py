@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def is_palindrome(s):
-        return s == s[::-1]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
