@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_acceleration(speed, time):
+        return speed / time
+def convert_to_hex(n):
+        return hex(n)
