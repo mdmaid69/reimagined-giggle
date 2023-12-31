@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
+import time
+def get_time_since_epoch():
+        return time.time()
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_itemsize(array):
+        return array.itemsize
