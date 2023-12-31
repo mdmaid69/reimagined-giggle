@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
