@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def remove_duplicates(lst):
+        return list(set(lst))
