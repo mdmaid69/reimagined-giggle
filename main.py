@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import os
+print(os.getcwd())
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
