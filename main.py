@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import collections
-def create_stack():
-        return collections.deque()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import os
+def change_working_directory(path):
+        os.chdir(path)
