@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def sort_numbers(numbers):
-        return sorted(numbers)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
