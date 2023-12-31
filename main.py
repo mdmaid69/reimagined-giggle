@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_power(work, time):
+        return work / time
+  def cube_number(x):
+        return x**3
