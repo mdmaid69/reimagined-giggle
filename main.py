@@ -1,5 +1,7 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
