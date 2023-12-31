@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
