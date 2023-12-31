@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
