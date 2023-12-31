@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import re
+print(re.match("h.*o", "hello world"))
+def is_palindrome(s):
+        return s == s[::-1]
