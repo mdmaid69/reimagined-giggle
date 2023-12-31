@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def sort_numbers(numbers):
+        return sorted(numbers)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
