@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
