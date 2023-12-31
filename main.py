@@ -1,3 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-print(sum(range(10)))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import numpy as np
+print(np.array([1, 2, 3]))
