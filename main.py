@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def get_current_directory():
+        return os.getcwd()
