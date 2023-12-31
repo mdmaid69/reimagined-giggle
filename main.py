@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
