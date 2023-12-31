@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  def is_even(n):
-        return n % 2 == 0
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_item(array, i):
+        return array[i]
