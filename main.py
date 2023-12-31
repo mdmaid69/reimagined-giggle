@@ -1,5 +1,6 @@
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def reverse_string(s):
-        return s[::-1]
+def calculate_exponential(x):
+        return math.exp(x)
