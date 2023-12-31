@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
