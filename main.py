@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
