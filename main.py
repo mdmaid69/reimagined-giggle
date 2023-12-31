@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
