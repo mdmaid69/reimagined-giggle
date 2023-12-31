@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
