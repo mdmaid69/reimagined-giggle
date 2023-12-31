@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
