@@ -1,4 +1,8 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_typecode(array):
+        return array.typecode
