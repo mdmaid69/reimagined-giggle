@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def get_array_index(array, item):
+        return array.index(item)
