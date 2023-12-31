@@ -1,5 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
