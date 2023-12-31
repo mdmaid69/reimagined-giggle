@@ -1,5 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def is_even(n):
+        return n % 2 == 0
