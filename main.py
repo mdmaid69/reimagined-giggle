@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
