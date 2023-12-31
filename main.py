@@ -1,6 +1,8 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
