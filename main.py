@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
