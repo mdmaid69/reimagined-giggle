@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
+text = "Hello, world!"
+print("Characters:", len(text))
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_list_from_array(array):
+        return array.tolist()
