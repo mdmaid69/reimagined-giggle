@@ -1,5 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def reverse_list(lst):
-        return lst[::-1]
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import array
+def get_array_as_list(array):
+        return list(array)
