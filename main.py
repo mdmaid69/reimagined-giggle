@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
