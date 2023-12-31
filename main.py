@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
