@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
