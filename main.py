@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
