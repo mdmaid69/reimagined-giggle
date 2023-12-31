@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
