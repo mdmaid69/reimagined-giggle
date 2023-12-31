@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
