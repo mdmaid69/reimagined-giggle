@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  def count_elements(lst):
-        return len(lst)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_floor(x):
+        return math.floor(x)
