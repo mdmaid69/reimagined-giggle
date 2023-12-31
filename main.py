@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def reverse_array(array):
+        array.reverse()
