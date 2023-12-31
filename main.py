@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
