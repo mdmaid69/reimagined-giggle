@@ -1,5 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def find_max(lst):
+        return max(lst)
+def calculate_area_circle(r):
+        return 3.14 * r**2
