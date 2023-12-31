@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import sys
+def exit_program():
+        sys.exit()
