@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
