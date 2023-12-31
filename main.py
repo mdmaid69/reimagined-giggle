@@ -1,5 +1,10 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def is_even(n):
+        return n % 2 == 0
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
