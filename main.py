@@ -1,8 +1,8 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_as_list(array):
+        return list(array)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
