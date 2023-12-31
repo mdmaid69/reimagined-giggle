@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import array
+def append_to_array(array, item):
+        array.append(item)
