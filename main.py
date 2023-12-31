@@ -1,5 +1,5 @@
 import os
-def change_working_directory(path):
-        os.chdir(path)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
