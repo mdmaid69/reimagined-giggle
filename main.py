@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def greet(name):
+        print(f"Hello, {name}!")
