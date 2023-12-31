@@ -1,5 +1,6 @@
 import sys
-print(sys.version)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
