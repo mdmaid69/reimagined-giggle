@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+x = 10
+y = 20
+print("Sum:", x + y)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
