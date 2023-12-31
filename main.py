@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
