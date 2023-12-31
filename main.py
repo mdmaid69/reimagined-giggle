@@ -1,6 +1,6 @@
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
