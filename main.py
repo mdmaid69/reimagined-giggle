@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_volume(length, width, height):
-        return length * width * height
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
