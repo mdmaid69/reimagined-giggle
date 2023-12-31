@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def convert_to_binary(n):
+        return bin(n)
