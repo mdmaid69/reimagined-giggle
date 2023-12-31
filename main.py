@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_power(work, time):
-        return work / time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
