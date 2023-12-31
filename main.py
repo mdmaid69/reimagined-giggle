@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_bytes_from_array(array):
+        return array.tobytes()
