@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
