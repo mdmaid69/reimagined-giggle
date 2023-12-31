@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import getpass
-def get_username():
-        return getpass.getuser()
+import time
+def get_current_time():
+        return time.time()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
