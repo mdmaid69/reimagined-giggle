@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import sys
+def print_python_version():
+        print(sys.version)
