@@ -1,8 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
