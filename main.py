@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  def convert_to_binary(n):
-        return bin(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
