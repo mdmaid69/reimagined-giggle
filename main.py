@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
