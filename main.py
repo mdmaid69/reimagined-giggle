@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def split_path(path):
+        return os.path.split(path)
+def is_palindrome(s):
+        return s == s[::-1]
