@@ -1,12 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import array
-def get_array_as_list(array):
-        return list(array)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
