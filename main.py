@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
