@@ -1,6 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def greet(name):
+        print(f"Hello, {name}!")
