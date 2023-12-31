@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
