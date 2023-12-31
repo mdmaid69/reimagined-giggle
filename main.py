@@ -1,5 +1,7 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_power(work, time):
-        return work / time
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
