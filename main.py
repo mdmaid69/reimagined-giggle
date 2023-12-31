@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
