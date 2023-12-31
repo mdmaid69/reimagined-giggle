@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
