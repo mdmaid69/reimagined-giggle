@@ -1,6 +1,5 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
