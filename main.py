@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
 import json
-def convert_to_json(data):
-        return json.dumps(data)
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+from collections import Counter
+print(Counter("hello world"))
