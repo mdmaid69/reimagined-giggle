@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+text = "Hello, world!"
+print("Reversed:", text[::-1])
