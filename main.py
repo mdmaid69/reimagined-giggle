@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
