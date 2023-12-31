@@ -1,6 +1,7 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
