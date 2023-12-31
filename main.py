@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def calculate_work(force, distance):
-        return force * distance
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
