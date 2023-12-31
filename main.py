@@ -1,9 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
