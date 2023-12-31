@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
