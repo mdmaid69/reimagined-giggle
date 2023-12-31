@@ -1,5 +1,7 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
