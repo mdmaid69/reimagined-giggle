@@ -1,5 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def calculate_pressure(force, area):
-        return force / area
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
