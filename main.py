@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import array
-def get_array_length(array):
-        return len(array)
+def find_min(lst):
+        return min(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
