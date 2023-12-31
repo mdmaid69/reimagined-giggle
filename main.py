@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
