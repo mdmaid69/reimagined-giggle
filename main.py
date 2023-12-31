@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
