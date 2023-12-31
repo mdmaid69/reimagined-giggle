@@ -1,5 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
