@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
