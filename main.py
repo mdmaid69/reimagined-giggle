@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-def remove_duplicates(lst):
-        return list(set(lst))
+import datetime
+print(datetime.datetime.now())
+i = 0
+while i < 5:
+        print(i)
+        i += 1
