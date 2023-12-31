@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import time
-def get_current_time():
-        return time.ctime()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_repr(array):
+        return repr(array)
