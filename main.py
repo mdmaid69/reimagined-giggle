@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import platform
+def get_os_info():
+        return platform.uname()
