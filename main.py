@@ -1,6 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import time
+def get_current_time():
+        return time.ctime()
