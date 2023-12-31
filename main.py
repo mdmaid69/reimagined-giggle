@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
