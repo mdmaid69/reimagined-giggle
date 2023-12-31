@@ -1,6 +1,7 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
