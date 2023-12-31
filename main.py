@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def get_array_as_list(array):
+        return list(array)
