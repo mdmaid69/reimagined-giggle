@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
