@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
