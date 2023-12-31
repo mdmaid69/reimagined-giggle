@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def cube_number(x):
+        return x**3
