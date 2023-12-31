@@ -1,5 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def is_odd(n):
-        return n % 2 != 0
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
