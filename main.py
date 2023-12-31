@@ -1,5 +1,6 @@
+import array
+def get_array_as_float(array):
+        return float(array[0])
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
