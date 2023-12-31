@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
