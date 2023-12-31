@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import re
-print(re.match("h.*o", "hello world"))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def get_list_from_array(array):
+        return array.tolist()
