@@ -1,7 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import random
+def roll_die():
+        return random.randint(1, 6)
