@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
