@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
