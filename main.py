@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import sys
+  def get_python_version():
+        return sys.version
