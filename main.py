@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def subtract_numbers(x, y):
-        return x - y
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
