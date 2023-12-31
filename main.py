@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+x = 10
+y = 20
+print("Sum:", x + y)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
