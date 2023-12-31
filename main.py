@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
