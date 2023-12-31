@@ -1,6 +1,8 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
