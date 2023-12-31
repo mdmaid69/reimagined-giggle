@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import random
-print(random.randint(0, 100))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
