@@ -1,5 +1,5 @@
 import array
-def get_array_length(array):
-        return len(array)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_speed(distance, time):
+        return distance / time
