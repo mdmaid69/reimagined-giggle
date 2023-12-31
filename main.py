@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def add_numbers(x, y):
+        return x + y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
