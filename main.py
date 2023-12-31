@@ -1,8 +1,8 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
