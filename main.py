@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
