@@ -1,6 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import array
+def clear_array(array):
+        array *= 0
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
