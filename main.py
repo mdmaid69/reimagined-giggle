@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
