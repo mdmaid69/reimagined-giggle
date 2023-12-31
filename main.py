@@ -1,5 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
