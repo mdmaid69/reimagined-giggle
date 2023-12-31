@@ -1,6 +1,9 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
