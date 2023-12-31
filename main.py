@@ -1,5 +1,6 @@
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def find_unique_words(sentence):
-        return set(sentence.split())
+def get_array_as_frozenset(array):
+        return frozenset(array)
