@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
