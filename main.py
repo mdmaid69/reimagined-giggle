@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
