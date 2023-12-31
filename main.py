@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def remove_duplicates(lst):
+        return list(set(lst))
