@@ -1,4 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
