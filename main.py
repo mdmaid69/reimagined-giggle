@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
