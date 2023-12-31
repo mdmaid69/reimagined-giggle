@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_buffer_info(array):
+        return array.buffer_info()
