@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
