@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def multiply_numbers(x, y):
-        return x * y
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import getpass
+def get_username():
+        return getpass.getuser()
