@@ -1,4 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def convert_to_octal(n):
-        return oct(n)
+  def count_elements(lst):
+        return len(lst)
+import datetime
+print(datetime.datetime.now())
