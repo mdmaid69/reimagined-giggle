@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
