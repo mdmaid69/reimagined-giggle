@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
