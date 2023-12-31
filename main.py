@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
