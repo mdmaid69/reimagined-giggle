@@ -1,5 +1,4 @@
-import time
-print(time.time())
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+text = "Hello, world!"
+print("Characters:", len(text))
+  def is_even(n):
+        return n % 2 == 0
