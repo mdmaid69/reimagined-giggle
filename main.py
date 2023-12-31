@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import collections
+def create_stack():
+        return collections.deque()
