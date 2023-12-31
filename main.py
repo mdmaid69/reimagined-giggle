@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def get_array_as_list(array):
-        return list(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import os
+def change_working_directory(path):
+        os.chdir(path)
