@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def is_palindrome(s):
+        return s == s[::-1]
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
