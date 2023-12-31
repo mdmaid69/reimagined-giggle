@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
