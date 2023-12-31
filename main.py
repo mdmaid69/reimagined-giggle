@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
