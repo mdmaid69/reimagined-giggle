@@ -1,5 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
