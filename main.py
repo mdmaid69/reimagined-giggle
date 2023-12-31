@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
