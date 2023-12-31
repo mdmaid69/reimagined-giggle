@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
