@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_work(force, distance):
-        return force * distance
+def convert_to_hex(n):
+        return hex(n)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
