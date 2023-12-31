@@ -1,7 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+print(sum(range(10)))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
