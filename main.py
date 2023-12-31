@@ -1,7 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
