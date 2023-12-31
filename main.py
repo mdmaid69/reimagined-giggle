@@ -1,6 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_volume(length, width, height):
+        return length * width * height
