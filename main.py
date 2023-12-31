@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
