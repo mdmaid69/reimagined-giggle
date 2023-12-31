@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
