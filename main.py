@@ -1,4 +1,6 @@
-print("Hello, world!")
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
