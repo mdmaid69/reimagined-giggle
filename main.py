@@ -1,4 +1,9 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_acceleration(speed, time):
-        return speed / time
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
