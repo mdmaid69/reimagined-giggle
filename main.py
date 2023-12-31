@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import array
+def clear_array(array):
+        array *= 0
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
