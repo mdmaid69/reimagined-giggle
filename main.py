@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+text = "Hello, world!"
+print("Characters:", len(text))
