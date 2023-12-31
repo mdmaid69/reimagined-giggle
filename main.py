@@ -1,9 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
