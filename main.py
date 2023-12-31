@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import platform
+def get_os_info():
+        return platform.uname()
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_ceiling(x):
+        return math.ceil(x)
