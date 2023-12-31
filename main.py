@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
