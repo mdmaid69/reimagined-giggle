@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
