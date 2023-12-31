@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
