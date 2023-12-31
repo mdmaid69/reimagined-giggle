@@ -1,6 +1,5 @@
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
