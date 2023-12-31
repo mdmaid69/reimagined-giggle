@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def count_characters(sentence):
+        return len(sentence)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
