@@ -1,5 +1,8 @@
-  def multiply_numbers(x, y):
-        return x * y
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
