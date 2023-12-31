@@ -1,6 +1,9 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
