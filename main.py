@@ -1,5 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import sys
+def exit_program():
+        sys.exit()
