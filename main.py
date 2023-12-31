@@ -1,4 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+from collections import Counter
+print(Counter("hello world"))
