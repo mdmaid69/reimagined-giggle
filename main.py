@@ -1,4 +1,5 @@
 import math
-print(math.pi)
-def find_min(lst):
-        return min(lst)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+name = "Python"
+print("Hello,", name)
