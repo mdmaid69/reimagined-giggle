@@ -1,10 +1,8 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
+def factorial(n):
+        if n == 0:
+        return 1
         else:
-        return -1
+        return n * factorial(n-1)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
