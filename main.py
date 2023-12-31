@@ -1,5 +1,8 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import math
-print(math.pi)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
