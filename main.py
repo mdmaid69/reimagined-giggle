@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_sine(x):
+        return math.sin(x)
