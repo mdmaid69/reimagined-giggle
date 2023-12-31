@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
