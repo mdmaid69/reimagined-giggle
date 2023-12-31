@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
