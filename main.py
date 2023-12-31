@@ -1,5 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_area_circle(r):
+        return 3.14 * r**2
