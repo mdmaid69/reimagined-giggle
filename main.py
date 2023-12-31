@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
