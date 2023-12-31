@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
