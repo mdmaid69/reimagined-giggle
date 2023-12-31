@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
