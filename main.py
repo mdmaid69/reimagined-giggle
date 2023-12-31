@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
