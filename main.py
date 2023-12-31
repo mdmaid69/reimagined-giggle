@@ -1,6 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_gamma_function(x):
+        return math.gamma(x)
