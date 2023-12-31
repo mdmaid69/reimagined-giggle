@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
