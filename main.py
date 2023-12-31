@@ -1,5 +1,5 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def convert_array_to_unicode(array):
+        return array.tounicode()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
