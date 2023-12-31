@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def multiply_numbers(x, y):
-        return x * y
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
