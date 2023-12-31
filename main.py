@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
