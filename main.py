@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
