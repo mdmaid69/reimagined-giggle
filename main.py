@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def convert_to_hex(n):
+        return hex(n)
