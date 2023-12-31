@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  def add_numbers(x, y):
-        return x + y
+def is_palindrome(s):
+        return s == s[::-1]
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
