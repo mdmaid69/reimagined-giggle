@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
