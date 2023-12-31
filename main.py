@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
