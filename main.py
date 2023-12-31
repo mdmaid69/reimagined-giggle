@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
