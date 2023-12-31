@@ -1,8 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def multiply_numbers(x, y):
+        return x * y
