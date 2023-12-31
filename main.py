@@ -1,4 +1,3 @@
-import tensorflow as tf
-print(tf.__version__)
-def convert_to_binary(n):
-        return bin(n)
+import datetime
+print(datetime.datetime.now())
+print([x**2 for x in range(10)])
