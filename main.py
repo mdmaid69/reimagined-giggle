@@ -1,6 +1,7 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
