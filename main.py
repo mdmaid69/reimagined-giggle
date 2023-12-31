@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import sys
-def exit_program():
-        sys.exit()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
