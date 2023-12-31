@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
