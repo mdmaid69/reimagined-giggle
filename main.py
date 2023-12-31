@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def count_elements(lst):
+        return len(lst)
