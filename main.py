@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
