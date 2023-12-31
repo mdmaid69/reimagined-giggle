@@ -1,4 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
