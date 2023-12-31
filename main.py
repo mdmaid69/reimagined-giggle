@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import platform
-def get_python_version():
-        return platform.python_version()
+import time
+def get_current_time():
+        return time.time()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
