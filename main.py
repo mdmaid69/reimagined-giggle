@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
