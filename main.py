@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+from collections import Counter
+print(Counter("hello world"))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
