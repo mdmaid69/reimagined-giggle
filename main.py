@@ -1,5 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
