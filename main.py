@@ -1,6 +1,6 @@
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
