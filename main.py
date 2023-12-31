@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def append_to_array(array, item):
+        array.append(item)
