@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def reverse_list(lst):
+        return lst[::-1]
