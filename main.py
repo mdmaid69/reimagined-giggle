@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
