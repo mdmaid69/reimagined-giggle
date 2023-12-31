@@ -1,6 +1,8 @@
   import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_array_item(array, i):
-        return array[i]
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
