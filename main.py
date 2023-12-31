@@ -1,7 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
