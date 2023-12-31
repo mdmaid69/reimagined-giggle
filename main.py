@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
