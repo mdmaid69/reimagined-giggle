@@ -1,8 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_user_list():
-        return collections.UserList()
+def get_array_as_str(array):
+        return str(array)
+def calculate_pressure(force, area):
+        return force / area
