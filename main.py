@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
