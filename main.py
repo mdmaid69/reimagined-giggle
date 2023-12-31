@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
