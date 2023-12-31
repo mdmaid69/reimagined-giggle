@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+name = "Python"
+print("Hello,", name)
