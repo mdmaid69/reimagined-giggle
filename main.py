@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def reverse_string(s):
+        return s[::-1]
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
