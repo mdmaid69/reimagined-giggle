@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def remove_duplicates(lst):
-        return list(set(lst))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
