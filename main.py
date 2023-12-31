@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
