@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
