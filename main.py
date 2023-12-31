@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def cube_number(x):
+        return x**3
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
