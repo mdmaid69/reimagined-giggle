@@ -1,5 +1,7 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import datetime
+print(datetime.datetime.now())
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
