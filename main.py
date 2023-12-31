@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def count_characters(sentence):
-        return len(sentence)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
