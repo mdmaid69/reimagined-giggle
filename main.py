@@ -1,5 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
