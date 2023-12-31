@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
