@@ -1,8 +1,8 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
