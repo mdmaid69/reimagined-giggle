@@ -1,6 +1,6 @@
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def read_from_json(json_string):
+        return json.loads(json_string)
+import platform
+def get_python_version():
+        return platform.python_version()
