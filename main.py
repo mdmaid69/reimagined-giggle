@@ -1,5 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def divide_numbers(x, y):
+        return x / y
