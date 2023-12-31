@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+for i in range(5):
+        print(i)
