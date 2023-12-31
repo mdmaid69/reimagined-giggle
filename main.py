@@ -1,7 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import platform
+def get_os_info():
+        return platform.uname()
