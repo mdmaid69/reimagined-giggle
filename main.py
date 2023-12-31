@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
