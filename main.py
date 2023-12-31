@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
