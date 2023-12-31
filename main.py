@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
