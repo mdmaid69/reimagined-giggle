@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import time
+def get_current_time():
+        return time.ctime()
