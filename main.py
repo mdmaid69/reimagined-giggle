@@ -1,6 +1,6 @@
+import array
+def append_to_array(array, item):
+        array.append(item)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
