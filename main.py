@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
