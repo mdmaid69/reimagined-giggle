@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
