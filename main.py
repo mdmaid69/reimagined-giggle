@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def square_number(x):
+        return x**2
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
