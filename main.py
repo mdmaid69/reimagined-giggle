@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
