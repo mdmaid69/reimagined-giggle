@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import platform
-def get_os_info():
-        return platform.uname()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
