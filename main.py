@@ -1,6 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
