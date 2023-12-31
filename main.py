@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
