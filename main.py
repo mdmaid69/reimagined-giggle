@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+text = "Hello, world!"
+print("Characters:", len(text))
