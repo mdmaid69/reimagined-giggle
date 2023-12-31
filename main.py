@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def reverse_array(array):
-        array.reverse()
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
