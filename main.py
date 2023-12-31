@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
