@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
 import sys
-def print_python_version():
-        return sys.version
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
