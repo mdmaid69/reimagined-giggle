@@ -1,4 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-print("Hello, world!")
+import sys
+def print_python_version():
+        print(sys.version)
+def is_odd(n):
+        return n % 2 != 0
