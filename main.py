@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+print([x**2 for x in range(10)])
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
