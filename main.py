@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def remove_from_array(array, item):
+        array.remove(item)
