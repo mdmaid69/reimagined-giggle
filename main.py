@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
