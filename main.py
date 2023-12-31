@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
