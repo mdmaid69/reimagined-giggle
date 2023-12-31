@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
