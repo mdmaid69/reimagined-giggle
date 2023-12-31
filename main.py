@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import time
+print(time.time())
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
