@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def multiply_numbers(x, y):
+        return x * y
