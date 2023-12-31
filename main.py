@@ -1,7 +1,7 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
