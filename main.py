@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
