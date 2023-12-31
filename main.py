@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
