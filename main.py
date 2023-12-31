@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def find_max(numbers):
+        return max(numbers)
