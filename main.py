@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def find_min(lst):
+        return min(lst)
