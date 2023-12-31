@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import os
+def remove_directory(path):
+        os.rmdir(path)
