@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
