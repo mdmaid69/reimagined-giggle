@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
