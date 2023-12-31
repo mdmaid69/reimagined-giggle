@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def convert_to_octal(n):
+        return oct(n)
