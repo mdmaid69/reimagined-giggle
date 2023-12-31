@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import collections
-def create_user_list():
-        return collections.UserList()
+from collections import Counter
+print(Counter("hello world"))
+  def sort_list(lst):
+        return sorted(lst)
