@@ -1,5 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def clear_array(array):
+        array *= 0
