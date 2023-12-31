@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def is_odd(n):
-        return n % 2 != 0
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
