@@ -1,5 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_volume(length, width, height):
-        return length * width * height
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
