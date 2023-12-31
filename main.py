@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
