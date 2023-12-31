@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_string_from_array(array):
+        return array.tobytes()
