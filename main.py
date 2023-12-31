@@ -1,6 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_sign(x):
+        return math.copysign(1, x)
