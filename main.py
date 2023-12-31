@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-for i in range(5):
-        print(i)
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
