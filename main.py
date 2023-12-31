@@ -1,6 +1,4 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import sys
-def print_python_version():
-        return sys.version
+  def is_odd(n):
+        return n % 2 != 0
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
