@@ -1,8 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_area_rectangle(l, w):
+        return l * w
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
