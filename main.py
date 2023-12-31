@@ -1,5 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
