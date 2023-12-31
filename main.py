@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  def convert_to_binary(n):
+        return bin(n)
