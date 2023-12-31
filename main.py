@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def square_number(x):
+        return x**2
+import datetime
+def get_today_date():
+        return datetime.date.today()
