@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import platform
+def get_os_info():
+        return platform.uname()
