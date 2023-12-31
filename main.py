@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
