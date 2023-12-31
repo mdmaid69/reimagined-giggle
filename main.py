@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import sys
+def print_python_version():
+        return sys.version
