@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
