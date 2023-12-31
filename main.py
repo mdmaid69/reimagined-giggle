@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
