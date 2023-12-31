@@ -1,6 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-print(sum(range(10)))
+  def convert_to_octal(n):
+        return oct(n)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
