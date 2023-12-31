@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
