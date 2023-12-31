@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
