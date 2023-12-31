@@ -1,6 +1,5 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def reverse_list(lst):
+        return lst[::-1]
