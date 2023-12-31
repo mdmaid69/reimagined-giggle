@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def is_palindrome(s):
+        return s == s[::-1]
