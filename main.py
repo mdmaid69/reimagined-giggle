@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def convert_to_binary(n):
-        return bin(n)
+def greet(name):
+        print(f"Hello, {name}!")
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
