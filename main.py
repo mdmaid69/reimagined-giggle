@@ -1,6 +1,3 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import collections
-def create_priority_queue():
-        return collections.deque()
+print(sum(range(10)))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
