@@ -1,5 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
