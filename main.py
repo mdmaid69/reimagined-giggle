@@ -1,5 +1,3 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+print("Hello, world!")
