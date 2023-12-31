@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
