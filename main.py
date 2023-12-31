@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import time
+def get_current_time():
+        return time.time()
+import sys
+def print_python_version():
+        print(sys.version)
