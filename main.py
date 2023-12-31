@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
