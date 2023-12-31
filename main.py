@@ -1,5 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def create_user_list():
+        return collections.UserList()
