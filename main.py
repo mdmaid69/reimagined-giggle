@@ -1,5 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_density(mass, volume):
-        return mass / volume
+def reverse_list(lst):
+        return lst[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
