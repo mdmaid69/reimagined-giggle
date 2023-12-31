@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import sys
+def print_python_version():
+        print(sys.version)
