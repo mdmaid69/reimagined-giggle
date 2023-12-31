@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import logging
+def log_message(message):
+        logging.info(message)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
