@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
