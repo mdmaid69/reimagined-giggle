@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
