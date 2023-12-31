@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def convert_to_octal(n):
+        return oct(n)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
