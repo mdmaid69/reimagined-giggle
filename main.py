@@ -1,6 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
