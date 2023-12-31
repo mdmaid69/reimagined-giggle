@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
