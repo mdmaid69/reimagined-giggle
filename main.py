@@ -1,6 +1,5 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
