@@ -1,8 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import platform
+def get_os_info():
+        return platform.uname()
+import time
+def get_current_time():
+        return time.ctime()
