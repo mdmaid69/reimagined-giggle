@@ -1,4 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-print([x**2 for x in range(10)])
+for i in range(5):
+        print(i)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
