@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
