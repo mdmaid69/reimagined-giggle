@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
