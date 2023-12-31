@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  def multiply_numbers(x, y):
-        return x * y
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
