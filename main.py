@@ -1,6 +1,8 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
