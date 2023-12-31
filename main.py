@@ -1,6 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
