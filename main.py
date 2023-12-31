@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def is_odd(n):
+        return n % 2 != 0
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
