@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
