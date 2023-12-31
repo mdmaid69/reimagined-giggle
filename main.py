@@ -1,6 +1,5 @@
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def change_working_directory(path):
+        os.chdir(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
