@@ -1,6 +1,9 @@
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
