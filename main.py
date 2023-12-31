@@ -1,6 +1,3 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
 import functools
 def memoize(func):
         cache = {}
@@ -10,3 +7,6 @@ def memoize(func):
                 cache[args] = func(*args)
         return cache[args]
         return wrapper
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
