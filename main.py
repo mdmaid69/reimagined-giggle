@@ -1,8 +1,8 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import array
-def convert_unicode_to_array(unicode, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.fromstring(string)
         return a
