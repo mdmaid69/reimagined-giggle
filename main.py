@@ -1,6 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
