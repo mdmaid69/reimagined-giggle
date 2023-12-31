@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_pressure(force, area):
-        return force / area
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
