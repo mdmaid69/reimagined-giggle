@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import time
+def get_time_since_epoch():
+        return time.time()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
