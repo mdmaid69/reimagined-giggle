@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
