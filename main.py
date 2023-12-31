@@ -1,4 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_speed(distance, time):
+        return distance / time
