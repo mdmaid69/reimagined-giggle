@@ -1,7 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_work(force, distance):
+        return force * distance
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
