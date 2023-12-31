@@ -1,5 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
