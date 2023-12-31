@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def reverse_list(lst):
-        return lst[::-1]
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import platform
+def get_os_info():
+        return platform.uname()
