@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def cube_number(x):
-        return x**3
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import platform
+def get_python_version():
+        return platform.python_version()
