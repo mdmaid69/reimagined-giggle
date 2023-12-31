@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def multiply_numbers(x, y):
+        return x * y
+def convert_to_binary(n):
+        return bin(n)
