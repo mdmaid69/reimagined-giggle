@@ -1,8 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
