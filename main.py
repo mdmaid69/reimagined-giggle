@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def get_array_as_list(array):
-        return list(array)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
