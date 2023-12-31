@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
