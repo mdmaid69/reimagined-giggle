@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
