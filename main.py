@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  def convert_to_hex(n):
-        return hex(n)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
