@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
