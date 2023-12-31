@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
