@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+def calculate_density(mass, volume):
+        return mass / volume
