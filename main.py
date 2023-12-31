@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import sys
-def print_python_version():
-        print(sys.version)
+def reverse_string(s):
+        return s[::-1]
+def calculate_density(mass, volume):
+        return mass / volume
