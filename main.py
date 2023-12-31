@@ -1,6 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
