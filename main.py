@@ -1,5 +1,10 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
