@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
