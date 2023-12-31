@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import collections
+def create_user_list():
+        return collections.UserList()
