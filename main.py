@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def count_characters(sentence):
-        return len(sentence)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def divide_numbers(x, y):
+        return x / y
