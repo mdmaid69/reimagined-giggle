@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def reverse_array(array):
-        array.reverse()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_power(work, time):
+        return work / time
