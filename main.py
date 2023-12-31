@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
