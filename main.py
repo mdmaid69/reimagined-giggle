@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def find_min(numbers):
+        return min(numbers)
