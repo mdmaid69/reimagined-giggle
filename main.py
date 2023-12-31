@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def reverse_list(lst):
+        return lst[::-1]
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
