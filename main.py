@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
