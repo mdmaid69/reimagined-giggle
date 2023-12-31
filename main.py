@@ -1,6 +1,10 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
