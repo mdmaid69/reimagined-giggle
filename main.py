@@ -1,8 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def get_array_as_bytearray(array):
+        return bytearray(array)
