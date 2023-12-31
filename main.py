@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
