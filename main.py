@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
