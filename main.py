@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
