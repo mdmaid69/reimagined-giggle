@@ -1,8 +1,6 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def get_array_as_list(array):
+        return list(array)
