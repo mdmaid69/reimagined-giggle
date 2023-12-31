@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
