@@ -1,6 +1,8 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
