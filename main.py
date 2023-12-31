@@ -1,5 +1,7 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
