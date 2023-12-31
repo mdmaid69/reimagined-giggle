@@ -1,5 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_speed(distance, time):
-        return distance / time
+from collections import Counter
+print(Counter("hello world"))
+def calculate_acceleration(speed, time):
+        return speed / time
