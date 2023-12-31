@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import numpy as np
+print(np.array([1, 2, 3]))
