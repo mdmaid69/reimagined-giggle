@@ -1,7 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
