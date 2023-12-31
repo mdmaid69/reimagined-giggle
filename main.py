@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def convert_to_hex(n):
-        return hex(n)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
