@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
