@@ -1,5 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def is_even(n):
-        return n % 2 == 0
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
