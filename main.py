@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
