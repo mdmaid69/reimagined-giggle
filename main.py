@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-  def add_numbers(x, y):
-        return x + y
+import os
+print(os.getcwd())
+import logging
+def log_message(message):
+        logging.info(message)
