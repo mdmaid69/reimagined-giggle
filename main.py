@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-print(math.pi)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
