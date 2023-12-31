@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_as_set(array):
-        return set(array)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
