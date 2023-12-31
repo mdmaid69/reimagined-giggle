@@ -1,4 +1,9 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import getpass
+def get_username():
+        return getpass.getuser()
