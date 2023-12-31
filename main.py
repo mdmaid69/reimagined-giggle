@@ -1,6 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
