@@ -1,8 +1,4 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
