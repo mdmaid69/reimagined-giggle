@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def convert_to_hex(n):
+        return hex(n)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def convert_array_to_string(array):
+        return array.tostring()
