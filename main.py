@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
