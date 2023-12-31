@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
