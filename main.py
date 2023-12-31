@@ -1,5 +1,9 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
