@@ -1,5 +1,7 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def cube_number(x):
-        return x**3
+def find_max(lst):
+        return max(lst)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
