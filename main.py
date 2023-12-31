@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
