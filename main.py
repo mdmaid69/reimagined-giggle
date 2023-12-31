@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
