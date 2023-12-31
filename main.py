@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def sort_list(lst):
+        return sorted(lst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
