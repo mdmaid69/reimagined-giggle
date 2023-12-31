@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import tensorflow as tf
-print(tf.__version__)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def square_number(x):
+        return x**2
