@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def subtract_numbers(x, y):
-        return x - y
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import sys
+def print_python_version():
+        print(sys.version)
