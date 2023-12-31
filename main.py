@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
