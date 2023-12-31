@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  def square_number(x):
-        return x**2
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
