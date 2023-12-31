@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import json
+print(json.dumps({"name": "John", "age": 30}))
