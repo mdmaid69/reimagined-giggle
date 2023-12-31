@@ -1,6 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_as_float(array):
+        return float(array[0])
