@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def square_number(x):
-        return x**2
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
