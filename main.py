@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
