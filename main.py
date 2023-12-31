@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
