@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+print([x**2 for x in range(10)])
+import platform
+def get_python_version():
+        return platform.python_version()
