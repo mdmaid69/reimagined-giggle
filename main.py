@@ -1,5 +1,8 @@
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import numpy as np
-print(np.array([1, 2, 3]))
+def get_array_as_str(array):
+        return str(array)
