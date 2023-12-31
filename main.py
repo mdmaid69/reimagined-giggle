@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
