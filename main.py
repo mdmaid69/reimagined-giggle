@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_as_frozenset(array):
+        return frozenset(array)
