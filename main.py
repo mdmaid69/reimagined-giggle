@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+print([x**2 for x in range(10)])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
