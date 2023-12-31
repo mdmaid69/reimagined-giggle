@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
