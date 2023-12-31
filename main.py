@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
