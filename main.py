@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
