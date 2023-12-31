@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def is_even(n):
+        return n % 2 == 0
