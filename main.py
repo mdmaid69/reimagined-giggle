@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def count_characters(sentence):
-        return len(sentence)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
