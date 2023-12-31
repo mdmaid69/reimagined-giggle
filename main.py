@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_counter():
+        return collections.Counter()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
