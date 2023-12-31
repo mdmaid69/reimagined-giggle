@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import collections
+def create_user_list():
+        return collections.UserList()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
