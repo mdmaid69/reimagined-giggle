@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
