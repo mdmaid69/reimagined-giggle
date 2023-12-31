@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
