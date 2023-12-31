@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
