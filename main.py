@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import array
-def get_array_as_set(array):
-        return set(array)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
