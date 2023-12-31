@@ -1,5 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+text = "Hello, world!"
+print("Reversed:", text[::-1])
