@@ -1,6 +1,4 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+print([x**2 for x in range(10)])
