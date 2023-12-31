@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
