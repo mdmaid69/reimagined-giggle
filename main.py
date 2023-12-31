@@ -1,6 +1,8 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
