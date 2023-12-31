@@ -1,6 +1,6 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
