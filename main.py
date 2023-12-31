@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+print(sum(range(10)))
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
