@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
