@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
