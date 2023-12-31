@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  def convert_to_hex(n):
-        return hex(n)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_string_from_array(array):
+        return array.tobytes()
