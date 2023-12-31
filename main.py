@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_density(mass, volume):
+        return mass / volume
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
