@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def calculate_area_rectangle(l, w):
+        return l * w
