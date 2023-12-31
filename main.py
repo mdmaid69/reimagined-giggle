@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_power(work, time):
+        return work / time
