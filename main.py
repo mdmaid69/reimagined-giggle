@@ -1,6 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_acceleration(speed, time):
+        return speed / time
