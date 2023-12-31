@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_acceleration(speed, time):
-        return speed / time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
