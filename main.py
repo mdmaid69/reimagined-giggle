@@ -1,3 +1,5 @@
-name = "Python"
-print("Hello,", name)
-print([x**2 for x in range(10)])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
