@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
