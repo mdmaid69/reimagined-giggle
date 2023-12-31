@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def is_odd(n):
-        return n % 2 != 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import tensorflow as tf
+print(tf.__version__)
