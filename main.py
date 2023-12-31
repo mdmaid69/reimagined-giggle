@@ -1,6 +1,6 @@
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
