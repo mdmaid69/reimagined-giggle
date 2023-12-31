@@ -1,6 +1,11 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
