@@ -1,8 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_array_to_unicode(array):
+        return array.tounicode()
