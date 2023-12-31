@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
