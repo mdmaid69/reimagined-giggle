@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+print(math.pi)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
