@@ -1,5 +1,7 @@
-def square_number(x):
-        return x**2
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
