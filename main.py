@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def convert_to_hex(n):
+        return hex(n)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
