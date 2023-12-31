@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def calculate_area_rectangle(l, w):
+        return l * w
