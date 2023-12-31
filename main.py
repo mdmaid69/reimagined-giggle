@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def convert_to_hex(n):
+        return hex(n)
