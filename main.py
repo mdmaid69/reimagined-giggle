@@ -1,7 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
