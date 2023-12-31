@@ -1,7 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
