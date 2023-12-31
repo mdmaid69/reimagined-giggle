@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import array
-def get_array_item(array, i):
-        return array[i]
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
