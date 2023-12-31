@@ -1,7 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+def cube_number(x):
+        return x**3
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
