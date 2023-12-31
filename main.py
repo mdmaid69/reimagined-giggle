@@ -1,3 +1,12 @@
-print([x**2 for x in range(10)])
-def square_number(x):
-        return x**2
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
