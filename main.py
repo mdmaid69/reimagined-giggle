@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def clear_array(array):
+        array *= 0
+def calculate_volume(length, width, height):
+        return length * width * height
