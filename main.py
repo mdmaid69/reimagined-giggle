@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
