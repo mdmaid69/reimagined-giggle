@@ -1,5 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
