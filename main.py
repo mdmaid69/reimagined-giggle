@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_acceleration(speed, time):
-        return speed / time
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
