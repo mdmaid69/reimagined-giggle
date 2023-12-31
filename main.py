@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import datetime
-print(datetime.datetime.now())
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
