@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
