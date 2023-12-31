@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def set_array_item(array, i, item):
+        array[i] = item
