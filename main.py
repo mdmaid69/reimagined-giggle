@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
