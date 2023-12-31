@@ -1,5 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
