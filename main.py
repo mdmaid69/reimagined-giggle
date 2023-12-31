@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-text = "Hello, world!"
-print("Characters:", len(text))
+def square_number(x):
+        return x**2
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
