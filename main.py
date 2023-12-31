@@ -1,5 +1,12 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import collections
-def create_queue():
-        return collections.deque()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import random
+def roll_die():
+        return random.randint(1, 6)
