@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def square_number(x):
+        return x**2
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
