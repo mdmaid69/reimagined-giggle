@@ -1,6 +1,6 @@
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
