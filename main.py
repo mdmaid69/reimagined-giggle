@@ -1,5 +1,7 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
