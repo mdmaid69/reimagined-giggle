@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
