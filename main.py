@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
