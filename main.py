@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def add_numbers(a, b):
-        return a + b
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
