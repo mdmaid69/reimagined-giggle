@@ -1,6 +1,7 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
