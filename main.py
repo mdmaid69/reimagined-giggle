@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
