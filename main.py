@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
