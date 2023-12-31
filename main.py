@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import sys
-def print_python_version():
-        return sys.version
+text = "Hello, world!"
+print("Characters:", len(text))
+import collections
+def create_user_list():
+        return collections.UserList()
