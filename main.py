@@ -1,6 +1,8 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
