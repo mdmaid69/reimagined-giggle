@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def count_characters(sentence):
-        return len(sentence)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
