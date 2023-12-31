@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import random
+print(random.randint(0, 100))
