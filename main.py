@@ -1,5 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
