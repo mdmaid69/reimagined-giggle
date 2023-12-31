@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def find_max(lst):
+        return max(lst)
