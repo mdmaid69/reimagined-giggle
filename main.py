@@ -1,5 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-name = "Python"
-print("Hello,", name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def cube_number(x):
+        return x**3
