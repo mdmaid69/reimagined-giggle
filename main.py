@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
