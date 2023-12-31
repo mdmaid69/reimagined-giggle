@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
