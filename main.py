@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
