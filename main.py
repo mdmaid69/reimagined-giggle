@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
