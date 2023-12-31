@@ -1,6 +1,5 @@
+  def convert_to_binary(n):
+        return bin(n)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
