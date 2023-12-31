@@ -1,5 +1,8 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
