@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
