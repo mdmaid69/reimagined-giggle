@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
