@@ -1,4 +1,5 @@
-import time
-print(time.time())
-def calculate_power(work, time):
-        return work / time
+  def multiply_numbers(x, y):
+        return x * y
+import random
+def roll_die():
+        return random.randint(1, 6)
