@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
