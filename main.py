@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
