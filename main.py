@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
