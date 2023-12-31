@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
 def calculate_irr(cash_flows):
         rate = 0.1
         for _ in range(100):
