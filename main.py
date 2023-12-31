@@ -1,5 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_work(force, distance):
+        return force * distance
