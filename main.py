@@ -1,5 +1,5 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def reverse_string(s):
+        return s[::-1]
