@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
