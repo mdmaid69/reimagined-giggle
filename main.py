@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def add_numbers(x, y):
+        return x + y
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
