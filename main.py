@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  def subtract_numbers(x, y):
+        return x - y
