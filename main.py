@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import sys
+def exit_program():
+        sys.exit()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
