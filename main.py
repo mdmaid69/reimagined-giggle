@@ -1,6 +1,8 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
