@@ -1,5 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def reverse_list(lst):
+        return lst[::-1]
