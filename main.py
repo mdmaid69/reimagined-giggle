@@ -1,5 +1,3 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_pressure(force, area):
-        return force / area
+print(sum(range(10)))
+name = "Python"
+print("Hello,", name)
