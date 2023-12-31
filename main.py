@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def get_array_as_bytes(array):
+        return bytes(array)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
