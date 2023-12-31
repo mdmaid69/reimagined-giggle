@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def add_numbers(a, b):
+        return a + b
+def find_unique_words(sentence):
+        return set(sentence.split())
