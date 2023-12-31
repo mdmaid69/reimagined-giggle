@@ -1,5 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
