@@ -1,3 +1,9 @@
-def add_numbers(x, y):
-        return x + y
-print("Hello, world!")
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import json
+print(json.dumps({"name": "John", "age": 30}))
