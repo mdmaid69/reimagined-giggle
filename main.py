@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_current_directory():
+        return os.getcwd()
+def add_numbers(a, b):
+        return a + b
