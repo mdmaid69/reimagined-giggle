@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
