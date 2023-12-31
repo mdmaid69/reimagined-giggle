@@ -1,5 +1,6 @@
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  def add_numbers(x, y):
-        return x + y
+def calculate_arc_sine(x):
+        return math.asin(x)
