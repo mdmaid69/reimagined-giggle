@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_work(force, distance):
+        return force * distance
