@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
