@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
