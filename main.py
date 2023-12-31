@@ -1,7 +1,7 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
