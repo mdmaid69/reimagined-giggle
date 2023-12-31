@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
