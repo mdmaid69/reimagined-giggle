@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import time
+print(time.time())
