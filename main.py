@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def clear_array(array):
+        array *= 0
