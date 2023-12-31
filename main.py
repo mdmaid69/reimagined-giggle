@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_area(radius):
+        return 3.14 * radius * radius
