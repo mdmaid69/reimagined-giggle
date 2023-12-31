@@ -1,8 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import os
+def change_working_directory(path):
+        os.chdir(path)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def remove_from_array(array, item):
+        array.remove(item)
