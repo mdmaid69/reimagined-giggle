@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
