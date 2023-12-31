@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
