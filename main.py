@@ -1,6 +1,8 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
