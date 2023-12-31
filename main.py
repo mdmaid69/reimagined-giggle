@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
