@@ -1,6 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def cube_number(x):
+        return x**3
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
