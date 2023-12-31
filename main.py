@@ -1,5 +1,5 @@
 numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
