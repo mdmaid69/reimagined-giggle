@@ -1,6 +1,8 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def get_array_index(array, item):
+        return array.index(item)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
