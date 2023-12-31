@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
