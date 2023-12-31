@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def convert_array_to_unicode(array):
+        return array.tounicode()
