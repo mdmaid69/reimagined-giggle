@@ -1,5 +1,8 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
