@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def split_path(path):
+        return os.path.split(path)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
