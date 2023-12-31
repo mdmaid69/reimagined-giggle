@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def is_even(n):
+        return n % 2 == 0
+import time
+def get_current_time():
+        return time.ctime()
