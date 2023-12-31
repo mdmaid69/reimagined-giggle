@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
