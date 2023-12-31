@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def get_array_index(array, item):
+        return array.index(item)
