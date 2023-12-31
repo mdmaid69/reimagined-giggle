@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import sys
+def exit_program():
+        sys.exit()
