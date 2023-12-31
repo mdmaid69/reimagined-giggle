@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import time
+def get_current_time():
+        return time.ctime()
+def cube_number(x):
+        return x**3
