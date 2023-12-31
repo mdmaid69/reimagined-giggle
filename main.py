@@ -1,5 +1,2 @@
-import math
-print(math.pi)
-import time
-def get_current_time():
-        return time.ctime()
+print(sum(range(10)))
+for i in range(10): print(i)
