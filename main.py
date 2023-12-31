@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
