@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import time
-def get_current_time():
-        return time.time()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
