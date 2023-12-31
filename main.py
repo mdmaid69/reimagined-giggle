@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
