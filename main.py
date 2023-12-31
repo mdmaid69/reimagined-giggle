@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
