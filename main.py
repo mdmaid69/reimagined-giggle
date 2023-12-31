@@ -1,7 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def create_user_list():
+        return collections.UserList()
