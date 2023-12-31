@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def sort_list(lst):
+        return sorted(lst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
