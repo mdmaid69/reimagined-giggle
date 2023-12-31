@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def is_odd(n):
+        return n % 2 != 0
