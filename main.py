@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_bool(array):
+        return bool(array)
