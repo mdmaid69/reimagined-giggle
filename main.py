@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_user_string():
+        return collections.UserString()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
