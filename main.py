@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  def is_odd(n):
+        return n % 2 != 0
