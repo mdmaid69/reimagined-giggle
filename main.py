@@ -1,6 +1,5 @@
+def sort_list(lst):
+        return sorted(lst)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
