@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
