@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
