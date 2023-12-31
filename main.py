@@ -1,6 +1,8 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
