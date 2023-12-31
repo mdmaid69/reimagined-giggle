@@ -1,4 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
