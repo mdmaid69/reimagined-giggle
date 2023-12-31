@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
