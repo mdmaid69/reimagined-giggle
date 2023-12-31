@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def reverse_string(s):
-        return s[::-1]
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def add_numbers(x, y):
+        return x + y
