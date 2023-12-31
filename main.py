@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_acceleration(speed, time):
+        return speed / time
