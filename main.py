@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def is_palindrome(s):
+        return s == s[::-1]
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_length(array):
+        return len(array)
