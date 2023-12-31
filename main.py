@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def find_union(list1, list2):
+        return set(list1) | set(list2)
