@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
