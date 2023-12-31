@@ -1,5 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-for i in range(5):
-        print(i)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
