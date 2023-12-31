@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
