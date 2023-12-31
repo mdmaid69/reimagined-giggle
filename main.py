@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
