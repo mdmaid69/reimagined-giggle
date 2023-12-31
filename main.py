@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
