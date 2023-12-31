@@ -1,3 +1,8 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-print("Hello, world!")
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
