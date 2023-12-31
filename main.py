@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
