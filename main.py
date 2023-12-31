@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def greet(name):
+        print(f"Hello, {name}!")
