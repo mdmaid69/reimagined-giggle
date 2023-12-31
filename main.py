@@ -1,6 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
