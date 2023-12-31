@@ -1,7 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import collections
+def create_user_list():
+        return collections.UserList()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
