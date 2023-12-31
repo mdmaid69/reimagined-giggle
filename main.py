@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
