@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def remove_duplicates(lst):
+        return list(set(lst))
