@@ -1,6 +1,5 @@
-def cube_number(x):
-        return x**3
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
