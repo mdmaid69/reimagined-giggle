@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
