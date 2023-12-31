@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
