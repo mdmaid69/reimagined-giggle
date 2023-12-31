@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
