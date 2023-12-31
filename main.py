@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
