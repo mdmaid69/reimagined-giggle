@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
