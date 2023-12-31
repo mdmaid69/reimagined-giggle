@@ -1,8 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import time
+def get_current_time():
+        return time.ctime()
+  def add_numbers(x, y):
+        return x + y
