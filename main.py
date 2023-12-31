@@ -1,5 +1,4 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+from collections import Counter
+print(Counter("hello world"))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
