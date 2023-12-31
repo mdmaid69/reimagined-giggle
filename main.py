@@ -1,5 +1,7 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def find_min(numbers):
-        return min(numbers)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
