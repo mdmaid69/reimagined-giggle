@@ -1,5 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
