@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
