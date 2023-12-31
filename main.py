@@ -1,5 +1,6 @@
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def divide_numbers(x, y):
-        return x / y
+def calculate_arc_cosine(x):
+        return math.acos(x)
