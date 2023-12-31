@@ -1,7 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
