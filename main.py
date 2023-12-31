@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
