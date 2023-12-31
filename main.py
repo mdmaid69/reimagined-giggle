@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
