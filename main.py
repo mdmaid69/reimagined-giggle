@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
