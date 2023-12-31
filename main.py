@@ -1,7 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
