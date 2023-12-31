@@ -1,6 +1,8 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
