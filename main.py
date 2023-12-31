@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_string_from_array(array):
+        return array.tobytes()
