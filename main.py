@@ -1,6 +1,3 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+print([x**2 for x in range(10)])
