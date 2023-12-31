@@ -1,6 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
