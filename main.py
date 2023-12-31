@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
