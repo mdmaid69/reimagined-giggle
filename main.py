@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import json
+print(json.dumps({"name": "John", "age": 30}))
