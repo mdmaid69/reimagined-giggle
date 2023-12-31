@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_power(work, time):
-        return work / time
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_as_float(array):
+        return float(array[0])
