@@ -1,4 +1,5 @@
-print("Hello, world!")
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
