@@ -1,6 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
