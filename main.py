@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
