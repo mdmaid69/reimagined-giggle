@@ -1,5 +1,7 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import platform
+def get_os_info():
+        return platform.uname()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
