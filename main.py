@@ -1,4 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import time
+print(time.time())
+import json
+print(json.dumps({"name": "John", "age": 30}))
