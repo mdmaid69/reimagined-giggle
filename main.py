@@ -1,5 +1,7 @@
+def calculate_work(force, distance):
+        return force * distance
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def convert_to_hex(n):
-        return hex(n)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
