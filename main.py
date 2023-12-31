@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_density(mass, volume):
-        return mass / volume
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
