@@ -1,6 +1,6 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
