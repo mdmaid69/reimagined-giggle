@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import array
-def get_array_item(array, i):
-        return array[i]
+def pop_from_array(array, i=-1):
+        return array.pop(i)
