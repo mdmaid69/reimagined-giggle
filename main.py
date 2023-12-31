@@ -1,8 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
