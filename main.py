@@ -1,5 +1,9 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
