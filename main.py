@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
