@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def square_number(x):
+        return x**2
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
