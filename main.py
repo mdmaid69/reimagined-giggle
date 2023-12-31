@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_int(array):
+        return int(array[0])
