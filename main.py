@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import datetime
+print(datetime.datetime.now())
+import time
+def get_time_since_epoch():
+        return time.time()
