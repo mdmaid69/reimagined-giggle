@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def find_max(numbers):
-        return max(numbers)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
