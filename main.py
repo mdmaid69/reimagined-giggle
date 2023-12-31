@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
