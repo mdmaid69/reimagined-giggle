@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_volume(length, width, height):
+        return length * width * height
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
