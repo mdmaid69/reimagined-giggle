@@ -1,6 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
