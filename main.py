@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import random
-print(random.randint(0, 100))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
