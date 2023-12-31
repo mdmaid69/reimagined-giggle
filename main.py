@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
