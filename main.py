@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_set(array):
+        return set(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
