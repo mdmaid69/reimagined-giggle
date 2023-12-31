@@ -1,6 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_floor(x):
+        return math.floor(x)
