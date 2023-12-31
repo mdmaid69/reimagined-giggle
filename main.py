@@ -1,4 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-import os
-print(os.getcwd())
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
