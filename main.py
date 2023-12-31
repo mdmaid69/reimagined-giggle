@@ -1,4 +1,8 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def find_max(lst):
-        return max(lst)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import os
+def remove_directory(path):
+        os.rmdir(path)
