@@ -1,6 +1,8 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
