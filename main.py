@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
