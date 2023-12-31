@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
