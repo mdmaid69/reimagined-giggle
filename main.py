@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def add_numbers(x, y):
+        return x + y
+  def sort_list(lst):
+        return sorted(lst)
