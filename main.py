@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def reverse_array(array):
+        array.reverse()
