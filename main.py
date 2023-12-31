@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def cube_number(x):
+        return x**3
