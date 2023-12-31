@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
