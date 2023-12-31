@@ -1,5 +1,6 @@
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
