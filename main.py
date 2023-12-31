@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
