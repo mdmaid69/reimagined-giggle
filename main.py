@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import platform
-def get_python_version():
-        return platform.python_version()
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_index(array, item):
+        return array.index(item)
