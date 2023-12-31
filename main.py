@@ -1,8 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
