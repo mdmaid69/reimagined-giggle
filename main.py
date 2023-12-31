@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import datetime
+def get_current_date():
+        return datetime.date.today()
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
