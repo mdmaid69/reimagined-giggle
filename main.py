@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def is_palindrome(s):
+        return s == s[::-1]
