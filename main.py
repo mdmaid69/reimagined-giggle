@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
