@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
