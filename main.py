@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+print([x**2 for x in range(10)])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
