@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def reverse_list(lst):
+        return lst[::-1]
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
