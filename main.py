@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import platform
+def get_os_info():
+        return platform.uname()
+def subtract_numbers(x, y):
+        return x - y
