@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
