@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_work(force, distance):
-        return force * distance
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
