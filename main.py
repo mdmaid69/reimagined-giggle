@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def find_min(lst):
+        return min(lst)
