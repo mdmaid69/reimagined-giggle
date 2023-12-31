@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
