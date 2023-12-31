@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def convert_to_binary(n):
-        return bin(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
