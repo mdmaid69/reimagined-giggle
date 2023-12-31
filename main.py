@@ -1,5 +1,3 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+for i in range(10): print(i)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
