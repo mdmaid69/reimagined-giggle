@@ -1,5 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_work(force, distance):
+        return force * distance
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
