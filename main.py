@@ -1,5 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
