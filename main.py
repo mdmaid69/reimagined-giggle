@@ -1,7 +1,7 @@
-  def count_elements(lst):
-        return len(lst)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
