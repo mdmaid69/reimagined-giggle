@@ -1,7 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
 import array
-def reverse_array(array):
-        array.reverse()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
