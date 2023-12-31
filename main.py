@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
