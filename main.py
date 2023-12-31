@@ -1,5 +1,12 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
