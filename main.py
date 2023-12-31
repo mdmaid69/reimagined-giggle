@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-name = "Python"
-print("Hello,", name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
