@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
