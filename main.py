@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
