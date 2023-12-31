@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def multiply_numbers(x, y):
-        return x * y
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
