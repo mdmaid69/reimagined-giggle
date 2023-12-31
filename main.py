@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def get_array_typecode(array):
+        return array.typecode
