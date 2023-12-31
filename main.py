@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
