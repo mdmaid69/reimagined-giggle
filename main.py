@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
