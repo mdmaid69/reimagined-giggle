@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
