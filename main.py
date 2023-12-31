@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
