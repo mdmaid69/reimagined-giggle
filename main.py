@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
