@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
