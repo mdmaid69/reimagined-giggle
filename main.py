@@ -1,5 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_density(mass, volume):
-        return mass / volume
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
