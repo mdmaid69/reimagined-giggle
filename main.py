@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+name = "Python"
+print("Hello,", name)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
