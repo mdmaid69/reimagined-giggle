@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-from collections import Counter
-print(Counter("hello world"))
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
