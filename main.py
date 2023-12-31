@@ -1,5 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
