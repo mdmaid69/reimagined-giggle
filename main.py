@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import sys
+def exit_program():
+        sys.exit()
