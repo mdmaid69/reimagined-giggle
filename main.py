@@ -1,6 +1,9 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
