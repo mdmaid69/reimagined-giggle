@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
