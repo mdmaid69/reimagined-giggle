@@ -1,7 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def get_array_item(array, i):
+        return array[i]
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
