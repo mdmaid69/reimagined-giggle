@@ -1,6 +1,5 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def add_numbers(x, y):
+        return x + y
