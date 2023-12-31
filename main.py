@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def convert_to_hex(n):
+        return hex(n)
