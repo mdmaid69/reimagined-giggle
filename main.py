@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
