@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
