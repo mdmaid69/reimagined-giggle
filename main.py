@@ -1,5 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
