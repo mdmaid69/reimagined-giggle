@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
