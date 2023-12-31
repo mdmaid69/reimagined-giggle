@@ -1,7 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def remove_duplicates(lst):
+        return list(set(lst))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
