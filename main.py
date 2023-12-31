@@ -1,4 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def subtract_numbers(x, y):
+        return x - y
+def is_odd(n):
+        return n % 2 != 0
