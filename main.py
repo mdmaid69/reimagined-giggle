@@ -1,8 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def convert_to_octal(n):
+        return oct(n)
