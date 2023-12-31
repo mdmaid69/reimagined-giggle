@@ -1,6 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_cosine(x):
+        return math.cos(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
