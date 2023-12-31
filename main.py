@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def convert_to_binary(n):
-        return bin(n)
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
