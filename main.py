@@ -1,6 +1,7 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
