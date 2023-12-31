@@ -1,6 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+print(math.pi)
