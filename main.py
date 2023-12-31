@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
