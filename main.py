@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
