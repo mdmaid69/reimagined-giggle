@@ -1,6 +1,6 @@
 import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
