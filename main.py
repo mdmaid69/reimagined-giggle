@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
