@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import sys
+  def get_python_version():
+        return sys.version
