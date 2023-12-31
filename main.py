@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
