@@ -1,7 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
