@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
