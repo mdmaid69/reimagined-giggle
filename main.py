@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_str(array):
+        return str(array)
