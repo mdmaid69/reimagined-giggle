@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
