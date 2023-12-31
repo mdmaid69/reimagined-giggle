@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
