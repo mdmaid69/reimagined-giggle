@@ -1,3 +1,4 @@
-print("Hello, world!")
-  def sort_list(lst):
-        return sorted(lst)
+text = "Hello, world!"
+print("Characters:", len(text))
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
