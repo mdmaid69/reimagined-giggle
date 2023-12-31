@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_sine(x):
+        return math.sin(x)
+def sort_list(lst):
+        return sorted(lst)
