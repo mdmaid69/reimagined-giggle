@@ -1,4 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-print([x**2 for x in range(10)])
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
