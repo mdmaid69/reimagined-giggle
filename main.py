@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def add_numbers(x, y):
-        return x + y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import os
+def change_working_directory(path):
+        os.chdir(path)
