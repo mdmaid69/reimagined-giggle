@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_work(force, distance):
+        return force * distance
+def subtract_numbers(x, y):
+        return x - y
