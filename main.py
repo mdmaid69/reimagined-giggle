@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
+import getpass
+def get_username():
+        return getpass.getuser()
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
