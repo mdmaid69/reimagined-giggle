@@ -1,5 +1,6 @@
+import array
+def get_array_item(array, i):
+        return array[i]
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import datetime
-print(datetime.datetime.now())
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
