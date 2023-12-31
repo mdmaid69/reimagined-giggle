@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
