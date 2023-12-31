@@ -1,8 +1,4 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import sys
-print(sys.version)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
