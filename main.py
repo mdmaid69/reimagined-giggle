@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_density(mass, volume):
+        return mass / volume
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
