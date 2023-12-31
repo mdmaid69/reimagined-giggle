@@ -1,5 +1,7 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
