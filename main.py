@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
