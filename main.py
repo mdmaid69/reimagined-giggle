@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
