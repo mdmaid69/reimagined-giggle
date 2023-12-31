@@ -1,5 +1,7 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import math
+print(math.pi)
