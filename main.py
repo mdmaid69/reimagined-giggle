@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_current_directory():
+        return os.getcwd()
