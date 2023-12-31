@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
