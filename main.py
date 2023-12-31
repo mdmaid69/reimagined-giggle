@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def cube_number(x):
+        return x**3
