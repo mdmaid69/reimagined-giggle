@@ -1,4 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def divide_numbers(x, y):
-        return x / y
+print("Hello, world!")
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
