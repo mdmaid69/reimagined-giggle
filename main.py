@@ -1,11 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
