@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_pressure(force, area):
+        return force / area
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def append_to_array(array, item):
+        array.append(item)
