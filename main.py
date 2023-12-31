@@ -1,6 +1,8 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
