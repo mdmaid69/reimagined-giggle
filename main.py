@@ -1,5 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
