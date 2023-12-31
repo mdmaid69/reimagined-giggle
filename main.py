@@ -1,4 +1,6 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
