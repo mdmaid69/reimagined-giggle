@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_power(work, time):
-        return work / time
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
