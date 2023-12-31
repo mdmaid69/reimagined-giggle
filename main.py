@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
