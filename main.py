@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
