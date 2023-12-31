@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_list_from_array(array):
+        return array.tolist()
