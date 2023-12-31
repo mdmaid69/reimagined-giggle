@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
