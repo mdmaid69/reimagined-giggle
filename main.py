@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_array_as_list(array):
+        return list(array)
+  def add_numbers(x, y):
+        return x + y
