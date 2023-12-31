@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
