@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+name = "Python"
+print("Hello,", name)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
