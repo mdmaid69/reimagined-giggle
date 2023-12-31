@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
