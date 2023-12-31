@@ -1,5 +1,13 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
