@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def add_numbers(a, b):
+        return a + b
+import time
+def get_current_time():
+        return time.ctime()
