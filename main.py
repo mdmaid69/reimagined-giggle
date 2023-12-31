@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
