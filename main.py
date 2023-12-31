@@ -1,3 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-print(sum(range(10)))
+import time
+print(time.time())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
