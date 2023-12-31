@@ -1,7 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def square_number(x):
+        return x**2
+import re
+print(re.match("h.*o", "hello world"))
