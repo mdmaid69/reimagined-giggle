@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
