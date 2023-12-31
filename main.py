@@ -1,5 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def cube_number(x):
-        return x**3
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
