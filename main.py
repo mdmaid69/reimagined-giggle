@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def remove_duplicates(lst):
+        return list(set(lst))
