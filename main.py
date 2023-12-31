@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
