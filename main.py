@@ -1,6 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
