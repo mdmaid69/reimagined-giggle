@@ -1,8 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
