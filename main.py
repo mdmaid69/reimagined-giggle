@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def get_array_item(array, i):
+        return array[i]
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
