@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
