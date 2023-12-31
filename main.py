@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def cube_number(x):
+        return x**3
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
