@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def reverse_list(lst):
+        return lst[::-1]
