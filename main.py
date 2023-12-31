@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
