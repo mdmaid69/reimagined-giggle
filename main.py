@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_min(lst):
+        return min(lst)
