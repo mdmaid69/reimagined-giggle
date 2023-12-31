@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import collections
+def create_priority_queue():
+        return collections.deque()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
