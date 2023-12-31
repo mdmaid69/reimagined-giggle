@@ -1,5 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
