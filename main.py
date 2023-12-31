@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
