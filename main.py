@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
