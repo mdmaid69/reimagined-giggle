@@ -1,5 +1,7 @@
-import random
-print(random.randint(0, 100))
 import array
-def get_array_item(array, i):
-        return array[i]
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_force(mass, acceleration):
+        return mass * acceleration
