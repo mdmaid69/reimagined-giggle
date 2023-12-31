@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def cube_number(x):
+        return x**3
+def count_characters(sentence):
+        return len(sentence)
