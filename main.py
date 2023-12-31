@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
