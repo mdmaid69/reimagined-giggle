@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import os
-print(os.getcwd())
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import random
+def roll_die():
+        return random.randint(1, 6)
