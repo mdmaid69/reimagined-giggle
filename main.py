@@ -1,6 +1,3 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def greet(name):
+        print(f"Hello, {name}!")
+for i in range(10): print(i)
