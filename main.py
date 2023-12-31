@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
