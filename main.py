@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import os
+def change_working_directory(path):
+        os.chdir(path)
