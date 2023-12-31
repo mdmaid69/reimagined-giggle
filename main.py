@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
