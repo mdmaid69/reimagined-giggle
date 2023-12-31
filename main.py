@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def reverse_array(array):
+        array.reverse()
