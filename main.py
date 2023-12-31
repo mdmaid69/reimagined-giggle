@@ -1,5 +1,5 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_density(mass, volume):
+        return mass / volume
