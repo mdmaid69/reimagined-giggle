@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def get_array_as_bool(array):
+        return bool(array)
