@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def reverse_array(array):
+        array.reverse()
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def split_path(path):
+        return os.path.split(path)
