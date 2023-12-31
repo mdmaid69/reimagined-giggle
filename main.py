@@ -1,12 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_force(mass, acceleration):
+        return mass * acceleration
