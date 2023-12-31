@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
