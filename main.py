@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
