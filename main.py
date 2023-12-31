@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def add_numbers(x, y):
+        return x + y
