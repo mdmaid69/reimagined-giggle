@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_stack():
+        return collections.deque()
