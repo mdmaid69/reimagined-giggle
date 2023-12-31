@@ -1,5 +1,9 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
