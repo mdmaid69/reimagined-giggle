@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def square_number(x):
+        return x**2
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
