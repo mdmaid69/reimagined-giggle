@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
