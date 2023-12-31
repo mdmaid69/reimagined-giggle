@@ -1,6 +1,8 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
