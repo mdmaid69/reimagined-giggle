@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
