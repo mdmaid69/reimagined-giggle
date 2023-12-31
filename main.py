@@ -1,6 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+print([x**2 for x in range(10)])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
