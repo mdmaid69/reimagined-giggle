@@ -1,6 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
