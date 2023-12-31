@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def remove_duplicates(lst):
+        return list(set(lst))
