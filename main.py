@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def cube_number(x):
+        return x**3
