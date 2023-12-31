@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
