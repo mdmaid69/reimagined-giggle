@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
