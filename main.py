@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
