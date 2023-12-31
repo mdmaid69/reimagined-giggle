@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def remove_duplicates(lst):
+        return list(set(lst))
