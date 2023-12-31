@@ -1,6 +1,6 @@
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
