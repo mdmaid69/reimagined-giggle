@@ -1,5 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
 import array
-def get_array_as_float(array):
-        return float(array[0])
-def greet(name):
-        print(f"Hello, {name}!")
+def get_string_from_array(array):
+        return array.tobytes()
