@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
