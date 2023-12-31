@@ -1,6 +1,3 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+print(sum(range(10)))
+for i in range(5):
+        print(i)
