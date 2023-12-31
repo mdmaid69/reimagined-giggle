@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
