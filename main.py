@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def square_number(x):
+        return x**2
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
