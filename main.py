@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def multiply_numbers(x, y):
+        return x * y
