@@ -1,7 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
