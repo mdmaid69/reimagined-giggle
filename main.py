@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import time
-def get_current_time():
-        return time.time()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
