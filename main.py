@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-from collections import Counter
-print(Counter("hello world"))
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
