@@ -1,7 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
