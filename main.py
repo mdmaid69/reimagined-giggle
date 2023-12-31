@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
