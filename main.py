@@ -1,6 +1,4 @@
+print(sum(range(10)))
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
