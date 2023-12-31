@@ -1,7 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import platform
+def get_os_info():
+        return platform.uname()
+import time
+print(time.time())
