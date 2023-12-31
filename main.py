@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
