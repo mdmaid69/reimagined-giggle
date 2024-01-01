@@ -1,5 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def calculate_area_rectangle(l, w):
+        return l * w
