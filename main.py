@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
