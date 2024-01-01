@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import sys
+def exit_program():
+        sys.exit()
