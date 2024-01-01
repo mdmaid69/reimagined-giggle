@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
