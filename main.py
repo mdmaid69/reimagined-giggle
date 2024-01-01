@@ -1,6 +1,6 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
