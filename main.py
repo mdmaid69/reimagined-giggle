@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
