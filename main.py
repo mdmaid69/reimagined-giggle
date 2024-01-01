@@ -1,8 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
