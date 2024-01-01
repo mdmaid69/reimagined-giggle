@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
