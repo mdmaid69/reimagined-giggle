@@ -1,4 +1,10 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
