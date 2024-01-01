@@ -1,11 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
