@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
