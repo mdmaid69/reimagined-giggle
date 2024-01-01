@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
