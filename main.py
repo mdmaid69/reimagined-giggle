@@ -1,5 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_force(mass, acceleration):
+        return mass * acceleration
