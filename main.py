@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_index(array, item):
+        return array.index(item)
+print("Hello, world!")
