@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
