@@ -1,5 +1,4 @@
 def count_characters(sentence):
         return len(sentence)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
