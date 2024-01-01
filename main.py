@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def find_unique_words(sentence):
+        return set(sentence.split())
