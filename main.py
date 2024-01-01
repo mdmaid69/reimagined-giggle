@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def is_odd(n):
+        return n % 2 != 0
