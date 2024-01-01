@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  def calculate_area_rectangle(l, w):
+        return l * w
