@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
