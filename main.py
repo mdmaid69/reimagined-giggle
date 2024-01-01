@@ -1,7 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
