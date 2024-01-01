@@ -1,5 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_speed(distance, time):
+        return distance / time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
