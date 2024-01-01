@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
