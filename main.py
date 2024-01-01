@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
