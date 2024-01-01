@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def add_numbers(a, b):
-        return a + b
+  def count_elements(lst):
+        return len(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
