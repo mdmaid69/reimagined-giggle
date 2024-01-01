@@ -1,6 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
