@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def add_numbers(a, b):
+        return a + b
+x = 10
+y = 20
+print("Sum:", x + y)
