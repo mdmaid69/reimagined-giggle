@@ -1,6 +1,12 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
