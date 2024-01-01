@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
