@@ -1,8 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
