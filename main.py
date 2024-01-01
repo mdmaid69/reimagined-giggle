@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def reverse_array(array):
-        array.reverse()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
