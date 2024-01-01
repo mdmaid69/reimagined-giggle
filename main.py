@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
