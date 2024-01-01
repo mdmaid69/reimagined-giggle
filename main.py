@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import sys
-print(sys.version)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
