@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
