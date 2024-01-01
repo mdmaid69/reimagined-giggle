@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import numpy as np
-print(np.array([1, 2, 3]))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  def convert_to_binary(n):
+        return bin(n)
