@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
