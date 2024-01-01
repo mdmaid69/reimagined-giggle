@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import time
-print(time.time())
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+for i in range(5):
+        print(i)
