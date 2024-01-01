@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+from collections import Counter
+print(Counter("hello world"))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
