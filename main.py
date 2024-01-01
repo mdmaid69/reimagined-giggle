@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def find_unique_words(sentence):
+        return set(sentence.split())
