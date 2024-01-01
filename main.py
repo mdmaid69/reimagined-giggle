@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_density(mass, volume):
-        return mass / volume
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def sort_list(lst):
+        return sorted(lst)
