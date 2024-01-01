@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import os
+def get_current_working_directory():
+        return os.getcwd()
