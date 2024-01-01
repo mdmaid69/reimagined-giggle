@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import random
+print(random.randint(0, 100))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
