@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def convert_to_binary(n):
+        return bin(n)
