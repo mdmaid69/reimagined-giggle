@@ -1,6 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def convert_array_to_list(array):
+        return array.tolist()
