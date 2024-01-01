@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
