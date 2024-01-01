@@ -1,5 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def convert_to_octal(n):
-        return oct(n)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import collections
+def create_user_list():
+        return collections.UserList()
