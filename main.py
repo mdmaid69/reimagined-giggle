@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
