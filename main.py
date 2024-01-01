@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_density(mass, volume):
-        return mass / volume
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
