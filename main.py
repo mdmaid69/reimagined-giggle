@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
