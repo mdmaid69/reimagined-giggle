@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_power(work, time):
+        return work / time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
