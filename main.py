@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
