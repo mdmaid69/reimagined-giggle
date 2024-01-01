@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
