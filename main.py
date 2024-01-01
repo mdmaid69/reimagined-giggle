@@ -1,6 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
