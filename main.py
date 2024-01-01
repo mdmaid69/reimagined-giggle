@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+name = "Python"
+print("Hello,", name)
