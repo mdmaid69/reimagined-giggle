@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
