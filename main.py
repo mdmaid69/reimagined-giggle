@@ -1,5 +1,5 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-name = "Python"
-print("Hello,", name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_power(work, time):
+        return work / time
