@@ -1,7 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
