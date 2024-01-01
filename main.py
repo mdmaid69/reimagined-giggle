@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
