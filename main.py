@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
