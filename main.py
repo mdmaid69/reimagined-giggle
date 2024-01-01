@@ -1,6 +1,7 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
