@@ -1,8 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
