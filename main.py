@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+print([x**2 for x in range(10)])
