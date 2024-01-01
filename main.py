@@ -1,8 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def square_number(x):
+        return x**2
