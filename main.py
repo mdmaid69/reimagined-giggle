@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
