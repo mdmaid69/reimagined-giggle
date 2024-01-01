@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
