@@ -1,5 +1,8 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
