@@ -1,6 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+print("Hello, world!")
+import array
+def get_array_item(array, i):
+        return array[i]
