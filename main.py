@@ -1,6 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_exponential(x):
+        return math.exp(x)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
