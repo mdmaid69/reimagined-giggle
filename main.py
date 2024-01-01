@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import sys
+  def get_python_version():
+        return sys.version
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
