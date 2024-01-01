@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
