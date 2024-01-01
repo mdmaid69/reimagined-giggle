@@ -1,5 +1,10 @@
   import os
-  def get_current_directory():
+  def get_current_working_directory():
         return os.getcwd()
-def sort_list(lst):
-        return sorted(lst)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
