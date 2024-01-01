@@ -1,5 +1,6 @@
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def square_number(x):
-        return x**2
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
