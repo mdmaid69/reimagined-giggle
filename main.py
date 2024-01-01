@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def is_odd(n):
+        return n % 2 != 0
