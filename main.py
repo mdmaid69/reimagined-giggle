@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
