@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  def subtract_numbers(x, y):
+        return x - y
