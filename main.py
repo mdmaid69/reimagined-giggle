@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def clear_array(array):
+        array *= 0
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
