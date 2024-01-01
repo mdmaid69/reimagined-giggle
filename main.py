@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def remove_duplicates(lst):
-        return list(set(lst))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
