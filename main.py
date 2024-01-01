@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import collections
+def create_stack():
+        return collections.deque()
+  def reverse_list(lst):
+        return lst[::-1]
