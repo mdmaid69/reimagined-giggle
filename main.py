@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def split_path(path):
+        return os.path.split(path)
