@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-from collections import Counter
-print(Counter("hello world"))
+def find_min(lst):
+        return min(lst)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
