@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
