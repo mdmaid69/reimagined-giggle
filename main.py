@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_power(work, time):
+        return work / time
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
