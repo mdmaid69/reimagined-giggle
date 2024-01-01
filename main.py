@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import os
+print(os.getcwd())
