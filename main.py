@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def reverse_string(s):
-        return s[::-1]
+def find_min(lst):
+        return min(lst)
+from collections import Counter
+print(Counter("hello world"))
