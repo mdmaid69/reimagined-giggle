@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
