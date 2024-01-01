@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
