@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_power(work, time):
-        return work / time
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
