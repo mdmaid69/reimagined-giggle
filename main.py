@@ -1,6 +1,8 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
