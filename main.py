@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
