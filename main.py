@@ -1,5 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_typecode(array):
+        return array.typecode
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
