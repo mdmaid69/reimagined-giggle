@@ -1,5 +1,4 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def calculate_speed(distance, time):
-        return distance / time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
