@@ -1,5 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def get_array_as_complex(array):
+        return complex(array[0])
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
