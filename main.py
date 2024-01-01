@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_length(array):
+        return len(array)
