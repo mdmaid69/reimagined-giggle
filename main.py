@@ -1,5 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
