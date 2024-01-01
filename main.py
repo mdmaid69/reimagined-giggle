@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
