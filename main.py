@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
