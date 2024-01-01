@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import sys
+def print_python_version():
+        print(sys.version)
+import numpy as np
+print(np.array([1, 2, 3]))
