@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
