@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
