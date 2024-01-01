@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  def calculate_area_rectangle(l, w):
+        return l * w
