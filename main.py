@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
