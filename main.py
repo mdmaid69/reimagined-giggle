@@ -1,7 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
