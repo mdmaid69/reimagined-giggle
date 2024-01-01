@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def convert_to_octal(n):
+        return oct(n)
