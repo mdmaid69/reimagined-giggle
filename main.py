@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def add_numbers(a, b):
-        return a + b
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
