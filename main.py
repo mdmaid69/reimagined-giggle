@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def add_numbers(x, y):
+        return x + y
