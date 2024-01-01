@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
