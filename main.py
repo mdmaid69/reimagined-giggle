@@ -1,7 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
