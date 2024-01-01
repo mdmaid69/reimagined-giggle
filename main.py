@@ -1,8 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def square_number(x):
+        return x**2
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
