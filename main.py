@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
