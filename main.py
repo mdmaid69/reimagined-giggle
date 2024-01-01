@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
