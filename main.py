@@ -1,9 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
