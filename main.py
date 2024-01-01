@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
