@@ -1,6 +1,4 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
