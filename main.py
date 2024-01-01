@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def reverse_array(array):
+        array.reverse()
