@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_exponential(x):
+        return math.exp(x)
