@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import datetime
+def get_current_date():
+        return datetime.date.today()
