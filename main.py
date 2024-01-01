@@ -1,8 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
