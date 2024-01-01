@@ -1,4 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
