@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
