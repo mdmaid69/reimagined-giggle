@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import sys
+def exit_program():
+        sys.exit()
