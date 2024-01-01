@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
