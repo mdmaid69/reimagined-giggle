@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
+def divide_numbers(x, y):
+        return x / y
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
