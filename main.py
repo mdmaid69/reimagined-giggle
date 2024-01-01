@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
