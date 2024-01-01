@@ -1,6 +1,8 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import time
+def get_current_time():
+        return time.time()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
