@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import sys
-  def get_python_version():
-        return sys.version
+def find_max(numbers):
+        return max(numbers)
+import datetime
+def get_current_date():
+        return datetime.date.today()
