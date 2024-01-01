@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_work(force, distance):
+        return force * distance
