@@ -1,5 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
