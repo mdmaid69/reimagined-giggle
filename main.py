@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+for i in range(10): print(i)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
