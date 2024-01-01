@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  def convert_to_hex(n):
+        return hex(n)
