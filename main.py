@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-for i in range(5):
-        print(i)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
