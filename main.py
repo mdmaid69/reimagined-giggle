@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
