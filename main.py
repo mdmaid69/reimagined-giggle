@@ -1,8 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def count_characters(sentence):
+        return len(sentence)
