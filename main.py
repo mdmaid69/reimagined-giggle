@@ -1,5 +1,9 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import tensorflow as tf
-print(tf.__version__)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
