@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
