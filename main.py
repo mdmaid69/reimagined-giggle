@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_density(mass, volume):
+        return mass / volume
