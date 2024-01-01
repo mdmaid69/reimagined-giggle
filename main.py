@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
