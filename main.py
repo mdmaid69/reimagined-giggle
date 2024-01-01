@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def is_even(n):
+        return n % 2 == 0
+import datetime
+def get_today_date():
+        return datetime.date.today()
