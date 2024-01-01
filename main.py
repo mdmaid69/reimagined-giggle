@@ -1,6 +1,9 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_as_frozenset(array):
+        return frozenset(array)
