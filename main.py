@@ -1,6 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
