@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def add_numbers(x, y):
-        return x + y
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
