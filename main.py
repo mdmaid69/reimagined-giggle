@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def find_min(numbers):
+        return min(numbers)
