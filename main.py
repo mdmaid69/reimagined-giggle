@@ -1,7 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+for i in range(10): print(i)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
