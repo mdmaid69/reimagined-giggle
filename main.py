@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
