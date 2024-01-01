@@ -1,5 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-def reverse_list(lst):
-        return lst[::-1]
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
