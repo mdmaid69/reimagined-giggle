@@ -1,5 +1,7 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
