@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
