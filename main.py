@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def cube_number(x):
+        return x**3
