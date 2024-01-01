@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
