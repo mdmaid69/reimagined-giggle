@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def square_number(x):
+        return x**2
