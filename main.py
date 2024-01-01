@@ -1,5 +1,8 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
