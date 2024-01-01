@@ -1,6 +1,9 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
