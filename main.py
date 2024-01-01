@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import getpass
+def get_username():
+        return getpass.getuser()
+  def cube_number(x):
+        return x**3
