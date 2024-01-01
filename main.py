@@ -1,8 +1,5 @@
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
