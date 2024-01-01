@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
