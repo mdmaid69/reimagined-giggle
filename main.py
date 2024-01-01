@@ -1,5 +1,9 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
