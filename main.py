@@ -1,8 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
 import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
