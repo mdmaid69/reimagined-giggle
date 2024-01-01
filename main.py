@@ -1,5 +1,6 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def sort_list(lst):
-        return sorted(lst)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
