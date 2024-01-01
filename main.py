@@ -1,5 +1,7 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-def reverse_list(lst):
-        return lst[::-1]
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
