@@ -1,5 +1,7 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
