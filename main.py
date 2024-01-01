@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
