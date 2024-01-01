@@ -1,5 +1,7 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
