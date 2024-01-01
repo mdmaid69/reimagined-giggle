@@ -1,7 +1,10 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
+def get_array_from_string(string, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromstring(string)
         return a
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
