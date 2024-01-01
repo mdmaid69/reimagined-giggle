@@ -1,4 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
