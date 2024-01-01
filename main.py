@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_acceleration(speed, time):
+        return speed / time
