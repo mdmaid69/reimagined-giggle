@@ -1,9 +1,10 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
