@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_density(mass, volume):
+        return mass / volume
