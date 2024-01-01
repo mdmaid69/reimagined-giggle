@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def multiply_numbers(x, y):
-        return x * y
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def set_array_item(array, i, item):
+        array[i] = item
