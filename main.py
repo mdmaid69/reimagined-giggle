@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import logging
+def log_message(message):
+        logging.info(message)
