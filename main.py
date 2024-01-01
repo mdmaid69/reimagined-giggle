@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_density(mass, volume):
-        return mass / volume
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def clear_array(array):
+        array *= 0
