@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+for i in range(5):
+        print(i)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
