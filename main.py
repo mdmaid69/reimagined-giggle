@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
