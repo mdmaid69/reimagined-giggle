@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def convert_to_octal(n):
-        return oct(n)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
