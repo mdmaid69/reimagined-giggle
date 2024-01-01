@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
