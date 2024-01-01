@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  def calculate_area_rectangle(l, w):
-        return l * w
+import logging
+def log_message(message):
+        logging.info(message)
+  def subtract_numbers(x, y):
+        return x - y
