@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import sys
+  def get_python_version():
+        return sys.version
