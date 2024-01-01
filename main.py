@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def is_palindrome(s):
+        return s == s[::-1]
