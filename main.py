@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import collections
+def create_user_dict():
+        return collections.UserDict()
