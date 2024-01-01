@@ -1,8 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_work(force, distance):
+        return force * distance
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
