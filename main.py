@@ -1,6 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_complex(array):
+        return complex(array[0])
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
