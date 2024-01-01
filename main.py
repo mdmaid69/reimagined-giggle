@@ -1,4 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def reverse_list(lst):
+        return lst[::-1]
