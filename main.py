@@ -1,5 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+name = "Python"
+print("Hello,", name)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
