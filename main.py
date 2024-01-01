@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
