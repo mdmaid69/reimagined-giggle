@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import sys
-def print_python_version():
-        return sys.version
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
