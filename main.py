@@ -1,5 +1,6 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
