@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import logging
-def log_message(message):
-        logging.info(message)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def remove_duplicates(lst):
+        return list(set(lst))
