@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
