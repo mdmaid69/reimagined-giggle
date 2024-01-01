@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
