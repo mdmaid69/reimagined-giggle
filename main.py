@@ -1,9 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
