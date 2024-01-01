@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
