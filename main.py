@@ -1,10 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
