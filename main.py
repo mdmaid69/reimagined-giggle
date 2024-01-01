@@ -1,6 +1,8 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
