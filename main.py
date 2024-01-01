@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
