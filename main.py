@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
