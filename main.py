@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
