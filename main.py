@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
