@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import os
+def change_working_directory(path):
+        os.chdir(path)
