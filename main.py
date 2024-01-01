@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import re
+print(re.match("h.*o", "hello world"))
