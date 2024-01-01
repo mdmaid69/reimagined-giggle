@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
