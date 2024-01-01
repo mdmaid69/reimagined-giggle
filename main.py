@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def remove_duplicates(lst):
+        return list(set(lst))
