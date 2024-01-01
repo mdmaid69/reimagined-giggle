@@ -1,5 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
