@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
