@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
