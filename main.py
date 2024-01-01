@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def count_elements(lst):
-        return len(lst)
+  def square_number(x):
+        return x**2
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
