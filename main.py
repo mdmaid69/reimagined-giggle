@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
