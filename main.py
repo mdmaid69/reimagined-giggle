@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_work(force, distance):
+        return force * distance
