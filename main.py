@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
