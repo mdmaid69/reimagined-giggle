@@ -1,5 +1,8 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
