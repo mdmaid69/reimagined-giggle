@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_density(mass, volume):
+        return mass / volume
+import sys
+def print_python_version():
+        return sys.version
