@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
