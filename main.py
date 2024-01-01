@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
