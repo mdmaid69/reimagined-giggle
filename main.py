@@ -1,5 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
