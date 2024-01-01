@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
