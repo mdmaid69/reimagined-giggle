@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import collections
-def create_stack():
-        return collections.deque()
+def convert_to_hex(n):
+        return hex(n)
+import random
+print(random.randint(0, 100))
