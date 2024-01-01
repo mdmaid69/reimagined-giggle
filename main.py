@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def count_elements(lst):
+        return len(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
