@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def reverse_array(array):
-        array.reverse()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
