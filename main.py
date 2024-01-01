@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def add_numbers(a, b):
+        return a + b
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
