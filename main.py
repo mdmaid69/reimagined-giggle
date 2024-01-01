@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def cube_number(x):
-        return x**3
+import array
+def reverse_array(array):
+        array.reverse()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
