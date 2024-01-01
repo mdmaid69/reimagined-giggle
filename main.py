@@ -1,6 +1,6 @@
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
