@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
