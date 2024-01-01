@@ -1,6 +1,7 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
