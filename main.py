@@ -1,7 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
