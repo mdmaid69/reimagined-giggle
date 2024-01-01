@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
