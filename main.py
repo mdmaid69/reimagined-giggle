@@ -1,8 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
