@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
