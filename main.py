@@ -1,5 +1,7 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
