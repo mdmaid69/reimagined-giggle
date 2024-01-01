@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
