@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import collections
+def create_counter():
+        return collections.Counter()
