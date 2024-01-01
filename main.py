@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
