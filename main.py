@@ -1,6 +1,10 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
