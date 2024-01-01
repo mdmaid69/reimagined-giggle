@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def count_elements(lst):
+        return len(lst)
