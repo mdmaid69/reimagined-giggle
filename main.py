@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
