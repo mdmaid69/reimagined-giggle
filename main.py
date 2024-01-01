@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
