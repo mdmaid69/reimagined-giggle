@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+for i in range(5):
+        print(i)
