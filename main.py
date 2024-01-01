@@ -1,6 +1,3 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+print([x**2 for x in range(10)])
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
