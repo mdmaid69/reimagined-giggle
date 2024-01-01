@@ -1,8 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
