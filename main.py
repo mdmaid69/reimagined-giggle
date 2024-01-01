@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import numpy as np
-print(np.array([1, 2, 3]))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
