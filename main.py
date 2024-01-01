@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
