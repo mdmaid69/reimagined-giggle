@@ -1,5 +1,8 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-def divide_numbers(x, y):
-        return x / y
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
