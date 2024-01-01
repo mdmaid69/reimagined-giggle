@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import tensorflow as tf
+print(tf.__version__)
+import array
+def append_to_array(array, item):
+        array.append(item)
