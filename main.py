@@ -1,6 +1,5 @@
+import random
+print(random.randint(0, 100))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
