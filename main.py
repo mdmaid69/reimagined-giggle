@@ -1,5 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
