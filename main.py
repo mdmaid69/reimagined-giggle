@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-def add_numbers(x, y):
-        return x + y
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
