@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def find_min(numbers):
-        return min(numbers)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
