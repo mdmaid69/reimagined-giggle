@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+def remove_directory(path):
+        os.rmdir(path)
