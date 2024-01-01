@@ -1,5 +1,7 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
