@@ -1,6 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
