@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
