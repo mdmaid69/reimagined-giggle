@@ -1,4 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-print(sum(range(10)))
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
