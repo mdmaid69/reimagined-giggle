@@ -1,5 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
