@@ -1,5 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def cube_number(x):
-        return x**3
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_force(mass, acceleration):
+        return mass * acceleration
