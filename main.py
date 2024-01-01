@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
