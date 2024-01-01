@@ -1,7 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_as_int(array):
+        return int(array[0])
