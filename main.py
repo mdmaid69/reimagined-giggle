@@ -1,5 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def is_even(n):
-        return n % 2 == 0
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def add_numbers(x, y):
+        return x + y
