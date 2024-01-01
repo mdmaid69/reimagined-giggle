@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
