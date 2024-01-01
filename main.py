@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
