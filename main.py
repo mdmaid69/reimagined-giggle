@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
