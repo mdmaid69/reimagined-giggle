@@ -1,5 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def convert_to_octal(n):
+        return oct(n)
