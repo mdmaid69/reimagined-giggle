@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
