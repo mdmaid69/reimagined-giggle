@@ -1,3 +1,5 @@
-print("Hello, world!")
-def calculate_volume(length, width, height):
-        return length * width * height
+  def is_odd(n):
+        return n % 2 != 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
