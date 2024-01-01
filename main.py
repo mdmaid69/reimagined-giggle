@@ -1,6 +1,7 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
