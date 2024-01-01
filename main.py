@@ -1,5 +1,7 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
