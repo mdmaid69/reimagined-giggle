@@ -1,6 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import platform
-def get_os_info():
-        return platform.uname()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
