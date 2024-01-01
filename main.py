@@ -1,6 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
