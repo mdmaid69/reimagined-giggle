@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
