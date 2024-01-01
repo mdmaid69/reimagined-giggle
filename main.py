@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
