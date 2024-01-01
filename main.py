@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def add_numbers(x, y):
+        return x + y
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
