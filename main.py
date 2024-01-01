@@ -1,5 +1,7 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
