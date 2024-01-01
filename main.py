@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import os
+def get_current_working_directory():
+        return os.getcwd()
