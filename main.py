@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
