@@ -1,5 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import tensorflow as tf
+print(tf.__version__)
