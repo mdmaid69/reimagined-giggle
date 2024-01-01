@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_power(work, time):
+        return work / time
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
