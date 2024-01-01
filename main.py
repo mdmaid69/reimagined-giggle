@@ -1,6 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_pressure(force, area):
+        return force / area
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
