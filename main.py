@@ -1,12 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
