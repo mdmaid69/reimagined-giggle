@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
