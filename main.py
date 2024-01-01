@@ -1,5 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def square_number(x):
+        return x**2
