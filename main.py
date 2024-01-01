@@ -1,7 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
