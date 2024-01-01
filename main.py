@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
