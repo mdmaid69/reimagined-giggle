@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
 import array
-def get_array_item(array, i):
-        return array[i]
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
