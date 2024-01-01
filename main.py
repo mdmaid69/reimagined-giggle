@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
