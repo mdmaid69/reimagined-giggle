@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import sys
+def exit_program():
+        sys.exit()
