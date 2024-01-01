@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import collections
+def create_priority_queue():
+        return collections.deque()
