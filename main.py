@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def reverse_list(lst):
+        return lst[::-1]
