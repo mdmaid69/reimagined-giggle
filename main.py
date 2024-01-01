@@ -1,6 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
