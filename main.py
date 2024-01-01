@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def is_odd(n):
+        return n % 2 != 0
