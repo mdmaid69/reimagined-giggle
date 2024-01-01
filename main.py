@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
