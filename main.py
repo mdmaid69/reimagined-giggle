@@ -1,5 +1,7 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
