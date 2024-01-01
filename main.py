@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
 import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def move_file(src, dst):
+        shutil.move(src, dst)
