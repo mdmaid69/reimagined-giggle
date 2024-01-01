@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
