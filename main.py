@@ -1,6 +1,5 @@
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
