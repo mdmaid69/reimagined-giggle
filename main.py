@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
