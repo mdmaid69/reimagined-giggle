@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
