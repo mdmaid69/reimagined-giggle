@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def find_max(numbers):
+        return max(numbers)
+def calculate_acceleration(speed, time):
+        return speed / time
