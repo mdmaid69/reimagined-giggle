@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
