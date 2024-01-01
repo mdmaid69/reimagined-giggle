@@ -1,6 +1,7 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
