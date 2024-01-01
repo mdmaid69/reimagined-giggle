@@ -1,6 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
