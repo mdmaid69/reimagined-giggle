@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-x = 10
-y = 20
-print("Sum:", x + y)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_as_repr(array):
+        return repr(array)
