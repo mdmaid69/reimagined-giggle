@@ -1,5 +1,6 @@
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
