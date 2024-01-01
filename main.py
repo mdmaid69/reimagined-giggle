@@ -1,6 +1,4 @@
+for i in range(10): print(i)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
