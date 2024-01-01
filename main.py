@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def is_odd(n):
-        return n % 2 != 0
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
