@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
