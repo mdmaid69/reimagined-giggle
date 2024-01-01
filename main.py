@@ -1,8 +1,7 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_error_function(x):
+        return math.erf(x)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
