@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
