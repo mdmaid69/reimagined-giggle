@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_pressure(force, area):
+        return force / area
+def convert_to_hex(n):
+        return hex(n)
