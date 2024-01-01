@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def create_user_string():
+        return collections.UserString()
+import array
+def get_array_length(array):
+        return len(array)
