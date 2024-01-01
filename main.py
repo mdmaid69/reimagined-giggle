@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
