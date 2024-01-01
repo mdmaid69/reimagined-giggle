@@ -1,4 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-def find_min(numbers):
-        return min(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_area_circle(r):
+        return 3.14 * r**2
