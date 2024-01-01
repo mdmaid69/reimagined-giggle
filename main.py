@@ -1,5 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
