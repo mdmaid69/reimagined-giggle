@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_sine(x):
+        return math.sin(x)
+  def cube_number(x):
+        return x**3
