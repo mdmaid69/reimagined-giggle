@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
