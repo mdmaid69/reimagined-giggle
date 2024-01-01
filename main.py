@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def count_words(sentence):
+        return len(sentence.split())
