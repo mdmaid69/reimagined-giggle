@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def is_odd(n):
+        return n % 2 != 0
