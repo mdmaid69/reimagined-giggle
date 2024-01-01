@@ -1,6 +1,8 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import time
+def get_time_since_epoch():
+        return time.time()
