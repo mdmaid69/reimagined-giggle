@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_user_list():
+        return collections.UserList()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
