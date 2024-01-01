@@ -1,6 +1,8 @@
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
 import array
-def clear_array(array):
-        array *= 0
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
