@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
 import array
-def clear_array(array):
-        array *= 0
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
