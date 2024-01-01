@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def sort_list(lst):
+        return sorted(lst)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
