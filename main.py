@@ -1,5 +1,5 @@
-import time
-print(time.time())
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_length(array):
+        return len(array)
