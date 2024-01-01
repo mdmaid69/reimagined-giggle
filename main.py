@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
