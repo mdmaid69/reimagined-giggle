@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+for i in range(10): print(i)
+x = 10
+y = 20
+print("Sum:", x + y)
