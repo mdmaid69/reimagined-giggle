@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
