@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_item(array, i):
-        return array[i]
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
