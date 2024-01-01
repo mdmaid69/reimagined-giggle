@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def get_array_as_set(array):
+        return set(array)
