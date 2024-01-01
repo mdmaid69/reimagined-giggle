@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
