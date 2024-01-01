@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  def reverse_list(lst):
-        return lst[::-1]
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
