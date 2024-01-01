@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def count_words(sentence):
+        return len(sentence.split())
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
