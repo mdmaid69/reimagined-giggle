@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
