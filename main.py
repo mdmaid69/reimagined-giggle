@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import collections
+def create_priority_queue():
+        return collections.deque()
