@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import logging
-def log_message(message):
-        logging.info(message)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
