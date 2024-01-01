@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
