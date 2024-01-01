@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_as_list(array):
+        return list(array)
