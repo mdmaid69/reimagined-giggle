@@ -1,7 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
