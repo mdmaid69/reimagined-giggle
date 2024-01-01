@@ -1,6 +1,7 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
