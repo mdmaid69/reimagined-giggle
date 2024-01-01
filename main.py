@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def add_numbers(x, y):
+        return x + y
