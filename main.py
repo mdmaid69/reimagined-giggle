@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def count_words(sentence):
+        return len(sentence.split())
