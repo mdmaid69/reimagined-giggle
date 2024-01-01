@@ -1,5 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
