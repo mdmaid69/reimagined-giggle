@@ -1,12 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
