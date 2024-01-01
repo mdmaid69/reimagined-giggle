@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
