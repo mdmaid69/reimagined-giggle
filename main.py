@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
