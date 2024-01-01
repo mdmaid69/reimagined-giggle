@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
