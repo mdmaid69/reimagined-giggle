@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def add_numbers(x, y):
+        return x + y
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
