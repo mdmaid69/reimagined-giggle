@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
