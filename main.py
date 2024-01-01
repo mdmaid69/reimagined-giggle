@@ -1,5 +1,7 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import sys
-def exit_program():
-        sys.exit()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
