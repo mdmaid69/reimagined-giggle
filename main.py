@@ -1,6 +1,6 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
