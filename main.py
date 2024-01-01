@@ -1,6 +1,8 @@
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
