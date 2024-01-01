@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
