@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
