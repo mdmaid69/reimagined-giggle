@@ -1,7 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import collections
+def create_user_list():
+        return collections.UserList()
