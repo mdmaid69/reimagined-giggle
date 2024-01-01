@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
