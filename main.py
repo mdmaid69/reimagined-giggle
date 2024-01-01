@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
