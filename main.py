@@ -1,6 +1,4 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def convert_to_octal(n):
+        return oct(n)
