@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def add_numbers(x, y):
+        return x + y
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
