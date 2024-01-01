@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
