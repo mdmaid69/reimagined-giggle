@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def is_odd(n):
+        return n % 2 != 0
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
