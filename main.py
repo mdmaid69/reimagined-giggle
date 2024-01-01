@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import re
+print(re.match("h.*o", "hello world"))
