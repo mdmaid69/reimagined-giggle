@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
