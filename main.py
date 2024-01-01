@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
