@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
