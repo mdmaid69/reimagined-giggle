@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
