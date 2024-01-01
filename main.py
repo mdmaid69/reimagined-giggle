@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
