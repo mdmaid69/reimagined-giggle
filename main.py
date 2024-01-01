@@ -1,5 +1,4 @@
-import sys
-print(sys.version)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+text = "Hello, world!"
+print("Characters:", len(text))
+def find_max(lst):
+        return max(lst)
