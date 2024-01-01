@@ -1,8 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
