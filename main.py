@@ -1,5 +1,10 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def convert_to_hex(n):
-        return hex(n)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
