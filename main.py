@@ -1,4 +1,7 @@
-def cube_number(x):
-        return x**3
-  def convert_to_binary(n):
-        return bin(n)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
