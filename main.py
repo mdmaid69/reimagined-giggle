@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
