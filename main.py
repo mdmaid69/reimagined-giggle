@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
