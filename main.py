@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
