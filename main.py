@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
