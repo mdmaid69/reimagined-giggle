@@ -1,6 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
