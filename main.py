@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
