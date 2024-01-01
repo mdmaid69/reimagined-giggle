@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import time
-def get_current_time():
-        return time.time()
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def is_palindrome(s):
+        return s == s[::-1]
