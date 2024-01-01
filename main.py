@@ -1,5 +1,8 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
