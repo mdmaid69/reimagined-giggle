@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
