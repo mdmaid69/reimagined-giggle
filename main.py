@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_acceleration(speed, time):
+        return speed / time
+import sys
+def print_python_version():
+        return sys.version
