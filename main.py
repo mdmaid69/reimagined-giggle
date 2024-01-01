@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
