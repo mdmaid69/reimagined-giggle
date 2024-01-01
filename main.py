@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def convert_to_binary(n):
+        return bin(n)
