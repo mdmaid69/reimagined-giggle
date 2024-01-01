@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
