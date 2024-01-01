@@ -1,4 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def convert_to_octal(n):
-        return oct(n)
+import random
+print(random.randint(0, 100))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
