@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import time
-def get_time_since_epoch():
-        return time.time()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
