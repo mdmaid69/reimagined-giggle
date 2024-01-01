@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
