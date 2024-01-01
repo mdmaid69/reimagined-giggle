@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
