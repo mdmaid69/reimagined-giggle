@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
