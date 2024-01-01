@@ -1,5 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
