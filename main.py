@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def reverse_string(s):
+        return s[::-1]
