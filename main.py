@@ -1,5 +1,6 @@
+import array
+def append_to_array(array, item):
+        array.append(item)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
