@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def find_min(lst):
+        return min(lst)
