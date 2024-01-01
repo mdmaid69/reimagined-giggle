@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def is_odd(n):
+        return n % 2 != 0
