@@ -1,6 +1,7 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def multiply_numbers(x, y):
+        return x * y
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
