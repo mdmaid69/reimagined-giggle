@@ -1,5 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
