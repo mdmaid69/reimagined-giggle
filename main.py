@@ -1,5 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-from collections import Counter
-print(Counter("hello world"))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def count_words(sentence):
+        return len(sentence.split())
