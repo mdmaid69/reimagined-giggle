@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
