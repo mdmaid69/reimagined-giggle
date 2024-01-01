@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+for i in range(5):
+        print(i)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
