@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def is_odd(n):
+        return n % 2 != 0
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
