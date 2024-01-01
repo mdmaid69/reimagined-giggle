@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import datetime
-print(datetime.datetime.now())
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
