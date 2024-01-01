@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
