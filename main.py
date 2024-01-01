@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
