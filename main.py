@@ -1,12 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import array
+def get_array_as_float(array):
+        return float(array[0])
