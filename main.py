@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def split_path(path):
+        return os.path.split(path)
