@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_item(array, i):
-        return array[i]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
