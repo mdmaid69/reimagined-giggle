@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def sort_list(lst):
+        return sorted(lst)
