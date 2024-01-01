@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
