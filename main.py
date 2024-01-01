@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import numpy as np
+print(np.array([1, 2, 3]))
