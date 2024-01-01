@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
