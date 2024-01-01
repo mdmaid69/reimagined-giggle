@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def find_unique_words(sentence):
-        return set(sentence.split())
+import platform
+def get_os_info():
+        return platform.uname()
+import time
+def get_time_since_epoch():
+        return time.time()
