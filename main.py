@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_memoryview(array):
+        return memoryview(array)
