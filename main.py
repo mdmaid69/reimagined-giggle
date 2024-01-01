@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
