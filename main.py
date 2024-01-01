@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
