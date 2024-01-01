@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def is_odd(n):
-        return n % 2 != 0
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
