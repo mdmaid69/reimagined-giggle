@@ -1,6 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
