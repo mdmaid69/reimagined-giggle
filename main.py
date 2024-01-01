@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_acceleration(speed, time):
+        return speed / time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
