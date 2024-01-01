@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-def is_even(n):
-        return n % 2 == 0
+def multiply_numbers(x, y):
+        return x * y
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
