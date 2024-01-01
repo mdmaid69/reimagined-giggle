@@ -1,5 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+print([x**2 for x in range(10)])
