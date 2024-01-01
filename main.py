@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
