@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
