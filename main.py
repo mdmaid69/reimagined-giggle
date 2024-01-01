@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def square_number(x):
-        return x**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
