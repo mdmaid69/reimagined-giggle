@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
