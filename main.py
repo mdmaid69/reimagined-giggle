@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
