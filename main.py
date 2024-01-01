@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import time
-def get_current_time():
-        return time.ctime()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+from collections import Counter
+print(Counter("hello world"))
