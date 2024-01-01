@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def is_even(n):
-        return n % 2 == 0
+def find_min(lst):
+        return min(lst)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
