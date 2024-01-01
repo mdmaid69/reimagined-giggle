@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_acceleration(speed, time):
+        return speed / time
