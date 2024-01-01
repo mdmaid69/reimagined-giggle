@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
