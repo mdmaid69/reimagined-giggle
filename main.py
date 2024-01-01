@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_typecode(array):
-        return array.typecode
+def find_min(lst):
+        return min(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
