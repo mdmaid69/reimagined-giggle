@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def count_elements(lst):
-        return len(lst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
