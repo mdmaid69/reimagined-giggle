@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import getpass
-def get_username():
-        return getpass.getuser()
+import sys
+def print_python_version():
+        return sys.version
+import tensorflow as tf
+print(tf.__version__)
