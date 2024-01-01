@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def reverse_string(s):
-        return s[::-1]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
