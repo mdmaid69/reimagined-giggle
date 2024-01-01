@@ -1,7 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
