@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  def convert_to_octal(n):
+        return oct(n)
