@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
+def find_max(lst):
+        return max(lst)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
