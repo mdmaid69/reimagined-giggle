@@ -1,6 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def get_array_as_complex(array):
+        return complex(array[0])
