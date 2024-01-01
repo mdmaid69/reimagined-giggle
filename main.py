@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def square_number(x):
-        return x**2
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+text = "Hello, world!"
+print("Characters:", len(text))
