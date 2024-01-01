@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
