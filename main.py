@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
