@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
