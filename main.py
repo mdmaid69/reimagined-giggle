@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def is_even(n):
+        return n % 2 == 0
+def greet(name):
+        print(f"Hello, {name}!")
