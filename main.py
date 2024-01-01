@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_current_directory():
+        return os.getcwd()
