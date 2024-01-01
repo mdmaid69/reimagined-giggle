@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import random
-def roll_die():
-        return random.randint(1, 6)
+import os
+print(os.getcwd())
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
