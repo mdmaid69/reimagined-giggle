@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import numpy as np
+print(np.array([1, 2, 3]))
