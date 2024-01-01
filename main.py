@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
