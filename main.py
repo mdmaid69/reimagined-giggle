@@ -1,6 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def find_min(numbers):
+        return min(numbers)
