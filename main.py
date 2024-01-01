@@ -1,9 +1,9 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
