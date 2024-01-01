@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
