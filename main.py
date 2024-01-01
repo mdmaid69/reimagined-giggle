@@ -1,5 +1,10 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def count_characters(sentence):
-        return len(sentence)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
