@@ -1,6 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
