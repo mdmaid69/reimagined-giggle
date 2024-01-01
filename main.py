@@ -1,4 +1,6 @@
-print("Hello, world!")
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import collections
+def create_user_list():
+        return collections.UserList()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
