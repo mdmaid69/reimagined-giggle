@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
