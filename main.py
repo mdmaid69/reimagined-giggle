@@ -1,7 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_power(work, time):
+        return work / time
+import sys
+def print_python_version():
+        print(sys.version)
