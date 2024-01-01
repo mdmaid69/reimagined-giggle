@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def get_array_as_repr(array):
+        return repr(array)
