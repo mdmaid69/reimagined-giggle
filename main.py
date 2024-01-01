@@ -1,5 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def convert_to_octal(n):
-        return oct(n)
+def get_array_as_float(array):
+        return float(array[0])
