@@ -1,4 +1,8 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
