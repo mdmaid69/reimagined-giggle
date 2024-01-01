@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
