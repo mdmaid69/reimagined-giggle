@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
