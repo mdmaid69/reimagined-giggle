@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
