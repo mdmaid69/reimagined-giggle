@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def reverse_string(s):
+        return s[::-1]
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
