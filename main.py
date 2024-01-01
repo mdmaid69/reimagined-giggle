@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
