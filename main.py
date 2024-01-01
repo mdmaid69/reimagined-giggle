@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import sys
-def exit_program():
-        sys.exit()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
