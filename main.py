@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_memoryview(array):
+        return memoryview(array)
