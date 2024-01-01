@@ -1,6 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def add_numbers(a, b):
+        return a + b
+import time
+print(time.time())
