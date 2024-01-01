@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def convert_to_binary(n):
-        return bin(n)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
