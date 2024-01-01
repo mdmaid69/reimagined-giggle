@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
