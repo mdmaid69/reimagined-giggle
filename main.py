@@ -1,4 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-print([x**2 for x in range(10)])
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def count_elements(lst):
+        return len(lst)
