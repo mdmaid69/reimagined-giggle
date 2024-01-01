@@ -1,8 +1,8 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def convert_to_binary(n):
+        return bin(n)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
