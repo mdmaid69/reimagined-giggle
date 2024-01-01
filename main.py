@@ -1,4 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-print([x**2 for x in range(10)])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
