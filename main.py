@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
