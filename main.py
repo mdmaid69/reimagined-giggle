@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import time
-def get_current_time():
-        return time.ctime()
+import collections
+def create_counter():
+        return collections.Counter()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
