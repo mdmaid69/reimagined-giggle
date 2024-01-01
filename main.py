@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import platform
-def get_python_version():
-        return platform.python_version()
+for i in range(5):
+        print(i)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
