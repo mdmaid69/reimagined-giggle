@@ -1,5 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
