@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import collections
+def create_user_string():
+        return collections.UserString()
