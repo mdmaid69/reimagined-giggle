@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+x = 10
+y = 20
+print("Sum:", x + y)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
