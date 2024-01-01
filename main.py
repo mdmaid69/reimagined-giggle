@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def calculate_area_rectangle(l, w):
+        return l * w
