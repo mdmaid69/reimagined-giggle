@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
