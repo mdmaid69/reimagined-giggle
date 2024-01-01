@@ -1,5 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-for i in range(5):
-        print(i)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
