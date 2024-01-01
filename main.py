@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
