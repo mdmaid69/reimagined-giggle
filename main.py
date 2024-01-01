@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def is_even(n):
+        return n % 2 == 0
