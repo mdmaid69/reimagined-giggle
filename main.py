@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import time
-def get_current_time():
-        return time.ctime()
+import sys
+print(sys.version)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
