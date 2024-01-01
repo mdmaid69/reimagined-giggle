@@ -1,5 +1,5 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def cube_number(x):
-        return x**3
+def remove_from_array(array, item):
+        array.remove(item)
+def find_min(numbers):
+        return min(numbers)
