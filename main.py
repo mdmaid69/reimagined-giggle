@@ -1,5 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def get_array_as_frozenset(array):
+        return frozenset(array)
