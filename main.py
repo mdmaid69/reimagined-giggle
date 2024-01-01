@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-text = "Hello, world!"
-print("Characters:", len(text))
+  def cube_number(x):
+        return x**3
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
