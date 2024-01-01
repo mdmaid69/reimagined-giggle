@@ -1,5 +1,3 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def multiply_numbers(x, y):
+        return x * y
+print([x**2 for x in range(10)])
