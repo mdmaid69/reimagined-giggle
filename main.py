@@ -1,5 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
