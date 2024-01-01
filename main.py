@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
