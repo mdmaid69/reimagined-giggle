@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import sys
-def print_python_version():
-        print(sys.version)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
