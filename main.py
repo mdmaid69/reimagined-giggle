@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def is_even(n):
+        return n % 2 == 0
