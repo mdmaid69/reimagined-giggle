@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import collections
+def create_stack():
+        return collections.deque()
