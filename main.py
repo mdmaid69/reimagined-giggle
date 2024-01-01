@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_work(force, distance):
+        return force * distance
