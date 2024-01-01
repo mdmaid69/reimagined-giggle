@@ -1,5 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
