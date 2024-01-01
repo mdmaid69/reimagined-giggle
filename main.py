@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
