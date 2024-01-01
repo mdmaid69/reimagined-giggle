@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
