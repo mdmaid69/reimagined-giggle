@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_length(array):
+        return len(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
