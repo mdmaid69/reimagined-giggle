@@ -1,10 +1,5 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
