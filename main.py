@@ -1,6 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def is_palindrome(s):
+        return s == s[::-1]
