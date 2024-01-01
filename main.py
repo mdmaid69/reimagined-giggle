@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def count_characters(sentence):
+        return len(sentence)
