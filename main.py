@@ -1,6 +1,8 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
