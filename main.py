@@ -1,6 +1,7 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def is_odd(n):
+        return n % 2 != 0
