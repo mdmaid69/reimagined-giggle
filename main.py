@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def calculate_power(work, time):
+        return work / time
