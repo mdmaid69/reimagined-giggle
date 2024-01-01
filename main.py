@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_density(mass, volume):
+        return mass / volume
