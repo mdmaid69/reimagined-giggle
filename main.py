@@ -1,7 +1,9 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
