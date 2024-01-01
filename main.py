@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_density(mass, volume):
-        return mass / volume
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def get_array_as_set(array):
+        return set(array)
