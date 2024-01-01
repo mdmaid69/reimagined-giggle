@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_as_list(array):
+        return list(array)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
