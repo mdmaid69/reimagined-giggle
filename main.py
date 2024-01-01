@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
