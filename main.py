@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
