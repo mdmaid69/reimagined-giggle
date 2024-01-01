@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
