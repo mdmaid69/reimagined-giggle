@@ -1,6 +1,6 @@
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
