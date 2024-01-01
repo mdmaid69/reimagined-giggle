@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
