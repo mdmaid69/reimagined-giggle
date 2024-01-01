@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import logging
-def log_message(message):
-        logging.info(message)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
