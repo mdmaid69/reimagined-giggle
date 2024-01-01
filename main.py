@@ -1,6 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
