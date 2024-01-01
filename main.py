@@ -1,6 +1,5 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def get_array_itemsize(array):
+        return array.itemsize
+  def multiply_numbers(x, y):
+        return x * y
