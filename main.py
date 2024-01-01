@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def greet(name):
-        print(f"Hello, {name}!")
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
