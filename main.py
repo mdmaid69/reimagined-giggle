@@ -1,6 +1,5 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
