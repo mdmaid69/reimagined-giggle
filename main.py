@@ -1,7 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_pressure(force, area):
+        return force / area
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
