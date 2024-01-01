@@ -1,5 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_pressure(force, area):
-        return force / area
+def square_number(x):
+        return x**2
+  def remove_duplicates(lst):
+        return list(set(lst))
