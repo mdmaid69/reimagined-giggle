@@ -1,5 +1,8 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
