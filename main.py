@@ -1,7 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import tensorflow as tf
+print(tf.__version__)
