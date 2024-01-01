@@ -1,8 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
