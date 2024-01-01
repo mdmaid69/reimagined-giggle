@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def sort_list(lst):
-        return sorted(lst)
+print(sum(range(10)))
+import time
+def get_time_since_epoch():
+        return time.time()
