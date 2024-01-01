@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
