@@ -1,5 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
