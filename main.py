@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
