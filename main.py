@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import sys
+def print_python_version():
+        print(sys.version)
