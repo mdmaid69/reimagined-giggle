@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
