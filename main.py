@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def convert_array_to_list(array):
+        return array.tolist()
