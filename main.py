@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def find_max(lst):
-        return max(lst)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
