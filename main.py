@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
