@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def square_number(x):
+        return x**2
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
