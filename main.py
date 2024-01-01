@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
