@@ -1,6 +1,6 @@
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
