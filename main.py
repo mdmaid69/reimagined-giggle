@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_average(lst):
+        return sum(lst) / len(lst)
