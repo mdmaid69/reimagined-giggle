@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def get_array_typecode(array):
+        return array.typecode
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
