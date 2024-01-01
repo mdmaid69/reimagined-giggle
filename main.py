@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
