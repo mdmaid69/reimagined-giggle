@@ -1,5 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import collections
+def create_user_list():
+        return collections.UserList()
