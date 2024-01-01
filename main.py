@@ -1,6 +1,5 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def is_even(n):
+        return n % 2 == 0
