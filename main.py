@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import sys
+def exit_program():
+        sys.exit()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
