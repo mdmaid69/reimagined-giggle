@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def greet(name):
+        print(f"Hello, {name}!")
