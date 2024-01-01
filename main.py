@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import platform
-def get_os_info():
-        return platform.uname()
+def cube_number(x):
+        return x**3
+def calculate_work(force, distance):
+        return force * distance
