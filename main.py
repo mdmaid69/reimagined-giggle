@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def append_to_array(array, item):
+        array.append(item)
