@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def square_number(x):
-        return x**2
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import time
+def get_time_since_epoch():
+        return time.time()
