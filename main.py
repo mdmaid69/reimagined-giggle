@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
