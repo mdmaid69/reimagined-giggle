@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def get_array_as_list(array):
+        return list(array)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
