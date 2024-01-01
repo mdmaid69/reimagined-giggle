@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
