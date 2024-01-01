@@ -1,4 +1,5 @@
 import os
-def remove_directory(path):
-        os.rmdir(path)
-for i in range(10): print(i)
+print(os.getcwd())
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
