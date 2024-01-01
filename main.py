@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
