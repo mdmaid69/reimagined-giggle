@@ -1,6 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
