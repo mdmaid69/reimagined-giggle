@@ -1,6 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
 import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
