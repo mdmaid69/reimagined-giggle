@@ -1,5 +1,8 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
