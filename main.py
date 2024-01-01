@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def append_to_array(array, item):
-        array.append(item)
+def count_elements(lst):
+        return len(lst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
