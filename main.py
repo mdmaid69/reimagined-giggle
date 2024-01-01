@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_list_from_array(array):
+        return array.tolist()
