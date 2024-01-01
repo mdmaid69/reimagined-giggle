@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+name = "Python"
+print("Hello,", name)
