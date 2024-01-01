@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
