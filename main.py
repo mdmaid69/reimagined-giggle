@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
