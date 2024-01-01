@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
