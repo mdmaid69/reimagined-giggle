@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
