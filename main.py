@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def square_number(x):
-        return x**2
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
