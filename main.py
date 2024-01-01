@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
