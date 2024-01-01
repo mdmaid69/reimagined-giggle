@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import collections
+def create_user_dict():
+        return collections.UserDict()
