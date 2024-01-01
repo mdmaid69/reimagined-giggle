@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def cube_number(x):
+        return x**3
+import array
+def convert_array_to_list(array):
+        return array.tolist()
