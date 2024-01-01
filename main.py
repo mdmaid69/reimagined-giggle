@@ -1,8 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
