@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
