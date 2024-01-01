@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def count_elements(iterable):
+        return collections.Counter(iterable)
