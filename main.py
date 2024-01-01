@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
