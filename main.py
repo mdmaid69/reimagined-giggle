@@ -1,7 +1,7 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
