@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_string_from_array(array):
+        return array.tobytes()
