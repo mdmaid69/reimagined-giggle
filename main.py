@@ -1,8 +1,5 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
