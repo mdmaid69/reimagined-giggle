@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
