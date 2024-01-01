@@ -1,8 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
