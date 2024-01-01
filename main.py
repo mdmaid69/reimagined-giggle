@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+print(sum(range(10)))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
