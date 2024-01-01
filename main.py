@@ -1,6 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import sys
-def print_python_version():
-        return sys.version
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
