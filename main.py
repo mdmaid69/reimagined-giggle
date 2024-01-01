@@ -1,6 +1,8 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
