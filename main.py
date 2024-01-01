@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
