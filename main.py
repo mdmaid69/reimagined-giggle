@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
