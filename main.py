@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
