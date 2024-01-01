@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def cube_number(x):
+        return x**3
