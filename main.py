@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
