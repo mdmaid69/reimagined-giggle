@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
