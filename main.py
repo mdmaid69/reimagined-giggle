@@ -1,6 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
