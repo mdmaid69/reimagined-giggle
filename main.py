@@ -1,5 +1,10 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
