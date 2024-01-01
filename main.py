@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
