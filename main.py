@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import datetime
+print(datetime.datetime.now())
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
