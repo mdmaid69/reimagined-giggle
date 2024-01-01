@@ -1,8 +1,6 @@
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
