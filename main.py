@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
