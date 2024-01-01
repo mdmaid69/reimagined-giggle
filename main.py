@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
