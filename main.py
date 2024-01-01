@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
