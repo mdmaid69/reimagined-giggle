@@ -1,5 +1,7 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
