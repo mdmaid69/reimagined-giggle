@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
