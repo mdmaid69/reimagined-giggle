@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+from collections import Counter
+print(Counter("hello world"))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
