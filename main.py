@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
