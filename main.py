@@ -1,2 +1,5 @@
-print([x**2 for x in range(10)])
-for i in range(10): print(i)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
