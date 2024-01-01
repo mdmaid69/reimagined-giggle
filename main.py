@@ -1,6 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
