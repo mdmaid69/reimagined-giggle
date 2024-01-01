@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
