@@ -1,5 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
