@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  def calculate_area_rectangle(l, w):
-        return l * w
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
