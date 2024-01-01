@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import tensorflow as tf
-print(tf.__version__)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
