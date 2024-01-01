@@ -1,6 +1,8 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
