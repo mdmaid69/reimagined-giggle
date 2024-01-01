@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
