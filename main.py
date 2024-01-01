@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
