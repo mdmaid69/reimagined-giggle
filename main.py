@@ -1,6 +1,6 @@
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
