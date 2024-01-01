@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import time
+def get_current_time():
+        return time.time()
