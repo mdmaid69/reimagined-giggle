@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
