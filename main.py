@@ -1,7 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
