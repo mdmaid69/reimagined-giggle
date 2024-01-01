@@ -1,5 +1,6 @@
 import math
-print(math.pi)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
