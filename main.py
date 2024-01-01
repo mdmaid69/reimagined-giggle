@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
