@@ -1,14 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
