@@ -1,10 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
