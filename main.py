@@ -1,5 +1,12 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def is_palindrome(s):
-        return s == s[::-1]
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
