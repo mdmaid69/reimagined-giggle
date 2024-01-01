@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
