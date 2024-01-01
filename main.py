@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import getpass
+def get_username():
+        return getpass.getuser()
+def square_number(x):
+        return x**2
