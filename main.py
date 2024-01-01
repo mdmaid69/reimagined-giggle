@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
