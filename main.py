@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
