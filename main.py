@@ -1,6 +1,5 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
