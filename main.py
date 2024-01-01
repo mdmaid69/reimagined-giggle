@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_as_list(array):
+        return list(array)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
