@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import time
-def get_current_time():
-        return time.time()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_index(array, item):
+        return array.index(item)
