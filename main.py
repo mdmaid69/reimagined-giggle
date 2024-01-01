@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
