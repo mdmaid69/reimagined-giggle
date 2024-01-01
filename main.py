@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import sys
+def print_python_version():
+        print(sys.version)
