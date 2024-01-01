@@ -1,3 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-for i in range(10): print(i)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
