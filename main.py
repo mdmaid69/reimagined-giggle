@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
