@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import platform
+def get_python_version():
+        return platform.python_version()
