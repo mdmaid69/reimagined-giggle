@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def remove_duplicates(lst):
-        return list(set(lst))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
