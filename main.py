@@ -1,5 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def reverse_list(lst):
-        return lst[::-1]
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
