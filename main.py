@@ -1,8 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
