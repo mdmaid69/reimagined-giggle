@@ -1,8 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
