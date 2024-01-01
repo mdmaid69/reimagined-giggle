@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_floor(x):
-        return math.floor(x)
+print(sum(range(10)))
+import os
+def change_working_directory(path):
+        os.chdir(path)
