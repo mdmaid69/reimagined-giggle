@@ -1,3 +1,6 @@
-print(sum(range(10)))
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
