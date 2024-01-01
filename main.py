@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
