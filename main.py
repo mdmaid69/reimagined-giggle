@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
