@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
