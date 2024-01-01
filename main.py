@@ -1,5 +1,9 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
