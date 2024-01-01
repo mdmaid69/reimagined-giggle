@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def convert_to_octal(n):
+        return oct(n)
