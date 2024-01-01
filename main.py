@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
