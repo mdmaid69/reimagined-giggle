@@ -1,7 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
