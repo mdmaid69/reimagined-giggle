@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
