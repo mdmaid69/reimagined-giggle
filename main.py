@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_pressure(force, area):
+        return force / area
