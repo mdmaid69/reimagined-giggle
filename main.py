@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
