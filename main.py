@@ -1,6 +1,5 @@
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+def is_even(n):
+        return n % 2 == 0
