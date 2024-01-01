@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-  def is_odd(n):
-        return n % 2 != 0
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
