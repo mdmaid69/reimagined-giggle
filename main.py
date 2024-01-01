@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
