@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import os
+print(os.getcwd())
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
