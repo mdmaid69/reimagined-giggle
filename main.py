@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def reverse_list(lst):
-        return lst[::-1]
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
