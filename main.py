@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
 import os
-def change_working_directory(path):
-        os.chdir(path)
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
