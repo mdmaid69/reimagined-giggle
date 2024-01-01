@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
