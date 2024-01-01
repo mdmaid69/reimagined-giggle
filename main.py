@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
