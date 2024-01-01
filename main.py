@@ -1,7 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def convert_to_hex(n):
+        return hex(n)
