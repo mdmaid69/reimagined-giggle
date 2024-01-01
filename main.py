@@ -1,4 +1,10 @@
-  def convert_to_hex(n):
-        return hex(n)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
