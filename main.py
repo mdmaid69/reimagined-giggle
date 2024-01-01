@@ -1,7 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  def calculate_area_rectangle(l, w):
+        return l * w
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
