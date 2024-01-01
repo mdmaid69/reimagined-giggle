@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_volume(length, width, height):
-        return length * width * height
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def get_array_length(array):
+        return len(array)
