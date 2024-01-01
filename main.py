@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
