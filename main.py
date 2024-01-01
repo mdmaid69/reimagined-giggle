@@ -1,6 +1,5 @@
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def create_numpy_array(lst):
+        return np.array(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
