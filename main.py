@@ -1,6 +1,8 @@
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def get_array_as_list(array):
+        return list(array)
