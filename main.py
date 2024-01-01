@@ -1,5 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import sys
+print(sys.version)
