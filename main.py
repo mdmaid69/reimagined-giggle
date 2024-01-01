@@ -1,9 +1,8 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
