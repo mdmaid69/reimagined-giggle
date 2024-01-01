@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def count_characters(sentence):
+        return len(sentence)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
