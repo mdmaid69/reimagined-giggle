@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
