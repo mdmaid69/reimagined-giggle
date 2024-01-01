@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
