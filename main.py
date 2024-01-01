@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
