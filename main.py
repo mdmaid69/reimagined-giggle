@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
 import random
-print(random.randint(0, 100))
+def generate_random_number(start, end):
+        return random.randint(start, end)
