@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
