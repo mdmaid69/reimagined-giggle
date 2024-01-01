@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
