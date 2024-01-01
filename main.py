@@ -1,5 +1,5 @@
 import collections
-def create_user_list():
-        return collections.UserList()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  def multiply_numbers(x, y):
+        return x * y
