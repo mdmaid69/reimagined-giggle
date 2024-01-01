@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_density(mass, volume):
-        return mass / volume
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
