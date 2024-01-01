@@ -1,7 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def add_numbers(x, y):
-        return x + y
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
