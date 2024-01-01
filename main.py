@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def square_number(x):
+        return x**2
+  def convert_to_octal(n):
+        return oct(n)
