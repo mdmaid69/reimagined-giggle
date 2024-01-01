@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
