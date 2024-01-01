@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def find_max(lst):
-        return max(lst)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
