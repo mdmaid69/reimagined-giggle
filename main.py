@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
