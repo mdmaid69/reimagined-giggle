@@ -1,5 +1,5 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import datetime
-print(datetime.datetime.now())
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
