@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
