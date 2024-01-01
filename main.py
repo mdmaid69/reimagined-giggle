@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_absolute_value(x):
+        return math.fabs(x)
