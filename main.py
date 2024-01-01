@@ -1,7 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def add_numbers(x, y):
+        return x + y
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
