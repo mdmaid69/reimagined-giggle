@@ -1,8 +1,5 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
