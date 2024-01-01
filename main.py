@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def count_characters(sentence):
-        return len(sentence)
+import os
+print(os.getcwd())
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
