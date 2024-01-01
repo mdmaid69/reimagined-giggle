@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
