@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
