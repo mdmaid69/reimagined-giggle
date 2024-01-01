@@ -1,8 +1,7 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
