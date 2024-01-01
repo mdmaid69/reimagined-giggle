@@ -1,8 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def get_array_as_str(array):
+        return str(array)
