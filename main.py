@@ -1,6 +1,8 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
