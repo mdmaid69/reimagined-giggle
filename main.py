@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+print([x**2 for x in range(10)])
