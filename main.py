@@ -1,5 +1,5 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import tensorflow as tf
+print(tf.__version__)
