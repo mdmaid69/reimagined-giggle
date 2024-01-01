@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import collections
-def create_counter():
-        return collections.Counter()
+import getpass
+def get_username():
+        return getpass.getuser()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
