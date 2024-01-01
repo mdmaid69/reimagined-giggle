@@ -1,5 +1,5 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
