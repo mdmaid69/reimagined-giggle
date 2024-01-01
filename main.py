@@ -1,6 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
