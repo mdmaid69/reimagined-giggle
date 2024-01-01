@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import logging
-def log_message(message):
-        logging.info(message)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
