@@ -1,7 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
