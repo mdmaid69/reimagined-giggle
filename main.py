@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
