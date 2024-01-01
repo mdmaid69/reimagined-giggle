@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
