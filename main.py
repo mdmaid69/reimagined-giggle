@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
