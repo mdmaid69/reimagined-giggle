@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def square_number(x):
+        return x**2
+import array
+def get_array_length(array):
+        return len(array)
