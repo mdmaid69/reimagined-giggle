@@ -1,6 +1,9 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  def convert_to_binary(n):
+        return bin(n)
