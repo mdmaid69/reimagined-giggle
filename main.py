@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
