@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import time
-def get_current_time():
-        return time.time()
+import random
+print(random.randint(0, 100))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
