@@ -1,6 +1,5 @@
 import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
