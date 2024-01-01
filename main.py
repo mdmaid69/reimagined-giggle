@@ -1,5 +1,8 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-text = "Hello, world!"
-print("Characters:", len(text))
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
