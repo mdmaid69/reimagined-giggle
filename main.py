@@ -1,8 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import math
+def calculate_sine(x):
+        return math.sin(x)
