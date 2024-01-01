@@ -1,5 +1,6 @@
 import os
-def change_working_directory(path):
-        os.chdir(path)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
