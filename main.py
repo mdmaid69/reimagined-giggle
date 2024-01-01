@@ -1,4 +1,8 @@
-def sort_list(lst):
-        return sorted(lst)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
