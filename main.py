@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_array_as_set(array):
-        return set(array)
+  import sys
+  def get_python_version():
+        return sys.version
+  def square_number(x):
+        return x**2
