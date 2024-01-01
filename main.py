@@ -1,5 +1,6 @@
+import array
+def get_array_as_str(array):
+        return str(array)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import os
-print(os.getcwd())
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
