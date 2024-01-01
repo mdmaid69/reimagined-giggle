@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
