@@ -1,5 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  def convert_to_hex(n):
+        return hex(n)
