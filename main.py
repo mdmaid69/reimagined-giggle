@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def cube_number(x):
+        return x**3
+  def subtract_numbers(x, y):
+        return x - y
