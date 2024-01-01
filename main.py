@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
