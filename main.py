@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import datetime
+print(datetime.datetime.now())
