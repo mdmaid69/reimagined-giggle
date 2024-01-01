@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import array
+def reverse_array(array):
+        array.reverse()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
