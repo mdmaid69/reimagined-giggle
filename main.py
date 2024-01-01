@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
