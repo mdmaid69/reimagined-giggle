@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import datetime
+def get_current_date():
+        return datetime.date.today()
