@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import random
+print(random.randint(0, 100))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
