@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
