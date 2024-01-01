@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
