@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import sys
+def exit_program():
+        sys.exit()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
