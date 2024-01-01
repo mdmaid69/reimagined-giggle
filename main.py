@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def subtract_numbers(x, y):
+        return x - y
