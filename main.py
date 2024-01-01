@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_float(array):
+        return float(array[0])
+def add_numbers(a, b):
+        return a + b
