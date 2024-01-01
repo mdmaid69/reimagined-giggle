@@ -1,5 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def find_min(numbers):
-        return min(numbers)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
