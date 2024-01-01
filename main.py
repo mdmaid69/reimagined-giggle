@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
