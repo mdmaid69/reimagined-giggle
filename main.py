@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def convert_array_to_string(array):
+        return array.tostring()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
