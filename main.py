@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def reverse_list(lst):
+        return lst[::-1]
