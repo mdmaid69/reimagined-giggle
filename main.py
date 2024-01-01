@@ -1,6 +1,3 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+for i in range(10): print(i)
+for i in range(5):
+        print(i)
