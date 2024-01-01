@@ -1,8 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
