@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
