@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
