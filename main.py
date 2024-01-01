@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
