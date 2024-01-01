@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def split_path(path):
+        return os.path.split(path)
