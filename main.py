@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
