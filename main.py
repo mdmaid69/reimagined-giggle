@@ -1,10 +1,7 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
