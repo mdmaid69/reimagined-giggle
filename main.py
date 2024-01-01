@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
