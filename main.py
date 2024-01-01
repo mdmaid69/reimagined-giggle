@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  def is_odd(n):
-        return n % 2 != 0
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
