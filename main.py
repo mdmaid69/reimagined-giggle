@@ -1,5 +1,8 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
