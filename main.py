@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_area_rectangle(l, w):
+        return l * w
