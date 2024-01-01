@@ -1,7 +1,7 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def cube_number(x):
-        return x**3
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
