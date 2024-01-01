@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
