@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
