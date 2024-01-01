@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def count_characters(sentence):
-        return len(sentence)
+import array
+def get_array_as_list(array):
+        return list(array)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
