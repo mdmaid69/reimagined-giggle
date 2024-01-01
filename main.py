@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
