@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
