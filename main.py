@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_priority_queue():
+        return collections.deque()
+import time
+def get_current_time():
+        return time.time()
