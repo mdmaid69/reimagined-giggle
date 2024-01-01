@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_volume(length, width, height):
+        return length * width * height
