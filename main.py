@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
