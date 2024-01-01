@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
