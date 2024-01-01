@@ -1,6 +1,6 @@
-def square_number(x):
-        return x**2
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
