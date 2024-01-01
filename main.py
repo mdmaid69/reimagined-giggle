@@ -1,6 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def get_string_from_array(array):
+        return array.tobytes()
