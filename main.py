@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
