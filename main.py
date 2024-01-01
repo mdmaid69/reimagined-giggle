@@ -1,8 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
