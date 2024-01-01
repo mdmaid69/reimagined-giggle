@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  def square_number(x):
-        return x**2
+def calculate_tangent(x):
+        return math.tan(x)
