@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
