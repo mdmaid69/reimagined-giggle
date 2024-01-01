@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
