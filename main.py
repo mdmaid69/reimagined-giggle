@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def cube_number(x):
-        return x**3
+import time
+def get_time_since_epoch():
+        return time.time()
+import numpy as np
+print(np.array([1, 2, 3]))
