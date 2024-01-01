@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+from collections import Counter
+print(Counter("hello world"))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
