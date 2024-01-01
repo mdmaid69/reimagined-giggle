@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
