@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_work(force, distance):
+        return force * distance
