@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
