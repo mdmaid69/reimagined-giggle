@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_square_root(x):
+        return math.sqrt(x)
