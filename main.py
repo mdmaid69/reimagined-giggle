@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
