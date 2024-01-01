@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import time
+def get_time_since_epoch():
+        return time.time()
