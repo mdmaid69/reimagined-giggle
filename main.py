@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def append_to_array(array, item):
+        array.append(item)
