@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_density(mass, volume):
+        return mass / volume
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
