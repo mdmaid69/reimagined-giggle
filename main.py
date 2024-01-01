@@ -1,8 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
