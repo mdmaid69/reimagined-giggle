@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
