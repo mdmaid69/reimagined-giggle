@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_speed(distance, time):
+        return distance / time
