@@ -1,4 +1,7 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-print("Hello, world!")
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import getpass
+def get_username():
+        return getpass.getuser()
