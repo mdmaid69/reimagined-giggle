@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
