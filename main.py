@@ -1,7 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
