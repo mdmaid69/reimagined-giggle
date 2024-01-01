@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
