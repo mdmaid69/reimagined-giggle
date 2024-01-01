@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_acceleration(speed, time):
+        return speed / time
+  def sort_list(lst):
+        return sorted(lst)
