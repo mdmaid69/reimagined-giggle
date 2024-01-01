@@ -1,5 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_density(mass, volume):
-        return mass / volume
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
