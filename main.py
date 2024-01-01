@@ -1,8 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def remove_duplicates(lst):
+        return list(set(lst))
