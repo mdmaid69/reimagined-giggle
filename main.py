@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_acceleration(speed, time):
+        return speed / time
