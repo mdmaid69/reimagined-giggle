@@ -1,8 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import sys
-  def get_python_version():
-        return sys.version
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
