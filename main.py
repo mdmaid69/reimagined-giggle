@@ -1,6 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
