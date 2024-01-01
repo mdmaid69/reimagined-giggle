@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def reverse_list(lst):
+        return lst[::-1]
