@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
