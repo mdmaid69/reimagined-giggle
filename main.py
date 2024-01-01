@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
