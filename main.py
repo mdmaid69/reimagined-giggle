@@ -1,8 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
