@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
