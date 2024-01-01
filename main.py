@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
