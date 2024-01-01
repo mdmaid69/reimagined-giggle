@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import random
+print(random.randint(0, 100))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
