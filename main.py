@@ -1,7 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def get_array_as_int(array):
+        return int(array[0])
