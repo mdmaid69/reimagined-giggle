@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
 import array
-def get_array_typecode(array):
-        return array.typecode
+def clear_array(array):
+        array *= 0
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
