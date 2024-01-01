@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
