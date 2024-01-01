@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import platform
+def get_os_info():
+        return platform.uname()
