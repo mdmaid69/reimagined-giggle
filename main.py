@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
