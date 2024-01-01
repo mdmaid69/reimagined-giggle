@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_area_rectangle(l, w):
+        return l * w
