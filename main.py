@@ -1,4 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-for i in range(10): print(i)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
