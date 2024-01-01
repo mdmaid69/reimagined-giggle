@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
