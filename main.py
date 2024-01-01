@@ -1,5 +1,8 @@
-def square_number(x):
-        return x**2
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
