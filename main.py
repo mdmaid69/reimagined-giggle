@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
