@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def subtract_numbers(x, y):
+        return x - y
+def is_odd(n):
+        return n % 2 != 0
