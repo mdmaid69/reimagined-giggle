@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
