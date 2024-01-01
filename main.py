@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_int(array):
+        return int(array[0])
+def find_min(lst):
+        return min(lst)
