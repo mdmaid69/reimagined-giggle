@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
