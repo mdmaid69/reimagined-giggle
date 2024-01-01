@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_as_int(array):
+        return int(array[0])
