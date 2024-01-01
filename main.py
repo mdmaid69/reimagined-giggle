@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
