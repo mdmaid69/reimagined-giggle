@@ -1,5 +1,5 @@
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  def cube_number(x):
-        return x**3
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
