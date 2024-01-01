@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
