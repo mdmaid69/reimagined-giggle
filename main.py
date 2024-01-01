@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import random
+def roll_die():
+        return random.randint(1, 6)
