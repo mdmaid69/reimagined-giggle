@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def create_user_string():
+        return collections.UserString()
