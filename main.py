@@ -1,9 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def find_min(numbers):
+        return min(numbers)
