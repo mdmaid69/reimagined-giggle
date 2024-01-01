@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
