@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import collections
+def create_user_string():
+        return collections.UserString()
