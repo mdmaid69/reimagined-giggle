@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  def convert_to_hex(n):
+        return hex(n)
