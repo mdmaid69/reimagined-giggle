@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
