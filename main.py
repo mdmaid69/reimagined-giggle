@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
