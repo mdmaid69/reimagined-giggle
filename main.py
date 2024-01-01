@@ -1,6 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
