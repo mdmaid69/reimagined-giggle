@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def get_directory_name(path):
+        return os.path.dirname(path)
