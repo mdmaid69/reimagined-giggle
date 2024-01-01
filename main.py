@@ -1,5 +1,10 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
