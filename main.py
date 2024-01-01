@@ -1,5 +1,9 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import collections
+def create_user_dict():
+        return collections.UserDict()
