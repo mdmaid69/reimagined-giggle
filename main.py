@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def find_unique_words(sentence):
+        return set(sentence.split())
