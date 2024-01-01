@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def clear_array(array):
+        array *= 0
