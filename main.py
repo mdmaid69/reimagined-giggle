@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
