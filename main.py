@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_acceleration(speed, time):
+        return speed / time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
