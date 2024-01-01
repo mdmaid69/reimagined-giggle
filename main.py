@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
