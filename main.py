@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
