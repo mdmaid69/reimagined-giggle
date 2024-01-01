@@ -1,6 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
