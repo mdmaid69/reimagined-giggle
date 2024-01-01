@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
