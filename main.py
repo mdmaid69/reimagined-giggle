@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
