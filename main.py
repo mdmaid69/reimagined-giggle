@@ -1,5 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
