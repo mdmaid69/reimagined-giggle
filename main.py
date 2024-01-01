@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def reverse_array(array):
+        array.reverse()
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
