@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import tensorflow as tf
+print(tf.__version__)
