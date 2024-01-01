@@ -1,4 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
