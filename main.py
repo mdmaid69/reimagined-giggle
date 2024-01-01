@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
