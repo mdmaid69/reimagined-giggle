@@ -1,6 +1,7 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
