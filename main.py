@@ -1,7 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import datetime
+def get_current_date():
+        return datetime.date.today()
