@@ -1,5 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
