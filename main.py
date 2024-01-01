@@ -1,5 +1,7 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
