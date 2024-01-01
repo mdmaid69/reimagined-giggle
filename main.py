@@ -1,5 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def find_max(lst):
-        return max(lst)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
