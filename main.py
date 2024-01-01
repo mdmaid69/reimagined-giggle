@@ -1,4 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+x = 10
+y = 20
+print("Sum:", x + y)
