@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def remove_duplicates(lst):
+        return list(set(lst))
