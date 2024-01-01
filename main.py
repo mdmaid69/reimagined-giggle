@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
