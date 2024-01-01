@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
