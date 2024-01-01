@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def add_numbers(x, y):
+        return x + y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
