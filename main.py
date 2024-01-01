@@ -1,5 +1,6 @@
 import collections
-def create_user_list():
-        return collections.UserList()
-def is_palindrome(s):
-        return s == s[::-1]
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
