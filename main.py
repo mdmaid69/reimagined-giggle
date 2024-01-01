@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
