@@ -1,6 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_length(array):
+        return len(array)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
