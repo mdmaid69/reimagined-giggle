@@ -1,4 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def convert_to_hex(n):
-        return hex(n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
