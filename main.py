@@ -1,7 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
