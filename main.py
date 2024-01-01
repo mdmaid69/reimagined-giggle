@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def add_numbers(a, b):
+        return a + b
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
