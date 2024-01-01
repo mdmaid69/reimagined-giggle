@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
