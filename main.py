@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
