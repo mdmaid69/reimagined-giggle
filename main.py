@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
