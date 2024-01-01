@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def get_array_as_str(array):
+        return str(array)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
