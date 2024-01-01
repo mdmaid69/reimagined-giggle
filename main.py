@@ -1,6 +1,6 @@
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
