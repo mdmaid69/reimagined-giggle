@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import sys
+def print_python_version():
+        print(sys.version)
