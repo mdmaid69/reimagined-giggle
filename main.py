@@ -1,6 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
