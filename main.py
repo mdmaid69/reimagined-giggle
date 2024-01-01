@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
