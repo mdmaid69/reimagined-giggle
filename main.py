@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
