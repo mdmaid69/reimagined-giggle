@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
