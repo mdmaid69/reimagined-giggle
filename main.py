@@ -1,6 +1,10 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
