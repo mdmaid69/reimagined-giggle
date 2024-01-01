@@ -1,5 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
