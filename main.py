@@ -1,7 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
