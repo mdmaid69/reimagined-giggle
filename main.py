@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import collections
+def create_counter():
+        return collections.Counter()
+def find_max(lst):
+        return max(lst)
