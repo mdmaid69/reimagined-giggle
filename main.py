@@ -1,6 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
