@@ -1,5 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def remove_duplicates(lst):
+        return list(set(lst))
