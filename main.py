@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
