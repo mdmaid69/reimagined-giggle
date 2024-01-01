@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
