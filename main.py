@@ -1,5 +1,5 @@
+  def is_odd(n):
+        return n % 2 != 0
   import os
-  def split_path(path):
-        return os.path.split(path)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
