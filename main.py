@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def divide_numbers(x, y):
-        return x / y
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
