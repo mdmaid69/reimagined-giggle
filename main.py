@@ -1,5 +1,7 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-def divide_numbers(x, y):
-        return x / y
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
