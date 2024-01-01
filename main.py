@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
