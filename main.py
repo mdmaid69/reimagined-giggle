@@ -1,8 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def is_even(n):
+        return n % 2 == 0
