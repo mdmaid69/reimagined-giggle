@@ -1,5 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
