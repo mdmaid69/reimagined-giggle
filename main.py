@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
