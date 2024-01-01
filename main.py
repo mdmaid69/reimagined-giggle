@@ -1,6 +1,7 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
