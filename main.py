@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_array_to_list(array):
+        return array.tolist()
