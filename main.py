@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
