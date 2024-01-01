@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
