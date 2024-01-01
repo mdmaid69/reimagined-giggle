@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def append_to_array(array, item):
+        array.append(item)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
