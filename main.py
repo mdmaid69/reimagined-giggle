@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
