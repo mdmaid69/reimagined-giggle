@@ -1,5 +1,5 @@
+def find_max(lst):
+        return max(lst)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-name = "Python"
-print("Hello,", name)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
