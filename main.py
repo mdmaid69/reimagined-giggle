@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_power(work, time):
-        return work / time
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
