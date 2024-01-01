@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
