@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def reverse_list(lst):
+        return lst[::-1]
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
