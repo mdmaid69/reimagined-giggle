@@ -1,6 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
