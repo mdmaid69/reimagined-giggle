@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+text = "Hello, world!"
+print("Words:", len(text.split()))
