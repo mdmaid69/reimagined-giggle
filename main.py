@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
