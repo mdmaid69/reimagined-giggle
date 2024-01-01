@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def delete_file(file_name):
+        os.remove(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
