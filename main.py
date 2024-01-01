@@ -1,6 +1,6 @@
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import platform
-def get_os_info():
-        return platform.uname()
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
