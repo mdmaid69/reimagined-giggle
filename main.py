@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
