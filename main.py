@@ -1,5 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-def find_max(numbers):
-        return max(numbers)
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
