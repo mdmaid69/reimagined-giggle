@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
