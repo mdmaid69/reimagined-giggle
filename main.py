@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_acceleration(speed, time):
-        return speed / time
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_work(force, distance):
+        return force * distance
