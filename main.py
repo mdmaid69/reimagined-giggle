@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def sort_list(lst):
+        return sorted(lst)
