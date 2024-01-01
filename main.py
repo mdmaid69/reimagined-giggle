@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def reverse_string(s):
+        return s[::-1]
+i = 0
+while i < 5:
+        print(i)
+        i += 1
