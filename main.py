@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_pressure(force, area):
+        return force / area
