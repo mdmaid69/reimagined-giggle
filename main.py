@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
