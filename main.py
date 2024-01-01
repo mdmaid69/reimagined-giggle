@@ -1,8 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
