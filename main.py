@@ -1,6 +1,6 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def get_array_as_str(array):
+        return str(array)
+import time
+def get_current_time():
+        return time.time()
