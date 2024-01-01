@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def convert_to_hex(n):
+        return hex(n)
