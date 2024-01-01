@@ -1,8 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def insert_into_array(array, i, item):
+        array.insert(i, item)
