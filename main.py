@@ -1,6 +1,7 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
