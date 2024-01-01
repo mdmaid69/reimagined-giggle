@@ -1,5 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import json
+print(json.dumps({"name": "John", "age": 30}))
