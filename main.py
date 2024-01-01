@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def subtract_numbers(x, y):
+        return x - y
