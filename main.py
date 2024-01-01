@@ -1,6 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
