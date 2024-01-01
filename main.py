@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def is_palindrome(s):
+        return s == s[::-1]
