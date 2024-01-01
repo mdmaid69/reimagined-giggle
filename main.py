@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
