@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def square_number(x):
+        return x**2
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
