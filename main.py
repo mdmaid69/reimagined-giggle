@@ -1,6 +1,6 @@
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
