@@ -1,12 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  def convert_to_hex(n):
+        return hex(n)
