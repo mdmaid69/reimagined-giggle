@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import math
+def calculate_tangent(x):
+        return math.tan(x)
