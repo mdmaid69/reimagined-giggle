@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def get_array_as_set(array):
-        return set(array)
+def convert_array_to_list(array):
+        return array.tolist()
