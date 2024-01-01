@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
