@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
