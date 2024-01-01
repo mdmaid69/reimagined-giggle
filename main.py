@@ -1,5 +1,5 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
