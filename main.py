@@ -1,5 +1,6 @@
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
