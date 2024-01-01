@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_volume(length, width, height):
+        return length * width * height
