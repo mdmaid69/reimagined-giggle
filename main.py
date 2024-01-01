@@ -1,6 +1,9 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import collections
+def create_user_string():
+        return collections.UserString()
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
