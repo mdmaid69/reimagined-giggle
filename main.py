@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
