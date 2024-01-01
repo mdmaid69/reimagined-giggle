@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
