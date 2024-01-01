@@ -1,6 +1,7 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
