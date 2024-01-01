@@ -1,5 +1,8 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
