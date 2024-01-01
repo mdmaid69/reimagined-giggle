@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import datetime
+def get_current_date():
+        return datetime.date.today()
