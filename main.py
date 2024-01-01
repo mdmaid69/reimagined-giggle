@@ -1,8 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def find_min(lst):
+        return min(lst)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
