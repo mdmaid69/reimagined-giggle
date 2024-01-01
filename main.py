@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
