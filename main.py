@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
