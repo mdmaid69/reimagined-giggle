@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def reverse_list(lst):
+        return lst[::-1]
