@@ -1,8 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
