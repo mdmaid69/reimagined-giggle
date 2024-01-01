@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def count_words(sentence):
+        return len(sentence.split())
+import re
+print(re.match("h.*o", "hello world"))
