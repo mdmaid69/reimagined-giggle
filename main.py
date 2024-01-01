@@ -1,6 +1,9 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+for i in range(10): print(i)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
