@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import sys
+  def get_python_version():
+        return sys.version
