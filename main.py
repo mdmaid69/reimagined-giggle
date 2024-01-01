@@ -1,8 +1,8 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
