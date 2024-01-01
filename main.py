@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
