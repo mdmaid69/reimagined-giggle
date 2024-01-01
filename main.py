@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def reverse_array(array):
+        array.reverse()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
