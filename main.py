@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
