@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
