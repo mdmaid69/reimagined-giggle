@@ -1,6 +1,8 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
