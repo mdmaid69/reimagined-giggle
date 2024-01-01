@@ -1,6 +1,7 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
