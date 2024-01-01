@@ -1,5 +1,6 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
