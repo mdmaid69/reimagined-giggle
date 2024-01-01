@@ -1,5 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
