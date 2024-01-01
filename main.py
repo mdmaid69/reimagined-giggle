@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def cube_number(x):
-        return x**3
+import array
+def clear_array(array):
+        array *= 0
+import array
+def convert_array_to_list(array):
+        return array.tolist()
