@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
