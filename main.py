@@ -1,5 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import random
-print(random.randint(0, 100))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
