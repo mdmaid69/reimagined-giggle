@@ -1,5 +1,10 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
