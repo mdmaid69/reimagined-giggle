@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import datetime
+print(datetime.datetime.now())
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
