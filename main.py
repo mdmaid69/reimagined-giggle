@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
