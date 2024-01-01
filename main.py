@@ -1,7 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
