@@ -1,7 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
