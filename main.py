@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
