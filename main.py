@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  def sort_list(lst):
+        return sorted(lst)
