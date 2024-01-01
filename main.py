@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import numpy as np
-print(np.array([1, 2, 3]))
+import time
+def get_current_time():
+        return time.time()
+print([x**2 for x in range(10)])
