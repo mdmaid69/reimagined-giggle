@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_pressure(force, area):
+        return force / area
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
