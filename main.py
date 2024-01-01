@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_area_rectangle(l, w):
-        return l * w
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
