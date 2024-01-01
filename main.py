@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
