@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
