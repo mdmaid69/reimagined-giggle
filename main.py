@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def cube_number(x):
+        return x**3
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
