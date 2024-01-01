@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
