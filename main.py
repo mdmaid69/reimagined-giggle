@@ -1,4 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-print(sum(range(10)))
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
