@@ -1,6 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
