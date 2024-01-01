@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
