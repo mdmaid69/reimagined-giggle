@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
