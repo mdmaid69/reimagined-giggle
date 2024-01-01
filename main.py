@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
