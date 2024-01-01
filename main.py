@@ -1,6 +1,8 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
