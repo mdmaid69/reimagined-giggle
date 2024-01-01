@@ -1,6 +1,6 @@
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
