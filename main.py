@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
