@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
