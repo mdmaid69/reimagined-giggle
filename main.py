@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_power(work, time):
+        return work / time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
