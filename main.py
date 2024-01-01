@@ -1,4 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
