@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_as_list(array):
+        return list(array)
