@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_pressure(force, area):
-        return force / area
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
