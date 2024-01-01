@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
