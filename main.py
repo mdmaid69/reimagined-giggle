@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import sys
+print(sys.version)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
