@@ -1,10 +1,8 @@
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
