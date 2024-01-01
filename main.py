@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
