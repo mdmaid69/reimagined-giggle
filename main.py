@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
