@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
