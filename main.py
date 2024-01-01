@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import tensorflow as tf
+print(tf.__version__)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
