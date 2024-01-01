@@ -1,7 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
