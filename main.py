@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
