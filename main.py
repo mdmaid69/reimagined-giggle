@@ -1,6 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def count_words(sentence):
-        return len(sentence.split())
+print([x**2 for x in range(10)])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
