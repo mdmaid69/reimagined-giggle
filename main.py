@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
