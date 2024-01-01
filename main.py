@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def find_max(lst):
+        return max(lst)
