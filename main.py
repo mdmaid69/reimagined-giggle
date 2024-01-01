@@ -1,7 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import collections
+def create_user_string():
+        return collections.UserString()
