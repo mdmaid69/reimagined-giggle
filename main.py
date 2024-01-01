@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
