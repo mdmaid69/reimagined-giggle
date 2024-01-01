@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
