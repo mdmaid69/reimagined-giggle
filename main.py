@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
