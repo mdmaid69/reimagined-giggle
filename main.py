@@ -1,6 +1,10 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def subtract_numbers(x, y):
+        return x - y
