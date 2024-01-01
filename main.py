@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
