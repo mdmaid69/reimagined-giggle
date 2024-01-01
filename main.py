@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
