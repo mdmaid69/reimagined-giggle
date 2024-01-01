@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import random
+print(random.randint(0, 100))
+x = 10
+y = 20
+print("Sum:", x + y)
