@@ -1,5 +1,6 @@
+import math
+def calculate_error_function(x):
+        return math.erf(x)
 import collections
-def create_priority_queue():
-        return collections.deque()
-def find_min(lst):
-        return min(lst)
+def count_elements(iterable):
+        return collections.Counter(iterable)
