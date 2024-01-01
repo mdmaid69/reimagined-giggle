@@ -1,9 +1,5 @@
+  def add_numbers(x, y):
+        return x + y
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def set_array_item(array, i, item):
+        array[i] = item
