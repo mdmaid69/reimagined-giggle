@@ -1,6 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import sys
-def print_python_version():
-        return sys.version
+def find_max(lst):
+        return max(lst)
+def multiply_numbers(x, y):
+        return x * y
