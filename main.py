@@ -1,6 +1,8 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import time
+def get_time_since_epoch():
+        return time.time()
