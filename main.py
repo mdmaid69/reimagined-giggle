@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
