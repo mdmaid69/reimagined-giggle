@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+print("Hello, world!")
