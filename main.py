@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
