@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
