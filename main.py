@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
