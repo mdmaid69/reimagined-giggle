@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
