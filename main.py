@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+  def subtract_numbers(x, y):
+        return x - y
+  def calculate_area_rectangle(l, w):
+        return l * w
