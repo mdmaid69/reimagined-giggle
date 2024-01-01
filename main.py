@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
