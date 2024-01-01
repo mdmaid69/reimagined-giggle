@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-import random
-print(random.randint(0, 100))
+  def reverse_list(lst):
+        return lst[::-1]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
