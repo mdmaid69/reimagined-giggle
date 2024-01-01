@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
