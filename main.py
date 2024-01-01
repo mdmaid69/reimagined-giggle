@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
