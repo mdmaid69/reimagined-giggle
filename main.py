@@ -1,5 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
