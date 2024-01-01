@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def convert_to_hex(n):
-        return hex(n)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
