@@ -1,6 +1,7 @@
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
