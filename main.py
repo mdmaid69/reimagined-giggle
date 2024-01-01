@@ -1,5 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
