@@ -1,6 +1,3 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+print([x**2 for x in range(10)])
