@@ -1,5 +1,8 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
