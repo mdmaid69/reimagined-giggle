@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_density(mass, volume):
+        return mass / volume
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
