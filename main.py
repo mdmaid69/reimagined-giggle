@@ -1,5 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_speed(distance, time):
+        return distance / time
