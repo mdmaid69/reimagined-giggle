@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
+from collections import Counter
+print(Counter("hello world"))
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def set_array_item(array, i, item):
+        array[i] = item
