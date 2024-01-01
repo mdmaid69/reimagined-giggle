@@ -1,4 +1,4 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def find_max(numbers):
-        return max(numbers)
+def reverse_string(s):
+        return s[::-1]
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
