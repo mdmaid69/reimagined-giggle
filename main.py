@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
