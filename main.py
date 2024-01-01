@@ -1,5 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
