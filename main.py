@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
