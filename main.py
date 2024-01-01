@@ -1,7 +1,7 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
