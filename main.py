@@ -1,5 +1,4 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def find_max(numbers):
-        return max(numbers)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_average(lst):
+        return sum(lst) / len(lst)
