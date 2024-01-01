@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import sys
+def exit_program():
+        sys.exit()
