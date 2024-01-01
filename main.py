@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def cube_number(x):
+        return x**3
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
