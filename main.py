@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def convert_array_to_list(array):
+        return array.tolist()
