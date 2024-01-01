@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
