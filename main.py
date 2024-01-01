@@ -1,7 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def cube_number(x):
+        return x**3
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
