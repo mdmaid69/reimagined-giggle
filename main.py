@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
