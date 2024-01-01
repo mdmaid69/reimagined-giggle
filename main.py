@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
