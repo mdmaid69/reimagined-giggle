@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
