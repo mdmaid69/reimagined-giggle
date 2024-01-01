@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
