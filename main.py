@@ -1,5 +1,8 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
