@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
