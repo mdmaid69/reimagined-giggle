@@ -1,6 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
