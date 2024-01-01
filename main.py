@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
