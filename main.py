@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
