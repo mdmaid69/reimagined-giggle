@@ -1,6 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
