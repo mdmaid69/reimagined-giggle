@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
