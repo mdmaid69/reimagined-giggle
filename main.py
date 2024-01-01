@@ -1,6 +1,5 @@
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
