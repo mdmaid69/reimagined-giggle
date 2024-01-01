@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import sys
-def print_python_version():
-        print(sys.version)
+from collections import Counter
+print(Counter("hello world"))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
