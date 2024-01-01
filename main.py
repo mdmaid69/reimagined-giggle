@@ -1,5 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def square_number(x):
-        return x**2
+  def is_even(n):
+        return n % 2 == 0
+def is_even(n):
+        return n % 2 == 0
