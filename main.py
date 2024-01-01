@@ -1,6 +1,8 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def remove_duplicates(lst):
-        return list(set(lst))
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
