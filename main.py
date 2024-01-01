@@ -1,6 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_density(mass, volume):
+        return mass / volume
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
