@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def subtract_numbers(x, y):
-        return x - y
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
