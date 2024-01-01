@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
