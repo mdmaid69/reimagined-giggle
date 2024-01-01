@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def split_path(path):
+        return os.path.split(path)
