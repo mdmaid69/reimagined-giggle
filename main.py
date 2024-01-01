@@ -1,5 +1,7 @@
-import math
-print(math.pi)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import sys
+def print_python_version():
+        return sys.version
