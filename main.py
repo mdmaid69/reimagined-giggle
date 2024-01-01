@@ -1,7 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+print(math.pi)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
