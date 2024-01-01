@@ -1,5 +1,11 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def convert_to_octal(n):
-        return oct(n)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
