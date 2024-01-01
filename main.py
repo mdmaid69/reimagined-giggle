@@ -1,10 +1,6 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
