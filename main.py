@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def is_odd(n):
+        return n % 2 != 0
+  def calculate_area_rectangle(l, w):
+        return l * w
