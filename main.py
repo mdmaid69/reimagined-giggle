@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import platform
+def get_python_version():
+        return platform.python_version()
