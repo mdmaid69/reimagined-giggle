@@ -1,4 +1,10 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-print([x**2 for x in range(10)])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
