@@ -1,6 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
