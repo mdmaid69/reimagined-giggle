@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_sine(x):
+        return math.sin(x)
+print([x**2 for x in range(10)])
