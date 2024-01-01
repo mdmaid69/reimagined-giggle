@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
-import time
-def get_time_since_epoch():
-        return time.time()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
