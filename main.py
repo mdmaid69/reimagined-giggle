@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
