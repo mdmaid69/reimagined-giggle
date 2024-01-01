@@ -1,12 +1,8 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
