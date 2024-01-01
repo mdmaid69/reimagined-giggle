@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_array_index(array, item):
+        return array.index(item)
