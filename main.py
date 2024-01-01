@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_power(work, time):
+        return work / time
