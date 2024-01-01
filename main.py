@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_floor(x):
+        return math.floor(x)
