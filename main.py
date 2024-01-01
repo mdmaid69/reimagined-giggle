@@ -1,5 +1,7 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def get_array_as_list(array):
-        return list(array)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
