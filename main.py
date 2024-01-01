@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
