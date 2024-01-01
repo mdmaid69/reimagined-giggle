@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def count_elements(lst):
+        return len(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
