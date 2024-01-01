@@ -1,6 +1,8 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
