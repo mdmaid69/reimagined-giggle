@@ -1,4 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import re
-print(re.match("h.*o", "hello world"))
+def sort_list(lst):
+        return sorted(lst)
+def find_min(numbers):
+        return min(numbers)
