@@ -1,5 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
