@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
