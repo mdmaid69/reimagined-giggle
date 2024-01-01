@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
