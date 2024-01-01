@@ -1,8 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
