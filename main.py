@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_speed(distance, time):
+        return distance / time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
