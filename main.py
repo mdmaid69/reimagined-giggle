@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import logging
+def log_message(message):
+        logging.info(message)
+import datetime
+def get_current_date():
+        return datetime.date.today()
