@@ -1,4 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import platform
+def get_os_info():
+        return platform.uname()
