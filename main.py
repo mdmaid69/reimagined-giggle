@@ -1,5 +1,6 @@
   import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
