@@ -1,5 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
