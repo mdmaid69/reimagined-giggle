@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
