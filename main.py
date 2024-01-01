@@ -1,6 +1,12 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
