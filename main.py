@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def convert_to_octal(n):
-        return oct(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_sine(x):
+        return math.sin(x)
