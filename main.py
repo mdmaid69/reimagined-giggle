@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
