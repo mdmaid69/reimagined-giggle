@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import re
+print(re.match("h.*o", "hello world"))
