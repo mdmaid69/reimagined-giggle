@@ -1,4 +1,6 @@
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import math
-print(math.pi)
-import os
-print(os.getcwd())
+def calculate_gamma_function(x):
+        return math.gamma(x)
