@@ -1,6 +1,9 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
