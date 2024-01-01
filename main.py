@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import collections
+def create_counter():
+        return collections.Counter()
