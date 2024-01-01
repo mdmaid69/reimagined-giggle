@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def multiply_numbers(x, y):
+        return x * y
