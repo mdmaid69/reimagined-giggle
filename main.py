@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import numpy as np
+print(np.array([1, 2, 3]))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
