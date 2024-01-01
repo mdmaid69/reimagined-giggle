@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
