@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
