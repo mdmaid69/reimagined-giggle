@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
