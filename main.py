@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
