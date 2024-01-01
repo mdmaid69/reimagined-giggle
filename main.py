@@ -1,5 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_itemsize(array):
+        return array.itemsize
