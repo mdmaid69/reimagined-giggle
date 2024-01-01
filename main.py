@@ -1,9 +1,6 @@
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
