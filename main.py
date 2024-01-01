@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def find_min(lst):
+        return min(lst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
