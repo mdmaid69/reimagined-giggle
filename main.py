@@ -1,6 +1,6 @@
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
