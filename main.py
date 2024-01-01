@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
