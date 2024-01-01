@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
