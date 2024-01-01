@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def get_array_as_list(array):
+        return list(array)
