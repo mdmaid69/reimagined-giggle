@@ -1,5 +1,6 @@
-import time
-print(time.time())
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
