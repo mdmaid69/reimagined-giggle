@@ -1,5 +1,7 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import collections
-def create_queue():
-        return collections.deque()
+def find_min(lst):
+        return min(lst)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
