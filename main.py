@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import sys
+def exit_program():
+        sys.exit()
