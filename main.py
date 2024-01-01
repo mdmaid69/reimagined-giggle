@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def is_odd(n):
+        return n % 2 != 0
