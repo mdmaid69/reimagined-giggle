@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
