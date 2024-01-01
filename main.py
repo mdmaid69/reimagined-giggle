@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_factorial(n):
+        return math.factorial(n)
