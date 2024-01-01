@@ -1,8 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
