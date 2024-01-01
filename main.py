@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import re
+print(re.match("h.*o", "hello world"))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
