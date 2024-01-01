@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
