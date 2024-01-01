@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
