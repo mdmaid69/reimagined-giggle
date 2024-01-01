@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+from collections import Counter
+print(Counter("hello world"))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
