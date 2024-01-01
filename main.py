@@ -1,8 +1,5 @@
 import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def get_time_since_epoch():
+        return time.time()
+  def is_odd(n):
+        return n % 2 != 0
