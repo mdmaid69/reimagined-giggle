@@ -1,7 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def convert_to_octal(n):
+        return oct(n)
