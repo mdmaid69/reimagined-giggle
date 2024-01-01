@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
