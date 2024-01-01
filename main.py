@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
