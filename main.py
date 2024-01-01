@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def find_min(numbers):
+        return min(numbers)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
