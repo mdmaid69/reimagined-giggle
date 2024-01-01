@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
