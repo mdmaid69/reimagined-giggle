@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
