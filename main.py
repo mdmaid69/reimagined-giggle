@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  def square_number(x):
-        return x**2
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
