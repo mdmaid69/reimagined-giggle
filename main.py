@@ -1,8 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
