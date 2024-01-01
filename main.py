@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import logging
-def log_message(message):
-        logging.info(message)
+def convert_to_binary(n):
+        return bin(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
