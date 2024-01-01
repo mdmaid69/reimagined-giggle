@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
