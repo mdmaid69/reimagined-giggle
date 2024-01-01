@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
