@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-def square_number(x):
-        return x**2
+  def add_numbers(x, y):
+        return x + y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
