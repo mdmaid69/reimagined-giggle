@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
