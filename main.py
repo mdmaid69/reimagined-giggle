@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
