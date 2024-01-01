@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
