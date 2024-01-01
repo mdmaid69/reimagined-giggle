@@ -1,4 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def reverse_string(s):
-        return s[::-1]
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def is_odd(n):
+        return n % 2 != 0
