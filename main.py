@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
