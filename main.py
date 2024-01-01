@@ -1,6 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def find_min(numbers):
+        return min(numbers)
