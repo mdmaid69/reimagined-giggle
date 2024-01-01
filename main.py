@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
