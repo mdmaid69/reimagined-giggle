@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import collections
+def create_user_string():
+        return collections.UserString()
