@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
