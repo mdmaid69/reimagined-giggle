@@ -1,7 +1,4 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_volume(length, width, height):
+        return length * width * height
+def sort_numbers(numbers):
+        return sorted(numbers)
