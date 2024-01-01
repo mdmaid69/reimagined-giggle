@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  def count_elements(lst):
+        return len(lst)
