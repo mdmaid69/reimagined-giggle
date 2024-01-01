@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def is_odd(n):
+        return n % 2 != 0
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
