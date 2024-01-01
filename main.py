@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def subtract_numbers(x, y):
-        return x - y
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
