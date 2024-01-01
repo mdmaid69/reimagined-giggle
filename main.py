@@ -1,4 +1,9 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_work(force, distance):
-        return force * distance
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
