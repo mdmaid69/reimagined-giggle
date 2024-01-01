@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
