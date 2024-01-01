@@ -1,6 +1,8 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import json
+def convert_to_json(data):
+        return json.dumps(data)
