@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_as_list(array):
+        return list(array)
