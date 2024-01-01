@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
