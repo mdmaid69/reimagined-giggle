@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def reverse_list(lst):
+        return lst[::-1]
