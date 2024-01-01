@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_acceleration(speed, time):
-        return speed / time
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
