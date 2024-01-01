@@ -1,5 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
