@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
