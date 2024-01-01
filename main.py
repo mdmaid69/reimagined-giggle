@@ -1,8 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def get_array_itemsize(array):
+        return array.itemsize
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
