@@ -1,6 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
