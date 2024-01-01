@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_pressure(force, area):
+        return force / area
