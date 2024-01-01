@@ -1,5 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+print("Square numbers:", [x**2 for x in range(n)])
