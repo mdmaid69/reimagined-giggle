@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import sys
+print(sys.version)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
