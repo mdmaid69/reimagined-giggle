@@ -1,5 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def cube_number(x):
-        return x**3
+def is_even(n):
+        return n % 2 == 0
+  def square_number(x):
+        return x**2
