@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
