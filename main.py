@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import collections
+def create_user_string():
+        return collections.UserString()
