@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import collections
+def create_counter():
+        return collections.Counter()
+import os
+def get_current_working_directory():
+        return os.getcwd()
