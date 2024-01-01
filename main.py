@@ -1,5 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import os
+def remove_directory(path):
+        os.rmdir(path)
