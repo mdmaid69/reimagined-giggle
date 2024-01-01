@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
