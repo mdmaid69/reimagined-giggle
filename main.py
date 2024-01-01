@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
