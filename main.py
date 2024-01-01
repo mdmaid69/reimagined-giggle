@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def clear_array(array):
+        array *= 0
