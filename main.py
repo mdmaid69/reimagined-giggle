@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def sort_list(lst):
+        return sorted(lst)
