@@ -1,9 +1,4 @@
-for i in range(10): print(i)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+print(sum(range(10)))
