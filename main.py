@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_base_name(path):
+        return os.path.basename(path)
