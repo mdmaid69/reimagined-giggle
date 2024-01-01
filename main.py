@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
