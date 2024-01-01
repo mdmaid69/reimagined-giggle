@@ -1,8 +1,9 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import unittest
+from flask import Flask
+app = Flask(__name__)
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
