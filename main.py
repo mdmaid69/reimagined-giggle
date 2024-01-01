@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
