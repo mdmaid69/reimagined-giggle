@@ -1,5 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def get_string_from_array(array):
+        return array.tobytes()
