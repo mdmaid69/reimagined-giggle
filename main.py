@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
