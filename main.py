@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
