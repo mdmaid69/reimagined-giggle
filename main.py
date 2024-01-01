@@ -1,4 +1,5 @@
-print(sum(range(10)))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
