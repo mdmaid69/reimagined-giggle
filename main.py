@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
