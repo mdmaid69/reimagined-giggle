@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_density(mass, volume):
-        return mass / volume
+def get_array_as_bytearray(array):
+        return bytearray(array)
