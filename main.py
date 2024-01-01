@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import sys
+def print_python_version():
+        print(sys.version)
