@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
