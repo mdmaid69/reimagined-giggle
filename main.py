@@ -1,6 +1,8 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
