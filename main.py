@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
