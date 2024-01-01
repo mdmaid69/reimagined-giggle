@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
