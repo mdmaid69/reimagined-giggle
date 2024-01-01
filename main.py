@@ -1,6 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
