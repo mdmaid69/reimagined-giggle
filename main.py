@@ -1,7 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def get_array_as_str(array):
+        return str(array)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
