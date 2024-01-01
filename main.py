@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import logging
-def log_message(message):
-        logging.info(message)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
