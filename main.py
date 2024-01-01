@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
