@@ -1,4 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_as_repr(array):
+        return repr(array)
