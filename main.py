@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_volume(length, width, height):
-        return length * width * height
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
