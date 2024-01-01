@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import datetime
+print(datetime.datetime.now())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
