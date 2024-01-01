@@ -1,6 +1,8 @@
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def get_array_as_bool(array):
+        return bool(array)
