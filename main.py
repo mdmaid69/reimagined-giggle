@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
