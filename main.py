@@ -1,7 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
