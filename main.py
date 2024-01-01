@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_area_rectangle(l, w):
+        return l * w
