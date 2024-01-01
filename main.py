@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_exponential(x):
+        return math.exp(x)
+import getpass
+def get_username():
+        return getpass.getuser()
