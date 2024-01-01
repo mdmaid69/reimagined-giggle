@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
