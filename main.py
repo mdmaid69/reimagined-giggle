@@ -1,5 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import time
-print(time.time())
+def sort_numbers(numbers):
+        return sorted(numbers)
+  def convert_to_octal(n):
+        return oct(n)
