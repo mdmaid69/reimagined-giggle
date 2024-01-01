@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
