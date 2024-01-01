@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
