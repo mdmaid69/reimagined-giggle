@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
