@@ -1,5 +1,7 @@
-  def is_odd(n):
-        return n % 2 != 0
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import collections
+def create_user_string():
+        return collections.UserString()
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
