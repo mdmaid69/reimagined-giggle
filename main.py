@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def add_numbers(x, y):
+        return x + y
