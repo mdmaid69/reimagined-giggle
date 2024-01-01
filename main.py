@@ -1,5 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  def multiply_numbers(x, y):
-        return x * y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
