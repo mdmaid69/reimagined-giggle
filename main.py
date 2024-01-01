@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
