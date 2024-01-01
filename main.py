@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
