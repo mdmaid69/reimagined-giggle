@@ -1,5 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_pressure(force, area):
-        return force / area
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
