@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def reverse_string(s):
+        return s[::-1]
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
