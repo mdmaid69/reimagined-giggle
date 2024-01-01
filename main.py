@@ -1,7 +1,10 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+print([x**2 for x in range(10)])
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
