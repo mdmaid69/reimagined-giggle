@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def get_array_index(array, item):
+        return array.index(item)
