@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  def multiply_numbers(x, y):
+        return x * y
