@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
