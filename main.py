@@ -1,5 +1,9 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
