@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def find_max(numbers):
-        return max(numbers)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
