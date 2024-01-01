@@ -1,5 +1,5 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def reverse_list(lst):
-        return lst[::-1]
+print(math.pi)
+import array
+def get_array_as_str(array):
+        return str(array)
