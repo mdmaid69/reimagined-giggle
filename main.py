@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def sort_list(lst):
+        return sorted(lst)
