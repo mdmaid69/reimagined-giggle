@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
 import json
-def convert_to_json(data):
-        return json.dumps(data)
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
