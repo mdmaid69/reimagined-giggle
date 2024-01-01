@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_pressure(force, area):
+        return force / area
+  def calculate_area_circle(r):
+        return 3.14 * r**2
