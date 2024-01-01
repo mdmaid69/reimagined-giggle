@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
