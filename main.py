@@ -1,5 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
