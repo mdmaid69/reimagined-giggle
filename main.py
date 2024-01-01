@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
