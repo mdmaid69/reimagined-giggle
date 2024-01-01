@@ -1,5 +1,7 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import sys
+def exit_program():
+        sys.exit()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
