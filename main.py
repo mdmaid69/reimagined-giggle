@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
