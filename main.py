@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def subtract_numbers(x, y):
-        return x - y
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
