@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import sys
+  def get_python_version():
+        return sys.version
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
