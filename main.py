@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
