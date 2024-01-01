@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
