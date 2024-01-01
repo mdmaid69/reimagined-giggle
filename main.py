@@ -1,6 +1,6 @@
+import array
+def get_array_length(array):
+        return len(array)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
