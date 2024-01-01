@@ -1,5 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
