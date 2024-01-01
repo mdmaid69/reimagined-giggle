@@ -1,6 +1,7 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
