@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
