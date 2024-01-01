@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import sys
+print(sys.version)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
