@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
