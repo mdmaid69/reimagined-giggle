@@ -1,6 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
