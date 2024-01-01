@@ -1,8 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+from collections import Counter
+print(Counter("hello world"))
