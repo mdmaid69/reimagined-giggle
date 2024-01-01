@@ -1,4 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
