@@ -1,6 +1,7 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_complex(array):
+        return complex(array[0])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
