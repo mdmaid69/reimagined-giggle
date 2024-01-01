@@ -1,5 +1,12 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
