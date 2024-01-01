@@ -1,5 +1,4 @@
-import os
-print(os.getcwd())
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def is_even(n):
+        return n % 2 == 0
