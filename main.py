@@ -1,7 +1,7 @@
-import json
-def load_json(filename):
+def remove_duplicates(lst):
+        return list(set(lst))
+import csv
+def load_csv(filename):
         with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+        reader = csv.reader(f)
+        return list(reader)
