@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
