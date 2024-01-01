@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
