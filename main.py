@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
