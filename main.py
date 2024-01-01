@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
