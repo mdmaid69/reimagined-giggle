@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
