@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
+def add_numbers(a, b):
+        return a + b
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
