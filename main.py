@@ -1,7 +1,3 @@
-def cube_number(x):
-        return x**3
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+print("Hello, world!")
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
