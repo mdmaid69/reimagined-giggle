@@ -1,4 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-print(sum(range(10)))
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
