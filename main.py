@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import collections
+def create_counter():
+        return collections.Counter()
