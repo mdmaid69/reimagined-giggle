@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_error_function(x):
+        return math.erf(x)
