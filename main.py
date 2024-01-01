@@ -1,6 +1,8 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
