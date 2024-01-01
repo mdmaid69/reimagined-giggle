@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
