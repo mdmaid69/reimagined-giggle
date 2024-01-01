@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+print([x**2 for x in range(10)])
