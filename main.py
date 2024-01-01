@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
