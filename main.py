@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
