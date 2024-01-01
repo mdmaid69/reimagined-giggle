@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
