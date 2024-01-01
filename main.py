@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def delete_file(file_name):
+        os.remove(file_name)
