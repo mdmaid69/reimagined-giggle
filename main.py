@@ -1,6 +1,9 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import getpass
-def get_username():
-        return getpass.getuser()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
