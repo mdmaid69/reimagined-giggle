@@ -1,6 +1,8 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
