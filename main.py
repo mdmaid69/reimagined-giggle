@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
