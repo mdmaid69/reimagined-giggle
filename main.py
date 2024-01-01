@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
