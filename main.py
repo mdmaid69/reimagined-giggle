@@ -1,5 +1,4 @@
+for i in range(10): print(i)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
