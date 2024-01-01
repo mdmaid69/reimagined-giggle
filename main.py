@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
