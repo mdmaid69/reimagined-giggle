@@ -1,6 +1,6 @@
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
