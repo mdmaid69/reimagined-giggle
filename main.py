@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
