@@ -1,6 +1,6 @@
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
