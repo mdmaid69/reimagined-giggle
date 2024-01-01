@@ -1,5 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_stack():
-        return collections.deque()
+def divide_numbers(x, y):
+        return x / y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
