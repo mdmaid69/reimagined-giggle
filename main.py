@@ -1,6 +1,7 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
