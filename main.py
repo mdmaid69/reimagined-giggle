@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
