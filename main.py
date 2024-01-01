@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
