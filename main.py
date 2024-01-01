@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
