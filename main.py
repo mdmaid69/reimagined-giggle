@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def multiply_numbers(x, y):
+        return x * y
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
