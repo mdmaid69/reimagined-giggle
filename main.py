@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
