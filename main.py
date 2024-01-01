@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import random
-print(random.randint(0, 100))
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def multiply_numbers(x, y):
+        return x * y
