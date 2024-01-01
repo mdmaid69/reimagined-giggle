@@ -1,6 +1,7 @@
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
