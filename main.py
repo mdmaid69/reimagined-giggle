@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
