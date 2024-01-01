@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import sys
+def exit_program():
+        sys.exit()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
