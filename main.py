@@ -1,5 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  def is_odd(n):
-        return n % 2 != 0
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
