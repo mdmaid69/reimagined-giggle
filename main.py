@@ -1,7 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
