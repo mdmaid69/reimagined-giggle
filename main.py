@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import sys
-  def get_python_version():
-        return sys.version
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import numpy as np
+print(np.array([1, 2, 3]))
