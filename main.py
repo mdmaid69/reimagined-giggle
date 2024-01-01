@@ -1,6 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
