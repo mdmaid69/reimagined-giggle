@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_set(array):
+        return set(array)
