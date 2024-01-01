@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
