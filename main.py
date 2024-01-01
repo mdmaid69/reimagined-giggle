@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import platform
-def get_os_info():
-        return platform.uname()
+print(sum(range(10)))
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
