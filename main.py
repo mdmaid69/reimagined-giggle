@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
