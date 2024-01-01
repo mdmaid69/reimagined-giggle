@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
