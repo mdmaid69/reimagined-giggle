@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
