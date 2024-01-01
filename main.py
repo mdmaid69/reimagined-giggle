@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+name = "Python"
+print("Hello,", name)
