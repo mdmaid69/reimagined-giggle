@@ -1,6 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def multiply_numbers(x, y):
+        return x * y
+def count_words(sentence):
+        return len(sentence.split())
