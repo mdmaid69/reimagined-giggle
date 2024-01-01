@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
