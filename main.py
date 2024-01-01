@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
