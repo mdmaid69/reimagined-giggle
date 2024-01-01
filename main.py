@@ -1,5 +1,8 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
