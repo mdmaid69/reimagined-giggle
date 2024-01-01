@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def clear_array(array):
-        array *= 0
+import logging
+def log_message(message):
+        logging.info(message)
+def cube_number(x):
+        return x**3
