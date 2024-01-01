@@ -1,5 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+i = 0
+while i < 5:
+        print(i)
+        i += 1
