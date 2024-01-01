@@ -1,5 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_floor(x):
+        return math.floor(x)
