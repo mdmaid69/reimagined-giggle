@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import getpass
+def get_username():
+        return getpass.getuser()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
