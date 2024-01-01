@@ -1,7 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
