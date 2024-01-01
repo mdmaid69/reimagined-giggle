@@ -1,6 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def find_min(numbers):
+        return min(numbers)
