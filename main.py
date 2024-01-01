@@ -1,4 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+print("Hello, world!")
