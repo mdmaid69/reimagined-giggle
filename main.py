@@ -1,5 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def add_numbers(x, y):
+        return x + y
