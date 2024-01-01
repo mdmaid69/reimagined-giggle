@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
