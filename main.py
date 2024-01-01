@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  def cube_number(x):
+        return x**3
