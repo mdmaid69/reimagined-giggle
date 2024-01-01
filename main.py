@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
