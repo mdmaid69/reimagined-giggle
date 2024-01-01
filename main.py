@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def reverse_list(lst):
+        return lst[::-1]
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
