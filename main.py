@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Characters:", len(text))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
