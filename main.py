@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import datetime
-print(datetime.datetime.now())
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
