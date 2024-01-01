@@ -1,7 +1,6 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
