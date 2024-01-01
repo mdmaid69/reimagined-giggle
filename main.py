@@ -1,8 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
