@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import tensorflow as tf
+print(tf.__version__)
