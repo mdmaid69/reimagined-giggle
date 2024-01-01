@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def get_current_directory():
+        return os.getcwd()
