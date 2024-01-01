@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
