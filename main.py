@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
