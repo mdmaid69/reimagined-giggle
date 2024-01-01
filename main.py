@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import sys
+def print_python_version():
+        print(sys.version)
