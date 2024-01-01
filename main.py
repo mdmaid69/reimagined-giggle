@@ -1,5 +1,7 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def get_array_as_list(array):
+        return list(array)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
