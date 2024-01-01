@@ -1,6 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def reverse_list(lst):
+        return lst[::-1]
