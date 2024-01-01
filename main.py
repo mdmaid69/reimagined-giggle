@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
