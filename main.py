@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
