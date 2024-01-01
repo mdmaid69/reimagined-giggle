@@ -1,6 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
