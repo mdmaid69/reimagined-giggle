@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_as_int(array):
+        return int(array[0])
