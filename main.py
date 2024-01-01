@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
