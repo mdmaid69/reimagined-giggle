@@ -1,9 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
