@@ -1,6 +1,4 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
