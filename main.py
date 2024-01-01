@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
