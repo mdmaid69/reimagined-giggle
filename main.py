@@ -1,10 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
