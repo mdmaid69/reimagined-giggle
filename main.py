@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
 import platform
-def get_python_version():
-        return platform.python_version()
+def get_os_info():
+        return platform.uname()
+import collections
+def create_queue():
+        return collections.deque()
