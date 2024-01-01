@@ -1,5 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-def find_min(lst):
-        return min(lst)
+def clear_array(array):
+        array *= 0
+import math
+def calculate_cosine(x):
+        return math.cos(x)
