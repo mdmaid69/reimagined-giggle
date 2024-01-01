@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def reverse_array(array):
-        array.reverse()
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_current_directory():
+        return os.getcwd()
