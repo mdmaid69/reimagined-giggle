@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_work(force, distance):
-        return force * distance
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import sys
+def exit_program():
+        sys.exit()
