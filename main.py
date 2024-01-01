@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import datetime
+print(datetime.datetime.now())
+  def is_even(n):
+        return n % 2 == 0
