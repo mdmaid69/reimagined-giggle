@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def subtract_numbers(x, y):
-        return x - y
+def convert_to_binary(n):
+        return bin(n)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
