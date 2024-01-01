@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_pressure(force, area):
+        return force / area
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
