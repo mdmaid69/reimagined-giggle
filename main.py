@@ -1,8 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def add_numbers(x, y):
+        return x + y
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
