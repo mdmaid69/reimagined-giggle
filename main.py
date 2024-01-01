@@ -1,4 +1,7 @@
-  def add_numbers(x, y):
-        return x + y
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
