@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+print(re.match("h.*o", "hello world"))
