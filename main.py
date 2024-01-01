@@ -1,5 +1,9 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
