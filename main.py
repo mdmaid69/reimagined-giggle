@@ -1,5 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_area_rectangle(l, w):
-        return l * w
+  def subtract_numbers(x, y):
+        return x - y
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
