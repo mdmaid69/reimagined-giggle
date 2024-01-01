@@ -1,5 +1,7 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_perpetuity(payment, rate):
+        return payment / rate
