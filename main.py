@@ -1,5 +1,8 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_pressure(force, area):
-        return force / area
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import datetime
+def get_current_date():
+        return datetime.date.today()
