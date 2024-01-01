@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
