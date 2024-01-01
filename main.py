@@ -1,7 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
