@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
