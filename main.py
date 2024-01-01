@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
