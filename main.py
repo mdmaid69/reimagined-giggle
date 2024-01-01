@@ -1,7 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
