@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
