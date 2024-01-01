@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def cube_number(x):
+        return x**3
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
