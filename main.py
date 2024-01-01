@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
