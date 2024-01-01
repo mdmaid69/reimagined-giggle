@@ -1,5 +1,6 @@
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
