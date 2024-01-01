@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
