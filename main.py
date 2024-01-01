@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
