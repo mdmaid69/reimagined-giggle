@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
