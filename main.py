@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import sys
+def print_python_version():
+        print(sys.version)
