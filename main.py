@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
