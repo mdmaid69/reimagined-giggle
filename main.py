@@ -1,5 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import time
+def get_current_time():
+        return time.ctime()
