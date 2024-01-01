@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def reverse_list(lst):
-        return lst[::-1]
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
