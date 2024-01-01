@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
