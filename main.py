@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import collections
-def create_user_string():
-        return collections.UserString()
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
