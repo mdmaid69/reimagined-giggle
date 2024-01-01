@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import re
+print(re.match("h.*o", "hello world"))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
