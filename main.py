@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
