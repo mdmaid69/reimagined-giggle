@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
