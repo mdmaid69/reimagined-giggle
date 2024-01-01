@@ -1,5 +1,7 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-for i in range(5):
-        print(i)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
