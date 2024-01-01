@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
