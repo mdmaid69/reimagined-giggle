@@ -1,5 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
