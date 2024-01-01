@@ -1,6 +1,8 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
