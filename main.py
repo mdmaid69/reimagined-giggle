@@ -1,6 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_area(radius):
+        return 3.14 * radius * radius
