@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
