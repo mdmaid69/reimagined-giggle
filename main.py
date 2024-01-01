@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
