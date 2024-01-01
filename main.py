@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
