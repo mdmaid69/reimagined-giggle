@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
