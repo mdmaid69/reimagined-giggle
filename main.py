@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import random
+print(random.randint(0, 100))
+def find_min(lst):
+        return min(lst)
