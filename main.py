@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_as_set(array):
-        return set(array)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
