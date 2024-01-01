@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def square_number(x):
-        return x**2
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
