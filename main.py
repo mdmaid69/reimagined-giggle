@@ -1,5 +1,7 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
