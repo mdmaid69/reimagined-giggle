@@ -1,5 +1,8 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import time
+def get_time_since_epoch():
+        return time.time()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
