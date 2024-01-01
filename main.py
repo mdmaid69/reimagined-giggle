@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import time
-def get_current_time():
-        return time.ctime()
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
