@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
