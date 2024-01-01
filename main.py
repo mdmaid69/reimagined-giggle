@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
