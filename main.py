@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def count_words(sentence):
+        return len(sentence.split())
