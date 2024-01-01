@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
