@@ -1,6 +1,9 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
