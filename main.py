@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_area_circle(r):
+        return 3.14 * r**2
