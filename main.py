@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def count_elements(lst):
+        return len(lst)
