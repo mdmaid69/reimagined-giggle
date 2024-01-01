@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def reverse_list(lst):
+        return lst[::-1]
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
