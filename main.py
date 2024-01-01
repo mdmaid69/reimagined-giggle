@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_density(mass, volume):
+        return mass / volume
