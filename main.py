@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
