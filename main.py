@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import sys
+  def get_python_version():
+        return sys.version
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
