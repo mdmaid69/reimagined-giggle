@@ -1,5 +1,8 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
