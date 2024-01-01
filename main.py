@@ -1,5 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def find_min(numbers):
-        return min(numbers)
+import platform
+def get_python_version():
+        return platform.python_version()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
