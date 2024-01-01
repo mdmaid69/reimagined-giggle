@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import sys
-def exit_program():
-        sys.exit()
+  def cube_number(x):
+        return x**3
+def calculate_acceleration(speed, time):
+        return speed / time
