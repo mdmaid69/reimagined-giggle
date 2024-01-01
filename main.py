@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+from collections import Counter
+print(Counter("hello world"))
