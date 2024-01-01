@@ -1,5 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+text = "Hello, world!"
+print("Words:", len(text.split()))
