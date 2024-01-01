@@ -1,5 +1,7 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
