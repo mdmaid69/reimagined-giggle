@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
