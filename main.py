@@ -1,4 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-for i in range(5):
-        print(i)
+def calculate_work(force, distance):
+        return force * distance
+  def cube_number(x):
+        return x**3
