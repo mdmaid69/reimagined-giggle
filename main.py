@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
