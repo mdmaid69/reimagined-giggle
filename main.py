@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
