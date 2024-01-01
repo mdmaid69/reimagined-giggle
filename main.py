@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_length(array):
-        return len(array)
+print("Hello, world!")
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
