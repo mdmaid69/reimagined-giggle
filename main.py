@@ -1,6 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
