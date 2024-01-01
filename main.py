@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
