@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_volume(length, width, height):
-        return length * width * height
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
