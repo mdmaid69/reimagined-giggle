@@ -1,5 +1,8 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
