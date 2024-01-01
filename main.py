@@ -1,5 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
