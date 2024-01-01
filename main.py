@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
