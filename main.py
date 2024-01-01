@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def subtract_numbers(x, y):
-        return x - y
+import collections
+def create_stack():
+        return collections.deque()
+text = "Hello, world!"
+print("Characters:", len(text))
