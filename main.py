@@ -1,6 +1,8 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
