@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def count_elements(lst):
+        return len(lst)
+def is_palindrome(s):
+        return s == s[::-1]
