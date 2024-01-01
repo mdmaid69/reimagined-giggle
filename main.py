@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import sys
-print(sys.version)
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
