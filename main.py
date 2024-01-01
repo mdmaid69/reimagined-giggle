@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def reverse_list(lst):
-        return lst[::-1]
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def calculate_speed(distance, time):
+        return distance / time
