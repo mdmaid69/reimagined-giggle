@@ -1,5 +1,7 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
