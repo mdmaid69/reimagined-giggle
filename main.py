@@ -1,6 +1,5 @@
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_logarithm(base, x):
+        return math.log(x, base)
