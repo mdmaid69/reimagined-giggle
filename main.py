@@ -1,8 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
