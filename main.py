@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+print(math.pi)
+def is_odd(n):
+        return n % 2 != 0
