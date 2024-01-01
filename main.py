@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-def is_even(n):
-        return n % 2 == 0
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import datetime
+def get_current_date():
+        return datetime.date.today()
