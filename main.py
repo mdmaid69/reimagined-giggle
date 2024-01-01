@@ -1,4 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
