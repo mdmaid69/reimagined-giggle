@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
