@@ -1,11 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
