@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
