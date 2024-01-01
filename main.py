@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
