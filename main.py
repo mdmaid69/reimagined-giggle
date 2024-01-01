@@ -1,5 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
