@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_error_function(x):
+        return math.erf(x)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
