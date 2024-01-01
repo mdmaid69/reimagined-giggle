@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def find_min(lst):
+        return min(lst)
