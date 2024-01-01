@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+text = "Hello, world!"
+print("Characters:", len(text))
+  def cube_number(x):
+        return x**3
