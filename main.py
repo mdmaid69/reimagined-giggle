@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import sys
+def exit_program():
+        sys.exit()
