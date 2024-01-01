@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
