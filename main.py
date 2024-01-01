@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
