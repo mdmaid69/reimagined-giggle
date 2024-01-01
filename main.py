@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import sys
+def exit_program():
+        sys.exit()
+  def count_elements(lst):
+        return len(lst)
