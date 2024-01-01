@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
