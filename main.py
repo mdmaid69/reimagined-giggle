@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
