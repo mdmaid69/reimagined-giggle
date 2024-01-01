@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+for i in range(5):
+        print(i)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
