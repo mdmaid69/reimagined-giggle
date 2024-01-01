@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def find_max(lst):
-        return max(lst)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import time
+print(time.time())
