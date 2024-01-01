@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
