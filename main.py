@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def find_max(lst):
-        return max(lst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
