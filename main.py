@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import os
-  def split_path(path):
-        return os.path.split(path)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_error_function(x):
+        return math.erf(x)
