@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
