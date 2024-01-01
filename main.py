@@ -1,5 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
