@@ -1,5 +1,9 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
