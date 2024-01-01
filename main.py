@@ -1,8 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_item(array, i):
+        return array[i]
