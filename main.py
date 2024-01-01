@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def count_elements(lst):
-        return len(lst)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import collections
+def create_stack():
+        return collections.deque()
