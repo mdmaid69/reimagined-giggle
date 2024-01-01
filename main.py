@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
