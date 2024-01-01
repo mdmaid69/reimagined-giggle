@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
