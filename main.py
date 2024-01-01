@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import collections
+def create_stack():
+        return collections.deque()
