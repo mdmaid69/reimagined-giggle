@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
