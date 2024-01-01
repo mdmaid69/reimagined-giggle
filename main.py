@@ -1,4 +1,7 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
