@@ -1,5 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-import sys
-def exit_program():
-        sys.exit()
+print("Hello, world!")
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
