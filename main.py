@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
