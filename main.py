@@ -1,7 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_bytes_from_array(array):
+        return array.tobytes()
