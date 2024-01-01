@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def calculate_area_rectangle(l, w):
+        return l * w
