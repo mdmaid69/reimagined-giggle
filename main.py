@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
