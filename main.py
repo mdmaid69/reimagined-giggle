@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
