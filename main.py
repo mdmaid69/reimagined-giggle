@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
