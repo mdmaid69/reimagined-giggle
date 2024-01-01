@@ -1,6 +1,6 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def get_array_slice(array, i, j):
+        return array[i:j]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
