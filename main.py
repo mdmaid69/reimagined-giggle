@@ -1,14 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import sys
+def exit_program():
+        sys.exit()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
