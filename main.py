@@ -1,6 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
