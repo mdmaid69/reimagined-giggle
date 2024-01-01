@@ -1,5 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_density(mass, volume):
-        return mass / volume
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
