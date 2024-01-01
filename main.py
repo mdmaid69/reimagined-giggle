@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def divide_numbers(x, y):
-        return x / y
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
