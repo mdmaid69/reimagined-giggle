@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  def calculate_area_rectangle(l, w):
-        return l * w
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
