@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
