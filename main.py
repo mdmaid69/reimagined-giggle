@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
