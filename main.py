@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
