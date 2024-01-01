@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
