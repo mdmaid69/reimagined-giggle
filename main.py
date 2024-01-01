@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import random
-def roll_die():
-        return random.randint(1, 6)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
