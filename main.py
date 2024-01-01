@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_power(work, time):
-        return work / time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
