@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_acceleration(speed, time):
+        return speed / time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
