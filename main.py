@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def square_number(x):
+        return x**2
