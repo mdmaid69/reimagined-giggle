@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_work(force, distance):
+        return force * distance
