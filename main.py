@@ -1,6 +1,9 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_itemsize(array):
+        return array.itemsize
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
