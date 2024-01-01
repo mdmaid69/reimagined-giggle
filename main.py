@@ -1,6 +1,5 @@
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
 import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
