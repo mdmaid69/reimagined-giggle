@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_list_from_array(array):
+        return array.tolist()
