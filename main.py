@@ -1,5 +1,7 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
