@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
