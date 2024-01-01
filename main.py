@@ -1,5 +1,10 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
