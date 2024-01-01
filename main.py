@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
