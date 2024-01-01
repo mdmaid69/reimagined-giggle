@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import re
-print(re.match("h.*o", "hello world"))
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
