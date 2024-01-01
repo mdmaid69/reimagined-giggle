@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
