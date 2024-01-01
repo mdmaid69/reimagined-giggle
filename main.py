@@ -1,5 +1,7 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import tensorflow as tf
-print(tf.__version__)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
