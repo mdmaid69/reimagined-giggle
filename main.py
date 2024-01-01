@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+x = 10
+y = 20
+print("Sum:", x + y)
