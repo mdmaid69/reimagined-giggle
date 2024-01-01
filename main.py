@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import json
+print(json.dumps({"name": "John", "age": 30}))
