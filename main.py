@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
