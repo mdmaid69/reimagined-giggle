@@ -1,6 +1,7 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
