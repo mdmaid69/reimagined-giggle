@@ -1,6 +1,7 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
