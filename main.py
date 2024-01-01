@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
