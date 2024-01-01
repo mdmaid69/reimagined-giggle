@@ -1,7 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
