@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import array
+def get_array_as_set(array):
+        return set(array)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
