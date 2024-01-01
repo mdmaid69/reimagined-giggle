@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
