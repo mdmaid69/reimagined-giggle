@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
