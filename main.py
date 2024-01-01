@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
