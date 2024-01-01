@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
