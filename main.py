@@ -1,4 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-print(sum(range(10)))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
