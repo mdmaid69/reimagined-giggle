@@ -1,5 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def convert_to_hex(n):
+        return hex(n)
+def cube_number(x):
+        return x**3
