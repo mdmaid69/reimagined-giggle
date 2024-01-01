@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import platform
+def get_os_info():
+        return platform.uname()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
