@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import datetime
+def get_current_date():
+        return datetime.date.today()
