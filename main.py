@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def is_even(n):
+        return n % 2 == 0
+text = "Hello, world!"
+print("Words:", len(text.split()))
