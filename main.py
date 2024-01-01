@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
