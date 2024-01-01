@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
