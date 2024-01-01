@@ -1,6 +1,5 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+print(math.pi)
