@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import random
+def roll_die():
+        return random.randint(1, 6)
