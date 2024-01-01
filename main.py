@@ -1,5 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-for i in range(5):
-        print(i)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
