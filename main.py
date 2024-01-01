@@ -1,6 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
