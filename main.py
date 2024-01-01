@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_as_bytes(array):
+        return bytes(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
