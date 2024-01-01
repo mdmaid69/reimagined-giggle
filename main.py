@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_current_working_directory():
+        return os.getcwd()
