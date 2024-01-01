@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_power(work, time):
-        return work / time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
