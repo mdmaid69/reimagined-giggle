@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import time
+def get_current_time():
+        return time.time()
