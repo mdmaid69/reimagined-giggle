@@ -1,7 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
