@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+i = 0
+while i < 5:
+        print(i)
+        i += 1
