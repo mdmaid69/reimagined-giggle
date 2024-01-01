@@ -1,5 +1,8 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
