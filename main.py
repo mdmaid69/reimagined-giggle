@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
