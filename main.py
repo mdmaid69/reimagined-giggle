@@ -1,5 +1,12 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
