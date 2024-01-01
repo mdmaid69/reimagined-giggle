@@ -1,5 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
