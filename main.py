@@ -1,5 +1,10 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
