@@ -1,7 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
   import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def calculate_median(arr):
+        return np.median(arr)
