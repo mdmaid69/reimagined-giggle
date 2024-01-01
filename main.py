@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import time
+def get_time_since_epoch():
+        return time.time()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
