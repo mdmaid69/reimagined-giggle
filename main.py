@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
