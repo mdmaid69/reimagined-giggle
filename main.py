@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+for i in range(5):
+        print(i)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
