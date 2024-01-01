@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  def reverse_list(lst):
+        return lst[::-1]
