@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def reverse_list(lst):
+        return lst[::-1]
