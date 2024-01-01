@@ -1,5 +1,5 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def find_max(lst):
+        return max(lst)
