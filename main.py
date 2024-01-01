@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def clear_array(array):
-        array *= 0
+print([x**2 for x in range(10)])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
