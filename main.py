@@ -1,6 +1,8 @@
-import sys
-def print_python_version():
-        return sys.version
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def clear_array(array):
+        array *= 0
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
