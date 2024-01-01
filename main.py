@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import random
+def roll_die():
+        return random.randint(1, 6)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
