@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  def multiply_numbers(x, y):
+        return x * y
