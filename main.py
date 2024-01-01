@@ -1,6 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
