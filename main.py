@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_area_circle(r):
+        return 3.14 * r**2
