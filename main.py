@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
