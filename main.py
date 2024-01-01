@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def square_number(x):
+        return x**2
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
