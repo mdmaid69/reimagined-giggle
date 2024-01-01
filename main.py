@@ -1,6 +1,8 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
