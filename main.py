@@ -1,3 +1,5 @@
-print(sum(range(10)))
-def convert_to_octal(n):
-        return oct(n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
