@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+i = 0
+while i < 5:
+        print(i)
+        i += 1
