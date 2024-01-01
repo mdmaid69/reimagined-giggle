@@ -1,5 +1,7 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
