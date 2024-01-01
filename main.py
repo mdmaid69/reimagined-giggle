@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_work(force, distance):
+        return force * distance
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
