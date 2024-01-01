@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
