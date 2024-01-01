@@ -1,5 +1,8 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_density(mass, volume):
-        return mass / volume
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
