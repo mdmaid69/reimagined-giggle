@@ -1,4 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-print([x**2 for x in range(10)])
+def convert_to_binary(n):
+        return bin(n)
+  def convert_to_hex(n):
+        return hex(n)
