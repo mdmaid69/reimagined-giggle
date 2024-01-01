@@ -1,5 +1,8 @@
-import time
-print(time.time())
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_complex(array):
+        return complex(array[0])
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
