@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def is_even(n):
+        return n % 2 == 0
