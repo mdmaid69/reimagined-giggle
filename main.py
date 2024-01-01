@@ -1,4 +1,5 @@
 import math
-print(math.pi)
-def find_min(lst):
-        return min(lst)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
