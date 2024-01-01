@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_work(force, distance):
-        return force * distance
+def multiply_numbers(x, y):
+        return x * y
+import logging
+def log_message(message):
+        logging.info(message)
