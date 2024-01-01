@@ -1,4 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
