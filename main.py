@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
