@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+print([x**2 for x in range(10)])
