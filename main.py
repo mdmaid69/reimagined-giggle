@@ -1,8 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
