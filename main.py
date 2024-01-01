@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_as_str(array):
-        return str(array)
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
