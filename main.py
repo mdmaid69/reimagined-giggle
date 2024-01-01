@@ -1,5 +1,8 @@
-def sort_list(lst):
-        return sorted(lst)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
