@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
