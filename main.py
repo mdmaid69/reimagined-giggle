@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def sort_list(lst):
+        return sorted(lst)
+import numpy as np
+print(np.array([1, 2, 3]))
