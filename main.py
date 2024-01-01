@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def subtract_numbers(x, y):
+        return x - y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
