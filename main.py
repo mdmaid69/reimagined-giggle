@@ -1,6 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
