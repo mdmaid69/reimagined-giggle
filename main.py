@@ -1,6 +1,8 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_bytes(array):
+        return bytes(array)
