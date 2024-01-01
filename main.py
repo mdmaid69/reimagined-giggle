@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def count_elements(lst):
+        return len(lst)
