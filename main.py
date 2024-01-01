@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
