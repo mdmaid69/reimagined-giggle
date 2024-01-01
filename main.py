@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def reverse_string(s):
+        return s[::-1]
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
