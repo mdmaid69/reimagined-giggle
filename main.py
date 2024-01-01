@@ -1,4 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import re
-print(re.match("h.*o", "hello world"))
+def reverse_string(s):
+        return s[::-1]
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
