@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
