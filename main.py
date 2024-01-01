@@ -1,8 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def remove_from_array(array, item):
+        array.remove(item)
