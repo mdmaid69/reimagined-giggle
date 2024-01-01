@@ -1,6 +1,7 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
