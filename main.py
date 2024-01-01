@@ -1,7 +1,7 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
