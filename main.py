@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def square_number(x):
+        return x**2
