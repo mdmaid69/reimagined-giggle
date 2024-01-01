@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_density(mass, volume):
-        return mass / volume
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
