@@ -1,5 +1,12 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import random
-def roll_die():
-        return random.randint(1, 6)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
