@@ -1,7 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
