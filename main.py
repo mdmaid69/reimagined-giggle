@@ -1,6 +1,7 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import sys
+def print_python_version():
+        return sys.version
+i = 0
+while i < 5:
+        print(i)
+        i += 1
