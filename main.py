@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
