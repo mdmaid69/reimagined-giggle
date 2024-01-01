@@ -1,7 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def square_number(x):
+        return x**2
