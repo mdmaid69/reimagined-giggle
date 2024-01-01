@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def get_array_typecode(array):
+        return array.typecode
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
