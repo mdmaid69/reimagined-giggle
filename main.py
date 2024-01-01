@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+print([x**2 for x in range(10)])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
