@@ -1,8 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def add_numbers(x, y):
+        return x + y
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
