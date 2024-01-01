@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+from collections import Counter
+print(Counter("hello world"))
