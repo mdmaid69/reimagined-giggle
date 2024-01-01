@@ -1,6 +1,5 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
