@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
