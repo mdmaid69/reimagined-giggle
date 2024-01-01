@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def greet(name):
+        print(f"Hello, {name}!")
