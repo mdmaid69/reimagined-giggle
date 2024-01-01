@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
