@@ -1,6 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
