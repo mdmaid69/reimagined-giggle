@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
