@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def is_odd(n):
-        return n % 2 != 0
+  def multiply_numbers(x, y):
+        return x * y
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
