@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import sys
+def exit_program():
+        sys.exit()
