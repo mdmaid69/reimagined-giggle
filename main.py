@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def count_elements(lst):
-        return len(lst)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
