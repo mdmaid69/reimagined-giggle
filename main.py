@@ -1,6 +1,4 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+def add_numbers(x, y):
+        return x + y
+def calculate_work(force, distance):
+        return force * distance
