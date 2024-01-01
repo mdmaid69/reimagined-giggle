@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
