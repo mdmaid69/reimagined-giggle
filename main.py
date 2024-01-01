@@ -1,8 +1,8 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
