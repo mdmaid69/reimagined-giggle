@@ -1,5 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_pressure(force, area):
-        return force / area
+  def subtract_numbers(x, y):
+        return x - y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
