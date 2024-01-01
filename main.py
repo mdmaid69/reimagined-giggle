@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
