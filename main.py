@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
