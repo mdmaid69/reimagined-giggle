@@ -1,6 +1,7 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import collections
-def create_stack():
-        return collections.deque()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
