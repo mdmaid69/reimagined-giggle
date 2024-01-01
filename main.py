@@ -1,11 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def get_array_as_repr(array):
+        return repr(array)
