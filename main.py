@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import collections
-def create_queue():
-        return collections.deque()
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
