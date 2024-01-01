@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
