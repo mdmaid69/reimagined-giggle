@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def multiply_numbers(x, y):
-        return x * y
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
