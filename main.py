@@ -1,5 +1,6 @@
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
 import array
-def get_array_length(array):
-        return len(array)
-def find_max(lst):
-        return max(lst)
+def get_string_from_array(array):
+        return array.tobytes()
