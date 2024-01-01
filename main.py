@@ -1,7 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def add_numbers(x, y):
+        return x + y
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def extend_array(array, iterable):
+        array.extend(iterable)
