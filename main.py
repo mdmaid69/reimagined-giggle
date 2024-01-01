@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import numpy as np
+print(np.array([1, 2, 3]))
