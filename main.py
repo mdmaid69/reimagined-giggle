@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  def reverse_list(lst):
-        return lst[::-1]
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
