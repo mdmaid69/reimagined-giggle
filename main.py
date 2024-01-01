@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def convert_to_octal(n):
-        return oct(n)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def get_array_as_list(array):
+        return list(array)
