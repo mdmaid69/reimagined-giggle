@@ -1,5 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_power(work, time):
+        return work / time
