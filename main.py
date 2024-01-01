@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  def cube_number(x):
-        return x**3
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
