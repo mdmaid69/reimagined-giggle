@@ -1,6 +1,16 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
