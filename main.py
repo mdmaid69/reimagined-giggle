@@ -1,6 +1,8 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
