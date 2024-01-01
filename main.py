@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def cube_number(x):
-        return x**3
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+from collections import Counter
+print(Counter("hello world"))
