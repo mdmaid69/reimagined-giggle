@@ -1,5 +1,8 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
