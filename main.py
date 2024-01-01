@@ -1,5 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def remove_duplicates(lst):
-        return list(set(lst))
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_pressure(force, area):
+        return force / area
