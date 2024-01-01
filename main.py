@@ -1,6 +1,5 @@
 import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_density(mass, volume):
+        return mass / volume
