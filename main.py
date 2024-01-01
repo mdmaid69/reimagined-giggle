@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
