@@ -1,8 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
