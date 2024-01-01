@@ -1,6 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
