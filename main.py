@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
