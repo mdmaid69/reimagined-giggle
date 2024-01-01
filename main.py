@@ -1,4 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def count_elements(lst):
+        return len(lst)
