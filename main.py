@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def get_array_as_set(array):
+        return set(array)
