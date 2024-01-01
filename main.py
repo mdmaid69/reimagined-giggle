@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def find_unique_words(sentence):
-        return set(sentence.split())
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
