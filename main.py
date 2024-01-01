@@ -1,5 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
