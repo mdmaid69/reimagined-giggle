@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_pressure(force, area):
+        return force / area
