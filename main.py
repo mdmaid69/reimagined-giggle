@@ -1,4 +1,8 @@
-def convert_to_binary(n):
-        return bin(n)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
