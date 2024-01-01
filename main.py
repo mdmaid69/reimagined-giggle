@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
