@@ -1,5 +1,8 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_typecode(array):
+        return array.typecode
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
