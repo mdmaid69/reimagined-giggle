@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def is_palindrome(s):
+        return s == s[::-1]
