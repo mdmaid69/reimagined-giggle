@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
 import collections
-def create_stack():
-        return collections.deque()
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
