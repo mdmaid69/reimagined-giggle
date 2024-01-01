@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import re
+print(re.match("h.*o", "hello world"))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
