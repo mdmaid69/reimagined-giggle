@@ -1,6 +1,6 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def convert_array_to_list(array):
+        return array.tolist()
