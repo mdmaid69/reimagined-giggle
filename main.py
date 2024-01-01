@@ -1,6 +1,11 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
