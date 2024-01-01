@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def sort_list(lst):
+        return sorted(lst)
