@@ -1,5 +1,7 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import os
+print(os.getcwd())
