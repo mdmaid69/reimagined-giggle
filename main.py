@@ -1,6 +1,8 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
