@@ -1,7 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
