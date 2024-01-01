@@ -1,8 +1,5 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
