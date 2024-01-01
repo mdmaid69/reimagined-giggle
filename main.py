@@ -1,5 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
