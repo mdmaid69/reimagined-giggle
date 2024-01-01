@@ -1,6 +1,5 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
