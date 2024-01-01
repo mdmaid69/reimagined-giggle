@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
