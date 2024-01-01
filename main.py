@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
