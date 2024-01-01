@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
