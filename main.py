@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
