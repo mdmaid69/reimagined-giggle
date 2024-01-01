@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
