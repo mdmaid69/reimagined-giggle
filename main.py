@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-def remove_duplicates(lst):
-        return list(set(lst))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
