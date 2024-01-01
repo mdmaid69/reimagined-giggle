@@ -1,6 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import collections
-def create_user_list():
-        return collections.UserList()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
