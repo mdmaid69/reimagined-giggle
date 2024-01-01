@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  def cube_number(x):
-        return x**3
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
