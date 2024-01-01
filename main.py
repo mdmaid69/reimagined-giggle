@@ -1,11 +1,3 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+print([x**2 for x in range(10)])
+  def remove_duplicates(lst):
+        return list(set(lst))
