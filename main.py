@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
