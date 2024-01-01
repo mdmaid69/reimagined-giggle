@@ -1,3 +1,8 @@
-print([x**2 for x in range(10)])
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
