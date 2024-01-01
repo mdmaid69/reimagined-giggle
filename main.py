@@ -1,12 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
