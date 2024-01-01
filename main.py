@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import re
+print(re.match("h.*o", "hello world"))
