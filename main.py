@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
