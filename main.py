@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
