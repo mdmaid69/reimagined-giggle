@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_work(force, distance):
+        return force * distance
