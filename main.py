@@ -1,6 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
