@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def divide_numbers(x, y):
+        return x / y
