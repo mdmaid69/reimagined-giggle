@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def get_array_as_float(array):
+        return float(array[0])
