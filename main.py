@@ -1,6 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
