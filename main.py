@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def get_array_itemsize(array):
+        return array.itemsize
