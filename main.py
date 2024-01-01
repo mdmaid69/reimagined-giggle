@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def remove_duplicates(lst):
+        return list(set(lst))
