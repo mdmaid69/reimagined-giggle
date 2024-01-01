@@ -1,6 +1,7 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
