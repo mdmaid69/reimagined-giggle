@@ -1,6 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
