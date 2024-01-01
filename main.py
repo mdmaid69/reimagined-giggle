@@ -1,6 +1,12 @@
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_absolute_value(x):
+        return math.fabs(x)
