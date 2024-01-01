@@ -1,5 +1,7 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_area_rectangle(l, w):
-        return l * w
+text = "Hello, world!"
+print("Characters:", len(text))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
