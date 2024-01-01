@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
