@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import collections
-def create_user_string():
-        return collections.UserString()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
