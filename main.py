@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
