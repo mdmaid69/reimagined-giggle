@@ -1,7 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def get_array_item(array, i):
+        return array[i]
