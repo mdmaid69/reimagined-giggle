@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
