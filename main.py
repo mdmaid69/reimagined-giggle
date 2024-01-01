@@ -1,8 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def convert_to_octal(n):
+        return oct(n)
