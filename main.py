@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def clear_array(array):
+        array *= 0
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
