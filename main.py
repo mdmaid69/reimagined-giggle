@@ -1,6 +1,3 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+print([x**2 for x in range(10)])
