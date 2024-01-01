@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def subtract_numbers(x, y):
+        return x - y
