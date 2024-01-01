@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import platform
-def get_os_info():
-        return platform.uname()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def convert_to_binary(n):
+        return bin(n)
