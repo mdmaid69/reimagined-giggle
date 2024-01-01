@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def convert_to_octal(n):
+        return oct(n)
+import sys
+def print_python_version():
+        return sys.version
