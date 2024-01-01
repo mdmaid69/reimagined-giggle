@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
