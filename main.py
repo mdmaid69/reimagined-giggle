@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import collections
+def create_queue():
+        return collections.deque()
