@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+for i in range(5):
+        print(i)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
