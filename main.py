@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_area_circle(r):
+        return 3.14 * r**2
