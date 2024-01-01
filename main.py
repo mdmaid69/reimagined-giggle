@@ -1,5 +1,6 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import array
-def get_array_as_str(array):
-        return str(array)
-def reverse_string(s):
-        return s[::-1]
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
