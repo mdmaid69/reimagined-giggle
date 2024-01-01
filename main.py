@@ -1,4 +1,8 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def multiply_numbers(x, y):
-        return x * y
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
