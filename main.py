@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
