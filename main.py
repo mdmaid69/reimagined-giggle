@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def is_even(n):
-        return n % 2 == 0
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
