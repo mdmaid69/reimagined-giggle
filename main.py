@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-import array
-def reverse_array(array):
-        array.reverse()
+def find_max(numbers):
+        return max(numbers)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
