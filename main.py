@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
