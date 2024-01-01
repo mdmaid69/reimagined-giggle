@@ -1,5 +1,9 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
