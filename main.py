@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_density(mass, volume):
+        return mass / volume
+x = 10
+y = 20
+print("Sum:", x + y)
