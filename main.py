@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-from collections import Counter
-print(Counter("hello world"))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import time
+def get_current_time():
+        return time.time()
