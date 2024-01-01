@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
