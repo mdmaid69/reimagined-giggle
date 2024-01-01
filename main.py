@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
