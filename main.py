@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
