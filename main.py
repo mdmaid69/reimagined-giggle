@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def is_palindrome(s):
-        return s == s[::-1]
+def convert_to_octal(n):
+        return oct(n)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
