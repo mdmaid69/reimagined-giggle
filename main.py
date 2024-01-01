@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
