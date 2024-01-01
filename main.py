@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
