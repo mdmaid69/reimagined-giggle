@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
