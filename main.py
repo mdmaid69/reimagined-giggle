@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
