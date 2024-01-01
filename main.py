@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def count_elements(lst):
-        return len(lst)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
