@@ -1,5 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
