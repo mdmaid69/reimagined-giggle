@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import collections
+def create_user_string():
+        return collections.UserString()
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
