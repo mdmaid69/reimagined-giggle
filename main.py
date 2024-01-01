@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
