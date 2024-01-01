@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_power(work, time):
+        return work / time
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_as_bytearray(array):
+        return bytearray(array)
