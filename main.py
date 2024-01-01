@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def is_odd(n):
+        return n % 2 != 0
