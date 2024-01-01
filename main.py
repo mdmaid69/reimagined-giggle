@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
