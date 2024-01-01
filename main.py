@@ -1,5 +1,5 @@
+import datetime
+print(datetime.datetime.now())
 import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def reverse_string(s):
-        return s[::-1]
+def split_string(pattern, string):
+        return re.split(pattern, string)
