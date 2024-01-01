@@ -1,6 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
