@@ -1,3 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-print(sum(range(10)))
+print("Hello, world!")
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
