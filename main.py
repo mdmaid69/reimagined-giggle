@@ -1,5 +1,8 @@
-  def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
