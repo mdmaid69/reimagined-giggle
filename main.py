@@ -1,8 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
