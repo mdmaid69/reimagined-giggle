@@ -1,4 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
