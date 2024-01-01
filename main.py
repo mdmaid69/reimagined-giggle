@@ -1,4 +1,8 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
