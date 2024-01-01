@@ -1,9 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+def subtract_numbers(x, y):
+        return x - y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
