@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def sort_list(lst):
+        return sorted(lst)
