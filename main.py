@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+x = 10
+y = 20
+print("Sum:", x + y)
