@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
