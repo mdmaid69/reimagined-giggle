@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def is_even(n):
+        return n % 2 == 0
