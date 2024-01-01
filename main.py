@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
