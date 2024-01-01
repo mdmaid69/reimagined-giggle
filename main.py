@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
