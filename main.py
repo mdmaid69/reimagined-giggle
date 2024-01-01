@@ -1,5 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def add_numbers(x, y):
-        return x + y
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
