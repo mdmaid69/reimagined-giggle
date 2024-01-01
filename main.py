@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+from collections import Counter
+print(Counter("hello world"))
