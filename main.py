@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
