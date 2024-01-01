@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def convert_to_hex(n):
+        return hex(n)
