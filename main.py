@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import time
+def get_current_time():
+        return time.ctime()
