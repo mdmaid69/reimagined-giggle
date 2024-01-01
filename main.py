@@ -1,5 +1,3 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+for i in range(10): print(i)
+def calculate_area_circle(r):
+        return 3.14 * r**2
