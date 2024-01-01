@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def is_palindrome(s):
+        return s == s[::-1]
