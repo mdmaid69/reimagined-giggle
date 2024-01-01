@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
