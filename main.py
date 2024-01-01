@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
