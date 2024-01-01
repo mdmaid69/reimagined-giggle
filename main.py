@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
