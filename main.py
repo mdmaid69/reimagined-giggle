@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-for i in range(5):
-        print(i)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
