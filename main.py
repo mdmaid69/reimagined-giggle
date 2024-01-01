@@ -1,6 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def reverse_list(lst):
+        return lst[::-1]
