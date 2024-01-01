@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
