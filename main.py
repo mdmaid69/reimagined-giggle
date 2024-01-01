@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
