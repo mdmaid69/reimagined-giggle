@@ -1,5 +1,5 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def clear_array(array):
+        array *= 0
+text = "Hello, world!"
+print("Reversed:", text[::-1])
