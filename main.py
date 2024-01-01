@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def divide_numbers(x, y):
-        return x / y
+def add_numbers(x, y):
+        return x + y
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
