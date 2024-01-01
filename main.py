@@ -1,5 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import json
+print(json.dumps({"name": "John", "age": 30}))
