@@ -1,4 +1,6 @@
-import math
-print(math.pi)
-import os
-print(os.getcwd())
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
