@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  def is_even(n):
+        return n % 2 == 0
