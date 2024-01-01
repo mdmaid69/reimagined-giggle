@@ -1,5 +1,5 @@
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
