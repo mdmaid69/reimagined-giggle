@@ -1,7 +1,5 @@
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
