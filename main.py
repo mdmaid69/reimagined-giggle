@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
