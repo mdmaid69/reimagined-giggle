@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def is_even(n):
+        return n % 2 == 0
+import getpass
+def get_username():
+        return getpass.getuser()
