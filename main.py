@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
