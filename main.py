@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def square_number(x):
+        return x**2
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
