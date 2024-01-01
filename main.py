@@ -1,6 +1,9 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import os
+def get_current_working_directory():
+        return os.getcwd()
