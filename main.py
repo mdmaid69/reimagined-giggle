@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
