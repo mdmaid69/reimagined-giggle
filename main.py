@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
