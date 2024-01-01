@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import tensorflow as tf
-print(tf.__version__)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
