@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_power(work, time):
+        return work / time
