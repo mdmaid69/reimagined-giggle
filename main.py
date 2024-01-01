@@ -1,8 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def insert_into_array(array, i, item):
+        array.insert(i, item)
