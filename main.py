@@ -1,4 +1,7 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import array
+def reverse_array(array):
+        array.reverse()
