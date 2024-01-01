@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
