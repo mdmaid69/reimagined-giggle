@@ -1,12 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
