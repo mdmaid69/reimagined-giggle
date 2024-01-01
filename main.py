@@ -1,7 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
