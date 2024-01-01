@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
