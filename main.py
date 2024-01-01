@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+from collections import Counter
+print(Counter("hello world"))
