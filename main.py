@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
