@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def count_words(sentence):
-        return len(sentence.split())
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def is_odd(n):
+        return n % 2 != 0
