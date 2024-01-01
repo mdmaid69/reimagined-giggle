@@ -1,6 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import collections
-def create_priority_queue():
-        return collections.deque()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
