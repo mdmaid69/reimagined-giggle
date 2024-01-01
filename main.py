@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def get_array_as_list(array):
+        return list(array)
+print([x**2 for x in range(10)])
