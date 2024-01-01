@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def find_union(list1, list2):
+        return set(list1) | set(list2)
