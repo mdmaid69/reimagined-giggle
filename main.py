@@ -1,6 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
