@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
