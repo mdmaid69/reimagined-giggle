@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
