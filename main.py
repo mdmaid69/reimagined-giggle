@@ -1,4 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
