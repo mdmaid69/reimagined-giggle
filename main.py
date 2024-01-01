@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
