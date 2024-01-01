@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import collections
+def create_user_dict():
+        return collections.UserDict()
