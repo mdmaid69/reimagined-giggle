@@ -1,7 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+print("Powers of 2:", [2**x for x in range(n)])
