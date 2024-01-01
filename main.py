@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
