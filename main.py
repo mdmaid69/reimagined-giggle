@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_speed(distance, time):
+        return distance / time
