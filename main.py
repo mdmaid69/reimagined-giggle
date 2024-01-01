@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def count_elements(lst):
+        return len(lst)
