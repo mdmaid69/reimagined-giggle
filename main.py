@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
