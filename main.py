@@ -1,7 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+for i in range(10): print(i)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
