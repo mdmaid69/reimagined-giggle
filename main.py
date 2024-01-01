@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def sort_list(lst):
-        return sorted(lst)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import collections
+def create_user_list():
+        return collections.UserList()
