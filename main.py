@@ -1,6 +1,7 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
