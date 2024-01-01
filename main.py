@@ -1,5 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+text = "Hello, world!"
+print("Words:", len(text.split()))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
