@@ -1,6 +1,5 @@
+def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
