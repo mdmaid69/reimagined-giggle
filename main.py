@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
