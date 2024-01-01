@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import sys
+def exit_program():
+        sys.exit()
+  def is_even(n):
+        return n % 2 == 0
