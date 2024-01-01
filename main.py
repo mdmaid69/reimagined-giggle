@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
