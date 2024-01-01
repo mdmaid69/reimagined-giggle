@@ -1,5 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
