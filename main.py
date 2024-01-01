@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
