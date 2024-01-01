@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
