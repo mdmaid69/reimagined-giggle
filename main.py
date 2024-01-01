@@ -1,6 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
