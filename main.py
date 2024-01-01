@@ -1,5 +1,3 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_array_typecode(array):
-        return array.typecode
+print(sum(range(10)))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
