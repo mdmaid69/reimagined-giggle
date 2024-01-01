@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
