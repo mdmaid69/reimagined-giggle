@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
