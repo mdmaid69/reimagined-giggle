@@ -1,6 +1,6 @@
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_density(mass, volume):
-        return mass / volume
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
