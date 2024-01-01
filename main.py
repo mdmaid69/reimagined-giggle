@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def cube_number(x):
+        return x**3
