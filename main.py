@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
