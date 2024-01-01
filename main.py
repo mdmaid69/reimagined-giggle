@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_speed(distance, time):
-        return distance / time
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import collections
+def create_priority_queue():
+        return collections.deque()
