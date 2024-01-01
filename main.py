@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def is_even(n):
-        return n % 2 == 0
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
