@@ -1,4 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-print([x**2 for x in range(10)])
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import collections
+def create_priority_queue():
+        return collections.deque()
