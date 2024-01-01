@@ -1,11 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
