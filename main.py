@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
