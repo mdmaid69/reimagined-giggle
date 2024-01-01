@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
