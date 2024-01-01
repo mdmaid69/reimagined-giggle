@@ -1,5 +1,10 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
