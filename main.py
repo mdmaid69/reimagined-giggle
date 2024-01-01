@@ -1,5 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-name = "Python"
-print("Hello,", name)
+def calculate_density(mass, volume):
+        return mass / volume
+text = "Hello, world!"
+print("Words:", len(text.split()))
