@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def divide_numbers(x, y):
+        return x / y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
