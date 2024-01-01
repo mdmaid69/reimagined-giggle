@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
