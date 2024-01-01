@@ -1,5 +1,7 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def calculate_pressure(force, area):
-        return force / area
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+text = "Hello, world!"
+print("Characters:", len(text))
