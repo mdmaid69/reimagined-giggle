@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
