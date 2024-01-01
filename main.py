@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  def cube_number(x):
-        return x**3
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
