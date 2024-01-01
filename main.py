@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def reverse_list(lst):
+        return lst[::-1]
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_repr(array):
+        return repr(array)
