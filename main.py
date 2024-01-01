@@ -1,5 +1,5 @@
+def find_min(lst):
+        return min(lst)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_work(force, distance):
-        return force * distance
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
