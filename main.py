@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
