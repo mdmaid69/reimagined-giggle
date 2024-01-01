@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
