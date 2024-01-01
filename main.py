@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_as_set(array):
+        return set(array)
+import sys
+def print_python_version():
+        return sys.version
