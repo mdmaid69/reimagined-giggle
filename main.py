@@ -1,5 +1,5 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-def find_min(numbers):
-        return min(numbers)
+def set_array_item(array, i, item):
+        array[i] = item
+def is_odd(n):
+        return n % 2 != 0
