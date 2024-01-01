@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def calculate_area_circle(r):
+        return 3.14 * r**2
