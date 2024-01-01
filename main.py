@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
