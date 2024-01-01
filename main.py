@@ -1,6 +1,8 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
