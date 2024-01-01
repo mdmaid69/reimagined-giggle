@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
