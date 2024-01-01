@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
