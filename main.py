@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_array_typecode(array):
+        return array.typecode
