@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
