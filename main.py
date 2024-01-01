@@ -1,3 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-print(sum(range(10)))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+x = 10
+y = 20
+print("Sum:", x + y)
