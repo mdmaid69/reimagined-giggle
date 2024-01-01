@@ -1,5 +1,6 @@
-import time
-print(time.time())
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def get_array_as_int(array):
+        return int(array[0])
