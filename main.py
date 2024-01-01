@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_speed(distance, time):
+        return distance / time
