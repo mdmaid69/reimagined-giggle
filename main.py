@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+print(sum(range(10)))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
