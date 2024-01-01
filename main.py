@@ -1,7 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import sys
+def exit_program():
+        sys.exit()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
