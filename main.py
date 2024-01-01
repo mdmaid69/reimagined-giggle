@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
