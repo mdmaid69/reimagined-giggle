@@ -1,4 +1,4 @@
-print(sum(range(10)))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def convert_to_binary(n):
+        return bin(n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
