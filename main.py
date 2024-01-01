@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import sys
-print(sys.version)
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_sine(x):
+        return math.sin(x)
