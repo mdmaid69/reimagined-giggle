@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def is_odd(n):
-        return n % 2 != 0
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def divide_numbers(x, y):
+        return x / y
