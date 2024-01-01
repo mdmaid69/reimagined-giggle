@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def divide_numbers(x, y):
-        return x / y
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
