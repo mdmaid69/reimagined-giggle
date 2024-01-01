@@ -1,8 +1,6 @@
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import array
-def reverse_array(array):
-        array.reverse()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
