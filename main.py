@@ -1,10 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
