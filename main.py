@@ -1,7 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
