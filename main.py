@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
