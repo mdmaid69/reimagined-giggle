@@ -1,8 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_acceleration(speed, time):
+        return speed / time
