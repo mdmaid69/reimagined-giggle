@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def count_characters(sentence):
+        return len(sentence)
+import json
+print(json.dumps({"name": "John", "age": 30}))
