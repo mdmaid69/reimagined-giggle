@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
