@@ -1,6 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def convert_array_to_list(array):
+        return array.tolist()
+import tensorflow as tf
+print(tf.__version__)
