@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def reverse_list(lst):
+        return lst[::-1]
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
