@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
