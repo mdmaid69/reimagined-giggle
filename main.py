@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  def is_even(n):
+        return n % 2 == 0
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
