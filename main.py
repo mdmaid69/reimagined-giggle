@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
