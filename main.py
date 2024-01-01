@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def is_palindrome(s):
-        return s == s[::-1]
+def find_max(numbers):
+        return max(numbers)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
