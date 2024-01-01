@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+print([x**2 for x in range(10)])
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
