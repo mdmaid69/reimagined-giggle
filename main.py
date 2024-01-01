@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
