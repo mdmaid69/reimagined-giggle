@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
