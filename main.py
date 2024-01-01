@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
