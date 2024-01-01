@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
