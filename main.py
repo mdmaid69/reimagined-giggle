@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
