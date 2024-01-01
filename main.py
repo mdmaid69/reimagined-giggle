@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import collections
+def create_user_string():
+        return collections.UserString()
