@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
