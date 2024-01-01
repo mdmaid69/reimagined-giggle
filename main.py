@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
