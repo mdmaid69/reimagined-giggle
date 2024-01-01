@@ -1,5 +1,7 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
