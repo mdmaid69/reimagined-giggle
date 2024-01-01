@@ -1,5 +1,7 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import platform
+def get_python_version():
+        return platform.python_version()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
