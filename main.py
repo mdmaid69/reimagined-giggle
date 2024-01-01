@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
