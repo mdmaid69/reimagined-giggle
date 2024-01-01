@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
