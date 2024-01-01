@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+print("Hello, world!")
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
