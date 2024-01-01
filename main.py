@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def reverse_string(s):
+        return s[::-1]
