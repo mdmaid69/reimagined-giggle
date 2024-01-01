@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_counter():
+        return collections.Counter()
