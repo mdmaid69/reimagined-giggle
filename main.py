@@ -1,9 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_density(mass, volume):
+        return mass / volume
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
