@@ -1,12 +1,6 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import array
+def get_array_index(array, item):
+        return array.index(item)
