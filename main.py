@@ -1,7 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
