@@ -1,7 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
