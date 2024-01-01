@@ -1,6 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
