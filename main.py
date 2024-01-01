@@ -1,5 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+print("Hello, world!")
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
