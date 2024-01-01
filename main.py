@@ -1,7 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
