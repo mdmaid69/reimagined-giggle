@@ -1,6 +1,7 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
