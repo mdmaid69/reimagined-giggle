@@ -1,4 +1,7 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
