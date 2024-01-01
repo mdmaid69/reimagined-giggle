@@ -1,5 +1,3 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+print(sum(range(10)))
