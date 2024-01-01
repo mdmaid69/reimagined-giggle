@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
