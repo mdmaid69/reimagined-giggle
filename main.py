@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_area_circle(r):
+        return 3.14 * r**2
