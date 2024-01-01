@@ -1,6 +1,8 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
