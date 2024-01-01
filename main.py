@@ -1,6 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
