@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
