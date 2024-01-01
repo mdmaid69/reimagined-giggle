@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_work(force, distance):
+        return force * distance
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
