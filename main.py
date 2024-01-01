@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
