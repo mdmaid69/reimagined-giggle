@@ -1,8 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
