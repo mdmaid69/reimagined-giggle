@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import sys
+def print_python_version():
+        print(sys.version)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
