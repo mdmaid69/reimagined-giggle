@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
