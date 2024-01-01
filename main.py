@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def sort_numbers(numbers):
+        return sorted(numbers)
+import random
+print(random.randint(0, 100))
