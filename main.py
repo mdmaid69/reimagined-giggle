@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
