@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
