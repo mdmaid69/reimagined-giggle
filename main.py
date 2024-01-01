@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
