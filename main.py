@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
