@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
