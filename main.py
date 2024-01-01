@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
