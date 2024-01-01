@@ -1,3 +1,7 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-for i in range(10): print(i)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
