@@ -1,5 +1,7 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def reverse_string(s):
-        return s[::-1]
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
