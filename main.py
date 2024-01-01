@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
