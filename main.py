@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import time
+def get_current_time():
+        return time.ctime()
