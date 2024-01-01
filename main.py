@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import numpy as np
+print(np.array([1, 2, 3]))
+def remove_duplicates(lst):
+        return list(set(lst))
