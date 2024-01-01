@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
