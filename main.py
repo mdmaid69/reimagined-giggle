@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
