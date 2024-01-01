@@ -1,6 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_itemsize(array):
+        return array.itemsize
+i = 0
+while i < 5:
+        print(i)
+        i += 1
