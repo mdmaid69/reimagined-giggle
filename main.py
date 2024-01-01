@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
