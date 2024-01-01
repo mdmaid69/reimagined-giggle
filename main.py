@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
