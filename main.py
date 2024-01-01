@@ -1,7 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import time
+def get_time_since_epoch():
+        return time.time()
