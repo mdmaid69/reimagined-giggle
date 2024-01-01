@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_current_directory():
+        return os.getcwd()
