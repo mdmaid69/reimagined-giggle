@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
