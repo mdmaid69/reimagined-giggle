@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
