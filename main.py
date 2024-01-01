@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
