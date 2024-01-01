@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
