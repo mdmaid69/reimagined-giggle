@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_work(force, distance):
-        return force * distance
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
