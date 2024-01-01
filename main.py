@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
