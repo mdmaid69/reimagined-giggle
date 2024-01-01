@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
