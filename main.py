@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
