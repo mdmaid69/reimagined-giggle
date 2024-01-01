@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import time
-print(time.time())
+  def add_numbers(x, y):
+        return x + y
+import datetime
+def get_today_date():
+        return datetime.date.today()
