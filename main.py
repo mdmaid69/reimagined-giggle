@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def square_number(x):
-        return x**2
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  def reverse_list(lst):
+        return lst[::-1]
