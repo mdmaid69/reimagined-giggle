@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
