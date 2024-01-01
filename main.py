@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import sys
+def print_python_version():
+        print(sys.version)
