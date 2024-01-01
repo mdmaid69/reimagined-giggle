@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_acceleration(speed, time):
+        return speed / time
