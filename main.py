@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_area_rectangle(l, w):
-        return l * w
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
