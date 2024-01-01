@@ -1,5 +1,8 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
