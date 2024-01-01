@@ -1,4 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def sort_list(lst):
+        return sorted(lst)
+def count_words(sentence):
+        return len(sentence.split())
