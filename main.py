@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
