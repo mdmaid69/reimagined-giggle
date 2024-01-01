@@ -1,4 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-print([x**2 for x in range(10)])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import json
+print(json.dumps({"name": "John", "age": 30}))
