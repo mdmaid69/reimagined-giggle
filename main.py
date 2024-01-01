@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+text = "Hello, world!"
+print("Reversed:", text[::-1])
