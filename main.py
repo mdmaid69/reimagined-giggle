@@ -1,6 +1,6 @@
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
