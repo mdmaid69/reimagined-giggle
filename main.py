@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
