@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
