@@ -1,7 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
