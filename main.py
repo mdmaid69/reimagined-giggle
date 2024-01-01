@@ -1,8 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
