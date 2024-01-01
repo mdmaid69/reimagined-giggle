@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def count_characters(sentence):
-        return len(sentence)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
