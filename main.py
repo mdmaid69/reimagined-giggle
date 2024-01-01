@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+print(math.pi)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
