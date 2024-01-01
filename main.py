@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
