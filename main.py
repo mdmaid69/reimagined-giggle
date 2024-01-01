@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import logging
+def log_message(message):
+        logging.info(message)
