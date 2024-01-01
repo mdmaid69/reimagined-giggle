@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import collections
+def create_user_list():
+        return collections.UserList()
