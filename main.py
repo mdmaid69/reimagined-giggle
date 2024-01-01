@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
