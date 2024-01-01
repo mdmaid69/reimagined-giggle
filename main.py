@@ -1,5 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def count_words(sentence):
-        return len(sentence.split())
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_area_circle(r):
+        return 3.14 * r**2
