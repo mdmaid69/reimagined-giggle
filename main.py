@@ -1,6 +1,5 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_power(work, time):
+        return work / time
