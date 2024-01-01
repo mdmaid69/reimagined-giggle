@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
