@@ -1,4 +1,7 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
