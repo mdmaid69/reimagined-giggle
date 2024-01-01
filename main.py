@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import collections
+def create_stack():
+        return collections.deque()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
