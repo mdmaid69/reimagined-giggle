@@ -1,5 +1,4 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+for i in range(10): print(i)
