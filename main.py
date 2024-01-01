@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import json
+print(json.dumps({"name": "John", "age": 30}))
