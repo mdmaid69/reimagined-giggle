@@ -1,6 +1,5 @@
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def reverse_array(array):
+        array.reverse()
