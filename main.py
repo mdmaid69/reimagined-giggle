@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
