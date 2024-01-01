@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
