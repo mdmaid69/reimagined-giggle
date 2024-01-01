@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  def cube_number(x):
+        return x**3
