@@ -1,6 +1,8 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
