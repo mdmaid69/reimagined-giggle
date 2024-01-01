@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
