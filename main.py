@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
