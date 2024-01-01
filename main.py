@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import datetime
-print(datetime.datetime.now())
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def reverse_string(s):
+        return s[::-1]
