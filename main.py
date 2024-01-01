@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
