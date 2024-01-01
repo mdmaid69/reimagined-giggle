@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_as_bool(array):
-        return bool(array)
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
