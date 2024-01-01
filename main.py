@@ -1,6 +1,5 @@
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
