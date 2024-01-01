@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
