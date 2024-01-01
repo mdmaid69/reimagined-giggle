@@ -1,6 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
