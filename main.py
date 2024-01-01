@@ -1,5 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
