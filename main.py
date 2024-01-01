@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
