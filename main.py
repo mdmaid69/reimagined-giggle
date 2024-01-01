@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import time
-def get_current_time():
-        return time.time()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
