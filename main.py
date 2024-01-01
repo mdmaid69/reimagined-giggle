@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
