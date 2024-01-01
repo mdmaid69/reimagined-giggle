@@ -1,5 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_speed(distance, time):
+        return distance / time
+  def square_number(x):
+        return x**2
