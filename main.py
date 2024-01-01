@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_power(work, time):
+        return work / time
