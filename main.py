@@ -1,6 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
