@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
