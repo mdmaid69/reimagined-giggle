@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
