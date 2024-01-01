@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import random
+print(random.randint(0, 100))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
