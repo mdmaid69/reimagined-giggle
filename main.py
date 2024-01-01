@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
