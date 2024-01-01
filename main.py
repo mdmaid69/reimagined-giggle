@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
