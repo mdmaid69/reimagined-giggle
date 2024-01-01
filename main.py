@@ -1,5 +1,10 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def find_min(numbers):
+        return min(numbers)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
