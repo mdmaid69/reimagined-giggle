@@ -1,6 +1,9 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
