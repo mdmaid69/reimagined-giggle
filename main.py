@@ -1,6 +1,8 @@
-  import sys
-  def get_python_version():
-        return sys.version
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
