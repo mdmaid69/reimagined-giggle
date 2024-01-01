@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
