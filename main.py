@@ -1,4 +1,6 @@
-print(sum(range(10)))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
