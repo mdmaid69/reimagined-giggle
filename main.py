@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
