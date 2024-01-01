@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
