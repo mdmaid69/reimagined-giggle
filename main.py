@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
