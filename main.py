@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
