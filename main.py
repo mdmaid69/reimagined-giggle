@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
