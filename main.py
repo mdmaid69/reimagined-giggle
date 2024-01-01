@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_itemsize(array):
+        return array.itemsize
