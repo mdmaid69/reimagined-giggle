@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
