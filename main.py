@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
