@@ -1,5 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
