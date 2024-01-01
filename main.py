@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
+import datetime
+def get_today_date():
+        return datetime.date.today()
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
