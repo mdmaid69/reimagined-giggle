@@ -1,5 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def cube_number(x):
-        return x**3
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def is_palindrome(s):
+        return s == s[::-1]
