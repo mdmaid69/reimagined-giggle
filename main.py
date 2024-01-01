@@ -1,5 +1,9 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import getpass
+def get_username():
+        return getpass.getuser()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
