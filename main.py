@@ -1,5 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
