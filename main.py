@@ -1,3 +1,7 @@
-for i in range(10): print(i)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
