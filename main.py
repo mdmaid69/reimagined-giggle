@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
