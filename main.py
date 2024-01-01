@@ -1,10 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
