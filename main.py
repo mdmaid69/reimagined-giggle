@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
