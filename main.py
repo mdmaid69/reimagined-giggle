@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
