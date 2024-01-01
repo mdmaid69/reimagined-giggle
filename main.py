@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import collections
+def create_stack():
+        return collections.deque()
