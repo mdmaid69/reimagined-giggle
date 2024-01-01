@@ -1,6 +1,5 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
