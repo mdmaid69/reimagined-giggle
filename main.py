@@ -1,5 +1,5 @@
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
