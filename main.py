@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
