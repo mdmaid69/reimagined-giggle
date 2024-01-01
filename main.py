@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
