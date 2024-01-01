@@ -1,3 +1,7 @@
-print(sum(range(10)))
-def is_palindrome(s):
-        return s == s[::-1]
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
