@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
