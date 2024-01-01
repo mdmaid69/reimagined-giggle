@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_work(force, distance):
+        return force * distance
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
