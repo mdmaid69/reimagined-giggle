@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
