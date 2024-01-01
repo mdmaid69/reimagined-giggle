@@ -1,5 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
