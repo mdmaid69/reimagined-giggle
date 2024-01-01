@@ -1,6 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
