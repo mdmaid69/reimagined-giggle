@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_array_length(array):
+        return len(array)
