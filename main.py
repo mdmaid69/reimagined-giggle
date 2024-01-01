@@ -1,6 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
