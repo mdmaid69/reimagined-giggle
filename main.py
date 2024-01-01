@@ -1,8 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
