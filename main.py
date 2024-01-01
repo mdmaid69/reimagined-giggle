@@ -1,5 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+from collections import Counter
+print(Counter("hello world"))
