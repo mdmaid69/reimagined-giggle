@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
