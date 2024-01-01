@@ -1,5 +1,11 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
