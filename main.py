@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
