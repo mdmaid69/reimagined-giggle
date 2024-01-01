@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import json
+def convert_to_json(data):
+        return json.dumps(data)
