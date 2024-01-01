@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
