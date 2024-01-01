@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
