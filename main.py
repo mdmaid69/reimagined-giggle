@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-import re
-print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
