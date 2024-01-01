@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+from collections import Counter
+print(Counter("hello world"))
+def count_characters(sentence):
+        return len(sentence)
