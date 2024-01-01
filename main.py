@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_array_as_bool(array):
+        return bool(array)
