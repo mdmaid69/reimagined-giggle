@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
