@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
