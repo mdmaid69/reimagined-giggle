@@ -1,6 +1,10 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
