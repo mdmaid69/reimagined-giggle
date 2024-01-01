@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_power(work, time):
-        return work / time
+name = "Python"
+print("Hello,", name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
