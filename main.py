@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def get_array_as_set(array):
+        return set(array)
