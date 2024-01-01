@@ -1,5 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def calculate_pressure(force, area):
-        return force / area
+  def reverse_list(lst):
+        return lst[::-1]
+i = 0
+while i < 5:
+        print(i)
+        i += 1
