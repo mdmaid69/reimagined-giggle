@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
