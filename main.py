@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def subtract_numbers(x, y):
-        return x - y
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
