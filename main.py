@@ -1,9 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
