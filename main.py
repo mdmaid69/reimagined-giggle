@@ -1,8 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
