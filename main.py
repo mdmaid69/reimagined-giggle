@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def cube_number(x):
+        return x**3
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
