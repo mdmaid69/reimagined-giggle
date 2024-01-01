@@ -1,5 +1,9 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def multiply_numbers(x, y):
+        return x * y
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
