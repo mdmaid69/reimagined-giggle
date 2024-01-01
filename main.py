@@ -1,5 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import sys
+def print_python_version():
+        return sys.version
