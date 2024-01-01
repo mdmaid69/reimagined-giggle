@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import collections
+def create_user_list():
+        return collections.UserList()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
