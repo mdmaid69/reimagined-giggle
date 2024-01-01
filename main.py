@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
