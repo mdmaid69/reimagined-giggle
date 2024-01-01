@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
