@@ -1,6 +1,7 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
