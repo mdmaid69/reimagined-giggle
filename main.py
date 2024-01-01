@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
