@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def multiply_numbers(x, y):
-        return x * y
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
