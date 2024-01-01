@@ -1,5 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def count_characters(sentence):
-        return len(sentence)
+from collections import Counter
+print(Counter("hello world"))
+name = "Python"
+print("Hello,", name)
