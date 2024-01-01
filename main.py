@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_length(array):
+        return len(array)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
