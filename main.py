@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
