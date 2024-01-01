@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
