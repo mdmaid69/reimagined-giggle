@@ -1,9 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
