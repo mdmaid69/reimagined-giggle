@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def count_characters(sentence):
+        return len(sentence)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
