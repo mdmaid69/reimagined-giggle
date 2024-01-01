@@ -1,5 +1,7 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
