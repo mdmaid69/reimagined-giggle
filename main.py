@@ -1,6 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
