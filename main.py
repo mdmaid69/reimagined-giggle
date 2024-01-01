@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def calculate_pressure(force, area):
+        return force / area
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def convert_array_to_string(array):
+        return array.tostring()
