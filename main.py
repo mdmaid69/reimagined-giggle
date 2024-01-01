@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import numpy as np
+print(np.array([1, 2, 3]))
