@@ -1,5 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def get_string_from_array(array):
+        return array.tobytes()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
