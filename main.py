@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def count_elements(lst):
+        return len(lst)
+def calculate_area(radius):
+        return 3.14 * radius * radius
