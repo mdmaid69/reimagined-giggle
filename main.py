@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def get_array_as_list(array):
+        return list(array)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
