@@ -1,6 +1,7 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
