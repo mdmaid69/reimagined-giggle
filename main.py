@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def add_numbers(x, y):
+        return x + y
+import array
+def get_array_as_repr(array):
+        return repr(array)
