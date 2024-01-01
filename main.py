@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def square_number(x):
+        return x**2
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
