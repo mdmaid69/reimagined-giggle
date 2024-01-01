@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
