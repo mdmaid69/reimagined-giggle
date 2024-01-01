@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def check_if_array_contains_item(array, item):
+        return item in array
