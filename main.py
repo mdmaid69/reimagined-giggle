@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
