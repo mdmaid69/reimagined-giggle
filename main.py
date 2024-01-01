@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-name = "Python"
-print("Hello,", name)
+import random
+print(random.randint(0, 100))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
