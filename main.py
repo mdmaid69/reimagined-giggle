@@ -1,7 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
