@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  def count_elements(lst):
+        return len(lst)
