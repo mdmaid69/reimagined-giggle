@@ -1,6 +1,5 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
