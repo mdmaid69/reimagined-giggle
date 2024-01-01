@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
