@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
