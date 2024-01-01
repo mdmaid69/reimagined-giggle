@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
