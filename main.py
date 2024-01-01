@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import platform
-def get_os_info():
-        return platform.uname()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def reverse_array(array):
+        array.reverse()
