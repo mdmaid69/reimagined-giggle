@@ -1,5 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
