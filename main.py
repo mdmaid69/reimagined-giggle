@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def greet(name):
-        print(f"Hello, {name}!")
+import sys
+def print_python_version():
+        print(sys.version)
+def reverse_list(lst):
+        return lst[::-1]
