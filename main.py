@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_area_circle(r):
+        return 3.14 * r**2
