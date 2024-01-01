@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def add_numbers(a, b):
+        return a + b
