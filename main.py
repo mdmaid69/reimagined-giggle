@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  def sort_list(lst):
+        return sorted(lst)
