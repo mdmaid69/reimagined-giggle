@@ -1,4 +1,3 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+print([x**2 for x in range(10)])
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
