@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def is_even(n):
+        return n % 2 == 0
