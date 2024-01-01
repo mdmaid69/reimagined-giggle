@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def subtract_numbers(x, y):
+        return x - y
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
