@@ -1,6 +1,5 @@
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def reverse_string(s):
+        return s[::-1]
