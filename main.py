@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
