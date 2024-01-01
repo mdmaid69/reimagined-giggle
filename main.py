@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
