@@ -1,4 +1,6 @@
-for i in range(10): print(i)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
