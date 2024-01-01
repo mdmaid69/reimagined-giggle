@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+for i in range(10): print(i)
