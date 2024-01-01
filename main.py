@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_area(radius):
+        return 3.14 * radius * radius
