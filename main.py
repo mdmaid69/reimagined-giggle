@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def count_characters(sentence):
+        return len(sentence)
