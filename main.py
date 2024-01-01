@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
