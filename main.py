@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def reverse_array(array):
+        array.reverse()
