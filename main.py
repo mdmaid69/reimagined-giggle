@@ -1,6 +1,8 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
