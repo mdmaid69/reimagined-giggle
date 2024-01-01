@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
