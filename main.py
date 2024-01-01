@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
