@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
