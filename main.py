@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
