@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_volume(length, width, height):
+        return length * width * height
+import tensorflow as tf
+print(tf.__version__)
