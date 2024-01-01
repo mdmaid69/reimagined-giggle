@@ -1,6 +1,7 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
