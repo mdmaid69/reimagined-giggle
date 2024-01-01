@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
