@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import array
+def reverse_array(array):
+        array.reverse()
