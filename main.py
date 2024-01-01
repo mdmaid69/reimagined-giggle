@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def remove_duplicates(lst):
+        return list(set(lst))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
