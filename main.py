@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def square_number(x):
+        return x**2
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
