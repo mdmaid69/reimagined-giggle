@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import datetime
-print(datetime.datetime.now())
+def subtract_numbers(x, y):
+        return x - y
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
