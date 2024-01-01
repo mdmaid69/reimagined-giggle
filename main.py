@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
