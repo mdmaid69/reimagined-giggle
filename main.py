@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  def is_even(n):
+        return n % 2 == 0
