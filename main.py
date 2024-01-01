@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_floor(x):
+        return math.floor(x)
