@@ -1,4 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
