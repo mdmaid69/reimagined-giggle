@@ -1,4 +1,6 @@
-print("Hello, world!")
-import array
-def clear_array(array):
-        array *= 0
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
