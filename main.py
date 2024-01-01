@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import numpy as np
+print(np.array([1, 2, 3]))
