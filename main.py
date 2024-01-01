@@ -1,6 +1,3 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+for i in range(10): print(i)
+import re
+print(re.match("h.*o", "hello world"))
