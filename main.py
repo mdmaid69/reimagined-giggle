@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
