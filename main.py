@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
