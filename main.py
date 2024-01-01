@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_speed(distance, time):
+        return distance / time
