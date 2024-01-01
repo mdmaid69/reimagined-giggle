@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
