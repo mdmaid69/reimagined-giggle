@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def convert_to_hex(n):
-        return hex(n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
