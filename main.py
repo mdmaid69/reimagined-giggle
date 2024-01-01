@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
