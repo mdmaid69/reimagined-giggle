@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
