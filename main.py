@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-x = 10
-y = 20
-print("Sum:", x + y)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+for i in range(10): print(i)
