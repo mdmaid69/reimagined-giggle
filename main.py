@@ -1,4 +1,7 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-for i in range(10): print(i)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
