@@ -1,8 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def cube_number(x):
+        return x**3
+from collections import Counter
+print(Counter("hello world"))
