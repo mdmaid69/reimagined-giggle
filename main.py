@@ -1,9 +1,5 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def find_min(numbers):
+        return min(numbers)
