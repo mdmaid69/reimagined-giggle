@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
