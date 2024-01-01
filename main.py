@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
