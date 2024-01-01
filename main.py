@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+print(math.pi)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
