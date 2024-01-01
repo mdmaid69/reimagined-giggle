@@ -1,5 +1,9 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
