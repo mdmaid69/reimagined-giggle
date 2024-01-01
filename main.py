@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import logging
-def log_message(message):
-        logging.info(message)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
