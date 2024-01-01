@@ -1,7 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
