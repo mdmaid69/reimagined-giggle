@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
