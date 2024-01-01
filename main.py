@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
