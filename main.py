@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
