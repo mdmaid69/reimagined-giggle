@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def cube_number(x):
-        return x**3
+import datetime
+print(datetime.datetime.now())
+import array
+def remove_from_array(array, item):
+        array.remove(item)
