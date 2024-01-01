@@ -1,6 +1,5 @@
+def calculate_volume(length, width, height):
+        return length * width * height
 import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
