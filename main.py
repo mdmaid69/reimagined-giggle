@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
