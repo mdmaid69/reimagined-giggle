@@ -1,5 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-def reverse_string(s):
-        return s[::-1]
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
