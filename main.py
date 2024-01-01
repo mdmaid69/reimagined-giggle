@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
