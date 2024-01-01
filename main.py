@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def reverse_list(lst):
-        return lst[::-1]
+import collections
+def create_priority_queue():
+        return collections.deque()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
