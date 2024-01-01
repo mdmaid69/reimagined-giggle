@@ -1,8 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import getpass
+def get_username():
+        return getpass.getuser()
