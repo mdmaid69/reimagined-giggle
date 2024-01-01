@@ -1,6 +1,7 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
