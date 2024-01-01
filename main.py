@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+from collections import Counter
+print(Counter("hello world"))
