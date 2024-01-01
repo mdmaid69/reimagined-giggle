@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def get_array_as_str(array):
-        return str(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import tensorflow as tf
+print(tf.__version__)
