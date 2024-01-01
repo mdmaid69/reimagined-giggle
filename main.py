@@ -1,6 +1,8 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
