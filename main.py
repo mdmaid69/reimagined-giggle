@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
