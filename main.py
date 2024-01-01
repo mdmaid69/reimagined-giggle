@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
