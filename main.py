@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
