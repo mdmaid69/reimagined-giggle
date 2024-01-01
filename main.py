@@ -1,5 +1,6 @@
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def cube_number(x):
-        return x**3
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
