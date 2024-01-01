@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
