@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-def divide_numbers(x, y):
-        return x / y
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
