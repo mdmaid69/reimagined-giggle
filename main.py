@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def square_number(x):
-        return x**2
+  def subtract_numbers(x, y):
+        return x - y
+import random
+def roll_die():
+        return random.randint(1, 6)
