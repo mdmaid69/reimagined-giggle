@@ -1,6 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
