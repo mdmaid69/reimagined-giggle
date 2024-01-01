@@ -1,6 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
