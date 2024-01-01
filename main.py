@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
