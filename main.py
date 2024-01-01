@@ -1,7 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
