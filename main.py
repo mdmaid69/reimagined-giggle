@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
