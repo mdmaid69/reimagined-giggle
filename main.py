@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def get_array_as_repr(array):
+        return repr(array)
