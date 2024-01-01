@@ -1,6 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
