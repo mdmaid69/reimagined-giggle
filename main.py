@@ -1,5 +1,10 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_speed(distance, time):
-        return distance / time
+print("Hello, world!")
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
