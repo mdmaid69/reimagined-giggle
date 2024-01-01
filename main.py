@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+for i in range(5):
+        print(i)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
