@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def convert_to_hex(n):
+        return hex(n)
+import collections
+def create_stack():
+        return collections.deque()
