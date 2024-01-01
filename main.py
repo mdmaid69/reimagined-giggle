@@ -1,7 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
