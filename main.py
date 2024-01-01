@@ -1,6 +1,8 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_factorial(n):
+        return math.factorial(n)
