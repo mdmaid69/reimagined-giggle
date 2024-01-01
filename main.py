@@ -1,6 +1,7 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
