@@ -1,5 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
 import math
-print(math.pi)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
