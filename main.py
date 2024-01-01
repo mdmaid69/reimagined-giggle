@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+name = "Python"
+print("Hello,", name)
