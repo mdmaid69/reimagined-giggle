@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
