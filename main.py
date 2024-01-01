@@ -1,5 +1,8 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
