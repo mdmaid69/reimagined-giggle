@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import time
-def get_time_since_epoch():
-        return time.time()
+import sys
+def print_python_version():
+        return sys.version
+print(sum(range(10)))
