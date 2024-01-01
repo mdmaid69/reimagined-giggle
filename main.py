@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
