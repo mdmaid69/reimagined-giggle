@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
   def convert_to_octal(n):
         return oct(n)
