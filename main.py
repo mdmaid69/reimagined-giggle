@@ -1,5 +1,5 @@
+  def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
