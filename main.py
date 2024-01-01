@@ -1,8 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_pressure(force, area):
+        return force / area
