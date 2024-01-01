@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
