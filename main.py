@@ -1,6 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
