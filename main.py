@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def append_to_array(array, item):
+        array.append(item)
+text = "Hello, world!"
+print("Characters:", len(text))
