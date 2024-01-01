@@ -1,8 +1,5 @@
 import time
-def get_time_since_epoch():
+def get_current_time():
         return time.time()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
