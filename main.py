@@ -1,5 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def convert_to_hex(n):
-        return hex(n)
+  def multiply_numbers(x, y):
+        return x * y
+def count_words(sentence):
+        return len(sentence.split())
