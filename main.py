@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
