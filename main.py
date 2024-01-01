@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def is_odd(n):
-        return n % 2 != 0
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import time
+def get_time_since_epoch():
+        return time.time()
