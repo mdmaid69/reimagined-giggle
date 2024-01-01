@@ -1,5 +1,7 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
