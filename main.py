@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
