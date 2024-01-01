@@ -1,5 +1,8 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
