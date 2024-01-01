@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import json
+print(json.dumps({"name": "John", "age": 30}))
