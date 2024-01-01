@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
