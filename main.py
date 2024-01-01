@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import getpass
-def get_username():
-        return getpass.getuser()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
