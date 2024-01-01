@@ -1,4 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-  def convert_to_binary(n):
-        return bin(n)
+  def reverse_list(lst):
+        return lst[::-1]
+def subtract_numbers(x, y):
+        return x - y
