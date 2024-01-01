@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import datetime
+def get_today_date():
+        return datetime.date.today()
