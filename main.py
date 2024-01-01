@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
