@@ -1,6 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def get_array_as_int(array):
+        return int(array[0])
