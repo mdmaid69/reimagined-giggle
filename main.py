@@ -1,6 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def add_numbers(x, y):
+        return x + y
