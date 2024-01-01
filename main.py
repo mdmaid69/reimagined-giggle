@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
