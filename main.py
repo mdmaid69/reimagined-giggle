@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
