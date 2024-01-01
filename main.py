@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def is_odd(n):
+        return n % 2 != 0
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
