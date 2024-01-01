@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
