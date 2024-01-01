@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
