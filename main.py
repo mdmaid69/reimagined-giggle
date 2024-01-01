@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def find_min(numbers):
+        return min(numbers)
