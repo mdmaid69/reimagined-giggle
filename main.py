@@ -1,5 +1,9 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
