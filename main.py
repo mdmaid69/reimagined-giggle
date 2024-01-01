@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import random
+print(random.randint(0, 100))
+x = 10
+y = 20
+print("Sum:", x + y)
