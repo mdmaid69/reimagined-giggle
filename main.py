@@ -1,5 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def multiply_numbers(x, y):
-        return x * y
+x = 10
+y = 20
+print("Sum:", x + y)
+for i in range(10): print(i)
