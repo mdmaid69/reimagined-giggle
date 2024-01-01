@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
