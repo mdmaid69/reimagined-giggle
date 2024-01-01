@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import collections
+def create_priority_queue():
+        return collections.deque()
