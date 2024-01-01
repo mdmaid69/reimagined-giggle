@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
