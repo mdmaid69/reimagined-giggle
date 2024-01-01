@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import collections
+def create_user_string():
+        return collections.UserString()
