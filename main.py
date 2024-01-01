@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
