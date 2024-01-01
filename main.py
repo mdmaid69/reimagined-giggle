@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import sys
-def print_python_version():
-        print(sys.version)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
