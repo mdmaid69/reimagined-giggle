@@ -1,5 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
