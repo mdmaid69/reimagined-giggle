@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
