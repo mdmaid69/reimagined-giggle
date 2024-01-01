@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
