@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def remove_duplicates(lst):
-        return list(set(lst))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import datetime
+def get_current_date():
+        return datetime.date.today()
