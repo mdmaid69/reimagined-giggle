@@ -1,5 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
