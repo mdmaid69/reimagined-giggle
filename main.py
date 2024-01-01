@@ -1,7 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
