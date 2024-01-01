@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
