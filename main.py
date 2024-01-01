@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
