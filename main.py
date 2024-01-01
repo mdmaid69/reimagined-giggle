@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
