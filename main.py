@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
