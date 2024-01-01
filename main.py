@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import sys
+def exit_program():
+        sys.exit()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
