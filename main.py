@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import sys
-def print_python_version():
-        return sys.version
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
