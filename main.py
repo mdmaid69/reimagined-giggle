@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
