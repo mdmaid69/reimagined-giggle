@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
