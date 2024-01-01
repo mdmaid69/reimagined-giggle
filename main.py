@@ -1,6 +1,7 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
