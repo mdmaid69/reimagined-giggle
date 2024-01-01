@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
