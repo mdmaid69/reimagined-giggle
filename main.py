@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import platform
+def get_python_version():
+        return platform.python_version()
