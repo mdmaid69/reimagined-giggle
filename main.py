@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-from collections import Counter
-print(Counter("hello world"))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
