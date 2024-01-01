@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
