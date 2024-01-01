@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def is_even(n):
-        return n % 2 == 0
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
