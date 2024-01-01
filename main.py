@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_acceleration(speed, time):
+        return speed / time
+import collections
+def create_counter():
+        return collections.Counter()
