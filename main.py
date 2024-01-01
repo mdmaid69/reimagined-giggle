@@ -1,4 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-print("Hello, world!")
+import platform
+def get_python_version():
+        return platform.python_version()
+import os
+print(os.getcwd())
