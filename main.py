@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
