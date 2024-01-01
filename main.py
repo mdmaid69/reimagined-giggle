@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def find_min(lst):
+        return min(lst)
