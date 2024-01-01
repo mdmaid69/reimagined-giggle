@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
