@@ -1,6 +1,4 @@
+for i in range(10): print(i)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def split_path(path):
+        return os.path.split(path)
