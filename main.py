@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def convert_to_octal(n):
+        return oct(n)
