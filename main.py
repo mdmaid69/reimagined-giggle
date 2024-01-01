@@ -1,10 +1,9 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def get_array_as_list(array):
+        return list(array)
