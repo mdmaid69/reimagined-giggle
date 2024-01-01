@@ -1,7 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
