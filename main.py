@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
