@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_slice(array, i, j):
+        return array[i:j]
