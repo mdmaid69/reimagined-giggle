@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
