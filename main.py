@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def get_list_from_array(array):
+        return array.tolist()
