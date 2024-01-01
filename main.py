@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
