@@ -1,6 +1,7 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
