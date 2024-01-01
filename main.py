@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def convert_to_hex(n):
+        return hex(n)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
