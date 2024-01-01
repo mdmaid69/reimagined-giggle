@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
