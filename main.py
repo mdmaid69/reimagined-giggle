@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  def sort_list(lst):
+        return sorted(lst)
