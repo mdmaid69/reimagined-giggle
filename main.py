@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
