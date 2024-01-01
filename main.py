@@ -1,4 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-print("Hello, world!")
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
