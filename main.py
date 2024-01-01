@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import collections
+def create_counter():
+        return collections.Counter()
