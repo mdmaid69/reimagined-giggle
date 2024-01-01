@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
