@@ -1,6 +1,7 @@
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
 import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
