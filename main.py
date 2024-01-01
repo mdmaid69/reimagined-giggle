@@ -1,7 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
