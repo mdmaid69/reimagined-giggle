@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  def square_number(x):
-        return x**2
+from collections import Counter
+print(Counter("hello world"))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
