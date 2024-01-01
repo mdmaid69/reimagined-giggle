@@ -1,5 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-print([x**2 for x in range(10)])
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
