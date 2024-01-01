@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import os
+def remove_directory(path):
+        os.rmdir(path)
