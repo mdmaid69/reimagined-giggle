@@ -1,7 +1,11 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
