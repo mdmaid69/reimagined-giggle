@@ -1,5 +1,5 @@
+def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def append_to_array(array, item):
-        array.append(item)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
