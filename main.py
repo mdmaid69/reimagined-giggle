@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
