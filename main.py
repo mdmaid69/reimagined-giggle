@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
