@@ -1,6 +1,6 @@
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def delete_file(file_name):
+        os.remove(file_name)
