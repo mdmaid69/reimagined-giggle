@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import time
-def get_current_time():
-        return time.ctime()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
