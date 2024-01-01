@@ -1,9 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
