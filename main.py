@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
