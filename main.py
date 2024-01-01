@@ -1,8 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def is_palindrome(s):
+        return s == s[::-1]
