@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
