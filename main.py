@@ -1,8 +1,10 @@
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import array
-def convert_unicode_to_array(unicode, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.frombytes(bytes)
         return a
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
