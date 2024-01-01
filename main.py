@@ -1,6 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def is_odd(n):
+        return n % 2 != 0
+def calculate_area_rectangle(l, w):
+        return l * w
