@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_area_rectangle(l, w):
+        return l * w
+import json
+print(json.dumps({"name": "John", "age": 30}))
