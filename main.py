@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
