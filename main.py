@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def greet(name):
-        print(f"Hello, {name}!")
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
