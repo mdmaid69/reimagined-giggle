@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_power(work, time):
+        return work / time
