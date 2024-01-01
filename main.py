@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-from collections import Counter
-print(Counter("hello world"))
+  def convert_to_binary(n):
+        return bin(n)
+import collections
+def create_user_dict():
+        return collections.UserDict()
