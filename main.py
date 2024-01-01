@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
