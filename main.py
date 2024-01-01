@@ -1,5 +1,4 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
