@@ -1,9 +1,6 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-import os
-print(os.getcwd())
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
