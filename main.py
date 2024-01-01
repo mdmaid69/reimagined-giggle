@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
