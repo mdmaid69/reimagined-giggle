@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
