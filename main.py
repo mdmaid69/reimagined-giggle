@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def square_number(x):
+        return x**2
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
