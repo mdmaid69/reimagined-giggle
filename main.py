@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
