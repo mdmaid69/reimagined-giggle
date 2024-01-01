@@ -1,7 +1,4 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-print("Hello, world!")
+  def reverse_list(lst):
+        return lst[::-1]
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
