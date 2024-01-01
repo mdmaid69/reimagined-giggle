@@ -1,7 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
