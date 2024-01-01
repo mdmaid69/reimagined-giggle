@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import sys
-def exit_program():
-        sys.exit()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
