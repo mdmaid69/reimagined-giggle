@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_work(force, distance):
+        return force * distance
