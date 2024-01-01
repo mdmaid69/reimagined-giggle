@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
