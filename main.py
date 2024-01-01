@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
