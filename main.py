@@ -1,6 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
