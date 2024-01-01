@@ -1,7 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def reverse_list(lst):
+        return lst[::-1]
