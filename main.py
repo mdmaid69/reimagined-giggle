@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
