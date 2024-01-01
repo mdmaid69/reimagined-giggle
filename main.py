@@ -1,6 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
