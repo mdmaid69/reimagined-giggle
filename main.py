@@ -1,4 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-for i in range(10): print(i)
+def calculate_speed(distance, time):
+        return distance / time
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
