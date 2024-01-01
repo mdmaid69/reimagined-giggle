@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_sine(x):
+        return math.sin(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
