@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
