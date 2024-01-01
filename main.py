@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_pressure(force, area):
-        return force / area
+import random
+def roll_die():
+        return random.randint(1, 6)
+def multiply_numbers(x, y):
+        return x * y
