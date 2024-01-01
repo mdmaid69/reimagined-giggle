@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
