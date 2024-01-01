@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import collections
+def create_user_list():
+        return collections.UserList()
