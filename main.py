@@ -1,7 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
