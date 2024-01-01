@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
