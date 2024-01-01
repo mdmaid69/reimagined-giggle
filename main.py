@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import os
+def get_current_working_directory():
+        return os.getcwd()
