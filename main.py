@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import logging
-def log_message(message):
-        logging.info(message)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
