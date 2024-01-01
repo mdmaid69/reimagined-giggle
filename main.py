@@ -1,4 +1,4 @@
-  def square_number(x):
-        return x**2
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
