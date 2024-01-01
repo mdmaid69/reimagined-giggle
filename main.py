@@ -1,5 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
 import collections
-def create_priority_queue():
-        return collections.deque()
-def find_max(lst):
-        return max(lst)
+def create_user_string():
+        return collections.UserString()
