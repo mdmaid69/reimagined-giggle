@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
