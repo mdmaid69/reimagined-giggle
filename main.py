@@ -1,5 +1,6 @@
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_arc_sine(x):
+        return math.asin(x)
