@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
