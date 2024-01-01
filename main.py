@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def cube_number(x):
+        return x**3
