@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
