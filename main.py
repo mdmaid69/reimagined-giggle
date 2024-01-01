@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
