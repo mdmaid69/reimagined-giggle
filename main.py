@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
