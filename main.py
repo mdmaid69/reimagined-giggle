@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_index(array, item):
+        return array.index(item)
