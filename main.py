@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_speed(distance, time):
+        return distance / time
