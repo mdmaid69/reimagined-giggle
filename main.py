@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+for i in range(10): print(i)
