@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
