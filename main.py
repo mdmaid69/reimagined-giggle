@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+for i in range(5):
+        print(i)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
