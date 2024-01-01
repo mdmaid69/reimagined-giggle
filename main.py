@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
