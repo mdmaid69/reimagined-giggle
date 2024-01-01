@@ -1,6 +1,10 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
