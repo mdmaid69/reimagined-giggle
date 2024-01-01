@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  def convert_to_octal(n):
-        return oct(n)
+import sys
+print(sys.version)
+import array
+def get_array_length(array):
+        return len(array)
