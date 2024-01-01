@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
