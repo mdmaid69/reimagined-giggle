@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
