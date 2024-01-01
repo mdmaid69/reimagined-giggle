@@ -1,6 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
