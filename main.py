@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
