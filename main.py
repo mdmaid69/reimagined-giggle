@@ -1,5 +1,8 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
