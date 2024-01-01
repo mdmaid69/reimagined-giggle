@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
