@@ -1,5 +1,5 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-def find_max(numbers):
-        return max(numbers)
+def check_if_array_contains_item(array, item):
+        return item in array
+import sys
+print(sys.version)
