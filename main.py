@@ -1,6 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+  def remove_duplicates(lst):
+        return list(set(lst))
