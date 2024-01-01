@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def calculate_mean(arr):
+        return np.mean(arr)
+import sys
+def exit_program():
+        sys.exit()
