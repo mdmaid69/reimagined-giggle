@@ -1,5 +1,6 @@
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def reverse_string(s):
-        return s[::-1]
+def get_current_working_directory():
+        return os.getcwd()
+import time
+def get_time_since_epoch():
+        return time.time()
