@@ -1,5 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def reverse_string(s):
-        return s[::-1]
+def calculate_area_rectangle(l, w):
+        return l * w
+def cube_number(x):
+        return x**3
