@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import collections
+def create_user_string():
+        return collections.UserString()
