@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import sys
-def print_python_version():
-        return sys.version
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import collections
+def create_user_dict():
+        return collections.UserDict()
