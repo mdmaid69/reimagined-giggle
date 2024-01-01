@@ -1,5 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
