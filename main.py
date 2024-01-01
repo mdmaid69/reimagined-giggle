@@ -1,8 +1,6 @@
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
