@@ -1,6 +1,8 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import sys
-  def get_python_version():
-        return sys.version
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
