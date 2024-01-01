@@ -1,6 +1,8 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
