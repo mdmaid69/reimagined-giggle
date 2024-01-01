@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import platform
+def get_python_version():
+        return platform.python_version()
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
