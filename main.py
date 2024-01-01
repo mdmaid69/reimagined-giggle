@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def get_array_as_float(array):
+        return float(array[0])
