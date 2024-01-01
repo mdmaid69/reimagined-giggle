@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-  def cube_number(x):
-        return x**3
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_speed(distance, time):
+        return distance / time
