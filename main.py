@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def cube_number(x):
+        return x**3
