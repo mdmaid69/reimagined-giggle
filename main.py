@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
