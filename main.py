@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
