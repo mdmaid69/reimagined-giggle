@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import time
-def get_current_time():
-        return time.ctime()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
