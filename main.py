@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
