@@ -1,6 +1,5 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+from collections import Counter
+print(Counter("hello world"))
