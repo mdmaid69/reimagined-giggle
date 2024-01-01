@@ -1,6 +1,7 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def convert_to_binary(n):
+        return bin(n)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
