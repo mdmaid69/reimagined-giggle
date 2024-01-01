@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_area_rectangle(l, w):
+        return l * w
