@@ -1,6 +1,7 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
