@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def multiply_numbers(x, y):
+        return x * y
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
