@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def is_odd(n):
+        return n % 2 != 0
