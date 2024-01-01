@@ -1,6 +1,6 @@
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
