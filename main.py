@@ -1,6 +1,4 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
