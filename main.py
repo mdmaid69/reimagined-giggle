@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def subtract_numbers(x, y):
+        return x - y
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
