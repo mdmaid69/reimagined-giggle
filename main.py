@@ -1,4 +1,8 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-print(sum(range(10)))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
