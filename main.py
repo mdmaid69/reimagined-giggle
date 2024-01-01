@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
