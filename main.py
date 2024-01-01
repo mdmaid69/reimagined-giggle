@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
