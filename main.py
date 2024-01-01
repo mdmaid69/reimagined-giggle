@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
