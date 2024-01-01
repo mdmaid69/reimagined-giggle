@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
