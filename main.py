@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def convert_to_octal(n):
+        return oct(n)
