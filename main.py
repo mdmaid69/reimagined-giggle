@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_pressure(force, area):
+        return force / area
+import random
+def roll_die():
+        return random.randint(1, 6)
