@@ -1,6 +1,6 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
