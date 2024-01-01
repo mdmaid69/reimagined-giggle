@@ -1,7 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
