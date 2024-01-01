@@ -1,4 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_volume(length, width, height):
-        return length * width * height
+text = "Hello, world!"
+print("Characters:", len(text))
+import datetime
+print(datetime.datetime.now())
