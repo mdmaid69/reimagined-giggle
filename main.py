@@ -1,4 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
