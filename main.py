@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def convert_to_octal(n):
-        return oct(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
