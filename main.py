@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def cube_number(x):
+        return x**3
