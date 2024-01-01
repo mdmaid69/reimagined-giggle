@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import sys
+def exit_program():
+        sys.exit()
+def convert_to_octal(n):
+        return oct(n)
