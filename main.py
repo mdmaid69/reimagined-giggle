@@ -1,5 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def convert_to_hex(n):
-        return hex(n)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
