@@ -1,6 +1,7 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
