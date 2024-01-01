@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
