@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
