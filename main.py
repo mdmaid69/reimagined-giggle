@@ -1,5 +1,4 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
