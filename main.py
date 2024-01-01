@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def get_array_as_str(array):
+        return str(array)
