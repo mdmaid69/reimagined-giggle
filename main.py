@@ -1,5 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
