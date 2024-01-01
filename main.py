@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
