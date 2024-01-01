@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 import math
-print(math.pi)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import array
+def get_array_index(array, item):
+        return array.index(item)
