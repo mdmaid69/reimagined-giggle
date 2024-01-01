@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
