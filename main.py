@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import datetime
+def get_current_date():
+        return datetime.date.today()
