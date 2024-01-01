@@ -1,7 +1,7 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
