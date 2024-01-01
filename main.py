@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  def subtract_numbers(x, y):
+        return x - y
