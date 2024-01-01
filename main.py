@@ -1,5 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_density(mass, volume):
+        return mass / volume
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
