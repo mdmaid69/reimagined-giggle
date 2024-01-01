@@ -1,5 +1,7 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
