@@ -1,6 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
