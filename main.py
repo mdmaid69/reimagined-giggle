@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_area_rectangle(l, w):
+        return l * w
