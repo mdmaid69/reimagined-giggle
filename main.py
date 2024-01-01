@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
