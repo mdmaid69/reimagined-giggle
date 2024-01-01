@@ -1,5 +1,12 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
