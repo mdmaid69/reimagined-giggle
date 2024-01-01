@@ -1,6 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
