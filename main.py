@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import collections
+def create_user_list():
+        return collections.UserList()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
