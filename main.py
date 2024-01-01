@@ -1,6 +1,8 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
