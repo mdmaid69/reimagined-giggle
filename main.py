@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def find_min(lst):
+        return min(lst)
+def reverse_string(s):
+        return s[::-1]
