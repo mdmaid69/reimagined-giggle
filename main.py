@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import getpass
+def get_username():
+        return getpass.getuser()
