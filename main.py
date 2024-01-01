@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
