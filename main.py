@@ -1,8 +1,4 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
