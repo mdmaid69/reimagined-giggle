@@ -1,6 +1,10 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_as_set(array):
+        return set(array)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
