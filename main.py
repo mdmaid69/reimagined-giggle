@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_sine(x):
+        return math.sin(x)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
