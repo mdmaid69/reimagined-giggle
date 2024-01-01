@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
