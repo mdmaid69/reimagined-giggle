@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def get_array_item(array, i):
+        return array[i]
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
