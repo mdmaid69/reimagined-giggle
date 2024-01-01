@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
