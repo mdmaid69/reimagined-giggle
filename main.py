@@ -1,5 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
