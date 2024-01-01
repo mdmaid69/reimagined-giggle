@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def clear_array(array):
+        array *= 0
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
