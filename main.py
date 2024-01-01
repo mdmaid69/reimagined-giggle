@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
