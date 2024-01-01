@@ -1,7 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
