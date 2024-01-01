@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
