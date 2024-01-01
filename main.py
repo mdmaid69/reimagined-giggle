@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_speed(distance, time):
+        return distance / time
