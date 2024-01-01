@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import sys
-  def get_python_version():
-        return sys.version
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def reverse_array(array):
+        array.reverse()
