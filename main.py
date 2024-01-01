@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
