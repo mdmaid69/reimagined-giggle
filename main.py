@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def count_elements(lst):
-        return len(lst)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def get_array_as_repr(array):
+        return repr(array)
