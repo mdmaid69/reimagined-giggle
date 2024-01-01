@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
