@@ -1,7 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
