@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def reverse_array(array):
+        array.reverse()
