@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import sys
+def exit_program():
+        sys.exit()
