@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
