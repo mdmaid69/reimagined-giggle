@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import collections
+def create_priority_queue():
+        return collections.deque()
