@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-  def convert_to_octal(n):
-        return oct(n)
+  def reverse_list(lst):
+        return lst[::-1]
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
