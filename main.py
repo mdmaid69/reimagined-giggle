@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def add_numbers(a, b):
+        return a + b
