@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
