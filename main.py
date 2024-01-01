@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
