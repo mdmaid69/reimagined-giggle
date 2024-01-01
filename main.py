@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def is_even(n):
+        return n % 2 == 0
