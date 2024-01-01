@@ -1,6 +1,6 @@
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
