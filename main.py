@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def is_palindrome(s):
+        return s == s[::-1]
