@@ -1,7 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import time
+def get_time_since_epoch():
+        return time.time()
