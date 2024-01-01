@@ -1,5 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
