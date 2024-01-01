@@ -1,5 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import sys
-print(sys.version)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_density(mass, volume):
+        return mass / volume
