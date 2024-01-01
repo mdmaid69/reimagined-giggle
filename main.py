@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
