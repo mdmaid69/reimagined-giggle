@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
