@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
