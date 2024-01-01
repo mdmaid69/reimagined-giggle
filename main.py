@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import numpy as np
+print(np.array([1, 2, 3]))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
