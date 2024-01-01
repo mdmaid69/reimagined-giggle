@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
