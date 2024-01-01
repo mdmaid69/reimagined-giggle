@@ -1,5 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_acceleration(speed, time):
-        return speed / time
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_power(work, time):
+        return work / time
