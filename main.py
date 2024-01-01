@@ -1,6 +1,7 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
