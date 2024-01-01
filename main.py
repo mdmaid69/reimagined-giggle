@@ -1,5 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
