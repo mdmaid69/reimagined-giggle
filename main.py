@@ -1,5 +1,6 @@
 import json
-print(json.dumps({"name": "John", "age": 30}))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
