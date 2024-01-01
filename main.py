@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
