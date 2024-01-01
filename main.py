@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
