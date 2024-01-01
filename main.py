@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
