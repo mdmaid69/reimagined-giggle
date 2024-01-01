@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
