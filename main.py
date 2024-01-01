@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
+def cube_number(x):
+        return x**3
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
