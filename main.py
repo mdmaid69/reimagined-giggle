@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def get_array_item(array, i):
+        return array[i]
