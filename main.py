@@ -1,5 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_speed(distance, time):
+        return distance / time
