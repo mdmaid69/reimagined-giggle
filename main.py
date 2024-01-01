@@ -1,6 +1,5 @@
+def calculate_area(radius):
+        return 3.14 * radius * radius
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
