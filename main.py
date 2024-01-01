@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
