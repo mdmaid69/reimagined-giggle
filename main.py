@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import time
+def get_current_time():
+        return time.ctime()
