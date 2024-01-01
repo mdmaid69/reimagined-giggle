@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
