@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def square_number(x):
-        return x**2
+import datetime
+print(datetime.datetime.now())
+import sys
+print(sys.version)
