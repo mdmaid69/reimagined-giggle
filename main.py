@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
