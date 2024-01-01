@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import random
-def roll_die():
-        return random.randint(1, 6)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_work(force, distance):
+        return force * distance
