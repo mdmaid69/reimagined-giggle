@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
