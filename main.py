@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import platform
+def get_os_info():
+        return platform.uname()
+def count_words(sentence):
+        return len(sentence.split())
