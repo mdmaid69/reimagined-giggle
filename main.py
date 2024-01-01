@@ -1,5 +1,7 @@
-def multiply_numbers(x, y):
-        return x * y
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
