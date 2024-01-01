@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
