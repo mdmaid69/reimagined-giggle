@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import platform
-def get_os_info():
-        return platform.uname()
+  def square_number(x):
+        return x**2
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
