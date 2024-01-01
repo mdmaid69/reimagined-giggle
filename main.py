@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
