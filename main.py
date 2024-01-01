@@ -1,4 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
