@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import collections
+def create_user_list():
+        return collections.UserList()
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
