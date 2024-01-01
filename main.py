@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
