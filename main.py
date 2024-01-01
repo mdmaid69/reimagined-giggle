@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
