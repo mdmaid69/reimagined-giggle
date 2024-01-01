@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
