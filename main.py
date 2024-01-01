@@ -1,5 +1,8 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
