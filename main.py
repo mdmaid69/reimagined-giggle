@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def add_numbers(a, b):
+        return a + b
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
