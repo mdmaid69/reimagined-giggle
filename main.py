@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
