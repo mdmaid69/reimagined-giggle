@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
