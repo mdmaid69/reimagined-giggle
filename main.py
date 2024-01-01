@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def find_max(lst):
+        return max(lst)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
