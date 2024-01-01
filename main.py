@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_work(force, distance):
+        return force * distance
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
