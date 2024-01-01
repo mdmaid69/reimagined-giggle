@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
