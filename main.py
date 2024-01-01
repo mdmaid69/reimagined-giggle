@@ -1,5 +1,7 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  def square_number(x):
-        return x**2
+import time
+print(time.time())
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
