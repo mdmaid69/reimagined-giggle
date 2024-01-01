@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import datetime
-print(datetime.datetime.now())
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
