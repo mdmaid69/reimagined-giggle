@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
