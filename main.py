@@ -1,3 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-for i in range(10): print(i)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
