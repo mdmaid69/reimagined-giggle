@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import sys
+def print_python_version():
+        print(sys.version)
+  def sort_list(lst):
+        return sorted(lst)
