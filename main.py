@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
