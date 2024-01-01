@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
