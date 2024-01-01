@@ -1,5 +1,9 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
