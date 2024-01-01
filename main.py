@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
