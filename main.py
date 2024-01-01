@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  def count_elements(lst):
+        return len(lst)
