@@ -1,5 +1,8 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
