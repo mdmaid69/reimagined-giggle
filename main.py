@@ -1,6 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
