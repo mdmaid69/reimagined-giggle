@@ -1,5 +1,6 @@
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def greet(name):
-        print(f"Hello, {name}!")
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
