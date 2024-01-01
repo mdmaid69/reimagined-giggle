@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
 import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def get_today_date():
+        return datetime.date.today()
+def convert_to_binary(n):
+        return bin(n)
