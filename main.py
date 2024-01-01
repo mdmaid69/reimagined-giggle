@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import getpass
+def get_username():
+        return getpass.getuser()
