@@ -1,5 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def is_even(n):
+        return n % 2 == 0
+text = "Hello, world!"
+print("Uppercase:", text.upper())
