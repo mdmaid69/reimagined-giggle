@@ -1,6 +1,7 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  def subtract_numbers(x, y):
+        return x - y
