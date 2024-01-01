@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_square_root(x):
+        return math.sqrt(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
