@@ -1,10 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_item(array, i):
+        return array[i]
