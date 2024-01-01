@@ -1,6 +1,5 @@
-for i in range(5):
-        print(i)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_int(array):
+        return int(array[0])
+  def multiply_numbers(x, y):
+        return x * y
