@@ -1,6 +1,8 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
