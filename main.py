@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
