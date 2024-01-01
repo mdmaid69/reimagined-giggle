@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def count_words(sentence):
+        return len(sentence.split())
