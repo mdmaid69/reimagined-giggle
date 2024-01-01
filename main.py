@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+print([x**2 for x in range(10)])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
