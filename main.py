@@ -1,7 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
