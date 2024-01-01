@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
