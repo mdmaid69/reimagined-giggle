@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def cube_number(x):
+        return x**3
