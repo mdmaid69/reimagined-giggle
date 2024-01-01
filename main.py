@@ -1,6 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
