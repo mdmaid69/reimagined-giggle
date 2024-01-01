@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_work(force, distance):
-        return force * distance
+import platform
+def get_os_info():
+        return platform.uname()
+import os
+def remove_directory(path):
+        os.rmdir(path)
