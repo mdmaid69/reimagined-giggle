@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-def subtract_numbers(x, y):
-        return x - y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
