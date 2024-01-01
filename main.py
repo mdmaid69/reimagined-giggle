@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
