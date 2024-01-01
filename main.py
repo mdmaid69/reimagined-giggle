@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import json
+print(json.dumps({"name": "John", "age": 30}))
