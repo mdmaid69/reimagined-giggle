@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def sort_numbers(numbers):
+        return sorted(numbers)
