@@ -1,5 +1,5 @@
 def is_even(n):
         return n % 2 == 0
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
