@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_speed(distance, time):
-        return distance / time
+def sort_list(lst):
+        return sorted(lst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
