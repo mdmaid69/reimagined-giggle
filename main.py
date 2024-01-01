@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def is_palindrome(s):
-        return s == s[::-1]
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
