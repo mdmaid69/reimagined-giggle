@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  def cube_number(x):
+        return x**3
