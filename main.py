@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def convert_to_hex(n):
+        return hex(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
