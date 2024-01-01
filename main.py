@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def convert_to_binary(n):
+        return bin(n)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
