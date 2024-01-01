@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
