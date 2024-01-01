@@ -1,10 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
