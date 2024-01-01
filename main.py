@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def remove_duplicates(lst):
-        return list(set(lst))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
