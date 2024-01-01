@@ -1,5 +1,7 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
