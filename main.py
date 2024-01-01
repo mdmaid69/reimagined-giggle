@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
