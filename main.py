@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
