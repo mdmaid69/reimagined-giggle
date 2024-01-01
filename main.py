@@ -1,6 +1,8 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
