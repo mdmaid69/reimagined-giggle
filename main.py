@@ -1,5 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
