@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
