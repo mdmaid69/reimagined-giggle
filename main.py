@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
