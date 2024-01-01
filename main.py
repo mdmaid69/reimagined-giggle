@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
