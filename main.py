@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def is_even(n):
+        return n % 2 == 0
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
