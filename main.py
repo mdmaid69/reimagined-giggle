@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
