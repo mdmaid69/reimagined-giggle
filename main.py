@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
