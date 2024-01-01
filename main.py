@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
