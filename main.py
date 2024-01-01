@@ -1,5 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def get_current_working_directory():
+        return os.getcwd()
