@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
