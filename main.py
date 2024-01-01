@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import time
-def get_current_time():
-        return time.time()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+name = "Python"
+print("Hello,", name)
