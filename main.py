@@ -1,5 +1,3 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+for i in range(10): print(i)
+def is_even(n):
+        return n % 2 == 0
