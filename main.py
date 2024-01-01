@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def is_palindrome(s):
+        return s == s[::-1]
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
