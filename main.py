@@ -1,6 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def convert_to_hex(n):
+        return hex(n)
