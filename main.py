@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
 import array
-def clear_array(array):
-        array *= 0
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
