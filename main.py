@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
