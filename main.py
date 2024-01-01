@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
