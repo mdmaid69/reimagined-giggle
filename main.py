@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-print(math.pi)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
