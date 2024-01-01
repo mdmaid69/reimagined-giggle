@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def append_to_array(array, item):
+        array.append(item)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
