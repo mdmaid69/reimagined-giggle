@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
