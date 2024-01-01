@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
