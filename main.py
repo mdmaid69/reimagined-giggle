@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
