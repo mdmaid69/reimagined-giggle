@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
