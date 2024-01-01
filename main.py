@@ -1,6 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import time
+print(time.time())
