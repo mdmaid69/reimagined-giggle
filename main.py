@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_area_rectangle(l, w):
+        return l * w
+import tensorflow as tf
+print(tf.__version__)
