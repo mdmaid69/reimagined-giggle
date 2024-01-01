@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
