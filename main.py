@@ -1,8 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
