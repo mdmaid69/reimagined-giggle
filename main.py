@@ -1,5 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_density(mass, volume):
+        return mass / volume
+def convert_to_hex(n):
+        return hex(n)
