@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def reverse_list(lst):
+        return lst[::-1]
+name = "Python"
+print("Hello,", name)
