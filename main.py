@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_pressure(force, area):
+        return force / area
+import datetime
+def get_today_date():
+        return datetime.date.today()
