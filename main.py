@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
