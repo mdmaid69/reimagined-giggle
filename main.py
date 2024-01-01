@@ -1,7 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+for i in range(5):
+        print(i)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
