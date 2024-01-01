@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+text = "Hello, world!"
+print("Characters:", len(text))
