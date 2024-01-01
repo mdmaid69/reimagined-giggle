@@ -1,5 +1,6 @@
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
 import os
-print(os.getcwd())
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def remove_directory(path):
+        os.rmdir(path)
