@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import os
-print(os.getcwd())
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
