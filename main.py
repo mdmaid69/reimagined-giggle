@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
