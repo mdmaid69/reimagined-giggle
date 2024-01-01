@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def convert_to_binary(n):
+        return bin(n)
