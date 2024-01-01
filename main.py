@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
