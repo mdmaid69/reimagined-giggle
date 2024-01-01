@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def is_even(n):
+        return n % 2 == 0
