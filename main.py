@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
