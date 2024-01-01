@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def add_numbers(x, y):
-        return x + y
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
