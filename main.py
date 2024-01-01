@@ -1,7 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
