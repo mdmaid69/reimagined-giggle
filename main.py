@@ -1,5 +1,10 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def reverse_list(lst):
-        return lst[::-1]
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
