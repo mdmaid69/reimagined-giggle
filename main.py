@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import os
-def remove_directory(path):
-        os.rmdir(path)
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
