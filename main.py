@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
