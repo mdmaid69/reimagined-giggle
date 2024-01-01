@@ -1,5 +1,12 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_floor(x):
+        return math.floor(x)
