@@ -1,5 +1,5 @@
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
