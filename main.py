@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import json
+print(json.dumps({"name": "John", "age": 30}))
