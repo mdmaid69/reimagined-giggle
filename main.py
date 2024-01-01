@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
