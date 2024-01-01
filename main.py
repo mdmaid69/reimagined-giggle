@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import array
+def clear_array(array):
+        array *= 0
