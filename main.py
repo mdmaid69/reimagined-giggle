@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
