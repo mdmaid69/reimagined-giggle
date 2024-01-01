@@ -1,3 +1,6 @@
-print("Hello, world!")
-  def is_even(n):
-        return n % 2 == 0
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
