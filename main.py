@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_area_rectangle(l, w):
-        return l * w
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
