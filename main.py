@@ -1,5 +1,8 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def greet(name):
-        print(f"Hello, {name}!")
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
