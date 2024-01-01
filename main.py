@@ -1,5 +1,8 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_stack():
+        return collections.deque()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
