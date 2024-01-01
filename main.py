@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import platform
+def get_python_version():
+        return platform.python_version()
+  def convert_to_octal(n):
+        return oct(n)
