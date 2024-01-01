@@ -1,5 +1,8 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
