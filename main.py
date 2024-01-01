@@ -1,4 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-print([x**2 for x in range(10)])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
