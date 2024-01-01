@@ -1,8 +1,8 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
