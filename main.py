@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import collections
+def create_stack():
+        return collections.deque()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
