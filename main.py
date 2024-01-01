@@ -1,5 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
