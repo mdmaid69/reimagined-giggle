@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
