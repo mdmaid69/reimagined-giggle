@@ -1,3 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-for i in range(10): print(i)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
