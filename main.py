@@ -1,6 +1,5 @@
+def multiply_numbers(x, y):
+        return x * y
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import collections
-def create_priority_queue():
-        return collections.deque()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
