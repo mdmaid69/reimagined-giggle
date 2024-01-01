@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
