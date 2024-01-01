@@ -1,6 +1,7 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
