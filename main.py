@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
