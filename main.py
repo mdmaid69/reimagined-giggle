@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
