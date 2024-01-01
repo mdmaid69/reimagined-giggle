@@ -1,6 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
