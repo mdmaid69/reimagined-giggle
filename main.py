@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-  def reverse_list(lst):
-        return lst[::-1]
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
