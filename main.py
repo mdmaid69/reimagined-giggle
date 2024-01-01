@@ -1,6 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
