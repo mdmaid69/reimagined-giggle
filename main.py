@@ -1,5 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def count_elements(lst):
-        return len(lst)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
