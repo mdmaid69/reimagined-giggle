@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
