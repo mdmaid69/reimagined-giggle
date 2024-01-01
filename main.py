@@ -1,5 +1,5 @@
+def divide_numbers(x, y):
+        return x / y
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
