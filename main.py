@@ -1,3 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-print("Hello, world!")
+  def subtract_numbers(x, y):
+        return x - y
+import sys
+def exit_program():
+        sys.exit()
