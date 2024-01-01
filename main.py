@@ -1,6 +1,7 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def calculate_area_rectangle(l, w):
+        return l * w
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
