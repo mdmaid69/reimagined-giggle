@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def find_max(lst):
-        return max(lst)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
