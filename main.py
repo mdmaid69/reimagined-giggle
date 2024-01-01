@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
