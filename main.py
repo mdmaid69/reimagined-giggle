@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
