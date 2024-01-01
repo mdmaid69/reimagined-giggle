@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
