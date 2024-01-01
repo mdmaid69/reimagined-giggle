@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import math
+def calculate_error_function(x):
+        return math.erf(x)
