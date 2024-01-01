@@ -1,5 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
