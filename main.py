@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_acceleration(speed, time):
+        return speed / time
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
