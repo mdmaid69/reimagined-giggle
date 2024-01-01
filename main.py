@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
