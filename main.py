@@ -1,7 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
