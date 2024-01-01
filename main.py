@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def divide_numbers(x, y):
+        return x / y
 import math
 def calculate_permutations(n, k):
         return math.perm(n, k)
