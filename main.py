@@ -1,8 +1,10 @@
-def factorial(n):
-        if n == 0:
-        return 1
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
         else:
-        return n * factorial(n-1)
-import collections
-def create_user_list():
-        return collections.UserList()
+        return -1
+import math
+def calculate_error_function(x):
+        return math.erf(x)
