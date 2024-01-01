@@ -1,7 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
