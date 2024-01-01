@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
