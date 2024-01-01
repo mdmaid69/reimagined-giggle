@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+print([x**2 for x in range(10)])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
