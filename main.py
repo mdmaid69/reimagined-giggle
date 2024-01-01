@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
