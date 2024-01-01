@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
