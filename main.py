@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import collections
+def create_counter():
+        return collections.Counter()
