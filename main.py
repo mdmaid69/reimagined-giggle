@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import collections
+def create_user_string():
+        return collections.UserString()
