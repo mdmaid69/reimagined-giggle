@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
