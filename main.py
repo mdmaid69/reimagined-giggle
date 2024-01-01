@@ -1,6 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def count_words(sentence):
+        return len(sentence.split())
+  def add_numbers(x, y):
+        return x + y
