@@ -1,5 +1,3 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import platform
-def get_os_info():
-        return platform.uname()
+print(sum(range(10)))
+def count_elements(lst):
+        return len(lst)
