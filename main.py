@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  def reverse_list(lst):
+        return lst[::-1]
