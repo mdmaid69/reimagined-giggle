@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import collections
-def create_user_string():
-        return collections.UserString()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
