@@ -1,8 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
