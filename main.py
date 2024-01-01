@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
