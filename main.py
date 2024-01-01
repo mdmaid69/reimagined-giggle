@@ -1,6 +1,8 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import time
+def get_time_since_epoch():
+        return time.time()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
