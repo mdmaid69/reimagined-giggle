@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
