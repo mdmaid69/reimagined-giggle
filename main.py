@@ -1,5 +1,5 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import random
 print(random.randint(0, 100))
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
