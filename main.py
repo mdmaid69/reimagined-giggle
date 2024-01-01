@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import collections
+def create_priority_queue():
+        return collections.deque()
