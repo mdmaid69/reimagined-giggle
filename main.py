@@ -1,4 +1,4 @@
-def find_max(lst):
-        return max(lst)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_speed(distance, time):
+        return distance / time
