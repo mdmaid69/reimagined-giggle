@@ -1,7 +1,8 @@
-import re
-print(re.match("h.*o", "hello world"))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
