@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  def reverse_list(lst):
-        return lst[::-1]
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
