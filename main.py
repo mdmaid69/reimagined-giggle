@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
