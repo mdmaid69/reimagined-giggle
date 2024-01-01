@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
