@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_complex(array):
+        return complex(array[0])
