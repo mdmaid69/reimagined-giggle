@@ -1,6 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
