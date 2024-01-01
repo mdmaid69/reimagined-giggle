@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
