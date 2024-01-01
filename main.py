@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
