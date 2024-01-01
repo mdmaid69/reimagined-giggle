@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
