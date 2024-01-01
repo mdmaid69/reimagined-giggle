@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_current_directory():
+        return os.getcwd()
