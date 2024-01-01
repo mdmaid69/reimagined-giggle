@@ -1,5 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+print([x**2 for x in range(10)])
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
