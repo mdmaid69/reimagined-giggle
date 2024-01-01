@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
