@@ -1,5 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def find_max(lst):
-        return max(lst)
+def add_numbers(x, y):
+        return x + y
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
