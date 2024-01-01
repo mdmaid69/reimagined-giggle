@@ -1,5 +1,6 @@
+import array
+def get_array_length(array):
+        return len(array)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
