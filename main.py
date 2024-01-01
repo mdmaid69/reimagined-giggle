@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
