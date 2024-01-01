@@ -1,6 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
