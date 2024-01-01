@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
