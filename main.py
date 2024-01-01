@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_user_list():
-        return collections.UserList()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def find_min(numbers):
+        return min(numbers)
