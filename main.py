@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def square_number(x):
+        return x**2
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
