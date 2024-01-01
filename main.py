@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
