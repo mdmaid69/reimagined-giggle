@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
