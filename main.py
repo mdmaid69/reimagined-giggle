@@ -1,5 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
