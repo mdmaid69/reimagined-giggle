@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
