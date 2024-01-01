@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
