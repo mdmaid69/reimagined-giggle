@@ -1,5 +1,10 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_pressure(force, area):
+        return force / area
