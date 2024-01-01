@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
