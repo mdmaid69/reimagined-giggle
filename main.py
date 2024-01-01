@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_user_string():
+        return collections.UserString()
