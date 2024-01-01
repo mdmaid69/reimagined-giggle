@@ -1,10 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
