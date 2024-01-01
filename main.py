@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+print(math.pi)
