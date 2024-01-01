@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
