@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import time
-def get_current_time():
-        return time.time()
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
