@@ -1,7 +1,5 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_as_bool(array):
+        return bool(array)
+import random
+print(random.randint(0, 100))
