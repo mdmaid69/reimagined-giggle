@@ -1,4 +1,4 @@
+  def sort_list(lst):
+        return sorted(lst)
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-name = "Python"
-print("Hello,", name)
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
