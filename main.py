@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def square_number(x):
-        return x**2
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
