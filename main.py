@@ -1,5 +1,5 @@
 import datetime
-print(datetime.datetime.now())
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def get_current_date():
+        return datetime.date.today()
+import json
+print(json.dumps({"name": "John", "age": 30}))
