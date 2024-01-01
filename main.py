@@ -1,5 +1,5 @@
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+print(sys.version)
+import collections
+def create_user_list():
+        return collections.UserList()
