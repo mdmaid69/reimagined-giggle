@@ -1,5 +1,8 @@
-def count_characters(sentence):
-        return len(sentence)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
