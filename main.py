@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def find_min(numbers):
-        return min(numbers)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
