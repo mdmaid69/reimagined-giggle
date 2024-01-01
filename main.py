@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def list_files_in_directory(path):
+        return os.listdir(path)
