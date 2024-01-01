@@ -1,6 +1,7 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_average(lst):
+        return sum(lst) / len(lst)
