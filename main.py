@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
