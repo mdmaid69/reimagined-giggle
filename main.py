@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
