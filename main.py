@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
