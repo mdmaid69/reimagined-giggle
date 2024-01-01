@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import math
-print(math.pi)
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
