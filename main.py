@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def sort_numbers(numbers):
-        return sorted(numbers)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
