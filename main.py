@@ -1,5 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def get_array_as_list(array):
+        return list(array)
+  def convert_to_binary(n):
+        return bin(n)
