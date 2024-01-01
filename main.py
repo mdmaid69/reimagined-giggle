@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
