@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
