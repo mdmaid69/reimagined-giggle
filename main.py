@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import time
-print(time.time())
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
