@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
