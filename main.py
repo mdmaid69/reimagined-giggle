@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
+import random
+print(random.randint(0, 100))
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
