@@ -1,6 +1,8 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def convert_array_to_list(array):
+        return array.tolist()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
