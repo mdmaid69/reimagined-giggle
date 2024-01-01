@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
