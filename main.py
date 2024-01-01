@@ -1,6 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_slice(array, i, j):
+        return array[i:j]
