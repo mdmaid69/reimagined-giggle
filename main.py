@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
