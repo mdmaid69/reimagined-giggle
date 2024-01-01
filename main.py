@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
