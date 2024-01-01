@@ -1,4 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-def divide_numbers(x, y):
-        return x / y
+def convert_to_octal(n):
+        return oct(n)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
