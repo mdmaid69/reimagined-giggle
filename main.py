@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
