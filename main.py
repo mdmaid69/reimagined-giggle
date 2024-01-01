@@ -1,10 +1,6 @@
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
 import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def get_time_since_epoch():
+        return time.time()
