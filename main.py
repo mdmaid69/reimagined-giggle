@@ -1,5 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
