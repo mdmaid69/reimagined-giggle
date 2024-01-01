@@ -1,5 +1,9 @@
-def reverse_list(lst):
-        return lst[::-1]
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
