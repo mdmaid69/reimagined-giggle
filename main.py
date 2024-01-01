@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import numpy as np
-print(np.array([1, 2, 3]))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
