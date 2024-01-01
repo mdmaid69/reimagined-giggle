@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
