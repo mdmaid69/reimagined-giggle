@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
