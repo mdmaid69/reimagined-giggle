@@ -1,5 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_speed(distance, time):
-        return distance / time
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_work(force, distance):
+        return force * distance
