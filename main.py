@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
