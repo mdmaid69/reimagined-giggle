@@ -1,8 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def calculate_acceleration(speed, time):
+        return speed / time
+def convert_to_hex(n):
+        return hex(n)
