@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def cube_number(x):
-        return x**3
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
