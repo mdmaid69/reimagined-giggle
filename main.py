@@ -1,8 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
