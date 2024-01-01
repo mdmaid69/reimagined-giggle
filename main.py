@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import getpass
+def get_username():
+        return getpass.getuser()
