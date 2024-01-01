@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
