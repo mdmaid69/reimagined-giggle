@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
