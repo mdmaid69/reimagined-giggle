@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
