@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
