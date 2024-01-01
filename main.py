@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+for i in range(5):
+        print(i)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
