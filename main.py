@@ -1,8 +1,6 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
