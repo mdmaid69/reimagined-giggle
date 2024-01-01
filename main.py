@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def cube_number(x):
+        return x**3
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
