@@ -1,6 +1,3 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+print(sum(range(10)))
+def reverse_list(lst):
+        return lst[::-1]
