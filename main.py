@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
