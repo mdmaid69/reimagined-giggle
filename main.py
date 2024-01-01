@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
