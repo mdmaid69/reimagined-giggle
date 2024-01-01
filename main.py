@@ -1,8 +1,6 @@
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
