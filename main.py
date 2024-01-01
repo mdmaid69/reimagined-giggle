@@ -1,5 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+for i in range(5):
+        print(i)
