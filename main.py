@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
