@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
