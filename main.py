@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def add_numbers(a, b):
+        return a + b
