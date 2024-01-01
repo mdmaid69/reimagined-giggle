@@ -1,6 +1,5 @@
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def get_array_as_memoryview(array):
+        return memoryview(array)
