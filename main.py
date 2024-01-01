@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
