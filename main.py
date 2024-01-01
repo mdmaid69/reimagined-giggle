@@ -1,6 +1,7 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
 import array
-def clear_array(array):
-        array *= 0
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
