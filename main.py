@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
