@@ -1,4 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  def is_odd(n):
-        return n % 2 != 0
+def convert_to_octal(n):
+        return oct(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
