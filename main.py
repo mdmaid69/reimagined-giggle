@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+text = "Hello, world!"
+print("Characters:", len(text))
