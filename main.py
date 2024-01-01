@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+text = "Hello, world!"
+print("Characters:", len(text))
