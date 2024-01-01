@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_arc_sine(x):
+        return math.asin(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
