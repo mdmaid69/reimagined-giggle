@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def is_odd(n):
-        return n % 2 != 0
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
