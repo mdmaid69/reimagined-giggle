@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import sys
-def print_python_version():
-        return sys.version
+import os
+print(os.getcwd())
+import array
+def get_array_length(array):
+        return len(array)
