@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import json
+def convert_to_json(data):
+        return json.dumps(data)
