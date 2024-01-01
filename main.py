@@ -1,5 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
