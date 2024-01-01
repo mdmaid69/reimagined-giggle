@@ -1,6 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
