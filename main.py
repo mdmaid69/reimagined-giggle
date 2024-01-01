@@ -1,4 +1,10 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
