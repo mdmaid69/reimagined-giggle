@@ -1,5 +1,7 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
