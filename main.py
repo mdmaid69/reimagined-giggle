@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def count_characters(sentence):
-        return len(sentence)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
