@@ -1,6 +1,8 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
