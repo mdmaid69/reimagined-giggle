@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
