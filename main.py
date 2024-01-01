@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
