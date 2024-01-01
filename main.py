@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import random
-print(random.randint(0, 100))
+import sys
+def exit_program():
+        sys.exit()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
