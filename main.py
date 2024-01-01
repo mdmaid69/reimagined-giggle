@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
