@@ -1,4 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-print("Hello, world!")
+  def multiply_numbers(x, y):
+        return x * y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
