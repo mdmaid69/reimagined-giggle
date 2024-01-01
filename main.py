@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
