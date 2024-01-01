@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
