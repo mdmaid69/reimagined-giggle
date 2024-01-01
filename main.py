@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
