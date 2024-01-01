@@ -1,6 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
