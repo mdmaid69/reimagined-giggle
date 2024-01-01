@@ -1,5 +1,7 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def is_even(n):
-        return n % 2 == 0
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
