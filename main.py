@@ -1,16 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
