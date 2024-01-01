@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
