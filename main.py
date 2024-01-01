@@ -1,4 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
