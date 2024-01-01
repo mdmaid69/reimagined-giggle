@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
