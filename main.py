@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
