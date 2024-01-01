@@ -1,5 +1,5 @@
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
