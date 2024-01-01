@@ -1,6 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
