@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
