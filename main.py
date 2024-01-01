@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
