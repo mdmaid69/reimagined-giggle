@@ -1,7 +1,11 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
