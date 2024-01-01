@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def is_odd(n):
+        return n % 2 != 0
