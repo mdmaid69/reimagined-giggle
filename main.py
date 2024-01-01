@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_speed(distance, time):
+        return distance / time
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
