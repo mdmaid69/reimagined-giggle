@@ -1,5 +1,6 @@
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
