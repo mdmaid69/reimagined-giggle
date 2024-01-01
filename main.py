@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+text = "Hello, world!"
+print("Words:", len(text.split()))
