@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
