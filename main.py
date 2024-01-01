@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
