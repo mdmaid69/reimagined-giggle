@@ -1,5 +1,6 @@
-import time
-print(time.time())
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
