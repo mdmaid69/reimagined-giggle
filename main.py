@@ -1,8 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
