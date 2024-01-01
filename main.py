@@ -1,7 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def split_path(path):
+        return os.path.split(path)
