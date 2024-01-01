@@ -1,7 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
