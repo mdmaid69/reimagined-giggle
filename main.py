@@ -1,6 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
