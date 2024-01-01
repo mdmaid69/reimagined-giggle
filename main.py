@@ -1,7 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
