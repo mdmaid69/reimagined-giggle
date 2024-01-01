@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
