@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_user_string():
-        return collections.UserString()
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
