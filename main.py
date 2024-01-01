@@ -1,5 +1,5 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
