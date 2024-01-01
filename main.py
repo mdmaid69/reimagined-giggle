@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_power(work, time):
+        return work / time
 import array
-def get_array_item(array, i):
-        return array[i]
+def convert_array_to_list(array):
+        return array.tolist()
