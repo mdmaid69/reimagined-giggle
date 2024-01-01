@@ -1,5 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def clear_array(array):
+        array *= 0
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
