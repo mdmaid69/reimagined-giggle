@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import time
+def get_time_since_epoch():
+        return time.time()
