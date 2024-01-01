@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
