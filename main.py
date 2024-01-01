@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def add_numbers(a, b):
+        return a + b
+import array
+def convert_array_to_string(array):
+        return array.tostring()
