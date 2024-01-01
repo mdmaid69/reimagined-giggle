@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
