@@ -1,9 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import re
+print(re.match("h.*o", "hello world"))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
