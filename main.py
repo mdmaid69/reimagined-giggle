@@ -1,7 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
