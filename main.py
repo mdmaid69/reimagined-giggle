@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
