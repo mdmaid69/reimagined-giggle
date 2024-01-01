@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
