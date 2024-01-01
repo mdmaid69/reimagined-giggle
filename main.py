@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def count_elements(lst):
+        return len(lst)
+  def sort_list(lst):
+        return sorted(lst)
