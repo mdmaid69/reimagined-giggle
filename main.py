@@ -1,4 +1,8 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def cube_number(x):
-        return x**3
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
