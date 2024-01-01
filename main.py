@@ -1,8 +1,6 @@
-import unittest
+import socket
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def convert_to_octal(n):
+        return oct(n)
