@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  def convert_to_hex(n):
-        return hex(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
