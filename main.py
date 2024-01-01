@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import re
+print(re.match("h.*o", "hello world"))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
