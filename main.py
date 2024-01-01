@@ -1,5 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def cube_number(x):
+        return x**3
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
