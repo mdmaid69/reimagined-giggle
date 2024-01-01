@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_tuple(array):
+        return tuple(array)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
