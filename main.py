@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def convert_to_hex(n):
+        return hex(n)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
