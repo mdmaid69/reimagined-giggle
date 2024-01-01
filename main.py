@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
