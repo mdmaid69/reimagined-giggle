@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
