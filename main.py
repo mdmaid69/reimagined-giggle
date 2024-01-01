@@ -1,6 +1,6 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import sys
+def exit_program():
+        sys.exit()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
