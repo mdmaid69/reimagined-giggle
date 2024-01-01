@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
