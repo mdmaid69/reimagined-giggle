@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
