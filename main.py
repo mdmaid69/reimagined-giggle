@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
