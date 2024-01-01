@@ -1,7 +1,8 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
