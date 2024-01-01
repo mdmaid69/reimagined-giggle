@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-import re
-print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
