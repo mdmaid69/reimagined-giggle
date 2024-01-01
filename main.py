@@ -1,8 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
