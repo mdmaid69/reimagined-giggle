@@ -1,4 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  def remove_duplicates(lst):
-        return list(set(lst))
+def multiply_numbers(x, y):
+        return x * y
+def calculate_area_circle(r):
+        return 3.14 * r**2
