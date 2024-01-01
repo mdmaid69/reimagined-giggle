@@ -1,5 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def cube_number(x):
-        return x**3
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import os
+def get_current_working_directory():
+        return os.getcwd()
