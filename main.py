@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import numpy as np
+print(np.array([1, 2, 3]))
