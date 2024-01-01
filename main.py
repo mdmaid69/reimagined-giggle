@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
