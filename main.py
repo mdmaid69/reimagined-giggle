@@ -1,8 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
