@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
