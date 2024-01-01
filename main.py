@@ -1,8 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
