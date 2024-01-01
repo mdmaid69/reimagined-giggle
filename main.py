@@ -1,5 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def reverse_string(s):
+        return s[::-1]
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
