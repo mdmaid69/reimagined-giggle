@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def find_max(numbers):
-        return max(numbers)
+import random
+print(random.randint(0, 100))
+import logging
+def log_message(message):
+        logging.info(message)
