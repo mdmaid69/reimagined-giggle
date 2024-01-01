@@ -1,8 +1,4 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
