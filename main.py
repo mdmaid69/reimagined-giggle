@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
