@@ -1,5 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def cube_number(x):
-        return x**3
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def convert_to_binary(n):
+        return bin(n)
