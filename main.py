@@ -1,4 +1,7 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def add_numbers(x, y):
+        return x + y
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
