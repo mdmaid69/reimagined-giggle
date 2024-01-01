@@ -1,5 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-  def subtract_numbers(x, y):
-        return x - y
+def convert_to_octal(n):
+        return oct(n)
+def find_min(lst):
+        return min(lst)
