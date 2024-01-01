@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_power(work, time):
+        return work / time
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
