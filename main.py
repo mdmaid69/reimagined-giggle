@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
