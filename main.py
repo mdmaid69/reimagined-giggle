@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+from collections import Counter
+print(Counter("hello world"))
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
