@@ -1,6 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
