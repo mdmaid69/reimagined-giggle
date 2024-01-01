@@ -1,5 +1,6 @@
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
