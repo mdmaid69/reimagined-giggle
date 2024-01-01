@@ -1,6 +1,8 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
