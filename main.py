@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def get_array_as_set(array):
+        return set(array)
