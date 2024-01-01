@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
