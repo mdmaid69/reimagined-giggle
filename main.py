@@ -1,6 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
