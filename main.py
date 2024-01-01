@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_speed(distance, time):
-        return distance / time
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
