@@ -1,5 +1,8 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def divide_numbers(x, y):
-        return x / y
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
