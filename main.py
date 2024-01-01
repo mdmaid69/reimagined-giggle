@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
