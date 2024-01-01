@@ -1,5 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
