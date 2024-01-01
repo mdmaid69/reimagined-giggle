@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
