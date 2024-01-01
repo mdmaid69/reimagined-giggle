@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import os
+print(os.getcwd())
