@@ -1,6 +1,5 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
