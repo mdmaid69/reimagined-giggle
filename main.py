@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
