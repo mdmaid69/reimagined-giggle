@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def square_number(x):
+        return x**2
