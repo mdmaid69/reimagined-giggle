@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import collections
-def create_stack():
-        return collections.deque()
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
