@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_pressure(force, area):
+        return force / area
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
