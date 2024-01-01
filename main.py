@@ -1,6 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_acceleration(speed, time):
+        return speed / time
+  def multiply_numbers(x, y):
+        return x * y
