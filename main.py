@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def is_even(n):
+        return n % 2 == 0
