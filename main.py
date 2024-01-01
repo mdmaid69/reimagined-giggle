@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import json
+def convert_to_json(data):
+        return json.dumps(data)
