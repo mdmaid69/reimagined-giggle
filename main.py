@@ -1,4 +1,9 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
