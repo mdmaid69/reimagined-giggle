@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
