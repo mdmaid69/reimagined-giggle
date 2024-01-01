@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
