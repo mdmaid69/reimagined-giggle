@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
