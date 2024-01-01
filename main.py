@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import collections
+def create_queue():
+        return collections.deque()
