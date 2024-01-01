@@ -1,4 +1,7 @@
-def cube_number(x):
-        return x**3
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
