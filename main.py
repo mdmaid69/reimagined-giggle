@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def cube_number(x):
+        return x**3
