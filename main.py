@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
