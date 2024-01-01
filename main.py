@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
