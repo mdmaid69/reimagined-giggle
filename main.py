@@ -1,5 +1,5 @@
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
