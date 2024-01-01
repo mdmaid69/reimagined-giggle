@@ -1,7 +1,4 @@
 numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+print("Sum:", sum(numbers))
+  def calculate_area_rectangle(l, w):
+        return l * w
