@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def sort_numbers(numbers):
-        return sorted(numbers)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
