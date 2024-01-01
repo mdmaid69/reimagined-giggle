@@ -1,4 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def add_numbers(a, b):
-        return a + b
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def find_max(numbers):
+        return max(numbers)
