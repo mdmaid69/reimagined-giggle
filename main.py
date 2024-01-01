@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
