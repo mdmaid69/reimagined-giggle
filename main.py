@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
