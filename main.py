@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import os
+print(os.getcwd())
+def calculate_density(mass, volume):
+        return mass / volume
