@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
