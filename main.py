@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
