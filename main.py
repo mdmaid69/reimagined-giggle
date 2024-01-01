@@ -1,5 +1,5 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_power(work, time):
-        return work / time
+print(math.pi)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
