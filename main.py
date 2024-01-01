@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import collections
+def create_counter():
+        return collections.Counter()
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_as_repr(array):
+        return repr(array)
