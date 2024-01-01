@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  def sort_list(lst):
-        return sorted(lst)
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
