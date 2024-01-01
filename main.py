@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
