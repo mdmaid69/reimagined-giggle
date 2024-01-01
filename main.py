@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+i = 0
+while i < 5:
+        print(i)
+        i += 1
