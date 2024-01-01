@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_area(radius):
+        return 3.14 * radius * radius
