@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def reverse_string(s):
-        return s[::-1]
+import collections
+def create_priority_queue():
+        return collections.deque()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
