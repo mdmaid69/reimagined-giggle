@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
