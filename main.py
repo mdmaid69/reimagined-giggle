@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-from collections import Counter
-print(Counter("hello world"))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import json
+print(json.dumps({"name": "John", "age": 30}))
