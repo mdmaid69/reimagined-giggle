@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
