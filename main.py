@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
