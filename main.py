@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import datetime
+def get_today_date():
+        return datetime.date.today()
