@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
