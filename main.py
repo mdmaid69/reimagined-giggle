@@ -1,7 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
