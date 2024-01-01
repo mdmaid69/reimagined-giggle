@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
