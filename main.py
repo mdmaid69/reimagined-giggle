@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
