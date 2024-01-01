@@ -1,5 +1,6 @@
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def find_max(lst):
-        return max(lst)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
