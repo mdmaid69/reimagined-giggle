@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
