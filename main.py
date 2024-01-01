@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def sort_list(lst):
-        return sorted(lst)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
