@@ -1,10 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import time
+def get_time_since_epoch():
+        return time.time()
