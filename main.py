@@ -1,7 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_bytes_from_array(array):
+        return array.tobytes()
