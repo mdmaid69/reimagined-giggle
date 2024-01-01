@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-name = "Python"
-print("Hello,", name)
+for i in range(5):
+        print(i)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
