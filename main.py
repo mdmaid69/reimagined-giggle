@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
