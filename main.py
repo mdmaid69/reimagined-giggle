@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import platform
-def get_os_info():
-        return platform.uname()
+import time
+def get_current_time():
+        return time.time()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
