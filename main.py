@@ -1,5 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def multiply_numbers(x, y):
+        return x * y
