@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
