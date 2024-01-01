@@ -1,6 +1,5 @@
+def add_numbers(x, y):
+        return x + y
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
