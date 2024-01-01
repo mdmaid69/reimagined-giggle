@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
