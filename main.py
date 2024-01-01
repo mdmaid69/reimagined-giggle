@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
