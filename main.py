@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def multiply_numbers(x, y):
+        return x * y
