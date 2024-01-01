@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
