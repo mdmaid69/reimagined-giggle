@@ -1,5 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
