@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import sys
+def print_python_version():
+        return sys.version
