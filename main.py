@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
