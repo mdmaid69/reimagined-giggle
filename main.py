@@ -1,8 +1,6 @@
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
