@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import time
+def get_time_since_epoch():
+        return time.time()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
