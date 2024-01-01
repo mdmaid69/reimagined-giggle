@@ -1,5 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
