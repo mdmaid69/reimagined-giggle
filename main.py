@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_pressure(force, area):
-        return force / area
+  def cube_number(x):
+        return x**3
+import array
+def get_array_as_repr(array):
+        return repr(array)
