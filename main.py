@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def remove_duplicates(lst):
+        return list(set(lst))
