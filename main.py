@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
