@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def count_words(sentence):
-        return len(sentence.split())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def is_odd(n):
+        return n % 2 != 0
