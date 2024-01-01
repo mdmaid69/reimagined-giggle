@@ -1,6 +1,6 @@
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
