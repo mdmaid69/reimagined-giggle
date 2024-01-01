@@ -1,6 +1,8 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
