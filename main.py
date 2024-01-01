@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
