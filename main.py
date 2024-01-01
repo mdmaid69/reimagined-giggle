@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def greet(name):
+        print(f"Hello, {name}!")
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
