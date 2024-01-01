@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
