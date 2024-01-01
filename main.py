@@ -1,5 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+from collections import Counter
+print(Counter("hello world"))
