@@ -1,5 +1,4 @@
-import math
-print(math.pi)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+text = "Hello, world!"
+print("Reversed:", text[::-1])
