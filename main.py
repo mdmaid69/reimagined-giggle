@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
