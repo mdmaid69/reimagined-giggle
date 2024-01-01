@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
