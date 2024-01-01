@@ -1,6 +1,8 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
