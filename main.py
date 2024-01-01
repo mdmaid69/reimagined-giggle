@@ -1,5 +1,8 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
