@@ -1,5 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_power(work, time):
-        return work / time
+text = "Hello, world!"
+print("Characters:", len(text))
+def cube_number(x):
+        return x**3
