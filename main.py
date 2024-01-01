@@ -1,4 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-print([x**2 for x in range(10)])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def find_unique_words(sentence):
+        return set(sentence.split())
