@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def convert_to_binary(n):
+        return bin(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
