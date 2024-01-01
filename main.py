@@ -1,8 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_average(lst):
+        return sum(lst) / len(lst)
