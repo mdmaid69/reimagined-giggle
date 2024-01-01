@@ -1,6 +1,7 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
