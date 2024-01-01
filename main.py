@@ -1,10 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
