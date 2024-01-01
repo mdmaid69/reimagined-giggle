@@ -1,5 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def convert_to_octal(n):
-        return oct(n)
+def get_array_item(array, i):
+        return array[i]
