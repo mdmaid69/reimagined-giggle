@@ -1,6 +1,6 @@
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
