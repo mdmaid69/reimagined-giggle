@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
