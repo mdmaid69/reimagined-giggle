@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
