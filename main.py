@@ -1,7 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
