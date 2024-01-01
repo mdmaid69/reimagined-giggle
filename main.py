@@ -1,5 +1,7 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def get_array_length(array):
+        return len(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
