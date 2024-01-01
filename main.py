@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
