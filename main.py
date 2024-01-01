@@ -1,5 +1,4 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def is_even(n):
+        return n % 2 == 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
