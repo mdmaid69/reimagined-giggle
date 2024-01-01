@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+print([x**2 for x in range(10)])
