@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
