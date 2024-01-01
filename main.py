@@ -1,5 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_pressure(force, area):
+        return force / area
+def calculate_area_rectangle(l, w):
+        return l * w
