@@ -1,5 +1,8 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
