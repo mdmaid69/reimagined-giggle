@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
