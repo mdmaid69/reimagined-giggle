@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
