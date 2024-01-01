@@ -1,6 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
