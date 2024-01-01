@@ -1,5 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-def find_unique_words(sentence):
-        return set(sentence.split())
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
