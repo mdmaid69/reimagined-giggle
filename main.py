@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
