@@ -1,6 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import collections
-def create_priority_queue():
-        return collections.deque()
-  import sys
-  def get_python_version():
-        return sys.version
+def create_ordered_dict():
+        return collections.OrderedDict()
