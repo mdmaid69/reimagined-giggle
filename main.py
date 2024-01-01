@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
