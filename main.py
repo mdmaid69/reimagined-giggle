@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  def convert_to_hex(n):
-        return hex(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_length(array):
+        return len(array)
