@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_speed(distance, time):
+        return distance / time
