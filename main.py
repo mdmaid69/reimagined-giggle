@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
