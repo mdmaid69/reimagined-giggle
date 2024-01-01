@@ -1,5 +1,10 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
