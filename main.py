@@ -1,6 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
