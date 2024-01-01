@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
