@@ -1,7 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def get_array_as_str(array):
+        return str(array)
