@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
