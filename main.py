@@ -1,5 +1,7 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_acceleration(speed, time):
+        return speed / time
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
