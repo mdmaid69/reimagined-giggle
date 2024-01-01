@@ -1,4 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_speed(distance, time):
+        return distance / time
+def count_characters(sentence):
+        return len(sentence)
