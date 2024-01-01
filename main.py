@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
