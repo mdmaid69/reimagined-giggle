@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
