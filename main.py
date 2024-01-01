@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
