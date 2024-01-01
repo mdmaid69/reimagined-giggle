@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
