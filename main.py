@@ -1,5 +1,9 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def square_number(x):
-        return x**2
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
