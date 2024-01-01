@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import time
+def get_current_time():
+        return time.time()
