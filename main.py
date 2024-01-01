@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
