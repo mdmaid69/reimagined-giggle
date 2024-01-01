@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def reverse_list(lst):
+        return lst[::-1]
