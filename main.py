@@ -1,6 +1,7 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
