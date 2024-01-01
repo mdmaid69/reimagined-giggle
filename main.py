@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import sys
+print(sys.version)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
