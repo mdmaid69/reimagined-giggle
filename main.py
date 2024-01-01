@@ -1,6 +1,6 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import time
-def get_current_time():
-        return time.time()
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
