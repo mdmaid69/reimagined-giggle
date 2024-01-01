@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import sys
+def print_python_version():
+        return sys.version
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
