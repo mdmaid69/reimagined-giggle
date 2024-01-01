@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import sys
+def print_python_version():
+        print(sys.version)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
