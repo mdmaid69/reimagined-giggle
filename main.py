@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_queue():
-        return collections.deque()
+name = "Python"
+print("Hello,", name)
+import platform
+def get_python_version():
+        return platform.python_version()
