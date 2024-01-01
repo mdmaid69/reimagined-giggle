@@ -1,8 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
