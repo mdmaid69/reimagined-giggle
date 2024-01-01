@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
