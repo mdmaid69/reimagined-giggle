@@ -1,7 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
