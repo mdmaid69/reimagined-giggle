@@ -1,5 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_error_function(x):
+        return math.erf(x)
