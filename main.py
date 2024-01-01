@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import collections
+def create_user_dict():
+        return collections.UserDict()
