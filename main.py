@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import getpass
-def get_username():
-        return getpass.getuser()
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
