@@ -1,5 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import logging
-def log_message(message):
-        logging.info(message)
+def find_min(lst):
+        return min(lst)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
