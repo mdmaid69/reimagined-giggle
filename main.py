@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
