@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import datetime
+def get_current_date():
+        return datetime.date.today()
