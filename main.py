@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
