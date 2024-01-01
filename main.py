@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import collections
+def create_counter():
+        return collections.Counter()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
