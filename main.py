@@ -1,6 +1,7 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
