@@ -1,5 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
