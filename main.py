@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import re
+print(re.match("h.*o", "hello world"))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
