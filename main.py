@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_acceleration(speed, time):
+        return speed / time
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
