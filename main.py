@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
