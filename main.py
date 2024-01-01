@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
