@@ -1,7 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+text = "Hello, world!"
+print("Words:", len(text.split()))
