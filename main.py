@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
