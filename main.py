@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
