@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def reverse_list(lst):
+        return lst[::-1]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
