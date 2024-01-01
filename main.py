@@ -1,10 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
