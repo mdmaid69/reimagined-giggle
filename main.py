@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
