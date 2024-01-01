@@ -1,8 +1,3 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+print(sum(range(10)))
+  def count_elements(lst):
+        return len(lst)
