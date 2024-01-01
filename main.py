@@ -1,5 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_sine(x):
-        return math.sin(x)
-  def cube_number(x):
-        return x**3
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
