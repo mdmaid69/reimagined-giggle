@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
 import random
-print(random.randint(0, 100))
+def generate_random_number(start, end):
+        return random.randint(start, end)
