@@ -1,6 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def add_numbers(x, y):
+        return x + y
+def reverse_string(s):
+        return s[::-1]
