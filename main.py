@@ -1,5 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def square_number(x):
-        return x**2
+def convert_to_hex(n):
+        return hex(n)
+def calculate_speed(distance, time):
+        return distance / time
