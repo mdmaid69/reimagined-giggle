@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import datetime
-print(datetime.datetime.now())
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def remove_duplicates(lst):
+        return list(set(lst))
