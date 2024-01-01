@@ -1,6 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_sign(x):
+        return math.copysign(1, x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
