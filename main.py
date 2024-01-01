@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
