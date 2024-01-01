@@ -1,6 +1,7 @@
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
