@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
