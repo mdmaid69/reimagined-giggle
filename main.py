@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def subtract_numbers(x, y):
+        return x - y
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
