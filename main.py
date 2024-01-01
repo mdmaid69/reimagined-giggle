@@ -1,8 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
