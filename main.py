@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def append_to_array(array, item):
+        array.append(item)
