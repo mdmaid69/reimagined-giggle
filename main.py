@@ -1,5 +1,6 @@
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
