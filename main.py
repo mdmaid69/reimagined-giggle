@@ -1,6 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_power(work, time):
+        return work / time
