@@ -1,7 +1,7 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
