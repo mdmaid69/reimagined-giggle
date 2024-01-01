@@ -1,5 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def is_even(n):
+        return n % 2 == 0
