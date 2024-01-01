@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def is_even(n):
+        return n % 2 == 0
