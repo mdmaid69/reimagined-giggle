@@ -1,5 +1,6 @@
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
