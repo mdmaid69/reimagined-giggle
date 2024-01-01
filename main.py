@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
