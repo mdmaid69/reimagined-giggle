@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
