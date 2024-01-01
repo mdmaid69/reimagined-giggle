@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
