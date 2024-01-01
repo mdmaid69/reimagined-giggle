@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
