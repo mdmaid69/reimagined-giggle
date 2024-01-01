@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
