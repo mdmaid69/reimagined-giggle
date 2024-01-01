@@ -1,5 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import sys
+def print_python_version():
+        return sys.version
