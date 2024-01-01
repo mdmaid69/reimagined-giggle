@@ -1,6 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def find_max(lst):
+        return max(lst)
+def calculate_power(work, time):
+        return work / time
