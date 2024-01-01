@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
