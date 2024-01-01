@@ -1,8 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
