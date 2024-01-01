@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
