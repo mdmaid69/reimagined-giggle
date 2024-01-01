@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
