@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
