@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
