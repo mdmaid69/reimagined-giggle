@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
