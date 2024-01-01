@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
