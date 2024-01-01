@@ -1,5 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_arc_sine(x):
+        return math.asin(x)
