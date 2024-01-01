@@ -1,5 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import platform
+def get_os_info():
+        return platform.uname()
