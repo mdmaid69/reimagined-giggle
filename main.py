@@ -1,5 +1,6 @@
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def get_array_as_set(array):
+        return set(array)
