@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_ceiling(x):
+        return math.ceil(x)
