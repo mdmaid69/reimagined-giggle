@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
