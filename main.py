@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
