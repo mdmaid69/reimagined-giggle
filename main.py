@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import sys
-def exit_program():
-        sys.exit()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
