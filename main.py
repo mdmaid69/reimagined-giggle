@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
