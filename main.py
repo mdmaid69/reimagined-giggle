@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def get_string_from_array(array):
+        return array.tobytes()
