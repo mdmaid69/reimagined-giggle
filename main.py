@@ -1,5 +1,7 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
