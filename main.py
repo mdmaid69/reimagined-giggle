@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def reverse_list(lst):
+        return lst[::-1]
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
