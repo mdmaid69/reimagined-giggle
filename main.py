@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import datetime
+def get_current_date():
+        return datetime.date.today()
