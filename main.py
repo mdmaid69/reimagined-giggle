@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import time
+def get_current_time():
+        return time.ctime()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
