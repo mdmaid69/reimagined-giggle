@@ -1,5 +1,5 @@
+import random
+print(random.randint(0, 100))
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
