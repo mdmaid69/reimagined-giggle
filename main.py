@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
