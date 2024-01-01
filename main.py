@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
