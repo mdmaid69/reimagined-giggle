@@ -1,4 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import collections
+def create_stack():
+        return collections.deque()
