@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_pressure(force, area):
+        return force / area
+text = "Hello, world!"
+print("Uppercase:", text.upper())
