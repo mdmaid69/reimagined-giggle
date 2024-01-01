@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
