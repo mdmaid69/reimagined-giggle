@@ -1,7 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+from collections import Counter
+print(Counter("hello world"))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
