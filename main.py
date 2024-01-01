@@ -1,6 +1,7 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
