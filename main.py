@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
