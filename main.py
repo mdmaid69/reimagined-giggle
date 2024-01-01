@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
