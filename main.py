@@ -1,5 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+from collections import Counter
+print(Counter("hello world"))
+def calculate_work(force, distance):
+        return force * distance
