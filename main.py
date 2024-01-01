@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
