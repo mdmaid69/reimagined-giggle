@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
