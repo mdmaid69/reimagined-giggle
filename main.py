@@ -1,5 +1,3 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+for i in range(10): print(i)
