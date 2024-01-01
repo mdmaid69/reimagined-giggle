@@ -1,7 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
