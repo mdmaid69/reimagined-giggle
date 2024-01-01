@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
