@@ -1,6 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def count_characters(sentence):
-        return len(sentence)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
