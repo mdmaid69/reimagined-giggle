@@ -1,7 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import sys
+def print_python_version():
+        return sys.version
