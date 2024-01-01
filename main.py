@@ -1,6 +1,8 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
