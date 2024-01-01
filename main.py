@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_speed(distance, time):
+        return distance / time
