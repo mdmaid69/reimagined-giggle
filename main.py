@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
