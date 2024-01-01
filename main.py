@@ -1,8 +1,6 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
