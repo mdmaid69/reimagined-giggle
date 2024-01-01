@@ -1,6 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
