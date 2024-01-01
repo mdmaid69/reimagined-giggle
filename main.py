@@ -1,4 +1,5 @@
-  def square_number(x):
-        return x**2
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import os
+print(os.getcwd())
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
