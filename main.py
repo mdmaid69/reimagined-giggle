@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
