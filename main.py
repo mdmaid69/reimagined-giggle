@@ -1,6 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
