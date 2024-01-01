@@ -1,7 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import collections
+def create_queue():
+        return collections.deque()
