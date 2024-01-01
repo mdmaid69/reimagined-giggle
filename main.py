@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def divide_numbers(x, y):
+        return x / y
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
