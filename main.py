@@ -1,7 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
