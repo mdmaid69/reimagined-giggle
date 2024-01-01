@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_error_function(x):
+        return math.erf(x)
