@@ -1,6 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
