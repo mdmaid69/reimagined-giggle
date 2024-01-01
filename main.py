@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import sys
-  def get_python_version():
-        return sys.version
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def convert_to_octal(n):
+        return oct(n)
