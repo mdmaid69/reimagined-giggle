@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  def add_numbers(x, y):
+        return x + y
