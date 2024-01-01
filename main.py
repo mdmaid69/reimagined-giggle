@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_error_function(x):
+        return math.erf(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
