@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def is_even(n):
-        return n % 2 == 0
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
