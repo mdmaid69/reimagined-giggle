@@ -1,5 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
