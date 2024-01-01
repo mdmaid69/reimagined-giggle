@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+from collections import Counter
+print(Counter("hello world"))
+def calculate_work(force, distance):
+        return force * distance
