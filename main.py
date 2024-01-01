@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def cube_number(x):
+        return x**3
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
