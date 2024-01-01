@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
