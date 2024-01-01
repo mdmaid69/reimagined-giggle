@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
