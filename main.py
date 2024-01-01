@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_power(work, time):
-        return work / time
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
