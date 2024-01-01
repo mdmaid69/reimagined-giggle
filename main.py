@@ -1,5 +1,12 @@
+import sys
+def print_python_version():
+        print(sys.version)
+import queue
+
+q = queue.Queue()
+
 for i in range(5):
-        print(i)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
