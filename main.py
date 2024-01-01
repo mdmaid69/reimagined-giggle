@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
