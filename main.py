@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import collections
-def create_stack():
-        return collections.deque()
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def sort_numbers(numbers):
+        return sorted(numbers)
