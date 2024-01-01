@@ -1,7 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
