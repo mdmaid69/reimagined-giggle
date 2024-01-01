@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def get_array_as_float(array):
+        return float(array[0])
