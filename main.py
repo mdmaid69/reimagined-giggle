@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
