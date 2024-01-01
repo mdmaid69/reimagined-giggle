@@ -1,7 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def sort_list(lst):
-        return sorted(lst)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
