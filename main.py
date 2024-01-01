@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import platform
+def get_python_version():
+        return platform.python_version()
