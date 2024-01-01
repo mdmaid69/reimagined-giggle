@@ -1,9 +1,6 @@
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
