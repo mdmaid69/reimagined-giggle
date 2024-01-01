@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_bytes_from_array(array):
+        return array.tobytes()
