@@ -1,6 +1,12 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
