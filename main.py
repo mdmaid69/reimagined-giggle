@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
