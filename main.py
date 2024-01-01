@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
