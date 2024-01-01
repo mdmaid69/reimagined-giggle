@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def cube_number(x):
+        return x**3
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
