@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+for i in range(5):
+        print(i)
