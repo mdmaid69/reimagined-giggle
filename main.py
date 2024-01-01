@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import sys
+  def get_python_version():
+        return sys.version
+name = "Python"
+print("Hello,", name)
