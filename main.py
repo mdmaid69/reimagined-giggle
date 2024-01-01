@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
