@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
