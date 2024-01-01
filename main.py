@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_density(mass, volume):
+        return mass / volume
