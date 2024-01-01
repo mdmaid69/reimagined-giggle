@@ -1,4 +1,7 @@
-  def cube_number(x):
-        return x**3
-def calculate_acceleration(speed, time):
-        return speed / time
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
