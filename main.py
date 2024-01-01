@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
