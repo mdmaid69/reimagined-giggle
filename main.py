@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
