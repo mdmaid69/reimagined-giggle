@@ -1,7 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
