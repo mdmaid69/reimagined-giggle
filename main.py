@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
