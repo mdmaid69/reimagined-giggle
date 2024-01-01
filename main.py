@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
