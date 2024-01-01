@@ -1,11 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
