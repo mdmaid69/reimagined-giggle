@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import platform
-def get_os_info():
-        return platform.uname()
+def greet(name):
+        print(f"Hello, {name}!")
+import datetime
+def get_today_date():
+        return datetime.date.today()
