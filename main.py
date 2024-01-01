@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
