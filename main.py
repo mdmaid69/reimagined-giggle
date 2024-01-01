@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
