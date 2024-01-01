@@ -1,8 +1,4 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  def sort_list(lst):
+        return sorted(lst)
