@@ -1,4 +1,6 @@
-print("Hello, world!")
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_cosine(x):
+        return math.cos(x)
