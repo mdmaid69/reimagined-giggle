@@ -1,6 +1,6 @@
+import array
+def get_array_index(array, item):
+        return array.index(item)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import sys
-def print_python_version():
-        return sys.version
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
