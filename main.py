@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
