@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_length(array):
+        return len(array)
