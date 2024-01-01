@@ -1,6 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def get_array_item_count(array, item):
+        return array.count(item)
