@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
