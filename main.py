@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
