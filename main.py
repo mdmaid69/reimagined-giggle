@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
+def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
