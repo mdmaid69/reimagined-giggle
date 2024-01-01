@@ -1,4 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
