@@ -1,6 +1,9 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
