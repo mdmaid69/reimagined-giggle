@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
