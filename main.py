@@ -1,4 +1,7 @@
-import datetime
-print(datetime.datetime.now())
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def count_elements(lst):
+        return len(lst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
