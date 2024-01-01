@@ -1,4 +1,9 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
