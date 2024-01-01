@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
