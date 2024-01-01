@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
