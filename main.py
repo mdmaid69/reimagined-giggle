@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
