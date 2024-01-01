@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
