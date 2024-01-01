@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
