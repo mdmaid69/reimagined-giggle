@@ -1,6 +1,6 @@
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_arc_cosine(x):
+        return math.acos(x)
