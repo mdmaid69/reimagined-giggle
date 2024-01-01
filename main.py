@@ -1,5 +1,6 @@
+  import sys
+  def get_python_version():
+        return sys.version
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def sort_list(lst):
-        return sorted(lst)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
