@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
