@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
