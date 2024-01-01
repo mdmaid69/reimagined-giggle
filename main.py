@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def add_numbers(a, b):
-        return a + b
+def count_characters(sentence):
+        return len(sentence)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
