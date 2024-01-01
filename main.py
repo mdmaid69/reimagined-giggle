@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import collections
-def create_queue():
-        return collections.deque()
+def is_palindrome(s):
+        return s == s[::-1]
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
