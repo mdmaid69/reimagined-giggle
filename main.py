@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-name = "Python"
-print("Hello,", name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_work(force, distance):
+        return force * distance
