@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_density(mass, volume):
+        return mass / volume
