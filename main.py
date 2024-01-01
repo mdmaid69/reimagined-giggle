@@ -1,6 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-print(sum(range(10)))
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import sys
+def print_python_version():
+        print(sys.version)
