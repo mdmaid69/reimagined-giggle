@@ -1,5 +1,8 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-from collections import Counter
-print(Counter("hello world"))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
