@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
