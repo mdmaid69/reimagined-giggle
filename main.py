@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
