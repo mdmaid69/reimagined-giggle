@@ -1,4 +1,7 @@
-print(sum(range(10)))
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
