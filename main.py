@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  def add_numbers(x, y):
+        return x + y
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
