@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
