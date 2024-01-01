@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def add_numbers(a, b):
-        return a + b
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import time
+def get_current_time():
+        return time.time()
