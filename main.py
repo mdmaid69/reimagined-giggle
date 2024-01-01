@@ -1,7 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
