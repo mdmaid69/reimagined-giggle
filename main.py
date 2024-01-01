@@ -1,4 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-  def is_even(n):
-        return n % 2 == 0
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_force(mass, acceleration):
+        return mass * acceleration
