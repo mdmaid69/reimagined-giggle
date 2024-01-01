@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
