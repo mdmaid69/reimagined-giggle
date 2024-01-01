@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def add_numbers(a, b):
+        return a + b
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
