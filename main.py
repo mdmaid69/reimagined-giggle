@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
