@@ -1,4 +1,6 @@
-print("Hello, world!")
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
