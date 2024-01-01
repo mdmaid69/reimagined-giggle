@@ -1,7 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
