@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import sys
+def print_python_version():
+        print(sys.version)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
