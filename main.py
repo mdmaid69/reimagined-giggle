@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-  def subtract_numbers(x, y):
-        return x - y
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
