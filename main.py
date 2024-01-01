@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
