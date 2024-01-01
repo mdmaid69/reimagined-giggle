@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
