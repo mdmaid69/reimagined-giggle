@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
