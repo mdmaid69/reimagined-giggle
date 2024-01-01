@@ -1,4 +1,4 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def find_min(lst):
-        return min(lst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_area_circle(r):
+        return 3.14 * r**2
