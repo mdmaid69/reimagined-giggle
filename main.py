@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def convert_to_octal(n):
+        return oct(n)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
