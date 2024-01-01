@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-for i in range(5):
-        print(i)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def remove_duplicates(lst):
+        return list(set(lst))
