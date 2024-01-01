@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
