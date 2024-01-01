@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def cube_number(x):
-        return x**3
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def is_odd(n):
+        return n % 2 != 0
