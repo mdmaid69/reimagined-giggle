@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
