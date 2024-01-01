@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
