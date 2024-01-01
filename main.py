@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def count_words(sentence):
+        return len(sentence.split())
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
