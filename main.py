@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
