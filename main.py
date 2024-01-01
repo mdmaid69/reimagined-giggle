@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
 import collections
-def create_user_string():
-        return collections.UserString()
+def create_queue():
+        return collections.deque()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
