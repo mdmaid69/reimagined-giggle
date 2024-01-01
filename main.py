@@ -1,7 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
