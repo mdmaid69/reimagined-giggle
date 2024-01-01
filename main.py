@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
