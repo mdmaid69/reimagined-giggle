@@ -1,5 +1,5 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-for i in range(5):
-        print(i)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+text = "Hello, world!"
+print("Uppercase:", text.upper())
