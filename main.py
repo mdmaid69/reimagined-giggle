@@ -1,6 +1,3 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  def sort_list(lst):
-        return sorted(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+for i in range(10): print(i)
