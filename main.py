@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import sys
+print(sys.version)
+  def is_even(n):
+        return n % 2 == 0
