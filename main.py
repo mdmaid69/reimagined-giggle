@@ -1,5 +1,7 @@
-  def convert_to_binary(n):
-        return bin(n)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
