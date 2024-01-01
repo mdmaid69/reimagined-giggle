@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
