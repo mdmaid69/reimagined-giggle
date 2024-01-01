@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-print(math.pi)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def convert_to_octal(n):
+        return oct(n)
