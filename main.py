@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def find_max(lst):
-        return max(lst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
