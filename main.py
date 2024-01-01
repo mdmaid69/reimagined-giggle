@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import platform
-def get_os_info():
-        return platform.uname()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
