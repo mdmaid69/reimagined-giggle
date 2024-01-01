@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
