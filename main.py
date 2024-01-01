@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def convert_to_hex(n):
+        return hex(n)
