@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-def remove_duplicates(lst):
-        return list(set(lst))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
