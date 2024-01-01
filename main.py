@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import platform
+def get_python_version():
+        return platform.python_version()
