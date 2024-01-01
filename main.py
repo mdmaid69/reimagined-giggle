@@ -1,6 +1,4 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_area_circle(r):
+        return 3.14 * r**2
