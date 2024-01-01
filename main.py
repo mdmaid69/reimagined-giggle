@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def remove_duplicates(lst):
+        return list(set(lst))
