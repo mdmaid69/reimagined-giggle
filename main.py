@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def is_odd(n):
+        return n % 2 != 0
