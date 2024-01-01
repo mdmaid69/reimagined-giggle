@@ -1,8 +1,5 @@
+  def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
