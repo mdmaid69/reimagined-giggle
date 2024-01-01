@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_current_working_directory():
+        return os.getcwd()
