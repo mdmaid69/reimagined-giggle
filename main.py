@@ -1,5 +1,8 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
