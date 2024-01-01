@@ -1,5 +1,5 @@
 import array
-def get_array_length(array):
-        return len(array)
-for i in range(5):
-        print(i)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+text = "Hello, world!"
+print("Characters:", len(text))
