@@ -1,5 +1,8 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
