@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
