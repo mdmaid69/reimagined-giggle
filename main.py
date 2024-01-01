@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
