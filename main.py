@@ -1,5 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def get_array_item_count(array, item):
+        return array.count(item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
