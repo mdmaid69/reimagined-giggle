@@ -1,7 +1,5 @@
 import array
-def reverse_array(array):
-        array.reverse()
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def clear_array(array):
+        array *= 0
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
