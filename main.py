@@ -1,5 +1,4 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+for i in range(5):
+        print(i)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
