@@ -1,5 +1,7 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
