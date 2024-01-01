@@ -1,9 +1,8 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
