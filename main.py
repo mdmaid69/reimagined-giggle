@@ -1,7 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
