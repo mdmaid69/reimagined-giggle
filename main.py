@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
