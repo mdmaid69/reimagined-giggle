@@ -1,6 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_sign(x):
+        return math.copysign(1, x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
