@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def is_odd(n):
+        return n % 2 != 0
