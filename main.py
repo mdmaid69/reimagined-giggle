@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+print(math.pi)
