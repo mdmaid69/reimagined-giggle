@@ -1,5 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
