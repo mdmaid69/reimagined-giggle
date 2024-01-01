@@ -1,7 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def convert_to_octal(n):
+        return oct(n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
