@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
