@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
