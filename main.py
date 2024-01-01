@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def count_characters(sentence):
-        return len(sentence)
+import collections
+def create_stack():
+        return collections.deque()
+  def convert_to_octal(n):
+        return oct(n)
