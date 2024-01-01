@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
