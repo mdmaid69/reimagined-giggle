@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
