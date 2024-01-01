@@ -1,7 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  def is_odd(n):
-        return n % 2 != 0
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
