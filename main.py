@@ -1,5 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def find_min(numbers):
-        return min(numbers)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
