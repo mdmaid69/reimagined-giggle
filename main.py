@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
