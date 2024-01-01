@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
