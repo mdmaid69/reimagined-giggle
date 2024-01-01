@@ -1,7 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def is_palindrome(s):
+        return s == s[::-1]
+import datetime
+print(datetime.datetime.now())
