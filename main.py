@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
