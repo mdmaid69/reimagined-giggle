@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
