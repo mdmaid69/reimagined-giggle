@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
