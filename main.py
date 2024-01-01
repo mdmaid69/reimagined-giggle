@@ -1,5 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def find_min(numbers):
-        return min(numbers)
+import sys
+print(sys.version)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
