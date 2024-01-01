@@ -1,4 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_power(work, time):
+        return work / time
