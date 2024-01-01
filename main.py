@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
