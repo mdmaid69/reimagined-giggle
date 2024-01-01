@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import sys
+def exit_program():
+        sys.exit()
