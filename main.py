@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
