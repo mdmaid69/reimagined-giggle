@@ -1,4 +1,8 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
