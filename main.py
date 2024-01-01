@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
