@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import time
+def get_current_time():
+        return time.ctime()
