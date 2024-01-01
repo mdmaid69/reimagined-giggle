@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_bytearray(array):
+        return bytearray(array)
