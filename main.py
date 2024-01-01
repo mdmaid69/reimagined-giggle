@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
