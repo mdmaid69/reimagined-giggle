@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
