@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
