@@ -1,8 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
