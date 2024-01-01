@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
