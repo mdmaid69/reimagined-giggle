@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
