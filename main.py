@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
