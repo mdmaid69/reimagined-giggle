@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def reverse_array(array):
+        array.reverse()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
