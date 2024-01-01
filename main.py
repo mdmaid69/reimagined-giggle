@@ -1,6 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
