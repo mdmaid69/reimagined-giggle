@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  def is_odd(n):
-        return n % 2 != 0
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
