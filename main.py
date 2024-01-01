@@ -1,6 +1,7 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def get_array_as_int(array):
+        return int(array[0])
