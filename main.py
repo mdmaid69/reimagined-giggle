@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
