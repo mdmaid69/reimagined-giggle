@@ -1,5 +1,6 @@
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_work(force, distance):
-        return force * distance
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
