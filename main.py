@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def reverse_array(array):
+        array.reverse()
