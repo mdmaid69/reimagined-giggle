@@ -1,4 +1,4 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_average(lst):
+        return sum(lst) / len(lst)
