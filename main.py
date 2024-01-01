@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
