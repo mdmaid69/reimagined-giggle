@@ -1,5 +1,5 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
