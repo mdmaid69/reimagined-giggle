@@ -1,5 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def calculate_area_circle(r):
+        return 3.14 * r**2
