@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_pressure(force, area):
+        return force / area
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
