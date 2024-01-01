@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def count_elements(lst):
+        return len(lst)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
