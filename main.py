@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import collections
+def create_user_list():
+        return collections.UserList()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
