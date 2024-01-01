@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def count_words(sentence):
+        return len(sentence.split())
+import os
+def change_working_directory(path):
+        os.chdir(path)
