@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
