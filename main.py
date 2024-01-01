@@ -1,6 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
