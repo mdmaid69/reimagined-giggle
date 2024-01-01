@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_acceleration(speed, time):
+        return speed / time
