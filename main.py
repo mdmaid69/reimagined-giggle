@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def cube_number(x):
+        return x**3
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
