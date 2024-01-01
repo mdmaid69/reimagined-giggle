@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
