@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def reverse_array(array):
-        array.reverse()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def add_numbers(a, b):
+        return a + b
