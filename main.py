@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
