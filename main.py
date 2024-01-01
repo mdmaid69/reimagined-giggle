@@ -1,5 +1,8 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
