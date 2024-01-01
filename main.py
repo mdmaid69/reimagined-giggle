@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_typecode(array):
+        return array.typecode
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
