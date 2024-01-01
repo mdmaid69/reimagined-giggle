@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import collections
-def create_user_string():
-        return collections.UserString()
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
