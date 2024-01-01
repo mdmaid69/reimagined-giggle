@@ -1,5 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_cosine(x):
+        return math.cos(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
