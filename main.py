@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
