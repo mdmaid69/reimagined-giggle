@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def get_array_item(array, i):
+        return array[i]
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
