@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
