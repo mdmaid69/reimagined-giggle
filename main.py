@@ -1,5 +1,8 @@
-import tensorflow as tf
-print(tf.__version__)
 import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
