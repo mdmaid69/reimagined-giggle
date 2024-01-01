@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def clear_array(array):
-        array *= 0
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def square_number(x):
+        return x**2
