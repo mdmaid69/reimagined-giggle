@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def calculate_area_rectangle(l, w):
+        return l * w
