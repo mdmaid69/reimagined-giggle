@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
