@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+print(sum(range(10)))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
