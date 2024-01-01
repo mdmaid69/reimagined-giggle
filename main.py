@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
