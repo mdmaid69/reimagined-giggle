@@ -1,6 +1,7 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
