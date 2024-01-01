@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
