@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
