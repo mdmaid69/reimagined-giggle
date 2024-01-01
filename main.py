@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
