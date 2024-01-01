@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
