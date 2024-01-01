@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
