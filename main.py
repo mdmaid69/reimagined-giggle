@@ -1,5 +1,4 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
