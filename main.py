@@ -1,6 +1,7 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_work(force, distance):
+        return force * distance
