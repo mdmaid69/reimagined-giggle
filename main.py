@@ -1,10 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def cube_number(x):
+        return x**3
