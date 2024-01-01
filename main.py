@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
