@@ -1,5 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def add_numbers(x, y):
-        return x + y
+for i in range(5):
+        print(i)
+def calculate_density(mass, volume):
+        return mass / volume
