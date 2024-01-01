@@ -1,6 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
