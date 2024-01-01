@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import tensorflow as tf
+print(tf.__version__)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
