@@ -1,10 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
