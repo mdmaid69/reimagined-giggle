@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
+print(sum(range(10)))
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
