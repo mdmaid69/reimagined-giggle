@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  def count_elements(lst):
-        return len(lst)
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def convert_array_to_list(array):
+        return array.tolist()
