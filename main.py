@@ -1,6 +1,9 @@
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
   import os
-  def get_current_directory():
-        return os.getcwd()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
