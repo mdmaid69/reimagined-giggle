@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
