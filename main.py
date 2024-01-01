@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_acceleration(speed, time):
+        return speed / time
