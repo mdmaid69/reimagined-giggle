@@ -1,6 +1,6 @@
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
