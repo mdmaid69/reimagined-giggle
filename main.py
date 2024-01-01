@@ -1,6 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
