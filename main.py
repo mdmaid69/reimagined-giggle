@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_list_from_array(array):
+        return array.tolist()
