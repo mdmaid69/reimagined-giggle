@@ -1,5 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def add_numbers(a, b):
-        return a + b
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
