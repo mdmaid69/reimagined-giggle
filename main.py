@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-text = "Hello, world!"
-print("Characters:", len(text))
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
