@@ -1,7 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
