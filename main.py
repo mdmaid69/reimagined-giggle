@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
