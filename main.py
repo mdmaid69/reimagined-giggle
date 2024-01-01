@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
