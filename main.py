@@ -1,7 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
