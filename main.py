@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
