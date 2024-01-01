@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 def calculate_amortization(principal, rate, time):
         return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
