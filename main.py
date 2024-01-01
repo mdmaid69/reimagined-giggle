@@ -1,4 +1,4 @@
-for i in range(10): print(i)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
