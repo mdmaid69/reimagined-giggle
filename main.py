@@ -1,7 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
