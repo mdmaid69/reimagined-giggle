@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
