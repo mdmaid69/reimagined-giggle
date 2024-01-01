@@ -1,7 +1,9 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
