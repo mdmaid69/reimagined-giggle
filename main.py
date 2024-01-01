@@ -1,7 +1,8 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
