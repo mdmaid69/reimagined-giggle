@@ -1,5 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import numpy as np
+print(np.array([1, 2, 3]))
+  def subtract_numbers(x, y):
+        return x - y
