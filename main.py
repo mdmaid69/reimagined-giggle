@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
