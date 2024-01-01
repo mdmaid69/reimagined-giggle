@@ -1,7 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
