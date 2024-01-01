@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
