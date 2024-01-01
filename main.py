@@ -1,8 +1,5 @@
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def convert_array_to_string(array):
+        return array.tostring()
