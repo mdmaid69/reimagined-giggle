@@ -1,6 +1,8 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
