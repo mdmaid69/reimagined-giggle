@@ -1,7 +1,7 @@
 import array
-def get_array_from_string(string, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def find_unique_words(sentence):
+        return set(sentence.split())
