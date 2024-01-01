@@ -1,7 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
