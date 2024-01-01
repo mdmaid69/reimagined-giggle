@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def divide_numbers(x, y):
+        return x / y
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
