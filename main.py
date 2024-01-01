@@ -1,5 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
