@@ -1,5 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import math
 def calculate_exponential(x):
         return math.exp(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
