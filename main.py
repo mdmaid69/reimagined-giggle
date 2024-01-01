@@ -1,4 +1,8 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
