@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
