@@ -1,8 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
