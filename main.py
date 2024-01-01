@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
