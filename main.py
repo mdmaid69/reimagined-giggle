@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
