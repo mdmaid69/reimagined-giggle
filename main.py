@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import numpy as np
-print(np.array([1, 2, 3]))
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
