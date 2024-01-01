@@ -1,5 +1,5 @@
 import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def delete_directory(path):
+        shutil.rmtree(path)
+def find_min(numbers):
+        return min(numbers)
