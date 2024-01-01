@@ -1,6 +1,6 @@
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_array_index(array, item):
+        return array.index(item)
