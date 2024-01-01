@@ -1,6 +1,6 @@
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def split_string(pattern, string):
+        return re.split(pattern, string)
