@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
