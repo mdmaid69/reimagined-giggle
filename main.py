@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
