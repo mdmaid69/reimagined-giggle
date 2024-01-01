@@ -1,6 +1,6 @@
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
