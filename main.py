@@ -1,5 +1,4 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def cube_number(x):
-        return x**3
+  def is_odd(n):
+        return n % 2 != 0
+def sort_list(lst):
+        return sorted(lst)
