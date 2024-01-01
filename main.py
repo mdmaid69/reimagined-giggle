@@ -1,5 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
