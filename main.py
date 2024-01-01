@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
