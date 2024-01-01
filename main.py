@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
