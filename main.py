@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import os
+print(os.getcwd())
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
