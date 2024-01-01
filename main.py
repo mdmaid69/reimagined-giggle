@@ -1,5 +1,7 @@
-import datetime
-print(datetime.datetime.now())
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
