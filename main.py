@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  def multiply_numbers(x, y):
-        return x * y
+def sort_numbers(numbers):
+        return sorted(numbers)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
