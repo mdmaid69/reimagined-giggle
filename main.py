@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
