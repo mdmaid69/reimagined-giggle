@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
