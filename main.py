@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_pressure(force, area):
-        return force / area
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
