@@ -1,9 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def remove_duplicates(lst):
+        return list(set(lst))
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
