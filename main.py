@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_array_as_bool(array):
+        return bool(array)
