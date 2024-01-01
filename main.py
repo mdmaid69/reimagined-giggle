@@ -1,6 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
