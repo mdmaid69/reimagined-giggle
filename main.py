@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
