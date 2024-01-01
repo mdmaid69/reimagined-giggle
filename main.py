@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
