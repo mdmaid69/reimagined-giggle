@@ -1,4 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_work(force, distance):
-        return force * distance
+def convert_to_hex(n):
+        return hex(n)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
