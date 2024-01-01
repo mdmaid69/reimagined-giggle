@@ -1,8 +1,7 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
