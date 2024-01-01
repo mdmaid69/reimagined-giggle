@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_area_rectangle(l, w):
-        return l * w
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
