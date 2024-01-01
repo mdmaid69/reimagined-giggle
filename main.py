@@ -1,3 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-for i in range(10): print(i)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
