@@ -1,6 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
