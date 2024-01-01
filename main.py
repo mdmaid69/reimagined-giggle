@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_power(work, time):
-        return work / time
+import collections
+def create_priority_queue():
+        return collections.deque()
+def find_max(lst):
+        return max(lst)
