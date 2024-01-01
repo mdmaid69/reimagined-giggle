@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def reverse_list(lst):
-        return lst[::-1]
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
