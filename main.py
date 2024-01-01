@@ -1,5 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def convert_to_hex(n):
+        return hex(n)
