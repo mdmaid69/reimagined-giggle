@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def is_palindrome(s):
+        return s == s[::-1]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
