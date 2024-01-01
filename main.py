@@ -1,4 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def reverse_list(lst):
+        return lst[::-1]
