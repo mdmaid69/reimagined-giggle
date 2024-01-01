@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
