@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
