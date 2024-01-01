@@ -1,8 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  def multiply_numbers(x, y):
+        return x * y
