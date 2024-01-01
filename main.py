@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def convert_to_binary(n):
+        return bin(n)
