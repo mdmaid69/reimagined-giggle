@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import random
+print(random.randint(0, 100))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
