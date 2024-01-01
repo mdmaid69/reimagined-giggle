@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
