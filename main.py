@@ -1,7 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
