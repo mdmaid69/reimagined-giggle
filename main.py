@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
