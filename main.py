@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  def convert_to_hex(n):
+        return hex(n)
