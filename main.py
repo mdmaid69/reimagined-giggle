@@ -1,6 +1,7 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
