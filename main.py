@@ -1,8 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_speed(distance, time):
+        return distance / time
