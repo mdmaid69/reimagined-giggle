@@ -1,8 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
