@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
