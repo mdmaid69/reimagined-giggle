@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def convert_to_hex(n):
+        return hex(n)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
