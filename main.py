@@ -1,5 +1,7 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
