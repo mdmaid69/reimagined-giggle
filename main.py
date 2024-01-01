@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
