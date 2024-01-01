@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
