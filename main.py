@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
