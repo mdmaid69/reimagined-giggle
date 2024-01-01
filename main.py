@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
