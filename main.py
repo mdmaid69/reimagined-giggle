@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
