@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def is_even(n):
+        return n % 2 == 0
