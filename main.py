@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
