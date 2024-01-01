@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
