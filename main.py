@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
