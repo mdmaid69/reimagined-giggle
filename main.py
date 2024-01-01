@@ -1,6 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_sign(x):
+        return math.copysign(1, x)
   import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def calculate_variance(arr):
+        return np.var(arr)
