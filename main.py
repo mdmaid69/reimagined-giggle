@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
