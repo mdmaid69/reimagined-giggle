@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
