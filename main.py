@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_work(force, distance):
-        return force * distance
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
