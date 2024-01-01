@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
