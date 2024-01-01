@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  def square_number(x):
+        return x**2
