@@ -1,5 +1,7 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
