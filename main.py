@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
