@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import datetime
+def get_current_date():
+        return datetime.date.today()
