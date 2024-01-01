@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def multiply_numbers(x, y):
-        return x * y
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
