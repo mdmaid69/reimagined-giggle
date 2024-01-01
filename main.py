@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
