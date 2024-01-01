@@ -1,5 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import numpy as np
-print(np.array([1, 2, 3]))
+def get_array_item(array, i):
+        return array[i]
