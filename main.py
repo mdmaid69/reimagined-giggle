@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import getpass
-def get_username():
-        return getpass.getuser()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def cube_number(x):
+        return x**3
