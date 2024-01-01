@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
