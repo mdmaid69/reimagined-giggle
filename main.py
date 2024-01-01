@@ -1,6 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
