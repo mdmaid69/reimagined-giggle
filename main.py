@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
