@@ -1,6 +1,8 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
