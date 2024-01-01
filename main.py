@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def is_even(n):
+        return n % 2 == 0
