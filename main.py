@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
