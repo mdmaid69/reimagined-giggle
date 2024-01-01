@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import platform
-def get_os_info():
-        return platform.uname()
+for i in range(5):
+        print(i)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
