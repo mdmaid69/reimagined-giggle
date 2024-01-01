@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
