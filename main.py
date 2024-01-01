@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_list_from_array(array):
+        return array.tolist()
