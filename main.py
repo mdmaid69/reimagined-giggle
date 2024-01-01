@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
