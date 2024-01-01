@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def greet(name):
-        print(f"Hello, {name}!")
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_sine(x):
+        return math.sin(x)
