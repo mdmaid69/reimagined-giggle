@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import sys
-def exit_program():
-        sys.exit()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+text = "Hello, world!"
+print("Characters:", len(text))
