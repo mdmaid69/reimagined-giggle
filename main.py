@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
