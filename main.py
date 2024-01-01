@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
