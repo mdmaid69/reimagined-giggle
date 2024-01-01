@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def find_min(lst):
-        return min(lst)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
