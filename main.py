@@ -1,4 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def subtract_numbers(x, y):
-        return x - y
+  def square_number(x):
+        return x**2
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
