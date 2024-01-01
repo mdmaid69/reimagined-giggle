@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def find_max(numbers):
+        return max(numbers)
+  def convert_to_binary(n):
+        return bin(n)
