@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import datetime
+print(datetime.datetime.now())
