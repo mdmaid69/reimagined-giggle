@@ -1,4 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-print([x**2 for x in range(10)])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
