@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
