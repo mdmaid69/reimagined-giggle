@@ -1,5 +1,5 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def reverse_string(s):
-        return s[::-1]
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
