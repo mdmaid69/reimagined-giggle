@@ -1,5 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
