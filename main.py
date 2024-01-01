@@ -1,6 +1,6 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import sys
+def print_python_version():
+        print(sys.version)
