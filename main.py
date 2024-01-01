@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
