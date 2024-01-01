@@ -1,6 +1,8 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
