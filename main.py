@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
