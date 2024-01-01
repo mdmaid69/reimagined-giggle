@@ -1,5 +1,5 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_work(force, distance):
-        return force * distance
+  def get_base_name(path):
+        return os.path.basename(path)
+import numpy as np
+print(np.array([1, 2, 3]))
