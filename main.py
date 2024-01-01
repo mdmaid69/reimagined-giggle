@@ -1,4 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def find_min(numbers):
-        return min(numbers)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
