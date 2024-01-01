@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+print(math.pi)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
