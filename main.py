@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
