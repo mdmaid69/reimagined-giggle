@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
