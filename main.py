@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import random
+print(random.randint(0, 100))
+  import os
+  def get_current_directory():
+        return os.getcwd()
