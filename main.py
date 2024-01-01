@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_area_rectangle(l, w):
+        return l * w
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
