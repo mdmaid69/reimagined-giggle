@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
