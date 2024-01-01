@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_as_set(array):
-        return set(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
