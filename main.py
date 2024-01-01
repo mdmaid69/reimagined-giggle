@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
