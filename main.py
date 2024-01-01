@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
