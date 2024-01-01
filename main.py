@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import collections
-def create_priority_queue():
-        return collections.deque()
+import re
+print(re.match("h.*o", "hello world"))
+import re
+print(re.match("h.*o", "hello world"))
