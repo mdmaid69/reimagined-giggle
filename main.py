@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import tensorflow as tf
+print(tf.__version__)
