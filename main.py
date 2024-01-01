@@ -1,6 +1,13 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
