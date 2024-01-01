@@ -1,6 +1,10 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
