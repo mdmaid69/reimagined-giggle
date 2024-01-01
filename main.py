@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
