@@ -1,7 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
