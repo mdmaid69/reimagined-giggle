@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
