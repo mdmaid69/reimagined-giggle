@@ -1,6 +1,9 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
