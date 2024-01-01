@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
