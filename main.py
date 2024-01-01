@@ -1,6 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def get_array_item_count(array, item):
+        return array.count(item)
