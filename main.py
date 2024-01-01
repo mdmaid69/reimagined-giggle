@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
