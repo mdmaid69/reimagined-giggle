@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def append_to_array(array, item):
-        array.append(item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+print([x**2 for x in range(10)])
