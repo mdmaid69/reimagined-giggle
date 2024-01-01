@@ -1,5 +1,11 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import numpy as np
-print(np.array([1, 2, 3]))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
