@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+from collections import Counter
+print(Counter("hello world"))
