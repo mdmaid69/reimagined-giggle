@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def remove_from_array(array, item):
+        array.remove(item)
