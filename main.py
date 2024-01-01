@@ -1,6 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
