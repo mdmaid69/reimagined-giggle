@@ -1,7 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_base_name(path):
+        return os.path.basename(path)
+import platform
+def get_os_info():
+        return platform.uname()
