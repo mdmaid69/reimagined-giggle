@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def is_odd(n):
-        return n % 2 != 0
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
