@@ -1,8 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def square_number(x):
+        return x**2
