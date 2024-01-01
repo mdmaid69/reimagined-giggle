@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
