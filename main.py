@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_pressure(force, area):
-        return force / area
+import array
+def clear_array(array):
+        array *= 0
+def add_numbers(x, y):
+        return x + y
