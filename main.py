@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
