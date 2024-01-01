@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
