@@ -1,5 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+import datetime
+print(datetime.datetime.now())
   def find_min(lst):
         return min(lst) if len(lst) != 0 else "List is empty"
