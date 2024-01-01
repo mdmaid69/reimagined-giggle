@@ -1,6 +1,5 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_volume(length, width, height):
+        return length * width * height
