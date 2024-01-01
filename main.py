@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
