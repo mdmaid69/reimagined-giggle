@@ -1,6 +1,5 @@
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
 import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
