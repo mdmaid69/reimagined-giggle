@@ -1,8 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
