@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
