@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
