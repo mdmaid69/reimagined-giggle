@@ -1,5 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def count_elements(lst):
+        return len(lst)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
