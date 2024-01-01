@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import platform
+def get_os_info():
+        return platform.uname()
+def reverse_list(lst):
+        return lst[::-1]
