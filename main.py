@@ -1,6 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
