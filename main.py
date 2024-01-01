@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def add_numbers(a, b):
+        return a + b
