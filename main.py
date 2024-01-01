@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
