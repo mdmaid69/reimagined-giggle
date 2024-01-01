@@ -1,9 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def get_list_from_array(array):
+        return array.tolist()
