@@ -1,6 +1,5 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def get_array_item(array, i):
+        return array[i]
+  def square_number(x):
+        return x**2
