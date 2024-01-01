@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def count_elements(lst):
+        return len(lst)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
