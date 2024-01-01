@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
