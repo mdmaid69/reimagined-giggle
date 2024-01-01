@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_speed(distance, time):
-        return distance / time
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
