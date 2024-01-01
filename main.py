@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
