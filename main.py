@@ -1,5 +1,8 @@
-def sort_list(lst):
-        return sorted(lst)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
