@@ -1,5 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import sys
-print(sys.version)
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_sine(x):
+        return math.sin(x)
