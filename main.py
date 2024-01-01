@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
