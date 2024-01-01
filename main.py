@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
