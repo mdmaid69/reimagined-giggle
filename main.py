@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
