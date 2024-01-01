@@ -1,5 +1,8 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import time
-def get_current_time():
-        return time.time()
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
