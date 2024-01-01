@@ -1,5 +1,6 @@
   import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
