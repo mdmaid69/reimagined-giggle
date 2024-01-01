@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import platform
+def get_python_version():
+        return platform.python_version()
