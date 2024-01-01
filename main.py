@@ -1,7 +1,8 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_as_str(array):
+        return str(array)
