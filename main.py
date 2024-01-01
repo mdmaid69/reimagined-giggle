@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import time
+print(time.time())
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
