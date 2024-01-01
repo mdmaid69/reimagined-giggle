@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
