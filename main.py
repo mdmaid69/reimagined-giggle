@@ -1,5 +1,4 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def convert_to_binary(n):
+        return bin(n)
