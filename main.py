@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def sort_list(lst):
+        return sorted(lst)
+import collections
+def create_user_dict():
+        return collections.UserDict()
