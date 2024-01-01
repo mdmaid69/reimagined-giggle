@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import collections
-def create_user_string():
-        return collections.UserString()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
