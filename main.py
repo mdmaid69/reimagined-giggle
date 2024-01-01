@@ -1,6 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def multiply_numbers(x, y):
+        return x * y
