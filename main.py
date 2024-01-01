@@ -1,4 +1,7 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
