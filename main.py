@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import tensorflow as tf
-print(tf.__version__)
+import re
+print(re.match("h.*o", "hello world"))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
