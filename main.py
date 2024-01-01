@@ -1,6 +1,5 @@
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
