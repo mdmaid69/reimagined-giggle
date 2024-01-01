@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
