@@ -1,5 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import collections
+def create_queue():
+        return collections.deque()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
