@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
