@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
