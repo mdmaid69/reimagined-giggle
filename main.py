@@ -1,5 +1,3 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+for i in range(10): print(i)
