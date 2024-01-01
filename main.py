@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_bool(array):
+        return bool(array)
