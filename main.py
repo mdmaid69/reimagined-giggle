@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def reverse_list(lst):
+        return lst[::-1]
