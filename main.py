@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
