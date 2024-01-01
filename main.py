@@ -1,5 +1,4 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
