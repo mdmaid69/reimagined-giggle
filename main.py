@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-text = "Hello, world!"
-print("Characters:", len(text))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
