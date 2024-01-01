@@ -1,6 +1,8 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
