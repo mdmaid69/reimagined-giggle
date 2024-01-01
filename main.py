@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def clear_array(array):
+        array *= 0
