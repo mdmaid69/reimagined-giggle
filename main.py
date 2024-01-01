@@ -1,4 +1,5 @@
-import os
-print(os.getcwd())
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def square_number(x):
+        return x**2
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
