@@ -1,7 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
