@@ -1,7 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
