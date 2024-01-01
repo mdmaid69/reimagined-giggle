@@ -1,5 +1,6 @@
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def multiply_numbers(x, y):
-        return x * y
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
