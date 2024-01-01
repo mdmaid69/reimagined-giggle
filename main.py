@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
