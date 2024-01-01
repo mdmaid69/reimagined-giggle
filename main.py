@@ -1,5 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def add_numbers(a, b):
-        return a + b
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
