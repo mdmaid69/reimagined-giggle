@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
