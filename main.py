@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
