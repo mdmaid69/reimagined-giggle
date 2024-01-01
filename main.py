@@ -1,6 +1,6 @@
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
