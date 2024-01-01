@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def remove_duplicates(lst):
+        return list(set(lst))
