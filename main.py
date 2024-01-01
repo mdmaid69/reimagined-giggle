@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def multiply_numbers(x, y):
+        return x * y
