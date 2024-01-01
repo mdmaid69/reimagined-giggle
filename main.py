@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
