@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def count_words(sentence):
-        return len(sentence.split())
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
