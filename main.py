@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def is_even(n):
+        return n % 2 == 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
