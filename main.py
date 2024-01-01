@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
