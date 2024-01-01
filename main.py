@@ -1,6 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def find_min(numbers):
+        return min(numbers)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
