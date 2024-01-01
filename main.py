@@ -1,7 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import sys
+def exit_program():
+        sys.exit()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
