@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
