@@ -1,6 +1,8 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def get_array_as_str(array):
+        return str(array)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
