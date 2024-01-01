@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_volume(length, width, height):
+        return length * width * height
