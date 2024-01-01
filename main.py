@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import tensorflow as tf
-print(tf.__version__)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
