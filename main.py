@@ -1,5 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+print(sum(range(10)))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
