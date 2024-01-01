@@ -1,5 +1,7 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def convert_to_binary(n):
+        return bin(n)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
