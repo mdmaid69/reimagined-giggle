@@ -1,4 +1,6 @@
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-print(sum(range(10)))
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
