@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
