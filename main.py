@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def multiply_numbers(x, y):
-        return x * y
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
