@@ -1,4 +1,5 @@
-import time
-print(time.time())
-import time
-print(time.time())
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import datetime
+def get_today_date():
+        return datetime.date.today()
