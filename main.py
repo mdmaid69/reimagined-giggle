@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
