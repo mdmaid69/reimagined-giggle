@@ -1,6 +1,10 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
