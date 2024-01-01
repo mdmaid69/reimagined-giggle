@@ -1,4 +1,9 @@
-def calculate_density(mass, volume):
-        return mass / volume
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
