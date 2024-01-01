@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
