@@ -1,6 +1,7 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
