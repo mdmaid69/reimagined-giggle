@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import time
+def get_time_since_epoch():
+        return time.time()
