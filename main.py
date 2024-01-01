@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_acceleration(speed, time):
+        return speed / time
+import numpy as np
+print(np.array([1, 2, 3]))
