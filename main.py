@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
