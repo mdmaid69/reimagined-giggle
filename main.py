@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
