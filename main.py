@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
