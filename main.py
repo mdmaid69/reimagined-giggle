@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import tensorflow as tf
+print(tf.__version__)
