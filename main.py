@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def cube_number(x):
-        return x**3
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def is_odd(n):
+        return n % 2 != 0
