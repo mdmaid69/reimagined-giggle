@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
