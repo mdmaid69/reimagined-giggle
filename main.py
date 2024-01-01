@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def multiply_numbers(x, y):
+        return x * y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
