@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import random
-print(random.randint(0, 100))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
