@@ -1,6 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
