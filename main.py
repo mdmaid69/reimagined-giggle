@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_pressure(force, area):
+        return force / area
