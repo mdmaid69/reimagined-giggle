@@ -1,5 +1,5 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def clear_array(array):
+        array *= 0
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
