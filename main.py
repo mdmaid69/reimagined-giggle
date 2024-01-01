@@ -1,5 +1,7 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-def cube_number(x):
-        return x**3
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
