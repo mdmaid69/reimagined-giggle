@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
