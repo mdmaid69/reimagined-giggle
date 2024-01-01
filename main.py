@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_density(mass, volume):
+        return mass / volume
