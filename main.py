@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
