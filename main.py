@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
