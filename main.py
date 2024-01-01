@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
