@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
