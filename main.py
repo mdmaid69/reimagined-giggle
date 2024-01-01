@@ -1,8 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def get_array_as_str(array):
+        return str(array)
