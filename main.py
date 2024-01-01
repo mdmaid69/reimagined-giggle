@@ -1,5 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
