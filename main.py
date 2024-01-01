@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def is_odd(n):
+        return n % 2 != 0
