@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
