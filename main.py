@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def find_min(lst):
+        return min(lst)
+def square_number(x):
+        return x**2
