@@ -1,6 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
