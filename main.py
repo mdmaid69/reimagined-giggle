@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
