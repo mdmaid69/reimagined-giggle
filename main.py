@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
