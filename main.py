@@ -1,4 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import json
+print(json.dumps({"name": "John", "age": 30}))
