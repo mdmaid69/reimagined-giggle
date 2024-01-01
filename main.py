@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
