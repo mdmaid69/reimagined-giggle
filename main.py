@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_floor(x):
+        return math.floor(x)
