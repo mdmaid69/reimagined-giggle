@@ -1,4 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def reverse_string(s):
-        return s[::-1]
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
