@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import datetime
+print(datetime.datetime.now())
