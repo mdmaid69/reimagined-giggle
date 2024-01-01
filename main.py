@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
