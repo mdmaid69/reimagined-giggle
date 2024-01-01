@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
