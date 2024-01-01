@@ -1,5 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_work(force, distance):
+        return force * distance
