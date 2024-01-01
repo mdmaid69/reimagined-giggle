@@ -1,5 +1,8 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
