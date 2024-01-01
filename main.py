@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
