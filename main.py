@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_work(force, distance):
-        return force * distance
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
