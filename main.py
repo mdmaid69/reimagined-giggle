@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def subtract_numbers(x, y):
-        return x - y
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
