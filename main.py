@@ -1,6 +1,5 @@
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
