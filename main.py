@@ -1,5 +1,5 @@
+  def square_number(x):
+        return x**2
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def get_array_as_str(array):
+        return str(array)
