@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
