@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
