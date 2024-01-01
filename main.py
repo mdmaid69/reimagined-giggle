@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
