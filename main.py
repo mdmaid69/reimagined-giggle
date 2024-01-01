@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
