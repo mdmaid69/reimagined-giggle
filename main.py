@@ -1,4 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_density(mass, volume):
+        return mass / volume
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
