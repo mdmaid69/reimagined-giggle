@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
