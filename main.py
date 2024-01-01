@@ -1,7 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
