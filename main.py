@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
+def count_elements(lst):
+        return len(lst)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
