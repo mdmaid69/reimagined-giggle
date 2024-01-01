@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
