@@ -1,8 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import re
+print(re.match("h.*o", "hello world"))
