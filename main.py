@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import sys
-  def get_python_version():
-        return sys.version
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
