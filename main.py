@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
