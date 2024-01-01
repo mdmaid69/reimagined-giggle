@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import collections
+def create_user_list():
+        return collections.UserList()
