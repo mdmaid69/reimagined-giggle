@@ -1,6 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
