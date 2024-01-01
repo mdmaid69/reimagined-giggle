@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
