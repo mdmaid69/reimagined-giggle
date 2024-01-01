@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
