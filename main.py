@@ -1,5 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def extend_array(array, iterable):
+        array.extend(iterable)
