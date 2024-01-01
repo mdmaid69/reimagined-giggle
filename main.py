@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def convert_to_octal(n):
+        return oct(n)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
