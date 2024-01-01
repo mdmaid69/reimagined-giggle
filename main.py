@@ -1,6 +1,7 @@
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def get_array_itemsize(array):
+        return array.itemsize
