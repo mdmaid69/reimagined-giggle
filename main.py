@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def remove_duplicates(lst):
+        return list(set(lst))
