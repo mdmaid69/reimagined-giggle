@@ -1,7 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def count_characters(sentence):
+        return len(sentence)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
