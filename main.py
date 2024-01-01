@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def divide_numbers(x, y):
+        return x / y
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
