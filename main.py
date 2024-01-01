@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
