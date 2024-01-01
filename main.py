@@ -1,5 +1,8 @@
-import os
-print(os.getcwd())
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
