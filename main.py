@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def clear_array(array):
+        array *= 0
