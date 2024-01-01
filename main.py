@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def clear_array(array):
+        array *= 0
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
