@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
