@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import logging
+def log_message(message):
+        logging.info(message)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
