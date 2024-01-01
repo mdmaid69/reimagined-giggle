@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+from collections import Counter
+print(Counter("hello world"))
