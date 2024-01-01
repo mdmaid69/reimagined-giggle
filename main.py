@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
