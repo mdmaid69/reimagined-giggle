@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_density(mass, volume):
+        return mass / volume
