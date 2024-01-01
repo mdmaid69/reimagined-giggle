@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def clear_array(array):
+        array *= 0
