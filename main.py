@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
