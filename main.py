@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
