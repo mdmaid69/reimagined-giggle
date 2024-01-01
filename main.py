@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_time_since_epoch():
+        return time.time()
