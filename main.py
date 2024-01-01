@@ -1,5 +1,4 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def remove_duplicates(lst):
+        return list(set(lst))
+import re
+print(re.match("h.*o", "hello world"))
