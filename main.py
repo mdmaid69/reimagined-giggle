@@ -1,5 +1,8 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
