@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_list(array):
+        return list(array)
+print("Hello, world!")
