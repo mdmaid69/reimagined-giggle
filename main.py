@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  def square_number(x):
+        return x**2
