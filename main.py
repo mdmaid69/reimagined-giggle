@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
