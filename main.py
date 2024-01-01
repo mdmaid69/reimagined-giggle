@@ -1,5 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
