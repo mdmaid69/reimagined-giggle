@@ -1,6 +1,8 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
