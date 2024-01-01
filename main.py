@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import collections
-def create_priority_queue():
-        return collections.deque()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import json
+print(json.dumps({"name": "John", "age": 30}))
