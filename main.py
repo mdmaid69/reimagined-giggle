@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
