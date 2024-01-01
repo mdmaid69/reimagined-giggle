@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
