@@ -1,4 +1,3 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-print(math.pi)
+for i in range(10): print(i)
+  def multiply_numbers(x, y):
+        return x * y
