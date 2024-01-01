@@ -1,6 +1,5 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
