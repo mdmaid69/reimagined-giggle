@@ -1,5 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def find_min(lst):
-        return min(lst)
+def calculate_cosine(x):
+        return math.cos(x)
