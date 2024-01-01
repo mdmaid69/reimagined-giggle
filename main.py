@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
