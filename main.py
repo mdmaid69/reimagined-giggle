@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def get_array_as_int(array):
+        return int(array[0])
