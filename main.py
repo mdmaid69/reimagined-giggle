@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import collections
+def create_priority_queue():
+        return collections.deque()
