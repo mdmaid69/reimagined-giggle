@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_speed(distance, time):
-        return distance / time
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_error_function(x):
+        return math.erf(x)
