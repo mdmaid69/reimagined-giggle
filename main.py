@@ -1,4 +1,7 @@
-  def cube_number(x):
-        return x**3
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_acceleration(speed, time):
+        return speed / time
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
