@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def append_to_array(array, item):
+        array.append(item)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
