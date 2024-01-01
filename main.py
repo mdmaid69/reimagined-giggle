@@ -1,5 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
