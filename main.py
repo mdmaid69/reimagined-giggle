@@ -1,4 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  def square_number(x):
-        return x**2
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
