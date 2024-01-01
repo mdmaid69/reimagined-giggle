@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def find_max(lst):
-        return max(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
