@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
