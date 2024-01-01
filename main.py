@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
