@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
