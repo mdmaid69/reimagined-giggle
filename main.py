@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-text = "Hello, world!"
-print("Characters:", len(text))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import collections
+def create_counter():
+        return collections.Counter()
