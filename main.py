@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
