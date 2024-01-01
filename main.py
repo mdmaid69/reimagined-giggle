@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
