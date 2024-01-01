@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def clear_array(array):
+        array *= 0
