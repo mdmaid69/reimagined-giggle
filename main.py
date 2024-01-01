@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
