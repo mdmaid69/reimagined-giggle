@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def count_elements(lst):
-        return len(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_sine(x):
+        return math.sin(x)
