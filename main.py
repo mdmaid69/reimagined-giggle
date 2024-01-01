@@ -1,7 +1,4 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_pressure(force, area):
+        return force / area
+def reverse_list(lst):
+        return lst[::-1]
