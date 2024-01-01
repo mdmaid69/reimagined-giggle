@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def find_max(lst):
-        return max(lst)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
