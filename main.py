@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
