@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import sys
-print(sys.version)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  def cube_number(x):
+        return x**3
