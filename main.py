@@ -1,5 +1,4 @@
-import sys
-print(sys.version)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def is_even(n):
+        return n % 2 == 0
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
