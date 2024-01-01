@@ -1,6 +1,3 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+print(sum(range(10)))
