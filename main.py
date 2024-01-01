@@ -1,5 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
 import array
-def get_array_typecode(array):
-        return array.typecode
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
