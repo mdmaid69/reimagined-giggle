@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
