@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import sys
-def print_python_version():
-        return sys.version
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
