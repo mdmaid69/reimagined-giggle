@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
