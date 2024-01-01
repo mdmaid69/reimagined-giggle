@@ -1,4 +1,8 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-print("Hello, world!")
+import sys
+def print_python_version():
+        return sys.version
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
