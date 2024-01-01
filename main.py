@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def is_palindrome(s):
+        return s == s[::-1]
