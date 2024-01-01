@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
