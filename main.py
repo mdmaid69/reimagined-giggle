@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
