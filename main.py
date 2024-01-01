@@ -1,8 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
