@@ -1,4 +1,6 @@
 import math
-print(math.pi)
-import os
-print(os.getcwd())
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
