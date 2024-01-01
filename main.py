@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
