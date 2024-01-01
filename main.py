@@ -1,5 +1,8 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
