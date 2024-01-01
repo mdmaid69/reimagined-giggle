@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
