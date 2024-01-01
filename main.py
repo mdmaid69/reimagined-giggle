@@ -1,6 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
