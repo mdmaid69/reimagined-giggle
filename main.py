@@ -1,5 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
