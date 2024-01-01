@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import collections
+def create_queue():
+        return collections.deque()
