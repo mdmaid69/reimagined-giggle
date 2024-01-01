@@ -1,6 +1,8 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
