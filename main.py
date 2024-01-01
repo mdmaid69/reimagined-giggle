@@ -1,6 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def reverse_list(lst):
+        return lst[::-1]
