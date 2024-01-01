@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def greet(name):
+        print(f"Hello, {name}!")
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
