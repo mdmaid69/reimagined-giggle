@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
 import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
