@@ -1,5 +1,6 @@
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def square_number(x):
-        return x**2
+def calculate_sign(x):
+        return math.copysign(1, x)
