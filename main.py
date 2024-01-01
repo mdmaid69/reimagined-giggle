@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+text = "Hello, world!"
+print("Words:", len(text.split()))
