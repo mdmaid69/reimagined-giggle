@@ -1,8 +1,8 @@
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
 import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
