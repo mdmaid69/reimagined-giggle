@@ -1,5 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
