@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
