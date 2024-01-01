@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
