@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
