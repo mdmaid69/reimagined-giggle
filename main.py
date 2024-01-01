@@ -1,7 +1,7 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
