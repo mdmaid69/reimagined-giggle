@@ -1,5 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
