@@ -1,3 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-print([x**2 for x in range(10)])
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def split_path(path):
+        return os.path.split(path)
