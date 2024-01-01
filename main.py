@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
