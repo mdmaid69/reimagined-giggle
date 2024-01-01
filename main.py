@@ -1,6 +1,5 @@
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
