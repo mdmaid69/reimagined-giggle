@@ -1,7 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import tensorflow as tf
+print(tf.__version__)
