@@ -1,8 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
