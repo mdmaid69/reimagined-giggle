@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def find_max(lst):
+        return max(lst)
