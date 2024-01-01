@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
