@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
