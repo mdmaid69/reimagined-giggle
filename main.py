@@ -1,5 +1,4 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import tensorflow as tf
+print(tf.__version__)
