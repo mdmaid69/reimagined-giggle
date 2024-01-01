@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def count_elements(lst):
+        return len(lst)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
