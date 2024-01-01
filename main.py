@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import time
-print(time.time())
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
