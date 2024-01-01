@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import sys
-def print_python_version():
-        print(sys.version)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
