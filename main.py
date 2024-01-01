@@ -1,8 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
