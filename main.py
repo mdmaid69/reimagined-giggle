@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
