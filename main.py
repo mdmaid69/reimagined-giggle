@@ -1,5 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
