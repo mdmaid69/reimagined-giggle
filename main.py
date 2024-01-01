@@ -1,6 +1,6 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
