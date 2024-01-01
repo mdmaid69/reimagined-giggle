@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
