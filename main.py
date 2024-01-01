@@ -1,5 +1,7 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
