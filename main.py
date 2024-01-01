@@ -1,4 +1,8 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
