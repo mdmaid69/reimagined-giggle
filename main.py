@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
