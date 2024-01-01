@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
