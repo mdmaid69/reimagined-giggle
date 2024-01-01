@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def cube_number(x):
+        return x**3
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
