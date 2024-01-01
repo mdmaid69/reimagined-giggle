@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
