@@ -1,5 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
