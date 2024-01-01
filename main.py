@@ -1,5 +1,7 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-name = "Python"
-print("Hello,", name)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
