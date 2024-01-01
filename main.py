@@ -1,5 +1,8 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import os
-print(os.getcwd())
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
