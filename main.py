@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
