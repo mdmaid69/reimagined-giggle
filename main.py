@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def reverse_list(lst):
+        return lst[::-1]
