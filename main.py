@@ -1,6 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
