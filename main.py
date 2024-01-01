@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def count_characters(sentence):
+        return len(sentence)
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_item_count(array, item):
+        return array.count(item)
