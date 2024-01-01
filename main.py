@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
