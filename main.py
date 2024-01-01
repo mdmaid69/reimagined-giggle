@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
