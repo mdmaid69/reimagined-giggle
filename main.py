@@ -1,6 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
