@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import collections
+def create_priority_queue():
+        return collections.deque()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
