@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-from collections import Counter
-print(Counter("hello world"))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
