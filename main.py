@@ -1,3 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-print(sum(range(10)))
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
