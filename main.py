@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
