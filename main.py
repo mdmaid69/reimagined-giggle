@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
