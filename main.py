@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_power(work, time):
+        return work / time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
