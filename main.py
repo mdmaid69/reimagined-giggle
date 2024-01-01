@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
