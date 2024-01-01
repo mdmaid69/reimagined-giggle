@@ -1,10 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
