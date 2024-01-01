@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def convert_to_octal(n):
+        return oct(n)
