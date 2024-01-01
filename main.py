@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import platform
+def get_os_info():
+        return platform.uname()
