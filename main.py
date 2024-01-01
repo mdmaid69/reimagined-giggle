@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  def is_even(n):
+        return n % 2 == 0
