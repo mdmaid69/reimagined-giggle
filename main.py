@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
