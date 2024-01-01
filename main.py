@@ -1,8 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+print(sum(range(10)))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
