@@ -1,4 +1,6 @@
-def square_number(x):
-        return x**2
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
