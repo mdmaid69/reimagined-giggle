@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
