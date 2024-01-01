@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
