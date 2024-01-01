@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import collections
-def create_user_list():
-        return collections.UserList()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_array_as_list(array):
+        return list(array)
