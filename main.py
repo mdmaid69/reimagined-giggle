@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def square_number(x):
-        return x**2
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import logging
+def log_message(message):
+        logging.info(message)
