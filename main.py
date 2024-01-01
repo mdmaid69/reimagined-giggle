@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-name = "Python"
-print("Hello,", name)
+import array
+def get_array_length(array):
+        return len(array)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
