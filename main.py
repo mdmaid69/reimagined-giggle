@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
