@@ -1,4 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+print(sum(range(10)))
