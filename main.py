@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-for i in range(5):
-        print(i)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import platform
+def get_python_version():
+        return platform.python_version()
