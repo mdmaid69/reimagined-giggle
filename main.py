@@ -1,6 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+x = 10
+y = 20
+print("Sum:", x + y)
