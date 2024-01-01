@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
