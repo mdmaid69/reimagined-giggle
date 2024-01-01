@@ -1,3 +1,8 @@
-print("Hello, world!")
-def is_palindrome(s):
-        return s == s[::-1]
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
