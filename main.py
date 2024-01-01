@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
