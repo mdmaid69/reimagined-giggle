@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import re
+print(re.match("h.*o", "hello world"))
+def count_elements(lst):
+        return len(lst)
