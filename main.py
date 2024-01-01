@@ -1,6 +1,5 @@
+def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
