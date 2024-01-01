@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
