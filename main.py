@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
