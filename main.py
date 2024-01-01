@@ -1,4 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_area(radius):
+        return 3.14 * radius * radius
