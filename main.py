@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-sentence = "Hello, world!"
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+print(Counter("hello world"))
