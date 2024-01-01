@@ -1,6 +1,9 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def get_array_as_repr(array):
+        return repr(array)
