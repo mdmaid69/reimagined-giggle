@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def multiply_numbers(x, y):
+        return x * y
