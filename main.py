@@ -1,6 +1,5 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_string_from_array(array):
+        return array.tobytes()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
