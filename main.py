@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
