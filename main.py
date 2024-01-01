@@ -1,4 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+print(sum(range(10)))
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
