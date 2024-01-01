@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
