@@ -1,5 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def calculate_area_circle(r):
+        return 3.14 * r**2
