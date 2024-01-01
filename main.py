@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_as_repr(array):
+        return repr(array)
