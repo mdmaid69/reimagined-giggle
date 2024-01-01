@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
