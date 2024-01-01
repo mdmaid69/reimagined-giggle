@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def square_number(x):
+        return x**2
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
