@@ -1,6 +1,4 @@
 import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+print(sys.version)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
