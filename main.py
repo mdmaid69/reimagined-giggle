@@ -1,6 +1,7 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
