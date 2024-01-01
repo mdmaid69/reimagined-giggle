@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+text = "Hello, world!"
+print("Reversed:", text[::-1])
