@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def find_max(numbers):
-        return max(numbers)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
