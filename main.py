@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
