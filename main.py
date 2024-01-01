@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
