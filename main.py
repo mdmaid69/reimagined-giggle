@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
