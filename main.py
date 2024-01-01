@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_power(work, time):
+        return work / time
+import datetime
+def get_today_date():
+        return datetime.date.today()
