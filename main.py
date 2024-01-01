@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
