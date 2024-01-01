@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
