@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_current_working_directory():
+        return os.getcwd()
