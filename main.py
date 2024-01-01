@@ -1,6 +1,7 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
