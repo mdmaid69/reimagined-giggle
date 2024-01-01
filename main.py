@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
