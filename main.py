@@ -1,5 +1,3 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+print([x**2 for x in range(10)])
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
