@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
