@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
