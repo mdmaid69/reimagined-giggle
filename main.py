@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def cube_number(x):
+        return x**3
