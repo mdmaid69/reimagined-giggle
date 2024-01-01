@@ -1,4 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-print(math.pi)
+import datetime
+print(datetime.datetime.now())
+from collections import Counter
+print(Counter("hello world"))
