@@ -1,6 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+print([x**2 for x in range(10)])
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
