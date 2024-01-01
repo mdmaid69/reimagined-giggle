@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
