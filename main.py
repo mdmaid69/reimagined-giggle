@@ -1,4 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-for i in range(5):
-        print(i)
+def calculate_acceleration(speed, time):
+        return speed / time
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
