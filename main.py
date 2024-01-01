@@ -1,8 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_pressure(force, area):
+        return force / area
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
