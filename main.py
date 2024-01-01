@@ -1,7 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def convert_array_to_list(array):
+        return array.tolist()
