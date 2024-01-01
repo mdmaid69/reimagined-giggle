@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
