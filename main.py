@@ -1,5 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_volume(length, width, height):
-        return length * width * height
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
