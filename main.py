@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
