@@ -1,8 +1,6 @@
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
