@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
