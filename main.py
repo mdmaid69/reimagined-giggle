@@ -1,4 +1,7 @@
-for i in range(5):
-        print(i)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def get_array_as_repr(array):
+        return repr(array)
