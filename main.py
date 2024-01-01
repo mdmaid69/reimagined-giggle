@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def clear_array(array):
-        array *= 0
+def square_number(x):
+        return x**2
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
