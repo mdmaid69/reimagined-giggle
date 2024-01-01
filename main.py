@@ -1,6 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
