@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
+def is_palindrome(s):
+        return s == s[::-1]
+  def calculate_area_rectangle(l, w):
         return l * w
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
