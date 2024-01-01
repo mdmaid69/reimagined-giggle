@@ -1,7 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-from collections import Counter
-print(Counter("hello world"))
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_area_circle(r):
+        return 3.14 * r**2
