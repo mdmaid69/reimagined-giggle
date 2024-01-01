@@ -1,8 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
