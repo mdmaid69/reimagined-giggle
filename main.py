@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
