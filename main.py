@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_area(radius):
+        return 3.14 * radius * radius
