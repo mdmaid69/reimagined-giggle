@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import sys
+def print_python_version():
+        return sys.version
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
