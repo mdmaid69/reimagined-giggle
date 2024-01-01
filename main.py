@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def divide_numbers(x, y):
-        return x / y
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
