@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-  def calculate_area_rectangle(l, w):
-        return l * w
+import datetime
+print(datetime.datetime.now())
+import datetime
+def get_current_date():
+        return datetime.date.today()
