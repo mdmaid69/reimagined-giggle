@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def count_elements(lst):
-        return len(lst)
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
