@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def is_even(n):
+        return n % 2 == 0
