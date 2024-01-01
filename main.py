@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
