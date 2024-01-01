@@ -1,5 +1,7 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
