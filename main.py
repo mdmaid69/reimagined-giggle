@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
