@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def count_characters(sentence):
-        return len(sentence)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
