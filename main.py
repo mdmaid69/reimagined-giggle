@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
