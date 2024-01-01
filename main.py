@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
