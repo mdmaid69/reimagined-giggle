@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def add_numbers(a, b):
+        return a + b
