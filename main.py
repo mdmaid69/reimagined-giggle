@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import sys
+def exit_program():
+        sys.exit()
