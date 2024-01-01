@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
