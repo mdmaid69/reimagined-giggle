@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_float(array):
+        return float(array[0])
