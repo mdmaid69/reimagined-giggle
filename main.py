@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_max(lst):
+        return max(lst)
