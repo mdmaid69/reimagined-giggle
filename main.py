@@ -1,7 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
