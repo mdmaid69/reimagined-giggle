@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
