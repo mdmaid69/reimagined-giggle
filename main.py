@@ -1,5 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
