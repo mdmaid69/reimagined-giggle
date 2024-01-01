@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
