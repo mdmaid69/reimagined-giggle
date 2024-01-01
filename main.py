@@ -1,6 +1,8 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
