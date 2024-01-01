@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
