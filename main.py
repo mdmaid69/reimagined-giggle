@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
