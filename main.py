@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def reverse_array(array):
+        array.reverse()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
