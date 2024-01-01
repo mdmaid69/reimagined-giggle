@@ -1,8 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
