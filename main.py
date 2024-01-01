@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def find_min(numbers):
-        return min(numbers)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
