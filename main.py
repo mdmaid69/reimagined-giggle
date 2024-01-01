@@ -1,6 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def get_array_as_frozenset(array):
+        return frozenset(array)
