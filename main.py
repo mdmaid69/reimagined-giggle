@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import re
-print(re.match("h.*o", "hello world"))
+def greet(name):
+        print(f"Hello, {name}!")
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
