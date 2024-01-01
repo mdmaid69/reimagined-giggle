@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
