@@ -1,6 +1,8 @@
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def convert_array_to_string(array):
+        return array.tostring()
