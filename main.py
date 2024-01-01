@@ -1,6 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
