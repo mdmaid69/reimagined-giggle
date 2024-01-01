@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
