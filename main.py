@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
