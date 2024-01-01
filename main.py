@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def convert_to_binary(n):
+        return bin(n)
