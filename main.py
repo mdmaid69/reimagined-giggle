@@ -1,7 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
