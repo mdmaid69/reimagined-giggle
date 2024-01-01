@@ -1,5 +1,8 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
