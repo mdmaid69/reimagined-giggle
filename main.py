@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def cube_number(x):
+        return x**3
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
