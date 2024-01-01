@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_itemsize(array):
+        return array.itemsize
