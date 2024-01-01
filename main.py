@@ -1,11 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_floor(x):
+        return math.floor(x)
