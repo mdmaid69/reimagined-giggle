@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
