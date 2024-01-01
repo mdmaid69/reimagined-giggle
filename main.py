@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
