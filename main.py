@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def find_max(lst):
-        return max(lst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+text = "Hello, world!"
+print("Words:", len(text.split()))
