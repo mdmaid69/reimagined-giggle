@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import logging
+def log_message(message):
+        logging.info(message)
+def is_odd(n):
+        return n % 2 != 0
