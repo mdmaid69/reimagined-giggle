@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def add_numbers(x, y):
-        return x + y
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
