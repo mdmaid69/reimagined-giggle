@@ -1,6 +1,12 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
