@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  def convert_to_hex(n):
+        return hex(n)
