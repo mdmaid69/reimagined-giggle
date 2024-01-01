@@ -1,5 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
