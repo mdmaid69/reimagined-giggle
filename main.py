@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
