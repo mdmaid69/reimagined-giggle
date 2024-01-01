@@ -1,4 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  def convert_to_binary(n):
-        return bin(n)
+print("Hello, world!")
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
