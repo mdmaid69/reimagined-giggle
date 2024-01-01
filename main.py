@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_acceleration(speed, time):
+        return speed / time
