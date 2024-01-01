@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
