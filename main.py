@@ -1,5 +1,8 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
