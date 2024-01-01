@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
