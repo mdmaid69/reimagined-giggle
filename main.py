@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
