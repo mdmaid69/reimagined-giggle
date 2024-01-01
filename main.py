@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
