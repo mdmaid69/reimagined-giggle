@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+def calculate_sine(x):
+        return math.sin(x)
