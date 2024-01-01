@@ -1,4 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def find_min(lst):
-        return min(lst)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import numpy as np
+print(np.array([1, 2, 3]))
