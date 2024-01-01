@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def cube_number(x):
-        return x**3
+def square_number(x):
+        return x**2
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
