@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import collections
+def create_queue():
+        return collections.deque()
