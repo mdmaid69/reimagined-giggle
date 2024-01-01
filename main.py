@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
