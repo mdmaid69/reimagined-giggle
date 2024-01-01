@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
