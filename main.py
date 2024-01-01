@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
