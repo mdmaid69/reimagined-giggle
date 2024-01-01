@@ -1,5 +1,10 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import logging
+def log_message(message):
+        logging.info(message)
