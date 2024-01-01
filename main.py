@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import os
+print(os.getcwd())
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
