@@ -1,5 +1,7 @@
-  def reverse_list(lst):
-        return lst[::-1]
 import collections
-def create_user_dict():
-        return collections.UserDict()
+def create_user_list():
+        return collections.UserList()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
