@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
