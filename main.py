@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
