@@ -1,4 +1,5 @@
 import math
-print(math.pi)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def reverse_list(lst):
+        return lst[::-1]
