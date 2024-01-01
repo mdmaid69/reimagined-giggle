@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
