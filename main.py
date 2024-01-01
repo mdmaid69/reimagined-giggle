@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
