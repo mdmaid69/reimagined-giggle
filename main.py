@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
