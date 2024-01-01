@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+def convert_to_hex(n):
+        return hex(n)
