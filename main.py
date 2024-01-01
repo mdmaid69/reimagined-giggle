@@ -1,7 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import platform
+def get_os_info():
+        return platform.uname()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
