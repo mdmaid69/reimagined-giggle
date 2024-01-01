@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def is_even(n):
+        return n % 2 == 0
