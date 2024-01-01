@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-for i in range(5):
-        print(i)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
