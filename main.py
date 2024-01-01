@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def remove_duplicates(lst):
+        return list(set(lst))
