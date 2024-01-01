@@ -1,5 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  def calculate_area_rectangle(l, w):
-        return l * w
+import tensorflow as tf
+print(tf.__version__)
+def multiply_numbers(x, y):
+        return x * y
