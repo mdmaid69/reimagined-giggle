@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_work(force, distance):
+        return force * distance
+def convert_to_hex(n):
+        return hex(n)
