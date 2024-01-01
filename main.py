@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def find_min(numbers):
+        return min(numbers)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
