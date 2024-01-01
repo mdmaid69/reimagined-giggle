@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import sys
-def print_python_version():
-        print(sys.version)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
