@@ -1,5 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def delete_file(file_name):
+        os.remove(file_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
