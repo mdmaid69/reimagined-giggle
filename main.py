@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import time
+print(time.time())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
