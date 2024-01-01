@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
