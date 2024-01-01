@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def add_numbers(a, b):
+        return a + b
+import array
+def set_array_item(array, i, item):
+        array[i] = item
