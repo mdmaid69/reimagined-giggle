@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import datetime
+print(datetime.datetime.now())
