@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_acceleration(speed, time):
+        return speed / time
+  def cube_number(x):
+        return x**3
