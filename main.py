@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
