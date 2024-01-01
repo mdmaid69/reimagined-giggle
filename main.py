@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def find_max(lst):
+        return max(lst)
