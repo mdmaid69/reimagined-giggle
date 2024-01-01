@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
