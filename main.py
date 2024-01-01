@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
