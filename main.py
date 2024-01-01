@@ -1,5 +1,5 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def convert_array_to_string(array):
+        return array.tostring()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
