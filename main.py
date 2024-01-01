@@ -1,7 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
