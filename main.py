@@ -1,5 +1,5 @@
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def convert_to_hex(n):
-        return hex(n)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
