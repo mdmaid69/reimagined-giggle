@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
