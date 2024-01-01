@@ -1,5 +1,7 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
