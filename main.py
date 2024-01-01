@@ -1,7 +1,6 @@
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
