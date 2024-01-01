@@ -1,4 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
