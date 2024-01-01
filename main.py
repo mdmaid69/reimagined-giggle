@@ -1,5 +1,8 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
