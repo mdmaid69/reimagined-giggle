@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def cube_number(x):
-        return x**3
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
