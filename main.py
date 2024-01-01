@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
