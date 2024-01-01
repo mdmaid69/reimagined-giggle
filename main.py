@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_bool(array):
+        return bool(array)
