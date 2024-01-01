@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-name = "Python"
-print("Hello,", name)
+def remove_duplicates(lst):
+        return list(set(lst))
+import collections
+def create_counter():
+        return collections.Counter()
