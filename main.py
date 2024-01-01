@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
