@@ -1,5 +1,8 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
