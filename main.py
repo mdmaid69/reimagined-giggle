@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
