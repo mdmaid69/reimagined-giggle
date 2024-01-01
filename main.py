@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import os
-print(os.getcwd())
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import platform
+def get_os_info():
+        return platform.uname()
