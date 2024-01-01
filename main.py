@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
