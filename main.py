@@ -1,5 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def reverse_string(s):
-        return s[::-1]
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
