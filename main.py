@@ -1,7 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def add_numbers(x, y):
+        return x + y
