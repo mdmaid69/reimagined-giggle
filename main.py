@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
