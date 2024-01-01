@@ -1,6 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_factorial(n):
+        return math.factorial(n)
+import re
+print(re.match("h.*o", "hello world"))
