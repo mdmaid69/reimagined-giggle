@@ -1,5 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def cube_number(x):
-        return x**3
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def sort_list(lst):
+        return sorted(lst)
