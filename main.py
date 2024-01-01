@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import platform
+def get_python_version():
+        return platform.python_version()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
