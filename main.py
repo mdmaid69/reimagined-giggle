@@ -1,5 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
