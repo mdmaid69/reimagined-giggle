@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def reverse_list(lst):
+        return lst[::-1]
