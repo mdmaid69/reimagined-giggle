@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def is_even(n):
-        return n % 2 == 0
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import logging
+def log_message(message):
+        logging.info(message)
