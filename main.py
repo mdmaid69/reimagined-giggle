@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_pressure(force, area):
-        return force / area
+  def cube_number(x):
+        return x**3
+  def convert_to_octal(n):
+        return oct(n)
