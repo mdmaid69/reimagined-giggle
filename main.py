@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_pressure(force, area):
+        return force / area
+import array
+def convert_array_to_list(array):
+        return array.tolist()
