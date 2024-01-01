@@ -1,6 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
 import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def reverse_array(array):
-        array.reverse()
+def clear_array(array):
+        array *= 0
