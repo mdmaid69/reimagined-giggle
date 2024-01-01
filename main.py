@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
