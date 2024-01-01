@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
