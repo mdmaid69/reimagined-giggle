@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
