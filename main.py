@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
