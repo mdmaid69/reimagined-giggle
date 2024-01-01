@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import sys
+def exit_program():
+        sys.exit()
+def convert_to_octal(n):
+        return oct(n)
