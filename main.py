@@ -1,6 +1,7 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
