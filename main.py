@@ -1,6 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
