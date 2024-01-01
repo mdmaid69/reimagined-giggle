@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def add_numbers(x, y):
-        return x + y
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
