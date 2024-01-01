@@ -1,5 +1,8 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
