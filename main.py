@@ -1,7 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def square_number(x):
+        return x**2
+import collections
+def create_user_list():
+        return collections.UserList()
