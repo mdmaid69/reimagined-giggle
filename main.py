@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
