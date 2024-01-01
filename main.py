@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
