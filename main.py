@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_speed(distance, time):
+        return distance / time
