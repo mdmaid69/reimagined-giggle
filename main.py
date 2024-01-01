@@ -1,7 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
