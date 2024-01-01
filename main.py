@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
