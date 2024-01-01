@@ -1,6 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
