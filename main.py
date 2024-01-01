@@ -1,6 +1,8 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
 import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
