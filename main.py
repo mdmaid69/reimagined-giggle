@@ -1,7 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
