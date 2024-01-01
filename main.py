@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def reverse_string(s):
+        return s[::-1]
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
