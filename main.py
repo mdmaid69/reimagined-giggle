@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def split_path(path):
+        return os.path.split(path)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
