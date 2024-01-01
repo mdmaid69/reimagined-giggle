@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_item_count(array, item):
+        return array.count(item)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
