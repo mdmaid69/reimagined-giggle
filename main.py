@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
 import collections
-def create_user_list():
-        return collections.UserList()
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def convert_to_binary(n):
+        return bin(n)
