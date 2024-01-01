@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_string_from_array(array):
+        return array.tobytes()
