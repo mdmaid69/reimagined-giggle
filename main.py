@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
