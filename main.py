@@ -1,6 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
