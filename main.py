@@ -1,6 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def subtract_numbers(x, y):
+        return x - y
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
