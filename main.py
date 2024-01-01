@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import logging
-def log_message(message):
-        logging.info(message)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  def calculate_area_circle(r):
+        return 3.14 * r**2
