@@ -1,7 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
