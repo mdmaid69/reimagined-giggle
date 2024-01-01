@@ -1,6 +1,7 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
