@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
