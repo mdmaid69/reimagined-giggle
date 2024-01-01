@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_pressure(force, area):
+        return force / area
