@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
