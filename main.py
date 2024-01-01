@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-def count_words(sentence):
-        return len(sentence.split())
+import sys
+def exit_program():
+        sys.exit()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
