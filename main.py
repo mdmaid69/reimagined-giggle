@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
