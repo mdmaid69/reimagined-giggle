@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
