@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
