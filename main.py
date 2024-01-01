@@ -1,6 +1,6 @@
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def print_python_version():
+        return sys.version
+import json
+def convert_to_json(data):
+        return json.dumps(data)
