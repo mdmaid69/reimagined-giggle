@@ -1,6 +1,8 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
