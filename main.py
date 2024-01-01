@@ -1,7 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_speed(distance, time):
+        return distance / time
