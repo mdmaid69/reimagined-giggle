@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
