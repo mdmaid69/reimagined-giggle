@@ -1,4 +1,4 @@
+print(sum(range(10)))
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-print("Hello, world!")
+def calculate_absolute_value(x):
+        return math.fabs(x)
