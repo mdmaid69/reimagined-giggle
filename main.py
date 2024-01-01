@@ -1,9 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
