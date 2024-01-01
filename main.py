@@ -1,6 +1,4 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def convert_to_binary(n):
+        return bin(n)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
