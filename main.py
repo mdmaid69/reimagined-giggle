@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def find_unique_words(sentence):
-        return set(sentence.split())
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
