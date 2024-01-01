@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import collections
+def create_user_string():
+        return collections.UserString()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
