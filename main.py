@@ -1,6 +1,7 @@
+import sys
+def exit_program():
+        sys.exit()
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
