@@ -1,5 +1,7 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
