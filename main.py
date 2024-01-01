@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
