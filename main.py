@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import collections
-def create_queue():
-        return collections.deque()
+  def is_odd(n):
+        return n % 2 != 0
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
