@@ -1,5 +1,7 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import getpass
+def get_username():
+        return getpass.getuser()
