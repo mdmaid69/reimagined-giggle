@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def convert_to_binary(n):
+        return bin(n)
+import collections
+def create_queue():
+        return collections.deque()
