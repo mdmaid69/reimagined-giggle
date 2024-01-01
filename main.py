@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
