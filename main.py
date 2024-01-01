@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
