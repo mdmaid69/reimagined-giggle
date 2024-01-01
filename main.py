@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
