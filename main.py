@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def convert_to_hex(n):
+        return hex(n)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
