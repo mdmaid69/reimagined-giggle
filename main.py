@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def convert_to_binary(n):
+        return bin(n)
