@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
