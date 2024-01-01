@@ -1,8 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
