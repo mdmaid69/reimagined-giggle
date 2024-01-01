@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
