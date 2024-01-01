@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
