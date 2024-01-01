@@ -1,5 +1,8 @@
-def count_characters(sentence):
-        return len(sentence)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
