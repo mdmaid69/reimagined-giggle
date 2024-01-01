@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import sys
-def exit_program():
-        sys.exit()
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
