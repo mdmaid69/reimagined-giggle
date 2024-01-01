@@ -1,4 +1,6 @@
-for i in range(10): print(i)
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import collections
+def create_user_dict():
+        return collections.UserDict()
