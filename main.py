@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
