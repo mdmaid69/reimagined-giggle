@@ -1,5 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
