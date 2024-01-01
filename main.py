@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
