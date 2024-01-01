@@ -1,6 +1,12 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
