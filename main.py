@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
