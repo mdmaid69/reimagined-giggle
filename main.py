@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
