@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def convert_to_hex(n):
-        return hex(n)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_list_from_array(array):
+        return array.tolist()
