@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
