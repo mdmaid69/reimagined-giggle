@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def cube_number(x):
+        return x**3
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
