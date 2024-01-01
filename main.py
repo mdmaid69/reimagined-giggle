@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
