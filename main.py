@@ -1,6 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
