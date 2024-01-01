@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
