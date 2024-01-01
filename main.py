@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
