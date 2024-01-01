@@ -1,6 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def multiply_numbers(x, y):
+        return x * y
+import numpy as np
+print(np.array([1, 2, 3]))
