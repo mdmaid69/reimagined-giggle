@@ -1,6 +1,8 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
