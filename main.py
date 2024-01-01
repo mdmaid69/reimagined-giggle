@@ -1,7 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+text = "Hello, world!"
+print("Words:", len(text.split()))
