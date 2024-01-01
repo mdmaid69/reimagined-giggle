@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def find_unique_words(sentence):
+        return set(sentence.split())
