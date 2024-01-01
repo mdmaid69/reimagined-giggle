@@ -1,5 +1,11 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  def convert_to_octal(n):
-        return oct(n)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def sort_list(lst):
+        return sorted(lst)
