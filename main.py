@@ -1,5 +1,5 @@
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def reverse_string(s):
-        return s[::-1]
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
