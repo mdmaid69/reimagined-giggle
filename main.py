@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_volume(length, width, height):
+        return length * width * height
