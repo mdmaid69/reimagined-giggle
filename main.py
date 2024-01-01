@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def convert_to_binary(n):
-        return bin(n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
