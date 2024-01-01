@@ -1,5 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def reverse_list(lst):
+        return lst[::-1]
