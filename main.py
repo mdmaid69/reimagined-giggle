@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
