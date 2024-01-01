@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import collections
+def create_priority_queue():
+        return collections.deque()
