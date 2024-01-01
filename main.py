@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import sys
+def print_python_version():
+        print(sys.version)
