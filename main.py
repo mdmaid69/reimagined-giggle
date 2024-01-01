@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
