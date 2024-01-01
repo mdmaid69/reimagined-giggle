@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def multiply_numbers(x, y):
+        return x * y
