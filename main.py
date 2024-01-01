@@ -1,4 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
