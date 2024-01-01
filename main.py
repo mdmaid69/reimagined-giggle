@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
