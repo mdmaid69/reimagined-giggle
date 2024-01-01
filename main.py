@@ -1,3 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import functools
 def memoize(func):
         cache = {}
@@ -7,6 +9,3 @@ def memoize(func):
                 cache[args] = func(*args)
         return cache[args]
         return wrapper
-import sys
-def print_python_version():
-        print(sys.version)
