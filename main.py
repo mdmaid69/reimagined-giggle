@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
