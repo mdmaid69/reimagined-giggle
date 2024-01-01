@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
