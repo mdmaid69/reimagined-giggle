@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
