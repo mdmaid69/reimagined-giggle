@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_speed(distance, time):
+        return distance / time
