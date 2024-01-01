@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
