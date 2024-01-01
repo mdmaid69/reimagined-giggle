@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
