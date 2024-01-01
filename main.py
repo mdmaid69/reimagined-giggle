@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def is_even(n):
+        return n % 2 == 0
