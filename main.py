@@ -1,6 +1,7 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
