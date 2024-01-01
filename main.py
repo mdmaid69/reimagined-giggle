@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
