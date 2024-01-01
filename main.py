@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import datetime
+print(datetime.datetime.now())
