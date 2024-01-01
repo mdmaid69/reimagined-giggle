@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  def is_odd(n):
-        return n % 2 != 0
+import math
+print(math.pi)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
