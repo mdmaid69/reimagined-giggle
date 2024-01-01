@@ -1,11 +1,11 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import threading
+import queue
 
-def print_hello():
-        print("Hello, world!")
+q = queue.Queue()
 
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
