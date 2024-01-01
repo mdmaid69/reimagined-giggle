@@ -1,5 +1,9 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import array
-def get_array_as_repr(array):
-        return repr(array)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def get_array_buffer_info(array):
+        return array.buffer_info()
