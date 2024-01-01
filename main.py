@@ -1,6 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+print([x**2 for x in range(10)])
+import collections
+def create_priority_queue():
+        return collections.deque()
