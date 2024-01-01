@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
