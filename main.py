@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-  def sort_list(lst):
-        return sorted(lst)
+  import sys
+  def get_python_version():
+        return sys.version
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
