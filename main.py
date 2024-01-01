@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
