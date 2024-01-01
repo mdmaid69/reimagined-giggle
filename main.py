@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
