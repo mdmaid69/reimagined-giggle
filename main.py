@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
 import math
-print(math.pi)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def greet(name):
+        print(f"Hello, {name}!")
