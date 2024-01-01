@@ -1,8 +1,7 @@
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
         plt.show()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
