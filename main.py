@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
