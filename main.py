@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
