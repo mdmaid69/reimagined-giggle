@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def multiply_numbers(x, y):
+        return x * y
