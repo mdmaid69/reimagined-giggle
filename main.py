@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
