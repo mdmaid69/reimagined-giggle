@@ -1,6 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_pressure(force, area):
+        return force / area
+import random
+print(random.randint(0, 100))
