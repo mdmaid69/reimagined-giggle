@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_set(array):
+        return set(array)
