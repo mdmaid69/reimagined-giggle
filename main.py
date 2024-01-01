@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
