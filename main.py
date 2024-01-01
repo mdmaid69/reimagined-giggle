@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
