@@ -1,6 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import numpy as np
+print(np.array([1, 2, 3]))
