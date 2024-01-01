@@ -1,5 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_work(force, distance):
-        return force * distance
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
