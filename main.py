@@ -1,5 +1,6 @@
 import collections
-def create_priority_queue():
-        return collections.deque()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def create_user_list():
+        return collections.UserList()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
