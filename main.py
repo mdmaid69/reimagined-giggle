@@ -1,5 +1,8 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
