@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
