@@ -1,6 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
