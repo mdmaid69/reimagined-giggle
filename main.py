@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_speed(distance, time):
-        return distance / time
+def find_min(lst):
+        return min(lst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
