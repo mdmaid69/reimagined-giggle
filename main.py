@@ -1,5 +1,7 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
