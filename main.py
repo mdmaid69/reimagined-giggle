@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_density(mass, volume):
+        return mass / volume
