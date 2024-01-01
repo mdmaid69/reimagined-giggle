@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
