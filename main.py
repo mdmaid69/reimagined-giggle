@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def get_array_length(array):
+        return len(array)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
