@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def is_palindrome(s):
+        return s == s[::-1]
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
