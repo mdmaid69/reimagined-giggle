@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+from collections import Counter
+print(Counter("hello world"))
