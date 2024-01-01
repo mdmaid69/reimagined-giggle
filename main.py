@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
