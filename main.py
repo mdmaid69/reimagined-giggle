@@ -1,6 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import sys
-def print_python_version():
-        print(sys.version)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
