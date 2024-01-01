@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
