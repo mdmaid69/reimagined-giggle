@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_area_rectangle(l, w):
+        return l * w
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
