@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_area_rectangle(l, w):
+        return l * w
