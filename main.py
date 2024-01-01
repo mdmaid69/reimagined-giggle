@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
