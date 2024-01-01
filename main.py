@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import os
+def remove_directory(path):
+        os.rmdir(path)
