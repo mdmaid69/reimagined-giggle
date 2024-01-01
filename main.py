@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import logging
-def log_message(message):
-        logging.info(message)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
