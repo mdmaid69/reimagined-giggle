@@ -1,7 +1,8 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
