@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
