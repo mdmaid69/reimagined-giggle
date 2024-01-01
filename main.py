@@ -1,6 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
