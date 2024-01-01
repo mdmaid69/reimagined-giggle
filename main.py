@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
