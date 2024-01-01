@@ -1,6 +1,7 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def add_numbers(a, b):
-        return a + b
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
