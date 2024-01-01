@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
