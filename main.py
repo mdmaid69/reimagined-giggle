@@ -1,10 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
