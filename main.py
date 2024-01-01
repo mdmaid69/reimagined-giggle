@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
