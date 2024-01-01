@@ -1,5 +1,8 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-from collections import Counter
-print(Counter("hello world"))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
