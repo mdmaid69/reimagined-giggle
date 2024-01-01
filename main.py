@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import collections
+def create_user_dict():
+        return collections.UserDict()
