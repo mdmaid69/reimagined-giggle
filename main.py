@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
