@@ -1,6 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_density(mass, volume):
+        return mass / volume
