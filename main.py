@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
