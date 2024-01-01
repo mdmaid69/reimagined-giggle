@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import time
+def get_current_time():
+        return time.ctime()
