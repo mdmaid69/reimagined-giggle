@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
