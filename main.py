@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_current_working_directory():
+        return os.getcwd()
