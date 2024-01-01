@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_power(work, time):
+        return work / time
+import sys
+def exit_program():
+        sys.exit()
