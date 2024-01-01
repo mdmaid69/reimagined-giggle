@@ -1,4 +1,4 @@
-import sys
-print(sys.version)
-  def remove_duplicates(lst):
-        return list(set(lst))
+print(sum(range(10)))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
