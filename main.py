@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def is_odd(n):
+        return n % 2 != 0
+def calculate_power(work, time):
+        return work / time
