@@ -1,6 +1,3 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+print([x**2 for x in range(10)])
+  def is_even(n):
+        return n % 2 == 0
