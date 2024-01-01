@@ -1,5 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_power(work, time):
-        return work / time
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+def is_even(n):
+        return n % 2 == 0
