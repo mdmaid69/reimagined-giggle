@@ -1,5 +1,9 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
