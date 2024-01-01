@@ -1,5 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  def subtract_numbers(x, y):
-        return x - y
+def multiply_numbers(x, y):
+        return x * y
+def remove_duplicates(lst):
+        return list(set(lst))
