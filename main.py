@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
