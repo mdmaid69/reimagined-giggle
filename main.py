@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_volume(length, width, height):
+        return length * width * height
