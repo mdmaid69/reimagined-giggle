@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def create_user_dict():
+        return collections.UserDict()
