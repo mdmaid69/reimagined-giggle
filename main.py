@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
