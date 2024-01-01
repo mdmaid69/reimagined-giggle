@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
