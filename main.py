@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
