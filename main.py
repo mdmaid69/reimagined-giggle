@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
