@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def print_python_version():
+        print(sys.version)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
