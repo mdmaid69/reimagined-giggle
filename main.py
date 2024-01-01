@@ -1,5 +1,6 @@
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
 import collections
-def create_user_dict():
-        return collections.UserDict()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def create_ordered_dict():
+        return collections.OrderedDict()
