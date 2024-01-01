@@ -1,6 +1,5 @@
+  def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
