@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  def subtract_numbers(x, y):
-        return x - y
+def reverse_string(s):
+        return s[::-1]
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
