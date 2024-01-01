@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
