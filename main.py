@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def multiply_numbers(x, y):
+        return x * y
