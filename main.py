@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_item(array, i):
-        return array[i]
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
