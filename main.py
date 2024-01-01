@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_arc_sine(x):
+        return math.asin(x)
