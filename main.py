@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
