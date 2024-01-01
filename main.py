@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
