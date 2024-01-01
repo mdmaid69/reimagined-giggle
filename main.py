@@ -1,6 +1,5 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def get_array_typecode(array):
+        return array.typecode
+text = "Hello, world!"
+print("Reversed:", text[::-1])
