@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
