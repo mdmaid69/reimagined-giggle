@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
