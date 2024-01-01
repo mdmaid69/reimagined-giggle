@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
