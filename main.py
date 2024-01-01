@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
