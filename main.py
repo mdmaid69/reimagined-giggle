@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_area(radius):
+        return 3.14 * radius * radius
