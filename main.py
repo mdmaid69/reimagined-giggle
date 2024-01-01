@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
