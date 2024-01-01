@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+print([x**2 for x in range(10)])
