@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
