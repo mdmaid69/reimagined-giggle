@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def convert_to_octal(n):
+        return oct(n)
