@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import sys
-def print_python_version():
-        print(sys.version)
+name = "Python"
+print("Hello,", name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
