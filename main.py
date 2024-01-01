@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import collections
+def create_user_string():
+        return collections.UserString()
