@@ -1,6 +1,6 @@
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def convert_array_to_string(array):
+        return array.tostring()
