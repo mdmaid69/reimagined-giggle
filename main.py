@@ -1,7 +1,6 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
