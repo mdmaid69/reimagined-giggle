@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
