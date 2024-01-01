@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-x = 10
-y = 20
-print("Sum:", x + y)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
