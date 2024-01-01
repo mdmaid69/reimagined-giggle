@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
