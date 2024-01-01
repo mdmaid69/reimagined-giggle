@@ -1,5 +1,8 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
