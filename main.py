@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_typecode(array):
+        return array.typecode
