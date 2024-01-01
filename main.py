@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def create_stack():
-        return collections.deque()
+def is_even(n):
+        return n % 2 == 0
+def calculate_area(radius):
+        return 3.14 * radius * radius
