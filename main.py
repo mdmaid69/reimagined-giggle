@@ -1,5 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_power(work, time):
-        return work / time
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
