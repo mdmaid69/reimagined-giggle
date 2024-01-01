@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import platform
+def get_python_version():
+        return platform.python_version()
