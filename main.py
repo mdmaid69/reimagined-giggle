@@ -1,7 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def count_words(sentence):
+        return len(sentence.split())
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
