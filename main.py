@@ -1,8 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
