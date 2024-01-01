@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def reverse_array(array):
+        array.reverse()
