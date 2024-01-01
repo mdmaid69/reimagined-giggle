@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import time
-def get_current_time():
-        return time.time()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_index(array, item):
+        return array.index(item)
