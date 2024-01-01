@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def is_odd(n):
-        return n % 2 != 0
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
