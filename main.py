@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_tuple(array):
+        return tuple(array)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
