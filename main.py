@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def count_elements(lst):
+        return len(lst)
