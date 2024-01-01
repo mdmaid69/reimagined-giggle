@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def square_number(x):
-        return x**2
+import collections
+def create_queue():
+        return collections.deque()
+def convert_to_octal(n):
+        return oct(n)
