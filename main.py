@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
