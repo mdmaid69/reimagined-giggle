@@ -1,5 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def calculate_power(work, time):
+        return work / time
