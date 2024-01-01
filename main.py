@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
