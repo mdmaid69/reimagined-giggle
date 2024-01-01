@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def split_path(path):
+        return os.path.split(path)
