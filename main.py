@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
