@@ -1,6 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import sys
+def print_python_version():
+        print(sys.version)
