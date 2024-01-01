@@ -1,6 +1,3 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+for i in range(10): print(i)
+import re
+print(re.match("h.*o", "hello world"))
