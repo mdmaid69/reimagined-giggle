@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def is_even(n):
+        return n % 2 == 0
