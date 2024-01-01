@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_exponential(x):
+        return math.exp(x)
