@@ -1,5 +1,11 @@
-def add_numbers(x, y):
-        return x + y
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
