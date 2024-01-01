@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
