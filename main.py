@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
