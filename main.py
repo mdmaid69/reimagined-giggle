@@ -1,6 +1,7 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def reverse_array(array):
-        array.reverse()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
