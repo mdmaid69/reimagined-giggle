@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+from collections import Counter
+print(Counter("hello world"))
