@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
