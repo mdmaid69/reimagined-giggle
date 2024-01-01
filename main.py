@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
