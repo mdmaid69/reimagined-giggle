@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
