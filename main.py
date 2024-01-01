@@ -1,6 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import datetime
+def get_current_date():
+        return datetime.date.today()
