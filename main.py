@@ -1,8 +1,7 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
