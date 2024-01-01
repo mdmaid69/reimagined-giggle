@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import time
+def get_current_time():
+        return time.ctime()
+import re
+print(re.match("h.*o", "hello world"))
