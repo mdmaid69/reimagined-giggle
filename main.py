@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  def subtract_numbers(x, y):
-        return x - y
+import datetime
+def get_today_date():
+        return datetime.date.today()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
