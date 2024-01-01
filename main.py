@@ -1,6 +1,4 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def cube_number(x):
+        return x**3
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
