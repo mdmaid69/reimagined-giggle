@@ -1,7 +1,11 @@
-import unittest
+import threading
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
