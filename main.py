@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
