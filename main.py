@@ -1,5 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
