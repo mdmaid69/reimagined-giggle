@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def convert_to_hex(n):
-        return hex(n)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
