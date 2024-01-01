@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
