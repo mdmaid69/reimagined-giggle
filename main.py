@@ -1,7 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
