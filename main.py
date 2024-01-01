@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def is_palindrome(s):
-        return s == s[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def get_array_as_set(array):
+        return set(array)
