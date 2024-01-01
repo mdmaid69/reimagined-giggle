@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
