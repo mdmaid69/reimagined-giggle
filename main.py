@@ -1,7 +1,6 @@
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def append_to_array(array, item):
+        array.append(item)
