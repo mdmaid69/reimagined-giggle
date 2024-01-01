@@ -1,10 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def calculate_area_circle(r):
+        return 3.14 * r**2
