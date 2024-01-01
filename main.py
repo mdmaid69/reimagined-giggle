@@ -1,5 +1,5 @@
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
