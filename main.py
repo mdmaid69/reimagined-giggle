@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
