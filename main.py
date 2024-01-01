@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def count_characters(sentence):
+        return len(sentence)
