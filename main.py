@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-print(math.pi)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
