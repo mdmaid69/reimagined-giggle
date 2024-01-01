@@ -1,5 +1,5 @@
+def square_number(x):
+        return x**2
 import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def copy_file(src, dst):
+        shutil.copy(src, dst)
