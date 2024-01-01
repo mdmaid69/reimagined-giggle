@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import collections
+def create_user_list():
+        return collections.UserList()
