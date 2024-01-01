@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def calculate_work(force, distance):
+        return force * distance
