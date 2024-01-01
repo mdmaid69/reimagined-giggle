@@ -1,5 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_power(work, time):
+        return work / time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
