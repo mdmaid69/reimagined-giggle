@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
