@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def multiply_numbers(x, y):
+        return x * y
