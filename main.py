@@ -1,4 +1,9 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import time
-print(time.time())
+def greet(name):
+        print(f"Hello, {name}!")
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
