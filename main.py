@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def reverse_list(lst):
+        return lst[::-1]
