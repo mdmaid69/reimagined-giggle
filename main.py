@@ -1,6 +1,4 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
