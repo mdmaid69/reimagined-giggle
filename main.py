@@ -1,6 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
