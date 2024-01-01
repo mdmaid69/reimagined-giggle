@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import collections
-def create_user_list():
-        return collections.UserList()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
