@@ -1,5 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
