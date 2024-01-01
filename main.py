@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
