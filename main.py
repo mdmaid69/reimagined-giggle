@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
