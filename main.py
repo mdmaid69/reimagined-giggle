@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import array
+def get_array_length(array):
+        return len(array)
