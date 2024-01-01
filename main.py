@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
