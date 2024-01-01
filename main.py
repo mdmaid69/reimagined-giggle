@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_stack():
+        return collections.deque()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
