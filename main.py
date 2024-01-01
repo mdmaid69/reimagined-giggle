@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def sort_list(lst):
-        return sorted(lst)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
