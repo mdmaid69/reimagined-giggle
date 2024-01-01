@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def count_elements(lst):
+        return len(lst)
