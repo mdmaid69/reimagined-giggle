@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
