@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  def sort_list(lst):
-        return sorted(lst)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+from collections import Counter
+print(Counter("hello world"))
