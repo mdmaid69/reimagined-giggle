@@ -1,8 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+text = "Hello, world!"
+print("Characters:", len(text))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
