@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
