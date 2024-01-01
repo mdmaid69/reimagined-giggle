@@ -1,7 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
