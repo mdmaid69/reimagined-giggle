@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
