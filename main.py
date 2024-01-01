@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
