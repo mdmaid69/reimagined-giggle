@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
