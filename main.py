@@ -1,6 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def clear_array(array):
+        array *= 0
