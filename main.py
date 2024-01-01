@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def append_to_array(array, item):
+        array.append(item)
