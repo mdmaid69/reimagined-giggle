@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def get_array_as_str(array):
+        return str(array)
