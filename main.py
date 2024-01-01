@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
