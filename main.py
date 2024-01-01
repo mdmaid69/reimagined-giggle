@@ -1,5 +1,8 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
