@@ -1,6 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
