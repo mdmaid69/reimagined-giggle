@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
