@@ -1,6 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
