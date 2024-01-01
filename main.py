@@ -1,6 +1,7 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import logging
-def log_message(message):
-        logging.info(message)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
