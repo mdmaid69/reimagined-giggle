@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def find_max(numbers):
+        return max(numbers)
