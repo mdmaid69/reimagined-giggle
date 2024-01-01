@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-text = "Hello, world!"
-print("Characters:", len(text))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import collections
+def create_user_list():
+        return collections.UserList()
