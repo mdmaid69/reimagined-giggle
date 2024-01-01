@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import array
+def get_array_as_bool(array):
+        return bool(array)
