@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def find_min(numbers):
-        return min(numbers)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
