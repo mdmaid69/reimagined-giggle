@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def reverse_string(s):
+        return s[::-1]
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
