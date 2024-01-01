@@ -1,7 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def is_even(n):
+        return n % 2 == 0
