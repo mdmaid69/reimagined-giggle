@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
