@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
