@@ -1,5 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
