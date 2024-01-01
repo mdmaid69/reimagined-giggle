@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def is_odd(n):
-        return n % 2 != 0
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
