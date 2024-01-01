@@ -1,5 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
