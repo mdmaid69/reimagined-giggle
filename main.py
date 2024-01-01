@@ -1,5 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
