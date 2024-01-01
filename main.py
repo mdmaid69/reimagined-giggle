@@ -1,6 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_volume(length, width, height):
+        return length * width * height
