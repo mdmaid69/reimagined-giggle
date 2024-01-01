@@ -1,7 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
