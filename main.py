@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
