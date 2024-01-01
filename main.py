@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
