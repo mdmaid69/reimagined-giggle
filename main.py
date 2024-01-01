@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
