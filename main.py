@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_work(force, distance):
-        return force * distance
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+print(math.pi)
