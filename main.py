@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_as_int(array):
+        return int(array[0])
