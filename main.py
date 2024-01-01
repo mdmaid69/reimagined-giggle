@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def greet(name):
-        print(f"Hello, {name}!")
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
