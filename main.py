@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import sys
-def exit_program():
-        sys.exit()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
