@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
