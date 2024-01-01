@@ -1,6 +1,8 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
