@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def add_numbers(x, y):
+        return x + y
