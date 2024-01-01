@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import re
+print(re.match("h.*o", "hello world"))
