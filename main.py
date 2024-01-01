@@ -1,5 +1,4 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
