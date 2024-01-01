@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def add_numbers(x, y):
+        return x + y
+import time
+def get_current_time():
+        return time.time()
