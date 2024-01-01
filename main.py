@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
