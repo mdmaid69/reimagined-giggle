@@ -1,7 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_error_function(x):
+        return math.erf(x)
