@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import time
+print(time.time())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
