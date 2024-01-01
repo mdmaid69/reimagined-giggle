@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
