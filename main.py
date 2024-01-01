@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
