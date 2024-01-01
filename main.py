@@ -1,5 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_error_function(x):
+        return math.erf(x)
