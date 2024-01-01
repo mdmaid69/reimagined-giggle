@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_as_float(array):
+        return float(array[0])
