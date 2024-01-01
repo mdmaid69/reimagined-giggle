@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
