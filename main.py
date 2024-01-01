@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def is_even(n):
+        return n % 2 == 0
