@@ -1,7 +1,6 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
