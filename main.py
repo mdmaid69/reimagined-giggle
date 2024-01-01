@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
