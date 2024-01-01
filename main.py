@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
