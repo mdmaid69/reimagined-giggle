@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
