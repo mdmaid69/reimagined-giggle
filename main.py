@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+name = "Python"
+print("Hello,", name)
