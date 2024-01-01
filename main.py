@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_work(force, distance):
-        return force * distance
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
