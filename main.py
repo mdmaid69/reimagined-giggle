@@ -1,7 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
