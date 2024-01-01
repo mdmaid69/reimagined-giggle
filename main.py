@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def find_max(lst):
+        return max(lst)
