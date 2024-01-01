@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
