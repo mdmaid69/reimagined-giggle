@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def multiply_numbers(x, y):
+        return x * y
