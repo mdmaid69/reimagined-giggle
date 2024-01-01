@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import logging
+def log_message(message):
+        logging.info(message)
