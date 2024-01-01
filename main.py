@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
