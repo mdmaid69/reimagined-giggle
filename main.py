@@ -1,5 +1,6 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def count_elements(lst):
-        return len(lst)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
