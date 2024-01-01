@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
