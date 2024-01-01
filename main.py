@@ -1,5 +1,12 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def reverse_array(array):
+        array.reverse()
