@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_as_str(array):
+        return str(array)
