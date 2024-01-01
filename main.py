@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
