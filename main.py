@@ -1,5 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def sort_numbers(numbers):
-        return sorted(numbers)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
