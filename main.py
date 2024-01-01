@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
