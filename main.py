@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
