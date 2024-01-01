@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_array_slice(array, i, j):
+        return array[i:j]
