@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import collections
+def create_priority_queue():
+        return collections.deque()
