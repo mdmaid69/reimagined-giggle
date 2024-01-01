@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
