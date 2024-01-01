@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
