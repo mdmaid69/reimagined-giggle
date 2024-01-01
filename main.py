@@ -1,7 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
