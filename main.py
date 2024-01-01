@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_power(work, time):
+        return work / time
