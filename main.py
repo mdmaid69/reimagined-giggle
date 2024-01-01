@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
