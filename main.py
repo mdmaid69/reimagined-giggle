@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def cube_number(x):
+        return x**3
