@@ -1,5 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import collections
+def create_user_list():
+        return collections.UserList()
