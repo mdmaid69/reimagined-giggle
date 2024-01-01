@@ -1,5 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def calculate_pressure(force, area):
+        return force / area
