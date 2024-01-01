@@ -1,6 +1,3 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+print(sum(range(10)))
