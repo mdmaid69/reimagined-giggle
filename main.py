@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_as_float(array):
+        return float(array[0])
