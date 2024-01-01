@@ -1,10 +1,5 @@
-print("Hello, world!")
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
