@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
