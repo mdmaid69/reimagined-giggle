@@ -1,10 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
