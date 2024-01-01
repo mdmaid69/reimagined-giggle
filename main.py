@@ -1,5 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def is_palindrome(s):
-        return s == s[::-1]
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
