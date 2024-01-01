@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
