@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
