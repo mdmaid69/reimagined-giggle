@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
