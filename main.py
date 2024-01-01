@@ -1,6 +1,3 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+print(sum(range(10)))
+import random
+print(random.randint(0, 100))
