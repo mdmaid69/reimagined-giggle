@@ -1,5 +1,11 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
