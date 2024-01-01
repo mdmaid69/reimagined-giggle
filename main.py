@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def convert_to_binary(n):
+        return bin(n)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
