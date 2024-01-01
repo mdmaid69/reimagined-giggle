@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
