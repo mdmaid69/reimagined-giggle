@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
