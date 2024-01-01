@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
