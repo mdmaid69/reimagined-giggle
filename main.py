@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  def convert_to_binary(n):
+        return bin(n)
