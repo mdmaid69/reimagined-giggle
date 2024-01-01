@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def find_unique_words(sentence):
+        return set(sentence.split())
