@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
