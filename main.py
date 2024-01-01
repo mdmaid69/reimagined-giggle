@@ -1,7 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import tensorflow as tf
+print(tf.__version__)
