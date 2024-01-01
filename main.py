@@ -1,5 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def find_min(numbers):
-        return min(numbers)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
