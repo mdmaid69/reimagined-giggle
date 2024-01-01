@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
