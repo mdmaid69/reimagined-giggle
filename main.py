@@ -1,7 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import collections
+def create_user_dict():
+        return collections.UserDict()
