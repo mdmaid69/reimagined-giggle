@@ -1,5 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def square_number(x):
-        return x**2
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def is_odd(n):
+        return n % 2 != 0
