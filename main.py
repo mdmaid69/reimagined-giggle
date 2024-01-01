@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import time
-print(time.time())
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_pressure(force, area):
+        return force / area
