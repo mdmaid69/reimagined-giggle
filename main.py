@@ -1,6 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def reverse_list(lst):
+        return lst[::-1]
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
