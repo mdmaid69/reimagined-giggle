@@ -1,6 +1,12 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
