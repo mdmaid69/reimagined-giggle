@@ -1,9 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  def subtract_numbers(x, y):
+        return x - y
