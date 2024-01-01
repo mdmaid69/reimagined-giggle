@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_user_list():
-        return collections.UserList()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_area_circle(r):
+        return 3.14 * r**2
