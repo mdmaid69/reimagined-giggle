@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import tensorflow as tf
-print(tf.__version__)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+x = 10
+y = 20
+print("Sum:", x + y)
