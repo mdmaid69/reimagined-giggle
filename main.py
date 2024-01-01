@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
