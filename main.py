@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
