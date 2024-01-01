@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def divide_numbers(x, y):
-        return x / y
+def square_number(x):
+        return x**2
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
