@@ -1,8 +1,7 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def iterate_over_array(array):
+        for item in array:
+        print(item)
