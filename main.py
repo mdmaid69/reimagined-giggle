@@ -1,6 +1,12 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
