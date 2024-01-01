@@ -1,6 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
