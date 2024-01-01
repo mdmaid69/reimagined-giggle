@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
