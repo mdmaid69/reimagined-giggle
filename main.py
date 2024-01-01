@@ -1,6 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def find_max(lst):
+        return max(lst)
+def calculate_speed(distance, time):
+        return distance / time
