@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_area(radius):
+        return 3.14 * radius * radius
