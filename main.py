@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import sys
+  def get_python_version():
+        return sys.version
