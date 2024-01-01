@@ -1,5 +1,4 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def reverse_list(lst):
+        return lst[::-1]
