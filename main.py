@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
