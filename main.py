@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
