@@ -1,8 +1,8 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
