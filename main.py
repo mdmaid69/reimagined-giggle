@@ -1,6 +1,9 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
