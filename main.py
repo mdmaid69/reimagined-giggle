@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import logging
+def log_message(message):
+        logging.info(message)
