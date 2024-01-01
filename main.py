@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-  def reverse_list(lst):
-        return lst[::-1]
+def find_min(numbers):
+        return min(numbers)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
