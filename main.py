@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
