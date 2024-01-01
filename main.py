@@ -1,6 +1,6 @@
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
