@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
 import array
-def get_array_as_set(array):
-        return set(array)
+def convert_array_to_bytes(array):
+        return array.tobytes()
