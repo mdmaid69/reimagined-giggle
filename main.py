@@ -1,5 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
