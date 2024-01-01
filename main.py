@@ -1,6 +1,5 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def convert_array_to_list(array):
+        return array.tolist()
+  def is_even(n):
+        return n % 2 == 0
