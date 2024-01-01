@@ -1,5 +1,7 @@
-  def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_work(force, distance):
+        return force * distance
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
