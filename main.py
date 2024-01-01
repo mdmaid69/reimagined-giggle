@@ -1,6 +1,8 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
