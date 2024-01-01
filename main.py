@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
