@@ -1,4 +1,8 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def sort_numbers(numbers):
-        return sorted(numbers)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
