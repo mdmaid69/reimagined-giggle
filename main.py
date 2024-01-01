@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def get_array_as_str(array):
+        return str(array)
