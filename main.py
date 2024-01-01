@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def cube_number(x):
-        return x**3
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
