@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import datetime
+def get_current_date():
+        return datetime.date.today()
