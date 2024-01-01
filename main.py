@@ -1,6 +1,5 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
