@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
