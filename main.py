@@ -1,5 +1,6 @@
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def is_even(n):
-        return n % 2 == 0
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
