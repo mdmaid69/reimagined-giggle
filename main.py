@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import datetime
-print(datetime.datetime.now())
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import getpass
+def get_username():
+        return getpass.getuser()
