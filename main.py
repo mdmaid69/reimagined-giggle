@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
 import collections
-def create_counter():
-        return collections.Counter()
+def create_user_list():
+        return collections.UserList()
