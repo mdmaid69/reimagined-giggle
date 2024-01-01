@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import time
+def get_current_time():
+        return time.ctime()
