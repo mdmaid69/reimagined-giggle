@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def calculate_area_circle(r):
+        return 3.14 * r**2
