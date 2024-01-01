@@ -1,6 +1,4 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def is_odd(n):
+        return n % 2 != 0
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
