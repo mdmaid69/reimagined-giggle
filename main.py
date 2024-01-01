@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
