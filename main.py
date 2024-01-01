@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def get_array_length(array):
-        return len(array)
+for i in range(5):
+        print(i)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
