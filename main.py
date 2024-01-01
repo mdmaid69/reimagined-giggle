@@ -1,6 +1,8 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
