@@ -1,3 +1,7 @@
-print(sum(range(10)))
-  def count_elements(lst):
-        return len(lst)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def square_number(x):
+        return x**2
