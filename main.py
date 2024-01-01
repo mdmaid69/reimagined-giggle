@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
