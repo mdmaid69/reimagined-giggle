@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def subtract_numbers(x, y):
+        return x - y
