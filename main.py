@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
 import re
-print(re.match("h.*o", "hello world"))
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def is_even(n):
+        return n % 2 == 0
