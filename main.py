@@ -1,7 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
