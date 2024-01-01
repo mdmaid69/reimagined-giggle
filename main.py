@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def reverse_string(s):
+        return s[::-1]
