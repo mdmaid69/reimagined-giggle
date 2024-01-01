@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def get_array_as_str(array):
+        return str(array)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
