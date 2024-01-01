@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_current_directory():
+        return os.getcwd()
