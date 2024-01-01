@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
