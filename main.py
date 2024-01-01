@@ -1,6 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def cube_number(x):
+        return x**3
+def is_even(n):
+        return n % 2 == 0
