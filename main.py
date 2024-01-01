@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
