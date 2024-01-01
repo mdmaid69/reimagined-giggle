@@ -1,6 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
