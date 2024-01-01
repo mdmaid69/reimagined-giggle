@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
