@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def find_min(lst):
+        return min(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
