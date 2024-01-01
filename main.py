@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import collections
-def create_counter():
-        return collections.Counter()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+print(math.pi)
