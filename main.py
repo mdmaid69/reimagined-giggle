@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def cube_number(x):
+        return x**3
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
