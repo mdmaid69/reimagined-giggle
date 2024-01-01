@@ -1,6 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def get_array_as_tuple(array):
+        return tuple(array)
