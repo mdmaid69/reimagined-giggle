@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
