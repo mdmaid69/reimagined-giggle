@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
