@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def calculate_area_rectangle(l, w):
+        return l * w
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
