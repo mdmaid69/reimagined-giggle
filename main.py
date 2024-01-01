@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_pressure(force, area):
-        return force / area
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
