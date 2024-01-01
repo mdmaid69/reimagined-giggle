@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
