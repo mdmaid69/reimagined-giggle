@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import time
+def get_current_time():
+        return time.ctime()
