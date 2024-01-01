@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
