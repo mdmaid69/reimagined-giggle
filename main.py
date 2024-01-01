@@ -1,5 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def check_if_array_contains_item(array, item):
+        return item in array
+import time
+def get_current_time():
+        return time.time()
