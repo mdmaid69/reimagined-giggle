@@ -1,6 +1,7 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
