@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
