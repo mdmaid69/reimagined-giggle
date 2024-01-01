@@ -1,6 +1,11 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+text = "Hello, world!"
+print("Reversed:", text[::-1])
