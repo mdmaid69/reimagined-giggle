@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
