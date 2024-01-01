@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
