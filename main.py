@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
