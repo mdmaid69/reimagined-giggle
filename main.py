@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import array
+def remove_from_array(array, item):
+        array.remove(item)
