@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
