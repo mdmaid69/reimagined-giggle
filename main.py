@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import sys
+  def get_python_version():
+        return sys.version
