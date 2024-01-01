@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
