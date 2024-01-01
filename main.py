@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
