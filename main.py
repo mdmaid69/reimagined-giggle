@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def get_array_as_set(array):
+        return set(array)
+import array
+def get_array_item(array, i):
+        return array[i]
