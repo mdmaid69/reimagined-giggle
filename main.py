@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_array_as_tuple(array):
+        return tuple(array)
+  import os
+  def get_current_directory():
+        return os.getcwd()
