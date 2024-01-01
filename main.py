@@ -1,6 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
