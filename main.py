@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-for i in range(5):
-        print(i)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
