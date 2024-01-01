@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_speed(distance, time):
-        return distance / time
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def cube_number(x):
+        return x**3
