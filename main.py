@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
