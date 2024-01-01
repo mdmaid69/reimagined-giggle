@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
