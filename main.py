@@ -1,4 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-for i in range(10): print(i)
+  def add_numbers(x, y):
+        return x + y
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
