@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_density(mass, volume):
-        return mass / volume
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  def subtract_numbers(x, y):
+        return x - y
