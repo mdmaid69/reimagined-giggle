@@ -1,8 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def convert_to_octal(n):
+        return oct(n)
+def count_words(sentence):
+        return len(sentence.split())
