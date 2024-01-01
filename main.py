@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_area_circle(r):
+        return 3.14 * r**2
