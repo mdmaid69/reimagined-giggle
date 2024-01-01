@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_tangent(x):
+        return math.tan(x)
