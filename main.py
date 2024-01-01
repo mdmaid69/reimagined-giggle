@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
