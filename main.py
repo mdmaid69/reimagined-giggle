@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
