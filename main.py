@@ -1,4 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-print(sum(range(10)))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  def is_odd(n):
+        return n % 2 != 0
