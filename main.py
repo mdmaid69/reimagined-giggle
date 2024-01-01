@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
