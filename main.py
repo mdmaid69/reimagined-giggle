@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
