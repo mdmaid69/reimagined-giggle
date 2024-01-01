@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
