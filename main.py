@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_priority_queue():
+        return collections.deque()
+def find_min(lst):
+        return min(lst)
