@@ -1,7 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def square_number(x):
+        return x**2
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
