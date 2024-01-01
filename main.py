@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
