@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
