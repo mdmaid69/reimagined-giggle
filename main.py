@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import collections
+def create_user_dict():
+        return collections.UserDict()
