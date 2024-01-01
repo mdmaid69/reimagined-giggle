@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def add_numbers(a, b):
+        return a + b
