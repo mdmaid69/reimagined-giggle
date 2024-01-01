@@ -1,7 +1,12 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def set_array_item(array, i, item):
+        array[i] = item
