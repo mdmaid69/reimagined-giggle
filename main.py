@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
