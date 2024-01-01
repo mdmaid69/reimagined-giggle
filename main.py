@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
