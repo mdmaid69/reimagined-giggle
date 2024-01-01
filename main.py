@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
