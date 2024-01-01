@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def square_number(x):
+        return x**2
