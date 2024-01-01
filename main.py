@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def calculate_work(force, distance):
-        return force * distance
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
