@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def is_even(n):
-        return n % 2 == 0
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
