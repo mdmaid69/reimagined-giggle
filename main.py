@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def is_even(n):
-        return n % 2 == 0
+  def reverse_list(lst):
+        return lst[::-1]
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
