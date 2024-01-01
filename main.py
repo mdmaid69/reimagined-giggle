@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_typecode(array):
+        return array.typecode
