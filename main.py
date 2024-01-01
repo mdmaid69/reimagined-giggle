@@ -1,8 +1,7 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
