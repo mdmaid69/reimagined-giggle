@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
