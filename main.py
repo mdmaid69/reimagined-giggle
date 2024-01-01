@@ -1,9 +1,8 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
 import array
-def convert_bytes_to_array(bytes, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromunicode(unicode)
         return a
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
