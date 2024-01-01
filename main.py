@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
