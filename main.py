@@ -1,7 +1,6 @@
-for i in range(5):
-        print(i)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_bool(array):
+        return bool(array)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
