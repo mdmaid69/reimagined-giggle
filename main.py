@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import sys
+print(sys.version)
