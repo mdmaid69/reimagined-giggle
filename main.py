@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_work(force, distance):
+        return force * distance
+import time
+def get_current_time():
+        return time.ctime()
