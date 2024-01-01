@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import sys
+  def get_python_version():
+        return sys.version
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
