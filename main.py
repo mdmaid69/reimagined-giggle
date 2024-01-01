@@ -1,4 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-import datetime
-print(datetime.datetime.now())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
