@@ -1,6 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
 import collections
-def create_queue():
+def create_priority_queue():
         return collections.deque()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
