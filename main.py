@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_array_as_list(array):
+        return list(array)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
