@@ -1,4 +1,5 @@
-import time
-print(time.time())
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
