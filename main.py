@@ -1,6 +1,8 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
