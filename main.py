@@ -1,5 +1,9 @@
-def square_number(x):
-        return x**2
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_as_tuple(array):
+        return tuple(array)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
