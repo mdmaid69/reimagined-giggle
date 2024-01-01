@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
