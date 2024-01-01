@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
