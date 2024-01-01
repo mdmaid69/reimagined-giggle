@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def find_min(lst):
-        return min(lst)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
