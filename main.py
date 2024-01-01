@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
