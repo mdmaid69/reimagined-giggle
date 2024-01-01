@@ -1,3 +1,5 @@
-print(sum(range(10)))
-def reverse_string(s):
-        return s[::-1]
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
