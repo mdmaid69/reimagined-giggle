@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
