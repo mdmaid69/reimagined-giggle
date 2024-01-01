@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_counter():
+        return collections.Counter()
