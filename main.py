@@ -1,8 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
