@@ -1,5 +1,7 @@
-import sys
-print(sys.version)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
