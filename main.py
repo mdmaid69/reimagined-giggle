@@ -1,6 +1,3 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+print([x**2 for x in range(10)])
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
