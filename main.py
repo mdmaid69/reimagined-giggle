@@ -1,6 +1,6 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
