@@ -1,5 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  def is_even(n):
+        return n % 2 == 0
