@@ -1,6 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
