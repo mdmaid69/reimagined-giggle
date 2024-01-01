@@ -1,6 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
