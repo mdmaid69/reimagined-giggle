@@ -1,8 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
