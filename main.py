@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
 import collections
-def create_user_dict():
-        return collections.UserDict()
+def create_queue():
+        return collections.deque()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
