@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
