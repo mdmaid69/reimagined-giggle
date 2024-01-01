@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
