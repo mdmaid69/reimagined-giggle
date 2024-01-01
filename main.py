@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def find_max(numbers):
+        return max(numbers)
+  def subtract_numbers(x, y):
+        return x - y
