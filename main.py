@@ -1,4 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-print("Hello, world!")
+  def calculate_area_rectangle(l, w):
+        return l * w
+def subtract_numbers(x, y):
+        return x - y
