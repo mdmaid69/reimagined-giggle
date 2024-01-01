@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
