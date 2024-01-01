@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import sys
+print(sys.version)
