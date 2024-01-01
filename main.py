@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
