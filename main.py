@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
