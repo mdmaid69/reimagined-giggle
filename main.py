@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import logging
+def log_message(message):
+        logging.info(message)
