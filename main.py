@@ -1,6 +1,5 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def extend_array(array, iterable):
+        array.extend(iterable)
+def add_numbers(x, y):
+        return x + y
