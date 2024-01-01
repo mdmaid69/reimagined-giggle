@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def cube_number(x):
-        return x**3
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
