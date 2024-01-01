@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def convert_to_binary(n):
+        return bin(n)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
