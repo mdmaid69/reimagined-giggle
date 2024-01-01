@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
