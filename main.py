@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
