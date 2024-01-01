@@ -1,8 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
