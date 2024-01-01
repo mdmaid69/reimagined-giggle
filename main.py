@@ -1,7 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
