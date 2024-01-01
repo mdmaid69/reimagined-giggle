@@ -1,8 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
