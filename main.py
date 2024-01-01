@@ -1,4 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-for i in range(10): print(i)
+def is_odd(n):
+        return n % 2 != 0
+def multiply_numbers(x, y):
+        return x * y
