@@ -1,8 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
