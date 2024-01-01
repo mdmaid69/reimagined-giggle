@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+text = "Hello, world!"
+print("Words:", len(text.split()))
