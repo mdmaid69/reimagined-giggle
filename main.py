@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  def convert_to_octal(n):
+        return oct(n)
