@@ -1,5 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
