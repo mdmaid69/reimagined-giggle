@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-for i in range(5):
-        print(i)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def count_characters(sentence):
+        return len(sentence)
