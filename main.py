@@ -1,5 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_speed(distance, time):
+        return distance / time
