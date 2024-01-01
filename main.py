@@ -1,9 +1,6 @@
+import math
+def calculate_tangent(x):
+        return math.tan(x)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def set_array_item(array, i, item):
+        array[i] = item
