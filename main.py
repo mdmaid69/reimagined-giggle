@@ -1,5 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import time
+def get_current_time():
+        return time.time()
