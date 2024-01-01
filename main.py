@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def square_number(x):
+        return x**2
