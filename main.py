@@ -1,5 +1,11 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
