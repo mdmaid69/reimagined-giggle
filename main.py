@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
