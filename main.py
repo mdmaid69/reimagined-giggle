@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import random
+print(random.randint(0, 100))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
