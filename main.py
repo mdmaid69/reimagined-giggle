@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import collections
+def create_user_string():
+        return collections.UserString()
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_array_to_list(array):
+        return array.tolist()
