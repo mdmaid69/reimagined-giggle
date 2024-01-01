@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
