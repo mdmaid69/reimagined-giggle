@@ -1,6 +1,7 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
