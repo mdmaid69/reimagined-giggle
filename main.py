@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
