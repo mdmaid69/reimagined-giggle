@@ -1,5 +1,7 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
