@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_work(force, distance):
-        return force * distance
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
