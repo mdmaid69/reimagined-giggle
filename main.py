@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
