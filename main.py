@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import collections
+def create_user_string():
+        return collections.UserString()
