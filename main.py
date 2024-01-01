@@ -1,5 +1,9 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import datetime
-print(datetime.datetime.now())
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
