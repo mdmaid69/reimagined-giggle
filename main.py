@@ -1,6 +1,6 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
