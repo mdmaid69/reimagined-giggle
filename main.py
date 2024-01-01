@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
