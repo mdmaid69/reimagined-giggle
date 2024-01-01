@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def add_numbers(a, b):
-        return a + b
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def remove_from_array(array, item):
+        array.remove(item)
