@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import sys
+def exit_program():
+        sys.exit()
+  def multiply_numbers(x, y):
+        return x * y
