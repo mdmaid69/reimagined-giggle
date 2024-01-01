@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
