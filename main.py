@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
