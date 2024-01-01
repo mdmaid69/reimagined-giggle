@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def convert_to_octal(n):
-        return oct(n)
+def reverse_string(s):
+        return s[::-1]
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
