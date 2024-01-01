@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
