@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import sys
-def exit_program():
-        sys.exit()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
