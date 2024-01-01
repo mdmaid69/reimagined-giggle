@@ -1,5 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def append_to_array(array, item):
-        array.append(item)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
