@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def find_min(lst):
-        return min(lst)
+import platform
+def get_python_version():
+        return platform.python_version()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
