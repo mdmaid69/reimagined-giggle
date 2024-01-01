@@ -1,5 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_square_root(x):
+        return math.sqrt(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
