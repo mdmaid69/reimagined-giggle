@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
