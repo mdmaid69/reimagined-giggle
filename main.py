@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_list(array):
-        return list(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
