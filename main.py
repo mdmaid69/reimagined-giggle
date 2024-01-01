@@ -1,4 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import os
+print(os.getcwd())
