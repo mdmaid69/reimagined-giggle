@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
