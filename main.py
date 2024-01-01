@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import os
-print(os.getcwd())
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_power(work, time):
+        return work / time
