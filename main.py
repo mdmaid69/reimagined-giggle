@@ -1,5 +1,7 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def reverse_array(array):
-        array.reverse()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
