@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
