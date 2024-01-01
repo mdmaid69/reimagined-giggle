@@ -1,7 +1,6 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
