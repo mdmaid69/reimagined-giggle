@@ -1,7 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
