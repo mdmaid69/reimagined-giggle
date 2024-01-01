@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
