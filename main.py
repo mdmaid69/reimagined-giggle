@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
