@@ -1,6 +1,10 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
