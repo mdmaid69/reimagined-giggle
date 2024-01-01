@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
