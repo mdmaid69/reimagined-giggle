@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def find_max(numbers):
+        return max(numbers)
