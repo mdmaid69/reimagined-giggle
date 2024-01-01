@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_speed(distance, time):
+        return distance / time
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
