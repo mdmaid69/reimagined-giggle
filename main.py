@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
