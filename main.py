@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
