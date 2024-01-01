@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
