@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
