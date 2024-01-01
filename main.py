@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import tensorflow as tf
+print(tf.__version__)
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
