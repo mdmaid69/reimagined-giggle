@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_item(array, i):
-        return array[i]
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
