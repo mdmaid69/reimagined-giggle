@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_area_rectangle(l, w):
+        return l * w
+import collections
+def create_stack():
+        return collections.deque()
