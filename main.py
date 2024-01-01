@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
