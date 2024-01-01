@@ -1,4 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-print("Hello, world!")
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
