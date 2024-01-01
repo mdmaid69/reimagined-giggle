@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_acceleration(speed, time):
+        return speed / time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
