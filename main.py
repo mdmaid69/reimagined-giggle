@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import array
+def append_to_array(array, item):
+        array.append(item)
