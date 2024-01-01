@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        return sys.version
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
