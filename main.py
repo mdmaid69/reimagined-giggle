@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def cube_number(x):
-        return x**3
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
