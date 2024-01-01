@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
