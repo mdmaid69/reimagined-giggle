@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_priority_queue():
+        return collections.deque()
+def find_min(lst):
+        return min(lst)
