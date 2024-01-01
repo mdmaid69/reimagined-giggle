@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import numpy as np
+print(np.array([1, 2, 3]))
