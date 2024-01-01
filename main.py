@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
