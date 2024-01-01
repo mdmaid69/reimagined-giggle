@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+print([x**2 for x in range(10)])
