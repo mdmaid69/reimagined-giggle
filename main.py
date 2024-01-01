@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
