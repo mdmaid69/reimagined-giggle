@@ -1,6 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def count_elements(lst):
-        return len(lst)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
