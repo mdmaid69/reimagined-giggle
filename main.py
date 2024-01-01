@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
