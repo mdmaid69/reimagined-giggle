@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
