@@ -1,6 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+for i in range(5):
+        print(i)
+  def reverse_list(lst):
+        return lst[::-1]
