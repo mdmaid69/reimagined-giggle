@@ -1,6 +1,8 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_square_root(x):
+        return math.sqrt(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
