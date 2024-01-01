@@ -1,4 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  def is_odd(n):
+        return n % 2 != 0
