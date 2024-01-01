@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_length(array):
+        return len(array)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
