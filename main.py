@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
