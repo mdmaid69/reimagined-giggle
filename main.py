@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_counter():
+        return collections.Counter()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
