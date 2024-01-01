@@ -1,3 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-print("Hello, world!")
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_force(mass, acceleration):
+        return mass * acceleration
