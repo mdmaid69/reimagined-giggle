@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
