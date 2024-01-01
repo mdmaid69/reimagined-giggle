@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def is_even(n):
+        return n % 2 == 0
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
