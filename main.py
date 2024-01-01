@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
