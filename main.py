@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
