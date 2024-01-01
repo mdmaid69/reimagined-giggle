@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
