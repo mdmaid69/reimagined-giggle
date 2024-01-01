@@ -1,4 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
