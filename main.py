@@ -1,5 +1,7 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
