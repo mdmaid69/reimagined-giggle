@@ -1,6 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import array
-def reverse_array(array):
-        array.reverse()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
