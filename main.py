@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
