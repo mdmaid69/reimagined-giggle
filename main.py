@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
