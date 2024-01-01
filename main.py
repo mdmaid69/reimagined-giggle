@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def count_elements(lst):
-        return len(lst)
+import sys
+def exit_program():
+        sys.exit()
+import random
+def roll_die():
+        return random.randint(1, 6)
