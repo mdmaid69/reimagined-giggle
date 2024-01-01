@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
