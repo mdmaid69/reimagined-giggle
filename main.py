@@ -1,7 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
