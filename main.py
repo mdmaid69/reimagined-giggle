@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
