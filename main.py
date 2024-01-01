@@ -1,7 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
