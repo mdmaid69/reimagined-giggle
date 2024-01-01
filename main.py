@@ -1,5 +1,3 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def subtract_numbers(x, y):
-        return x - y
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+for i in range(10): print(i)
