@@ -1,6 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_work(force, distance):
+        return force * distance
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
