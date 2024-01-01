@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
