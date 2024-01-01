@@ -1,6 +1,8 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
