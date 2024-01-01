@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def divide_numbers(x, y):
-        return x / y
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
