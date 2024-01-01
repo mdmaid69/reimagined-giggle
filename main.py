@@ -1,5 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
