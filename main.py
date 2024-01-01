@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
