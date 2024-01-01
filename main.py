@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def split_path(path):
+        return os.path.split(path)
