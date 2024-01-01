@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
