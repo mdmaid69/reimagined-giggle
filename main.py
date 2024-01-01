@@ -1,7 +1,5 @@
+def find_max(lst):
+        return max(lst)
 import sys
-def exit_program():
-        sys.exit()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def add_to_python_path(path):
+        sys.path.append(path)
