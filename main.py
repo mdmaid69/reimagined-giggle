@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_as_bytearray(array):
+        return bytearray(array)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
