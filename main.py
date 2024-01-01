@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_density(mass, volume):
+        return mass / volume
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
