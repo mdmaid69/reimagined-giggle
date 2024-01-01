@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
