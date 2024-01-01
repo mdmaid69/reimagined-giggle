@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
