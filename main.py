@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
