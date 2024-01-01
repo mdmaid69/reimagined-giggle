@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
