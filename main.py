@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
