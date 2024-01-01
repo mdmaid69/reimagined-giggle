@@ -1,9 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
