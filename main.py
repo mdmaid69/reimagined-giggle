@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
