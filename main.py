@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def remove_duplicates(lst):
+        return list(set(lst))
