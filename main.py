@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
