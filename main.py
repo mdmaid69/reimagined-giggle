@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+from collections import Counter
+print(Counter("hello world"))
