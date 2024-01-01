@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
