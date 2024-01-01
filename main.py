@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
