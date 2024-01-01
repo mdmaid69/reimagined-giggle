@@ -1,5 +1,8 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import re
-print(re.match("h.*o", "hello world"))
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
