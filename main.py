@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def get_array_length(array):
+        return len(array)
