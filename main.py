@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def subtract_numbers(x, y):
-        return x - y
+import array
+def clear_array(array):
+        array *= 0
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
