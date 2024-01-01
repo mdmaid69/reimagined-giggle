@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
