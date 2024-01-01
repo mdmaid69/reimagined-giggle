@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
