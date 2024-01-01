@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def square_number(x):
+        return x**2
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
