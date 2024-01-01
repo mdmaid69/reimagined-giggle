@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
