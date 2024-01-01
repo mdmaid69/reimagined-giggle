@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import sys
-def print_python_version():
-        return sys.version
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
