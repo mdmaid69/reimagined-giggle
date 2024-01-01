@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
