@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def cube_number(x):
-        return x**3
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
