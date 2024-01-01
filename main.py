@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
