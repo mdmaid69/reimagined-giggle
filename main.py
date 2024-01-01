@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
