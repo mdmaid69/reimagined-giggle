@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def get_array_item(array, i):
+        return array[i]
+def subtract_numbers(x, y):
+        return x - y
