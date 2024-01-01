@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
