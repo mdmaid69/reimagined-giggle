@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
