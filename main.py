@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
