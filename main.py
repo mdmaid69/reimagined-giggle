@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
