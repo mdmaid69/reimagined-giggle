@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import re
+print(re.match("h.*o", "hello world"))
