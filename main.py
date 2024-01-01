@@ -1,5 +1,5 @@
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-from collections import Counter
-print(Counter("hello world"))
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
