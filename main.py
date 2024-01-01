@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
