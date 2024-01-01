@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
