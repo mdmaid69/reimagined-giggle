@@ -1,5 +1,5 @@
+import sys
+print(sys.version)
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def greet(name):
-        print(f"Hello, {name}!")
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
