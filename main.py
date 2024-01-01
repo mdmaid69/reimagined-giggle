@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
