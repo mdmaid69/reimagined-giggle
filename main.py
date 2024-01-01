@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
