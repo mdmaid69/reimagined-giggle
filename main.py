@@ -1,8 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def convert_array_to_string(array):
+        return array.tostring()
