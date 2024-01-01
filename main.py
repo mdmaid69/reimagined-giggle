@@ -1,6 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_speed(distance, time):
-        return distance / time
+import os
+print(os.getcwd())
+  def sort_list(lst):
+        return sorted(lst)
