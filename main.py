@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
