@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_work(force, distance):
+        return force * distance
