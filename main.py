@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
