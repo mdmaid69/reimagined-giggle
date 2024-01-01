@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
