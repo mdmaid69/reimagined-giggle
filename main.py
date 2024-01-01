@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def get_array_length(array):
-        return len(array)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_pressure(force, area):
+        return force / area
