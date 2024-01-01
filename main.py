@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  def convert_to_binary(n):
-        return bin(n)
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
