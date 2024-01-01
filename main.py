@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  def count_elements(lst):
+        return len(lst)
