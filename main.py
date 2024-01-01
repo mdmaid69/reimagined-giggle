@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
