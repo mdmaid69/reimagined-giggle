@@ -1,7 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
