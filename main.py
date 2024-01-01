@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
