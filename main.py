@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def remove_duplicates(lst):
+        return list(set(lst))
