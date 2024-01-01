@@ -1,3 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-print("Hello, world!")
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+for i in range(5):
+        print(i)
