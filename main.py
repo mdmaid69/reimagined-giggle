@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
