@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+print("Hello, world!")
