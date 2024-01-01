@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
