@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
