@@ -1,5 +1,8 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import getpass
+def get_username():
+        return getpass.getuser()
