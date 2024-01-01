@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_density(mass, volume):
+        return mass / volume
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
