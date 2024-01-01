@@ -1,3 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-print([x**2 for x in range(10)])
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+def calculate_power(work, time):
+        return work / time
