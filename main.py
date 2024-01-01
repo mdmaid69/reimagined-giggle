@@ -1,6 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
