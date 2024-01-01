@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def is_even(n):
+        return n % 2 == 0
