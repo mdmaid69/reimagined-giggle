@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+print(sum(range(10)))
