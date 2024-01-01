@@ -1,6 +1,5 @@
-import time
-print(time.time())
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
