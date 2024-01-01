@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
