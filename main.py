@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def find_min(lst):
+        return min(lst)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
