@@ -1,5 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+from collections import Counter
+print(Counter("hello world"))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
