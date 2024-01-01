@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def convert_to_binary(n):
-        return bin(n)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
