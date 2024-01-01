@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
