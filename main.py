@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-for i in range(5):
-        print(i)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import time
+print(time.time())
