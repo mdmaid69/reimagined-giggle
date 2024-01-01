@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
