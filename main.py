@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
