@@ -1,6 +1,5 @@
+def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
