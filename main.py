@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_power(work, time):
+        return work / time
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
