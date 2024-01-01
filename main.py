@@ -1,4 +1,7 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
