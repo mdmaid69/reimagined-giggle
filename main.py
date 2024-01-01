@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import collections
-def create_stack():
-        return collections.deque()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def count_characters(sentence):
+        return len(sentence)
