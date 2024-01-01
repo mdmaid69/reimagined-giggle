@@ -1,4 +1,4 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def is_even(n):
+        return n % 2 == 0
