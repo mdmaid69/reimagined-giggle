@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_item(array, i):
+        return array[i]
