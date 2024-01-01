@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def is_even(n):
-        return n % 2 == 0
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
