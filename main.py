@@ -1,4 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def multiply_numbers(x, y):
+        return x * y
