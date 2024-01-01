@@ -1,6 +1,10 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
