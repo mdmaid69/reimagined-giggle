@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import time
+def get_time_since_epoch():
+        return time.time()
