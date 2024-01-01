@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def convert_to_hex(n):
-        return hex(n)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
