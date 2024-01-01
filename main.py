@@ -1,4 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_area_rectangle(l, w):
+        return l * w
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
