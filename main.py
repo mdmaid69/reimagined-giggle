@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
