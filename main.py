@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_area_rectangle(l, w):
-        return l * w
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def reverse_array(array):
+        array.reverse()
