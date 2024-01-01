@@ -1,6 +1,7 @@
-def count_elements(lst):
-        return len(lst)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
