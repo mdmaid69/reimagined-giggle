@@ -1,7 +1,9 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
