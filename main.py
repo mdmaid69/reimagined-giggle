@@ -1,7 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
