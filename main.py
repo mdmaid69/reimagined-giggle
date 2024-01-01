@@ -1,7 +1,7 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import tensorflow as tf
-print(tf.__version__)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
