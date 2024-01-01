@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def reverse_list(lst):
-        return lst[::-1]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
