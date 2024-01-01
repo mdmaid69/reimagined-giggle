@@ -1,6 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
