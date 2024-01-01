@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
