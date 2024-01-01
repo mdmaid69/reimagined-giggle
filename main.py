@@ -1,5 +1,8 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
