@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
