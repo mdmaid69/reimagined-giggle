@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
