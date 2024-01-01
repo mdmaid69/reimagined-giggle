@@ -1,5 +1,7 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
