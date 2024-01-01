@@ -1,4 +1,7 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
