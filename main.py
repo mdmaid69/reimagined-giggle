@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
