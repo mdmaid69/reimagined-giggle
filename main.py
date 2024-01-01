@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
