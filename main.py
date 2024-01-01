@@ -1,6 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
