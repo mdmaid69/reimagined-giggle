@@ -1,6 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
