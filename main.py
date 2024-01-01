@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def convert_array_to_list(array):
+        return array.tolist()
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
