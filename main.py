@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
