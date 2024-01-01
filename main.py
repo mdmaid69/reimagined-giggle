@@ -1,6 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def get_array_length(array):
-        return len(array)
+def count_characters(sentence):
+        return len(sentence)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
