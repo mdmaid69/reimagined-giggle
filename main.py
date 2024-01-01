@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def convert_to_octal(n):
-        return oct(n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
