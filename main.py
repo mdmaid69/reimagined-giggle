@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
