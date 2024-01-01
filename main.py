@@ -1,7 +1,10 @@
-import unittest
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import threading
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import datetime
-print(datetime.datetime.now())
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
