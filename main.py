@@ -1,9 +1,7 @@
+def sort_numbers(numbers):
+        return sorted(numbers)
 import array
-def get_array_from_file(filename, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.frombytes(bytes)
         return a
-import sys
-def print_python_version():
-        return sys.version
