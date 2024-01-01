@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
