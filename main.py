@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
