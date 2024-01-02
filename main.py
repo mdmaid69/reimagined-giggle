@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_pressure(force, area):
+        return force / area
+def is_odd(n):
+        return n % 2 != 0
