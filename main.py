@@ -1,4 +1,7 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
