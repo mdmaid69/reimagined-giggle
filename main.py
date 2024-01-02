@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_pressure(force, area):
+        return force / area
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
