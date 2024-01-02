@@ -1,7 +1,6 @@
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
