@@ -1,4 +1,8 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
