@@ -1,5 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def multiply_numbers(x, y):
+        return x * y
+def greet(name):
+        print(f"Hello, {name}!")
