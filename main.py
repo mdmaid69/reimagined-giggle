@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import collections
+def create_stack():
+        return collections.deque()
