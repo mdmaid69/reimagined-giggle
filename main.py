@@ -1,8 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
