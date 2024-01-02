@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  def reverse_list(lst):
-        return lst[::-1]
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_as_str(array):
+        return str(array)
