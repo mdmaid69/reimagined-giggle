@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def calculate_perpetuity(payment, rate):
+        return payment / rate
