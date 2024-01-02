@@ -1,6 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
