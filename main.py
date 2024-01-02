@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def convert_to_hex(n):
-        return hex(n)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
