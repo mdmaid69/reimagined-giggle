@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
