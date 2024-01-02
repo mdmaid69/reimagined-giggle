@@ -1,8 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
