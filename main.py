@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
