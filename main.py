@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
