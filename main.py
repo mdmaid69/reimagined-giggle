@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
