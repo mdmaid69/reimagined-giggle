@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
