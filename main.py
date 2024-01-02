@@ -1,4 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
