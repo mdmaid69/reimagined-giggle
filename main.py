@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
