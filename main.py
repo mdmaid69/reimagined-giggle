@@ -1,7 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
