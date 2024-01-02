@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def subtract_numbers(x, y):
+        return x - y
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
