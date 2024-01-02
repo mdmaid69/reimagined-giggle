@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def is_odd(n):
+        return n % 2 != 0
+import os
+def remove_directory(path):
+        os.rmdir(path)
