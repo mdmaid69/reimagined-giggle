@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_density(mass, volume):
+        return mass / volume
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
