@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_sine(x):
+        return math.sin(x)
