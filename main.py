@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
