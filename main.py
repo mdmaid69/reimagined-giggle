@@ -1,7 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
