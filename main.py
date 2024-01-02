@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
