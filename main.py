@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
