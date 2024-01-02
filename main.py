@@ -1,6 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_acceleration(speed, time):
+        return speed / time
