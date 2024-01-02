@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
