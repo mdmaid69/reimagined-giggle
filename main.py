@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
