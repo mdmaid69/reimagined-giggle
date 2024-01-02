@@ -1,5 +1,7 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def is_palindrome(s):
+        return s == s[::-1]
