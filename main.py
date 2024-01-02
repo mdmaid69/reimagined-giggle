@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def move_file(src, dst):
+        shutil.move(src, dst)
