@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
