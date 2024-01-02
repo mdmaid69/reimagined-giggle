@@ -1,6 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
