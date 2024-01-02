@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-def count_words(sentence):
-        return len(sentence.split())
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  def is_even(n):
+        return n % 2 == 0
