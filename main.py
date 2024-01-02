@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import time
-def get_current_time():
-        return time.ctime()
+import random
+print(random.randint(0, 100))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
