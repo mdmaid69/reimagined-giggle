@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
