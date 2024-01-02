@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
