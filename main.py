@@ -1,8 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
