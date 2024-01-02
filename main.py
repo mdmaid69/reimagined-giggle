@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import sys
-def print_python_version():
-        return sys.version
+import math
+print(math.pi)
+import array
+def get_array_as_float(array):
+        return float(array[0])
