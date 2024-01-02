@@ -1,5 +1,3 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_volume(length, width, height):
-        return length * width * height
+print([x**2 for x in range(10)])
+import sys
+print(sys.version)
