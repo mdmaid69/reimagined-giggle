@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
