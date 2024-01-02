@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def sort_list(lst):
+        return sorted(lst)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
