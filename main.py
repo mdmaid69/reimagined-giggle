@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
