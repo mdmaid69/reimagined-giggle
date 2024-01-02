@@ -1,6 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
