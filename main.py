@@ -1,8 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import os
+def change_working_directory(path):
+        os.chdir(path)
