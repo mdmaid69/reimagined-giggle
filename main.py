@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
