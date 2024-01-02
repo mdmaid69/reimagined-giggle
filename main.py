@@ -1,5 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+print([x**2 for x in range(10)])
+import sys
+def print_python_version():
+        return sys.version
