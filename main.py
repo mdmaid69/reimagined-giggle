@@ -1,6 +1,7 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
