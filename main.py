@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
