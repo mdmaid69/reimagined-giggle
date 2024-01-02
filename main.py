@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import platform
+def get_os_info():
+        return platform.uname()
