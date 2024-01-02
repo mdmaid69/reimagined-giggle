@@ -1,6 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
