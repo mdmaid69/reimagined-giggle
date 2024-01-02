@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import collections
+def create_stack():
+        return collections.deque()
+import time
+def get_time_since_epoch():
+        return time.time()
