@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+name = "Python"
+print("Hello,", name)
+def calculate_speed(distance, time):
+        return distance / time
