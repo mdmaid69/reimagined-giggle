@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
