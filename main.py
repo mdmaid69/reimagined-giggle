@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
