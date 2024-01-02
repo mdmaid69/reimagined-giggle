@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
