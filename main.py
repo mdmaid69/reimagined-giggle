@@ -1,8 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
