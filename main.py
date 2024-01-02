@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
