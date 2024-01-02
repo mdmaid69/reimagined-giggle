@@ -1,5 +1,7 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_area_rectangle(l, w):
-        return l * w
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
