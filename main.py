@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def calculate_area_rectangle(l, w):
+        return l * w
+i = 0
+while i < 5:
+        print(i)
+        i += 1
