@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
