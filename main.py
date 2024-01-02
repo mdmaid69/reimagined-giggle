@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import array
+def get_array_as_repr(array):
+        return repr(array)
