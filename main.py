@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
