@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def is_odd(n):
+        return n % 2 != 0
