@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  def cube_number(x):
-        return x**3
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
