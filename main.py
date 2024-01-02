@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
