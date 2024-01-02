@@ -1,5 +1,7 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
