@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
