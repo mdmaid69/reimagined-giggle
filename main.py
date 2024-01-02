@@ -1,5 +1,9 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
