@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def get_array_length(array):
-        return len(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  def is_even(n):
+        return n % 2 == 0
