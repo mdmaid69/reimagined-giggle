@@ -1,6 +1,7 @@
-import array
-def get_array_length(array):
-        return len(array)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
