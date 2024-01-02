@@ -1,5 +1,5 @@
+  def count_elements(lst):
+        return len(lst)
 import random
-print(random.randint(0, 100))
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def roll_die():
+        return random.randint(1, 6)
