@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def sort_list(lst):
-        return sorted(lst)
+for i in range(5):
+        print(i)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
