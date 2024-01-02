@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
