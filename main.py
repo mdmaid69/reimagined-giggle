@@ -1,6 +1,7 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
