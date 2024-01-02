@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_work(force, distance):
+        return force * distance
