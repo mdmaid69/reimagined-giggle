@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
