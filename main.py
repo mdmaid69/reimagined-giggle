@@ -1,6 +1,7 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def clear_array(array):
+        array *= 0
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
