@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def find_min(numbers):
+        return min(numbers)
+x = 10
+y = 20
+print("Sum:", x + y)
