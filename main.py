@@ -1,4 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-def convert_to_hex(n):
-        return hex(n)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def sort_list(lst):
+        return sorted(lst)
