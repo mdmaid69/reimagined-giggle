@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-name = "Python"
-print("Hello,", name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
