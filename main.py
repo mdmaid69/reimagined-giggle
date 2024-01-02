@@ -1,6 +1,3 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+print([x**2 for x in range(10)])
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
