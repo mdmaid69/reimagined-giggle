@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def remove_duplicates(lst):
-        return list(set(lst))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
