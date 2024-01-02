@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import random
+def roll_die():
+        return random.randint(1, 6)
