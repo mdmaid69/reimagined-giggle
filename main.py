@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
