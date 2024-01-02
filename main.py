@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import getpass
+def get_username():
+        return getpass.getuser()
