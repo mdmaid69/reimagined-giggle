@@ -1,4 +1,8 @@
   def calculate_area_circle(r):
         return 3.14 * r**2
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
