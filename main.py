@@ -1,5 +1,6 @@
-import time
-print(time.time())
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import sys
+  def get_python_version():
+        return sys.version
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
