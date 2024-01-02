@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
