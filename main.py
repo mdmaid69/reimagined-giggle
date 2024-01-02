@@ -1,5 +1,7 @@
-def square_number(x):
-        return x**2
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
