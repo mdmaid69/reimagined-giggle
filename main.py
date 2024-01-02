@@ -1,7 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
