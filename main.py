@@ -1,7 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def is_even(n):
-        return n % 2 == 0
+def divide_numbers(x, y):
+        return x / y
+import platform
+def get_os_info():
+        return platform.uname()
