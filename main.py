@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import tensorflow as tf
+print(tf.__version__)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
