@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import numpy as np
-print(np.array([1, 2, 3]))
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
