@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
