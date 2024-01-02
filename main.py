@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
