@@ -1,6 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
