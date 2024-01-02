@@ -1,5 +1,8 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
