@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def count_elements(lst):
+        return len(lst)
