@@ -1,6 +1,5 @@
+import datetime
+print(datetime.datetime.now())
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_logarithm(base, x):
+        return math.log(x, base)
