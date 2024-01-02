@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def multiply_numbers(x, y):
+        return x * y
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
