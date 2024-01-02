@@ -1,6 +1,5 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def get_current_directory():
-        return os.getcwd()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
