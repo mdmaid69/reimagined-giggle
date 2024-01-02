@@ -1,6 +1,8 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
