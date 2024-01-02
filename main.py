@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import sys
-print(sys.version)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import collections
+def create_user_dict():
+        return collections.UserDict()
