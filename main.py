@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import sys
+def print_python_version():
+        return sys.version
