@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import collections
+def create_priority_queue():
+        return collections.deque()
