@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_bytearray(array):
+        return bytearray(array)
