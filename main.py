@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
 import math
 def calculate_hyperbolic_tangent(x):
         return math.tanh(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
