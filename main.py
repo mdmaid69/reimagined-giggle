@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def count_words(sentence):
+        return len(sentence.split())
