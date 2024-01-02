@@ -1,6 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
 import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+print(list(itertools.permutations([1, 2, 3])))
+def sort_numbers(numbers):
+        return sorted(numbers)
