@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
