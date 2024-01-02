@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def square_number(x):
+        return x**2
+import collections
+def create_stack():
+        return collections.deque()
