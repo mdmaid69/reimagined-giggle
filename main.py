@@ -1,5 +1,7 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def convert_to_octal(n):
+        return oct(n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
