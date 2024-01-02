@@ -1,8 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_area_circle(r):
+        return 3.14 * r**2
