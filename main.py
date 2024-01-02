@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import os
-print(os.getcwd())
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
