@@ -1,6 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def reverse_string(s):
+        return s[::-1]
+def calculate_acceleration(speed, time):
+        return speed / time
