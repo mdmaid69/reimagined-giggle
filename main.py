@@ -1,7 +1,7 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
