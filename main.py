@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
