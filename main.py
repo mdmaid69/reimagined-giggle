@@ -1,9 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
