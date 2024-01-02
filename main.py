@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def calculate_power(work, time):
-        return work / time
+import logging
+def log_message(message):
+        logging.info(message)
+import getpass
+def get_username():
+        return getpass.getuser()
