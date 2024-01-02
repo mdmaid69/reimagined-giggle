@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import math
+def calculate_sine(x):
+        return math.sin(x)
