@@ -1,9 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
