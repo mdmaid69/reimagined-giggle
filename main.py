@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
 import array
-def get_array_typecode(array):
-        return array.typecode
-def cube_number(x):
-        return x**3
+def get_list_from_array(array):
+        return array.tolist()
