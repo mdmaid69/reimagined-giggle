@@ -1,6 +1,7 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
