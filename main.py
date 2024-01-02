@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
