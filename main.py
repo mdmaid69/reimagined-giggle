@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
