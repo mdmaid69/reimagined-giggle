@@ -1,6 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def cube_number(x):
-        return x**3
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
