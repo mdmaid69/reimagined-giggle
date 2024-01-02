@@ -1,12 +1,5 @@
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
