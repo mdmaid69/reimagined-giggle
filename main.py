@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
