@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
