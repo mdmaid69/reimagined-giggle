@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def square_number(x):
+        return x**2
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
