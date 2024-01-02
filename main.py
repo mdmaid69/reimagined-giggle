@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def convert_to_hex(n):
+        return hex(n)
