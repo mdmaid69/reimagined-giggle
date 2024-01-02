@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
