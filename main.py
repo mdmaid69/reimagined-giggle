@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
