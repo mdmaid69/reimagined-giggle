@@ -1,6 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
