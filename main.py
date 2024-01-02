@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import time
+print(time.time())
