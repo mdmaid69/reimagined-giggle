@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import collections
+def create_user_string():
+        return collections.UserString()
