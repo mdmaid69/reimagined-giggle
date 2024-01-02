@@ -1,7 +1,6 @@
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
