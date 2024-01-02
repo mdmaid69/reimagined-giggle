@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_area_rectangle(l, w):
+        return l * w
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
