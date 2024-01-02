@@ -1,3 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import functools
 def memoize(func):
         cache = {}
@@ -7,6 +9,3 @@ def memoize(func):
                 cache[args] = func(*args)
         return cache[args]
         return wrapper
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
