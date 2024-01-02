@@ -1,8 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def pop_from_array(array, i=-1):
+        return array.pop(i)
