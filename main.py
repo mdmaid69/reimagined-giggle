@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import collections
+def create_user_string():
+        return collections.UserString()
+def divide_numbers(x, y):
+        return x / y
