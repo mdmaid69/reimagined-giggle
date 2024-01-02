@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
