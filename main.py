@@ -1,6 +1,7 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
