@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def multiply_numbers(x, y):
+        return x * y
