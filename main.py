@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
