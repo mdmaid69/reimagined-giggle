@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def multiply_numbers(x, y):
+        return x * y
 import array
-def get_array_item(array, i):
-        return array[i]
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
