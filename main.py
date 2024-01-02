@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
