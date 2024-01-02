@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
