@@ -1,4 +1,9 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def cube_number(x):
-        return x**3
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
