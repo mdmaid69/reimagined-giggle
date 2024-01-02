@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  def is_odd(n):
+        return n % 2 != 0
