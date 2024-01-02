@@ -1,8 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
