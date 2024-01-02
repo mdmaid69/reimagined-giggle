@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import time
+def get_time_since_epoch():
+        return time.time()
