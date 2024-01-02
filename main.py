@@ -1,5 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
