@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import collections
-def create_user_list():
-        return collections.UserList()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import datetime
+def get_current_date():
+        return datetime.date.today()
