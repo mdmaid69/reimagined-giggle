@@ -1,11 +1,10 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
