@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
 import array
-def clear_array(array):
-        array *= 0
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
