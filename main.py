@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_density(mass, volume):
-        return mass / volume
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
