@@ -1,5 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
