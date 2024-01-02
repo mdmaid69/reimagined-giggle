@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def add_numbers(x, y):
+        return x + y
+import platform
+def get_os_info():
+        return platform.uname()
