@@ -1,4 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def multiply_numbers(x, y):
-        return x * y
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
