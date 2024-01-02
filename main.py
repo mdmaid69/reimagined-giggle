@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
