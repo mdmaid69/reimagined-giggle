@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def is_odd(n):
+        return n % 2 != 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
