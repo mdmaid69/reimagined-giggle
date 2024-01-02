@@ -1,5 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  def convert_to_binary(n):
+        return bin(n)
