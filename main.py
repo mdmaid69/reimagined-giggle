@@ -1,6 +1,5 @@
+def subtract_numbers(x, y):
+        return x - y
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def get_array_item_count(array, item):
+        return array.count(item)
