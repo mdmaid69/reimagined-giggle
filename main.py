@@ -1,6 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_tangent(x):
+        return math.tan(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
