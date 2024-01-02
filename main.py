@@ -1,8 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+from collections import Counter
+print(Counter("hello world"))
