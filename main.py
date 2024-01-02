@@ -1,5 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_pressure(force, area):
+        return force / area
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
