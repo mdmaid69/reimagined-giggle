@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def add_numbers(x, y):
+        return x + y
+import time
+def get_time_since_epoch():
+        return time.time()
