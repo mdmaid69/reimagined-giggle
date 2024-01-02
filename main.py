@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_acceleration(speed, time):
+        return speed / time
