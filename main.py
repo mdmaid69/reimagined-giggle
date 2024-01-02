@@ -1,8 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
