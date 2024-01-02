@@ -1,6 +1,12 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
