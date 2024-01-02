@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
