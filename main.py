@@ -1,5 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def reverse_list(lst):
-        return lst[::-1]
+import sys
+def print_python_version():
+        print(sys.version)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
