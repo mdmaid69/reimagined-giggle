@@ -1,5 +1,3 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+for i in range(10): print(i)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
