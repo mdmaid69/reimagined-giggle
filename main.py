@@ -1,5 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_ceiling(x):
+        return math.ceil(x)
