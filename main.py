@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  import sys
+  def get_python_version():
+        return sys.version
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
