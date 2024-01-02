@@ -1,5 +1,8 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def is_even(n):
-        return n % 2 == 0
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
