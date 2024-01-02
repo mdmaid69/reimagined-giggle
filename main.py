@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def subtract_numbers(x, y):
+        return x - y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
