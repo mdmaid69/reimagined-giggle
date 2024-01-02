@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def find_min(numbers):
-        return min(numbers)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
