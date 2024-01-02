@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
