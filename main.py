@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def convert_array_to_string(array):
+        return array.tostring()
