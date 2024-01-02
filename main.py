@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_area(radius):
+        return 3.14 * radius * radius
