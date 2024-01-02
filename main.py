@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def square_number(x):
-        return x**2
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
