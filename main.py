@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import sys
-def print_python_version():
-        return sys.version
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
