@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
