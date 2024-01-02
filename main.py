@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
