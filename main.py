@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
