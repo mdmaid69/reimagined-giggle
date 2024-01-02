@@ -1,4 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+print("Hello, world!")
