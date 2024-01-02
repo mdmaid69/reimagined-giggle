@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def is_odd(n):
+        return n % 2 != 0
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_square_root(x):
+        return math.sqrt(x)
