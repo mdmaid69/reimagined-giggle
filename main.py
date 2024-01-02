@@ -1,7 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
