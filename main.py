@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
