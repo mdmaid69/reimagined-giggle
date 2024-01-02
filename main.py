@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def set_array_item(array, i, item):
+        array[i] = item
+def greet(name):
+        print(f"Hello, {name}!")
