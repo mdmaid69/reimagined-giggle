@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_speed(distance, time):
+        return distance / time
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
