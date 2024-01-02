@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def find_max(numbers):
+        return max(numbers)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
