@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_area_circle(r):
+        return 3.14 * r**2
