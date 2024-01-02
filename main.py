@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
