@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
