@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def sort_list(lst):
+        return sorted(lst)
