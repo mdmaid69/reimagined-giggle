@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def find_min(numbers):
-        return min(numbers)
+import array
+def clear_array(array):
+        array *= 0
+def square_number(x):
+        return x**2
