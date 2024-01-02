@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+x = 10
+y = 20
+print("Sum:", x + y)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
