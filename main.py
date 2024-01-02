@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_error_function(x):
+        return math.erf(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
