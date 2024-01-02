@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def convert_to_hex(n):
+        return hex(n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
