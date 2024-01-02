@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def is_even(n):
-        return n % 2 == 0
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
