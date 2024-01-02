@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
