@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def divide_numbers(x, y):
+        return x / y
