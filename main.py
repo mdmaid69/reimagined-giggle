@@ -1,5 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
