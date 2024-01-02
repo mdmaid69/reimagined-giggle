@@ -1,6 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
