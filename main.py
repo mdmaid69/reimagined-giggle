@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def remove_duplicates(lst):
+        return list(set(lst))
