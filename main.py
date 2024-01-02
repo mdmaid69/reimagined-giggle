@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_speed(distance, time):
-        return distance / time
+import sys
+def print_python_version():
+        return sys.version
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
