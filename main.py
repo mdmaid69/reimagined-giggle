@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
