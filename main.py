@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
