@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
