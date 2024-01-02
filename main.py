@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import collections
+def create_counter():
+        return collections.Counter()
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
