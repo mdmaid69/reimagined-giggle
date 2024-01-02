@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
