@@ -1,6 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
