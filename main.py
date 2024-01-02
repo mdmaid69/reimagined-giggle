@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def count_characters(sentence):
+        return len(sentence)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
