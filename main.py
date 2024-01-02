@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def is_even(n):
-        return n % 2 == 0
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
