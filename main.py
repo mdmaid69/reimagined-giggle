@@ -1,7 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
