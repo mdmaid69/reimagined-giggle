@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def reverse_string(s):
+        return s[::-1]
