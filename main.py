@@ -1,5 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  def is_even(n):
-        return n % 2 == 0
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def convert_to_hex(n):
+        return hex(n)
