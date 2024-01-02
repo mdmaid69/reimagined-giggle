@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def multiply_numbers(x, y):
+        return x * y
+import json
+print(json.dumps({"name": "John", "age": 30}))
