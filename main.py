@@ -1,7 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+print([x**2 for x in range(10)])
