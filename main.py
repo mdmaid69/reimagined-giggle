@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
