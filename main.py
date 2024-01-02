@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def subtract_numbers(x, y):
+        return x - y
