@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_volume(length, width, height):
+        return length * width * height
