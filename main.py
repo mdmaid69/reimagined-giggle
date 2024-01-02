@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def get_array_as_str(array):
+        return str(array)
