@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_acceleration(speed, time):
+        return speed / time
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
