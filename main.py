@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import datetime
-print(datetime.datetime.now())
+def is_palindrome(s):
+        return s == s[::-1]
+import collections
+def create_user_string():
+        return collections.UserString()
