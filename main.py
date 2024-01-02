@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import re
+print(re.match("h.*o", "hello world"))
