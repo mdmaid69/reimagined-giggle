@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def is_even(n):
-        return n % 2 == 0
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def get_array_as_set(array):
+        return set(array)
