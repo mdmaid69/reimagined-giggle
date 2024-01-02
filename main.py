@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
