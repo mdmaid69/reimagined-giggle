@@ -1,5 +1,9 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
