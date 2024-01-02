@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  def square_number(x):
+        return x**2
