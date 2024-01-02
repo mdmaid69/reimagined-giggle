@@ -1,14 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
