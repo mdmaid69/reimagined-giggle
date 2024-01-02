@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
