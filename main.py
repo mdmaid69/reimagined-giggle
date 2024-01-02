@@ -1,7 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
