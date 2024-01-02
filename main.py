@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
