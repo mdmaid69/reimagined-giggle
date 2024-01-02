@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import array
-def get_array_as_str(array):
-        return str(array)
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
