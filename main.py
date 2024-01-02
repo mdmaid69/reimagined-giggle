@@ -1,6 +1,10 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
