@@ -1,5 +1,6 @@
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_density(mass, volume):
-        return mass / volume
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
