@@ -1,6 +1,6 @@
+def find_min(numbers):
+        return min(numbers)
 import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
