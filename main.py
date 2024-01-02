@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_error_function(x):
+        return math.erf(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
