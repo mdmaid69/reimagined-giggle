@@ -1,4 +1,7 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
