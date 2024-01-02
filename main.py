@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
