@@ -1,5 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def is_palindrome(s):
+        return s == s[::-1]
