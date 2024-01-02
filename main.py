@@ -1,4 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-print([x**2 for x in range(10)])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
