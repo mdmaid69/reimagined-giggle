@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
