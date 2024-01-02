@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
