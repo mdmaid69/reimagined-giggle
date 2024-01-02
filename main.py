@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
