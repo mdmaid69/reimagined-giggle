@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
