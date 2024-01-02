@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import random
-print(random.randint(0, 100))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
