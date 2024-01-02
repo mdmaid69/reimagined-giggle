@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
