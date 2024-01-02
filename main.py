@@ -1,9 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
