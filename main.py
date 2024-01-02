@@ -1,7 +1,9 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+i = 0
+while i < 5:
+        print(i)
+        i += 1
