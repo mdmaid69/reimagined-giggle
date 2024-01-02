@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_power(work, time):
+        return work / time
