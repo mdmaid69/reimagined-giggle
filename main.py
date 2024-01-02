@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
