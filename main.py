@@ -1,4 +1,8 @@
-def add_numbers(x, y):
-        return x + y
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
