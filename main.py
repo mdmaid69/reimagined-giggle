@@ -1,4 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-  def convert_to_hex(n):
-        return hex(n)
+import re
+print(re.match("h.*o", "hello world"))
+def count_words(sentence):
+        return len(sentence.split())
