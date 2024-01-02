@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
