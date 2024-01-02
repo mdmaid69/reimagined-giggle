@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
