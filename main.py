@@ -1,5 +1,12 @@
-  def reverse_list(lst):
-        return lst[::-1]
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
