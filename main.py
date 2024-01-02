@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
