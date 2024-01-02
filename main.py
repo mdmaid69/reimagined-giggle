@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
