@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_speed(distance, time):
+        return distance / time
