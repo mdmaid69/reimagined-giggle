@@ -1,5 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import random
-print(random.randint(0, 100))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
