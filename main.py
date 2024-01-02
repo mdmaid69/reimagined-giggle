@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+from collections import Counter
+print(Counter("hello world"))
