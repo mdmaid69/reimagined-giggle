@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_area_rectangle(l, w):
+        return l * w
