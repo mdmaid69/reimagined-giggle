@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
