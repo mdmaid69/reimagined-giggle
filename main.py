@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
