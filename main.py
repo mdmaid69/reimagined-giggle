@@ -1,6 +1,4 @@
+print([x**2 for x in range(10)])
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
