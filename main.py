@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import sys
+def exit_program():
+        sys.exit()
