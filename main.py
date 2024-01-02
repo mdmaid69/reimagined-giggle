@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+i = 0
+while i < 5:
+        print(i)
+        i += 1
