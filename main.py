@@ -1,5 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import platform
+def get_python_version():
+        return platform.python_version()
