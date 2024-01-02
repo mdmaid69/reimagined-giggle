@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_item(array, i):
+        return array[i]
