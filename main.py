@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import getpass
+def get_username():
+        return getpass.getuser()
