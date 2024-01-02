@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def reverse_array(array):
+        array.reverse()
