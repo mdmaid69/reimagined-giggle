@@ -1,5 +1,7 @@
-  def cube_number(x):
-        return x**3
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
