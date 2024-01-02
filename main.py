@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
