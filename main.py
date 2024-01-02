@@ -1,10 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
