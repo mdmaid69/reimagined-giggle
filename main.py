@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import getpass
+def get_username():
+        return getpass.getuser()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
