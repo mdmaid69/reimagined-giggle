@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
