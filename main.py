@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  def square_number(x):
-        return x**2
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import time
+def get_current_time():
+        return time.time()
