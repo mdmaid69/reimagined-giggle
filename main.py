@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
