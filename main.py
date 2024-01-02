@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
