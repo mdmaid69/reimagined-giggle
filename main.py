@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
