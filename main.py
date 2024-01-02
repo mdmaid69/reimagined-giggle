@@ -1,6 +1,7 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def greet(name):
+        print(f"Hello, {name}!")
