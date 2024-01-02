@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
