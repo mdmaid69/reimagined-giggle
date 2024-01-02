@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
