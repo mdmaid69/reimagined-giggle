@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
 import array
-def clear_array(array):
-        array *= 0
+def remove_from_array(array, item):
+        array.remove(item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
