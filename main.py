@@ -1,6 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
