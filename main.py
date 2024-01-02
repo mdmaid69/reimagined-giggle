@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
 import platform
-def get_python_version():
-        return platform.python_version()
+def get_os_info():
+        return platform.uname()
