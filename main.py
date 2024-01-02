@@ -1,6 +1,12 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import sys
-  def get_python_version():
-        return sys.version
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
