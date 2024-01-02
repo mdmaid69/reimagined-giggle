@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
