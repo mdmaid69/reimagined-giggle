@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+for i in range(10): print(i)
