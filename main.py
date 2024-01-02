@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import collections
-def create_priority_queue():
-        return collections.deque()
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
