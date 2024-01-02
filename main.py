@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
 import array
-def get_array_item(array, i):
-        return array[i]
+def remove_from_array(array, item):
+        array.remove(item)
