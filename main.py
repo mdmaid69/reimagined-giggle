@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_array_length(array):
-        return len(array)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
