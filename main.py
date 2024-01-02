@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
