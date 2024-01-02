@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
