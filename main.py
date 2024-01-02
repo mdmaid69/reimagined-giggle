@@ -1,4 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
+def greet(name):
+        print(f"Hello, {name}!")
 text = "Hello, world!"
-print("Reversed:", text[::-1])
+print("Words:", len(text.split()))
