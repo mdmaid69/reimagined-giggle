@@ -1,4 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-for i in range(10): print(i)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_error_function(x):
+        return math.erf(x)
