@@ -1,5 +1,10 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
