@@ -1,6 +1,6 @@
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
