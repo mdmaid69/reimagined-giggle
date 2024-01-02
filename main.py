@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def square_number(x):
+        return x**2
+import tensorflow as tf
+print(tf.__version__)
