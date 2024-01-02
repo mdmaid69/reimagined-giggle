@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_as_set(array):
-        return set(array)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_area(radius):
+        return 3.14 * radius * radius
