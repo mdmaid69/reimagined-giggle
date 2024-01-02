@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_stack():
+        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
