@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def convert_to_octal(n):
+        return oct(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
