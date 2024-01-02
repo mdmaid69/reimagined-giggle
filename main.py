@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def get_array_as_set(array):
-        return set(array)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
