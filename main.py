@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import collections
+def create_user_string():
+        return collections.UserString()
+import collections
+def create_stack():
+        return collections.deque()
