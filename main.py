@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
