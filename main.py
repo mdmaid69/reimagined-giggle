@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
