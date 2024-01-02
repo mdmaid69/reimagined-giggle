@@ -1,5 +1,11 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
