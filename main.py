@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def multiply_numbers(x, y):
-        return x * y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
