@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
