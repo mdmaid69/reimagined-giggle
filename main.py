@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
