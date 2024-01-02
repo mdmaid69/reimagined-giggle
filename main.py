@@ -1,8 +1,6 @@
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
