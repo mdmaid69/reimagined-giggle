@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def divide_numbers(x, y):
+        return x / y
