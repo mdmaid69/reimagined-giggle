@@ -1,6 +1,6 @@
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import logging
-def log_message(message):
-        logging.info(message)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
