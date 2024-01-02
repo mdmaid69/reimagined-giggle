@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_pressure(force, area):
+        return force / area
