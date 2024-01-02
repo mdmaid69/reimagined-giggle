@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import sys
+print(sys.version)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
