@@ -1,9 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
