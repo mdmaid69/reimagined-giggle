@@ -1,5 +1,7 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
