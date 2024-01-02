@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
