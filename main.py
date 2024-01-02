@@ -1,9 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
