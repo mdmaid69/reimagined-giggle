@@ -1,6 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
