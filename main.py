@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
