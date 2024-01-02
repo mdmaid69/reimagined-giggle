@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  def convert_to_octal(n):
+        return oct(n)
