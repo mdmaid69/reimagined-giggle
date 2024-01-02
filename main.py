@@ -1,8 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
