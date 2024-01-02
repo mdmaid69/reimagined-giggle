@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
