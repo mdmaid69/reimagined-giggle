@@ -1,8 +1,5 @@
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def reverse_array(array):
+        array.reverse()
+def calculate_density(mass, volume):
+        return mass / volume
