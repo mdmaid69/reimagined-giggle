@@ -1,5 +1,4 @@
-import os
-print(os.getcwd())
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_power(work, time):
+        return work / time
+def remove_duplicates(lst):
+        return list(set(lst))
