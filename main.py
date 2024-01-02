@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def find_min(numbers):
-        return min(numbers)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def is_palindrome(s):
+        return s == s[::-1]
