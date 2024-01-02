@@ -1,5 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+x = 10
+y = 20
+print("Sum:", x + y)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
