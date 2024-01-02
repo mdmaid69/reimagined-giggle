@@ -1,5 +1,3 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+for i in range(10): print(i)
