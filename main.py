@@ -1,5 +1,6 @@
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_arc_sine(x):
+        return math.asin(x)
