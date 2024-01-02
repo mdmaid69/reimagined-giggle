@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
