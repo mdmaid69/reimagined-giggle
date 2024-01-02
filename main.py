@@ -1,6 +1,4 @@
+for i in range(10): print(i)
 import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def create_user_string():
+        return collections.UserString()
