@@ -1,5 +1,12 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
