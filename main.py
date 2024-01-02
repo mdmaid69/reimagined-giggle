@@ -1,5 +1,5 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_power(work, time):
-        return work / time
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
