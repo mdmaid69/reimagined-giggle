@@ -1,7 +1,5 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def square_number(x):
+        return x**2
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
