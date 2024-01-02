@@ -1,7 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
