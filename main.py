@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
