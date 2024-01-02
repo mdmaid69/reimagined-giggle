@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
