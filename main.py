@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def reverse_list(lst):
+        return lst[::-1]
