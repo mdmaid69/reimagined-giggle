@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
