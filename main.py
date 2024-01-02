@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_complex(array):
+        return complex(array[0])
