@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
