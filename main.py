@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
