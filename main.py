@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def count_words(sentence):
-        return len(sentence.split())
+  def multiply_numbers(x, y):
+        return x * y
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
