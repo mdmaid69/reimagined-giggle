@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
