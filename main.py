@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def find_min(lst):
+        return min(lst)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
