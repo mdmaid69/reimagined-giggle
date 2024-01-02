@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def is_even(n):
+        return n % 2 == 0
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
