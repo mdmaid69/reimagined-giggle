@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
