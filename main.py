@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def add_numbers(a, b):
-        return a + b
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_area_rectangle(l, w):
+        return l * w
