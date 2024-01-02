@@ -1,5 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def add_numbers(x, y):
-        return x + y
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
