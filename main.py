@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def convert_array_to_string(array):
+        return array.tostring()
