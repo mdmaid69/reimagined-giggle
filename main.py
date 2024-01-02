@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
