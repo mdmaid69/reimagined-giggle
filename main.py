@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_as_set(array):
-        return set(array)
+def square_number(x):
+        return x**2
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
