@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
