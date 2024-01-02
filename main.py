@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import platform
+def get_os_info():
+        return platform.uname()
