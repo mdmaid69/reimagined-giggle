@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_float(array):
+        return float(array[0])
+from collections import Counter
+print(Counter("hello world"))
