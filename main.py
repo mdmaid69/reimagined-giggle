@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_power(work, time):
+        return work / time
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
