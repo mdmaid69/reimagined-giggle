@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def clear_array(array):
+        array *= 0
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
