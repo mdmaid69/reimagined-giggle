@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
+def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
