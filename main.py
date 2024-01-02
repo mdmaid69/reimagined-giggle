@@ -1,4 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
