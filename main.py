@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import collections
+def create_priority_queue():
+        return collections.deque()
