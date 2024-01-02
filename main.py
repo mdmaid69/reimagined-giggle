@@ -1,6 +1,7 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
