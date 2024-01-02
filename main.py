@@ -1,7 +1,7 @@
-import json
-def load_json(filename):
+def find_min(lst):
+        return min(lst)
+import csv
+def read_csv_file(filename):
         with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+        reader = csv.reader(f)
+        return list(reader)
