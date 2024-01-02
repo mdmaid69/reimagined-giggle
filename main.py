@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
