@@ -1,6 +1,8 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
