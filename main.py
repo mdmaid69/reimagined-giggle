@@ -1,5 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
