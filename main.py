@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
