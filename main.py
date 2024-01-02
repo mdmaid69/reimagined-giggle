@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import time
+def get_current_time():
+        return time.time()
