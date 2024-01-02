@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def convert_to_octal(n):
+        return oct(n)
