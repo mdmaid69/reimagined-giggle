@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
