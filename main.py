@@ -1,6 +1,8 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-x = 10
-y = 20
-print("Sum:", x + y)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
