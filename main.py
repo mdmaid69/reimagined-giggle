@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
