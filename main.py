@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
