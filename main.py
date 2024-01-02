@@ -1,7 +1,8 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import numpy as np
-print(np.array([1, 2, 3]))
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
