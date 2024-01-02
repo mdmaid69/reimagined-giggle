@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
