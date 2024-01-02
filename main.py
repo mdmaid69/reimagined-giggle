@@ -1,5 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
