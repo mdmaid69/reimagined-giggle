@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
