@@ -1,7 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
