@@ -1,4 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
