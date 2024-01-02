@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import re
+print(re.match("h.*o", "hello world"))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
