@@ -1,5 +1,6 @@
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_sine(x):
+        return math.sin(x)
