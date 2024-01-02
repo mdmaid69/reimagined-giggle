@@ -1,4 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-for i in range(10): print(i)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
