@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_density(mass, volume):
+        return mass / volume
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
