@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
