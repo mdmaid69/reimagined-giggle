@@ -1,4 +1,8 @@
-for i in range(10): print(i)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
