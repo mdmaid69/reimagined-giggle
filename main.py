@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import time
-print(time.time())
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
