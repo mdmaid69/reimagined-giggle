@@ -1,4 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
