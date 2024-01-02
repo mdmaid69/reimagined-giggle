@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def reverse_list(lst):
-        return lst[::-1]
+  def square_number(x):
+        return x**2
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
