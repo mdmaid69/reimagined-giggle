@@ -1,6 +1,8 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
