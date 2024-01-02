@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import sys
+print(sys.version)
