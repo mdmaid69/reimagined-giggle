@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
