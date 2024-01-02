@@ -1,6 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def convert_array_to_list(array):
+        return array.tolist()
