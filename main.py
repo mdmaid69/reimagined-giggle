@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import getpass
+def get_username():
+        return getpass.getuser()
+import os
+def change_working_directory(path):
+        os.chdir(path)
