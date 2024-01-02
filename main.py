@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
