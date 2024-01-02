@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
