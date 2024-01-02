@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
