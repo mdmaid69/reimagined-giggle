@@ -1,7 +1,5 @@
-  def square_number(x):
-        return x**2
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
