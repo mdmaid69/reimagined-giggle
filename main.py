@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
