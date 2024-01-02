@@ -1,6 +1,4 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def count_elements(lst):
+        return len(lst)
