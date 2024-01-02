@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import numpy as np
+print(np.array([1, 2, 3]))
