@@ -1,6 +1,6 @@
+import array
+def reverse_array(array):
+        array.reverse()
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
