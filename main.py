@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def count_elements(lst):
+        return len(lst)
+def is_even(n):
+        return n % 2 == 0
