@@ -1,6 +1,6 @@
+import array
+def get_array_index(array, item):
+        return array.index(item)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
