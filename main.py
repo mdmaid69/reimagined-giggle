@@ -1,5 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def calculate_speed(distance, time):
-        return distance / time
+def multiply_numbers(x, y):
+        return x * y
+def divide_numbers(x, y):
+        return x / y
