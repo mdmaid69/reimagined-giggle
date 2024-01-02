@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
