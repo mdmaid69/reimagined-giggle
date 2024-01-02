@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def count_words(sentence):
+        return len(sentence.split())
