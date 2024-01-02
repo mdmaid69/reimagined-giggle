@@ -1,5 +1,8 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import collections
+def create_priority_queue():
+        return collections.deque()
