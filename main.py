@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
