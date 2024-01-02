@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def get_current_working_directory():
+        return os.getcwd()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
