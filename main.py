@@ -1,6 +1,7 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
