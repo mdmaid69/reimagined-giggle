@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
