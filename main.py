@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
