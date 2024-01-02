@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
