@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_length(array):
+        return len(array)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
