@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import time
+print(time.time())
