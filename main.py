@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
