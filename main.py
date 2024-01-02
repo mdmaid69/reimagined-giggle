@@ -1,6 +1,9 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  def remove_duplicates(lst):
+        return list(set(lst))
