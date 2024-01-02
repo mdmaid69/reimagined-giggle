@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
