@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
