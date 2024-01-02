@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def count_elements(lst):
+        return len(lst)
