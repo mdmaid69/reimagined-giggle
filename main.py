@@ -1,5 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  def convert_to_octal(n):
-        return oct(n)
+def add_numbers(a, b):
+        return a + b
+import datetime
+print(datetime.datetime.now())
