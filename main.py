@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def find_max(numbers):
+        return max(numbers)
