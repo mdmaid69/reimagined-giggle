@@ -1,3 +1,6 @@
-print(sum(range(10)))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
