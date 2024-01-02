@@ -1,4 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-print([x**2 for x in range(10)])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
