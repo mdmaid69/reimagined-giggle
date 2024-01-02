@@ -1,5 +1,8 @@
-  def subtract_numbers(x, y):
-        return x - y
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
