@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
