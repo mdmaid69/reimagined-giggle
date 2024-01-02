@@ -1,11 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
