@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_density(mass, volume):
+        return mass / volume
