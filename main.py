@@ -1,5 +1,6 @@
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
