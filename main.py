@@ -1,5 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def convert_to_octal(n):
+        return oct(n)
