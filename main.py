@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def cube_number(x):
-        return x**3
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def calculate_power(work, time):
+        return work / time
