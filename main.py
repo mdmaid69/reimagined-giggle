@@ -1,11 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def find_max(lst):
-        return max(lst)
+def cube_number(x):
+        return x**3
+def subtract_numbers(x, y):
+        return x - y
