@@ -1,5 +1,5 @@
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
 text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+print("Words:", len(text.split()))
