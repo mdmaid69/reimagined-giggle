@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
