@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import sys
-def print_python_version():
-        print(sys.version)
+def is_even(n):
+        return n % 2 == 0
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
