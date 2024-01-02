@@ -1,6 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def square_number(x):
+        return x**2
