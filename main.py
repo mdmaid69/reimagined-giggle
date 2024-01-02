@@ -1,4 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-print(sum(range(10)))
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def remove_duplicates(lst):
+        return list(set(lst))
