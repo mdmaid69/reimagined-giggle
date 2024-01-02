@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_volume(length, width, height):
+        return length * width * height
