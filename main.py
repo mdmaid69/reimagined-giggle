@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
