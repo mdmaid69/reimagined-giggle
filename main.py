@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def find_min(numbers):
-        return min(numbers)
+def calculate_area_rectangle(l, w):
+        return l * w
+def divide_numbers(x, y):
+        return x / y
