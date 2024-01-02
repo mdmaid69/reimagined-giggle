@@ -1,4 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_length(array):
+        return len(array)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
