@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def is_even(n):
+        return n % 2 == 0
+def is_odd(n):
+        return n % 2 != 0
