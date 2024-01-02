@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
