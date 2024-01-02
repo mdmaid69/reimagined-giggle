@@ -1,5 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
