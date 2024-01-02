@@ -1,5 +1,3 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  def square_number(x):
-        return x**2
+print(sum(range(10)))
+def convert_to_hex(n):
+        return hex(n)
