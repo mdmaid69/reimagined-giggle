@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
