@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import collections
+def create_stack():
+        return collections.deque()
