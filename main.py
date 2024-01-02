@@ -1,7 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def create_user_list():
+        return collections.UserList()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
