@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
