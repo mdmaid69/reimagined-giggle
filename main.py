@@ -1,5 +1,8 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def get_list_from_array(array):
+        return array.tolist()
