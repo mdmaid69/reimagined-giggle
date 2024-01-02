@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def reverse_array(array):
+        array.reverse()
