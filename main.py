@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
