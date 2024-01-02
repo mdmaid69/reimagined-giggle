@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
