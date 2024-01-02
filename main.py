@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
