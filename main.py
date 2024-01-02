@@ -1,3 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-print([x**2 for x in range(10)])
+for i in range(10): print(i)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
