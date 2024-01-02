@@ -1,5 +1,7 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
