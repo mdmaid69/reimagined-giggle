@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def remove_duplicates(lst):
-        return list(set(lst))
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
