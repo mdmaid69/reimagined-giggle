@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import platform
+def get_python_version():
+        return platform.python_version()
