@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
