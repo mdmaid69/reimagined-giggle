@@ -1,4 +1,8 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_volume(length, width, height):
-        return length * width * height
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
