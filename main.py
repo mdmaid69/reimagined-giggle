@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_area_rectangle(l, w):
+        return l * w
