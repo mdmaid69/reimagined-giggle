@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
