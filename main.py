@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
