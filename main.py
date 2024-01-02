@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def multiply_numbers(x, y):
+        return x * y
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
