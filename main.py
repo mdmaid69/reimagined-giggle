@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
