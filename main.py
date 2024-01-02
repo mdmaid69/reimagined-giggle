@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def get_array_as_repr(array):
+        return repr(array)
