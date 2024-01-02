@@ -1,5 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
