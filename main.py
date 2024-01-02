@@ -1,5 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import datetime
-print(datetime.datetime.now())
+def cube_number(x):
+        return x**3
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
