@@ -1,5 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
