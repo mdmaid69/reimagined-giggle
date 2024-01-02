@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
