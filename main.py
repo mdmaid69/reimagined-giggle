@@ -1,5 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def subtract_numbers(x, y):
+def remove_duplicates(lst):
+        return list(set(lst))
+def subtract_numbers(x, y):
         return x - y
