@@ -1,5 +1,6 @@
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  def multiply_numbers(x, y):
-        return x * y
+def extend_array(array, iterable):
+        array.extend(iterable)
