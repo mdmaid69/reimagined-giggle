@@ -1,7 +1,12 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
