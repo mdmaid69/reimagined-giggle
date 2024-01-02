@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  def square_number(x):
+        return x**2
