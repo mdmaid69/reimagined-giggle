@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
