@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def reverse_string(s):
+        return s[::-1]
+import sys
+print(sys.version)
