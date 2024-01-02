@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import datetime
+print(datetime.datetime.now())
+import array
+def append_to_array(array, item):
+        array.append(item)
