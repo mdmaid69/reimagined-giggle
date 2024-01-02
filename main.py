@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import sys
+def print_python_version():
+        print(sys.version)
