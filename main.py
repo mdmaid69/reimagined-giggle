@@ -1,4 +1,8 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
