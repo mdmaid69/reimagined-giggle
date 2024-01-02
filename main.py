@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
