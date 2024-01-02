@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def subtract_numbers(x, y):
+        return x - y
