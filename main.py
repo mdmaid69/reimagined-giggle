@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
