@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
