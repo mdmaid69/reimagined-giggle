@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import array
+def get_array_length(array):
+        return len(array)
