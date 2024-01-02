@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
