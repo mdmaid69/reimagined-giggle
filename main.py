@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import time
+def get_time_since_epoch():
+        return time.time()
