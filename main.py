@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
