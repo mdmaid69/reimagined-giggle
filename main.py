@@ -1,5 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def subtract_numbers(x, y):
+        return x - y
