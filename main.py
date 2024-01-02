@@ -1,5 +1,7 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
