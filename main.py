@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import datetime
+print(datetime.datetime.now())
