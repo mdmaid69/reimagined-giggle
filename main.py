@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
 import array
-def get_array_as_set(array):
-        return set(array)
+def get_array_length(array):
+        return len(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
