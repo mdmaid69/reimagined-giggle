@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def count_elements(lst):
-        return len(lst)
+import os
+print(os.getcwd())
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
