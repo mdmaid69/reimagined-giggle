@@ -1,6 +1,4 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
