@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def add_numbers(a, b):
+        return a + b
+import os
+def get_current_working_directory():
+        return os.getcwd()
