@@ -1,7 +1,12 @@
 import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
