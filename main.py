@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def count_words(sentence):
+        return len(sentence.split())
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
