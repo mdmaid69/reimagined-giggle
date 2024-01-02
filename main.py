@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import getpass
+def get_username():
+        return getpass.getuser()
