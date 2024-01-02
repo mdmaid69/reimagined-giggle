@@ -1,6 +1,10 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
