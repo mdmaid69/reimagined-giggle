@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
