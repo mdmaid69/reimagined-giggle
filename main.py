@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+text = "Hello, world!"
+print("Characters:", len(text))
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
