@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
