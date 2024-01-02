@@ -1,5 +1,12 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
