@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_power(work, time):
-        return work / time
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
