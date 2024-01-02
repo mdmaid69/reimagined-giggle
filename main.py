@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def find_union(list1, list2):
+        return set(list1) | set(list2)
