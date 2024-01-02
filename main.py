@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
