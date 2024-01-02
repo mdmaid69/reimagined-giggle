@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-def square_number(x):
-        return x**2
+def find_max(numbers):
+        return max(numbers)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
