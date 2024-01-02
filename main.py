@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
