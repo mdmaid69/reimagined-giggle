@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def cube_number(x):
-        return x**3
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
