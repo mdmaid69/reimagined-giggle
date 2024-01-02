@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
