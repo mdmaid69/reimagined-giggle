@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
