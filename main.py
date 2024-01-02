@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
