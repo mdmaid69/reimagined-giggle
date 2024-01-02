@@ -1,7 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
