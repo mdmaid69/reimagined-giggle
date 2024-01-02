@@ -1,5 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+for i in range(5):
+        print(i)
