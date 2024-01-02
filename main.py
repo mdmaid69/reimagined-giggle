@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def find_min(lst):
+        return min(lst)
