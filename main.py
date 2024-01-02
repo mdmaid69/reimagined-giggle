@@ -1,4 +1,8 @@
-print([x**2 for x in range(10)])
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
