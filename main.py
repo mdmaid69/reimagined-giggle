@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
