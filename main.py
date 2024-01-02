@@ -1,6 +1,8 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
