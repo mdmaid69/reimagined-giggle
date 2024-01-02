@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
