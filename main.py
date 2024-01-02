@@ -1,5 +1,6 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
