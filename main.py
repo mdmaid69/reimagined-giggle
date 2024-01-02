@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_item(array, i):
+        return array[i]
