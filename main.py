@@ -1,6 +1,8 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
