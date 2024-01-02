@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
