@@ -1,4 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import datetime
-print(datetime.datetime.now())
+  def is_even(n):
+        return n % 2 == 0
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
