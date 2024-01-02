@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import datetime
+def get_today_date():
+        return datetime.date.today()
