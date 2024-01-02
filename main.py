@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def is_odd(n):
-        return n % 2 != 0
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
