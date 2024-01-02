@@ -1,6 +1,6 @@
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
