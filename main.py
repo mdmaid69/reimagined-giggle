@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_circle_area(radius):
+        return math.pi * radius**2
