@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import numpy as np
+print(np.array([1, 2, 3]))
+import sys
+def print_python_version():
+        return sys.version
