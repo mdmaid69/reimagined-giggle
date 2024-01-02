@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
