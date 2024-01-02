@@ -1,6 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_volume(length, width, height):
+        return length * width * height
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
