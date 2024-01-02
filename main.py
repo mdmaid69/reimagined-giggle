@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
