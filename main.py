@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
