@@ -1,9 +1,8 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
