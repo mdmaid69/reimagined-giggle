@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
