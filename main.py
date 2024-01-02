@@ -1,5 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
