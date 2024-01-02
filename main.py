@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def multiply_numbers(x, y):
+        return x * y
