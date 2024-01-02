@@ -1,8 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
