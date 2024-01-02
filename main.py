@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
