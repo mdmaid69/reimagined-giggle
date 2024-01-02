@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
