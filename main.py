@@ -1,5 +1,7 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def calculate_area(radius):
+        return 3.14 * radius * radius
