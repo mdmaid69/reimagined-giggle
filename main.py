@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def add_numbers(a, b):
-        return a + b
+import array
+def append_to_array(array, item):
+        array.append(item)
+import json
+print(json.dumps({"name": "John", "age": 30}))
