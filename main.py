@@ -1,7 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import time
+def get_current_time():
+        return time.time()
