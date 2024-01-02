@@ -1,6 +1,4 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
