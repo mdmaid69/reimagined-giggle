@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
