@@ -1,4 +1,8 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
