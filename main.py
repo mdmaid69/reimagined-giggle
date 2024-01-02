@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
