@@ -1,5 +1,8 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+x = 10
+y = 20
+print("Sum:", x + y)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
