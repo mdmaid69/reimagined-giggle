@@ -1,5 +1,6 @@
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
