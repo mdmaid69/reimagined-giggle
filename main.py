@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def is_even(n):
+        return n % 2 == 0
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
