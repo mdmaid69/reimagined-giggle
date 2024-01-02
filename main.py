@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
