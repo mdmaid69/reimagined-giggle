@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+  def subtract_numbers(x, y):
+        return x - y
