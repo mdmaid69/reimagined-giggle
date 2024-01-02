@@ -1,7 +1,5 @@
-import os
-print(os.getcwd())
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
