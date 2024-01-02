@@ -1,5 +1,6 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def divide_numbers(x, y):
-        return x / y
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_exponential(x):
+        return math.exp(x)
