@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def multiply_numbers(x, y):
+        return x * y
