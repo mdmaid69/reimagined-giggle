@@ -1,5 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_counter():
-        return collections.Counter()
+  def convert_to_hex(n):
+        return hex(n)
+  def count_elements(lst):
+        return len(lst)
