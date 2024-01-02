@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
