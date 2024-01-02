@@ -1,6 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_sign(x):
+        return math.copysign(1, x)
