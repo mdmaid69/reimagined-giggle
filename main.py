@@ -1,6 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_volume(length, width, height):
+        return length * width * height
