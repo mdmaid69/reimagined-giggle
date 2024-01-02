@@ -1,4 +1,9 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-def sort_list(lst):
-        return sorted(lst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
