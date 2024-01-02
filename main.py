@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
