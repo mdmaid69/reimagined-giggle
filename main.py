@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
