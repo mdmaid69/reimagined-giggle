@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
