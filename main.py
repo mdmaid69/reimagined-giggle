@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
