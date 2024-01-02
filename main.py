@@ -1,4 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import os
+print(os.getcwd())
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
