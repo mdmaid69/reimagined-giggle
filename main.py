@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def reverse_string(s):
+        return s[::-1]
