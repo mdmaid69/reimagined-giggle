@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
