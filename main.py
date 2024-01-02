@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  def reverse_list(lst):
+        return lst[::-1]
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
