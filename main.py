@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import sys
+print(sys.version)
