@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
