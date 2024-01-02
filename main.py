@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def convert_array_to_string(array):
+        return array.tostring()
