@@ -1,6 +1,6 @@
+import collections
+def create_user_string():
+        return collections.UserString()
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_square_root(x):
+        return math.sqrt(x)
