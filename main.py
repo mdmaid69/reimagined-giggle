@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
