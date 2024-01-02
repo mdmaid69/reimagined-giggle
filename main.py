@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
