@@ -1,9 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
