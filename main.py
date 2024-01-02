@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
 import json
-print(json.dumps({"name": "John", "age": 30}))
+def convert_to_json(data):
+        return json.dumps(data)
+def reverse_string(s):
+        return s[::-1]
