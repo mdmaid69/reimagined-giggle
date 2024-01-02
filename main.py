@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def multiply_numbers(x, y):
+        return x * y
