@@ -1,6 +1,5 @@
+  def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
