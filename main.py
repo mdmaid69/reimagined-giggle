@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_pressure(force, area):
-        return force / area
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def add_numbers(x, y):
+        return x + y
