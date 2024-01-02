@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
