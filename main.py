@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
