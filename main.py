@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import sys
-  def get_python_version():
-        return sys.version
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
