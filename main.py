@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_floor(x):
+        return math.floor(x)
