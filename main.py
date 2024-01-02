@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
