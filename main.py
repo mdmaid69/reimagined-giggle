@@ -1,5 +1,8 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
