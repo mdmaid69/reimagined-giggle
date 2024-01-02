@@ -1,6 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
