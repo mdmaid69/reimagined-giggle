@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def square_number(x):
-        return x**2
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def reverse_array(array):
+        array.reverse()
