@@ -1,7 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def count_words(sentence):
+        return len(sentence.split())
