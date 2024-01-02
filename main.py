@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
