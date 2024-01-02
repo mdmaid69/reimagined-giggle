@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
