@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import os
-def remove_directory(path):
-        os.rmdir(path)
+text = "Hello, world!"
+print("Characters:", len(text))
+  def convert_to_hex(n):
+        return hex(n)
