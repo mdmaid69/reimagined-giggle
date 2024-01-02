@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def extend_array(array, iterable):
+        array.extend(iterable)
