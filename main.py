@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def convert_to_binary(n):
+        return bin(n)
