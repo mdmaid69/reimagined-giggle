@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
