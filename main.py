@@ -1,5 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
