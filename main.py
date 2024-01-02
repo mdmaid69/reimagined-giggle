@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def convert_to_hex(n):
+        return hex(n)
