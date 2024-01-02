@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import sys
-print(sys.version)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def remove_duplicates(lst):
+        return list(set(lst))
