@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-for i in range(5):
-        print(i)
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
