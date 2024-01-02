@@ -1,5 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
