@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
