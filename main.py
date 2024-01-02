@@ -1,6 +1,6 @@
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
