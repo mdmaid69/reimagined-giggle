@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  def multiply_numbers(x, y):
-        return x * y
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
