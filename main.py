@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
