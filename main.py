@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+x = 10
+y = 20
+print("Sum:", x + y)
