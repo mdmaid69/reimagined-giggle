@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
