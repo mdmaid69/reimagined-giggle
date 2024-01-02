@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
