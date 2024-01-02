@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def find_min(lst):
+        return min(lst)
