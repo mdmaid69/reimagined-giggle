@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_cosine(x):
+        return math.cos(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
