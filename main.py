@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import collections
-def create_counter():
-        return collections.Counter()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
