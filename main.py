@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
