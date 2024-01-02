@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def find_unique_words(sentence):
+        return set(sentence.split())
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
