@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import sys
+def print_python_version():
+        return sys.version
