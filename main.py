@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def get_array_as_int(array):
+        return int(array[0])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
