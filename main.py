@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def count_words(sentence):
+        return len(sentence.split())
