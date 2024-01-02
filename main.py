@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def is_even(n):
+        return n % 2 == 0
+def calculate_area(radius):
+        return 3.14 * radius * radius
