@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
