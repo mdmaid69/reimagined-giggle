@@ -1,8 +1,8 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
