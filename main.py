@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import numpy as np
+print(np.array([1, 2, 3]))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
