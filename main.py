@@ -1,4 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def find_max(numbers):
-        return max(numbers)
+for i in range(10): print(i)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
