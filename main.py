@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
 import re
-print(re.match("h.*o", "hello world"))
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
