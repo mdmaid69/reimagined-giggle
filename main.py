@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
