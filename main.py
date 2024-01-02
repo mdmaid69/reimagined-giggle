@@ -1,5 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  def count_elements(lst):
+        return len(lst)
