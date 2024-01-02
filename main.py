@@ -1,6 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
