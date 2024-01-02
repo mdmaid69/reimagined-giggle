@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
