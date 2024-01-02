@@ -1,6 +1,9 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import collections
-def create_stack():
-        return collections.deque()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
