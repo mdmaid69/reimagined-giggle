@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
