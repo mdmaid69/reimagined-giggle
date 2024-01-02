@@ -1,5 +1,8 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
