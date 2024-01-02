@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-print(math.pi)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
