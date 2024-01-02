@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
