@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import sys
+def exit_program():
+        sys.exit()
+def reverse_list(lst):
+        return lst[::-1]
