@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
