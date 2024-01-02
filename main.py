@@ -1,6 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def is_even(n):
+        return n % 2 == 0
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
