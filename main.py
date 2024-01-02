@@ -1,7 +1,4 @@
-def cube_number(x):
-        return x**3
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
