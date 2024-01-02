@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def count_characters(sentence):
-        return len(sentence)
+  def convert_to_binary(n):
+        return bin(n)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
