@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
