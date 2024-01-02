@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
