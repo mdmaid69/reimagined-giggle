@@ -1,6 +1,8 @@
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
