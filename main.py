@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import collections
+def create_user_list():
+        return collections.UserList()
