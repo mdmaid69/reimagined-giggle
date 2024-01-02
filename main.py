@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def convert_to_octal(n):
+        return oct(n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
