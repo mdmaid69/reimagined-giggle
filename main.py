@@ -1,6 +1,8 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import time
-def get_current_time():
-        return time.ctime()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
