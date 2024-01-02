@@ -1,5 +1,11 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
