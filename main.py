@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+x = 10
+y = 20
+print("Sum:", x + y)
+def reverse_string(s):
+        return s[::-1]
