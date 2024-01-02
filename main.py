@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def cube_number(x):
-        return x**3
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
