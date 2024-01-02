@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def get_list_from_array(array):
+        return array.tolist()
