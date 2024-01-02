@@ -1,9 +1,9 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
