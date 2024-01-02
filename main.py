@@ -1,6 +1,4 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def is_palindrome(s):
+        return s == s[::-1]
