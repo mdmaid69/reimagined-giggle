@@ -1,5 +1,5 @@
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
