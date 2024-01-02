@@ -1,7 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
