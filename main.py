@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
