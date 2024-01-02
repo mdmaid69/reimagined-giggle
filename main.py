@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import getpass
-def get_username():
-        return getpass.getuser()
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
