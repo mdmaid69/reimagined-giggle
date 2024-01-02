@@ -1,6 +1,8 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
