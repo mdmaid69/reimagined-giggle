@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
