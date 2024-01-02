@@ -1,8 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
