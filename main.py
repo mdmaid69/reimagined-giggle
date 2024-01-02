@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def is_palindrome(s):
+        return s == s[::-1]
+import getpass
+def get_username():
+        return getpass.getuser()
