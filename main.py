@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
