@@ -1,6 +1,6 @@
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
