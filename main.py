@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import sys
+print(sys.version)
