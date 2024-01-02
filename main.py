@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
