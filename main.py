@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
