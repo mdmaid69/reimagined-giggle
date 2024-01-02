@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def convert_to_binary(n):
+        return bin(n)
