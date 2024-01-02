@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def reverse_list(lst):
+        return lst[::-1]
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
