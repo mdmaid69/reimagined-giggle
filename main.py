@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def square_number(x):
+        return x**2
