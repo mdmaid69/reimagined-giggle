@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  def cube_number(x):
+        return x**3
