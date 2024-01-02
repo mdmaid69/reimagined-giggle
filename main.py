@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
