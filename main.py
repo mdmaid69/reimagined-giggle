@@ -1,5 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
