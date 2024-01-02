@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
