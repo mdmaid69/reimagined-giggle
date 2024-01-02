@@ -1,5 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  def convert_to_binary(n):
-        return bin(n)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import datetime
+def get_today_date():
+        return datetime.date.today()
