@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
