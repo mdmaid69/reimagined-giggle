@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import sys
+def exit_program():
+        sys.exit()
