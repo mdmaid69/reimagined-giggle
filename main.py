@@ -1,6 +1,7 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
