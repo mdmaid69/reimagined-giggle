@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_force(mass, acceleration):
+        return mass * acceleration
