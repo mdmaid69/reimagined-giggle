@@ -1,5 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  def convert_to_binary(n):
-        return bin(n)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_work(force, distance):
+        return force * distance
