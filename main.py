@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
