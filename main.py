@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
