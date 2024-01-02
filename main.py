@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+x = 10
+y = 20
+print("Sum:", x + y)
