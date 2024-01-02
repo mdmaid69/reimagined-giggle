@@ -1,7 +1,6 @@
-import random
-print(random.randint(0, 100))
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import sys
+def print_python_version():
+        print(sys.version)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
