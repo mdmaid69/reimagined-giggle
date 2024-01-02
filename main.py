@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
