@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
