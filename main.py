@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
