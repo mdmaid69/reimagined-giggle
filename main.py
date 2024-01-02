@@ -1,7 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
