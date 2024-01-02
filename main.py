@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
