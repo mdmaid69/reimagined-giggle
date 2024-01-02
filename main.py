@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_volume(length, width, height):
+        return length * width * height
+import sys
+def print_python_version():
+        print(sys.version)
