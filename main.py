@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
