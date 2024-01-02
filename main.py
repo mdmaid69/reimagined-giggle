@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import numpy as np
+print(np.array([1, 2, 3]))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
