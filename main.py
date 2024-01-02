@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
