@@ -1,5 +1,7 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
