@@ -1,7 +1,3 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def sort_numbers(numbers):
-        return sorted(numbers)
+print(sum(range(10)))
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
