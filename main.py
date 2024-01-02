@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
