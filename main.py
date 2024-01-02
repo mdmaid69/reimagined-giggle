@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import collections
-def create_stack():
-        return collections.deque()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+print([x**2 for x in range(10)])
