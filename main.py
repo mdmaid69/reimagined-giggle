@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def find_min(numbers):
+        return min(numbers)
+import os
+def change_working_directory(path):
+        os.chdir(path)
