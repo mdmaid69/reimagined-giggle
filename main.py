@@ -1,6 +1,5 @@
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import sys
-  def get_python_version():
-        return sys.version
+def get_array_buffer_info(array):
+        return array.buffer_info()
