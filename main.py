@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
