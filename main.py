@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_average(lst):
+        return sum(lst) / len(lst)
