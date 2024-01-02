@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_volume(length, width, height):
+        return length * width * height
+  def is_even(n):
+        return n % 2 == 0
