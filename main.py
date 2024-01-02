@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def add_numbers(a, b):
+        return a + b
+def sort_numbers(numbers):
+        return sorted(numbers)
