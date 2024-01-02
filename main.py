@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
