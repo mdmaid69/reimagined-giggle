@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
