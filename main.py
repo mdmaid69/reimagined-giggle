@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
