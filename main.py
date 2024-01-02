@@ -1,8 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_sine(x):
+        return math.sin(x)
