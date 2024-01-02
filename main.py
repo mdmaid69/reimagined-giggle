@@ -1,4 +1,7 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def convert_to_binary(n):
+        return bin(n)
