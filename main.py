@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
