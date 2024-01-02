@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import logging
+def log_message(message):
+        logging.info(message)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
