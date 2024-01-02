@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
