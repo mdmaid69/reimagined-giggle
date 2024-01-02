@@ -1,5 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def square_number(x):
+        return x**2
+  def calculate_area_rectangle(l, w):
+        return l * w
