@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_current_directory():
+        return os.getcwd()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
