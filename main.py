@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
