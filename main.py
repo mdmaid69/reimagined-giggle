@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def reverse_array(array):
+        array.reverse()
