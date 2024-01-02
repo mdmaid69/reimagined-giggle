@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_density(mass, volume):
+        return mass / volume
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
