@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import random
+def roll_die():
+        return random.randint(1, 6)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
