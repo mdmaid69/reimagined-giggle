@@ -1,6 +1,7 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
