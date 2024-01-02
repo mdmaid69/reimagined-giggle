@@ -1,7 +1,5 @@
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import platform
-def get_python_version():
-        return platform.python_version()
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
