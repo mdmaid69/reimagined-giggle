@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import sys
-def print_python_version():
-        return sys.version
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
