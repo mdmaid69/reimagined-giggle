@@ -1,3 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-print([x**2 for x in range(10)])
+def find_min(lst):
+        return min(lst)
+import collections
+def create_stack():
+        return collections.deque()
