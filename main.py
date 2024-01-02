@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
