@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_length(array):
-        return len(array)
+def convert_to_octal(n):
+        return oct(n)
+text = "Hello, world!"
+print("Characters:", len(text))
