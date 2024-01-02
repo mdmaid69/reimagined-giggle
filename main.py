@@ -1,6 +1,8 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
