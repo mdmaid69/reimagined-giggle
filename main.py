@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import platform
-def get_os_info():
-        return platform.uname()
+import collections
+def create_queue():
+        return collections.deque()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
