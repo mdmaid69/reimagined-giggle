@@ -1,5 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import sys
-print(sys.version)
+def calculate_power(work, time):
+        return work / time
+def greet(name):
+        print(f"Hello, {name}!")
