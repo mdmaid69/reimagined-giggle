@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-from collections import Counter
-print(Counter("hello world"))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  def is_even(n):
+        return n % 2 == 0
