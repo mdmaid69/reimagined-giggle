@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
