@@ -1,6 +1,8 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
