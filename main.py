@@ -1,6 +1,7 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
