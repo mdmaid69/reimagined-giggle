@@ -1,6 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import time
+def get_time_since_epoch():
+        return time.time()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
