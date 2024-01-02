@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def find_min(lst):
+        return min(lst)
