@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_density(mass, volume):
-        return mass / volume
+def add_numbers(a, b):
+        return a + b
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
