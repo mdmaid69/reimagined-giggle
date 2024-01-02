@@ -1,5 +1,6 @@
+import array
+def append_to_array(array, item):
+        array.append(item)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def get_current_working_directory():
+        return os.getcwd()
