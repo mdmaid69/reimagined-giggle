@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
+for i in range(5):
+        print(i)
 import re
-print(re.match("h.*o", "hello world"))
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
