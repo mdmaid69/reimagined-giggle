@@ -1,4 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
