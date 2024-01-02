@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
