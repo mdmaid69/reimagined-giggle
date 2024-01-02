@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_work(force, distance):
-        return force * distance
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
