@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
