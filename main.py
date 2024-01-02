@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  def count_elements(lst):
+        return len(lst)
