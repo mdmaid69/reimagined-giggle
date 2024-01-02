@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import logging
-def log_message(message):
-        logging.info(message)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def subtract_numbers(x, y):
+        return x - y
