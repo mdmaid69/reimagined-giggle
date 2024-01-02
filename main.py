@@ -1,8 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def greet(name):
+        print(f"Hello, {name}!")
