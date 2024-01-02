@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def append_to_array(array, item):
+        array.append(item)
