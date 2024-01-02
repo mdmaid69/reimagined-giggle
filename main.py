@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
