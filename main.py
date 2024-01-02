@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
