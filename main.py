@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import datetime
-def get_current_date():
-        return datetime.date.today()
+x = 10
+y = 20
+print("Sum:", x + y)
+from collections import Counter
+print(Counter("hello world"))
