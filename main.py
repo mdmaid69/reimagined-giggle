@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
