@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
