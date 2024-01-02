@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def get_file_size_in_bytes(file_name):
+  def get_file_size(file_name):
         return os.stat(file_name).st_size
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
