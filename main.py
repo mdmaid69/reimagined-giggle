@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def convert_to_octal(n):
+        return oct(n)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
