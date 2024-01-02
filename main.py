@@ -1,8 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def count_elements(lst):
+        return len(lst)
