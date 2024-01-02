@@ -1,7 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
