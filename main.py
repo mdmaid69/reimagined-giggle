@@ -1,3 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-for i in range(10): print(i)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
