@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
