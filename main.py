@@ -1,8 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import tensorflow as tf
+print(tf.__version__)
