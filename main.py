@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import collections
+def create_user_string():
+        return collections.UserString()
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_buffer_info(array):
+        return array.buffer_info()
