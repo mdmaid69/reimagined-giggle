@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import collections
-def create_counter():
-        return collections.Counter()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
