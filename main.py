@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_acceleration(speed, time):
+        return speed / time
