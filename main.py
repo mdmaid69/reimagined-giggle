@@ -1,6 +1,5 @@
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import platform
-def get_python_version():
-        return platform.python_version()
+def get_array_index(array, item):
+        return array.index(item)
