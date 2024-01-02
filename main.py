@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+for i in range(5):
+        print(i)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
