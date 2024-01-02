@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_density(mass, volume):
-        return mass / volume
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
