@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
