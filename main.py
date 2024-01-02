@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_density(mass, volume):
-        return mass / volume
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
