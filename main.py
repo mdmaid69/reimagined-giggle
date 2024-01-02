@@ -1,5 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def divide_numbers(x, y):
+        return x / y
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
