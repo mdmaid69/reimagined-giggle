@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
