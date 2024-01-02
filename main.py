@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
