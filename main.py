@@ -1,6 +1,6 @@
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
