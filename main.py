@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_work(force, distance):
+        return force * distance
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
