@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import logging
+def log_message(message):
+        logging.info(message)
