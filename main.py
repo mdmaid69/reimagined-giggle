@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
