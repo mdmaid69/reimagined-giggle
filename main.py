@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
