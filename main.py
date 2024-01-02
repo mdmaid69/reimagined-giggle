@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def multiply_numbers(x, y):
+        return x * y
