@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
