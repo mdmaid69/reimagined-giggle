@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import random
-def roll_die():
-        return random.randint(1, 6)
+for i in range(5):
+        print(i)
+import collections
+def create_queue():
+        return collections.deque()
