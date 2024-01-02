@@ -1,6 +1,5 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
