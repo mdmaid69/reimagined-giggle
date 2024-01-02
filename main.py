@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_density(mass, volume):
+        return mass / volume
+import sys
+def print_python_version():
+        return sys.version
