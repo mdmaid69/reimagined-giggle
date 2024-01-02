@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
