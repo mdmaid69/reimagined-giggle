@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
