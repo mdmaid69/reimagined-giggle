@@ -1,4 +1,7 @@
-def is_odd(n):
-        return n % 2 != 0
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
