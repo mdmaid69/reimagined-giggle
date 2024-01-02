@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
