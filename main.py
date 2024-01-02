@@ -1,5 +1,5 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def divide_numbers(x, y):
-        return x / y
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
