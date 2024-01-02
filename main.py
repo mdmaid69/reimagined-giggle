@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def convert_to_binary(n):
+        return bin(n)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
