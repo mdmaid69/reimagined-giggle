@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_power(work, time):
+        return work / time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
