@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
