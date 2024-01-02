@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def convert_to_hex(n):
+        return hex(n)
