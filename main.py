@@ -1,5 +1,5 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
