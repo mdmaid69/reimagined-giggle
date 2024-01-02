@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def square_number(x):
-        return x**2
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_exponential(x):
+        return math.exp(x)
