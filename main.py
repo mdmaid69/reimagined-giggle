@@ -1,6 +1,8 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
