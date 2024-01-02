@@ -1,5 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def square_number(x):
-        return x**2
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
