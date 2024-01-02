@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
