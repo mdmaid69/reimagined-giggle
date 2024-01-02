@@ -1,5 +1,6 @@
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def count_elements(lst):
-        return len(lst)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
