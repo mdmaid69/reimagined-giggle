@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
