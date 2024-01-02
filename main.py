@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import sys
+print(sys.version)
