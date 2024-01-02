@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_pressure(force, area):
-        return force / area
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import sys
+def print_python_version():
+        print(sys.version)
