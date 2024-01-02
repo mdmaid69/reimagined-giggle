@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def cube_number(x):
-        return x**3
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
