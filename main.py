@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
