@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_density(mass, volume):
+        return mass / volume
