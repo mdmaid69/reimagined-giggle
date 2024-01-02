@@ -1,5 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def add_numbers(x, y):
-        return x + y
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
