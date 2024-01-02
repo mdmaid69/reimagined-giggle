@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_density(mass, volume):
-        return mass / volume
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
