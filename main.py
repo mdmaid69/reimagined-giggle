@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import sys
+def print_python_version():
+        print(sys.version)
