@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
