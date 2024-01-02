@@ -1,6 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import collections
+def create_user_list():
+        return collections.UserList()
