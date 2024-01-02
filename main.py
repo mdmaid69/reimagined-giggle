@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
