@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import sys
-def exit_program():
-        sys.exit()
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
