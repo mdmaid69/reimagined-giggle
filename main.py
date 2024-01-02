@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+for i in range(5):
+        print(i)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
