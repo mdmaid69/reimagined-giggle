@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
