@@ -1,6 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
