@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def count_elements(lst):
+        return len(lst)
