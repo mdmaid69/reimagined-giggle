@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
