@@ -1,5 +1,6 @@
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-for i in range(5):
-        print(i)
+def calculate_sine(x):
+        return math.sin(x)
