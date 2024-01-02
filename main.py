@@ -1,7 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def calculate_acceleration(speed, time):
+        return speed / time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
