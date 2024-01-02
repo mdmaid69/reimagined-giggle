@@ -1,4 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-print([x**2 for x in range(10)])
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
