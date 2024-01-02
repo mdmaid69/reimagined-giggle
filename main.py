@@ -1,5 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
