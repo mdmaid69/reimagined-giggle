@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
