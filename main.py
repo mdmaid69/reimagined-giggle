@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import tensorflow as tf
-print(tf.__version__)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
