@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
