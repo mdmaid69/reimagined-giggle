@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def reverse_string(s):
+        return s[::-1]
