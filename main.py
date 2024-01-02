@@ -1,6 +1,3 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_volume(length, width, height):
+        return length * width * height
+print(sum(range(10)))
