@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
