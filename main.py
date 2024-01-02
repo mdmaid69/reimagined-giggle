@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
