@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import platform
-def get_python_version():
-        return platform.python_version()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
