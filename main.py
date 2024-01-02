@@ -1,7 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_circle_area(radius):
+        return math.pi * radius**2
