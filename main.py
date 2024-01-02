@@ -1,6 +1,8 @@
-import array
-def get_array_length(array):
-        return len(array)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
