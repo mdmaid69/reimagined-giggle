@@ -1,5 +1,8 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
