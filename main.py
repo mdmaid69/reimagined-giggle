@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
