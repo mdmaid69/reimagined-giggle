@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_pressure(force, area):
+        return force / area
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
