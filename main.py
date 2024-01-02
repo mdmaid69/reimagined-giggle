@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  import sys
-  def get_python_version():
-        return sys.version
+import time
+def get_time_since_epoch():
+        return time.time()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
