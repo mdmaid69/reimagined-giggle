@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
