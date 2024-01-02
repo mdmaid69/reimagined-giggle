@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
