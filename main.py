@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
 import time
-print(time.time())
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def multiply_numbers(x, y):
+        return x * y
