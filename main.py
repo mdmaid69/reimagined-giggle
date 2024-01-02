@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
