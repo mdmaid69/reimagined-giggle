@@ -1,6 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
