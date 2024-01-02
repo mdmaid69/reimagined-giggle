@@ -1,5 +1,4 @@
-name = "Python"
-print("Hello,", name)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def is_even(n):
+        return n % 2 == 0
