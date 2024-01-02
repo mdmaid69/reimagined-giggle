@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
