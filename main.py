@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
