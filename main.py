@@ -1,5 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-print(sum(range(10)))
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
