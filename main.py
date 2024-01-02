@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
