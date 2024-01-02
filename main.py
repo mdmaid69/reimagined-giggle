@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
