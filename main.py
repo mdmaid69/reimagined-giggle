@@ -1,4 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import os
-print(os.getcwd())
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def split_path(path):
+        return os.path.split(path)
