@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
