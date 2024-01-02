@@ -1,7 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
