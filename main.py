@@ -1,8 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def convert_to_binary(n):
+        return bin(n)
