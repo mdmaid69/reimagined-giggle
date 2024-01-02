@@ -1,7 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
