@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import collections
+def create_stack():
+        return collections.deque()
