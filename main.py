@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
