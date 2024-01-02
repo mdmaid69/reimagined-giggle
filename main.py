@@ -1,8 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
