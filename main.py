@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
