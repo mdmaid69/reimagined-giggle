@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
