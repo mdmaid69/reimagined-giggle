@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def find_max(lst):
+        return max(lst)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
