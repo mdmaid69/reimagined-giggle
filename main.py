@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import collections
+def create_user_dict():
+        return collections.UserDict()
