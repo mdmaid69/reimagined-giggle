@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
