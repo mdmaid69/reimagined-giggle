@@ -1,6 +1,5 @@
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import time
-def get_current_time():
-        return time.time()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
