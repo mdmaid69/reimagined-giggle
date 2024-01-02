@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
