@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
