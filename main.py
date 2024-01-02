@@ -1,6 +1,12 @@
-import array
-def get_array_item(array, i):
-        return array[i]
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
