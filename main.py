@@ -1,4 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def convert_to_octal(n):
+        return oct(n)
+def sort_list(lst):
+        return sorted(lst)
