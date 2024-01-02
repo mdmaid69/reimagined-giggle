@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
