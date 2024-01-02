@@ -1,11 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
