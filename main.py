@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  def sort_list(lst):
-        return sorted(lst)
+def is_odd(n):
+        return n % 2 != 0
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
