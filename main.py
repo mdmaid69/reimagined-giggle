@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import os
+def get_current_working_directory():
+        return os.getcwd()
