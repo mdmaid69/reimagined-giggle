@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
