@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  def reverse_list(lst):
+        return lst[::-1]
