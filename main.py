@@ -1,6 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def find_unique_words(sentence):
+        return set(sentence.split())
+def is_even(n):
+        return n % 2 == 0
