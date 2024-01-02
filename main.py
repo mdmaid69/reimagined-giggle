@@ -1,6 +1,5 @@
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_floor(x):
+        return math.floor(x)
