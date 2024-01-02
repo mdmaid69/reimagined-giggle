@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import logging
-def log_message(message):
-        logging.info(message)
+x = 10
+y = 20
+print("Sum:", x + y)
+def convert_to_hex(n):
+        return hex(n)
