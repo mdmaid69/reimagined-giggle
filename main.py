@@ -1,4 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_typecode(array):
+        return array.typecode
