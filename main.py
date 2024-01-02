@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
