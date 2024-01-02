@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
