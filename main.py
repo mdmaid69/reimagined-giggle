@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_work(force, distance):
+        return force * distance
