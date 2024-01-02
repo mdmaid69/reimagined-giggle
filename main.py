@@ -1,5 +1,8 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
