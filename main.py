@@ -1,5 +1,9 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
