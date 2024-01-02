@@ -1,6 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
