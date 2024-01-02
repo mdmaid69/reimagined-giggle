@@ -1,4 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
