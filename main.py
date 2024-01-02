@@ -1,6 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def count_words(sentence):
+        return len(sentence.split())
