@@ -1,5 +1,4 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
