@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import random
+print(random.randint(0, 100))
