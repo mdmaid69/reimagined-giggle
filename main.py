@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
