@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
