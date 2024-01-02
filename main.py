@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
