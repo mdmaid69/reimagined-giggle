@@ -1,5 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
