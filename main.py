@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
