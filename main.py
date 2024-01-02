@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def is_odd(n):
+        return n % 2 != 0
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
