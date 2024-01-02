@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def add_numbers(a, b):
+        return a + b
+  def count_elements(lst):
+        return len(lst)
