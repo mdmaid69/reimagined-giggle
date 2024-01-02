@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
