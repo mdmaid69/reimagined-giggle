@@ -1,6 +1,5 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+for i in range(5):
+        print(i)
