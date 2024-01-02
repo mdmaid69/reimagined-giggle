@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
