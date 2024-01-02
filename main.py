@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
