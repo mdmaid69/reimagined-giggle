@@ -1,5 +1,8 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
