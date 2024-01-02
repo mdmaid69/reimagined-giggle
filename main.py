@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import platform
+def get_python_version():
+        return platform.python_version()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
