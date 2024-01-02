@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
