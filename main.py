@@ -1,8 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_int(array):
+        return int(array[0])
