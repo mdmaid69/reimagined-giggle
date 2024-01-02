@@ -1,7 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
