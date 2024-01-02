@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import logging
+def log_message(message):
+        logging.info(message)
