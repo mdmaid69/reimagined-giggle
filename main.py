@@ -1,5 +1,10 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
