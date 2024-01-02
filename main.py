@@ -1,5 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  def subtract_numbers(x, y):
-        return x - y
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
