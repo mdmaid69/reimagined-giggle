@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def is_odd(n):
-        return n % 2 != 0
+def sort_numbers(numbers):
+        return sorted(numbers)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
