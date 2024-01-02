@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
