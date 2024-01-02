@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def add_numbers(a, b):
+        return a + b
