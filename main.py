@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+name = "Python"
+print("Hello,", name)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
