@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
