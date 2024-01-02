@@ -1,6 +1,5 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_circle_area(radius):
+        return math.pi * radius**2
