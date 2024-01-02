@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def count_words(sentence):
+        return len(sentence.split())
