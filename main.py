@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
