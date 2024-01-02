@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+text = "Hello, world!"
+print("Characters:", len(text))
