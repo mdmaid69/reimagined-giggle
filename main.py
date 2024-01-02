@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
