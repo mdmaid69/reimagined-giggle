@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+print([x**2 for x in range(10)])
