@@ -1,5 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_work(force, distance):
+        return force * distance
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
