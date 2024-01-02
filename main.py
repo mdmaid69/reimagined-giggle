@@ -1,5 +1,7 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-from collections import Counter
-print(Counter("hello world"))
+def subtract_numbers(x, y):
+        return x - y
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
