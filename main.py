@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
