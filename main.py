@@ -1,5 +1,8 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def subtract_numbers(x, y):
-        return x - y
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import sys
+def exit_program():
+        sys.exit()
