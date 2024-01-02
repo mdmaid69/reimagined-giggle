@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import sys
+def exit_program():
+        sys.exit()
