@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
