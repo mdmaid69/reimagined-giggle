@@ -1,7 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_item(array, i):
+        return array[i]
   import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
+  def plot_graph(x, y):
+        plt.plot(x, y)
         plt.show()
