@@ -1,8 +1,8 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def convert_bytes_to_array(bytes, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromstring(string)
         return a
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
