@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
