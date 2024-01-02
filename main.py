@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
