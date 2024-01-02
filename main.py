@@ -1,5 +1,6 @@
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def add_numbers(a, b):
-        return a + b
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
