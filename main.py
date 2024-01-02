@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def convert_to_hex(n):
-        return hex(n)
+def multiply_numbers(x, y):
+        return x * y
+import array
+def get_array_as_set(array):
+        return set(array)
