@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
