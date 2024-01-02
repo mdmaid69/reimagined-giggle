@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
