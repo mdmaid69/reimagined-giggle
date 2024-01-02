@@ -1,5 +1,7 @@
-  def convert_to_octal(n):
-        return oct(n)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
