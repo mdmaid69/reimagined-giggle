@@ -1,6 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-for i in range(10): print(i)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
