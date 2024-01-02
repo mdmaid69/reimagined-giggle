@@ -1,5 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  def convert_to_octal(n):
-        return oct(n)
+  def multiply_numbers(x, y):
+        return x * y
+def multiply_numbers(x, y):
+        return x * y
