@@ -1,10 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
