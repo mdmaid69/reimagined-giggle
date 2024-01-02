@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
