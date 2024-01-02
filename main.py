@@ -1,5 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-for i in range(10): print(i)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
