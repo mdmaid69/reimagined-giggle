@@ -1,6 +1,5 @@
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
