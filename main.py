@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
