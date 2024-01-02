@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
