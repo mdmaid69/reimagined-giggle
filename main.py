@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_item_count(array, item):
+        return array.count(item)
