@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
