@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import logging
-def log_message(message):
-        logging.info(message)
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
