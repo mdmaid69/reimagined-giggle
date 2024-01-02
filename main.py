@@ -1,4 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-for i in range(10): print(i)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import sys
+def exit_program():
+        sys.exit()
