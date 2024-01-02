@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
