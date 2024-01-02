@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
