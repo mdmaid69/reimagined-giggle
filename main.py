@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def reverse_list(lst):
-        return lst[::-1]
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
