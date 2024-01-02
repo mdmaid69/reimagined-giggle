@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
