@@ -1,5 +1,8 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import array
+def get_list_from_array(array):
+        return array.tolist()
