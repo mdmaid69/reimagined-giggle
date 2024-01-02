@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def set_array_item(array, i, item):
+        array[i] = item
