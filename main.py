@@ -1,6 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
