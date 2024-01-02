@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
