@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def add_numbers(a, b):
-        return a + b
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
