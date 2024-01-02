@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import collections
+def create_user_string():
+        return collections.UserString()
