@@ -1,7 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
