@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_power(work, time):
+        return work / time
