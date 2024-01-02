@@ -1,3 +1,6 @@
-import random
-print(random.randint(0, 100))
-for i in range(10): print(i)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_repr(array):
+        return repr(array)
