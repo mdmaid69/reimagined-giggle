@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
