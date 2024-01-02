@@ -1,7 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
