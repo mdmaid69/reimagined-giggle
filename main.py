@@ -1,5 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_volume(length, width, height):
-        return length * width * height
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import sys
+print(sys.version)
