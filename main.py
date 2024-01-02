@@ -1,5 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import os
-print(os.getcwd())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
