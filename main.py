@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def find_min(lst):
+        return min(lst)
+import array
+def reverse_array(array):
+        array.reverse()
