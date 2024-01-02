@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def reverse_array(array):
-        array.reverse()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def remove_duplicates(lst):
+        return list(set(lst))
