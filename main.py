@@ -1,6 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_area_rectangle(l, w):
+        return l * w
