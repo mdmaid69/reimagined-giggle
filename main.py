@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_sine(x):
+        return math.sin(x)
