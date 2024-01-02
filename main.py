@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
