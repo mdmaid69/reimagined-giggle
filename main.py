@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
