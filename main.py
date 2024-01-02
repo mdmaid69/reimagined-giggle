@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
