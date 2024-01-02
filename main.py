@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
