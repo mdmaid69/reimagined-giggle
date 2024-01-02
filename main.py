@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def convert_to_hex(n):
+        return hex(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
