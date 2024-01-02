@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def multiply_numbers(x, y):
+        return x * y
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
