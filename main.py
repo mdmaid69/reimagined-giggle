@@ -1,5 +1,4 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def is_even(n):
+        return n % 2 == 0
+for i in range(5):
+        print(i)
