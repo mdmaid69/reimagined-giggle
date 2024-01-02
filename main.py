@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
