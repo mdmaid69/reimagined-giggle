@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_speed(distance, time):
+        return distance / time
 import collections
-def create_counter():
-        return collections.Counter()
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
