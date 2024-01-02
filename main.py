@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
