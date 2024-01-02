@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import collections
+def create_user_string():
+        return collections.UserString()
