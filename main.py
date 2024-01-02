@@ -1,4 +1,7 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  def convert_to_octal(n):
-        return oct(n)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
