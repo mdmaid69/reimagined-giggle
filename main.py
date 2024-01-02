@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
