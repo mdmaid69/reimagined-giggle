@@ -1,7 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
