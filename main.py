@@ -1,6 +1,9 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
