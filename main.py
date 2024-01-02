@@ -1,4 +1,7 @@
-for i in range(5):
-        print(i)
-text = "Hello, world!"
-print("Characters:", len(text))
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def calculate_density(mass, volume):
+        return mass / volume
