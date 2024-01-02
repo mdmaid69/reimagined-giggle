@@ -1,4 +1,12 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-print([x**2 for x in range(10)])
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
