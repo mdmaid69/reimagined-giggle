@@ -1,6 +1,5 @@
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_exponential(x):
+        return math.exp(x)
