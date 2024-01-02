@@ -1,4 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
