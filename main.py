@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_array_item(array, i):
+        return array[i]
