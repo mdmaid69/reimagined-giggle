@@ -1,6 +1,5 @@
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
