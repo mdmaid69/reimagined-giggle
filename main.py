@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_as_set(array):
+        return set(array)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
