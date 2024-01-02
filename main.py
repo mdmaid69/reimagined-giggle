@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import re
+print(re.match("h.*o", "hello world"))
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
