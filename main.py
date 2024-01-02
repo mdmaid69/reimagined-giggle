@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_as_list(array):
-        return list(array)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
