@@ -1,6 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
