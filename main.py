@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
