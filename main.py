@@ -1,5 +1,8 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
