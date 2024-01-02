@@ -1,6 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_acceleration(speed, time):
+        return speed / time
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
