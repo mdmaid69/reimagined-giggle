@@ -1,4 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-for i in range(10): print(i)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_array_as_bool(array):
+        return bool(array)
