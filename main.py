@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
