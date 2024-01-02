@@ -1,5 +1,12 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
