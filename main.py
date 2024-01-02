@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import time
-def get_time_since_epoch():
-        return time.time()
+def square_number(x):
+        return x**2
+import collections
+def create_user_list():
+        return collections.UserList()
