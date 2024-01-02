@@ -1,5 +1,8 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_pressure(force, area):
+        return force / area
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
