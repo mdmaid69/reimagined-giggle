@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
