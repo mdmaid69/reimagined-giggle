@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def subtract_numbers(x, y):
+        return x - y
+def calculate_acceleration(speed, time):
+        return speed / time
