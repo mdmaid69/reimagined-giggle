@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import time
-print(time.time())
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def find_min(numbers):
+        return min(numbers)
