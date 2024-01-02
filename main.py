@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def check_if_array_contains_item(array, item):
+        return item in array
