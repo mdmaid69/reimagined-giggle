@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
