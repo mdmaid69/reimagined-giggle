@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def add_numbers(a, b):
+        return a + b
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
