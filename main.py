@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def count_elements(lst):
+        return len(lst)
