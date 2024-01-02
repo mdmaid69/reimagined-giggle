@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
