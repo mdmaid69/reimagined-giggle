@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
