@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-text = "Hello, world!"
-print("Characters:", len(text))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def count_characters(sentence):
+        return len(sentence)
