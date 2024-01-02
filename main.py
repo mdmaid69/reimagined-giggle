@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
