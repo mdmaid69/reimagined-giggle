@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
 import os
-print(os.getcwd())
+def get_current_working_directory():
+        return os.getcwd()
+for i in range(5):
+        print(i)
