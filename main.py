@@ -1,9 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
