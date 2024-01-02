@@ -1,5 +1,8 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_area_rectangle(l, w):
-        return l * w
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
