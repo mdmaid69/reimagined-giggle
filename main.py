@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_area_rectangle(l, w):
-        return l * w
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
