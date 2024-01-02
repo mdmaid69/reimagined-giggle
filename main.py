@@ -1,5 +1,5 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def get_directory_name(path):
+        return os.path.dirname(path)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
