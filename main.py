@@ -1,6 +1,5 @@
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
