@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def get_array_as_list(array):
-        return list(array)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
