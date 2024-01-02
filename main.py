@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
