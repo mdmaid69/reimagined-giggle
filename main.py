@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
