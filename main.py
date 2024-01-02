@@ -1,4 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+from collections import Counter
+print(Counter("hello world"))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
