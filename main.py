@@ -1,6 +1,7 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
