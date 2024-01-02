@@ -1,6 +1,8 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
