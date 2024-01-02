@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
