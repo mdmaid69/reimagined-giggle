@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
