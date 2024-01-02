@@ -1,4 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+for i in range(10): print(i)
