@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
