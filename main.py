@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
