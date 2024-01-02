@@ -1,5 +1,5 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
