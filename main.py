@@ -1,5 +1,5 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  def count_elements(lst):
-        return len(lst)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
