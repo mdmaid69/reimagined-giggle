@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def is_odd(n):
-        return n % 2 != 0
+import time
+def get_current_time():
+        return time.ctime()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
