@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
