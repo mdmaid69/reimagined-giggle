@@ -1,6 +1,11 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
