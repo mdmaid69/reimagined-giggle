@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
