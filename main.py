@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def is_odd(n):
+        return n % 2 != 0
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
