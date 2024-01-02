@@ -1,9 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
