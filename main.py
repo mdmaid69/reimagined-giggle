@@ -1,6 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def add_numbers(x, y):
+        return x + y
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
