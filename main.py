@@ -1,5 +1,8 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
