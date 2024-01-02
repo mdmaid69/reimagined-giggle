@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def square_number(x):
+        return x**2
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
