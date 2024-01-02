@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
