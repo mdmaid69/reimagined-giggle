@@ -1,5 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-from collections import Counter
-print(Counter("hello world"))
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
