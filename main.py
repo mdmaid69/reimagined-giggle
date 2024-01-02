@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def count_elements(lst):
-        return len(lst)
+  import sys
+  def get_python_version():
+        return sys.version
+from collections import Counter
+print(Counter("hello world"))
