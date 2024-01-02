@@ -1,6 +1,6 @@
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def check_if_array_contains_item(array, item):
+        return item in array
