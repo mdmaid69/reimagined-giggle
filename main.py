@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import numpy as np
-print(np.array([1, 2, 3]))
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import os
+def remove_directory(path):
+        os.rmdir(path)
