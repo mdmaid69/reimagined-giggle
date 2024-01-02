@@ -1,7 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
