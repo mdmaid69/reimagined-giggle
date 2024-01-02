@@ -1,3 +1,4 @@
-print([x**2 for x in range(10)])
-def calculate_density(mass, volume):
-        return mass / volume
+  def convert_to_octal(n):
+        return oct(n)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
