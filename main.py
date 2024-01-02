@@ -1,6 +1,9 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
