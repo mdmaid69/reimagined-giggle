@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_array_length(array):
+        return len(array)
+def add_numbers(a, b):
+        return a + b
