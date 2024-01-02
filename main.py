@@ -1,7 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import math
+def calculate_cosine(x):
+        return math.cos(x)
