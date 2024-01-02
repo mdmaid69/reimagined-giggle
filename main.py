@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
