@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
