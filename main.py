@@ -1,6 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
