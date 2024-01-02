@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
