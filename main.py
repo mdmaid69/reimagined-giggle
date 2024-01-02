@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
