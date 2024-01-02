@@ -1,6 +1,8 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
