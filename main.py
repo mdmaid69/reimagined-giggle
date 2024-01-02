@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
