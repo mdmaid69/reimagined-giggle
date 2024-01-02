@@ -1,9 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import sys
+def exit_program():
+        sys.exit()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
