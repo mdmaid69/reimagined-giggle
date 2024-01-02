@@ -1,7 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
