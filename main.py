@@ -1,7 +1,6 @@
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def convert_array_to_unicode(array):
+        return array.tounicode()
