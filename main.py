@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
