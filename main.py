@@ -1,6 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def append_to_array(array, item):
+        array.append(item)
