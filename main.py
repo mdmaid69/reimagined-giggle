@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import collections
-def create_queue():
-        return collections.deque()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
