@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
