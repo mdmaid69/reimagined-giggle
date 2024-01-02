@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
