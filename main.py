@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
