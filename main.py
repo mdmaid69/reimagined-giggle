@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
