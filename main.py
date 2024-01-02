@@ -1,4 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
