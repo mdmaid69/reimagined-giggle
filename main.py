@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def get_array_as_list(array):
-        return list(array)
+def reverse_string(s):
+        return s[::-1]
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
