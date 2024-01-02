@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
