@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import logging
-def log_message(message):
-        logging.info(message)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
