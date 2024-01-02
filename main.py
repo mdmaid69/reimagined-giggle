@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_array_length(array):
+        return len(array)
+def divide_numbers(x, y):
+        return x / y
