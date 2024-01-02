@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
