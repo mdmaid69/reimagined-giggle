@@ -1,6 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
