@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-name = "Python"
-print("Hello,", name)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def calculate_volume(length, width, height):
+        return length * width * height
