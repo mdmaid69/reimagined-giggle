@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
