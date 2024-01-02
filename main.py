@@ -1,9 +1,6 @@
+import math
+def calculate_cosine(x):
+        return math.cos(x)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+  def get_directory_name(path):
+        return os.path.dirname(path)
