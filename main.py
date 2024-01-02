@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def find_min(lst):
-        return min(lst)
+def subtract_numbers(x, y):
+        return x - y
+import platform
+def get_python_version():
+        return platform.python_version()
