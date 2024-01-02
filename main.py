@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import datetime
-print(datetime.datetime.now())
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
