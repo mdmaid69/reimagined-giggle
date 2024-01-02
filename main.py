@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_density(mass, volume):
-        return mass / volume
+  def multiply_numbers(x, y):
+        return x * y
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
