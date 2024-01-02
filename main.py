@@ -1,6 +1,8 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
