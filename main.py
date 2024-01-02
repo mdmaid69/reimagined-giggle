@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  def convert_to_binary(n):
-        return bin(n)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
