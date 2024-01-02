@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
