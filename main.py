@@ -1,5 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
