@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
