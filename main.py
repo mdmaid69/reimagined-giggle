@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def multiply_numbers(x, y):
-        return x * y
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
