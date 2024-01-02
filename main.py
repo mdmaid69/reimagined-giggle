@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
