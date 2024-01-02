@@ -1,8 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
