@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
