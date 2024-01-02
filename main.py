@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import sys
+def print_python_version():
+        print(sys.version)
+def find_min(lst):
+        return min(lst)
