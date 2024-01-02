@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
