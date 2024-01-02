@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
