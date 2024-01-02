@@ -1,7 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
