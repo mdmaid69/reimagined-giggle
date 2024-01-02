@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_power(work, time):
+        return work / time
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
