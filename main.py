@@ -1,4 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-for i in range(10): print(i)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
