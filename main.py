@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
