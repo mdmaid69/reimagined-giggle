@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def square_number(x):
-        return x**2
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_array_as_list(array):
+        return list(array)
