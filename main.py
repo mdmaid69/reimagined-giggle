@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
