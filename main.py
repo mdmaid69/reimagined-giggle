@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
