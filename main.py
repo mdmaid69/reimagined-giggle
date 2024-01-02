@@ -1,7 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
