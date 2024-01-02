@@ -1,5 +1,8 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_density(mass, volume):
-        return mass / volume
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import collections
+def create_user_string():
+        return collections.UserString()
