@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
