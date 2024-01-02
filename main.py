@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import random
-print(random.randint(0, 100))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
