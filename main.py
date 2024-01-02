@@ -1,5 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def find_max(lst):
-        return max(lst)
+def count_characters(sentence):
+        return len(sentence)
+def subtract_numbers(x, y):
+        return x - y
