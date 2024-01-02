@@ -1,5 +1,7 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
