@@ -1,6 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
