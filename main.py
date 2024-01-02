@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
