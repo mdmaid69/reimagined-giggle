@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
