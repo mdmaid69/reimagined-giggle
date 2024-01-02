@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
