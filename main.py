@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def find_max(numbers):
+        return max(numbers)
