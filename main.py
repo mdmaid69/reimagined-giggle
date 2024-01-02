@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import collections
-def create_user_list():
-        return collections.UserList()
+def cube_number(x):
+        return x**3
+import sys
+def exit_program():
+        sys.exit()
