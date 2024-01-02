@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def sort_list(lst):
-        return sorted(lst)
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
