@@ -1,6 +1,5 @@
+  def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
