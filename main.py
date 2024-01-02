@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
