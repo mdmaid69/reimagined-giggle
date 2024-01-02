@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def count_elements(lst):
-        return len(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
