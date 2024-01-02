@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import time
-def get_current_time():
-        return time.ctime()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
