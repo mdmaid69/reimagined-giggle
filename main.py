@@ -1,5 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def subtract_numbers(x, y):
-        return x - y
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
