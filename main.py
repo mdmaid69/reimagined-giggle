@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import sys
+def exit_program():
+        sys.exit()
