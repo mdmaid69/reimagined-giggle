@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
