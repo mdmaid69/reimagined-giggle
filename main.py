@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
