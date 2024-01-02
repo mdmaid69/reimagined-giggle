@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
