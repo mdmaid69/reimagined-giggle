@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import sys
-def exit_program():
-        sys.exit()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
