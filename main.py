@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import random
+print(random.randint(0, 100))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
