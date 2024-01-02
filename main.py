@@ -1,6 +1,8 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import array
-def get_array_item(array, i):
-        return array[i]
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
