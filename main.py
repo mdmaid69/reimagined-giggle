@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_as_complex(array):
+        return complex(array[0])
