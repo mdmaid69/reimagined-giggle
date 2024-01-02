@@ -1,4 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import numpy as np
-print(np.array([1, 2, 3]))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
