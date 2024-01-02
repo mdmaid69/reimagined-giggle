@@ -1,6 +1,7 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  def convert_to_binary(n):
+        return bin(n)
