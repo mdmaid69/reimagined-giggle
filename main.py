@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import tensorflow as tf
+print(tf.__version__)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
