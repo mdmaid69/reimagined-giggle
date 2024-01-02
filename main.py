@@ -1,4 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-print([x**2 for x in range(10)])
+def convert_to_binary(n):
+        return bin(n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
