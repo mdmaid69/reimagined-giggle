@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+print(math.pi)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
