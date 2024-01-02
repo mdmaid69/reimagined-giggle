@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
