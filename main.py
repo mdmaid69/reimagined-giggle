@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def remove_duplicates(lst):
-        return list(set(lst))
+x = 10
+y = 20
+print("Sum:", x + y)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
