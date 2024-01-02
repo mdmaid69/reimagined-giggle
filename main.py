@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_bytes_from_array(array):
+        return array.tobytes()
