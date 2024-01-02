@@ -1,6 +1,5 @@
+def sort_list(lst):
+        return sorted(lst)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def set_array_item(array, i, item):
+        array[i] = item
