@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
