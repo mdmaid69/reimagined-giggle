@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_min(numbers):
+        return min(numbers)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
