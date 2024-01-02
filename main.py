@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
