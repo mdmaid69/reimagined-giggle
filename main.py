@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import math
+def calculate_sine(x):
+        return math.sin(x)
