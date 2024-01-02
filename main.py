@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
