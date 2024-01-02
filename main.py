@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_as_set(array):
+        return set(array)
   import os
-  def get_file_ino(file_name):
+  def get_file_inode(file_name):
         return os.stat(file_name).st_ino
