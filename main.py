@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def find_max(numbers):
-        return max(numbers)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+x = 10
+y = 20
+print("Sum:", x + y)
