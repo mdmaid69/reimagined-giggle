@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def multiply_numbers(x, y):
-        return x * y
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import re
+print(re.match("h.*o", "hello world"))
