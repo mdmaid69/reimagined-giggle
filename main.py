@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
