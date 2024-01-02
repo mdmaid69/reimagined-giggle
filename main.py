@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
