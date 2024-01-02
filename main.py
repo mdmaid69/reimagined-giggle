@@ -1,6 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
