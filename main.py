@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
