@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_power(work, time):
+        return work / time
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_bool(array):
+        return bool(array)
