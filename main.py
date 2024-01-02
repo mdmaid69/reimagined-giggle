@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
