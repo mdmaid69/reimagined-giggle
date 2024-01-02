@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
 import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def append_to_array(array, item):
+        array.append(item)
