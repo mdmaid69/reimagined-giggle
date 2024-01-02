@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def add_numbers(x, y):
+        return x + y
 import collections
-def create_user_dict():
-        return collections.UserDict()
+def create_user_string():
+        return collections.UserString()
