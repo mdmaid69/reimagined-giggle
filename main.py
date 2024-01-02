@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_acceleration(speed, time):
-        return speed / time
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def convert_to_hex(n):
+        return hex(n)
