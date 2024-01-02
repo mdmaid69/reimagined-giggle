@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
