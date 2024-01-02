@@ -1,5 +1,4 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
