@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
