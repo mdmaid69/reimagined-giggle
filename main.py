@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
