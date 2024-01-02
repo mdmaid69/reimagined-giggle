@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def greet(name):
-        print(f"Hello, {name}!")
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import tensorflow as tf
+print(tf.__version__)
