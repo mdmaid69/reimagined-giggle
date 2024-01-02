@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def cube_number(x):
+        return x**3
