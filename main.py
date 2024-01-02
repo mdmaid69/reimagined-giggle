@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  def convert_to_hex(n):
-        return hex(n)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
