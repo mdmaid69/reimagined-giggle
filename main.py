@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_length(array):
+        return len(array)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
