@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import random
+def roll_die():
+        return random.randint(1, 6)
