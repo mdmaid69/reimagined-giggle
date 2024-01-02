@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
