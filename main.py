@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def is_odd(n):
-        return n % 2 != 0
+def is_palindrome(s):
+        return s == s[::-1]
+def convert_to_octal(n):
+        return oct(n)
