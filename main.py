@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  def multiply_numbers(x, y):
-        return x * y
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def greet(name):
+        print(f"Hello, {name}!")
