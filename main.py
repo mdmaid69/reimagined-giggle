@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def cube_number(x):
-        return x**3
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
