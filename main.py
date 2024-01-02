@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import random
-print(random.randint(0, 100))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def get_array_as_list(array):
+        return list(array)
