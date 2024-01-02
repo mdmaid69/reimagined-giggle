@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import collections
+def create_user_dict():
+        return collections.UserDict()
