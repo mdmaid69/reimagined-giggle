@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
