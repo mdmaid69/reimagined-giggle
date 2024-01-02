@@ -1,6 +1,7 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def subtract_numbers(x, y):
+        return x - y
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
