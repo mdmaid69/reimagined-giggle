@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
