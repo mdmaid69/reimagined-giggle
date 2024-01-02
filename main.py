@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def greet(name):
+        print(f"Hello, {name}!")
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_typecode(array):
+        return array.typecode
