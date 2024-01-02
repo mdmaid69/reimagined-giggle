@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
