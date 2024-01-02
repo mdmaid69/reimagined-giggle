@@ -1,6 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import array
-def get_array_length(array):
-        return len(array)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def extend_array(array, iterable):
+        array.extend(iterable)
