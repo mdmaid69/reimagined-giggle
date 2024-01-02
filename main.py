@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import collections
-def create_counter():
-        return collections.Counter()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
