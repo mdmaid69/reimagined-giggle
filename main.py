@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def convert_to_binary(n):
+        return bin(n)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
