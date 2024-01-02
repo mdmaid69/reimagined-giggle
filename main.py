@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
