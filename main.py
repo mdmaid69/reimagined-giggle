@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
