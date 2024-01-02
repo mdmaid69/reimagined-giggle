@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
