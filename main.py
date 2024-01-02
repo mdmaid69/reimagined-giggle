@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def find_min(numbers):
+        return min(numbers)
