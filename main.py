@@ -1,8 +1,5 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
