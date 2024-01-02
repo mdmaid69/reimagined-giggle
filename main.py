@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
