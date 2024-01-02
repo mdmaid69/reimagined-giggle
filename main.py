@@ -1,5 +1,8 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
