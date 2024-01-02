@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
