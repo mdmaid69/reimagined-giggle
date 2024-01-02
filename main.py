@@ -1,9 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
