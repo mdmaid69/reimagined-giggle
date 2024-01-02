@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
