@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
