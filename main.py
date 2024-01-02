@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import sys
+def print_python_version():
+        print(sys.version)
