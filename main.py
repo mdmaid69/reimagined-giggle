@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
