@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
