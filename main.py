@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def reverse_string(s):
+        return s[::-1]
