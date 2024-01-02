@@ -1,5 +1,7 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def find_max(numbers):
-        return max(numbers)
+import collections
+def create_counter():
+        return collections.Counter()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
