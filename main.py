@@ -1,6 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
