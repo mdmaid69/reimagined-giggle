@@ -1,5 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import sys
-print(sys.version)
+def calculate_sine(x):
+        return math.sin(x)
+import os
+print(os.getcwd())
