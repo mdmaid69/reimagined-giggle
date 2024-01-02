@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_typecode(array):
+        return array.typecode
