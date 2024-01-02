@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  def is_even(n):
-        return n % 2 == 0
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  def square_number(x):
+        return x**2
