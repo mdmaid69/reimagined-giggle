@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
