@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
