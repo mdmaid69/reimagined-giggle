@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import time
+def get_time_since_epoch():
+        return time.time()
+name = "Python"
+print("Hello,", name)
