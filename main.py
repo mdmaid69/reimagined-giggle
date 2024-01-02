@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
