@@ -1,5 +1,8 @@
-def cube_number(x):
-        return x**3
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
