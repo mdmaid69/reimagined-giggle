@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
