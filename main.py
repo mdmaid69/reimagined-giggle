@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
