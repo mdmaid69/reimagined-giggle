@@ -1,7 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
