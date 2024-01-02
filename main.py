@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_density(mass, volume):
+        return mass / volume
