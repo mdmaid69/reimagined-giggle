@@ -1,5 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+x = 10
+y = 20
+print("Sum:", x + y)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
