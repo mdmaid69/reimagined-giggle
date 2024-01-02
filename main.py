@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
