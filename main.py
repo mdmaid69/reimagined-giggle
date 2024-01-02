@@ -1,4 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-print(math.pi)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
