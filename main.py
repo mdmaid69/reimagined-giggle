@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def reverse_array(array):
+        array.reverse()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
