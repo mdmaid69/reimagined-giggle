@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
