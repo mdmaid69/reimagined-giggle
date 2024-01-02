@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def reverse_list(lst):
-        return lst[::-1]
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
