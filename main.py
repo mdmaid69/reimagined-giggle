@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def is_palindrome(s):
-        return s == s[::-1]
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
