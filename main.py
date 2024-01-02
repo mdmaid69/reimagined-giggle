@@ -1,6 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
