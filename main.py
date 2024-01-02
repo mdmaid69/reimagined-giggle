@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
