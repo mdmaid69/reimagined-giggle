@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
