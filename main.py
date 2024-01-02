@@ -1,6 +1,8 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
