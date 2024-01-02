@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
