@@ -1,7 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
