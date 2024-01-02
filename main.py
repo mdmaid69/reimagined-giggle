@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def greet(name):
+        print(f"Hello, {name}!")
