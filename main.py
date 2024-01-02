@@ -1,6 +1,7 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
