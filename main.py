@@ -1,4 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-print(sum(range(10)))
+def divide_numbers(x, y):
+        return x / y
+def count_elements(lst):
+        return len(lst)
