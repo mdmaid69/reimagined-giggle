@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_work(force, distance):
+        return force * distance
