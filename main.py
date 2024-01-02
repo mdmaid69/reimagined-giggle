@@ -1,5 +1,8 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
