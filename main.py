@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_area_circle(r):
+        return 3.14 * r**2
