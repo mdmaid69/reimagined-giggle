@@ -1,6 +1,4 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
