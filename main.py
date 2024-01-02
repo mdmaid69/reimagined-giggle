@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def find_max(numbers):
+        return max(numbers)
