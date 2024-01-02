@@ -1,6 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
