@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
