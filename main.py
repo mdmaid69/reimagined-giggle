@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import collections
+def create_counter():
+        return collections.Counter()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
