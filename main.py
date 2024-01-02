@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
