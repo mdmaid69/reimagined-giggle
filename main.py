@@ -1,6 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def calculate_acceleration(speed, time):
+        return speed / time
