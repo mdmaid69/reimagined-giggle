@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def sort_numbers(numbers):
+        return sorted(numbers)
