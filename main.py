@@ -1,7 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def multiply_numbers(x, y):
+        return x * y
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
