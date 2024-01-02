@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
