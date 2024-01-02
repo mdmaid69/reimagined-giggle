@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import numpy as np
+print(np.array([1, 2, 3]))
