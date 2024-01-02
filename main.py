@@ -1,6 +1,4 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import tensorflow as tf
+print(tf.__version__)
