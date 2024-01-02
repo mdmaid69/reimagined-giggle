@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
