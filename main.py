@@ -1,6 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import time
+def get_time_since_epoch():
+        return time.time()
