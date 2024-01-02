@@ -1,6 +1,3 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def sort_list(lst):
+        return sorted(lst)
+for i in range(10): print(i)
