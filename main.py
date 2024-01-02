@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
