@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
