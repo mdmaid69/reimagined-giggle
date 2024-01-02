@@ -1,7 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
