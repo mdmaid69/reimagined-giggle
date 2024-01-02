@@ -1,6 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
