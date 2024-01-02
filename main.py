@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_acceleration(speed, time):
+        return speed / time
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
