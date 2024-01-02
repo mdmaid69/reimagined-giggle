@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def convert_to_hex(n):
+        return hex(n)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
