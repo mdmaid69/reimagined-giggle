@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
