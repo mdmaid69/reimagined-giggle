@@ -1,8 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
