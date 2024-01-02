@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def find_min(numbers):
-        return min(numbers)
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
