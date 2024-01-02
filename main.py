@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
