@@ -1,4 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-print(sum(range(10)))
+import logging
+def log_message(message):
+        logging.info(message)
+def count_words(sentence):
+        return len(sentence.split())
