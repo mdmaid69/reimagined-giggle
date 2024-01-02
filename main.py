@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_speed(distance, time):
+        return distance / time
