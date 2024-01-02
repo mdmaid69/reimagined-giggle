@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+x = 10
+y = 20
+print("Sum:", x + y)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
