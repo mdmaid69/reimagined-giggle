@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
