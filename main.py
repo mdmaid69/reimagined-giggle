@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import platform
-def get_os_info():
-        return platform.uname()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def greet(name):
+        print(f"Hello, {name}!")
