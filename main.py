@@ -1,4 +1,8 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
