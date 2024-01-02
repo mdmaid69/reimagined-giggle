@@ -1,6 +1,11 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
