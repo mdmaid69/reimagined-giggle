@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  def square_number(x):
+        return x**2
