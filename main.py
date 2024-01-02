@@ -1,7 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
