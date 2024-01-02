@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def remove_duplicates(lst):
-        return list(set(lst))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
