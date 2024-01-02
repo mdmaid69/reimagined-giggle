@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
