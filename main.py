@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
