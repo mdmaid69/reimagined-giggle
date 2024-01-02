@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import random
+print(random.randint(0, 100))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
