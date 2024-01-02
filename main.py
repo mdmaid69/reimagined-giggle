@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
