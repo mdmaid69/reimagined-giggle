@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def cube_number(x):
-        return x**3
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
