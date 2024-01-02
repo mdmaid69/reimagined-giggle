@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_speed(distance, time):
-        return distance / time
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
