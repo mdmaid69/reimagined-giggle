@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
