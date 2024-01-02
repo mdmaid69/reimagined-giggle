@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def reverse_array(array):
-        array.reverse()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
