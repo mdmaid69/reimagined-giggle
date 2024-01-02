@@ -1,4 +1,4 @@
-  def cube_number(x):
-        return x**3
-def calculate_power(work, time):
-        return work / time
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
