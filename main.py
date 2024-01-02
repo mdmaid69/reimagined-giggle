@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import logging
+def log_message(message):
+        logging.info(message)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
