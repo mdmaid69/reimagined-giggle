@@ -1,6 +1,8 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
