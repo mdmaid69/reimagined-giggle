@@ -1,7 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
