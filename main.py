@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-name = "Python"
-print("Hello,", name)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
