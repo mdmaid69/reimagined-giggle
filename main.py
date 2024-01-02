@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
