@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
