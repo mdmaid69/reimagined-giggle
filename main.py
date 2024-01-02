@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
