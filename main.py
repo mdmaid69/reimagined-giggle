@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
