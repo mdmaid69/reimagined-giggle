@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def cube_number(x):
-        return x**3
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
