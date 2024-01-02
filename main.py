@@ -1,7 +1,7 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
