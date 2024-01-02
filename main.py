@@ -1,4 +1,4 @@
-def cube_number(x):
-        return x**3
-import tensorflow as tf
-print(tf.__version__)
+def is_odd(n):
+        return n % 2 != 0
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
