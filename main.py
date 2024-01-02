@@ -1,7 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
