@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
