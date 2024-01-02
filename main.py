@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import os
+def remove_directory(path):
+        os.rmdir(path)
