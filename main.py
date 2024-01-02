@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import sys
-def print_python_version():
-        return sys.version
+  def is_even(n):
+        return n % 2 == 0
+  def reverse_list(lst):
+        return lst[::-1]
