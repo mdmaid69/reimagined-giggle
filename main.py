@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
