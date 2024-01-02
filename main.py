@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
