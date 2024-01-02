@@ -1,11 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
