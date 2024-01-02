@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
