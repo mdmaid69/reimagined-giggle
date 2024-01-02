@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+name = "Python"
+print("Hello,", name)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
