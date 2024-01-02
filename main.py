@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
