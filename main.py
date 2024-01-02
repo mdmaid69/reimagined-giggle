@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  def cube_number(x):
-        return x**3
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import collections
+def create_queue():
+        return collections.deque()
