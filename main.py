@@ -1,5 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
