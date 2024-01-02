@@ -1,8 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
