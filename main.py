@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_acceleration(speed, time):
+        return speed / time
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
