@@ -1,6 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_work(force, distance):
+        return force * distance
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
