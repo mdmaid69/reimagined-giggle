@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
