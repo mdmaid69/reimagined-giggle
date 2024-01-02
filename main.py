@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import sys
-print(sys.version)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
