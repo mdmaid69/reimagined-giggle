@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
