@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import array
-def clear_array(array):
-        array *= 0
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
