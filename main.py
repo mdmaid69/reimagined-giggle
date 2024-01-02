@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
