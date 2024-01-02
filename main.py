@@ -1,5 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def convert_to_hex(n):
-        return hex(n)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def multiply_numbers(x, y):
+        return x * y
