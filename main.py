@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
