@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_arc_sine(x):
+        return math.asin(x)
