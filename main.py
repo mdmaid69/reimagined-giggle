@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_work(force, distance):
+        return force * distance
