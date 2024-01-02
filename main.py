@@ -1,8 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
