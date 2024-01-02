@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import datetime
+print(datetime.datetime.now())
+import array
+def convert_array_to_list(array):
+        return array.tolist()
