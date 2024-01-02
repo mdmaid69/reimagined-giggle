@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
