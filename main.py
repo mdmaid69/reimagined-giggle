@@ -1,4 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-print("Hello, world!")
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def convert_to_octal(n):
+        return oct(n)
