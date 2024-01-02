@@ -1,6 +1,11 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
