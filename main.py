@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def get_array_as_list(array):
+        return list(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
