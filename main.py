@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
