@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def count_elements(lst):
+        return len(lst)
