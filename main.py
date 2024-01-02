@@ -1,7 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def count_elements(lst):
+        return len(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
