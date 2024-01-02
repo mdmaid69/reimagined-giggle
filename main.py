@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
