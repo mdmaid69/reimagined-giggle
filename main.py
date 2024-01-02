@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
