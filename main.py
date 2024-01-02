@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_sine(x):
+        return math.sin(x)
