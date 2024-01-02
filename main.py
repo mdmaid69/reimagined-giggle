@@ -1,7 +1,6 @@
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
