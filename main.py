@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
