@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
