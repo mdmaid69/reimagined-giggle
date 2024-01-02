@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
