@@ -1,6 +1,6 @@
-import os
-print(os.getcwd())
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
