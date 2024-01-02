@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_volume(length, width, height):
+        return length * width * height
