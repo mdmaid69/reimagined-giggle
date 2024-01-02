@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_work(force, distance):
+        return force * distance
