@@ -1,6 +1,7 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
