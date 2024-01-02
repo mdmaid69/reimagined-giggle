@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def is_palindrome(s):
+        return s == s[::-1]
