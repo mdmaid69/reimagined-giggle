@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_list(array):
+        return list(array)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
