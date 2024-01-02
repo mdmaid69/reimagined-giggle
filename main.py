@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
