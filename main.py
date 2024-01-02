@@ -1,5 +1,8 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
