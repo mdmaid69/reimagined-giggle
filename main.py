@@ -1,7 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  def count_elements(lst):
+        return len(lst)
+def calculate_density(mass, volume):
+        return mass / volume
