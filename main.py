@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def is_even(n):
+  def is_even(n):
         return n % 2 == 0
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
