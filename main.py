@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def find_min(numbers):
-        return min(numbers)
+  def convert_to_octal(n):
+        return oct(n)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
