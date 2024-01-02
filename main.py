@@ -1,5 +1,7 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
