@@ -1,6 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  def add_numbers(x, y):
+        return x + y
