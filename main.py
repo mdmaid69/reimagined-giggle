@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
