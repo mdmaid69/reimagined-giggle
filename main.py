@@ -1,5 +1,8 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
