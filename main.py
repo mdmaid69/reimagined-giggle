@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
