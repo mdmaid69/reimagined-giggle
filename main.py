@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def count_characters(sentence):
-        return len(sentence)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def add_numbers(x, y):
+        return x + y
