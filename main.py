@@ -1,5 +1,4 @@
-name = "Python"
-print("Hello,", name)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_power(work, time):
+        return work / time
+def add_numbers(x, y):
+        return x + y
