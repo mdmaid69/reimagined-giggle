@@ -1,6 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
