@@ -1,6 +1,7 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+x = 10
+y = 20
+print("Sum:", x + y)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
