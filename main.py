@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
