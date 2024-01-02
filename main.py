@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
