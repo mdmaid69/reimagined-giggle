@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def set_array_item(array, i, item):
+        array[i] = item
+import datetime
+print(datetime.datetime.now())
