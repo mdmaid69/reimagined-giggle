@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
