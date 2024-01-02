@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def cube_number(x):
-        return x**3
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
