@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
