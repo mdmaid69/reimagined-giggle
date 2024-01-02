@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
