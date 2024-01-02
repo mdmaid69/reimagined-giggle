@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_density(mass, volume):
-        return mass / volume
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
