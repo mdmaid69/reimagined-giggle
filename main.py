@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
