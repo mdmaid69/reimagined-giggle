@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  def is_even(n):
+        return n % 2 == 0
