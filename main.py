@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_power(work, time):
-        return work / time
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def add_numbers(x, y):
+        return x + y
