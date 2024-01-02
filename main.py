@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_area(radius):
+        return 3.14 * radius * radius
