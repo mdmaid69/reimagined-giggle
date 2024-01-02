@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
