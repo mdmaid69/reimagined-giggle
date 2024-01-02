@@ -1,5 +1,8 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import random
-print(random.randint(0, 100))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import datetime
+def get_today_date():
+        return datetime.date.today()
