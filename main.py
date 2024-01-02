@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
