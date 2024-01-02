@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import numpy as np
+print(np.array([1, 2, 3]))
