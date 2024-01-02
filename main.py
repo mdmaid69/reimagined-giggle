@@ -1,5 +1,9 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+def calculate_pressure(force, area):
+        return force / area
