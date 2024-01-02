@@ -1,6 +1,6 @@
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
 import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def create_user_list():
+        return collections.UserList()
