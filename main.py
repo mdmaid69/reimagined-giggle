@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
