@@ -1,8 +1,8 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def get_array_length(array):
-        return len(array)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
