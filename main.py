@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
