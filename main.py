@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+for i in range(10): print(i)
