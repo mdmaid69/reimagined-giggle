@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
 import math
-print(math.pi)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def multiply_numbers(x, y):
+        return x * y
