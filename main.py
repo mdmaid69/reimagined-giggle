@@ -1,4 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def is_odd(n):
-        return n % 2 != 0
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
