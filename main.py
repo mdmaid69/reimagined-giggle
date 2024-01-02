@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
