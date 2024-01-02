@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
