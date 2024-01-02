@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def get_array_length(array):
+        return len(array)
