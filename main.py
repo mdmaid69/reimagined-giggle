@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def find_min(lst):
+        return min(lst)
