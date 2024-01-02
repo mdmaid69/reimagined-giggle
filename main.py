@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def find_min(lst):
+        return min(lst)
