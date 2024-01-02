@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_density(mass, volume):
-        return mass / volume
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
