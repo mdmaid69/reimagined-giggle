@@ -1,5 +1,7 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def convert_to_hex(n):
+        return hex(n)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
