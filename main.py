@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
