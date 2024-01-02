@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
