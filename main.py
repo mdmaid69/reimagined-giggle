@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
