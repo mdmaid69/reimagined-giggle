@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def set_array_item(array, i, item):
+        array[i] = item
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
