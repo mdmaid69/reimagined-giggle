@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import platform
+def get_python_version():
+        return platform.python_version()
