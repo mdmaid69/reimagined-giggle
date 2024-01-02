@@ -1,6 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
