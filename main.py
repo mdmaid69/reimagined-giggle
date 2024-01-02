@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
