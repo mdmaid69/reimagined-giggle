@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
