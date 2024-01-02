@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def get_array_as_list(array):
+        return list(array)
+  def cube_number(x):
+        return x**3
