@@ -1,5 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-def greet(name):
-        print(f"Hello, {name}!")
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
