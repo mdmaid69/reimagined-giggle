@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import time
-print(time.time())
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
