@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import getpass
+def get_username():
+        return getpass.getuser()
