@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
