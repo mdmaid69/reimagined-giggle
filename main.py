@@ -1,8 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_volume(length, width, height):
+        return length * width * height
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def convert_array_to_string(array):
+        return array.tostring()
