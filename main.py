@@ -1,3 +1,6 @@
-import random
-print(random.randint(0, 100))
-print([x**2 for x in range(10)])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
