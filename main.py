@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_as_str(array):
+        return str(array)
