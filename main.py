@@ -1,7 +1,5 @@
-def square_number(x):
-        return x**2
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
