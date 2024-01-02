@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def convert_to_binary(n):
+        return bin(n)
