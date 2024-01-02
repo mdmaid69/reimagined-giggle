@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
