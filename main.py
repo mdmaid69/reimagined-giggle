@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
