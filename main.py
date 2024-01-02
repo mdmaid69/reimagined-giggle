@@ -1,8 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def count_characters(sentence):
+        return len(sentence)
