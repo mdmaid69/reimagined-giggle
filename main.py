@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
