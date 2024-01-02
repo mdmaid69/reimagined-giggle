@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import collections
+def create_priority_queue():
+        return collections.deque()
