@@ -1,6 +1,6 @@
+import array
+def reverse_array(array):
+        array.reverse()
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import getpass
-def get_username():
-        return getpass.getuser()
+  def delete_file(file_name):
+        os.remove(file_name)
