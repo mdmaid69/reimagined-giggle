@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
