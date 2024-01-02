@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_volume(length, width, height):
+        return length * width * height
