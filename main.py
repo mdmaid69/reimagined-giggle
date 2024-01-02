@@ -1,4 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-print(sum(range(10)))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_speed(distance, time):
+        return distance / time
