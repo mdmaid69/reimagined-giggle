@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
