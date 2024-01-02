@@ -1,8 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
