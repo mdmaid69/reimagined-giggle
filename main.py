@@ -1,5 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import re
+print(re.match("h.*o", "hello world"))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
