@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
