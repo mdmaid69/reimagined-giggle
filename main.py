@@ -1,8 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
