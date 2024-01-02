@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def extend_array(array, iterable):
+        array.extend(iterable)
