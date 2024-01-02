@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
