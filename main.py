@@ -1,7 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def sort_list(lst):
+        return sorted(lst)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
