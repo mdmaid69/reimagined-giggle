@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def find_max(numbers):
+        return max(numbers)
+def is_odd(n):
+        return n % 2 != 0
