@@ -1,4 +1,8 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import json
+def convert_to_json(data):
+        return json.dumps(data)
