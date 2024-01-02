@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
