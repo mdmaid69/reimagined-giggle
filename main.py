@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
