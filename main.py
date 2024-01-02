@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
