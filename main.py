@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
