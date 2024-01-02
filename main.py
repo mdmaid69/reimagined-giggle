@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import sys
+def print_python_version():
+        print(sys.version)
