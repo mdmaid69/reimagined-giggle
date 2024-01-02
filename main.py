@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_error_function(x):
+        return math.erf(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
