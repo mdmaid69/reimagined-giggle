@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_arc_cosine(x):
+        return math.acos(x)
