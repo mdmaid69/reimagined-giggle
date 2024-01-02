@@ -1,7 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
