@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
