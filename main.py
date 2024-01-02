@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
