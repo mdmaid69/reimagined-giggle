@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
