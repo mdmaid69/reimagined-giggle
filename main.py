@@ -1,6 +1,3 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+print([x**2 for x in range(10)])
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
