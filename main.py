@@ -1,6 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
