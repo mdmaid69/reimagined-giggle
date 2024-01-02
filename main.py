@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def find_unique_words(sentence):
-        return set(sentence.split())
+def is_even(n):
+        return n % 2 == 0
+def calculate_work(force, distance):
+        return force * distance
