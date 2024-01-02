@@ -1,7 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
