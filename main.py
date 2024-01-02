@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
