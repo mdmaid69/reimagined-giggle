@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
