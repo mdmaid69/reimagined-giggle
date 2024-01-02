@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
