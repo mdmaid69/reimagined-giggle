@@ -1,7 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
