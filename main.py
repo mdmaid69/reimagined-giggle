@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+def is_palindrome(s):
+        return s == s[::-1]
