@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
