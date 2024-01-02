@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import datetime
+def get_today_date():
+        return datetime.date.today()
