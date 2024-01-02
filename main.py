@@ -1,6 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
