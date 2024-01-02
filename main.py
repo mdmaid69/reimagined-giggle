@@ -1,5 +1,6 @@
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
