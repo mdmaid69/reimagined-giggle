@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
