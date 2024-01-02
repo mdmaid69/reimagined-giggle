@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  def multiply_numbers(x, y):
+        return x * y
