@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def is_even(n):
+        return n % 2 == 0
+import platform
+def get_os_info():
+        return platform.uname()
