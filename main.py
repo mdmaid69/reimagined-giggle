@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_queue():
+        return collections.deque()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
