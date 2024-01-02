@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def subtract_numbers(x, y):
+        return x - y
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
