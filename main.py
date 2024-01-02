@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
