@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import logging
-def log_message(message):
-        logging.info(message)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
