@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_power(work, time):
+        return work / time
+x = 10
+y = 20
+print("Sum:", x + y)
