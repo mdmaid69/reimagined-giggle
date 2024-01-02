@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  def square_number(x):
-        return x**2
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
