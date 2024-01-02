@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import collections
+def create_user_list():
+        return collections.UserList()
