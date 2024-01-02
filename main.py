@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import numpy as np
-print(np.array([1, 2, 3]))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
