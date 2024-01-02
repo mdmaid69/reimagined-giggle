@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def reverse_list(lst):
+        return lst[::-1]
+import time
+def get_time_since_epoch():
+        return time.time()
