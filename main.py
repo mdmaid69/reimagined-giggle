@@ -1,5 +1,6 @@
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def remove_from_array(array, item):
+        array.remove(item)
