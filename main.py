@@ -1,6 +1,6 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
