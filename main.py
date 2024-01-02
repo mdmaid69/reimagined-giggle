@@ -1,6 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
