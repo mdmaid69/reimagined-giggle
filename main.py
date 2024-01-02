@@ -1,6 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Words:", len(text.split()))
