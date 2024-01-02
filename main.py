@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
