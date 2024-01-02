@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
