@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import collections
+def create_stack():
+        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
