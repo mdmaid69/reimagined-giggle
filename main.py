@@ -1,8 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def convert_to_octal(n):
+        return oct(n)
