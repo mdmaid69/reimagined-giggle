@@ -1,5 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+from collections import Counter
+print(Counter("hello world"))
