@@ -1,5 +1,6 @@
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
