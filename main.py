@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def square_number(x):
+        return x**2
