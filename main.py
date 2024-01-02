@@ -1,4 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  def is_even(n):
-        return n % 2 == 0
+  def cube_number(x):
+        return x**3
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
