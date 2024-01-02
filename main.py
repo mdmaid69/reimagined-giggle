@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def is_even(n):
-        return n % 2 == 0
+import time
+def get_current_time():
+        return time.time()
+def subtract_numbers(x, y):
+        return x - y
