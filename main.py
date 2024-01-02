@@ -1,8 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
