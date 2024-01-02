@@ -1,5 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def get_array_typecode(array):
+        return array.typecode
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
