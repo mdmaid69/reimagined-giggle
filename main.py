@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+text = "Hello, world!"
+print("Reversed:", text[::-1])
