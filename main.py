@@ -1,7 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-i = 0
-while i < 5:
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+for i in range(5):
         print(i)
-        i += 1
