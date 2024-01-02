@@ -1,6 +1,6 @@
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
