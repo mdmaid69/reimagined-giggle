@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
