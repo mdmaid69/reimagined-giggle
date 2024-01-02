@@ -1,6 +1,5 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def create_user_dict():
+        return collections.UserDict()
+  def add_numbers(x, y):
+        return x + y
