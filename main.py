@@ -1,5 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  def is_even(n):
+        return n % 2 == 0
