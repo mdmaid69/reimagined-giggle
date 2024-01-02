@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_cosine(x):
+        return math.cos(x)
