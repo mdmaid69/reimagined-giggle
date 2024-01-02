@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import time
+def get_current_time():
+        return time.ctime()
