@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
