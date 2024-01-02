@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import getpass
+def get_username():
+        return getpass.getuser()
