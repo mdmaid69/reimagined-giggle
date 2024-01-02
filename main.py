@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-from collections import Counter
-print(Counter("hello world"))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
