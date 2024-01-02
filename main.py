@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
