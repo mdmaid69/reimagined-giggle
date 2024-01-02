@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import collections
+def create_user_string():
+        return collections.UserString()
