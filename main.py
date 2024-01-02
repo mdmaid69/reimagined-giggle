@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
