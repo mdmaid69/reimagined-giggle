@@ -1,5 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
