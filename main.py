@@ -1,7 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
