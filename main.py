@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def is_even(n):
-        return n % 2 == 0
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
