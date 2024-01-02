@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def get_array_typecode(array):
+        return array.typecode
