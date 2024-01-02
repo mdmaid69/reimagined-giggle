@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def cube_number(x):
+        return x**3
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
