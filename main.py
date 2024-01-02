@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def is_palindrome(s):
+        return s == s[::-1]
