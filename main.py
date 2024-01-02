@@ -1,6 +1,5 @@
 import os
-def remove_directory(path):
-        os.rmdir(path)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+print(os.getcwd())
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
