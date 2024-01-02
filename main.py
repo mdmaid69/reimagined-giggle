@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
