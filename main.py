@@ -1,4 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
