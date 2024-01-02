@@ -1,6 +1,6 @@
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
