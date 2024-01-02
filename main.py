@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import random
-print(random.randint(0, 100))
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
