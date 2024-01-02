@@ -1,5 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
