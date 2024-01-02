@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import collections
-def create_stack():
-        return collections.deque()
+def find_min(numbers):
+        return min(numbers)
+import getpass
+def get_username():
+        return getpass.getuser()
