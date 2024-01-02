@@ -1,5 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+def cube_number(x):
+        return x**3
+def find_min(lst):
+        return min(lst)
