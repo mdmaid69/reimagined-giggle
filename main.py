@@ -1,6 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
