@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
