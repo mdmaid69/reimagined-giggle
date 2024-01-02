@@ -1,6 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def is_even(n):
+        return n % 2 == 0
+  def convert_to_hex(n):
+        return hex(n)
