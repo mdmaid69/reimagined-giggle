@@ -1,6 +1,8 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
