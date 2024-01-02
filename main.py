@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
