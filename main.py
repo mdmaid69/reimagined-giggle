@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+from collections import Counter
+print(Counter("hello world"))
