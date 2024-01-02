@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
