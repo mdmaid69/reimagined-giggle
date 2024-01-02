@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
