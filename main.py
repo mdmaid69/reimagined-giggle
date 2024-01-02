@@ -1,8 +1,7 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def convert_to_hex(n):
+        return hex(n)
