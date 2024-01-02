@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
