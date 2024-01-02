@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
