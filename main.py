@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def get_current_working_directory():
+        return os.getcwd()
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
