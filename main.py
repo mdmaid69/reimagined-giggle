@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
