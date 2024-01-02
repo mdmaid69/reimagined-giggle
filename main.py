@@ -1,6 +1,8 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
