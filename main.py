@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
