@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import random
+print(random.randint(0, 100))
