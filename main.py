@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
