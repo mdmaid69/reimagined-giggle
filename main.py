@@ -1,5 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_pressure(force, area):
+        return force / area
