@@ -1,4 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-for i in range(10): print(i)
+def find_max(lst):
+        return max(lst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
