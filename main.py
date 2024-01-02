@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
