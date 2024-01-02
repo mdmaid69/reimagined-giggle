@@ -1,5 +1,8 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
