@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_volume(length, width, height):
+        return length * width * height
