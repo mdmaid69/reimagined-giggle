@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
 import logging
-def log_message(message):
-        logging.info(message)
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
