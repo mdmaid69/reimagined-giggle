@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_work(force, distance):
+        return force * distance
