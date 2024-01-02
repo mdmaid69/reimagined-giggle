@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def multiply_numbers(x, y):
+        return x * y
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
