@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
