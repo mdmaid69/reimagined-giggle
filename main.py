@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
