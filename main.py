@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
