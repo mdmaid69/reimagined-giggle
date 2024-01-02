@@ -1,4 +1,7 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
