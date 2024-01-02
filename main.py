@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
