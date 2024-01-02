@@ -1,3 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-for i in range(10): print(i)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
