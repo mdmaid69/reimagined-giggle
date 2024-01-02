@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
