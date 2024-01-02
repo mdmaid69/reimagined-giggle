@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_speed(distance, time):
+        return distance / time
+import collections
+def create_stack():
+        return collections.deque()
