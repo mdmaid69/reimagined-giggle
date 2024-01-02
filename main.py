@@ -1,7 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import os
+print(os.getcwd())
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
