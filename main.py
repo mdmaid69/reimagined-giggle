@@ -1,5 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import json
-print(json.dumps({"name": "John", "age": 30}))
+for i in range(10): print(i)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
