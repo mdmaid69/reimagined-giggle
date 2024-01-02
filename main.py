@@ -1,5 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
