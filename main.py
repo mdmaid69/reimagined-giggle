@@ -1,5 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_pressure(force, area):
+        return force / area
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
