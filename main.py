@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import sys
-def exit_program():
-        sys.exit()
+import collections
+def create_queue():
+        return collections.deque()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
