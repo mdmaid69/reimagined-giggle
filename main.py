@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_as_repr(array):
+        return repr(array)
