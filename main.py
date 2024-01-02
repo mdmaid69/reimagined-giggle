@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def clear_array(array):
+        array *= 0
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
