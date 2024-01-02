@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def add_numbers(x, y):
-        return x + y
+import collections
+def create_priority_queue():
+        return collections.deque()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
