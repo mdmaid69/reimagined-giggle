@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def count_elements(lst):
-        return len(lst)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
