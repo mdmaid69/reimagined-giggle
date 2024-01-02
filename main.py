@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
