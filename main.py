@@ -1,6 +1,7 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
