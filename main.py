@@ -1,6 +1,7 @@
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def get_base_name(path):
+        return os.path.basename(path)
