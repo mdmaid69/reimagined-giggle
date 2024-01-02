@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_length(array):
-        return len(array)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
