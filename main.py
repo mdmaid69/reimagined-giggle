@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
