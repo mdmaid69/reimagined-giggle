@@ -1,5 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
