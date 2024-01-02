@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def multiply_numbers(x, y):
-        return x * y
+def calculate_work(force, distance):
+        return force * distance
+import json
+print(json.dumps({"name": "John", "age": 30}))
