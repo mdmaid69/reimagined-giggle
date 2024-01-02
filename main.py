@@ -1,3 +1,6 @@
-print("Hello, world!")
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
