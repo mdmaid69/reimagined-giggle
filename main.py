@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def sort_list(lst):
-        return sorted(lst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
