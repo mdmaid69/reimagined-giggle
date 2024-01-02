@@ -1,7 +1,7 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import collections
+def create_priority_queue():
+        return collections.deque()
