@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
