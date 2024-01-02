@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def square_number(x):
-        return x**2
+def calculate_work(force, distance):
+        return force * distance
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
