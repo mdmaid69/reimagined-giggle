@@ -1,8 +1,10 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
