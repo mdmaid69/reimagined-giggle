@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
