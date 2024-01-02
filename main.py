@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import tensorflow as tf
-print(tf.__version__)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
