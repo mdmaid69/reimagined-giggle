@@ -1,6 +1,7 @@
 import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
