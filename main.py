@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
