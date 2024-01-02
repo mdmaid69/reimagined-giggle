@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
