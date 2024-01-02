@@ -1,7 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
