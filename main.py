@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_pressure(force, area):
-        return force / area
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
