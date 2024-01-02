@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
