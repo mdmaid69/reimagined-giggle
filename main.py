@@ -1,5 +1,5 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import sys
-print(sys.version)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
