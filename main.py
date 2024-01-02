@@ -1,6 +1,9 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
