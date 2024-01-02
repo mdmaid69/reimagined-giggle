@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_pressure(force, area):
+        return force / area
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
