@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import datetime
+def get_today_date():
+        return datetime.date.today()
