@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
