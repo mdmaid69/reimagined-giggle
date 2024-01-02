@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
