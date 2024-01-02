@@ -1,5 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
