@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_as_str(array):
+        return str(array)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
