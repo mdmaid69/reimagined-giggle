@@ -1,6 +1,7 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
