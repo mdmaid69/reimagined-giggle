@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
