@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def count_elements(lst):
+        return len(lst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
