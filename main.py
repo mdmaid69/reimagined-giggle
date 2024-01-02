@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
