@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
