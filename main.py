@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
