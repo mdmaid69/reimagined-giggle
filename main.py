@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
