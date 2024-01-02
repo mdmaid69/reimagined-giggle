@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import array
+def clear_array(array):
+        array *= 0
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
