@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def is_odd(n):
+        return n % 2 != 0
