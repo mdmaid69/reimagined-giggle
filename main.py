@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
