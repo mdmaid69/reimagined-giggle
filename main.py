@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_pressure(force, area):
-        return force / area
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
