@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
