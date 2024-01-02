@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_speed(distance, time):
+        return distance / time
