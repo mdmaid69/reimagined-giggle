@@ -1,5 +1,4 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def convert_to_octal(n):
-        return oct(n)
+def is_odd(n):
+        return n % 2 != 0
+def calculate_average(lst):
+        return sum(lst) / len(lst)
