@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
