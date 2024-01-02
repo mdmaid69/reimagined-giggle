@@ -1,5 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_sine(x):
+        return math.sin(x)
