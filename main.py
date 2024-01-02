@@ -1,7 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import sys
+def print_python_version():
+        return sys.version
