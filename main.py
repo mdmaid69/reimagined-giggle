@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
