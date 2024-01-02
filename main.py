@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def square_number(x):
+        return x**2
+def calculate_density(mass, volume):
+        return mass / volume
