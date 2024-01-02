@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-print(math.pi)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
