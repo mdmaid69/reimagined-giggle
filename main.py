@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
