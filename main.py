@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
