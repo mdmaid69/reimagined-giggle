@@ -1,5 +1,6 @@
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
