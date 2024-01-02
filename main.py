@@ -1,6 +1,8 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
