@@ -1,6 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_speed(distance, time):
+        return distance / time
