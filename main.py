@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def square_number(x):
+        return x**2
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
