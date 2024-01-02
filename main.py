@@ -1,6 +1,5 @@
-for i in range(10): print(i)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
