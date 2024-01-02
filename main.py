@@ -1,4 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-print([x**2 for x in range(10)])
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_volume(length, width, height):
+        return length * width * height
