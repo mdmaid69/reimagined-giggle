@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_error_function(x):
+        return math.erf(x)
