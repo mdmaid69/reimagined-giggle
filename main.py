@@ -1,8 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import time
+def get_current_time():
+        return time.time()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
