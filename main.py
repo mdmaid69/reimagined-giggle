@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
