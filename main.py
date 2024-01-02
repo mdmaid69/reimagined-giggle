@@ -1,6 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import time
-def get_current_time():
-        return time.ctime()
+import sys
+def exit_program():
+        sys.exit()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
