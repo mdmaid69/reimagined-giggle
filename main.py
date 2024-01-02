@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
