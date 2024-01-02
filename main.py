@@ -1,5 +1,8 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
