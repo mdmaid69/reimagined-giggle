@@ -1,6 +1,8 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
