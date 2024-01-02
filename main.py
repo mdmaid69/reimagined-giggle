@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import sys
-def print_python_version():
-        print(sys.version)
+import time
+def get_current_time():
+        return time.time()
+def calculate_density(mass, volume):
+        return mass / volume
