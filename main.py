@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-name = "Python"
-print("Hello,", name)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
