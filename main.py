@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
