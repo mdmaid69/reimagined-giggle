@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_typecode(array):
+        return array.typecode
