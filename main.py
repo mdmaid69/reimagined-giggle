@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import collections
+def create_queue():
+        return collections.deque()
