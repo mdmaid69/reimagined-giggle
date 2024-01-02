@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
