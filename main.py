@@ -1,5 +1,7 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def cube_number(x):
-        return x**3
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
