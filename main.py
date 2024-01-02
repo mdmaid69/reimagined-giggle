@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def cube_number(x):
+        return x**3
+def calculate_perpetuity(payment, rate):
+        return payment / rate
