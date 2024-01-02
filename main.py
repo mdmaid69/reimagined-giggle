@@ -1,6 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
