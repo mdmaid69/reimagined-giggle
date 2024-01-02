@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import sys
-def print_python_version():
-        print(sys.version)
+import tensorflow as tf
+print(tf.__version__)
+import os
+def get_current_working_directory():
+        return os.getcwd()
