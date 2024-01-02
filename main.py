@@ -1,4 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-print(sum(range(10)))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
