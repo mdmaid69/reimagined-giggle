@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def square_number(x):
-        return x**2
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
