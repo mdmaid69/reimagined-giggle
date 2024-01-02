@@ -1,5 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-def reverse_list(lst):
-        return lst[::-1]
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
