@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def count_elements(lst):
+        return len(lst)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
