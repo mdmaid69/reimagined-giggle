@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
