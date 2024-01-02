@@ -1,10 +1,6 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
