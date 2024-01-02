@@ -1,6 +1,5 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def multiply_numbers(x, y):
+        return x * y
