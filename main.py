@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import sys
+def print_python_version():
+        print(sys.version)
