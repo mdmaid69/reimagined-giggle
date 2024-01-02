@@ -1,5 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
