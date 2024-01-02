@@ -1,3 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-print(sum(range(10)))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
