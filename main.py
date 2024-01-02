@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-def square_number(x):
-        return x**2
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
