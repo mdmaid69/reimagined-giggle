@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
