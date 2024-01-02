@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
