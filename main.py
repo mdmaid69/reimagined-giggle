@@ -1,5 +1,7 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
