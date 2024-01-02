@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  def multiply_numbers(x, y):
+        return x * y
