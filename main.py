@@ -1,6 +1,6 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
