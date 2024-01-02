@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+text = "Hello, world!"
+print("Characters:", len(text))
