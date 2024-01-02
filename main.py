@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+print(math.pi)
+def find_max(numbers):
+        return max(numbers)
