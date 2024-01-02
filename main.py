@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
