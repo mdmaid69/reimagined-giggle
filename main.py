@@ -1,7 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
