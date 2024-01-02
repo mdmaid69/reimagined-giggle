@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
