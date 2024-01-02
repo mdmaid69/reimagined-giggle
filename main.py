@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def calculate_density(mass, volume):
-        return mass / volume
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import platform
+def get_os_info():
+        return platform.uname()
