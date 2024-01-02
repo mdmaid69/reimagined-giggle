@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def square_number(x):
+        return x**2
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
