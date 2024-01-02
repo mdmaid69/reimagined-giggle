@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_power(work, time):
-        return work / time
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
