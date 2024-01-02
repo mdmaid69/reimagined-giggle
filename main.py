@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_as_repr(array):
+        return repr(array)
