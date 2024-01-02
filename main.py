@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import array
+def get_array_as_set(array):
+        return set(array)
