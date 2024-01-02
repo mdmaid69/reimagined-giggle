@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
