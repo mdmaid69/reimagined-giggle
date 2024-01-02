@@ -1,6 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import sys
-def exit_program():
-        sys.exit()
+def square_number(x):
+        return x**2
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
