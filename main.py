@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
