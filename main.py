@@ -1,8 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_bool(array):
+        return bool(array)
