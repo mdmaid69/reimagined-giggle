@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
