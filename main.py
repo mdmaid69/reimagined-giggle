@@ -1,6 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def reverse_array(array):
+        array.reverse()
