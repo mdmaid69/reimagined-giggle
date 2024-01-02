@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+text = "Hello, world!"
+print("Words:", len(text.split()))
