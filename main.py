@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_speed(distance, time):
+        return distance / time
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
