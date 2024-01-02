@@ -1,5 +1,8 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-def find_max(numbers):
-        return max(numbers)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
