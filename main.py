@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
