@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_as_int(array):
+        return int(array[0])
