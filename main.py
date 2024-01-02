@@ -1,5 +1,6 @@
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def cube_number(x):
-        return x**3
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
