@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-text = "Hello, world!"
-print("Characters:", len(text))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  def count_elements(lst):
+        return len(lst)
