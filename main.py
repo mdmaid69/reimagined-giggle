@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  def multiply_numbers(x, y):
-        return x * y
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
