@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def add_numbers(x, y):
-        return x + y
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
