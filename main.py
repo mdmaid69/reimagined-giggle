@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
