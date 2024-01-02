@@ -1,4 +1,8 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def count_words(sentence):
+        return len(sentence.split())
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
