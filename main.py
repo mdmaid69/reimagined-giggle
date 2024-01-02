@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def convert_to_binary(n):
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  def convert_to_binary(n):
         return bin(n)
