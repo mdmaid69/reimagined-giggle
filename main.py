@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
