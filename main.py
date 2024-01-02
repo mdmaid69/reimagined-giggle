@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+def calculate_power(work, time):
+        return work / time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
