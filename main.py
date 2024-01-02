@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
