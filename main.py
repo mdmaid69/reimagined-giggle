@@ -1,6 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def get_array_as_bytes(array):
+        return bytes(array)
