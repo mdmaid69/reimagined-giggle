@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import sys
+def print_python_version():
+        return sys.version
