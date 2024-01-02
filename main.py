@@ -1,8 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def is_even(n):
+        return n % 2 == 0
+  def convert_to_hex(n):
+        return hex(n)
