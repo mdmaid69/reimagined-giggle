@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import json
+print(json.dumps({"name": "John", "age": 30}))
