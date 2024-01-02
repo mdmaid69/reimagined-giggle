@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import collections
+def create_user_list():
+        return collections.UserList()
