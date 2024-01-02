@@ -1,7 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
