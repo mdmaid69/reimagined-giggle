@@ -1,6 +1,6 @@
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_sine(x):
+        return math.sin(x)
