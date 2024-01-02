@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def cube_number(x):
-        return x**3
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
