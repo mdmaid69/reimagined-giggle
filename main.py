@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
