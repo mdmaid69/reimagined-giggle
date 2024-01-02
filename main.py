@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
