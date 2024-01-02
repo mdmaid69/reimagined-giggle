@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import sys
-print(sys.version)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
