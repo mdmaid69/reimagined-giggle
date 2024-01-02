@@ -1,5 +1,4 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  def convert_to_octal(n):
+        return oct(n)
