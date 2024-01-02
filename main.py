@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def get_array_typecode(array):
+        return array.typecode
+import getpass
+def get_username():
+        return getpass.getuser()
