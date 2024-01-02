@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
