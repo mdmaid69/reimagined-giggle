@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
