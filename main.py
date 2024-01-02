@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
