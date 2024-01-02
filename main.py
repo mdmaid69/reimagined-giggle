@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import platform
+def get_python_version():
+        return platform.python_version()
+x = 10
+y = 20
+print("Sum:", x + y)
