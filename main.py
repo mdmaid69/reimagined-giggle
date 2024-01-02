@@ -1,6 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def add_numbers(x, y):
+        return x + y
+def remove_duplicates(lst):
+        return list(set(lst))
