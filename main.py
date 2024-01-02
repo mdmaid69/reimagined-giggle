@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import platform
+def get_os_info():
+        return platform.uname()
