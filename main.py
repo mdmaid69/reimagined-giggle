@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
