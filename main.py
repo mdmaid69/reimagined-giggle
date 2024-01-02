@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
