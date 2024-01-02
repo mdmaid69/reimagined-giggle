@@ -1,8 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
