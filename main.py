@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import sys
+def exit_program():
+        sys.exit()
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
