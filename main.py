@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
