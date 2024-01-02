@@ -1,5 +1,8 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
