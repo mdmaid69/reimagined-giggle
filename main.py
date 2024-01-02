@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
