@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
