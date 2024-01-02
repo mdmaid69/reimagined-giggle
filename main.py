@@ -1,6 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
