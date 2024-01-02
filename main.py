@@ -1,4 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_power(work, time):
+        return work / time
+  def calculate_area_circle(r):
+        return 3.14 * r**2
