@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_area(radius):
+        return 3.14 * radius * radius
