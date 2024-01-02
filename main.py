@@ -1,6 +1,12 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
