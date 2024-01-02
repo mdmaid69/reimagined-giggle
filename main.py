@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
