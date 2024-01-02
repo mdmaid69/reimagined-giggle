@@ -1,10 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
