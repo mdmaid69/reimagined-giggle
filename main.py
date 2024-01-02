@@ -1,6 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def get_list_from_array(array):
+        return array.tolist()
