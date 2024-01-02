@@ -1,6 +1,8 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
