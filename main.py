@@ -1,8 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
