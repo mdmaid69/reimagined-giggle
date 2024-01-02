@@ -1,12 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
