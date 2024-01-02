@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
