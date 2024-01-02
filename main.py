@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def get_array_item(array, i):
-        return array[i]
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
