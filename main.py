@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
