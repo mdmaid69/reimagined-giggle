@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
