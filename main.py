@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
