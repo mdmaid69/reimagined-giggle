@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import collections
+def create_queue():
+        return collections.deque()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
