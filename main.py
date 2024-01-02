@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
