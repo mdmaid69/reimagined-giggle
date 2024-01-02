@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def divide_numbers(x, y):
+        return x / y
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
