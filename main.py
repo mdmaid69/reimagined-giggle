@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_volume(length, width, height):
-        return length * width * height
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
