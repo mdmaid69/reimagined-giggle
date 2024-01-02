@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_pressure(force, area):
+        return force / area
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
