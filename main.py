@@ -1,8 +1,4 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def is_even(n):
+        return n % 2 == 0
+def find_min(numbers):
+        return min(numbers)
