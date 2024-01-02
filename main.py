@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
