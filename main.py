@@ -1,5 +1,9 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
