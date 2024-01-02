@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
