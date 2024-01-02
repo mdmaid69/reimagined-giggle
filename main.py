@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
