@@ -1,7 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
