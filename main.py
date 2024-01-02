@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
