@@ -1,4 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def sort_list(lst):
-        return sorted(lst)
+def calculate_density(mass, volume):
+        return mass / volume
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
