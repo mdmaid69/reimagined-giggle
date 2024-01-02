@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
