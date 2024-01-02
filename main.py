@@ -1,5 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
