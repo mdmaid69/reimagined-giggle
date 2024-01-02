@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
