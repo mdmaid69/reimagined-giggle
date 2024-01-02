@@ -1,6 +1,9 @@
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
