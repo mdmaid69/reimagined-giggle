@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
