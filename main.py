@@ -1,9 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+x = 10
+y = 20
+print("Sum:", x + y)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
