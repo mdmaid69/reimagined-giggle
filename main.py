@@ -1,5 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def append_to_array(array, item):
+        array.append(item)
