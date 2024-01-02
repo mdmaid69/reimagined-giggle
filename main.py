@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def add_numbers(a, b):
-        return a + b
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def get_array_length(array):
+        return len(array)
