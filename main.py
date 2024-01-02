@@ -1,7 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
