@@ -1,8 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import datetime
+def get_current_date():
+        return datetime.date.today()
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_array_to_unicode(array):
+        return array.tounicode()
