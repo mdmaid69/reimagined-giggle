@@ -1,7 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
