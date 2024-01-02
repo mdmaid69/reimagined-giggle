@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
