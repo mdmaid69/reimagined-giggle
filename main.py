@@ -1,5 +1,8 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
