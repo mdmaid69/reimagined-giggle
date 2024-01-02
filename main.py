@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import tensorflow as tf
+print(tf.__version__)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
