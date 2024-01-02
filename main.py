@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_pressure(force, area):
-        return force / area
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
