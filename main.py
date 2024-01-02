@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
