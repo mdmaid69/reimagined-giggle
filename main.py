@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
