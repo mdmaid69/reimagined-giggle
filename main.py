@@ -1,8 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
