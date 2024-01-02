@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import platform
+def get_os_info():
+        return platform.uname()
