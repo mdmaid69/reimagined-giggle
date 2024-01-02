@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
