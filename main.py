@@ -1,8 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def reverse_list(lst):
+        return lst[::-1]
