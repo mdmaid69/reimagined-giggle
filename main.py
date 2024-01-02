@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
