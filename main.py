@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
