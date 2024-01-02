@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
