@@ -1,5 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
