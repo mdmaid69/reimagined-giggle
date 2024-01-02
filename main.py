@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import platform
+def get_python_version():
+        return platform.python_version()
+def count_elements(lst):
+        return len(lst)
