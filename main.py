@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
