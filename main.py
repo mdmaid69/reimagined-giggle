@@ -1,6 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def square_number(x):
+        return x**2
+def calculate_area(radius):
+        return 3.14 * radius * radius
