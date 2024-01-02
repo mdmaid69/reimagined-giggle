@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import logging
+def log_message(message):
+        logging.info(message)
+def cube_number(x):
+        return x**3
