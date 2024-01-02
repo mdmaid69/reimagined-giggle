@@ -1,7 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
