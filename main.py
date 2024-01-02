@@ -1,7 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_floor(x):
+        return math.floor(x)
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def convert_array_to_unicode(array):
+        return array.tounicode()
