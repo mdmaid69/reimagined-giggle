@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
