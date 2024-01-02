@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
