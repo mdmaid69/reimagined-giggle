@@ -1,5 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
