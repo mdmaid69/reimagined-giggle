@@ -1,6 +1,6 @@
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
