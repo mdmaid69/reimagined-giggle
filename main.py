@@ -1,5 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def find_min(numbers):
-        return min(numbers)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Reversed:", text[::-1])
