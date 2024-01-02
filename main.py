@@ -1,7 +1,8 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
