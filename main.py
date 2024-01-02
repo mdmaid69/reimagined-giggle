@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import numpy as np
+print(np.array([1, 2, 3]))
