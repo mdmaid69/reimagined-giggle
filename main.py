@@ -1,6 +1,7 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
