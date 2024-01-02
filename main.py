@@ -1,4 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def count_elements(lst):
-        return len(lst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def remove_duplicates(lst):
+        return list(set(lst))
