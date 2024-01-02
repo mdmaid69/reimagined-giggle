@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+name = "Python"
+print("Hello,", name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
