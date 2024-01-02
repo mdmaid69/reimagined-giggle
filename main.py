@@ -1,6 +1,9 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import math
+def calculate_sine(x):
+        return math.sin(x)
