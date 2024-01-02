@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
