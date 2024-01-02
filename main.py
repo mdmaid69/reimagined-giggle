@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
