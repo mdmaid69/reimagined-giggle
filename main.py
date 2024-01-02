@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
