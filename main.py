@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_volume(length, width, height):
+        return length * width * height
+import os
+def get_current_working_directory():
+        return os.getcwd()
