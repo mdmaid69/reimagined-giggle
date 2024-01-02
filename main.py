@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_bytes(array):
+        return bytes(array)
+name = "Python"
+print("Hello,", name)
