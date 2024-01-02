@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def add_numbers(x, y):
+        return x + y
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
