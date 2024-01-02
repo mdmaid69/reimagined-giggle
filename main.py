@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
