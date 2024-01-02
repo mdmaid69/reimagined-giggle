@@ -1,5 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
