@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
