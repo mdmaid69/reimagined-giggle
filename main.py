@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_acceleration(speed, time):
+        return speed / time
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def convert_array_to_bytes(array):
+        return array.tobytes()
