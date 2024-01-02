@@ -1,4 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_volume(length, width, height):
-        return length * width * height
+import os
+print(os.getcwd())
+  def calculate_area_circle(r):
+        return 3.14 * r**2
