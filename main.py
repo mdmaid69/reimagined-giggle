@@ -1,8 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+def count_words(sentence):
+        return len(sentence.split())
