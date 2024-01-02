@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_ceiling(x):
+        return math.ceil(x)
