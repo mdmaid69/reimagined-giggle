@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
