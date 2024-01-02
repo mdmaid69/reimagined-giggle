@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import collections
-def create_priority_queue():
-        return collections.deque()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
