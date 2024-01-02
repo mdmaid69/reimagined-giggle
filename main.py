@@ -1,6 +1,5 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
