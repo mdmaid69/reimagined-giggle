@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
