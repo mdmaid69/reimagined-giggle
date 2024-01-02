@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def is_palindrome(s):
-        return s == s[::-1]
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
