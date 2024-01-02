@@ -1,7 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
