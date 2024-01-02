@@ -1,5 +1,6 @@
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_error_function(x):
+        return math.erf(x)
