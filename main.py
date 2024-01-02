@@ -1,5 +1,9 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
