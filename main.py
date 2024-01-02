@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
