@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+text = "Hello, world!"
+print("Characters:", len(text))
