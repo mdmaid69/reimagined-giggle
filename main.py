@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
