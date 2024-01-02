@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
