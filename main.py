@@ -1,5 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  def is_odd(n):
+        return n % 2 != 0
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
