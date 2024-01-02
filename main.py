@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
