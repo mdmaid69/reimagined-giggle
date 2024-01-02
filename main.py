@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
