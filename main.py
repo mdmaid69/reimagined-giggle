@@ -1,6 +1,6 @@
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
