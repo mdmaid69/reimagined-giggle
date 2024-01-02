@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def clear_array(array):
+        array *= 0
+text = "Hello, world!"
+print("Reversed:", text[::-1])
