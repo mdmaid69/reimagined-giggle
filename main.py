@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
