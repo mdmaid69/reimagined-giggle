@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_index(array, item):
+        return array.index(item)
