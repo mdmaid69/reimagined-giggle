@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def is_even(n):
+        return n % 2 == 0
