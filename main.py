@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def get_array_item(array, i):
-        return array[i]
+from collections import Counter
+print(Counter("hello world"))
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
