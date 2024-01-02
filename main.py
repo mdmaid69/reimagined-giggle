@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
