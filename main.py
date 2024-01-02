@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
