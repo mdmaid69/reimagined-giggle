@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import re
+print(re.match("h.*o", "hello world"))
