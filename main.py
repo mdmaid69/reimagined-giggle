@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+text = "Hello, world!"
+print("Uppercase:", text.upper())
