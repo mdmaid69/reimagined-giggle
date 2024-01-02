@@ -1,6 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
