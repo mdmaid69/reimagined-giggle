@@ -1,6 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_sine(x):
+        return math.sin(x)
