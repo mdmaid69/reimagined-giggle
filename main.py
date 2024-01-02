@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def calculate_power(work, time):
+        return work / time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
