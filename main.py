@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
