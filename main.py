@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
