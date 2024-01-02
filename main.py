@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
