@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+import datetime
+def get_today_date():
+        return datetime.date.today()
