@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_arc_tangent(x):
+        return math.atan(x)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
