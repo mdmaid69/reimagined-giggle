@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
