@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def count_elements(lst):
-        return len(lst)
+import sys
+def print_python_version():
+        print(sys.version)
+import sys
+def exit_program():
+        sys.exit()
