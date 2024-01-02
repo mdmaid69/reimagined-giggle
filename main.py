@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_set(array):
+        return set(array)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
