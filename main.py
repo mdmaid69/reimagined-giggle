@@ -1,7 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import sys
+def print_python_version():
+        print(sys.version)
