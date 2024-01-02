@@ -1,12 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+text = "Hello, world!"
+print("Words:", len(text.split()))
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
