@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
