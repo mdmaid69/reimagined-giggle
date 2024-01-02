@@ -1,7 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
