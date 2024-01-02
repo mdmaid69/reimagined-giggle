@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def convert_to_binary(n):
+        return bin(n)
