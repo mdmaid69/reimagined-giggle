@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def convert_to_hex(n):
-        return hex(n)
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
