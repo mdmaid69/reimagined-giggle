@@ -1,6 +1,3 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+for i in range(10): print(i)
