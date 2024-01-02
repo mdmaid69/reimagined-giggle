@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
