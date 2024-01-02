@@ -1,6 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_sine(x):
+        return math.sin(x)
