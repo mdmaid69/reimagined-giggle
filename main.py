@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import platform
+def get_python_version():
+        return platform.python_version()
