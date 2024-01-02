@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def calculate_area_rectangle(l, w):
+        return l * w
