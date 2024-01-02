@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import collections
-def create_counter():
-        return collections.Counter()
+def reverse_list(lst):
+        return lst[::-1]
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
