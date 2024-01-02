@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
