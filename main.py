@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import datetime
+print(datetime.datetime.now())
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
