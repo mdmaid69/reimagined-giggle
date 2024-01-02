@@ -1,5 +1,6 @@
 import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
