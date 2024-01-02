@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
