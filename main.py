@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def find_min(lst):
+        return min(lst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
