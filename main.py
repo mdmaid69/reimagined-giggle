@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def convert_to_octal(n):
-        return oct(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
