@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
