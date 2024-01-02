@@ -1,8 +1,5 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import time
+def get_current_time():
+        return time.ctime()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
