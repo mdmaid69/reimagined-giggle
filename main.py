@@ -1,6 +1,7 @@
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
