@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
