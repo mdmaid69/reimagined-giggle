@@ -1,6 +1,8 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
