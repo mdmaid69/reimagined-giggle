@@ -1,5 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def is_even(n):
+        return n % 2 == 0
+text = "Hello, world!"
+print("Characters:", len(text))
