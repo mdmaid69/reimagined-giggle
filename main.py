@@ -1,6 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
