@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import random
+print(random.randint(0, 100))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
