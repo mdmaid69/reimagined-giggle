@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import re
+print(re.match("h.*o", "hello world"))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
