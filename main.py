@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_current_working_directory():
+        return os.getcwd()
