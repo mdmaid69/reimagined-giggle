@@ -1,6 +1,6 @@
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
 import array
-def get_array_as_list(array):
-        return list(array)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_array_as_complex(array):
+        return complex(array[0])
