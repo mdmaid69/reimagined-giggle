@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
