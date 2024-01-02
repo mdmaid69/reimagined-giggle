@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def find_min(numbers):
+        return min(numbers)
