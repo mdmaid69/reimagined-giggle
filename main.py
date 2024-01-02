@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import os
+def remove_directory(path):
+        os.rmdir(path)
