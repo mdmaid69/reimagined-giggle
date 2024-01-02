@@ -1,7 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
