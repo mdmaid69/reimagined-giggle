@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def subtract_numbers(x, y):
-        return x - y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
