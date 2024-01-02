@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
