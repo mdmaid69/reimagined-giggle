@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
