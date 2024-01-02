@@ -1,4 +1,8 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
