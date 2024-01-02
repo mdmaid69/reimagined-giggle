@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def count_characters(sentence):
+        return len(sentence)
+import collections
+def create_counter():
+        return collections.Counter()
