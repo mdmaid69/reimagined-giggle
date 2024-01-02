@@ -1,7 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
