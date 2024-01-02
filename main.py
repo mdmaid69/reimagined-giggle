@@ -1,4 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-print([x**2 for x in range(10)])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
