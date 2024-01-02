@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_as_set(array):
+        return set(array)
