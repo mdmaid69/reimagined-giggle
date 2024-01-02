@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
