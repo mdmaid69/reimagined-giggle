@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
