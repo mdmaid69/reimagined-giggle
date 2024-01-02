@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
