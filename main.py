@@ -1,5 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_sign(x):
+        return math.copysign(1, x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
