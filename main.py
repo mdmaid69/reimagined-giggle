@@ -1,6 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
