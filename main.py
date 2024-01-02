@@ -1,6 +1,4 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def find_min(lst):
+        return min(lst)
+def calculate_power(work, time):
+        return work / time
