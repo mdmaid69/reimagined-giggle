@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import getpass
-def get_username():
-        return getpass.getuser()
+import sys
+print(sys.version)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
