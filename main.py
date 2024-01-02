@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
