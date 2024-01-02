@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import sys
+print(sys.version)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
