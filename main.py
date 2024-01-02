@@ -1,7 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def find_max(numbers):
+        return max(numbers)
+def calculate_area_circle(r):
+        return 3.14 * r**2
