@@ -1,6 +1,10 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
