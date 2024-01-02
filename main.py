@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
