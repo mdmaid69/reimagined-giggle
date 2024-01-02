@@ -1,11 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
