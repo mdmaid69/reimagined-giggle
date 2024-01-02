@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_tangent(x):
+        return math.tan(x)
