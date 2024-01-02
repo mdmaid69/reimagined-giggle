@@ -1,5 +1,8 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
