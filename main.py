@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_speed(distance, time):
+        return distance / time
+import getpass
+def get_username():
+        return getpass.getuser()
