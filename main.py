@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
