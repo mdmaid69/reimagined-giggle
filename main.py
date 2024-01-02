@@ -1,5 +1,7 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import datetime
-print(datetime.datetime.now())
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
