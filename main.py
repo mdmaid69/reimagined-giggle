@@ -1,5 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
