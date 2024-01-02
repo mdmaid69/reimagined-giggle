@@ -1,7 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
