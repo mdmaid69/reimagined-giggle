@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
