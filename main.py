@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import sys
-def print_python_version():
-        print(sys.version)
+for i in range(5):
+        print(i)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
