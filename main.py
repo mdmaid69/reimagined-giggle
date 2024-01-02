@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-from collections import Counter
-print(Counter("hello world"))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
