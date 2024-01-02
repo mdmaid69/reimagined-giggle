@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
+def convert_to_binary(n):
+        return bin(n)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
