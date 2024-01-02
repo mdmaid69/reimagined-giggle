@@ -1,6 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def reverse_list(lst):
+        return lst[::-1]
