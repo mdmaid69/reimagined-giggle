@@ -1,6 +1,5 @@
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def cube_number(x):
-        return x**3
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
