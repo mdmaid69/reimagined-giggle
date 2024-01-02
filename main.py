@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_area(radius):
+        return 3.14 * radius * radius
