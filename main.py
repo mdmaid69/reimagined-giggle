@@ -1,4 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-def calculate_volume(length, width, height):
-        return length * width * height
+import collections
+def create_queue():
+        return collections.deque()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
