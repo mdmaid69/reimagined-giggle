@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
