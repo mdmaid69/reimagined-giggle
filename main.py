@@ -1,5 +1,4 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
