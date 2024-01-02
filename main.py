@@ -1,6 +1,6 @@
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
