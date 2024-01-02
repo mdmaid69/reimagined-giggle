@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
