@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
