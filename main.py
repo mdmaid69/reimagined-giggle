@@ -1,7 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import collections
+def create_stack():
+        return collections.deque()
+def divide_numbers(x, y):
+        return x / y
