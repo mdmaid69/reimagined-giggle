@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def reverse_list(lst):
+        return lst[::-1]
