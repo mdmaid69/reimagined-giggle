@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import datetime
+print(datetime.datetime.now())
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
