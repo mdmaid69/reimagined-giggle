@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def is_odd(n):
+        return n % 2 != 0
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
