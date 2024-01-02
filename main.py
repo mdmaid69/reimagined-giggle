@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def cube_number(x):
-        return x**3
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
