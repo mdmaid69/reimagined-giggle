@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
