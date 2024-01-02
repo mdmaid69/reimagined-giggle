@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import sys
+def print_python_version():
+        return sys.version
