@@ -1,6 +1,8 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
