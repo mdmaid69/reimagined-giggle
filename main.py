@@ -1,6 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def convert_array_to_unicode(array):
+        return array.tounicode()
