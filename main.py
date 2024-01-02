@@ -1,5 +1,6 @@
 import sys
-def exit_program():
-        sys.exit()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
