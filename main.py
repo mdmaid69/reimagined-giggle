@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def add_numbers(a, b):
-        return a + b
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  def calculate_area_circle(r):
+        return 3.14 * r**2
