@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import collections
+def create_counter():
+        return collections.Counter()
