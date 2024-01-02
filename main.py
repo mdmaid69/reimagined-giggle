@@ -1,7 +1,6 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import time
-print(time.time())
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
