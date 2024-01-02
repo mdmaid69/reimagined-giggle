@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def divide_numbers(x, y):
+        return x / y
