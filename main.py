@@ -1,6 +1,7 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
