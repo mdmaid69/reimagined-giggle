@@ -1,6 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import array
-def get_string_from_array(array):
+def get_bytes_from_array(array):
         return array.tobytes()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
