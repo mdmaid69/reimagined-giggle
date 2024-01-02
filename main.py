@@ -1,6 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import time
+def get_time_since_epoch():
+        return time.time()
