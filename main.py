@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
