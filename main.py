@@ -1,6 +1,9 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
