@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
