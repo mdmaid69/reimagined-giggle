@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
