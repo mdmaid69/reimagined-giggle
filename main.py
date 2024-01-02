@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import platform
+def get_python_version():
+        return platform.python_version()
