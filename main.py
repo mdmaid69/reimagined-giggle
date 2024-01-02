@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import sys
+print(sys.version)
