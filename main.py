@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
