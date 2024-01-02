@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
