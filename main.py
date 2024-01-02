@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_area_circle(r):
+        return 3.14 * r**2
