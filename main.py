@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
