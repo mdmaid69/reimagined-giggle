@@ -1,5 +1,7 @@
-def divide_numbers(x, y):
-        return x / y
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
