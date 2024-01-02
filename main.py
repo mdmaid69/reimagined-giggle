@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
 import time
-def get_time_since_epoch():
-        return time.time()
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
