@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_repr(array):
+        return repr(array)
