@@ -1,5 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
