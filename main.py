@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
