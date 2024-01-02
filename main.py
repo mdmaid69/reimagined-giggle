@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def convert_to_binary(n):
+        return bin(n)
