@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
