@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
