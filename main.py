@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
