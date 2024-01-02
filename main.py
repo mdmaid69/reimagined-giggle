@@ -1,6 +1,7 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def set_array_item(array, i, item):
+        array[i] = item
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
