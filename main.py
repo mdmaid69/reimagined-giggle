@@ -1,6 +1,7 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
