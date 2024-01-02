@@ -1,6 +1,3 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def convert_to_octal(n):
+        return oct(n)
+print(sum(range(10)))
