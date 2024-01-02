@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
