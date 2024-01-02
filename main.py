@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_pressure(force, area):
+        return force / area
