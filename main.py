@@ -1,6 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
