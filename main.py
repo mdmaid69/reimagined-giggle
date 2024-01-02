@@ -1,6 +1,3 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+for i in range(10): print(i)
