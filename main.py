@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def sort_list(lst):
+        return sorted(lst)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
