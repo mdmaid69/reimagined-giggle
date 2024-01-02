@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def sort_list(lst):
+        return sorted(lst)
