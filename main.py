@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import sys
+def exit_program():
+        sys.exit()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
