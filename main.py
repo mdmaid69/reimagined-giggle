@@ -1,5 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import os
-print(os.getcwd())
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+print("Hello, world!")
