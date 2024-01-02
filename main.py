@@ -1,10 +1,4 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
