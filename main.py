@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
+def count_words(sentence):
+        return len(sentence.split())
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
