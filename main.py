@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def calculate_power(work, time):
+        return work / time
