@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import time
+def get_current_time():
+        return time.ctime()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
