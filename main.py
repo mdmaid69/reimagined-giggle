@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def convert_to_octal(n):
+        return oct(n)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
