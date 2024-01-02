@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  def reverse_list(lst):
+        return lst[::-1]
