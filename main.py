@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
