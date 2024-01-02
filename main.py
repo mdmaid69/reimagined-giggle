@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import collections
+def create_queue():
+        return collections.deque()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
