@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def subtract_numbers(x, y):
+        return x - y
