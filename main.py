@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
