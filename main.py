@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
