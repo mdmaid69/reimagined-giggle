@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def square_number(x):
+        return x**2
