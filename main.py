@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
