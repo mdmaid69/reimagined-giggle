@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def divide_numbers(x, y):
+        return x / y
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
