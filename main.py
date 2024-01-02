@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
