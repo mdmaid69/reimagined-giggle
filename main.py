@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def count_elements(lst):
+        return len(lst)
