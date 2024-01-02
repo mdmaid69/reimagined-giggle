@@ -1,5 +1,4 @@
-print("Hello, world!")
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def is_even(n):
+        return n % 2 == 0
