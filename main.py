@@ -1,6 +1,12 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import time
+def get_current_time():
+        return time.time()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
