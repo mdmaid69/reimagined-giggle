@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def is_even(n):
-        return n % 2 == 0
+def calculate_power(work, time):
+        return work / time
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
