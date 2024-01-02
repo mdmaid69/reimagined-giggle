@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_acceleration(speed, time):
-        return speed / time
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def reverse_list(lst):
+        return lst[::-1]
