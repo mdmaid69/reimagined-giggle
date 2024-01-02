@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def remove_duplicates(lst):
+        return list(set(lst))
