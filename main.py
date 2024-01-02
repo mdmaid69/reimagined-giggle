@@ -1,6 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+name = "Python"
+print("Hello,", name)
