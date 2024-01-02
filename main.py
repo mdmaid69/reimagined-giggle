@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+text = "Hello, world!"
+print("Reversed:", text[::-1])
