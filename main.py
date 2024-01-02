@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_area(radius):
+        return 3.14 * radius * radius
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
