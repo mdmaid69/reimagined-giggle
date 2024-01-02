@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def find_min(lst):
+        return min(lst)
