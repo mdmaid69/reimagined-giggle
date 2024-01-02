@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
