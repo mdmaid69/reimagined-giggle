@@ -1,6 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
