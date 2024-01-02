@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
