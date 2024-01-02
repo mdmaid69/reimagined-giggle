@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-x = 10
-y = 20
-print("Sum:", x + y)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
