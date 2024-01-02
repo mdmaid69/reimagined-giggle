@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
