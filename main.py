@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
