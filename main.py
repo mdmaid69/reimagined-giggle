@@ -1,4 +1,8 @@
-for i in range(10): print(i)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
