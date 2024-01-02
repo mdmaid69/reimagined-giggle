@@ -1,9 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import random
+def roll_die():
+        return random.randint(1, 6)
+import sys
+def exit_program():
+        sys.exit()
