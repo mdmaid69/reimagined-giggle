@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
