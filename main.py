@@ -1,5 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  def multiply_numbers(x, y):
-        return x * y
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
