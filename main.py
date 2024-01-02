@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def find_max(numbers):
+        return max(numbers)
