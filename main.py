@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def find_max(numbers):
-        return max(numbers)
+def multiply_numbers(x, y):
+        return x * y
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
