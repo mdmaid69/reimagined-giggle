@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
