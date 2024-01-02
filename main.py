@@ -1,6 +1,4 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
