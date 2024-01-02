@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
