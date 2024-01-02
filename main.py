@@ -1,5 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
