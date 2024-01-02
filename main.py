@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
