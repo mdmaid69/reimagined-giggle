@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def create_priority_queue():
+        return collections.deque()
