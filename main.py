@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import random
-print(random.randint(0, 100))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def find_max(lst):
+        return max(lst)
