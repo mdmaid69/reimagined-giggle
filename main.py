@@ -1,3 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-print(sum(range(10)))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
