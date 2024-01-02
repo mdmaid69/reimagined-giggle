@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_factorial(n):
+        return math.factorial(n)
