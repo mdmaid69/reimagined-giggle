@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
