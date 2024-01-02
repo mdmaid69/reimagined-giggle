@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
