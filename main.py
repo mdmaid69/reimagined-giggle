@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def square_number(x):
+        return x**2
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
