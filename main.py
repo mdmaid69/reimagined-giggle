@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
