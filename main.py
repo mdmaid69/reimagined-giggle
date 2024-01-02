@@ -1,4 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def cube_number(x):
+        return x**3
+def reverse_list(lst):
+        return lst[::-1]
