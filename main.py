@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
