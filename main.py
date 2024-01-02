@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
