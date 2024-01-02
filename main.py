@@ -1,5 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
