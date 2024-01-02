@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
