@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
