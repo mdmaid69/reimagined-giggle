@@ -1,5 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def convert_to_binary(n):
-        return bin(n)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
