@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def add_numbers(a, b):
-        return a + b
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
