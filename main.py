@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
