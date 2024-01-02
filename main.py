@@ -1,7 +1,4 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
