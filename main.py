@@ -1,7 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def sort_list(lst):
+        return sorted(lst)
