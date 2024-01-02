@@ -1,7 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def set_array_item(array, i, item):
+        array[i] = item
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
