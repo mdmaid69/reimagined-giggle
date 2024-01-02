@@ -1,5 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
