@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_area(radius):
+        return 3.14 * radius * radius
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
