@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
