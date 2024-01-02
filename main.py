@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
