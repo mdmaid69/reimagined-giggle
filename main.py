@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
