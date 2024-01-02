@@ -1,5 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
