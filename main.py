@@ -1,6 +1,7 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
