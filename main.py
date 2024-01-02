@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
