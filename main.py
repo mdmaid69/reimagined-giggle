@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
