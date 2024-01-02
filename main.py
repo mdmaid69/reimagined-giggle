@@ -1,6 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
