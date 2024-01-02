@@ -1,6 +1,5 @@
+import random
+print(random.randint(0, 100))
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def get_array_as_int(array):
+        return int(array[0])
