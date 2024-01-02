@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def count_elements(lst):
+        return len(lst)
