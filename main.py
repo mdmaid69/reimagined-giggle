@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
