@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_acceleration(speed, time):
+        return speed / time
