@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
