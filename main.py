@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
