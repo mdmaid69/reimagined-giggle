@@ -1,7 +1,9 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
