@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import sys
+def print_python_version():
+        return sys.version
