@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
