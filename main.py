@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Words:", len(text.split()))
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import datetime
-print(datetime.datetime.now())
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
