@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def remove_duplicates(lst):
+        return list(set(lst))
