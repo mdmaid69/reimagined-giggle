@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+for i in range(10): print(i)
