@@ -1,4 +1,7 @@
-def multiply_numbers(x, y):
-        return x * y
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
