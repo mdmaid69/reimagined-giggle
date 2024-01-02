@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
