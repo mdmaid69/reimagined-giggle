@@ -1,7 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
 import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
