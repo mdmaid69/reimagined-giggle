@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import sys
+print(sys.version)
