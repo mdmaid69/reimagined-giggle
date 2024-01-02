@@ -1,5 +1,8 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
