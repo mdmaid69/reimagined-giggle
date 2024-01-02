@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_power(work, time):
+        return work / time
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
