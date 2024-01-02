@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
