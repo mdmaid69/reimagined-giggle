@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
