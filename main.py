@@ -1,7 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
