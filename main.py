@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def count_words(sentence):
-        return len(sentence.split())
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
