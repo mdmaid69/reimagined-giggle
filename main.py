@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import numpy as np
+print(np.array([1, 2, 3]))
