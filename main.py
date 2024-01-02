@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
