@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
