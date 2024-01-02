@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_error_function(x):
+        return math.erf(x)
+def convert_to_binary(n):
+        return bin(n)
