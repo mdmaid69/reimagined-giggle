@@ -1,6 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def sort_numbers(numbers):
+        return sorted(numbers)
