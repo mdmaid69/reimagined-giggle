@@ -1,8 +1,8 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
