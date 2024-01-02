@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
