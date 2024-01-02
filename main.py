@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def convert_to_octal(n):
+        return oct(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
