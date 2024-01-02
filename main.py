@@ -1,5 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
