@@ -1,11 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
