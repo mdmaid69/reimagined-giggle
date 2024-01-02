@@ -2,6 +2,5 @@
   def plot_pie_chart(labels, sizes):
         plt.pie(sizes, labels=labels)
         plt.show()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def is_odd(n):
+        return n % 2 != 0
