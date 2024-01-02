@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def reverse_array(array):
+        array.reverse()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
