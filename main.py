@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def is_odd(n):
+        return n % 2 != 0
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
