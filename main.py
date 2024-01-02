@@ -1,6 +1,9 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
