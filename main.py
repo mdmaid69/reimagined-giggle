@@ -1,6 +1,8 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
