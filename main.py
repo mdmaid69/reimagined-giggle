@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
