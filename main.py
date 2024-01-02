@@ -1,6 +1,9 @@
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
