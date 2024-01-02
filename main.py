@@ -1,5 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def delete_file(file_name):
+        os.remove(file_name)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
