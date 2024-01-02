@@ -1,5 +1,6 @@
-def square_number(x):
-        return x**2
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
