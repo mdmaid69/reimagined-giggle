@@ -1,8 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
