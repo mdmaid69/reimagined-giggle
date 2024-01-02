@@ -1,5 +1,5 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
