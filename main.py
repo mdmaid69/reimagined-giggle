@@ -1,6 +1,6 @@
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
