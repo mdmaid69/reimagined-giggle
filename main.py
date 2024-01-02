@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
