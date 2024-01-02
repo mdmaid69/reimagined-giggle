@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def count_characters(sentence):
+        return len(sentence)
