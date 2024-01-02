@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_work(force, distance):
+        return force * distance
