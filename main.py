@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
