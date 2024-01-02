@@ -1,5 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def square_number(x):
-        return x**2
+  def calculate_area_rectangle(l, w):
+        return l * w
+  def is_odd(n):
+        return n % 2 != 0
