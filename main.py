@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
