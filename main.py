@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def append_to_array(array, item):
+        array.append(item)
+text = "Hello, world!"
+print("Words:", len(text.split()))
