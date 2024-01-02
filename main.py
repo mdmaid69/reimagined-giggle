@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import array
-def get_array_typecode(array):
-        return array.typecode
+def extend_array(array, iterable):
+        array.extend(iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
