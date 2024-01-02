@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def is_even(n):
+        return n % 2 == 0
