@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
+import random
+print(random.randint(0, 100))
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
