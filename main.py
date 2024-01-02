@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
