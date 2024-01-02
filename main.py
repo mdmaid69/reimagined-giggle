@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_speed(distance, time):
-        return distance / time
+def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
