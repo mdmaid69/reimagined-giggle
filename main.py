@@ -1,5 +1,7 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-x = 10
-y = 20
-print("Sum:", x + y)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
