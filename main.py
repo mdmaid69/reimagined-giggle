@@ -1,5 +1,5 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_power(work, time):
-        return work / time
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
