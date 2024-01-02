@@ -1,5 +1,8 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def sort_list(lst):
-        return sorted(lst)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
