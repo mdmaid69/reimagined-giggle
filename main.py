@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def append_to_array(array, item):
+        array.append(item)
