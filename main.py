@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
