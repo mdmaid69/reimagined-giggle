@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def create_user_list():
+        return collections.UserList()
