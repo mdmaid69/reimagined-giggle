@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import getpass
+def get_username():
+        return getpass.getuser()
+def sort_numbers(numbers):
+        return sorted(numbers)
