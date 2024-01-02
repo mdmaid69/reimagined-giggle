@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
