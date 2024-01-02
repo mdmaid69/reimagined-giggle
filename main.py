@@ -1,5 +1,4 @@
-import os
-print(os.getcwd())
-import time
-def get_current_time():
-        return time.time()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+text = "Hello, world!"
+print("Words:", len(text.split()))
