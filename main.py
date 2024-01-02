@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
