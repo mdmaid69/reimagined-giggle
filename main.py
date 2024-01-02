@@ -1,6 +1,5 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  def convert_to_octal(n):
+        return oct(n)
