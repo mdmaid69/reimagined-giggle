@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def convert_to_hex(n):
-        return hex(n)
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def get_array_item(array, i):
+        return array[i]
