@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
