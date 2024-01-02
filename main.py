@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
