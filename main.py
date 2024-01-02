@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def add_numbers(x, y):
+        return x + y
+def calculate_work(force, distance):
+        return force * distance
