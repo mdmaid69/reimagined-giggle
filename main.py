@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def count_characters(sentence):
+        return len(sentence)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
