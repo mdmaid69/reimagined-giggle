@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
