@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+from collections import Counter
+print(Counter("hello world"))
