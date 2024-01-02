@@ -1,4 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def is_palindrome(s):
+        return s == s[::-1]
