@@ -1,5 +1,6 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_power(work, time):
-        return work / time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import time
+def get_time_since_epoch():
+        return time.time()
