@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
