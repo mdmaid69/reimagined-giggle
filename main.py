@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
