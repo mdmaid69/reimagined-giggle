@@ -1,6 +1,7 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import logging
-def log_message(message):
-        logging.info(message)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
