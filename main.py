@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_pressure(force, area):
-        return force / area
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def cube_number(x):
+        return x**3
