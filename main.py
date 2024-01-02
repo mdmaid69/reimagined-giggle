@@ -1,4 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
 import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
