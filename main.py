@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
