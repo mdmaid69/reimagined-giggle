@@ -1,6 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def count_characters(sentence):
+        return len(sentence)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
