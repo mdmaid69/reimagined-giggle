@@ -1,9 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
