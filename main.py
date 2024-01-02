@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import datetime
+print(datetime.datetime.now())
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
