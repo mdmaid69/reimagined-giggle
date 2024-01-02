@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
