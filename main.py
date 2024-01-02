@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import collections
-def create_stack():
-        return collections.deque()
+name = "Python"
+print("Hello,", name)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
