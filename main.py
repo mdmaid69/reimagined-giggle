@@ -1,6 +1,7 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
