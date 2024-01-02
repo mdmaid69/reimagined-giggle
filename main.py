@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
