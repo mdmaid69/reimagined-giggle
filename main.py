@@ -1,5 +1,7 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  def convert_to_octal(n):
+        return oct(n)
