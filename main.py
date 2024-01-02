@@ -1,5 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def find_max(numbers):
-        return max(numbers)
+def find_max(lst):
+        return max(lst)
+def divide_numbers(x, y):
+        return x / y
