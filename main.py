@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
