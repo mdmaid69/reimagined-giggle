@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_work(force, distance):
-        return force * distance
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
