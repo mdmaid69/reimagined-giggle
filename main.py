@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-from collections import Counter
-print(Counter("hello world"))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
