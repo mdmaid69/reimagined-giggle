@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
