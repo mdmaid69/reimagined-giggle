@@ -1,7 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_cosine(x):
+        return math.cos(x)
