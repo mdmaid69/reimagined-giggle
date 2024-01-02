@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
