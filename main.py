@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
