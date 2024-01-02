@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def find_min(numbers):
+        return min(numbers)
