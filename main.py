@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
