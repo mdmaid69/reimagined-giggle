@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_volume(length, width, height):
+        return length * width * height
