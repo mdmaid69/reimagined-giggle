@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def convert_to_hex(n):
-        return hex(n)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
