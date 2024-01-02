@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import random
+def roll_die():
+        return random.randint(1, 6)
