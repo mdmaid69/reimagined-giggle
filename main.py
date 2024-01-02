@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
