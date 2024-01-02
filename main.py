@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
