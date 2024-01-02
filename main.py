@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import collections
-def create_stack():
-        return collections.deque()
+def divide_numbers(x, y):
+        return x / y
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
