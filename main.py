@@ -1,5 +1,7 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def sort_numbers(numbers):
-        return sorted(numbers)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
