@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
