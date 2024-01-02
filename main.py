@@ -1,8 +1,7 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_list(array):
+        return list(array)
