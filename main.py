@@ -1,6 +1,6 @@
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
