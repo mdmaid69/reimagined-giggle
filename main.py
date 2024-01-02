@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_speed(distance, time):
+        return distance / time
