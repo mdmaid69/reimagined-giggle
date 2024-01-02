@@ -1,6 +1,11 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+i = 0
+while i < 5:
+        print(i)
+        i += 1
