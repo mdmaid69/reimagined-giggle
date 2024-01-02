@@ -1,7 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import random
+def roll_die():
+        return random.randint(1, 6)
