@@ -1,6 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import collections
-def create_queue():
-        return collections.deque()
-import sys
-def exit_program():
-        sys.exit()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
