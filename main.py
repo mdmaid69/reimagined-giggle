@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
