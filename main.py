@@ -1,5 +1,4 @@
-for i in range(10): print(i)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def find_max(numbers):
+        return max(numbers)
