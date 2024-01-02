@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
