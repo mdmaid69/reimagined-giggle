@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
