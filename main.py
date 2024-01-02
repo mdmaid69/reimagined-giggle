@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
