@@ -1,4 +1,8 @@
-import os
-print(os.getcwd())
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_as_float(array):
+        return float(array[0])
