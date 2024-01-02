@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
