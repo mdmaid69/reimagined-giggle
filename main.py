@@ -1,6 +1,6 @@
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
