@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
