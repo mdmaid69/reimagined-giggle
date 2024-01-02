@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
