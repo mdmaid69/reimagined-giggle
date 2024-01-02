@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  def cube_number(x):
-        return x**3
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
