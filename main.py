@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def create_stack():
+        return collections.deque()
