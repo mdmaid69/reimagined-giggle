@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
