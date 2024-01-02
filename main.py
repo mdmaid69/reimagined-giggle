@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-for i in range(5):
-        print(i)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  def cube_number(x):
+        return x**3
