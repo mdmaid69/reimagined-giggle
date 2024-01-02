@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import sys
+  def get_python_version():
+        return sys.version
+import sys
+def print_python_version():
+        print(sys.version)
