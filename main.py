@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
