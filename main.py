@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import getpass
+def get_username():
+        return getpass.getuser()
