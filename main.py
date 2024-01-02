@@ -1,12 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
