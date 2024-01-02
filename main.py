@@ -1,6 +1,6 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_arc_tangent(x):
+        return math.atan(x)
