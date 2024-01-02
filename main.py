@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
