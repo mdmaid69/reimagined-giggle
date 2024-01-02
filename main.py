@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
