@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import random
+print(random.randint(0, 100))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
