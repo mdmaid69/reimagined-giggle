@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
