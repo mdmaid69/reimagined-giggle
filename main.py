@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
