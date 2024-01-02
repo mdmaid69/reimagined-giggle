@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
+def calculate_pressure(force, area):
+        return force / area
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
