@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_area_rectangle(l, w):
+        return l * w
