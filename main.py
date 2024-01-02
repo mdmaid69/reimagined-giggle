@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
