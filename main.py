@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
