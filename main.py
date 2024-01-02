@@ -1,6 +1,3 @@
-def convert_to_binary(n):
-        return bin(n)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+print([x**2 for x in range(10)])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
