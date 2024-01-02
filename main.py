@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def add_numbers(x, y):
+        return x + y
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
