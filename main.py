@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
