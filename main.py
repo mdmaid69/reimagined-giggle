@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import os
+print(os.getcwd())
