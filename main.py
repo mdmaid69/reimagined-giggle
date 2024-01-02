@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def cube_number(x):
+        return x**3
+import sys
+def exit_program():
+        sys.exit()
