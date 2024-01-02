@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
