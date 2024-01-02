@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import array
+def clear_array(array):
+        array *= 0
+import platform
+def get_os_info():
+        return platform.uname()
