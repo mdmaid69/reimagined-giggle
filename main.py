@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
