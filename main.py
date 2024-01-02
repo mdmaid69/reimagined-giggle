@@ -1,6 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import sys
-def print_python_version():
-        return sys.version
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
