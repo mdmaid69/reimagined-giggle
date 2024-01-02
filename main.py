@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
