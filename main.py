@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
