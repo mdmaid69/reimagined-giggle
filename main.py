@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def is_even(n):
+        return n % 2 == 0
+import datetime
+def get_today_date():
+        return datetime.date.today()
