@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def multiply_numbers(x, y):
+        return x * y
+import time
+def get_current_time():
+        return time.time()
