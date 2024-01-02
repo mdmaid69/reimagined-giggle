@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
