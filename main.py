@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
