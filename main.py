@@ -1,6 +1,8 @@
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
