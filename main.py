@@ -1,7 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
