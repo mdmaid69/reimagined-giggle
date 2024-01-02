@@ -1,5 +1,12 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
