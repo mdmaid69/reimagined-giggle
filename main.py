@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
