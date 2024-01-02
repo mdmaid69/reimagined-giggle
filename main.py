@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  def add_numbers(x, y):
-        return x + y
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
