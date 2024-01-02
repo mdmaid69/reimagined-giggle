@@ -1,6 +1,8 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
