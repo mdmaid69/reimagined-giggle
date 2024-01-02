@@ -1,5 +1,7 @@
+import logging
+def log_message(message):
+        logging.info(message)
 import array
-def get_list_from_array(array):
-        return array.tolist()
-def find_max(numbers):
-        return max(numbers)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
