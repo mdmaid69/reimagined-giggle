@@ -1,7 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
