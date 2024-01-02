@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
