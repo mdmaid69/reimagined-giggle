@@ -1,7 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
