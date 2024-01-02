@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import array
+def get_array_item(array, i):
+        return array[i]
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
