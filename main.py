@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_current_directory():
+        return os.getcwd()
+  def reverse_list(lst):
+        return lst[::-1]
