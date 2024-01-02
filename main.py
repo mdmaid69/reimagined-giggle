@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def multiply_numbers(x, y):
-        return x * y
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def find_unique_words(sentence):
+        return set(sentence.split())
