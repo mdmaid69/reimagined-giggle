@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+print([x**2 for x in range(10)])
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
