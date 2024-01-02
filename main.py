@@ -1,5 +1,7 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
