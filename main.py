@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def divide_numbers(x, y):
+        return x / y
+import json
+def convert_to_json(data):
+        return json.dumps(data)
