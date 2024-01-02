@@ -1,4 +1,5 @@
-print(sum(range(10)))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
