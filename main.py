@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
