@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import numpy as np
+print(np.array([1, 2, 3]))
