@@ -1,4 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_volume(length, width, height):
-        return length * width * height
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
