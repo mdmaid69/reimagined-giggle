@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def reverse_list(lst):
+        return lst[::-1]
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
