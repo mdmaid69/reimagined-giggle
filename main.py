@@ -1,5 +1,9 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
