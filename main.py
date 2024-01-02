@@ -1,6 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
