@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
