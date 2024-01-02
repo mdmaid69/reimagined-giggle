@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def is_even(n):
+        return n % 2 == 0
