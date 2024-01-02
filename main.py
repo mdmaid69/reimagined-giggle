@@ -1,5 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def count_words(sentence):
-        return len(sentence.split())
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import logging
+def log_message(message):
+        logging.info(message)
