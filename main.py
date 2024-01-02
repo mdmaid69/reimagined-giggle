@@ -1,5 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
