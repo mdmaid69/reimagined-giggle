@@ -1,5 +1,6 @@
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
