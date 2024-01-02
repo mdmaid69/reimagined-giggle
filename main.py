@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def split_path(path):
+        return os.path.split(path)
