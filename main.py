@@ -1,6 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
