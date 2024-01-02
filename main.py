@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_work(force, distance):
-        return force * distance
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import sys
+def print_python_version():
+        print(sys.version)
