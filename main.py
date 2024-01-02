@@ -1,6 +1,7 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
   import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
