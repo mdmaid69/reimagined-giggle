@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
