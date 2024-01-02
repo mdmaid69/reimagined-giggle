@@ -1,6 +1,6 @@
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
