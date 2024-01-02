@@ -1,8 +1,6 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
