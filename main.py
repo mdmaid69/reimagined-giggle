@@ -1,6 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import collections
+def create_counter():
+        return collections.Counter()
+import random
+print(random.randint(0, 100))
