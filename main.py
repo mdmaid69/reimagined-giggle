@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-name = "Python"
-print("Hello,", name)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_list_from_array(array):
+        return array.tolist()
