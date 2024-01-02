@@ -1,5 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
