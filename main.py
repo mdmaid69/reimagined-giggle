@@ -1,4 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
