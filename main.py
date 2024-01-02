@@ -1,7 +1,6 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-for i in range(5):
-        print(i)
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
