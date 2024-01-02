@@ -1,7 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
