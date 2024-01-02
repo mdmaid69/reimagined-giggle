@@ -1,6 +1,6 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def get_array_index(array, item):
+        return array.index(item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
