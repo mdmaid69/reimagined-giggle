@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_density(mass, volume):
+        return mass / volume
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
