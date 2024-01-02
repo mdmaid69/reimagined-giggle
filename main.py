@@ -1,6 +1,8 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
