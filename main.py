@@ -1,6 +1,11 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
