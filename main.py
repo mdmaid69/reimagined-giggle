@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-name = "Python"
-print("Hello,", name)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import random
+def roll_die():
+        return random.randint(1, 6)
