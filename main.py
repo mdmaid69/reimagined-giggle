@@ -1,8 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
