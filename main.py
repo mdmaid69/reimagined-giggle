@@ -1,6 +1,4 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
