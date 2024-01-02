@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
