@@ -1,5 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def square_number(x):
-        return x**2
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
