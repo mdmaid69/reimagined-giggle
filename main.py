@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
