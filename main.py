@@ -1,6 +1,8 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
