@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_typecode(array):
+        return array.typecode
