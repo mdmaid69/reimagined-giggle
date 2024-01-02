@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import time
-def get_time_since_epoch():
-        return time.time()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
