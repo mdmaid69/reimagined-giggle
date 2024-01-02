@@ -1,5 +1,8 @@
 import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def roll_die():
+        return random.randint(1, 6)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
