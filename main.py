@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
