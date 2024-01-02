@@ -1,5 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def find_max(lst):
-        return max(lst)
+  def is_even(n):
+        return n % 2 == 0
+def is_palindrome(s):
+        return s == s[::-1]
