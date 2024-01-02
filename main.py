@@ -1,4 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
