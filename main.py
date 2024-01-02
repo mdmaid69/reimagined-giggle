@@ -1,5 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
