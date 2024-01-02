@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
