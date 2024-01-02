@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def remove_duplicates(lst):
+        return list(set(lst))
