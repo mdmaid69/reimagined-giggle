@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_speed(distance, time):
+        return distance / time
