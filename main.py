@@ -1,7 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+print(math.pi)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
