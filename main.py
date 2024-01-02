@@ -1,6 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
