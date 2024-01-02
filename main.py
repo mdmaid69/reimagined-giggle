@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import os
+print(os.getcwd())
