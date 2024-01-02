@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-import sys
-print(sys.version)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import collections
+def create_stack():
+        return collections.deque()
