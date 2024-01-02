@@ -1,6 +1,5 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
