@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import re
+print(re.match("h.*o", "hello world"))
