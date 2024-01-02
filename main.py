@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
