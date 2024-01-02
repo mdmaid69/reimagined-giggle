@@ -1,5 +1,6 @@
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def find_min(lst):
-        return min(lst)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
