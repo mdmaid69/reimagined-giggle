@@ -1,6 +1,5 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def count_elements(lst):
+        return len(lst)
