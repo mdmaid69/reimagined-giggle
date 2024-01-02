@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_exponential(x):
+        return math.exp(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
