@@ -1,5 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  def count_elements(lst):
+        return len(lst)
