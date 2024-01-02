@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
