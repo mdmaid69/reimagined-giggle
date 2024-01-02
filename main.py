@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_work(force, distance):
-        return force * distance
+  def calculate_area_rectangle(l, w):
+        return l * w
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
