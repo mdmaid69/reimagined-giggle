@@ -1,4 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-print(sum(range(10)))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def sort_numbers(numbers):
+        return sorted(numbers)
