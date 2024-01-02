@@ -1,5 +1,3 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+print(sum(range(10)))
