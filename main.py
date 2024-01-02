@@ -1,6 +1,4 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
