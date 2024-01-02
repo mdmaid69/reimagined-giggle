@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def convert_to_hex(n):
-        return hex(n)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
