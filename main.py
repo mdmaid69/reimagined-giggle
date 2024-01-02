@@ -1,5 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def add_numbers(x, y):
+        return x + y
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
