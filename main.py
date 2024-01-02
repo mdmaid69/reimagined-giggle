@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
