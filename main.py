@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
