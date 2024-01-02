@@ -1,5 +1,7 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def sort_list(lst):
-        return sorted(lst)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
