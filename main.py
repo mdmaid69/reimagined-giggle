@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import sys
-print(sys.version)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
