@@ -1,5 +1,5 @@
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def get_array_as_list(array):
+        return list(array)
