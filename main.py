@@ -1,6 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
