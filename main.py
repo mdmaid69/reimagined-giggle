@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+print(math.pi)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
