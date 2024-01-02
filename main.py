@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
