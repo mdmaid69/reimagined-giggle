@@ -1,3 +1,5 @@
+def count_characters(sentence):
+        return len(sentence)
 import queue
 
 q = queue.Queue()
@@ -7,6 +9,3 @@ for i in range(5):
 
 while not q.empty():
         print(q.get())
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
