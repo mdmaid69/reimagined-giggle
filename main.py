@@ -1,6 +1,3 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_pressure(force, area):
+        return force / area
+print([x**2 for x in range(10)])
