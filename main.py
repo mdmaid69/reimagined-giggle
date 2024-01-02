@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def is_even(n):
+        return n % 2 == 0
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
