@@ -1,6 +1,5 @@
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
