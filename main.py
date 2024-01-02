@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
