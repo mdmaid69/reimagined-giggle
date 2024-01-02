@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
