@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
