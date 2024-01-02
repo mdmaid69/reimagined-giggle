@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
