@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
