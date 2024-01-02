@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
