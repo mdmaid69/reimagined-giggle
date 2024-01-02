@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
