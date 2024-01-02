@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
