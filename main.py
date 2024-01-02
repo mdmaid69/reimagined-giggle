@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
