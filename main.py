@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_density(mass, volume):
+        return mass / volume
