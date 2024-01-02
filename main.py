@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
