@@ -1,6 +1,9 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
