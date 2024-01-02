@@ -1,6 +1,5 @@
+  def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
