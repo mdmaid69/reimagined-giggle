@@ -1,8 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def cube_number(x):
+        return x**3
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
