@@ -1,4 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import sys
-print(sys.version)
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+print(os.getcwd())
