@@ -1,5 +1,9 @@
-def multiply_numbers(x, y):
-        return x * y
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
