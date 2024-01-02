@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import numpy as np
-print(np.array([1, 2, 3]))
+def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
