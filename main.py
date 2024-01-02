@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
