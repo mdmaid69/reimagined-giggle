@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
