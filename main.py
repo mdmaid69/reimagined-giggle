@@ -1,6 +1,7 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import json
+print(json.dumps({"name": "John", "age": 30}))
