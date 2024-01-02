@@ -1,5 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
