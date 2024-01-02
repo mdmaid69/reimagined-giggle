@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
