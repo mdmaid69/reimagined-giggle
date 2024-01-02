@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
