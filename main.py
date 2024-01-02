@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import array
+def get_array_as_str(array):
+        return str(array)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
