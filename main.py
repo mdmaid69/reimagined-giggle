@@ -1,5 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def is_even(n):
-        return n % 2 == 0
+x = 10
+y = 20
+print("Sum:", x + y)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
