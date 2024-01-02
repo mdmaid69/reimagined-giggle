@@ -1,6 +1,6 @@
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
