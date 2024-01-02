@@ -1,5 +1,5 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_acceleration(speed, time):
-        return speed / time
+def get_array_index(array, item):
+        return array.index(item)
+def cube_number(x):
+        return x**3
