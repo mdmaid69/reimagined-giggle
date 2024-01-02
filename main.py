@@ -1,6 +1,6 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
