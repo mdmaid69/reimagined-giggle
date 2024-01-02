@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
