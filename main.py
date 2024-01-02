@@ -1,9 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
