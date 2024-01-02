@@ -1,5 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_volume(length, width, height):
-        return length * width * height
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def is_even(n):
+        return n % 2 == 0
