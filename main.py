@@ -1,5 +1,9 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
