@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import os
+print(os.getcwd())
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_arc_tangent(x):
+        return math.atan(x)
