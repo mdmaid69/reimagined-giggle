@@ -1,4 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
