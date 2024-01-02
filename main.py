@@ -1,3 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-print(sum(range(10)))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
