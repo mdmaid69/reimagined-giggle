@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
