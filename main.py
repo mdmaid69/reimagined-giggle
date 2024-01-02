@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import sys
+def print_python_version():
+        return sys.version
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
