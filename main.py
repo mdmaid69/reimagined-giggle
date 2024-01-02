@@ -1,6 +1,6 @@
+import array
+def append_to_array(array, item):
+        array.append(item)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
