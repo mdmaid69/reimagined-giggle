@@ -1,4 +1,5 @@
-import sys
-print(sys.version)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def reverse_list(lst):
+        return lst[::-1]
