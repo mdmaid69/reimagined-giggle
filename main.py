@@ -1,6 +1,6 @@
+import array
+def get_array_as_list(array):
+        return list(array)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
