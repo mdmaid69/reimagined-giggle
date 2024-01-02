@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
