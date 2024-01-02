@@ -1,6 +1,6 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_array_as_list(array):
+        return list(array)
