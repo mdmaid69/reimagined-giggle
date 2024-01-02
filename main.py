@@ -1,6 +1,9 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
