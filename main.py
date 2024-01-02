@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
