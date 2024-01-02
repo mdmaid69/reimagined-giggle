@@ -1,4 +1,5 @@
-import time
-print(time.time())
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  def cube_number(x):
+        return x**3
