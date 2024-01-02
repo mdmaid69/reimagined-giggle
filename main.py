@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import time
-print(time.time())
+  def convert_to_hex(n):
+        return hex(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
