@@ -1,4 +1,4 @@
-def cube_number(x):
-        return x**3
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def divide_numbers(x, y):
+        return x / y
+def remove_duplicates(lst):
+        return list(set(lst))
