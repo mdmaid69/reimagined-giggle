@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def square_number(x):
-        return x**2
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def reverse_array(array):
+        array.reverse()
