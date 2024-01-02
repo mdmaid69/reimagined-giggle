@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import sys
+def exit_program():
+        sys.exit()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
