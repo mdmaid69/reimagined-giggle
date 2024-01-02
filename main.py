@@ -1,5 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
