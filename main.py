@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  def sort_list(lst):
-        return sorted(lst)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_array_item(array, i):
+        return array[i]
