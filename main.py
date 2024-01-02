@@ -1,7 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_speed(distance, time):
+        return distance / time
