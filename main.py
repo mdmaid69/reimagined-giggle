@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
