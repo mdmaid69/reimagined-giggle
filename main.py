@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def reverse_list(lst):
+        return lst[::-1]
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
