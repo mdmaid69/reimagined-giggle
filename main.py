@@ -1,5 +1,4 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_density(mass, volume):
+        return mass / volume
