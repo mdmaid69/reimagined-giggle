@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def divide_numbers(x, y):
-        return x / y
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
