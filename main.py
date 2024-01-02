@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
