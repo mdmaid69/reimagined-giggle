@@ -1,6 +1,9 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def reverse_array(array):
+        array.reverse()
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
