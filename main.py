@@ -1,6 +1,11 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  def remove_duplicates(lst):
+        return list(set(lst))
