@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
