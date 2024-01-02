@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import math
+def calculate_sine(x):
+        return math.sin(x)
