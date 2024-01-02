@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
