@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import sys
-def print_python_version():
-        print(sys.version)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def reverse_list(lst):
+        return lst[::-1]
