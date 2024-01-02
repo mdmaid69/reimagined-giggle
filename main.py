@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_sign(x):
+        return math.copysign(1, x)
