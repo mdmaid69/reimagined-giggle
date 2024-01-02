@@ -1,10 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
