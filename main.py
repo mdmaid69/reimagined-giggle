@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
