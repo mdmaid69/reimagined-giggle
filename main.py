@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_pressure(force, area):
+        return force / area
