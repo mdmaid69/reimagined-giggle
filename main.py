@@ -1,5 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-def square_number(x):
-        return x**2
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
