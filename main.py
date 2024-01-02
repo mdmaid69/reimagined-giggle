@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def get_array_typecode(array):
-        return array.typecode
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_area(radius):
+        return 3.14 * radius * radius
