@@ -1,6 +1,5 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+from collections import Counter
+print(Counter("hello world"))
