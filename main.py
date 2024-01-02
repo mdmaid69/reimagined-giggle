@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def convert_to_octal(n):
+        return oct(n)
