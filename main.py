@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
