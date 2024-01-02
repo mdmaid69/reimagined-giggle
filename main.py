@@ -1,6 +1,6 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
