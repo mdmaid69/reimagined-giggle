@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
