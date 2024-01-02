@@ -1,6 +1,5 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import random
+print(random.randint(0, 100))
