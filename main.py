@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
