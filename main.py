@@ -1,5 +1,8 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
