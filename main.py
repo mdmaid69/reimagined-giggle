@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def count_characters(sentence):
+        return len(sentence)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
