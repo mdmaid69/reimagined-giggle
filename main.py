@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-x = 10
-y = 20
-print("Sum:", x + y)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
