@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
