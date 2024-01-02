@@ -1,8 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import collections
+def create_user_list():
+        return collections.UserList()
