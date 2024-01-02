@@ -1,5 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def convert_to_binary(n):
-        return bin(n)
+def sort_list(lst):
+        return sorted(lst)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
