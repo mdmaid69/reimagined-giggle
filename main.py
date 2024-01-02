@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
