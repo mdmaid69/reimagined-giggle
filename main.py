@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_work(force, distance):
+        return force * distance
+import datetime
+def get_today_date():
+        return datetime.date.today()
