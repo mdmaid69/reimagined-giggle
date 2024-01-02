@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import array
-def append_to_array(array, item):
-        array.append(item)
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
