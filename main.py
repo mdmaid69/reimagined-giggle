@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
