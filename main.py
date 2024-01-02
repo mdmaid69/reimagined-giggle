@@ -1,4 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
