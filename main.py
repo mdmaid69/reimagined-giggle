@@ -1,8 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import time
+def get_current_time():
+        return time.time()
