@@ -1,7 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
