@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def square_number(x):
-        return x**2
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+print([x**2 for x in range(10)])
