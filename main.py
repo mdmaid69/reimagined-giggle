@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def subtract_numbers(x, y):
+        return x - y
+text = "Hello, world!"
+print("Characters:", len(text))
