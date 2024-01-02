@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
