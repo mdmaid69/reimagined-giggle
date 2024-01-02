@@ -1,8 +1,8 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
