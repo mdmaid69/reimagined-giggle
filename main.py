@@ -1,5 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  def convert_to_binary(n):
-        return bin(n)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
