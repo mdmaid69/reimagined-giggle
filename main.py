@@ -1,5 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-from collections import Counter
-print(Counter("hello world"))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import sys
+print(sys.version)
