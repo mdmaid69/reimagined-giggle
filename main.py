@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
