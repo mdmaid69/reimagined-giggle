@@ -1,6 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-print([x**2 for x in range(10)])
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
