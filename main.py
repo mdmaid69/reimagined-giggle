@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
