@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def get_string_from_array(array):
+        return array.tobytes()
