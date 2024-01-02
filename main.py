@@ -1,7 +1,7 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
