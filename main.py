@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
