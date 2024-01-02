@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+x = 10
+y = 20
+print("Sum:", x + y)
