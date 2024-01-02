@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
