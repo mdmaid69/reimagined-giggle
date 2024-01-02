@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import numpy as np
+print(np.array([1, 2, 3]))
+from collections import Counter
+print(Counter("hello world"))
