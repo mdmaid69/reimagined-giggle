@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import collections
+def create_user_string():
+        return collections.UserString()
