@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
