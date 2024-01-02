@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def find_max(numbers):
+        return max(numbers)
