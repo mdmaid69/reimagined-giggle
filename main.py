@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+from collections import Counter
+print(Counter("hello world"))
+  def convert_to_octal(n):
+        return oct(n)
