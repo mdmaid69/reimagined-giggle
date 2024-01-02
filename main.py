@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import time
-def get_current_time():
-        return time.ctime()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
