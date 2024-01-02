@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
