@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import collections
+def create_counter():
+        return collections.Counter()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
