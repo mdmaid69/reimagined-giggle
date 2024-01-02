@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import time
-print(time.time())
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
