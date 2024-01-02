@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_current_directory():
+        return os.getcwd()
