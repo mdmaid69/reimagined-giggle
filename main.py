@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
