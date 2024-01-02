@@ -1,8 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def is_odd(n):
+        return n % 2 != 0
