@@ -1,6 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_area_rectangle(l, w):
+        return l * w
