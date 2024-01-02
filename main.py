@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
