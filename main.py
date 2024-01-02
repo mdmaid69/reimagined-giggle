@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def reverse_list(lst):
-        return lst[::-1]
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
