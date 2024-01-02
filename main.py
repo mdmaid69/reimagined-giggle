@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def get_base_name(path):
+        return os.path.basename(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
