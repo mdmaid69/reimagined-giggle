@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def divide_numbers(x, y):
+        return x / y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
