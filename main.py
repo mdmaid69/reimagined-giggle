@@ -1,6 +1,7 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+for i in range(5):
+        print(i)
