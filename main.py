@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def get_array_as_list(array):
+        return list(array)
