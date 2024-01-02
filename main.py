@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
