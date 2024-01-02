@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
