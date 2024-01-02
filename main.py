@@ -1,6 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
