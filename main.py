@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import time
-print(time.time())
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
