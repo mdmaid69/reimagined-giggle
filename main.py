@@ -1,8 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
