@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
