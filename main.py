@@ -1,7 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def convert_to_hex(n):
-        return hex(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_volume(length, width, height):
+        return length * width * height
