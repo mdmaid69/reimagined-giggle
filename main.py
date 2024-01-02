@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
