@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import datetime
+def get_today_date():
+        return datetime.date.today()
