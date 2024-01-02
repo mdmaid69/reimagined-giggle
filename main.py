@@ -1,5 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-def convert_to_hex(n):
-        return hex(n)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
