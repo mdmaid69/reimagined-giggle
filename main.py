@@ -1,7 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-import sys
-print(sys.version)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_as_float(array):
+        return float(array[0])
