@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def convert_to_binary(n):
+        return bin(n)
