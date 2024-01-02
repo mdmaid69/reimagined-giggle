@@ -1,5 +1,3 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+print([x**2 for x in range(10)])
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
