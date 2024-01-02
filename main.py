@@ -1,5 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_typecode(array):
+        return array.typecode
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
