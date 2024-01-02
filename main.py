@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
