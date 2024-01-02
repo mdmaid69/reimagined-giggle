@@ -1,4 +1,11 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def multiply_numbers(x, y):
+        return x * y
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
