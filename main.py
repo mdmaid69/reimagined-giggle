@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
