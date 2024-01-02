@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
