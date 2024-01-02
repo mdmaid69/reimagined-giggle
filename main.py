@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def count_elements(lst):
-        return len(lst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
