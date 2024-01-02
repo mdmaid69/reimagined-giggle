@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
