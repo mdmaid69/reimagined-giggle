@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
