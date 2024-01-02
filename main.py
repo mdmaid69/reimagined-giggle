@@ -1,6 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def is_odd(n):
+        return n % 2 != 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
