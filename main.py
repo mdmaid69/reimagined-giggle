@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
