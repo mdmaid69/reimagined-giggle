@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
