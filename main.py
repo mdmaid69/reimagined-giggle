@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
