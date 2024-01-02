@@ -1,4 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import re
-print(re.match("h.*o", "hello world"))
-def calculate_speed(distance, time):
-        return distance / time
+def split_string(pattern, string):
+        return re.split(pattern, string)
