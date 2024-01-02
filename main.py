@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def reverse_list(lst):
+        return lst[::-1]
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
