@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
