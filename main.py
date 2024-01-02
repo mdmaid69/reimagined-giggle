@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
