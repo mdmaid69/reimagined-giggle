@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
