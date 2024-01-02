@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
