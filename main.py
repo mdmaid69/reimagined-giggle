@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
