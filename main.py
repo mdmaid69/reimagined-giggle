@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
