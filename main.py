@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def get_array_as_str(array):
+        return str(array)
