@@ -1,5 +1,8 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
