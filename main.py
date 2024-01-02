@@ -1,5 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import collections
-def create_queue():
-        return collections.deque()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def create_counter():
+        return collections.Counter()
