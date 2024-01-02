@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+print("Hello, world!")
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
