@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def is_even(n):
-        return n % 2 == 0
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
