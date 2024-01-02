@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
