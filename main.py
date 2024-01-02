@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def is_even(n):
+        return n % 2 == 0
