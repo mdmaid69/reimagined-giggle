@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+for i in range(5):
+        print(i)
+import platform
+def get_python_version():
+        return platform.python_version()
