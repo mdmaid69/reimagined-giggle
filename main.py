@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import time
+print(time.time())
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
