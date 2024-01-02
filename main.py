@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import datetime
+print(datetime.datetime.now())
+import os
+def change_working_directory(path):
+        os.chdir(path)
