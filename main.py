@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
