@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
