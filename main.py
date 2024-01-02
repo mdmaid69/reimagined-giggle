@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_pressure(force, area):
+        return force / area
