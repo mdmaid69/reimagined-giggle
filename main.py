@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def is_even(n):
+        return n % 2 == 0
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
