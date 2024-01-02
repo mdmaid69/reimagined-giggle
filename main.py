@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
