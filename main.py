@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  def square_number(x):
+        return x**2
