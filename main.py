@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-from collections import Counter
-print(Counter("hello world"))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
