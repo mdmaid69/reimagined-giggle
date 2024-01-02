@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import array
-def get_array_length(array):
-        return len(array)
+def convert_array_to_string(array):
+        return array.tostring()
