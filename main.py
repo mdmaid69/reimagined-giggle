@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+def divide_numbers(x, y):
+        return x / y
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
