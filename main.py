@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
