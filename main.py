@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
