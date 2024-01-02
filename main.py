@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def add_numbers(x, y):
-        return x + y
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
