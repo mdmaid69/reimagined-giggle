@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
