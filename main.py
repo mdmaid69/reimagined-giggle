@@ -1,6 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
