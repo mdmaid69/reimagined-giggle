@@ -1,5 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-from collections import Counter
-print(Counter("hello world"))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
