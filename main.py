@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def count_elements(lst):
+        return len(lst)
