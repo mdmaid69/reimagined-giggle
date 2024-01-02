@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
