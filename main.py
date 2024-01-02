@@ -1,5 +1,6 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
