@@ -1,12 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
