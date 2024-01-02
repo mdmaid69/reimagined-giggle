@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import platform
+def get_os_info():
+        return platform.uname()
