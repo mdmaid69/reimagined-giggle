@@ -1,8 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
