@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def count_elements(lst):
+        return len(lst)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
