@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_density(mass, volume):
+        return mass / volume
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
