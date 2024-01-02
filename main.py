@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
