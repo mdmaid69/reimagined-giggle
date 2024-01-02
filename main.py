@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_density(mass, volume):
-        return mass / volume
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
