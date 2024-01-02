@@ -1,6 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
