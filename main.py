@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_sign(x):
+        return math.copysign(1, x)
+  def multiply_numbers(x, y):
+        return x * y
