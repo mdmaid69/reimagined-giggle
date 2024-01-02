@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
