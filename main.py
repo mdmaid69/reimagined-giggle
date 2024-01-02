@@ -1,7 +1,9 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
