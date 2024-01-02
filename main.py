@@ -1,7 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def is_palindrome(s):
+        return s == s[::-1]
+import getpass
+def get_username():
+        return getpass.getuser()
