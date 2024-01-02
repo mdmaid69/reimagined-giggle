@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  def subtract_numbers(x, y):
+        return x - y
