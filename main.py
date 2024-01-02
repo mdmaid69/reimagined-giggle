@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_volume(length, width, height):
-        return length * width * height
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
