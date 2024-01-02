@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
