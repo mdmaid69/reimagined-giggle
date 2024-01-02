@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+from collections import Counter
+print(Counter("hello world"))
+import collections
+def create_counter():
+        return collections.Counter()
