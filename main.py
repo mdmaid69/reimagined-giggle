@@ -1,5 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def is_even(n):
+        return n % 2 == 0
+from collections import Counter
+print(Counter("hello world"))
