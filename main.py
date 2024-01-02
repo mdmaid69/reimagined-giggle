@@ -1,4 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
