@@ -1,6 +1,5 @@
+def find_max(lst):
+        return max(lst)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
