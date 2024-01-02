@@ -1,5 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def greet(name):
+        print(f"Hello, {name}!")
+def is_even(n):
+        return n % 2 == 0
