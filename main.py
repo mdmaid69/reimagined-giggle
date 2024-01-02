@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  def square_number(x):
-        return x**2
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_as_set(array):
+        return set(array)
