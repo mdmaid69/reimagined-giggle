@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
