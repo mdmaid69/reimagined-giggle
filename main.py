@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def calculate_area_rectangle(l, w):
+        return l * w
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
