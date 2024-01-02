@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_cosine(x):
+        return math.cos(x)
