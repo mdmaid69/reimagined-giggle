@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def is_even(n):
-        return n % 2 == 0
+import platform
+def get_python_version():
+        return platform.python_version()
+from collections import Counter
+print(Counter("hello world"))
