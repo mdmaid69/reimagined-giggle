@@ -1,8 +1,3 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+print("Hello, world!")
