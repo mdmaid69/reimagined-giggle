@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
