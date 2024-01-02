@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
