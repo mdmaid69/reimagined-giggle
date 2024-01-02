@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def split_path(path):
+        return os.path.split(path)
