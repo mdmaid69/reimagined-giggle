@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def get_array_as_int(array):
+        return int(array[0])
