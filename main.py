@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
