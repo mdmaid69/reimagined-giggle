@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
