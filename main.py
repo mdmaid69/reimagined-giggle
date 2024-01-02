@@ -1,9 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
