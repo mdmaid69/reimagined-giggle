@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-x = 10
-y = 20
-print("Sum:", x + y)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
