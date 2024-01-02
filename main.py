@@ -1,6 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
