@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def find_max(lst):
+        return max(lst)
