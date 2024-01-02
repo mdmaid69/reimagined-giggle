@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
