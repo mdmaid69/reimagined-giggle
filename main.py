@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_cosine(x):
+        return math.cos(x)
