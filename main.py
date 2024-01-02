@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
