@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
