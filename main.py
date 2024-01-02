@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
