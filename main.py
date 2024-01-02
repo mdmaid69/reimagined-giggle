@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
