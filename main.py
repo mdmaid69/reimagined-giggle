@@ -1,5 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_list_from_array(array):
+        return array.tolist()
