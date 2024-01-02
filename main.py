@@ -1,5 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
