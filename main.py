@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_bool(array):
+        return bool(array)
