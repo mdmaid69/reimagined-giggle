@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
