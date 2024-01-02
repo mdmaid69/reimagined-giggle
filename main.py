@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
