@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
