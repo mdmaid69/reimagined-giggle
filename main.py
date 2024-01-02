@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def add_numbers(a, b):
+        return a + b
