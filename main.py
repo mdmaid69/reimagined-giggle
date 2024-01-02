@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def cube_number(x):
+        return x**3
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
