@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import collections
+def create_priority_queue():
+        return collections.deque()
+def reverse_list(lst):
+        return lst[::-1]
