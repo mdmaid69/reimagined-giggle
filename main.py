@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
