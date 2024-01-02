@@ -1,5 +1,5 @@
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def is_even(n):
-        return n % 2 == 0
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
