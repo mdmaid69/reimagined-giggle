@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
