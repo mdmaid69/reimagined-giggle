@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+text = "Hello, world!"
+print("Words:", len(text.split()))
