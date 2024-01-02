@@ -1,5 +1,5 @@
+def is_palindrome(s):
+        return s == s[::-1]
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
