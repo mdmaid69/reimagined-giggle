@@ -1,8 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_volume(length, width, height):
+        return length * width * height
