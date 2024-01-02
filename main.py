@@ -1,6 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
