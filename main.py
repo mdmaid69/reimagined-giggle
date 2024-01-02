@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import collections
-def create_user_string():
-        return collections.UserString()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
