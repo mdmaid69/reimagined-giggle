@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
