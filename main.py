@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
