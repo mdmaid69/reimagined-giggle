@@ -1,5 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def sort_list(lst):
-        return sorted(lst)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_acceleration(speed, time):
+        return speed / time
