@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
