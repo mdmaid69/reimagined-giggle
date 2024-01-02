@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
