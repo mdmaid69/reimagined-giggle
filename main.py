@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_sine(x):
+        return math.sin(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
