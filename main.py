@@ -1,4 +1,4 @@
-def add_numbers(a, b):
-        return a + b
-  def cube_number(x):
-        return x**3
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
