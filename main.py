@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
