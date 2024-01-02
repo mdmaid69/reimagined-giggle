@@ -1,4 +1,4 @@
-def divide_numbers(x, y):
-        return x / y
-  def cube_number(x):
-        return x**3
+import array
+def get_array_item(array, i):
+        return array[i]
+for i in range(10): print(i)
