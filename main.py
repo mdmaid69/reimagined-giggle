@@ -1,5 +1,10 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
