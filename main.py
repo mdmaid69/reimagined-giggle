@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
