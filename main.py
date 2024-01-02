@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
