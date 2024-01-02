@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
