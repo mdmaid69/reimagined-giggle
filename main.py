@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def get_base_name(path):
+        return os.path.basename(path)
+import getpass
+def get_username():
+        return getpass.getuser()
