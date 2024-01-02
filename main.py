@@ -1,6 +1,12 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
