@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
+def is_odd(n):
+        return n % 2 != 0
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
