@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
