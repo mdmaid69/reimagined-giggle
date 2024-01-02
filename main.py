@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
