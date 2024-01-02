@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
