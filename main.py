@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
 import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
