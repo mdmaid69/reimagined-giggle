@@ -1,6 +1,5 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
