@@ -1,5 +1,8 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
