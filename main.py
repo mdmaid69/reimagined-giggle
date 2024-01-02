@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import sys
-def exit_program():
-        sys.exit()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
