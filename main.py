@@ -1,6 +1,8 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
