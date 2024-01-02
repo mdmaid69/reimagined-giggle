@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def divide_numbers(x, y):
-        return x / y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def square_number(x):
+        return x**2
