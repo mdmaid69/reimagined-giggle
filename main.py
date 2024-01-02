@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
