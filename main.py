@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
