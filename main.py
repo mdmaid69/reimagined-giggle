@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
