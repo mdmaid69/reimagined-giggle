@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def find_max(numbers):
+        return max(numbers)
