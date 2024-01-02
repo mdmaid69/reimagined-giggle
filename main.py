@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def convert_to_hex(n):
+        return hex(n)
