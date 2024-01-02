@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
