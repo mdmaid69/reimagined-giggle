@@ -1,7 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
