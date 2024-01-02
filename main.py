@@ -1,4 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-print([x**2 for x in range(10)])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
