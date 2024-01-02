@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
