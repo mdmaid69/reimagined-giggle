@@ -1,5 +1,6 @@
-import time
-print(time.time())
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
