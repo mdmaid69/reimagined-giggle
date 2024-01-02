@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+for i in range(5):
+        print(i)
