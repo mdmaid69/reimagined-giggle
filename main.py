@@ -1,5 +1,4 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def count_words(sentence):
-        return len(sentence.split())
+  def sort_list(lst):
+        return sorted(lst)
+def remove_duplicates(lst):
+        return list(set(lst))
