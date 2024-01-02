@@ -1,6 +1,8 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
