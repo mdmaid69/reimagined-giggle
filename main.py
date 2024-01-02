@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
