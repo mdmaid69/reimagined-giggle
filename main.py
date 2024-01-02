@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
