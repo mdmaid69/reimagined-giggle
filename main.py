@@ -1,8 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
