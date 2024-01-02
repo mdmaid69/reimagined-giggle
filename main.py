@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
