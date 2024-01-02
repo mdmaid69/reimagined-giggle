@@ -1,5 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def find_unique_words(sentence):
-        return set(sentence.split())
+print(sum(range(10)))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
