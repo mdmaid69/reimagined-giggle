@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
