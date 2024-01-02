@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
