@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_density(mass, volume):
+        return mass / volume
 import array
-def clear_array(array):
-        array *= 0
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
