@@ -1,5 +1,6 @@
   import time
   def wait_for_seconds(seconds):
         time.sleep(seconds)
-def calculate_area_rectangle(l, w):
-        return l * w
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
