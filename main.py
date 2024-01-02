@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_string_from_array(array):
+        return array.tobytes()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
