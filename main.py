@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  def is_even(n):
+        return n % 2 == 0
