@@ -1,6 +1,5 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_array_length(array):
+        return len(array)
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
