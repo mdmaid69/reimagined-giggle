@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_item(array, i):
+        return array[i]
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
