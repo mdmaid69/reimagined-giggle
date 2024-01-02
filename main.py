@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
