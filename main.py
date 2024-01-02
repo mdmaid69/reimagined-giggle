@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
