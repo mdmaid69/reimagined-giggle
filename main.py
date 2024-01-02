@@ -1,6 +1,7 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
