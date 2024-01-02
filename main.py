@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def is_even(n):
+        return n % 2 == 0
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
