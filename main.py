@@ -1,5 +1,4 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def subtract_numbers(x, y):
+        return x - y
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
