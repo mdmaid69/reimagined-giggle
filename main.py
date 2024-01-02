@@ -1,8 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
