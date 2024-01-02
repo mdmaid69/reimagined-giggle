@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
