@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
