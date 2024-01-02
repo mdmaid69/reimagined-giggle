@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
