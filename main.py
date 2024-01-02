@@ -1,7 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import time
+print(time.time())
+import array
+def get_array_as_str(array):
+        return str(array)
