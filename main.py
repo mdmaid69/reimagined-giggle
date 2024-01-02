@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
