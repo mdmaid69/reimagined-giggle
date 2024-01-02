@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+text = "Hello, world!"
+print("Characters:", len(text))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
