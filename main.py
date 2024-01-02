@@ -1,6 +1,8 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
