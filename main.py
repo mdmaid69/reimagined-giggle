@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
