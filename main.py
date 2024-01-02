@@ -1,6 +1,6 @@
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
