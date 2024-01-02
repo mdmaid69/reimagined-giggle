@@ -1,5 +1,7 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+text = "Hello, world!"
+print("Uppercase:", text.upper())
