@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_work(force, distance):
+        return force * distance
