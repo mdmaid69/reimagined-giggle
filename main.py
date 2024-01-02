@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
