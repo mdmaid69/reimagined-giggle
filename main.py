@@ -1,6 +1,6 @@
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
