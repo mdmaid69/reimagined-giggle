@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
