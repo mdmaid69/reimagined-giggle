@@ -1,5 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def find_max(lst):
-        return max(lst)
+  def subtract_numbers(x, y):
+        return x - y
+def is_even(n):
+        return n % 2 == 0
