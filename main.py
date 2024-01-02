@@ -1,6 +1,8 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import sys
-def exit_program():
-        sys.exit()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
