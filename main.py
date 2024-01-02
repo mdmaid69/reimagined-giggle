@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
