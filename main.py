@@ -1,7 +1,8 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
