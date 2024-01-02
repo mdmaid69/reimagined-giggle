@@ -1,5 +1,7 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
