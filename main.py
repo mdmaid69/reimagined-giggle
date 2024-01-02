@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def reverse_list(lst):
-        return lst[::-1]
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
