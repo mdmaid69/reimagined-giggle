@@ -1,5 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import re
-print(re.match("h.*o", "hello world"))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+from collections import Counter
+print(Counter("hello world"))
