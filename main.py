@@ -1,8 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
