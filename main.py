@@ -1,4 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def convert_to_hex(n):
+        return hex(n)
