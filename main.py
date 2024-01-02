@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
