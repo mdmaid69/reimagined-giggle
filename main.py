@@ -1,5 +1,3 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+print([x**2 for x in range(10)])
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
