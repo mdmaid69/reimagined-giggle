@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import sys
-  def get_python_version():
-        return sys.version
+import array
+def get_array_typecode(array):
+        return array.typecode
+import collections
+def create_user_list():
+        return collections.UserList()
