@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  def convert_to_hex(n):
+        return hex(n)
