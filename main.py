@@ -1,7 +1,8 @@
-def convert_to_binary(n):
-        return bin(n)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
+with open("some.csv", "w", newline="") as f:
         writer = csv.writer(f)
-        writer.writerows(data)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
