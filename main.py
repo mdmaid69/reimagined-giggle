@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import sys
-def exit_program():
-        sys.exit()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
