@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import collections
-def create_user_string():
-        return collections.UserString()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def add_numbers(a, b):
+        return a + b
