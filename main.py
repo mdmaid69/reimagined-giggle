@@ -1,6 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def get_array_slice(array, i, j):
+        return array[i:j]
