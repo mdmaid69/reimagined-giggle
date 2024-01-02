@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def convert_to_binary(n):
+        return bin(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
