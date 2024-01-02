@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
