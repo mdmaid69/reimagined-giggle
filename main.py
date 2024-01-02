@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
