@@ -1,5 +1,9 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def is_odd(n):
+        return n % 2 != 0
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
