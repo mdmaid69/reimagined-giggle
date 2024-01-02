@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_as_repr(array):
+        return repr(array)
