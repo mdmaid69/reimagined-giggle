@@ -1,6 +1,9 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+  def add_numbers(x, y):
+        return x + y
