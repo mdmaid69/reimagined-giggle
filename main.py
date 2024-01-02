@@ -1,5 +1,3 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+print(sum(range(10)))
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
