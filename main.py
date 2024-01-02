@@ -1,5 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_power(work, time):
-        return work / time
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import collections
+def create_user_list():
+        return collections.UserList()
