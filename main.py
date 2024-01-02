@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import numpy as np
+print(np.array([1, 2, 3]))
