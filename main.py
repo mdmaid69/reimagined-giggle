@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_exponential(x):
+        return math.exp(x)
