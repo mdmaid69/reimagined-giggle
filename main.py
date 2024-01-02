@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def find_max(lst):
+        return max(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
