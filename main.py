@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
