@@ -1,5 +1,5 @@
+  def calculate_area_rectangle(l, w):
+        return l * w
 import array
-def get_array_length(array):
-        return len(array)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
