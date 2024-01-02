@@ -1,5 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-for i in range(5):
-        print(i)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
