@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import numpy as np
+print(np.array([1, 2, 3]))
