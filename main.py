@@ -1,7 +1,6 @@
-import random
-print(random.randint(0, 100))
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
