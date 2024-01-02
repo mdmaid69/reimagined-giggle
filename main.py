@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
