@@ -1,6 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
