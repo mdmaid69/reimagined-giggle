@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
