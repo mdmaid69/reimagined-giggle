@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def sort_list(lst):
+        return sorted(lst)
+import sys
+def exit_program():
+        sys.exit()
