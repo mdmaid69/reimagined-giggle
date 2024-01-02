@@ -1,9 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
