@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
