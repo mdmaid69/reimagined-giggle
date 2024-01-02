@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
