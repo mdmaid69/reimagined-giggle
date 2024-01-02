@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
