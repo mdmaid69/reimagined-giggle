@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
