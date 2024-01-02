@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
