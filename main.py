@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
