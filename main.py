@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
