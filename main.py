@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
