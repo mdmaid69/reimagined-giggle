@@ -1,4 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-def square_number(x):
-        return x**2
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+text = "Hello, world!"
+print("Words:", len(text.split()))
