@@ -1,7 +1,4 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_power(work, time):
+        return work / time
