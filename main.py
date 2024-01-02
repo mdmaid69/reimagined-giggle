@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
