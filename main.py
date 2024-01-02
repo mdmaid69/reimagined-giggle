@@ -1,5 +1,8 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
