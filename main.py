@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
+import time
+def get_current_time():
+        return time.time()
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
