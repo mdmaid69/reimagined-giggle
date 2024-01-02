@@ -1,4 +1,7 @@
-import random
-print(random.randint(0, 100))
-def calculate_power(work, time):
-        return work / time
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
