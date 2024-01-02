@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
