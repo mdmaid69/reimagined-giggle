@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
