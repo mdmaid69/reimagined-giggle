@@ -1,6 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
