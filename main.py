@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
