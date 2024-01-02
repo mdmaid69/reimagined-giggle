@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
