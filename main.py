@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
