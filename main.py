@@ -1,5 +1,8 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
