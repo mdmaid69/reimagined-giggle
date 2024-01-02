@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
