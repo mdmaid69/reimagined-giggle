@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
