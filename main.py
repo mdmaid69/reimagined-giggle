@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
