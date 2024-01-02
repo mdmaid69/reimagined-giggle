@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
