@@ -1,7 +1,7 @@
-import csv
-def load_csv(filename):
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import json
+def load_json(filename):
         with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+        return json.load(f)
