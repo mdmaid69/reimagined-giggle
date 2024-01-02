@@ -1,6 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  def convert_to_binary(n):
+        return bin(n)
