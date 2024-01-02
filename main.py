@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def extend_array(array, iterable):
+        array.extend(iterable)
