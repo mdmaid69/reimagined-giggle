@@ -1,5 +1,8 @@
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def get_file_blksize(file_name):
+  def get_file_block_size(file_name):
         return os.stat(file_name).st_blksize
-def count_elements(lst):
-        return len(lst)
