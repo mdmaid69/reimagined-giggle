@@ -1,5 +1,7 @@
-  def add_numbers(x, y):
-        return x + y
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import os
+def remove_directory(path):
+        os.rmdir(path)
