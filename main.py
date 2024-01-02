@@ -1,7 +1,11 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
