@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
