@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
