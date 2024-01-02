@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def find_max(lst):
-        return max(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
