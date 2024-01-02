@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
