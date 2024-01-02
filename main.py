@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
