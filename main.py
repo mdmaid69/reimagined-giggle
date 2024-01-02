@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
