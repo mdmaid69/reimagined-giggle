@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import sys
+  def get_python_version():
+        return sys.version
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
