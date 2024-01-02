@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
