@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def remove_duplicates(lst):
-        return list(set(lst))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
