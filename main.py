@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
