@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_work(force, distance):
-        return force * distance
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
