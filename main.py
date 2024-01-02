@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_list_from_array(array):
+        return array.tolist()
