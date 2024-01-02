@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
