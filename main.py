@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import collections
-def create_user_list():
-        return collections.UserList()
+def add_numbers(x, y):
+        return x + y
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
