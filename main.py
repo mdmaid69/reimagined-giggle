@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
