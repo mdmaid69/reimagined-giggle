@@ -1,4 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def square_number(x):
+        return x**2
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
