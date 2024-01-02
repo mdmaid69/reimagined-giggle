@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
