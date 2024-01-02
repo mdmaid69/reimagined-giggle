@@ -1,11 +1,7 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
