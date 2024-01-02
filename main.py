@@ -1,5 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
