@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
