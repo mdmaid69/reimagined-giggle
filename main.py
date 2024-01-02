@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def square_number(x):
-        return x**2
+import array
+def get_array_as_str(array):
+        return str(array)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
