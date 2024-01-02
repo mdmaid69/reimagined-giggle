@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
