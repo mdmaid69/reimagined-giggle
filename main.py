@@ -1,6 +1,11 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
