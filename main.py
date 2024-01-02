@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import collections
-def create_stack():
-        return collections.deque()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
