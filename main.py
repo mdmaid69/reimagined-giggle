@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
