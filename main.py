@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import logging
-def log_message(message):
-        logging.info(message)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+x = 10
+y = 20
+print("Sum:", x + y)
