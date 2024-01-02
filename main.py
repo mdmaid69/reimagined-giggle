@@ -1,7 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
