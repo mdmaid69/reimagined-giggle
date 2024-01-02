@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def add_numbers(x, y):
+        return x + y
