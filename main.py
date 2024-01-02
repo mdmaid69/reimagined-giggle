@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import datetime
-print(datetime.datetime.now())
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import getpass
+def get_username():
+        return getpass.getuser()
