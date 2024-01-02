@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import collections
+def create_user_string():
+        return collections.UserString()
