@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def sort_list(lst):
-        return sorted(lst)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
