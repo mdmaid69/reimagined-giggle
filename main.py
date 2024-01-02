@@ -1,5 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import sys
-print(sys.version)
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def get_array_length(array):
+        return len(array)
