@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def multiply_numbers(x, y):
+        return x * y
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
