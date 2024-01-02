@@ -1,8 +1,4 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+for i in range(10): print(i)
