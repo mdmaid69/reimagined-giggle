@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def sort_numbers(numbers):
+        return sorted(numbers)
