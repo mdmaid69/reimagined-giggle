@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_density(mass, volume):
+        return mass / volume
