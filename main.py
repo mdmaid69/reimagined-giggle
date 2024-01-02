@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
