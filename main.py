@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import os
-print(os.getcwd())
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
