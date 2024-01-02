@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
