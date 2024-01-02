@@ -1,5 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_pressure(force, area):
-        return force / area
+import tensorflow as tf
+print(tf.__version__)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
