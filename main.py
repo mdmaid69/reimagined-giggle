@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def add_numbers(x, y):
+        return x + y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
