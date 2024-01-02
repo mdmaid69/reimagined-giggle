@@ -1,5 +1,7 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def add_numbers(x, y):
-        return x + y
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
