@@ -1,7 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
