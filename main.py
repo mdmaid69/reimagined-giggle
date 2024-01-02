@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
