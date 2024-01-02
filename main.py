@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
