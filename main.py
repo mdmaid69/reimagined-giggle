@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import logging
-def log_message(message):
-        logging.info(message)
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
