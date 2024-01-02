@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
+import sys
+def print_python_version():
+        return sys.version
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
