@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_index(array, item):
+        return array.index(item)
