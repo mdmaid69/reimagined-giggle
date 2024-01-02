@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+for i in range(5):
+        print(i)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
