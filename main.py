@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
