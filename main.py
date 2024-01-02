@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
