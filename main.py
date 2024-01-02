@@ -1,6 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_speed(distance, time):
+        return distance / time
