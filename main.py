@@ -1,7 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+import array
+def get_array_index(array, item):
+        return array.index(item)
