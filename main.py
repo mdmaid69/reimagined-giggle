@@ -1,5 +1,5 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  def calculate_area_rectangle(l, w):
-        return l * w
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
