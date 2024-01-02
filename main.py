@@ -1,4 +1,4 @@
-import sys
-print(sys.version)
-def cube_number(x):
-        return x**3
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
