@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
