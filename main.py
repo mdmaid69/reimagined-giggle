@@ -1,5 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import time
+def get_current_time():
+        return time.time()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
