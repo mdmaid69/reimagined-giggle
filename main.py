@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
