@@ -1,6 +1,11 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
