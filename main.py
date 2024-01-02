@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import getpass
+def get_username():
+        return getpass.getuser()
