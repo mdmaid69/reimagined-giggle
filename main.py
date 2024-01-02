@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
