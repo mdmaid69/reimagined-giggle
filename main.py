@@ -1,6 +1,3 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+print([x**2 for x in range(10)])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
