@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def add_numbers(x, y):
+        return x + y
