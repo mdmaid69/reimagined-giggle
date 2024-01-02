@@ -1,4 +1,10 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
