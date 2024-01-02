@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_array_to_string(array):
+        return array.tostring()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
