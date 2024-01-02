@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_density(mass, volume):
-        return mass / volume
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
