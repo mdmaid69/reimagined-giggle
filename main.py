@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import datetime
+def get_current_date():
+        return datetime.date.today()
