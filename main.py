@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+for i in range(5):
+        print(i)
