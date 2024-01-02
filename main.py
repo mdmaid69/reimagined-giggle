@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
