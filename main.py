@@ -1,8 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
