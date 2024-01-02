@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
