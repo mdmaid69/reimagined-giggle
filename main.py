@@ -1,5 +1,7 @@
-  def convert_to_binary(n):
-        return bin(n)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
