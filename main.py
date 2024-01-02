@@ -1,6 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
