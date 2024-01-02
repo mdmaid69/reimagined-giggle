@@ -1,5 +1,7 @@
-def subtract_numbers(x, y):
-        return x - y
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
