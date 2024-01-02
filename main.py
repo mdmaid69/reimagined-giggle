@@ -1,6 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import random
+print(random.randint(0, 100))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
