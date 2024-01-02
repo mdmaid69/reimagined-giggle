@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import array
+def append_to_array(array, item):
+        array.append(item)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
