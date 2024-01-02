@@ -1,6 +1,10 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
