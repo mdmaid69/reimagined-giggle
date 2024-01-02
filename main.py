@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
