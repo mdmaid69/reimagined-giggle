@@ -1,6 +1,5 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def get_array_index(array, item):
+        return array.index(item)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
