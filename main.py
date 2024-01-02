@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def count_characters(sentence):
+        return len(sentence)
