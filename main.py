@@ -1,7 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def convert_to_octal(n):
+        return oct(n)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
