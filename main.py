@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import logging
+def log_message(message):
+        logging.info(message)
+def is_even(n):
+        return n % 2 == 0
