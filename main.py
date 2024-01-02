@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
