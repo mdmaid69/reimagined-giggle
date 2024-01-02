@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def clear_array(array):
+        array *= 0
+  def square_number(x):
+        return x**2
