@@ -1,6 +1,5 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
