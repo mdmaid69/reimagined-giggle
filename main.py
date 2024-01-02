@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
