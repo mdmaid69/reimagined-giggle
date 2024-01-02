@@ -1,5 +1,7 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
