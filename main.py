@@ -1,5 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def is_odd(n):
+        return n % 2 != 0
+def find_min(numbers):
+        return min(numbers)
