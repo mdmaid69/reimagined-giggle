@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
