@@ -1,12 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
