@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import numpy as np
+print(np.array([1, 2, 3]))
