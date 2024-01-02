@@ -1,5 +1,7 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def find_min(numbers):
-        return min(numbers)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
