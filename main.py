@@ -1,8 +1,5 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
