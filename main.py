@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
