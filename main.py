@@ -1,6 +1,6 @@
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
