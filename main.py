@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def subtract_numbers(x, y):
+        return x - y
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
