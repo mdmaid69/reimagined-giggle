@@ -1,9 +1,8 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
