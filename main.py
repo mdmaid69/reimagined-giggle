@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def greet(name):
-        print(f"Hello, {name}!")
+def add_numbers(x, y):
+        return x + y
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
