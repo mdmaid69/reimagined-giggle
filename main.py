@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def sort_list(lst):
+        return sorted(lst)
