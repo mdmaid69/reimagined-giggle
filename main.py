@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
