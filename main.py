@@ -1,6 +1,7 @@
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
