@@ -1,5 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import sys
-def print_python_version():
-        print(sys.version)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
