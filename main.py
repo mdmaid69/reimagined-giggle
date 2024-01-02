@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
