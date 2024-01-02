@@ -1,8 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
