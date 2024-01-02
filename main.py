@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import time
-def get_current_time():
-        return time.ctime()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import datetime
+def get_current_date():
+        return datetime.date.today()
