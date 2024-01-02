@@ -1,4 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def find_max(lst):
-        return max(lst)
+for i in range(10): print(i)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
