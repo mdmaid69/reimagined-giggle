@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
