@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  def square_number(x):
+        return x**2
