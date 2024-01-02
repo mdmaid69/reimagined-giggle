@@ -1,6 +1,8 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
