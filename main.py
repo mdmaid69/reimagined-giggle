@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def is_even(n):
+        return n % 2 == 0
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
