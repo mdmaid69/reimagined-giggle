@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_array_as_list(array):
+        return list(array)
