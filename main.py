@@ -1,8 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
