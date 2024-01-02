@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def reverse_list(lst):
+        return lst[::-1]
