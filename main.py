@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
