@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def convert_to_octal(n):
-        return oct(n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
