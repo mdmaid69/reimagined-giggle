@@ -1,7 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def convert_to_hex(n):
+        return hex(n)
