@@ -1,10 +1,5 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_area(radius):
+        return 3.14 * radius * radius
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
