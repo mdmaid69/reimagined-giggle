@@ -1,8 +1,4 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+print(sum(range(10)))
