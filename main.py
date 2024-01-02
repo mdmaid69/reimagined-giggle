@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import platform
-def get_python_version():
-        return platform.python_version()
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
