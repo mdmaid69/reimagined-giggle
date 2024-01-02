@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_current_directory():
+        return os.getcwd()
