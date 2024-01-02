@@ -1,7 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
