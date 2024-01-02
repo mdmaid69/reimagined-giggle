@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_density(mass, volume):
+        return mass / volume
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
