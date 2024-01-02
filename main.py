@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
