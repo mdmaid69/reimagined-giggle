@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
