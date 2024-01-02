@@ -1,4 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
