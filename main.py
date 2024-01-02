@@ -1,6 +1,5 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def calculate_area_circle(r):
+        return 3.14 * r**2
