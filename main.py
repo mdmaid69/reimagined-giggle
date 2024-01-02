@@ -1,4 +1,7 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
