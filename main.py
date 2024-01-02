@@ -1,4 +1,8 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
