@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
