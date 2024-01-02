@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_length(array):
+        return len(array)
