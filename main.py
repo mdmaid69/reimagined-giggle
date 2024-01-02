@@ -1,6 +1,8 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
