@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
