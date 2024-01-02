@@ -1,7 +1,8 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import json
-def load_json(filename):
+import csv
+def load_csv(filename):
         with open(filename, "r") as f:
-        return json.load(f)
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
