@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-from collections import Counter
-print(Counter("hello world"))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def multiply_numbers(x, y):
+        return x * y
