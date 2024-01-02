@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
