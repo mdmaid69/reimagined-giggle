@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
