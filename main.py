@@ -1,7 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
