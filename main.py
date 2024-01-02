@@ -1,8 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
