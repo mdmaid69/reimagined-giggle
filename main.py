@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def count_elements(lst):
+        return len(lst)
