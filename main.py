@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
