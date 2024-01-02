@@ -1,6 +1,8 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
