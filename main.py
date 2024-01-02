@@ -1,5 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
