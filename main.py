@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def add_numbers(x, y):
-        return x + y
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
