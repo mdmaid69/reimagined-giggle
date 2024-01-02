@@ -1,6 +1,8 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
