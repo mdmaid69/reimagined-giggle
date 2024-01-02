@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
