@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_power(work, time):
+        return work / time
