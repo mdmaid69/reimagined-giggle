@@ -1,5 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+for i in range(10): print(i)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
