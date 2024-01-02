@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+name = "Python"
+print("Hello,", name)
