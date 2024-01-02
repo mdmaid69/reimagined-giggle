@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
