@@ -1,5 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
