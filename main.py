@@ -1,5 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def count_elements(lst):
-        return len(lst)
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
