@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
