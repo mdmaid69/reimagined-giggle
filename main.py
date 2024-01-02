@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
