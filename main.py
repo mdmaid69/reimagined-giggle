@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+from collections import Counter
+print(Counter("hello world"))
