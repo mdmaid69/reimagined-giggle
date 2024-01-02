@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def count_words(sentence):
+        return len(sentence.split())
