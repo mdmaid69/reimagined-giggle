@@ -1,5 +1,5 @@
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_sine(x):
+        return math.sin(x)
