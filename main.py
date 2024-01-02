@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import collections
-def create_user_string():
-        return collections.UserString()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
