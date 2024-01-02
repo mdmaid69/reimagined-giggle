@@ -1,5 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
