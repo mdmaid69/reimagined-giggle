@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
