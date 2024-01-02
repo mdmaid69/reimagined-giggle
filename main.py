@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
