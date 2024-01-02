@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
