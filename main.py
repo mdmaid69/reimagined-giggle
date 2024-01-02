@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  def cube_number(x):
-        return x**3
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
