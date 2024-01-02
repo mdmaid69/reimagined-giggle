@@ -1,6 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
+  def is_even(n):
+        return n % 2 == 0
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
