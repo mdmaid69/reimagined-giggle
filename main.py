@@ -1,6 +1,7 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
