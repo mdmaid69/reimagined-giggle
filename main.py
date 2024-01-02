@@ -1,5 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def count_characters(sentence):
-        return len(sentence)
+def find_max(numbers):
+        return max(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
