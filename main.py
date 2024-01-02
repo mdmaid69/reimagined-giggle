@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import collections
+def create_priority_queue():
+        return collections.deque()
