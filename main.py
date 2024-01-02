@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def get_array_item(array, i):
-        return array[i]
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
