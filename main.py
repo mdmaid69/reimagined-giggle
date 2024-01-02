@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
