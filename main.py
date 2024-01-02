@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
