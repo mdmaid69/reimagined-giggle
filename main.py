@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
