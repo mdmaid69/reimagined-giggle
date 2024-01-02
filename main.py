@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-  def count_elements(lst):
-        return len(lst)
+def find_max(numbers):
+        return max(numbers)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
