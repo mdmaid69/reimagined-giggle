@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
