@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  def reverse_list(lst):
-        return lst[::-1]
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
