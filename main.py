@@ -1,6 +1,7 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def split_path(path):
+        return os.path.split(path)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
