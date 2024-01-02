@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+print([x**2 for x in range(10)])
