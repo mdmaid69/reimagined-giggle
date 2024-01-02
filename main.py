@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
