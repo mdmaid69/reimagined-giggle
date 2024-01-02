@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
 import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def convert_to_json(data):
+        return json.dumps(data)
+for i in range(10): print(i)
