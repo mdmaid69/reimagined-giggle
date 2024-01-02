@@ -1,6 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
