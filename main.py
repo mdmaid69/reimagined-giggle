@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
