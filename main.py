@@ -1,5 +1,4 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def convert_to_hex(n):
+        return hex(n)
+def reverse_string(s):
+        return s[::-1]
