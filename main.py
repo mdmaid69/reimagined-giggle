@@ -1,6 +1,4 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_area_rectangle(l, w):
+        return l * w
