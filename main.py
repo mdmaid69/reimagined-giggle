@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  def cube_number(x):
-        return x**3
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
