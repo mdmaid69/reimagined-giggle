@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
