@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import collections
-def create_user_string():
-        return collections.UserString()
+  def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
