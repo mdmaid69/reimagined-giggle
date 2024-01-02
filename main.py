@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import sys
-  def get_python_version():
-        return sys.version
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
