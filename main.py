@@ -1,3 +1,5 @@
-print("Hello, world!")
-  def reverse_list(lst):
-        return lst[::-1]
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
