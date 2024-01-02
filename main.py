@@ -1,8 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def convert_to_binary(n):
+        return bin(n)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
