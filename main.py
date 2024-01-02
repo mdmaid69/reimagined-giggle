@@ -1,5 +1,8 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
