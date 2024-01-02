@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
