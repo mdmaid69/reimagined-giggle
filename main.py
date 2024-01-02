@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
