@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
