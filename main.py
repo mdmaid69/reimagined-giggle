@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
