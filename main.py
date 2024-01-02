@@ -1,5 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  def multiply_numbers(x, y):
-        return x * y
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
