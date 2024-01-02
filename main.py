@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+from collections import Counter
+print(Counter("hello world"))
