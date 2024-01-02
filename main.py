@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def add_numbers(x, y):
+        return x + y
