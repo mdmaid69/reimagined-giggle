@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
