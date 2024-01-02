@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
