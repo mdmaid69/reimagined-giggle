@@ -1,6 +1,5 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
