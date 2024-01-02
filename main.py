@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_speed(distance, time):
-        return distance / time
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
