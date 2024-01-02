@@ -1,5 +1,12 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def is_odd(n):
-        return n % 2 != 0
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
