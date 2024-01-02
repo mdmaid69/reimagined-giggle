@@ -1,5 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  def convert_to_hex(n):
-        return hex(n)
+def sort_list(lst):
+        return sorted(lst)
+name = "Python"
+print("Hello,", name)
