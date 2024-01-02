@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import array
-def clear_array(array):
-        array *= 0
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def get_array_as_bytearray(array):
+        return bytearray(array)
