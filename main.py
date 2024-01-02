@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+print("Cube numbers:", [x**3 for x in range(n)])
