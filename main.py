@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
