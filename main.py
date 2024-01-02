@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
