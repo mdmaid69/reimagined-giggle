@@ -1,6 +1,7 @@
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def get_array_item_count(array, item):
+        return array.count(item)
