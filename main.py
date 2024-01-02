@@ -1,6 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_cosine(x):
+        return math.cos(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
