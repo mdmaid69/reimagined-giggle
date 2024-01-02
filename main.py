@@ -1,6 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
