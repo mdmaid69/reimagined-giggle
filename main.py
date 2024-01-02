@@ -1,9 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def append_to_array(array, item):
+        array.append(item)
