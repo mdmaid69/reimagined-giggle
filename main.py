@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
