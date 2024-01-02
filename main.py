@@ -1,5 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import random
+print(random.randint(0, 100))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
