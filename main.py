@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
