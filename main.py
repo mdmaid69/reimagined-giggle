@@ -1,5 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
