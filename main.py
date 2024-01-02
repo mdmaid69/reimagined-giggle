@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
