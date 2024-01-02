@@ -1,6 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
