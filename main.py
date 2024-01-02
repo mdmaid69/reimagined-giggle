@@ -1,5 +1,6 @@
+import platform
+def get_python_version():
+        return platform.python_version()
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
