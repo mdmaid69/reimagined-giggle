@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
