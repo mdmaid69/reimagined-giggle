@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
