@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def convert_to_binary(n):
+        return bin(n)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
