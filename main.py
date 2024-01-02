@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
