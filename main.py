@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_user_list():
-        return collections.UserList()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
