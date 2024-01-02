@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-  def square_number(x):
-        return x**2
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
