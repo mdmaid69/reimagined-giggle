@@ -1,7 +1,7 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
