@@ -1,5 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def count_elements(lst):
-        return len(lst)
+def is_odd(n):
+        return n % 2 != 0
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
