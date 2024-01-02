@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def find_max(lst):
+        return max(lst)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
