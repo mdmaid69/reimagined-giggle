@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_as_complex(array):
+        return complex(array[0])
