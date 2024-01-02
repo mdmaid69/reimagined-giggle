@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
