@@ -1,6 +1,7 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import os
+def change_working_directory(path):
+        os.chdir(path)
