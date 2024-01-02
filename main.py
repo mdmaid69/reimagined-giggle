@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
