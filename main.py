@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_acceleration(speed, time):
+        return speed / time
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_bytearray(array):
+        return bytearray(array)
