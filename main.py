@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
