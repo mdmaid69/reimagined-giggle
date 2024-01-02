@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_power(work, time):
-        return work / time
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_area_rectangle(l, w):
+        return l * w
