@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def cube_number(x):
-        return x**3
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+import os
+print(os.getcwd())
