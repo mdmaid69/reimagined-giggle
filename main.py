@@ -1,8 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
