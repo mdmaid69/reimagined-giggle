@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
