@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
