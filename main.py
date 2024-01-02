@@ -1,8 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def cube_number(x):
+        return x**3
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
