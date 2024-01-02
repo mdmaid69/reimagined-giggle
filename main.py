@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
