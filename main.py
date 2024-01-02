@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def add_numbers(x, y):
-        return x + y
+  def cube_number(x):
+        return x**3
+import array
+def reverse_array(array):
+        array.reverse()
