@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
