@@ -1,6 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def get_array_as_int(array):
+        return int(array[0])
