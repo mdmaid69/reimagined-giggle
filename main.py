@@ -1,6 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
