@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def sort_numbers(numbers):
+        return sorted(numbers)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
