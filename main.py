@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import os
+def remove_directory(path):
+        os.rmdir(path)
