@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
