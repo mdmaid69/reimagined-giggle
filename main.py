@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
