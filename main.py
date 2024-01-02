@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
