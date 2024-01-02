@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def count_elements(lst):
-        return len(lst)
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_current_directory():
+        return os.getcwd()
