@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
+  def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
