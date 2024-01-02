@@ -1,5 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def find_unique_words(sentence):
-        return set(sentence.split())
+from collections import Counter
+print(Counter("hello world"))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
