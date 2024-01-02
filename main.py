@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
