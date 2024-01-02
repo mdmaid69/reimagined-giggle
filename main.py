@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
