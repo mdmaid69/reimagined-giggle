@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_arc_cosine(x):
+        return math.acos(x)
