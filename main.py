@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_density(mass, volume):
+        return mass / volume
