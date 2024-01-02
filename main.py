@@ -1,6 +1,13 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
