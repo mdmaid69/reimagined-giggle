@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_length(array):
-        return len(array)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
