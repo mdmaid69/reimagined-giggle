@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
