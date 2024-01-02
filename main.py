@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+name = "Python"
+print("Hello,", name)
