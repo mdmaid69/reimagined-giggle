@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def clear_array(array):
+        array *= 0
+import array
+def get_string_from_array(array):
+        return array.tobytes()
