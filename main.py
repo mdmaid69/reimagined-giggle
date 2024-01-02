@@ -1,6 +1,8 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import datetime
+def get_today_date():
+        return datetime.date.today()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
