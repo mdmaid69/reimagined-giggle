@@ -1,5 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import sys
-print(sys.version)
+def convert_to_binary(n):
+        return bin(n)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
