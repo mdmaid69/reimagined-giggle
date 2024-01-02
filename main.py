@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def find_min(lst):
-        return min(lst)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
