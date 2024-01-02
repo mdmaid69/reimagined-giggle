@@ -1,4 +1,8 @@
-  def convert_to_binary(n):
-        return bin(n)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
