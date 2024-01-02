@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
