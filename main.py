@@ -1,7 +1,7 @@
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
