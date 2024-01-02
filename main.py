@@ -1,5 +1,7 @@
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
