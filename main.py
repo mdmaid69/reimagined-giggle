@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
