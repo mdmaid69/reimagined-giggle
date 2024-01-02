@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def reverse_list(lst):
+        return lst[::-1]
