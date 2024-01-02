@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
