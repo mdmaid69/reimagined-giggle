@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
