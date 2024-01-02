@@ -1,7 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def square_number(x):
+        return x**2
+  def sort_list(lst):
+        return sorted(lst)
