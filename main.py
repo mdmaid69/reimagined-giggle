@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
