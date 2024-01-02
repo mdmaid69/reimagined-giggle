@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_pressure(force, area):
+        return force / area
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
