@@ -1,5 +1,6 @@
-name = "Python"
-print("Hello,", name)
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
