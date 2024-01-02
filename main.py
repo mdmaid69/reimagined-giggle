@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
