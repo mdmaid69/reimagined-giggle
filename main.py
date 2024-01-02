@@ -1,5 +1,4 @@
-def square_number(x):
-        return x**2
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import random
+print(random.randint(0, 100))
+def convert_to_hex(n):
+        return hex(n)
