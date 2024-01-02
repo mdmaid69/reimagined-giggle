@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_sign(x):
+        return math.copysign(1, x)
