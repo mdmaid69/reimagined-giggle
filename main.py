@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def cube_number(x):
+        return x**3
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
