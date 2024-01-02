@@ -1,4 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def split_path(path):
-        return os.path.split(path)
-for i in range(10): print(i)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
