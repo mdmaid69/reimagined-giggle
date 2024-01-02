@@ -1,6 +1,6 @@
-import sys
-print(sys.version)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
