@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
