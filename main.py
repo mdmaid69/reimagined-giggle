@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
