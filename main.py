@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+x = 10
+y = 20
+print("Sum:", x + y)
+def find_unique_words(sentence):
+        return set(sentence.split())
