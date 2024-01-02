@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
