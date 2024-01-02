@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
