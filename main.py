@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
