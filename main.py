@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
