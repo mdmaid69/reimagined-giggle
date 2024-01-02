@@ -1,6 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+print([x**2 for x in range(10)])
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
