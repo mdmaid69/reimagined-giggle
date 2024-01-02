@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
