@@ -1,8 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_pressure(force, area):
+        return force / area
