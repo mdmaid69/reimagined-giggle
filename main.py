@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def add_numbers(x, y):
-        return x + y
+  def sort_list(lst):
+        return sorted(lst)
+def find_max(numbers):
+        return max(numbers)
