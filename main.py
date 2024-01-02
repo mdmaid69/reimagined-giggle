@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
