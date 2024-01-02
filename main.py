@@ -1,4 +1,6 @@
-print(sum(range(10)))
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
