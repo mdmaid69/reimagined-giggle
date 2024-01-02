@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
