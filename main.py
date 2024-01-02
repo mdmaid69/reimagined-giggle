@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def cube_number(x):
-        return x**3
+import sys
+def exit_program():
+        sys.exit()
+def count_words(sentence):
+        return len(sentence.split())
