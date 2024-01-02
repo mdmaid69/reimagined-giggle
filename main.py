@@ -1,6 +1,8 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
