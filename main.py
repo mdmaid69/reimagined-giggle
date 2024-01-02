@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import os
-print(os.getcwd())
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
