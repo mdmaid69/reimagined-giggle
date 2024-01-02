@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_complex(array):
+        return complex(array[0])
