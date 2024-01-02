@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
