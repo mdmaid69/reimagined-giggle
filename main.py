@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
