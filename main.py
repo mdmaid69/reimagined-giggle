@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
