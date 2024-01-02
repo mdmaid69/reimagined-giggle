@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_acceleration(speed, time):
-        return speed / time
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
