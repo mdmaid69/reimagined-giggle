@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def is_odd(n):
-        return n % 2 != 0
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
