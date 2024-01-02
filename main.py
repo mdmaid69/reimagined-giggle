@@ -1,4 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+for i in range(10): print(i)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
