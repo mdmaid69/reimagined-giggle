@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
