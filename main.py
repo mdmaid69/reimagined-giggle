@@ -1,6 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def get_array_length(array):
-        return len(array)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def count_elements(lst):
+        return len(lst)
