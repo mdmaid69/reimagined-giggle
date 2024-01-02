@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def multiply_numbers(x, y):
+        return x * y
