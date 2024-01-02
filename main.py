@@ -1,6 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
