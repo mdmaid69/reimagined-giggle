@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
