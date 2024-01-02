@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
