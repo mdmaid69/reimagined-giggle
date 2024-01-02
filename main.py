@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import logging
+def log_message(message):
+        logging.info(message)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
