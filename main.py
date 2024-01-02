@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def count_elements(lst):
-        return len(lst)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import json
+print(json.dumps({"name": "John", "age": 30}))
