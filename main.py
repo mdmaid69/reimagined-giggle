@@ -1,6 +1,7 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import time
-def get_current_time():
-        return time.time()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
