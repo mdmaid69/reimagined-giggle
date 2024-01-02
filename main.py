@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
