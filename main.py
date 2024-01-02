@@ -1,11 +1,5 @@
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
