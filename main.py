@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
