@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
