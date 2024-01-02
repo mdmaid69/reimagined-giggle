@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
