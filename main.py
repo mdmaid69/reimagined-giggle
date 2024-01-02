@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
