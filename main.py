@@ -1,5 +1,7 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
