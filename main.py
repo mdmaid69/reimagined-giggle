@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def square_number(x):
+        return x**2
