@@ -1,5 +1,7 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
