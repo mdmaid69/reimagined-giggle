@@ -1,8 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
