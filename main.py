@@ -1,5 +1,8 @@
-def cube_number(x):
-        return x**3
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
