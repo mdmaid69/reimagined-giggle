@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_slice(array, i, j):
+        return array[i:j]
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
