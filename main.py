@@ -1,6 +1,11 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
