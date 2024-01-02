@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
