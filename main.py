@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def convert_to_hex(n):
+        return hex(n)
