@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
