@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
