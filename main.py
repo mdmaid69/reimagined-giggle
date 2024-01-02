@@ -1,5 +1,10 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def greet(name):
-        print(f"Hello, {name}!")
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
