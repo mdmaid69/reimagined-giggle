@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
