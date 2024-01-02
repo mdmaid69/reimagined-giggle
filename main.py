@@ -1,5 +1,8 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
