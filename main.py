@@ -1,6 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
