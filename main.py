@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  import sys
+  def get_python_version():
+        return sys.version
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
