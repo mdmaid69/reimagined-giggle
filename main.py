@@ -1,4 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def remove_duplicates(lst):
+        return list(set(lst))
