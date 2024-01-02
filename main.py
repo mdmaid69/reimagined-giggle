@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
