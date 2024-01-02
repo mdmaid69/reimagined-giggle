@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
