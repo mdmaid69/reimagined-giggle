@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
