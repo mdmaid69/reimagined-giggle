@@ -1,5 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def calculate_power(work, time):
-        return work / time
+def divide_numbers(x, y):
+        return x / y
+def find_max(lst):
+        return max(lst)
