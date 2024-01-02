@@ -1,6 +1,2 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+print(sum(range(10)))
+print([x**2 for x in range(10)])
