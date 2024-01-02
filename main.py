@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import random
+def roll_die():
+        return random.randint(1, 6)
