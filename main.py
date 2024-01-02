@@ -1,8 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_float(array):
+        return float(array[0])
+  def add_numbers(x, y):
+        return x + y
