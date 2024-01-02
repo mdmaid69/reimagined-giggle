@@ -1,6 +1,8 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
