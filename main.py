@@ -1,7 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
