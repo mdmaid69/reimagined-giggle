@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import datetime
+def get_current_date():
+        return datetime.date.today()
