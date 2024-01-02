@@ -1,6 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
