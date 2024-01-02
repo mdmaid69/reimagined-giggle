@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
