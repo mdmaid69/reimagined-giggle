@@ -1,6 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
