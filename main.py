@@ -1,6 +1,7 @@
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  def get_current_working_directory():
+        return os.getcwd()
