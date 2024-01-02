@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_speed(distance, time):
+        return distance / time
