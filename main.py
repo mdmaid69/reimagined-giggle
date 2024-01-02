@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def is_even(n):
-        return n % 2 == 0
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
