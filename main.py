@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def cube_number(x):
+        return x**3
