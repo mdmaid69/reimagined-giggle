@@ -1,6 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  def sort_list(lst):
+        return sorted(lst)
+  def subtract_numbers(x, y):
+        return x - y
