@@ -1,5 +1,7 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
