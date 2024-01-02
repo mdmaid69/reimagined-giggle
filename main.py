@@ -1,7 +1,6 @@
+  def convert_to_octal(n):
+        return oct(n)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def iterate_over_array(array):
+        for item in array:
+        print(item)
