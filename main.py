@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
