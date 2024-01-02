@@ -1,6 +1,5 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
