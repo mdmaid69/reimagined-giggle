@@ -1,4 +1,4 @@
-print(sum(range(10)))
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_pressure(force, area):
+        return force / area
+def convert_to_octal(n):
+        return oct(n)
