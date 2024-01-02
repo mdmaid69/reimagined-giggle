@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
