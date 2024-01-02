@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import os
+def get_current_working_directory():
+        return os.getcwd()
