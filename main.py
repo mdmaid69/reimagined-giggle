@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def convert_to_hex(n):
+        return hex(n)
