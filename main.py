@@ -1,5 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
