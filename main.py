@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import sys
+print(sys.version)
