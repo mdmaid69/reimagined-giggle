@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
