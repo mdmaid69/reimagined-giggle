@@ -1,5 +1,7 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def sort_list(lst):
-        return sorted(lst)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
