@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
+def reverse_string(s):
+        return s[::-1]
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
