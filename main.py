@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def cube_number(x):
-        return x**3
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def get_array_as_bool(array):
+        return bool(array)
