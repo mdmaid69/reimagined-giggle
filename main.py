@@ -1,9 +1,6 @@
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
-  import sys
-  def get_python_version():
-        return sys.version
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
