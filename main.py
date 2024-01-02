@@ -1,6 +1,6 @@
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def get_file_size(filename):
+        return os.path.getsize(filename)
