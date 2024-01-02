@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
