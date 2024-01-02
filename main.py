@@ -1,6 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
