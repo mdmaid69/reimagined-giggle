@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
