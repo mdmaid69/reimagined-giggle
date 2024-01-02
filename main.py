@@ -1,8 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
