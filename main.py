@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
