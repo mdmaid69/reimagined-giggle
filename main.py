@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  def sort_list(lst):
+        return sorted(lst)
