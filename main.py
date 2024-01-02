@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
