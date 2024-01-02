@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
