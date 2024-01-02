@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
