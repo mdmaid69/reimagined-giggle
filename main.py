@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
