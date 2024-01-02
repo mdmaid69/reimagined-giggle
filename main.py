@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
