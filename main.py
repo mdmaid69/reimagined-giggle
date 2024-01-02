@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import os
+def get_current_working_directory():
+        return os.getcwd()
