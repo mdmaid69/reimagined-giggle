@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
