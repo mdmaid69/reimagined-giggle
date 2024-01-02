@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def count_elements(lst):
+        return len(lst)
