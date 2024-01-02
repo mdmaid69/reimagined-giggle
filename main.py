@@ -1,7 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_user_dict():
+        return collections.UserDict()
