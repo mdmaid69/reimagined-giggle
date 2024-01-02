@@ -1,6 +1,3 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def calculate_acceleration(speed, time):
+        return speed / time
+print([x**2 for x in range(10)])
