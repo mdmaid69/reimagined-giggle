@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
