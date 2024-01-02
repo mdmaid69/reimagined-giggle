@@ -1,6 +1,5 @@
 import array
-def reverse_array(array):
-        array.reverse()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def get_array_typecode(array):
+        return array.typecode
+  def square_number(x):
+        return x**2
