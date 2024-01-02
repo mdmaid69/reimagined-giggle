@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
