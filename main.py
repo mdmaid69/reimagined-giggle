@@ -1,5 +1,6 @@
-import os
-print(os.getcwd())
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import logging
+def log_message(message):
+        logging.info(message)
