@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
