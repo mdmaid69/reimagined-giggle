@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
