@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_acceleration(speed, time):
-        return speed / time
+  def add_numbers(x, y):
+        return x + y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
