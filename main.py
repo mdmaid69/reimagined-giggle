@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def sort_numbers(numbers):
+        return sorted(numbers)
