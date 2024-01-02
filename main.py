@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import random
-print(random.randint(0, 100))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
