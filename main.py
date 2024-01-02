@@ -1,5 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
+print("Hello, world!")
 import math
-print(math.pi)
+def calculate_tangent(x):
+        return math.tan(x)
