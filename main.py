@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import time
-def get_current_time():
-        return time.ctime()
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
