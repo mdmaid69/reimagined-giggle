@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
