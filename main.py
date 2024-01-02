@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  def is_odd(n):
+        return n % 2 != 0
