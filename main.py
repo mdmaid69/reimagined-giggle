@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import os
-print(os.getcwd())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def find_max(numbers):
+        return max(numbers)
