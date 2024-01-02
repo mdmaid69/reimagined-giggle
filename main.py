@@ -1,6 +1,8 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
