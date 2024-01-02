@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def append_to_array(array, item):
+        array.append(item)
