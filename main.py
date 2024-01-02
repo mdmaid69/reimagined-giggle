@@ -1,5 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
