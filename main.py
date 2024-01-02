@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
