@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import random
+print(random.randint(0, 100))
+def convert_to_hex(n):
+        return hex(n)
