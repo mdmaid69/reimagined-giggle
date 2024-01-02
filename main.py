@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  def calculate_area_rectangle(l, w):
+        return l * w
