@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
