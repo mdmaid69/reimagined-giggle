@@ -1,5 +1,7 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def count_elements(lst):
+        return len(lst)
