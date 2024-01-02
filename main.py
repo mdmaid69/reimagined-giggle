@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
