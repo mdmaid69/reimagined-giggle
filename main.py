@@ -1,6 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import array
-def get_array_as_set(array):
-        return set(array)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def clear_array(array):
+        array *= 0
