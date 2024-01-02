@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
