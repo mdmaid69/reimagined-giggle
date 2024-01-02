@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import sys
+def print_python_version():
+        return sys.version
