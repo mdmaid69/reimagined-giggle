@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
