@@ -1,5 +1,3 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def find_min(lst):
-        return min(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+print([x**2 for x in range(10)])
