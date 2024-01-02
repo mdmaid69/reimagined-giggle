@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import time
-def get_current_time():
-        return time.time()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
