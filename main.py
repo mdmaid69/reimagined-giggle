@@ -1,5 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_pressure(force, area):
-        return force / area
+def convert_array_to_string(array):
+        return array.tostring()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
