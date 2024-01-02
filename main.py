@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
