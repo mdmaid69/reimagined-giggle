@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
