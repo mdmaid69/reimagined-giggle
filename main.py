@@ -1,5 +1,4 @@
-import sys
-print(sys.version)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
