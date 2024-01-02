@@ -1,5 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def cube_number(x):
+        return x**3
