@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def convert_to_octal(n):
+        return oct(n)
