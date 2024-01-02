@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def cube_number(x):
+        return x**3
