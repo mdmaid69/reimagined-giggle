@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-text = "Hello, world!"
-print("Characters:", len(text))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def convert_to_hex(n):
+        return hex(n)
