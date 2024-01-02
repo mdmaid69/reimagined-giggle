@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def greet(name):
-        print(f"Hello, {name}!")
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
