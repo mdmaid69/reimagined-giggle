@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import collections
+def create_user_dict():
+        return collections.UserDict()
