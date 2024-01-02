@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def get_array_item(array, i):
+        return array[i]
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
