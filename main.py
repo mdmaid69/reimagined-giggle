@@ -1,11 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
