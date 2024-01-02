@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_min(numbers):
-        return min(numbers)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def find_union(list1, list2):
+        return set(list1) | set(list2)
