@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import time
+def get_time_since_epoch():
+        return time.time()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
