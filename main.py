@@ -1,5 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
