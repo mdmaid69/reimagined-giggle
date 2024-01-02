@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import getpass
+def get_username():
+        return getpass.getuser()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
