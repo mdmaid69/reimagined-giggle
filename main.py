@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import sys
+  def get_python_version():
+        return sys.version
