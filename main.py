@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
