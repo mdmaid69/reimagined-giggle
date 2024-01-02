@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def find_union(list1, list2):
+        return set(list1) | set(list2)
