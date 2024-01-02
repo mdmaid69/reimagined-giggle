@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
