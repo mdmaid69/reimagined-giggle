@@ -1,3 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-print([x**2 for x in range(10)])
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
