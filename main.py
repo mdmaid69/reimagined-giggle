@@ -1,5 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_speed(distance, time):
+        return distance / time
+def remove_duplicates(lst):
+        return list(set(lst))
