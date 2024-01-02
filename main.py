@@ -1,7 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+text = "Hello, world!"
+print("Characters:", len(text))
