@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
