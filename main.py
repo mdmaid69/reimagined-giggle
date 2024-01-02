@@ -1,5 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
