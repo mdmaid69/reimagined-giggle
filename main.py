@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
