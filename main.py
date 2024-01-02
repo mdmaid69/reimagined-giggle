@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_pressure(force, area):
+        return force / area
