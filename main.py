@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
