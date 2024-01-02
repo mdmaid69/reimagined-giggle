@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  def multiply_numbers(x, y):
-        return x * y
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
