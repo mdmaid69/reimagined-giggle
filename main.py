@@ -1,6 +1,6 @@
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
