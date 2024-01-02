@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
