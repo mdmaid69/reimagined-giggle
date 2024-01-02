@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
