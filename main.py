@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def convert_to_hex(n):
-        return hex(n)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
