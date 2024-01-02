@@ -1,6 +1,7 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_sine(x):
+        return math.sin(x)
