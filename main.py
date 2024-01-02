@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
