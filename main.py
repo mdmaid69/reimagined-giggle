@@ -1,6 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def reverse_array(array):
+        array.reverse()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
