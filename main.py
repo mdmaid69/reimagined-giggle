@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
