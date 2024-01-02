@@ -1,4 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+from collections import Counter
+print(Counter("hello world"))
