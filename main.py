@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def reverse_string(s):
-        return s[::-1]
+import sys
+def print_python_version():
+        return sys.version
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
