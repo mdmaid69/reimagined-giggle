@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_as_repr(array):
+        return repr(array)
