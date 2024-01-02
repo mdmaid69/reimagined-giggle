@@ -1,6 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
