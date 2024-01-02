@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def convert_array_to_string(array):
+        return array.tostring()
