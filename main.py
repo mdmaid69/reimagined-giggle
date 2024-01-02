@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_float(array):
+        return float(array[0])
