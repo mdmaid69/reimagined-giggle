@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
