@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
