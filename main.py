@@ -1,6 +1,6 @@
+def convert_to_octal(n):
+        return oct(n)
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
