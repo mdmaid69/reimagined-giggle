@@ -1,5 +1,9 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+i = 0
+while i < 5:
+        print(i)
+        i += 1
