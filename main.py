@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def cube_number(x):
+        return x**3
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
