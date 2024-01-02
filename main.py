@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_volume(length, width, height):
-        return length * width * height
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_as_str(array):
+        return str(array)
