@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
