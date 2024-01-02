@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import time
+def get_time_since_epoch():
+        return time.time()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
