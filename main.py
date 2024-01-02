@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
