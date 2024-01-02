@@ -1,5 +1,8 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
