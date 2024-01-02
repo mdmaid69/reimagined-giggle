@@ -1,5 +1,6 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
