@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import logging
+def log_message(message):
+        logging.info(message)
