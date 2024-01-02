@@ -1,3 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-print(sum(range(10)))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
