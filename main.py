@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_item_count(array, item):
+        return array.count(item)
