@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_counter():
+        return collections.Counter()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
