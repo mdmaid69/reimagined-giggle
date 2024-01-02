@@ -1,7 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
