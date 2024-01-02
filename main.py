@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
