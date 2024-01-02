@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import time
-def get_current_time():
-        return time.ctime()
+import platform
+def get_python_version():
+        return platform.python_version()
+from collections import Counter
+print(Counter("hello world"))
