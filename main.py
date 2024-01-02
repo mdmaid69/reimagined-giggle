@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
