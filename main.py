@@ -1,5 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
