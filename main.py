@@ -1,5 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import array
+def get_array_as_str(array):
+        return str(array)
