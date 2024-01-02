@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
