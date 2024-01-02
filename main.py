@@ -1,6 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
