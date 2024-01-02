@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_as_str(array):
-        return str(array)
+def add_numbers(x, y):
+        return x + y
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
