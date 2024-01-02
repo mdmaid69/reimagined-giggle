@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def add_numbers(x, y):
-        return x + y
+import sys
+def print_python_version():
+        return sys.version
+  def count_elements(lst):
+        return len(lst)
