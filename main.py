@@ -1,5 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
