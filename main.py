@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_force(mass, acceleration):
+        return mass * acceleration
