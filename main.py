@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def split_path(path):
+        return os.path.split(path)
+x = 10
+y = 20
+print("Sum:", x + y)
