@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
