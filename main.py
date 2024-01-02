@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def greet(name):
+        print(f"Hello, {name}!")
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
