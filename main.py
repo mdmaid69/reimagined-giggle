@@ -1,6 +1,6 @@
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_error_function(x):
+        return math.erf(x)
