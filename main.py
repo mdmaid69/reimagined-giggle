@@ -1,8 +1,6 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_float(array):
+        return float(array[0])
