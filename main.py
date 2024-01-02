@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import json
+print(json.dumps({"name": "John", "age": 30}))
