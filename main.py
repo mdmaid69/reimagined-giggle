@@ -1,7 +1,9 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
