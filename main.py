@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def get_list_from_array(array):
+def convert_array_to_list(array):
         return array.tolist()
