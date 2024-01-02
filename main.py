@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import sys
-def exit_program():
-        sys.exit()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
