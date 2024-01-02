@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import os
+print(os.getcwd())
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
