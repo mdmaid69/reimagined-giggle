@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
