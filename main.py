@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
