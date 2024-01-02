@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
