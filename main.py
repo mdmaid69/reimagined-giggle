@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
