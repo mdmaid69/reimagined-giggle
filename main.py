@@ -1,12 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import array
+def get_array_item(array, i):
+        return array[i]
