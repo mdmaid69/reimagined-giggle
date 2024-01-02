@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
