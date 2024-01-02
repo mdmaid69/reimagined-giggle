@@ -1,5 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_volume(length, width, height):
+        return length * width * height
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
