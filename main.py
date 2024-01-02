@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def get_array_item_count(array, item):
+        return array.count(item)
