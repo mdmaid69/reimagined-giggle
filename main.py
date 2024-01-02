@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
 import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
