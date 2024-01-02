@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
