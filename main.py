@@ -1,5 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_slice(array, i, j):
+        return array[i:j]
