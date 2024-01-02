@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
