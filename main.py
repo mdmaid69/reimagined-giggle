@@ -1,5 +1,3 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+for i in range(10): print(i)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
