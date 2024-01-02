@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+def convert_to_hex(n):
+        return hex(n)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
