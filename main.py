@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def count_characters(sentence):
-        return len(sentence)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def find_max(lst):
+        return max(lst)
