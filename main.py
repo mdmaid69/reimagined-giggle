@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-  def convert_to_hex(n):
-        return hex(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
