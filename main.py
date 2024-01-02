@@ -1,5 +1,4 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
