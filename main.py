@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def add_numbers(a, b):
+        return a + b
+def calculate_volume(length, width, height):
+        return length * width * height
