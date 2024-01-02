@@ -1,6 +1,8 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
