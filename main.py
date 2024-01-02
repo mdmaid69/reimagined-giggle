@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_circle_area(radius):
+        return math.pi * radius**2
