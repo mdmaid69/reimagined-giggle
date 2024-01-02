@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
