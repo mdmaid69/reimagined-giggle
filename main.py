@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
