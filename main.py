@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def remove_from_array(array, item):
+        array.remove(item)
