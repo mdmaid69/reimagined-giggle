@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def set_array_item(array, i, item):
+        array[i] = item
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
