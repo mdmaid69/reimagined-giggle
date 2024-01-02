@@ -1,6 +1,8 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
