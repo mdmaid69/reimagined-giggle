@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def convert_to_binary(n):
-        return bin(n)
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
