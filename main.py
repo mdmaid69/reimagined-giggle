@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
