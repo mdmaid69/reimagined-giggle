@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def is_even(n):
+        return n % 2 == 0
