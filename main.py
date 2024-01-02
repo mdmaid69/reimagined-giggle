@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
