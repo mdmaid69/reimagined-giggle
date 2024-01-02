@@ -1,5 +1,8 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import collections
+def create_priority_queue():
+        return collections.deque()
