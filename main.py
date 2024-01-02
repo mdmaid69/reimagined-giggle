@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def clear_array(array):
-        array *= 0
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import sys
+def print_python_version():
+        return sys.version
