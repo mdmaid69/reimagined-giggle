@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
