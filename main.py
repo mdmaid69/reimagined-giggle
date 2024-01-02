@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import array
+def clear_array(array):
+        array *= 0
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
