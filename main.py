@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
