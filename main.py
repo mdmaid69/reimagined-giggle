@@ -1,6 +1,5 @@
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
