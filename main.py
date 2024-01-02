@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
