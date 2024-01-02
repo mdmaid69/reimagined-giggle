@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+import os
+print(os.getcwd())
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
