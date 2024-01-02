@@ -1,4 +1,5 @@
 text = "Hello, world!"
-print("Words:", len(text.split()))
-import time
-print(time.time())
+print("Characters:", len(text))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
