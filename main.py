@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
