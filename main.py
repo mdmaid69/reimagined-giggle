@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import getpass
+def get_username():
+        return getpass.getuser()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
