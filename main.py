@@ -1,6 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
