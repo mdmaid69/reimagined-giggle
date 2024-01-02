@@ -1,5 +1,4 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def convert_to_hex(n):
-        return hex(n)
+def reverse_string(s):
+        return s[::-1]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
