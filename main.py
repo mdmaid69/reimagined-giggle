@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
