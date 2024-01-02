@@ -1,3 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-print(sum(range(10)))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import datetime
+def get_current_date():
+        return datetime.date.today()
