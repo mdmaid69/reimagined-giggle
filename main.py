@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
