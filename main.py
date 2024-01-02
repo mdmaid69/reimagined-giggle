@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
