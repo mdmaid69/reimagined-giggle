@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
