@@ -1,8 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
