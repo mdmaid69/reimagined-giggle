@@ -1,6 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import collections
+def create_user_list():
+        return collections.UserList()
