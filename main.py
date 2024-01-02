@@ -1,6 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
