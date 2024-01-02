@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
