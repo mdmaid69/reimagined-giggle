@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
