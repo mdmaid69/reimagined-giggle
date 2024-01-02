@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-x = 10
-y = 20
-print("Sum:", x + y)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
