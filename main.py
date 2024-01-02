@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
