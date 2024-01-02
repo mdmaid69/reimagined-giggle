@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_power(work, time):
+        return work / time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
