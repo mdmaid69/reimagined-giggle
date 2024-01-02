@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
