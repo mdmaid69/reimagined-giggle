@@ -1,6 +1,5 @@
+def reverse_list(lst):
+        return lst[::-1]
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
