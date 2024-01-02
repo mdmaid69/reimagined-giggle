@@ -1,5 +1,4 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import tensorflow as tf
-print(tf.__version__)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+print([x**2 for x in range(10)])
