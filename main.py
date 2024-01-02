@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
