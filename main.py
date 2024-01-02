@@ -1,10 +1,5 @@
-import math
-print(math.pi)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def cube_number(x):
+        return x**3
+import array
+def get_array_as_float(array):
+        return float(array[0])
