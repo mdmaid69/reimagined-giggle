@@ -1,6 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
