@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-x = 10
-y = 20
-print("Sum:", x + y)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
