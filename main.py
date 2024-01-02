@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
