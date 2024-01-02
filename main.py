@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_as_int(array):
+        return int(array[0])
