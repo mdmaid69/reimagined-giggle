@@ -1,8 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_str(array):
-        return str(array)
+def convert_to_octal(n):
+        return oct(n)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
