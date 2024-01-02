@@ -1,5 +1,8 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def add_numbers(a, b):
-        return a + b
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
