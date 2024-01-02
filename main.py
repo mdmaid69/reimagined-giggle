@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
