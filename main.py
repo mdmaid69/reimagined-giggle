@@ -1,5 +1,7 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def sort_list(lst):
-        return sorted(lst)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
