@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_area_circle(r):
+        return 3.14 * r**2
