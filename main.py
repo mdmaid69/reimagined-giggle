@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
