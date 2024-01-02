@@ -1,5 +1,7 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
