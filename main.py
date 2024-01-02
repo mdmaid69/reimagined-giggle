@@ -1,5 +1,7 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
