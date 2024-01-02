@@ -1,5 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-def reverse_string(s):
-        return s[::-1]
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  import os
+  def get_current_directory():
+        return os.getcwd()
