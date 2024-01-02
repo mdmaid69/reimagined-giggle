@@ -1,6 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
