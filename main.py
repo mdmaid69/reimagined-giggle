@@ -1,6 +1,5 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  def square_number(x):
+        return x**2
