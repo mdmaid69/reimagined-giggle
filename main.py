@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
