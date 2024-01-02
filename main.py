@@ -1,6 +1,12 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
