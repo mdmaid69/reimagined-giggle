@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
