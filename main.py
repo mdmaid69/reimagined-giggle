@@ -1,9 +1,12 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import collections
-def create_user_list():
-        return collections.UserList()
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
