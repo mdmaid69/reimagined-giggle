@@ -1,11 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def subtract_numbers(x, y):
+        return x - y
