@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
