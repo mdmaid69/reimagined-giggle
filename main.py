@@ -1,4 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  def multiply_numbers(x, y):
-        return x * y
+import time
+def get_time_since_epoch():
+        return time.time()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
