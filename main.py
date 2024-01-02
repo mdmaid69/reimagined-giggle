@@ -1,8 +1,6 @@
+import collections
+def create_counter():
+        return collections.Counter()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
