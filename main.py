@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import collections
-def create_stack():
-        return collections.deque()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
