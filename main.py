@@ -1,4 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-print(sum(range(10)))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
