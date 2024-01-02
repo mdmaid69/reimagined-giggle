@@ -1,6 +1,10 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
