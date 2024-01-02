@@ -1,5 +1,11 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
