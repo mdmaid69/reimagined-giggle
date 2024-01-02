@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
