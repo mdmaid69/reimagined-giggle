@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def is_even(n):
+        return n % 2 == 0
