@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
