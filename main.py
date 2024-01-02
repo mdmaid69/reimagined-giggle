@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def is_odd(n):
-        return n % 2 != 0
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
