@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
