@@ -1,8 +1,6 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def get_array_as_bool(array):
+        return bool(array)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
