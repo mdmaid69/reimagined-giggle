@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
