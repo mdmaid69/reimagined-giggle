@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
