@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-def is_palindrome(s):
-        return s == s[::-1]
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
