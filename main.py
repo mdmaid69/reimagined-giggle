@@ -1,6 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def clear_array(array):
-        array *= 0
+print(sum(range(10)))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
