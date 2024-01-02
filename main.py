@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
