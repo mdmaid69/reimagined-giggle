@@ -1,4 +1,4 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
