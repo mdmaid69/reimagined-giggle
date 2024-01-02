@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def sort_list(lst):
+        return sorted(lst)
