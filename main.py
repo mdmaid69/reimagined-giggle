@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  def is_odd(n):
-        return n % 2 != 0
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
