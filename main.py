@@ -1,5 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+print([x**2 for x in range(10)])
+import array
+def clear_array(array):
+        array *= 0
