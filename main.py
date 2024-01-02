@@ -1,4 +1,8 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
