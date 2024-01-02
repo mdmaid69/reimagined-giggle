@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
+def count_characters(sentence):
+        return len(sentence)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
