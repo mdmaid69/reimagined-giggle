@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import platform
-def get_os_info():
-        return platform.uname()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
