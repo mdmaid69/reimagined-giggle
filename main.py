@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def calculate_area_rectangle(l, w):
+        return l * w
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
