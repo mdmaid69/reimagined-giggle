@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
