@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def get_array_index(array, item):
+        return array.index(item)
