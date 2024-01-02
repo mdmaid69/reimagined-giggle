@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import array
-def get_array_as_set(array):
-        return set(array)
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
