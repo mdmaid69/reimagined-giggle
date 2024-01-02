@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
