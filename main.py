@@ -1,8 +1,7 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import datetime
+print(datetime.datetime.now())
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
