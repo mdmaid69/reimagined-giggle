@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_tangent(x):
+        return math.tan(x)
