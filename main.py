@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
