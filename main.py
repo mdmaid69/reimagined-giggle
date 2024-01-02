@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def sort_numbers(numbers):
+        return sorted(numbers)
