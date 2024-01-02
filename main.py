@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
