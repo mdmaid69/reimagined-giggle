@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import array
-def clear_array(array):
-        array *= 0
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
