@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
