@@ -1,8 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
