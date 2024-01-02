@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
