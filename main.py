@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def count_elements(lst):
+        return len(lst)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
