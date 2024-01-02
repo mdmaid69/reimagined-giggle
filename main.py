@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import collections
+def create_user_list():
+        return collections.UserList()
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
