@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
