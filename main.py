@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import getpass
+def get_username():
+        return getpass.getuser()
