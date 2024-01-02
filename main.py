@@ -1,5 +1,7 @@
-  def cube_number(x):
-        return x**3
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
