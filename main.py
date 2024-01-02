@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
