@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import math
+def calculate_sine(x):
+        return math.sin(x)
