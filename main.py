@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
