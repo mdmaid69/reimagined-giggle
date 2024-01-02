@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def square_number(x):
+        return x**2
+import array
+def get_array_typecode(array):
+        return array.typecode
