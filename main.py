@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
