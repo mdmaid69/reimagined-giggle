@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import getpass
+def get_username():
+        return getpass.getuser()
+def cube_number(x):
+        return x**3
