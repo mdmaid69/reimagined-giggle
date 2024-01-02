@@ -1,6 +1,4 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def count_elements(lst):
+        return len(lst)
