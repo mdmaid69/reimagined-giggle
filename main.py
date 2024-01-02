@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import os
-print(os.getcwd())
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def reverse_array(array):
+        array.reverse()
