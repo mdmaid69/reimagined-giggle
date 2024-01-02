@@ -1,6 +1,6 @@
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
