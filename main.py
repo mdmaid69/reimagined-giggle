@@ -1,3 +1,5 @@
-print("Hello, world!")
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
