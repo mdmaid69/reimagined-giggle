@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
