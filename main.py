@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  def convert_to_octal(n):
+        return oct(n)
