@@ -1,5 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  def subtract_numbers(x, y):
-        return x - y
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_density(mass, volume):
+        return mass / volume
