@@ -1,6 +1,6 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
