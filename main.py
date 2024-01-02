@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
