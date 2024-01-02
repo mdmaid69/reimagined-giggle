@@ -1,6 +1,6 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
