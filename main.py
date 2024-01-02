@@ -1,6 +1,4 @@
+print([x**2 for x in range(10)])
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
