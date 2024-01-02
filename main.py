@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import random
-def roll_die():
-        return random.randint(1, 6)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
