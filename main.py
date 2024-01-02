@@ -1,5 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_power(work, time):
+        return work / time
+from collections import Counter
+print(Counter("hello world"))
