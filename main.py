@@ -1,4 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def subtract_numbers(x, y):
+        return x - y
