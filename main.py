@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
 import bisect
 def binary_search(sorted_list, item):
         i = bisect.bisect_left(sorted_list, item)
