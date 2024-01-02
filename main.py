@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
