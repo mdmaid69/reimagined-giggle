@@ -1,5 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
