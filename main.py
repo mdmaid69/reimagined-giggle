@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
