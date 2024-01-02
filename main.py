@@ -1,6 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import sys
+def print_python_version():
+        return sys.version
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
