@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def square_number(x):
+        return x**2
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
