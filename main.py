@@ -1,6 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
