@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import logging
+def log_message(message):
+        logging.info(message)
