@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
