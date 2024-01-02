@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
