@@ -1,5 +1,11 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import time
-def get_current_time():
-        return time.time()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
