@@ -1,6 +1,6 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
