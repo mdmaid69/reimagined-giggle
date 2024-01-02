@@ -1,11 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
