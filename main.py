@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def divide_numbers(x, y):
-        return x / y
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import random
+def roll_die():
+        return random.randint(1, 6)
