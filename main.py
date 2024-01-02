@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+def convert_to_binary(n):
+        return bin(n)
+import platform
+def get_python_version():
+        return platform.python_version()
