@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
