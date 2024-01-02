@@ -1,8 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
