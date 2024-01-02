@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
