@@ -1,7 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
