@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
