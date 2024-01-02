@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def get_array_length(array):
+        return len(array)
