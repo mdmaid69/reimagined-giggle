@@ -1,5 +1,7 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
