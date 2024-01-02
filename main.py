@@ -1,5 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_pressure(force, area):
+        return force / area
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
