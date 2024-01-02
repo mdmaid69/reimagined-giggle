@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def is_even(n):
+        return n % 2 == 0
+def reverse_string(s):
+        return s[::-1]
