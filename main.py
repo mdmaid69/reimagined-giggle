@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
