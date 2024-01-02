@@ -1,5 +1,5 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
