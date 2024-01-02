@@ -1,5 +1,4 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
