@@ -1,6 +1,4 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+print([x**2 for x in range(10)])
