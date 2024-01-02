@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_pressure(force, area):
+        return force / area
