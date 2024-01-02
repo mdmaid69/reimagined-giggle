@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
