@@ -1,4 +1,10 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
