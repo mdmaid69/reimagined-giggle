@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
