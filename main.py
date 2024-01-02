@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import platform
+def get_os_info():
+        return platform.uname()
+def cube_number(x):
+        return x**3
