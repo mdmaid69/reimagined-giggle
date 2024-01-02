@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
