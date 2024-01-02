@@ -1,5 +1,11 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
