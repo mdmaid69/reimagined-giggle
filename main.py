@@ -1,6 +1,6 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_arc_tangent(x):
+        return math.atan(x)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_gamma_function(x):
+        return math.gamma(x)
