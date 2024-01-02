@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
