@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
