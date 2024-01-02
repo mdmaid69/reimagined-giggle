@@ -1,5 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def find_max(lst):
-        return max(lst)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_acceleration(speed, time):
+        return speed / time
