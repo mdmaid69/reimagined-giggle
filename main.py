@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_list_from_array(array):
+        return array.tolist()
