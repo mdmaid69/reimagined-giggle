@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
