@@ -1,5 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import os
-print(os.getcwd())
+def convert_to_binary(n):
+        return bin(n)
+def reverse_list(lst):
+        return lst[::-1]
