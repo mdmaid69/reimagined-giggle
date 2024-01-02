@@ -1,6 +1,7 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
