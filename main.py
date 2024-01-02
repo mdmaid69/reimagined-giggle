@@ -1,7 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
