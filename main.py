@@ -1,6 +1,5 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def clear_array(array):
+        array *= 0
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
