@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
