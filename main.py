@@ -1,6 +1,5 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
