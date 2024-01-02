@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def convert_to_hex(n):
-        return hex(n)
+import time
+def get_current_time():
+        return time.time()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
