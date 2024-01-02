@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
