@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def divide_numbers(x, y):
-        return x / y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
