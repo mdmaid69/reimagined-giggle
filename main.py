@@ -1,5 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def find_max(lst):
+        return max(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
