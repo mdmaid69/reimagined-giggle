@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
