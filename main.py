@@ -1,8 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def is_odd(n):
+        return n % 2 != 0
