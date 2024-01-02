@@ -1,5 +1,9 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
