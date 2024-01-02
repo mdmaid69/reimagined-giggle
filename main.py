@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import math
-print(math.pi)
+import array
+def get_array_as_list(array):
+        return list(array)
+  def subtract_numbers(x, y):
+        return x - y
