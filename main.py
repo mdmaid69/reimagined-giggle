@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
