@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
