@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
