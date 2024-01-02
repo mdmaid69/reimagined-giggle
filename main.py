@@ -1,5 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  def multiply_numbers(x, y):
+        return x * y
