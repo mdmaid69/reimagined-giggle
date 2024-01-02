@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
