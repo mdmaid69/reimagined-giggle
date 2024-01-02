@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
