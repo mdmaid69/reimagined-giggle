@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
