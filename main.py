@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
