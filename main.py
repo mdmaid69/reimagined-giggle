@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
