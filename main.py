@@ -1,8 +1,5 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def remove_from_array(array, item):
+        array.remove(item)
