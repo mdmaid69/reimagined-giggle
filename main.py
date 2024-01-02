@@ -1,5 +1,7 @@
-from collections import Counter
-print(Counter("hello world"))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
