@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
