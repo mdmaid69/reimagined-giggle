@@ -1,6 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_as_bool(array):
+        return bool(array)
