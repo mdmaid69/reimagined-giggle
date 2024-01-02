@@ -1,4 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
