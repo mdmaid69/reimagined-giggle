@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
