@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def is_even(n):
-        return n % 2 == 0
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
