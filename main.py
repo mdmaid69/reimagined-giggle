@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
