@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
