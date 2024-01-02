@@ -1,6 +1,9 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
