@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
