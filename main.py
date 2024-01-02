@@ -1,5 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def find_min(lst):
-        return min(lst)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
