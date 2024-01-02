@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-name = "Python"
-print("Hello,", name)
+import collections
+def create_stack():
+        return collections.deque()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
