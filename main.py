@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def is_even(n):
+        return n % 2 == 0
