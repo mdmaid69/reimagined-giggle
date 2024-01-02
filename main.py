@@ -1,4 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
