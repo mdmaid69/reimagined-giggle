@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def sort_list(lst):
+        return sorted(lst)
