@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def get_array_item(array, i):
-        return array[i]
+import datetime
+print(datetime.datetime.now())
+  import os
+  def split_path(path):
+        return os.path.split(path)
