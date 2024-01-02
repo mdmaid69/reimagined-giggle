@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
