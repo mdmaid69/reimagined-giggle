@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
