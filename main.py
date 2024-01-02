@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
