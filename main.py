@@ -1,5 +1,7 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
