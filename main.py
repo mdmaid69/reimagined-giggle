@@ -1,7 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
