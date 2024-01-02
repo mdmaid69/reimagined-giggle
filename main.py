@@ -1,5 +1,12 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
