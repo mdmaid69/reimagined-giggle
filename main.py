@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  def convert_to_binary(n):
+        return bin(n)
+  def cube_number(x):
+        return x**3
