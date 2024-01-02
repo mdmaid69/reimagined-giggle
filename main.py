@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def is_palindrome(s):
+        return s == s[::-1]
