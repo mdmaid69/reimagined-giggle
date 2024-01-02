@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
