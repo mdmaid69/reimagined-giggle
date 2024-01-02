@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
