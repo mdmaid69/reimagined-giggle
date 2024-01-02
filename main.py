@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
