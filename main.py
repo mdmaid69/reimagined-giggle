@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
