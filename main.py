@@ -1,5 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_density(mass, volume):
+        return mass / volume
