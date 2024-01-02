@@ -1,8 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
