@@ -1,5 +1,8 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  import sys
+  def get_python_version():
+        return sys.version
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
