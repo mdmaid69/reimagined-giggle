@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
