@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
