@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
