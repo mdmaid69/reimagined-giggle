@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_array_as_set(array):
-        return set(array)
+text = "Hello, world!"
+print("Characters:", len(text))
+import collections
+def create_user_list():
+        return collections.UserList()
