@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import collections
+def create_user_dict():
+        return collections.UserDict()
