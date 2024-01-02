@@ -1,4 +1,6 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_speed(distance, time):
-        return distance / time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
