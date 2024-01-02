@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-name = "Python"
-print("Hello,", name)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import array
+def remove_from_array(array, item):
+        array.remove(item)
