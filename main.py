@@ -1,8 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import collections
-def create_stack():
-        return collections.deque()
+def reverse_string(s):
+        return s[::-1]
+import time
+print(time.time())
