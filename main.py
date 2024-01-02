@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def find_unique_words(sentence):
-        return set(sentence.split())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
