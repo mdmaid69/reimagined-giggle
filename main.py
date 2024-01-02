@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def is_odd(n):
+        return n % 2 != 0
+x = 10
+y = 20
+print("Sum:", x + y)
