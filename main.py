@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
