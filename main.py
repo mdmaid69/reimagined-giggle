@@ -1,6 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-import getpass
-def get_username():
-        return getpass.getuser()
+def count_elements(lst):
+        return len(lst)
+x = 10
+y = 20
+print("Sum:", x + y)
