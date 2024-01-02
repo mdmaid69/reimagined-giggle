@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-def is_even(n):
-        return n % 2 == 0
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
