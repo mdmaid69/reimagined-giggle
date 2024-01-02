@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
