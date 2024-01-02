@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_acceleration(speed, time):
-        return speed / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
