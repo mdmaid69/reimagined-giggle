@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
