@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
