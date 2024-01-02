@@ -1,5 +1,11 @@
-import sys
-def exit_program():
-        sys.exit()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
