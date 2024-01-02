@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def count_elements(lst):
+        return len(lst)
