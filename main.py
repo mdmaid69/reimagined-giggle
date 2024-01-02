@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def convert_to_octal(n):
+        return oct(n)
