@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
