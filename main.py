@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def remove_duplicates(lst):
+        return list(set(lst))
