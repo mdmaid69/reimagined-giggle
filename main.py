@@ -1,6 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import sys
-  def get_python_version():
-        return sys.version
+def clear_array(array):
+        array *= 0
+import array
+def get_array_typecode(array):
+        return array.typecode
