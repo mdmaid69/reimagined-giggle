@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def get_array_item(array, i):
+        return array[i]
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
