@@ -1,7 +1,8 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import collections
+def create_stack():
+        return collections.deque()
