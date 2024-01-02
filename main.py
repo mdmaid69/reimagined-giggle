@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  def add_numbers(x, y):
+        return x + y
