@@ -1,6 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
