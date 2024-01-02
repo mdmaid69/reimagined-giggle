@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
