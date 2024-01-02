@@ -1,6 +1,8 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
