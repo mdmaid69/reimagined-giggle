@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
