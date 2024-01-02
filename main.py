@@ -1,5 +1,3 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import sys
-def print_python_version():
-        print(sys.version)
+  def multiply_numbers(x, y):
+        return x * y
+print(sum(range(10)))
