@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
