@@ -1,6 +1,7 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import platform
+def get_python_version():
+        return platform.python_version()
