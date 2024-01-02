@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
