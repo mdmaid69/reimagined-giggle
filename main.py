@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
