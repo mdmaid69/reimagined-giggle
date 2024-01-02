@@ -1,6 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+for i in range(10): print(i)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
