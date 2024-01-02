@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
