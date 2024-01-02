@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
