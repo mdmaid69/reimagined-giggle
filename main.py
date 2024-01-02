@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import sys
-  def get_python_version():
-        return sys.version
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
