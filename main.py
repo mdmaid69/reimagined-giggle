@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_volume(length, width, height):
+        return length * width * height
