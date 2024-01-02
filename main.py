@@ -1,8 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_power(work, time):
+        return work / time
