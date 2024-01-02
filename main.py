@@ -1,6 +1,3 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+for i in range(10): print(i)
+for i in range(5):
+        print(i)
