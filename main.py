@@ -1,6 +1,4 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import time
+print(time.time())
