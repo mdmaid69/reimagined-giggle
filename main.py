@@ -1,8 +1,11 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
