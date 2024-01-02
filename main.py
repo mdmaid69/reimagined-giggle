@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
