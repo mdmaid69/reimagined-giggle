@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import array
-def get_array_as_list(array):
-        return list(array)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
