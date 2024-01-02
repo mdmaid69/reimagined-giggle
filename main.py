@@ -1,6 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  def sort_list(lst):
+        return sorted(lst)
