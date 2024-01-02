@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
