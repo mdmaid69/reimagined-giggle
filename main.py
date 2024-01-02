@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
