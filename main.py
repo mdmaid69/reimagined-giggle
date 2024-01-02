@@ -1,8 +1,7 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
