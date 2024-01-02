@@ -1,8 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
