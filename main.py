@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
