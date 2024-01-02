@@ -1,4 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def remove_duplicates(lst):
-        return list(set(lst))
+def convert_to_binary(n):
+        return bin(n)
+def find_min(numbers):
+        return min(numbers)
