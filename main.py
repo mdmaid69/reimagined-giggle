@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def convert_to_binary(n):
+        return bin(n)
