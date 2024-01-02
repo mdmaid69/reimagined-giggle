@@ -1,4 +1,7 @@
-import datetime
-print(datetime.datetime.now())
-  def is_even(n):
-        return n % 2 == 0
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
