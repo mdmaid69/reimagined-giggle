@@ -1,4 +1,5 @@
-for i in range(10): print(i)
+def is_even(n):
+        return n % 2 == 0
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
