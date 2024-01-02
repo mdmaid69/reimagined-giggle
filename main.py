@@ -1,5 +1,7 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def convert_to_octal(n):
+        return oct(n)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
