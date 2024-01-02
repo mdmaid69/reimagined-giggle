@@ -1,7 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
