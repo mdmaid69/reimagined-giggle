@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def find_min(lst):
+        return min(lst)
