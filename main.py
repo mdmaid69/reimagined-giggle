@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_acceleration(speed, time):
+        return speed / time
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
