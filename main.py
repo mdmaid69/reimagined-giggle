@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
