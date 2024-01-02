@@ -1,7 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
