@@ -1,4 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
