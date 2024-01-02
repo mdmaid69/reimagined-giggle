@@ -1,5 +1,8 @@
-import time
-def get_current_time():
-        return time.time()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
