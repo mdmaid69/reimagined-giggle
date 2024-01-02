@@ -1,7 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
