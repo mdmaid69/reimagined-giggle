@@ -1,6 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def delete_file(file_name):
+        os.remove(file_name)
