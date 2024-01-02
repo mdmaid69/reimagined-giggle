@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
