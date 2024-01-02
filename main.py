@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import random
-print(random.randint(0, 100))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
