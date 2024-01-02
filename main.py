@@ -1,6 +1,5 @@
+def square_number(x):
+        return x**2
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
