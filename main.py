@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
