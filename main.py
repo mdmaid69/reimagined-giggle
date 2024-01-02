@@ -1,7 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
