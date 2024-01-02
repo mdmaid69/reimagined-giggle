@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def divide_numbers(x, y):
+        return x / y
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
