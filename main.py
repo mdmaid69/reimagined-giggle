@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
