@@ -1,5 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
