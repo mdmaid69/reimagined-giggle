@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import array
-def get_list_from_array(array):
+def convert_array_to_list(array):
         return array.tolist()
