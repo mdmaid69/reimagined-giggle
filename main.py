@@ -1,4 +1,5 @@
-for i in range(10): print(i)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_max(lst):
+        return max(lst)
