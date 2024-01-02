@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def square_number(x):
+        return x**2
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
