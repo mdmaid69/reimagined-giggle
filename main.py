@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
