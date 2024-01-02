@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+import array
+def clear_array(array):
+        array *= 0
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
