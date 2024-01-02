@@ -1,5 +1,3 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def square_number(x):
-        return x**2
+def calculate_acceleration(speed, time):
+        return speed / time
+print(sum(range(10)))
