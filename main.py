@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import collections
+def create_priority_queue():
+        return collections.deque()
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
