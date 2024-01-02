@@ -1,6 +1,11 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
