@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
