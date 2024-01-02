@@ -1,6 +1,7 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
