@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import getpass
-def get_username():
-        return getpass.getuser()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
