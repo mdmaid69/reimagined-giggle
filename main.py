@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-for i in range(5):
-        print(i)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
