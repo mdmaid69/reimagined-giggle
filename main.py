@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
