@@ -1,6 +1,7 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
