@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def add_numbers(x, y):
+        return x + y
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
