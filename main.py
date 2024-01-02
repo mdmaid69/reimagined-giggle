@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+def is_even(n):
+        return n % 2 == 0
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
