@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
