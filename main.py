@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
