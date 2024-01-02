@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
