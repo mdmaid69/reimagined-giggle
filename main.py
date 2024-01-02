@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def divide_numbers(x, y):
-        return x / y
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def is_palindrome(s):
+        return s == s[::-1]
