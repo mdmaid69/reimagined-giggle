@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
