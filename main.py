@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
