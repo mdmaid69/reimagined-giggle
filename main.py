@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_speed(distance, time):
+        return distance / time
