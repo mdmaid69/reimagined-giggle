@@ -1,5 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
