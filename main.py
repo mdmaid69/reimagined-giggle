@@ -1,5 +1,3 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+print([x**2 for x in range(10)])
