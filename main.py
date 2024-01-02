@@ -1,6 +1,5 @@
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
