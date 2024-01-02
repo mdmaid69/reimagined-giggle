@@ -1,4 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-print("Hello, world!")
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
