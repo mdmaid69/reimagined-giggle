@@ -1,6 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_index(array, item):
+        return array.index(item)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
