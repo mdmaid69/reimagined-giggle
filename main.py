@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_length(array):
-        return len(array)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import sys
+print(sys.version)
