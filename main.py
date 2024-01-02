@@ -1,6 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def multiply_numbers(x, y):
+        return x * y
+def calculate_average(lst):
+        return sum(lst) / len(lst)
