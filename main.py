@@ -1,6 +1,12 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import getpass
+def get_username():
+        return getpass.getuser()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
