@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import math
-print(math.pi)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
