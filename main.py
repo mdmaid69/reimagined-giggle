@@ -1,6 +1,9 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
