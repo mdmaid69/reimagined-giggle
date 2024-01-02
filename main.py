@@ -1,5 +1,7 @@
-def calculate_work(force, distance):
-        return force * distance
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_sign(x):
+        return math.copysign(1, x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
