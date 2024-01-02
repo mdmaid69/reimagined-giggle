@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
