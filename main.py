@@ -1,7 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_as_int(array):
+        return int(array[0])
