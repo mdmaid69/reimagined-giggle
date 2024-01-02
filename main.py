@@ -1,4 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
