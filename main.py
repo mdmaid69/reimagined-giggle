@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
