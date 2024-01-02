@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  def is_even(n):
+        return n % 2 == 0
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
