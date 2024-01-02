@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
