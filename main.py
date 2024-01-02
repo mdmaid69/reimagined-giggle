@@ -1,6 +1,4 @@
-import collections
-def create_queue():
-        return collections.deque()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
