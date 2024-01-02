@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def square_number(x):
-        return x**2
+import sys
+def exit_program():
+        sys.exit()
+import logging
+def log_message(message):
+        logging.info(message)
