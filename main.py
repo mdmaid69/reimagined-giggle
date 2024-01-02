@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
