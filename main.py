@@ -1,5 +1,7 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-def calculate_power(work, time):
-        return work / time
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
