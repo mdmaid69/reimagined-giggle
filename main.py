@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import sys
+def print_python_version():
+        print(sys.version)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
