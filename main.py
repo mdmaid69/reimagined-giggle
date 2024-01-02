@@ -1,7 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
