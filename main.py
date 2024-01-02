@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
