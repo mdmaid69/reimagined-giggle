@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_array_as_set(array):
-        return set(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_speed(distance, time):
+        return distance / time
