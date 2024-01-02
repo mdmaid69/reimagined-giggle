@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def count_characters(sentence):
-        return len(sentence)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
