@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
