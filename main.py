@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_work(force, distance):
+        return force * distance
