@@ -1,7 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
