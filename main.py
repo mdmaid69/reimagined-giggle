@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import time
+def get_time_since_epoch():
+        return time.time()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
