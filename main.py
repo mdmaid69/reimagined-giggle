@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def convert_to_binary(n):
+        return bin(n)
+text = "Hello, world!"
+print("Characters:", len(text))
