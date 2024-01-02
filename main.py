@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
