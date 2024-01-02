@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
