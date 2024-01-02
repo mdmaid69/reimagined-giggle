@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
