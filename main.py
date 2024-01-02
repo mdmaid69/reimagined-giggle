@@ -1,5 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def is_even(n):
-        return n % 2 == 0
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
