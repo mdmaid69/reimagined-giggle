@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
