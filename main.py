@@ -1,5 +1,4 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_power(work, time):
-        return work / time
+def cube_number(x):
+        return x**3
+  def subtract_numbers(x, y):
+        return x - y
