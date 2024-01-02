@@ -1,5 +1,12 @@
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
