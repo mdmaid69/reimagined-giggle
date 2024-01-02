@@ -1,5 +1,5 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_area_rectangle(l, w):
+        return l * w
