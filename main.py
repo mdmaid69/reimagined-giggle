@@ -1,6 +1,5 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def create_queue():
+        return collections.deque()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
