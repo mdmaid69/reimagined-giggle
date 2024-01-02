@@ -1,6 +1,6 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
