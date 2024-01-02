@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
