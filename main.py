@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
