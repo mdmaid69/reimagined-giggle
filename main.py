@@ -1,10 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def convert_to_hex(n):
+        return hex(n)
