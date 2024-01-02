@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import platform
+def get_os_info():
+        return platform.uname()
