@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def is_even(n):
+        return n % 2 == 0
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
