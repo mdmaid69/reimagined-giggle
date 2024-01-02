@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_arc_sine(x):
+        return math.asin(x)
