@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
+def find_unique_words(sentence):
+        return set(sentence.split())
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
