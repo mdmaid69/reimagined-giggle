@@ -1,5 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
