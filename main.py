@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def convert_to_octal(n):
+        return oct(n)
+import os
+def remove_directory(path):
+        os.rmdir(path)
