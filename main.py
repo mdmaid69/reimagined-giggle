@@ -1,6 +1,7 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
