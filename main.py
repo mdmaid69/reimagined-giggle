@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  def multiply_numbers(x, y):
+        return x * y
