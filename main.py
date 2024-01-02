@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_power(work, time):
+        return work / time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
