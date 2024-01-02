@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_density(mass, volume):
-        return mass / volume
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
