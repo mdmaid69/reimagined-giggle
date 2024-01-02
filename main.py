@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
