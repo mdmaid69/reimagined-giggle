@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
