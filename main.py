@@ -1,5 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import time
-print(time.time())
+def count_elements(lst):
+        return len(lst)
+def calculate_acceleration(speed, time):
+        return speed / time
