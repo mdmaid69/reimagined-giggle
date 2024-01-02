@@ -1,5 +1,3 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def cube_number(x):
+        return x**3
+print("Hello, world!")
