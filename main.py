@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import time
+def get_current_time():
+        return time.ctime()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
