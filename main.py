@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
