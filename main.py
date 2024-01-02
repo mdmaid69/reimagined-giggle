@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import array
+def get_array_index(array, item):
+        return array.index(item)
