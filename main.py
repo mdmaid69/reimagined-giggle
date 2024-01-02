@@ -1,5 +1,7 @@
-def find_min(lst):
-        return min(lst)
-import logging
-def log_message(message):
-        logging.info(message)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
