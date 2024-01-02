@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def get_array_as_float(array):
+        return float(array[0])
