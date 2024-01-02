@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def find_min(numbers):
+        return min(numbers)
