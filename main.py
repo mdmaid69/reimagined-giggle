@@ -1,6 +1,6 @@
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
