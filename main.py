@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
