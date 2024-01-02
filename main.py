@@ -1,5 +1,4 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+for i in range(10): print(i)
