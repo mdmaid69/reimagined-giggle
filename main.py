@@ -1,6 +1,3 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+print([x**2 for x in range(10)])
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
