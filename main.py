@@ -1,6 +1,8 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_as_float(array):
+        return float(array[0])
