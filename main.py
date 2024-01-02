@@ -1,6 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
