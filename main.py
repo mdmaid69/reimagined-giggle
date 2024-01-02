@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
