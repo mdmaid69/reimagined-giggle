@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
