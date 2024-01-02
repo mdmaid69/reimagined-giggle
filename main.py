@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  def count_elements(lst):
-        return len(lst)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_speed(distance, time):
+        return distance / time
