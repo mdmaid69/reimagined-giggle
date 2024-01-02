@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import array
-def get_array_as_set(array):
-        return set(array)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
