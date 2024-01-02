@@ -1,6 +1,7 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import getpass
+def get_username():
+        return getpass.getuser()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
