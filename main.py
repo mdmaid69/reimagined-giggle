@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def get_array_as_frozenset(array):
+        return frozenset(array)
+print(sum(range(10)))
