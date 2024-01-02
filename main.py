@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  def reverse_list(lst):
+        return lst[::-1]
