@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-from collections import Counter
-print(Counter("hello world"))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
