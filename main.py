@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
