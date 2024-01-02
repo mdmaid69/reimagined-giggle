@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_area(radius):
+        return 3.14 * radius * radius
