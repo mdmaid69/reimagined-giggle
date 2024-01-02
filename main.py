@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import collections
+def create_counter():
+        return collections.Counter()
