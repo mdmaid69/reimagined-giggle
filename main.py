@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import numpy as np
-print(np.array([1, 2, 3]))
+def reverse_string(s):
+        return s[::-1]
+import collections
+def create_priority_queue():
+        return collections.deque()
