@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
