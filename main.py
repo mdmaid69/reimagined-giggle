@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_speed(distance, time):
+        return distance / time
+import random
+def roll_die():
+        return random.randint(1, 6)
