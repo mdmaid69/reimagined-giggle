@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import json
+print(json.dumps({"name": "John", "age": 30}))
