@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import array
+def reverse_array(array):
+        array.reverse()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
