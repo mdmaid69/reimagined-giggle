@@ -1,5 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_acceleration(speed, time):
+        return speed / time
+def count_elements(lst):
+        return len(lst)
