@@ -1,6 +1,6 @@
-import logging
-def log_message(message):
-        logging.info(message)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
