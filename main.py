@@ -1,5 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
