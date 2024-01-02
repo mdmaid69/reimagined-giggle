@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def find_unique_words(sentence):
+        return set(sentence.split())
