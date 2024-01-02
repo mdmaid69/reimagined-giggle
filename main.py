@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
