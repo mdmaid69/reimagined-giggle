@@ -1,6 +1,6 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
