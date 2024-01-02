@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import datetime
+print(datetime.datetime.now())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
