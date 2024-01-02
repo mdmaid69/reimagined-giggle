@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import sys
+def exit_program():
+        sys.exit()
