@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-  def calculate_area_rectangle(l, w):
-        return l * w
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
