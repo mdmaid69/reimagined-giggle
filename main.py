@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import logging
-def log_message(message):
-        logging.info(message)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
