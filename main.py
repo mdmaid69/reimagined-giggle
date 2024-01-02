@@ -1,7 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def subtract_numbers(x, y):
+        return x - y
