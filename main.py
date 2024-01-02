@@ -1,6 +1,10 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
