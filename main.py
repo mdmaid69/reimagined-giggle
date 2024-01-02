@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def convert_to_octal(n):
+        return oct(n)
