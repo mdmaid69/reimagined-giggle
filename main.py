@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import time
-def get_current_time():
-        return time.time()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
