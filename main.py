@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import collections
+def create_queue():
+        return collections.deque()
