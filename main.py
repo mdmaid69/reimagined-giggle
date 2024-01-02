@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
