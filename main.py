@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def square_number(x):
+        return x**2
