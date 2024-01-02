@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_area(radius):
+        return 3.14 * radius * radius
