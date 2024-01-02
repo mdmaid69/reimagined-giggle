@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
