@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
