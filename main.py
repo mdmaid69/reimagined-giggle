@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
