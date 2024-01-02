@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
