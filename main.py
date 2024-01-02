@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
