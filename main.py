@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def reverse_array(array):
+        array.reverse()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
