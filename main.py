@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def is_even(n):
-        return n % 2 == 0
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
