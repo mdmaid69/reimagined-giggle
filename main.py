@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import sys
+  def get_python_version():
+        return sys.version
