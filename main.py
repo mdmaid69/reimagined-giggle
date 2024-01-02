@@ -1,5 +1,8 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import platform
+def get_os_info():
+        return platform.uname()
