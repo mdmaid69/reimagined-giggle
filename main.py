@@ -1,6 +1,6 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
