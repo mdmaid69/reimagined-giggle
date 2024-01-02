@@ -1,7 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def find_max(lst):
+        return max(lst)
+def calculate_pressure(force, area):
+        return force / area
