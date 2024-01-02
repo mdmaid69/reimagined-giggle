@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
