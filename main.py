@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
