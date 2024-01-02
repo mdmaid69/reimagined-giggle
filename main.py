@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
