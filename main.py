@@ -1,5 +1,6 @@
-import time
-print(time.time())
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
