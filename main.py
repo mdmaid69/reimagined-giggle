@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import datetime
+def get_current_date():
+        return datetime.date.today()
