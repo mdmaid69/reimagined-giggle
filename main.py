@@ -1,4 +1,6 @@
-import time
-print(time.time())
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
