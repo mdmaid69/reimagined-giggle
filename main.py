@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import datetime
-print(datetime.datetime.now())
+def is_even(n):
+        return n % 2 == 0
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
