@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_acceleration(speed, time):
+        return speed / time
