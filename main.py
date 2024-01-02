@@ -1,4 +1,7 @@
-from collections import Counter
-print(Counter("hello world"))
-text = "Hello, world!"
-print("Characters:", len(text))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
