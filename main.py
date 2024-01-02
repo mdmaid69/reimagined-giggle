@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import sys
-def exit_program():
-        sys.exit()
+def divide_numbers(x, y):
+        return x / y
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
