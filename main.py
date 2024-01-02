@@ -1,6 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+print(sum(range(10)))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
