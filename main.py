@@ -1,5 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
