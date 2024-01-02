@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_density(mass, volume):
+        return mass / volume
