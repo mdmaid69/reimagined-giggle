@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def square_number(x):
+        return x**2
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
