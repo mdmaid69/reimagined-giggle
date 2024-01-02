@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
