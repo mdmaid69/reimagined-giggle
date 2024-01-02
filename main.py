@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def remove_duplicates(lst):
+        return list(set(lst))
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_factorial(n):
+        return math.factorial(n)
