@@ -1,6 +1,5 @@
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def count_elements(lst):
+        return len(lst)
