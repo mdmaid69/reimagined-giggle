@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import platform
-def get_os_info():
-        return platform.uname()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
