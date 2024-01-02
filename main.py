@@ -1,6 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def find_unique_words(sentence):
+        return set(sentence.split())
