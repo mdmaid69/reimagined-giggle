@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
