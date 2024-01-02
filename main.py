@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import numpy as np
+print(np.array([1, 2, 3]))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
