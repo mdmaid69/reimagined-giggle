@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
