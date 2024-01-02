@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
