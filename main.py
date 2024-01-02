@@ -1,5 +1,9 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def square_number(x):
-        return x**2
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
