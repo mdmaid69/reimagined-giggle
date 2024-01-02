@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
