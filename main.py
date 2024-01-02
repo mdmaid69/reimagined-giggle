@@ -1,5 +1,4 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_acceleration(speed, time):
+        return speed / time
