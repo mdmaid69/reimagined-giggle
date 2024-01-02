@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import random
+print(random.randint(0, 100))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
