@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
