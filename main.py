@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
