@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def square_number(x):
-        return x**2
+  def multiply_numbers(x, y):
+        return x * y
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
