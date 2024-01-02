@@ -1,3 +1,4 @@
-for i in range(10): print(i)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
