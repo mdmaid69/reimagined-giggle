@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
