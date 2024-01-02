@@ -1,5 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  def cube_number(x):
-        return x**3
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
