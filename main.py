@@ -1,4 +1,5 @@
-def cube_number(x):
-        return x**3
-def multiply_numbers(x, y):
-        return x * y
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
