@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
