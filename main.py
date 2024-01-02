@@ -1,4 +1,6 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
