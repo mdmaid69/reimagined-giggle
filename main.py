@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import sys
+  def get_python_version():
+        return sys.version
+def divide_numbers(x, y):
+        return x / y
