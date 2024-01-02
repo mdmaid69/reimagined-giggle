@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
