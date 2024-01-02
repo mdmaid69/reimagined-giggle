@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
