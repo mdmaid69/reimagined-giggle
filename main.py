@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def count_elements(lst):
+        return len(lst)
+  def multiply_numbers(x, y):
+        return x * y
