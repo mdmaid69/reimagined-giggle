@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  def reverse_list(lst):
+        return lst[::-1]
