@@ -1,4 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def is_even(n):
+        return n % 2 == 0
