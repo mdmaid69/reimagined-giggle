@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def count_characters(sentence):
+        return len(sentence)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
