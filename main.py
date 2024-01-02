@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
