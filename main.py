@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-def calculate_power(work, time):
-        return work / time
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def count_words(sentence):
+        return len(sentence.split())
