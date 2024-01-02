@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
