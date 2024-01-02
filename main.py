@@ -1,4 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def is_odd(n):
+        return n % 2 != 0
