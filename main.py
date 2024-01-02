@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def is_odd(n):
+        return n % 2 != 0
