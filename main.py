@@ -1,7 +1,11 @@
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import array
-def convert_unicode_to_array(unicode, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
