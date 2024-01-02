@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
