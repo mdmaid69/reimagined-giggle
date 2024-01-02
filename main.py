@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
