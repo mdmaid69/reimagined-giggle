@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
