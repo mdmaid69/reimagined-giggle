@@ -1,6 +1,8 @@
-import datetime
-print(datetime.datetime.now())
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
