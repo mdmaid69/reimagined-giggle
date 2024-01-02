@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+  def sort_list(lst):
+        return sorted(lst)
