@@ -1,6 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
