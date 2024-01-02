@@ -1,6 +1,7 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
