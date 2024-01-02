@@ -1,5 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
