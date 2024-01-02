@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
