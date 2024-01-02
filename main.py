@@ -1,6 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
