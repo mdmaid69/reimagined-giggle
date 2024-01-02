@@ -1,8 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def is_even(n):
+        return n % 2 == 0
+def calculate_density(mass, volume):
+        return mass / volume
