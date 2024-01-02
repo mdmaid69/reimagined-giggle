@@ -1,7 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
