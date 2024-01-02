@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def set_array_item(array, i, item):
+        array[i] = item
