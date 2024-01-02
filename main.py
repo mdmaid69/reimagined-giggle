@@ -1,6 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def get_base_name(path):
+        return os.path.basename(path)
