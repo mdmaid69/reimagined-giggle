@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import random
-def roll_die():
-        return random.randint(1, 6)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
