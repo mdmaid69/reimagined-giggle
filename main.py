@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import time
+def get_current_time():
+        return time.ctime()
