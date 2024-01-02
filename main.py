@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
