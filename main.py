@@ -1,6 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
