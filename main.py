@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-from collections import Counter
-print(Counter("hello world"))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
