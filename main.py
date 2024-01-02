@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def reverse_string(s):
+        return s[::-1]
