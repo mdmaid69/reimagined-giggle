@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
