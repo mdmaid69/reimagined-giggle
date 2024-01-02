@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
