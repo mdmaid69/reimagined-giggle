@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def is_even(n):
+        return n % 2 == 0
+def count_elements(lst):
+        return len(lst)
