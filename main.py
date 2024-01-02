@@ -1,5 +1,5 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
