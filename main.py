@@ -1,8 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
