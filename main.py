@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
