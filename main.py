@@ -1,6 +1,7 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
