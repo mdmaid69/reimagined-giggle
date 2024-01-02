@@ -1,6 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import array
-def reverse_array(array):
-        array.reverse()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
