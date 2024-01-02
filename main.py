@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+for i in range(10): print(i)
