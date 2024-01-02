@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def cube_number(x):
-        return x**3
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
