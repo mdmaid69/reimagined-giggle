@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import sys
+def exit_program():
+        sys.exit()
