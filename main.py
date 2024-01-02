@@ -1,6 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_arc_sine(x):
+        return math.asin(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
