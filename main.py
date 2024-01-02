@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
