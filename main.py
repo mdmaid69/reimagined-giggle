@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
