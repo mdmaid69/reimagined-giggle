@@ -1,5 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
