@@ -1,7 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def reverse_list(lst):
+        return lst[::-1]
