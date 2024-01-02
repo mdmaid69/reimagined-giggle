@@ -1,7 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import sys
+  def get_python_version():
+        return sys.version
