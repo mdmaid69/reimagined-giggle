@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def count_elements(lst):
-        return len(lst)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
