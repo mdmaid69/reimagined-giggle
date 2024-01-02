@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
