@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def get_array_index(array, item):
+        return array.index(item)
