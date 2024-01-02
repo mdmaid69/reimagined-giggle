@@ -1,5 +1,8 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
