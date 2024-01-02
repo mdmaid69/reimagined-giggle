@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
