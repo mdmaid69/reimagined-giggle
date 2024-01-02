@@ -1,5 +1,8 @@
-def convert_to_binary(n):
-        return bin(n)
-import time
-def get_current_time():
-        return time.time()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
