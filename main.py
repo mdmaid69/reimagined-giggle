@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_work(force, distance):
+        return force * distance
