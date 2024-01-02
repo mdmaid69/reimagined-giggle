@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
