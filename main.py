@@ -1,8 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import datetime
+print(datetime.datetime.now())
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
