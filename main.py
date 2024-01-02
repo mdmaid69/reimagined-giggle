@@ -1,4 +1,7 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-print(sum(range(10)))
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
