@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
