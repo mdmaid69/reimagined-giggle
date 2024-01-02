@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def square_number(x):
-        return x**2
+def reverse_string(s):
+        return s[::-1]
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
