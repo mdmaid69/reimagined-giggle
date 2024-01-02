@@ -1,5 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_density(mass, volume):
-        return mass / volume
+def convert_to_hex(n):
+        return hex(n)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
