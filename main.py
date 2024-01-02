@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
