@@ -1,8 +1,4 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def cube_number(x):
+        return x**3
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
