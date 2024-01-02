@@ -1,6 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_bytes(array):
+        return bytes(array)
+print(sum(range(10)))
