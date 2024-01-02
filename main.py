@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-x = 10
-y = 20
-print("Sum:", x + y)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
