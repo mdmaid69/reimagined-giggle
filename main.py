@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import random
-print(random.randint(0, 100))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
