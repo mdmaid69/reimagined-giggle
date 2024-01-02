@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
