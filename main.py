@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
