@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
