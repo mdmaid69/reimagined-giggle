@@ -1,5 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def count_words(sentence):
+        return len(sentence.split())
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
