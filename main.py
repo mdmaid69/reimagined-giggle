@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def count_elements(lst):
+        return len(lst)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
