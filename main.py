@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
 import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
