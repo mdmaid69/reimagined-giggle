@@ -1,4 +1,3 @@
-def calculate_pressure(force, area):
-        return force / area
-def convert_to_hex(n):
-        return hex(n)
+def calculate_acceleration(speed, time):
+        return speed / time
+print(sum(range(10)))
