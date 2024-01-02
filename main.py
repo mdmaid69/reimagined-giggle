@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def find_min(numbers):
-        return min(numbers)
+import sys
+def exit_program():
+        sys.exit()
+def multiply_numbers(x, y):
+        return x * y
