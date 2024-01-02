@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
 import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
