@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
