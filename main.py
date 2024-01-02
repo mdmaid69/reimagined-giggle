@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def multiply_numbers(x, y):
+        return x * y
+def find_min(lst):
+        return min(lst)
