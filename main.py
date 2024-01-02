@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
