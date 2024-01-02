@@ -1,6 +1,7 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
