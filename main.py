@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
