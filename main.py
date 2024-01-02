@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+name = "Python"
+print("Hello,", name)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
