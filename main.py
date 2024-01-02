@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
