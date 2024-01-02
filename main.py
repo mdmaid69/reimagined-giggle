@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
