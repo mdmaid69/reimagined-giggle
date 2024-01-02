@@ -1,6 +1,6 @@
+import time
+def get_current_time():
+        return time.ctime()
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def clear_array(array):
-        array *= 0
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
