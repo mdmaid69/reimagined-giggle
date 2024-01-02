@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def divide_numbers(x, y):
+        return x / y
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
