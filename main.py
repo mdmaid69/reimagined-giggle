@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
