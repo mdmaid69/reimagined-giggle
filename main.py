@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import sys
+def exit_program():
+        sys.exit()
