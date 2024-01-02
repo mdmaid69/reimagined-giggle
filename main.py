@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
