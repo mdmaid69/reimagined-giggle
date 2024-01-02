@@ -1,7 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import sys
+print(sys.version)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
