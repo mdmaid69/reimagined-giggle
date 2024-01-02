@@ -1,5 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def divide_numbers(x, y):
+        return x / y
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
