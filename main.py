@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import sys
-def print_python_version():
-        return sys.version
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
