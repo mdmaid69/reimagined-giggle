@@ -1,4 +1,7 @@
-def find_min(lst):
-        return min(lst)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
