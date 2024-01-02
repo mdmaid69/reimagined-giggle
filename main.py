@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
