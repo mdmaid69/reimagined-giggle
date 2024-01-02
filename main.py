@@ -1,12 +1,4 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+text = "Hello, world!"
+print("Words:", len(text.split()))
