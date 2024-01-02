@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
