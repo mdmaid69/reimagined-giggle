@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import sys
-def exit_program():
-        sys.exit()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+text = "Hello, world!"
+print("Characters:", len(text))
