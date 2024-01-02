@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
