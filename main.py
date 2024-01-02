@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def cube_number(x):
+        return x**3
