@@ -1,6 +1,5 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
