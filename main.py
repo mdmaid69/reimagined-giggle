@@ -1,6 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+print(math.pi)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
