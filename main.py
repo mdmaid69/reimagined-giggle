@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def reverse_string(s):
-        return s[::-1]
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
