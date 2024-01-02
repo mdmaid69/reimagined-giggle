@@ -1,5 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def is_palindrome(s):
+        return s == s[::-1]
