@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import datetime
-print(datetime.datetime.now())
+def add_numbers(x, y):
+        return x + y
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
