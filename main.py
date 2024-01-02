@@ -1,5 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def calculate_area_rectangle(l, w):
-        return l * w
+def find_max(numbers):
+        return max(numbers)
+import re
+print(re.match("h.*o", "hello world"))
