@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
