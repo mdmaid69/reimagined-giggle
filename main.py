@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def greet(name):
+        print(f"Hello, {name}!")
