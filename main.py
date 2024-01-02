@@ -1,4 +1,4 @@
-def cube_number(x):
-        return x**3
-def subtract_numbers(x, y):
-        return x - y
+from collections import Counter
+print(Counter("hello world"))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
