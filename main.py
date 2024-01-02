@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import logging
+def log_message(message):
+        logging.info(message)
+import collections
+def create_user_list():
+        return collections.UserList()
