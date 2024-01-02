@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  def multiply_numbers(x, y):
+        return x * y
