@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def is_even(n):
+        return n % 2 == 0
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
