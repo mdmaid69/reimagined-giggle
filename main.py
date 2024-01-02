@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
