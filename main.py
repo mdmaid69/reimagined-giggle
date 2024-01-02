@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
