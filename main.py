@@ -1,5 +1,6 @@
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
