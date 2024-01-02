@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
