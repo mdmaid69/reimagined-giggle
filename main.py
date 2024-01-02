@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
