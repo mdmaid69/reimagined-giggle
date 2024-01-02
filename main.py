@@ -1,5 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def get_array_as_str(array):
+        return str(array)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
