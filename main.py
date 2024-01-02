@@ -1,9 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_power(work, time):
+        return work / time
+def calculate_area_circle(r):
+        return 3.14 * r**2
