@@ -1,6 +1,4 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def count_words(sentence):
+        return len(sentence.split())
