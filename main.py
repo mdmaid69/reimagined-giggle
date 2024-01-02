@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
