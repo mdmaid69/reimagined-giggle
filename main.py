@@ -1,12 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
