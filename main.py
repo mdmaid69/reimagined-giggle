@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def convert_array_to_list(array):
+        return array.tolist()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
