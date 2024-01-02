@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
