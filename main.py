@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def cube_number(x):
-        return x**3
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
