@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
