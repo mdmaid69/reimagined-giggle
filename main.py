@@ -1,7 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def cube_number(x):
+        return x**3
+import collections
+def create_user_dict():
+        return collections.UserDict()
