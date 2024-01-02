@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  def cube_number(x):
-        return x**3
+import collections
+def create_priority_queue():
+        return collections.deque()
+def convert_to_octal(n):
+        return oct(n)
