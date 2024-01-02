@@ -1,6 +1,7 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
