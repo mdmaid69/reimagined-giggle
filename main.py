@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
