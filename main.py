@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
