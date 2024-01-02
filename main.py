@@ -1,4 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import platform
+def get_python_version():
+        return platform.python_version()
