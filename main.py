@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
