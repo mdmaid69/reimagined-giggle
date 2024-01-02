@@ -1,5 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  def remove_duplicates(lst):
+        return list(set(lst))
