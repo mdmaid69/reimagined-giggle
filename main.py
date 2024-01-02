@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
