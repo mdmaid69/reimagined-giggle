@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
