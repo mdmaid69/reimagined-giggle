@@ -1,7 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_floor(x):
+        return math.floor(x)
