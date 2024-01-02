@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def is_odd(n):
-        return n % 2 != 0
+def square_number(x):
+        return x**2
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
