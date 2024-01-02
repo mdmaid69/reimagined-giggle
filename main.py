@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
