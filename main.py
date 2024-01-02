@@ -1,6 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def calculate_area_rectangle(l, w):
+        return l * w
