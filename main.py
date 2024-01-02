@@ -1,4 +1,5 @@
-  def cube_number(x):
-        return x**3
-def convert_to_hex(n):
-        return hex(n)
+import time
+def get_current_time():
+        return time.ctime()
+def find_min(numbers):
+        return min(numbers)
