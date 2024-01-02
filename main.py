@@ -1,5 +1,5 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
