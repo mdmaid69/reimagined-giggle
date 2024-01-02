@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_length(array):
+        return len(array)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
