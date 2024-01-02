@@ -1,7 +1,8 @@
+import math
+def calculate_exponential(x):
+        return math.exp(x)
 import array
-def convert_unicode_to_array(unicode, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.fromstring(string)
         return a
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
