@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
