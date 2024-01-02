@@ -1,6 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+text = "Hello, world!"
+print("Characters:", len(text))
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
