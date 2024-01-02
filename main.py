@@ -1,5 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+for i in range(10): print(i)
