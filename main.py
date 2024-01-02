@@ -1,5 +1,7 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
