@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+from collections import Counter
+print(Counter("hello world"))
+def count_words(sentence):
+        return len(sentence.split())
