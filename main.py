@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
