@@ -1,8 +1,7 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
