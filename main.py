@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
