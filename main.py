@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
