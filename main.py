@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import sys
+print(sys.version)
