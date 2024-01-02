@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
