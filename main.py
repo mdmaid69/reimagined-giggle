@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import sys
+def exit_program():
+        sys.exit()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
