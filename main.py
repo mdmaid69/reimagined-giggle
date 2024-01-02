@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
