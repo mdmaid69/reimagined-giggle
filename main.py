@@ -1,6 +1,5 @@
 import array
-def get_list_from_array(array):
-        return array.tolist()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_acceleration(speed, time):
+        return speed / time
