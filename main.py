@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_array_item(array, i):
+        return array[i]
