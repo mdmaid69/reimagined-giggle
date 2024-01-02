@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def square_number(x):
-        return x**2
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
