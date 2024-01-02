@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import tensorflow as tf
+print(tf.__version__)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
