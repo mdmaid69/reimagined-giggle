@@ -1,5 +1,7 @@
-for i in range(5):
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+i = 0
+while i < 5:
         print(i)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+        i += 1
