@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+print(math.pi)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
