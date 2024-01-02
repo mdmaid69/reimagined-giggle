@@ -1,5 +1,8 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def reverse_string(s):
-        return s[::-1]
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
