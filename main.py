@@ -1,6 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
