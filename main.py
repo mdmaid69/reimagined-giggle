@@ -1,6 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
