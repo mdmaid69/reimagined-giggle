@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import time
+def get_current_time():
+        return time.time()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
