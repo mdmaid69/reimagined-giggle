@@ -1,6 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
