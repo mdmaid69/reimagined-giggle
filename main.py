@@ -1,6 +1,12 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
