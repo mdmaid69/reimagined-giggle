@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
