@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
