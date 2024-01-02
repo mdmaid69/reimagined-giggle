@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
