@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import os
+def get_current_working_directory():
+        return os.getcwd()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
