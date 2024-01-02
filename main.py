@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
