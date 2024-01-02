@@ -1,5 +1,3 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import os
-def change_working_directory(path):
-        os.chdir(path)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+for i in range(10): print(i)
