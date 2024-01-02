@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import os
+def get_current_working_directory():
+        return os.getcwd()
