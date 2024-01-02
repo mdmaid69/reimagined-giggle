@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def add_numbers(x, y):
+        return x + y
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
