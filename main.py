@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
