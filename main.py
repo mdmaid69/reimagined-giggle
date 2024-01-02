@@ -1,5 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
