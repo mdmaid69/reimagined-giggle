@@ -1,4 +1,4 @@
-import os
-print(os.getcwd())
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_pressure(force, area):
+        return force / area
