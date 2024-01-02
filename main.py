@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import os
+def remove_directory(path):
+        os.rmdir(path)
