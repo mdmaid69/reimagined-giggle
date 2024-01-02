@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import tensorflow as tf
+print(tf.__version__)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
