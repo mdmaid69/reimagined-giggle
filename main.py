@@ -1,4 +1,9 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_density(mass, volume):
-        return mass / volume
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
+import time
+def get_current_time():
+        return time.time()
