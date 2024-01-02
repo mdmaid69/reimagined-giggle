@@ -1,5 +1,7 @@
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
 import array
-def get_array_length(array):
-        return len(array)
-def reverse_list(lst):
-        return lst[::-1]
+def iterate_over_array(array):
+        for item in array:
+        print(item)
