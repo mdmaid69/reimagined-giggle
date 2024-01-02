@@ -1,5 +1,4 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def convert_to_octal(n):
+        return oct(n)
+def convert_to_hex(n):
+        return hex(n)
