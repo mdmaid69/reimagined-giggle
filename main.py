@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
