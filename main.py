@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
