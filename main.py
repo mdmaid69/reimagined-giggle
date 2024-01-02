@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import time
-def get_time_since_epoch():
-        return time.time()
+def reverse_list(lst):
+        return lst[::-1]
+def find_union(list1, list2):
+        return set(list1) | set(list2)
