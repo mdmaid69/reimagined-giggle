@@ -1,5 +1,8 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import collections
-def create_queue():
-        return collections.deque()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
