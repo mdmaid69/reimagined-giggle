@@ -1,4 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-print("Hello, world!")
+import sys
+print(sys.version)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
