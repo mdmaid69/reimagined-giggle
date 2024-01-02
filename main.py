@@ -1,6 +1,7 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
