@@ -1,8 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
