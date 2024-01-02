@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
