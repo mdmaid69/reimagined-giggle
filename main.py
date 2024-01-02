@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
