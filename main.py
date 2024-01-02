@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
