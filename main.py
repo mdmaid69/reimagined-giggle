@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
