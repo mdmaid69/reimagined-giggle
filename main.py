@@ -1,6 +1,8 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
