@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
