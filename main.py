@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import getpass
+def get_username():
+        return getpass.getuser()
+import array
+def get_array_as_set(array):
+        return set(array)
