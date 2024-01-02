@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+  def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
