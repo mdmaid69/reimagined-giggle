@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def convert_to_binary(n):
+        return bin(n)
