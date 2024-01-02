@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
