@@ -1,6 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
 import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def reverse_list(lst):
+        return lst[::-1]
