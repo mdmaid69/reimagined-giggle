@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
