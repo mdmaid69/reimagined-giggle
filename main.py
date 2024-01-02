@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import re
-print(re.match("h.*o", "hello world"))
+  def is_even(n):
+        return n % 2 == 0
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
