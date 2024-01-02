@@ -1,7 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_volume(length, width, height):
+        return length * width * height
+import array
+def remove_from_array(array, item):
+        array.remove(item)
