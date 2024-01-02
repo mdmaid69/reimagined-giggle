@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
