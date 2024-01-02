@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
