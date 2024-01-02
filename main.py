@@ -1,6 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
