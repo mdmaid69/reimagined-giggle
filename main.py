@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
