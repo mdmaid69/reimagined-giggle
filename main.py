@@ -1,5 +1,8 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
