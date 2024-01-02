@@ -1,6 +1,10 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
