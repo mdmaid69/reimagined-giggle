@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+for i in range(5):
+        print(i)
