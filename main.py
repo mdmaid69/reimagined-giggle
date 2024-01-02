@@ -1,5 +1,5 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def get_array_slice(array, i, j):
+        return array[i:j]
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
