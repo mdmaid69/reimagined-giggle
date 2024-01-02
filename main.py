@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
