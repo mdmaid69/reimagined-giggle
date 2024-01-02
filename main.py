@@ -1,5 +1,7 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
