@@ -1,5 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
