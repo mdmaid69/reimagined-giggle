@@ -1,5 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
