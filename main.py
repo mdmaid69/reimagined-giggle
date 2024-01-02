@@ -1,5 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
