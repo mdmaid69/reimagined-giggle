@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
