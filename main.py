@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def subtract_numbers(x, y):
-        return x - y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def square_number(x):
+        return x**2
