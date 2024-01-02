@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_list_from_array(array):
+        return array.tolist()
