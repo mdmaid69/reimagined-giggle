@@ -1,5 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
