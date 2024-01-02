@@ -1,4 +1,7 @@
-def is_palindrome(s):
-        return s == s[::-1]
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_volume(length, width, height):
+        return length * width * height
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
