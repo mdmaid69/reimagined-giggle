@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import time
+def get_time_since_epoch():
+        return time.time()
