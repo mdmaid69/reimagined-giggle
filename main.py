@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  def calculate_area_rectangle(l, w):
+        return l * w
