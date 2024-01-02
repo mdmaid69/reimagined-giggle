@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import platform
+def get_os_info():
+        return platform.uname()
+import numpy as np
+print(np.array([1, 2, 3]))
