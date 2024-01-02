@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  def remove_duplicates(lst):
-        return list(set(lst))
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
