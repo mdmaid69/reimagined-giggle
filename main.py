@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import sys
+def print_python_version():
+        print(sys.version)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
