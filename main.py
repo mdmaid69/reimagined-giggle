@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import sys
+print(sys.version)
+def calculate_power(work, time):
+        return work / time
