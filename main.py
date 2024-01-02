@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def clear_array(array):
+        array *= 0
+import random
+print(random.randint(0, 100))
