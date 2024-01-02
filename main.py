@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import array
+def reverse_array(array):
+        array.reverse()
