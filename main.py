@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
