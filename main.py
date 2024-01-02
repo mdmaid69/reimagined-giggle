@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_power(work, time):
-        return work / time
+  def convert_to_binary(n):
+        return bin(n)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
