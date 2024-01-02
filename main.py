@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
