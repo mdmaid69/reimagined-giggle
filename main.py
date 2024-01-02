@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import datetime
+def get_today_date():
+        return datetime.date.today()
