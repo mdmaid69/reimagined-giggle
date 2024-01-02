@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def get_array_item(array, i):
-        return array[i]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
