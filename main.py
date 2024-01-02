@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import sys
+  def get_python_version():
+        return sys.version
