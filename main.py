@@ -1,5 +1,7 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import os
+def remove_directory(path):
+        os.rmdir(path)
