@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
