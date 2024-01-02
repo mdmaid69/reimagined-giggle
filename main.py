@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import collections
+def create_counter():
+        return collections.Counter()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
