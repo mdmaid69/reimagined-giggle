@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def get_array_as_int(array):
+        return int(array[0])
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
