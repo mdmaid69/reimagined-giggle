@@ -1,3 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-print(sum(range(10)))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def add_numbers(a, b):
+        return a + b
