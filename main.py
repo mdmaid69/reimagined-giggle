@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
