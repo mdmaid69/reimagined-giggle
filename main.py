@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
