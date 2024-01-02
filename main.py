@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import time
-def get_current_time():
-        return time.ctime()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
