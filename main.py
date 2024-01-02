@@ -1,4 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
