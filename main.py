@@ -1,8 +1,4 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
