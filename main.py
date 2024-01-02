@@ -1,8 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
