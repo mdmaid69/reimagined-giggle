@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
