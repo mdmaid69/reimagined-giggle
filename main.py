@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import collections
+def create_user_list():
+        return collections.UserList()
