@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import sys
+def print_python_version():
+        print(sys.version)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
