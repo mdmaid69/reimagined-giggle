@@ -1,11 +1,8 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import threading
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import unittest
 
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
