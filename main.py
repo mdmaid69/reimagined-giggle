@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import array
-def get_array_item(array, i):
-        return array[i]
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def cube_number(x):
+        return x**3
