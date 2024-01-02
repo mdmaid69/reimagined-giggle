@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  def convert_to_octal(n):
-        return oct(n)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_density(mass, volume):
+        return mass / volume
