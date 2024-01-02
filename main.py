@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
