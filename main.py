@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def find_min(lst):
+        return min(lst)
