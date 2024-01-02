@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
