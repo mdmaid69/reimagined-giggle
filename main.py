@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def calculate_volume(length, width, height):
+        return length * width * height
