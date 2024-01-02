@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def get_array_as_list(array):
+        return list(array)
+import os
+def change_working_directory(path):
+        os.chdir(path)
