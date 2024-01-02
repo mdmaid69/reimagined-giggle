@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def multiply_numbers(x, y):
-        return x * y
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
