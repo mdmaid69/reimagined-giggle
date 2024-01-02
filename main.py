@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
