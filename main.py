@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  def convert_to_octal(n):
+        return oct(n)
