@@ -1,6 +1,8 @@
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
 import math
-def calculate_sine(x):
-        return math.sin(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
