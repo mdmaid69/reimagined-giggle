@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
