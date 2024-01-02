@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def divide_numbers(x, y):
+        return x / y
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
