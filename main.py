@@ -1,6 +1,4 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+  def reverse_list(lst):
+        return lst[::-1]
+def reverse_list(lst):
+        return lst[::-1]
