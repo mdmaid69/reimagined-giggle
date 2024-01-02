@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
