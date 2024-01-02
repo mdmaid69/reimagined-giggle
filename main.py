@@ -1,7 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import array
-def get_array_typecode(array):
-        return array.typecode
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def get_array_length(array):
+        return len(array)
