@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
