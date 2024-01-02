@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
