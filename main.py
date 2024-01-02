@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
