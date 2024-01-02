@@ -1,6 +1,7 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
