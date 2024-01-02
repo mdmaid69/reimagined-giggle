@@ -1,5 +1,6 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
