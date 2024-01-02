@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import json
+def convert_to_json(data):
+        return json.dumps(data)
