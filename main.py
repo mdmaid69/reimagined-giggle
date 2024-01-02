@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def find_max(lst):
-        return max(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
