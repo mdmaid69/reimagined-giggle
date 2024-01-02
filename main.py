@@ -1,5 +1,4 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+for i in range(10): print(i)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
