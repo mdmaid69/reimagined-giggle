@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
