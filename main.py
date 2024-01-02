@@ -1,5 +1,7 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_speed(distance, time):
-        return distance / time
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
