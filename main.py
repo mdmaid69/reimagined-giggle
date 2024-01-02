@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
