@@ -1,6 +1,5 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_combinations(n, k):
+        return math.comb(n, k)
