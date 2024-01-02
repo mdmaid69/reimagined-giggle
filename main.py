@@ -1,5 +1,8 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import time
-def get_current_time():
-        return time.time()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
