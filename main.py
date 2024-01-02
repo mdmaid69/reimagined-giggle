@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
