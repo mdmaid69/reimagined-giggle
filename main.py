@@ -1,5 +1,4 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_force(mass, acceleration):
+        return mass * acceleration
