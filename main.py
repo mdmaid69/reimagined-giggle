@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+text = "Hello, world!"
+print("Words:", len(text.split()))
