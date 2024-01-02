@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
