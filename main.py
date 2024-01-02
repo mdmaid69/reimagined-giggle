@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import numpy as np
+print(np.array([1, 2, 3]))
