@@ -1,5 +1,9 @@
-import sys
-def exit_program():
-        sys.exit()
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
