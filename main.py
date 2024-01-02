@@ -1,5 +1,6 @@
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
 import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
