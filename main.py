@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-  def convert_to_octal(n):
-        return oct(n)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
