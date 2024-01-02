@@ -1,7 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import random
+print(random.randint(0, 100))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
