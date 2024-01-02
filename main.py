@@ -1,6 +1,4 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def square_number(x):
+        return x**2
+def reverse_list(lst):
+        return lst[::-1]
