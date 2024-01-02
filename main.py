@@ -1,8 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def count_words(sentence):
+        return len(sentence.split())
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
