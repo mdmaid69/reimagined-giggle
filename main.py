@@ -1,8 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def sort_numbers(numbers):
+        return sorted(numbers)
+x = 10
+y = 20
+print("Sum:", x + y)
