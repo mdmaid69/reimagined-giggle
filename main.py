@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
