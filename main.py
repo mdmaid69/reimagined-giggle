@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import getpass
+def get_username():
+        return getpass.getuser()
+import collections
+def create_counter():
+        return collections.Counter()
