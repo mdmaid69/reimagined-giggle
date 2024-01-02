@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
