@@ -1,5 +1,7 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def get_list_from_array(array):
+        return array.tolist()
