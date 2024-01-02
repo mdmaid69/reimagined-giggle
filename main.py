@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_current_directory():
+        return os.getcwd()
