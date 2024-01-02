@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def add_numbers(a, b):
+        return a + b
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
