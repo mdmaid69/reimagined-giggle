@@ -1,6 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
