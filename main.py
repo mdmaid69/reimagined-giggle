@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
