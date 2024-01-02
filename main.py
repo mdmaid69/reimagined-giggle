@@ -1,5 +1,4 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+name = "Python"
+print("Hello,", name)
