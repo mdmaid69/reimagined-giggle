@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
