@@ -1,5 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_tangent(x):
+        return math.tan(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
