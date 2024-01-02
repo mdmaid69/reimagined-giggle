@@ -1,6 +1,5 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def subtract_numbers(x, y):
+        return x - y
