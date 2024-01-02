@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
+def square_number(x):
+        return x**2
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
