@@ -1,6 +1,4 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+from collections import Counter
+print(Counter("hello world"))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
