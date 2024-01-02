@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  def square_number(x):
-        return x**2
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_speed(distance, time):
+        return distance / time
