@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
