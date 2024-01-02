@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import platform
+def get_python_version():
+        return platform.python_version()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
