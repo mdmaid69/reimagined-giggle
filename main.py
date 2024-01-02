@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
