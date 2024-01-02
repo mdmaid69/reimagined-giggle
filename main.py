@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import platform
-def get_python_version():
-        return platform.python_version()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
