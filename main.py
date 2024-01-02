@@ -1,5 +1,9 @@
-import collections
-def create_counter():
-        return collections.Counter()
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
