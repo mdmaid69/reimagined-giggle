@@ -1,5 +1,11 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
