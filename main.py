@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
