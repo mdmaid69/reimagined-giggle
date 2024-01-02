@@ -1,5 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def divide_numbers(x, y):
+        return x / y
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
