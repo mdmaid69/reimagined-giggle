@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def count_characters(sentence):
+        return len(sentence)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
