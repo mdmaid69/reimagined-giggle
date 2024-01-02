@@ -1,5 +1,7 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def is_palindrome(s):
-        return s == s[::-1]
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
