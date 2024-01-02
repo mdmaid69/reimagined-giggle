@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
