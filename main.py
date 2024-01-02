@@ -1,11 +1,6 @@
 import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
