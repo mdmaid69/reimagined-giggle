@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import sys
+  def get_python_version():
+        return sys.version
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
