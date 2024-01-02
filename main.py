@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def is_even(n):
+        return n % 2 == 0
