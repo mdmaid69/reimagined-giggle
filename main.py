@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
