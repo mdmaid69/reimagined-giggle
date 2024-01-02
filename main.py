@@ -1,7 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
