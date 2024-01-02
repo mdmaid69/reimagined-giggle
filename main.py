@@ -1,5 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_power(work, time):
+        return work / time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
