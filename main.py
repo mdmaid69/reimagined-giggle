@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_error_function(x):
+        return math.erf(x)
