@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import platform
+def get_python_version():
+        return platform.python_version()
