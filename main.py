@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
