@@ -1,7 +1,9 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_density(mass, volume):
-        return mass / volume
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
