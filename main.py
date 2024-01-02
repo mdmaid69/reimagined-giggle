@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import platform
+def get_python_version():
+        return platform.python_version()
