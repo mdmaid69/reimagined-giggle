@@ -1,5 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-for i in range(5):
-        print(i)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def calculate_density(mass, volume):
+        return mass / volume
