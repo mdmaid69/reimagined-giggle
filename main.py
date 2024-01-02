@@ -1,5 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def square_number(x):
-        return x**2
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
