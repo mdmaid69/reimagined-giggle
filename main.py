@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_speed(distance, time):
+        return distance / time
