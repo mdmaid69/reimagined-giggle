@@ -1,5 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
