@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
