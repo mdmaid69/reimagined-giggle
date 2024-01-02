@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
