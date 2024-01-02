@@ -1,4 +1,7 @@
-import datetime
-print(datetime.datetime.now())
-def find_min(lst):
-        return min(lst)
+  def is_even(n):
+        return n % 2 == 0
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
