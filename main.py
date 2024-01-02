@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
