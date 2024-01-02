@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
