@@ -1,5 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
