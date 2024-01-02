@@ -1,9 +1,5 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def greet(name):
+        print(f"Hello, {name}!")
