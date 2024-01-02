@@ -1,5 +1,8 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def get_array_as_str(array):
+        return str(array)
