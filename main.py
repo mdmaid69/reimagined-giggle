@@ -1,5 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def convert_array_to_list(array):
+        return array.tolist()
+import platform
+def get_python_version():
+        return platform.python_version()
