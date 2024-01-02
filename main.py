@@ -1,6 +1,4 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def count_elements(lst):
+        return len(lst)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
