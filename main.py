@@ -1,9 +1,8 @@
-import collections
-def create_queue():
-        return collections.deque()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
