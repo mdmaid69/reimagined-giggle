@@ -1,5 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
