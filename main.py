@@ -1,4 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-print([x**2 for x in range(10)])
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
