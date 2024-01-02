@@ -1,5 +1,6 @@
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def convert_array_to_bytes(array):
+        return array.tobytes()
