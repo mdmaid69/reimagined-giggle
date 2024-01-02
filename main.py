@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
