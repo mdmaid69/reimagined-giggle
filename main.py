@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
