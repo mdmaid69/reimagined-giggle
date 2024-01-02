@@ -1,5 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
