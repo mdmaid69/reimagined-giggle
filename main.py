@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_repr(array):
+        return repr(array)
