@@ -1,8 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_acceleration(speed, time):
+        return speed / time
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
