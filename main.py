@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import random
+def roll_die():
+        return random.randint(1, 6)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
