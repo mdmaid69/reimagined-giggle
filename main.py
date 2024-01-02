@@ -1,5 +1,6 @@
+import platform
+def get_os_info():
+        return platform.uname()
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_sign(x):
+        return math.copysign(1, x)
