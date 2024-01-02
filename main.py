@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def find_max(lst):
+        return max(lst)
