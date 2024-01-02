@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
