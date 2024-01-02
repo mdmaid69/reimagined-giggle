@@ -1,5 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-from collections import Counter
-print(Counter("hello world"))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def add_numbers(a, b):
+        return a + b
