@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
