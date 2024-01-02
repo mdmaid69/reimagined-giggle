@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
