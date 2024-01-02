@@ -1,5 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_area_circle(r):
+        return 3.14 * r**2
