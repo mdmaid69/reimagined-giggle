@@ -1,5 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import collections
-def create_queue():
-        return collections.deque()
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+print(math.pi)
