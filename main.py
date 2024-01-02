@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
