@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  def subtract_numbers(x, y):
-        return x - y
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
