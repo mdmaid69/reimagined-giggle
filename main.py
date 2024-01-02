@@ -1,6 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_sign(x):
+        return math.copysign(1, x)
