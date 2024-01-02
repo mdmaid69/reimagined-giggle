@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def clear_array(array):
+        array *= 0
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
