@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
