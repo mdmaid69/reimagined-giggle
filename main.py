@@ -1,4 +1,7 @@
 import os
-print(os.getcwd())
-def count_words(sentence):
-        return len(sentence.split())
+def remove_directory(path):
+        os.rmdir(path)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
