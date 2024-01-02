@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_speed(distance, time):
-        return distance / time
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
