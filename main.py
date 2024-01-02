@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+def reverse_list(lst):
+        return lst[::-1]
