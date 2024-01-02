@@ -1,6 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_work(force, distance):
+        return force * distance
