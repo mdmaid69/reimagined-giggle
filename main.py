@@ -1,5 +1,6 @@
 import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def print_python_version():
+        print(sys.version)
+import platform
+def get_python_version():
+        return platform.python_version()
