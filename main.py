@@ -1,6 +1,5 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import collections
-def create_stack():
-        return collections.deque()
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
