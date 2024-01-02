@@ -1,4 +1,7 @@
-def find_max(lst):
-        return max(lst)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def count_words(sentence):
+        return len(sentence.split())
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
