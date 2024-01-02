@@ -1,6 +1,8 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
