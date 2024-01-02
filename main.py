@@ -1,7 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
