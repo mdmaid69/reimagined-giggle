@@ -1,5 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
