@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def count_elements(lst):
-        return len(lst)
+import time
+def get_time_since_epoch():
+        return time.time()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
