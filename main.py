@@ -1,8 +1,11 @@
-import array
-def clear_array(array):
-        array *= 0
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
