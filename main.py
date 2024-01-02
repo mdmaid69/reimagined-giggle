@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def convert_to_hex(n):
+        return hex(n)
