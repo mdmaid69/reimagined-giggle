@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
