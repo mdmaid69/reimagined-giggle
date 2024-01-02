@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def greet(name):
+        print(f"Hello, {name}!")
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
