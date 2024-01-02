@@ -1,6 +1,7 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
