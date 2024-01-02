@@ -1,5 +1,5 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def is_palindrome(s):
-        return s == s[::-1]
+def get_array_as_repr(array):
+        return repr(array)
+  def is_even(n):
+        return n % 2 == 0
