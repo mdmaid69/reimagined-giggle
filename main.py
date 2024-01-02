@@ -1,4 +1,7 @@
-  def square_number(x):
-        return x**2
-def count_words(sentence):
-        return len(sentence.split())
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+text = "Hello, world!"
+print("Words:", len(text.split()))
