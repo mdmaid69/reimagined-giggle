@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import time
-def get_time_since_epoch():
-        return time.time()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
