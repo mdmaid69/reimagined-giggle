@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
