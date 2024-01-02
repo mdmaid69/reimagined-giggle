@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
