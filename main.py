@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
