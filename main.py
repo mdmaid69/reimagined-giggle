@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
