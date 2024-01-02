@@ -1,5 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  def subtract_numbers(x, y):
-        return x - y
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+name = "Python"
+print("Hello,", name)
