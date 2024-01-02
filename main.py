@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
