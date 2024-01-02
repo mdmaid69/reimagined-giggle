@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
