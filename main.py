@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import sys
+def print_python_version():
+        return sys.version
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
