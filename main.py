@@ -1,4 +1,5 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-  def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def cube_number(x):
+        return x**3
