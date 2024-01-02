@@ -1,4 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  def add_numbers(x, y):
+        return x + y
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
