@@ -1,8 +1,6 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
