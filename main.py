@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
