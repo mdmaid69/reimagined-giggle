@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import sys
-print(sys.version)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+text = "Hello, world!"
+print("Words:", len(text.split()))
