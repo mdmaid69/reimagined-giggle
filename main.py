@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  def reverse_list(lst):
+        return lst[::-1]
