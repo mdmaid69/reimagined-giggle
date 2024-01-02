@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def remove_from_array(array, item):
+        array.remove(item)
