@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  def cube_number(x):
-        return x**3
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def count_elements(lst):
+        return len(lst)
