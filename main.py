@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
