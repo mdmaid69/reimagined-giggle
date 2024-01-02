@@ -1,4 +1,5 @@
-print(sum(range(10)))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
