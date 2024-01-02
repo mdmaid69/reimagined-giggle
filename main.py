@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
