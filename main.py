@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
