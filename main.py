@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import os
-print(os.getcwd())
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def cube_number(x):
+        return x**3
