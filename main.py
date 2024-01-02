@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
