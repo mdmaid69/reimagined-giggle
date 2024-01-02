@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
