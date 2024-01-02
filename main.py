@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
