@@ -1,5 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
