@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def remove_from_array(array, item):
+        array.remove(item)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
