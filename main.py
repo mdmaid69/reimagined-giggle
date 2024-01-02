@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def get_array_index(array, item):
+        return array.index(item)
