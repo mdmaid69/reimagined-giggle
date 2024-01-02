@@ -1,5 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import numpy as np
-print(np.array([1, 2, 3]))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
