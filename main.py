@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
