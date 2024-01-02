@@ -1,7 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
