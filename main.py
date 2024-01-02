@@ -1,5 +1,8 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
 import array
-def get_array_as_list(array):
-        return list(array)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
