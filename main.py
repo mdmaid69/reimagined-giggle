@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import array
+def get_list_from_array(array):
+        return array.tolist()
