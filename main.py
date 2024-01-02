@@ -1,8 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_density(mass, volume):
+        return mass / volume
