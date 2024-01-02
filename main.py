@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_density(mass, volume):
-        return mass / volume
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
