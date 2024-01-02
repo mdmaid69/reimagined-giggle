@@ -1,5 +1,6 @@
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import time
-print(time.time())
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_as_int(array):
+        return int(array[0])
