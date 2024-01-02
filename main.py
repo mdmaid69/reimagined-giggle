@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def reverse_list(lst):
+        return lst[::-1]
