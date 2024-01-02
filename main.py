@@ -1,5 +1,5 @@
 text = "Hello, world!"
-print("Reversed:", text[::-1])
+print("Characters:", len(text))
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
