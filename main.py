@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import platform
-def get_os_info():
-        return platform.uname()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
