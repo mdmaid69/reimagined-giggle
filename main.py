@@ -1,6 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
