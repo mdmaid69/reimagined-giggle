@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
