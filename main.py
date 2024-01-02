@@ -1,7 +1,8 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def get_array_as_str(array):
+        return str(array)
