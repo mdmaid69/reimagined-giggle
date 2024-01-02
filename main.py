@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def reverse_array(array):
-        array.reverse()
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
