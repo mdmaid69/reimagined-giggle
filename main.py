@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def is_odd(n):
+        return n % 2 != 0
