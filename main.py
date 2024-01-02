@@ -1,7 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
