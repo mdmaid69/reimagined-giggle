@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def sort_list(lst):
-        return sorted(lst)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
