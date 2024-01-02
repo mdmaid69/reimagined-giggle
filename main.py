@@ -1,5 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
