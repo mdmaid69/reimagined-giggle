@@ -1,4 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  def square_number(x):
+        return x**2
