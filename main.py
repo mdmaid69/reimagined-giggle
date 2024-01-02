@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
