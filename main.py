@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
