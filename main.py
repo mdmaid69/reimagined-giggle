@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
