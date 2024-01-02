@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def add_numbers(x, y):
+        return x + y
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
