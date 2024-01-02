@@ -1,5 +1,5 @@
+text = "Hello, world!"
+print("Characters:", len(text))
 import collections
-def create_user_dict():
-        return collections.UserDict()
-  def remove_duplicates(lst):
-        return list(set(lst))
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
