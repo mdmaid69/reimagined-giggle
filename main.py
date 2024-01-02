@@ -1,6 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-import platform
-def get_os_info():
-        return platform.uname()
+def get_array_length(array):
+        return len(array)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
