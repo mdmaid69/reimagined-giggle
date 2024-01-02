@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_exponential(x):
+        return math.exp(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
