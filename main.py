@@ -1,6 +1,8 @@
 import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
