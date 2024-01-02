@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def find_min(numbers):
+        return min(numbers)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_factorial(n):
+        return math.factorial(n)
