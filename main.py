@@ -1,8 +1,8 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
