@@ -1,5 +1,8 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import logging
-def log_message(message):
-        logging.info(message)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
