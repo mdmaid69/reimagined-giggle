@@ -1,5 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_work(force, distance):
-        return force * distance
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
