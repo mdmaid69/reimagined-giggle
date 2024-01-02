@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def reverse_array(array):
-        array.reverse()
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
