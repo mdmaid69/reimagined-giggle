@@ -1,5 +1,7 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def calculate_power(work, time):
-        return work / time
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
