@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
