@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import collections
-def create_user_list():
-        return collections.UserList()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
