@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import random
-print(random.randint(0, 100))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
