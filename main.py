@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
