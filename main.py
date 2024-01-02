@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_pressure(force, area):
+        return force / area
+def greet(name):
+        print(f"Hello, {name}!")
