@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import platform
+def get_os_info():
+        return platform.uname()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
