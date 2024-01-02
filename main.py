@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def add_numbers(a, b):
+        return a + b
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
