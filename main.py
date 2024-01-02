@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
