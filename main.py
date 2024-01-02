@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import logging
+def log_message(message):
+        logging.info(message)
