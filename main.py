@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def count_elements(lst):
+        return len(lst)
