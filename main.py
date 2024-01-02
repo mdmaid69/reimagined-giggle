@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
