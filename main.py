@@ -1,5 +1,5 @@
+def calculate_acceleration(speed, time):
+        return speed / time
 import random
-def roll_die():
-        return random.randint(1, 6)
-  def multiply_numbers(x, y):
-        return x * y
+def generate_random_choice(choices):
+        return random.choice(choices)
