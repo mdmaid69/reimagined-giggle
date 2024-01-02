@@ -1,7 +1,6 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
