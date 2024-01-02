@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
