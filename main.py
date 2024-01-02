@@ -1,5 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import numpy as np
+print(np.array([1, 2, 3]))
+  def cube_number(x):
+        return x**3
