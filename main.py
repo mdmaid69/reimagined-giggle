@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  def calculate_area_rectangle(l, w):
+        return l * w
