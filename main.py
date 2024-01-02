@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
