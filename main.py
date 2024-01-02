@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def square_number(x):
+        return x**2
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
