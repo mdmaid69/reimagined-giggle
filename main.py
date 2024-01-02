@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def clear_array(array):
+        array *= 0
+def sort_list(lst):
+        return sorted(lst)
