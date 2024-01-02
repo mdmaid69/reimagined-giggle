@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import random
+print(random.randint(0, 100))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
