@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_as_memoryview(array):
+        return memoryview(array)
