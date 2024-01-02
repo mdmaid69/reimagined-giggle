@@ -1,5 +1,10 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
