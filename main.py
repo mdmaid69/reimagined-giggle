@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def reverse_string(s):
-        return s[::-1]
+import collections
+def create_priority_queue():
+        return collections.deque()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
