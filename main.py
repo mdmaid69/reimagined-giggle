@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def cube_number(x):
+        return x**3
+def sort_list(lst):
+        return sorted(lst)
