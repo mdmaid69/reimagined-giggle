@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import collections
+def create_priority_queue():
+        return collections.deque()
