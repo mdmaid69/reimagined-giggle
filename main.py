@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
