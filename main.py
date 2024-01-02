@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def find_min(lst):
-        return min(lst)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
