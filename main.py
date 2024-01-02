@@ -1,4 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def count_elements(lst):
-        return len(lst)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
