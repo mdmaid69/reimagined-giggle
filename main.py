@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def convert_array_to_unicode(array):
+        return array.tounicode()
