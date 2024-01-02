@@ -1,10 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-print("Hello, world!")
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_length(array):
+        return len(array)
