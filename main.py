@@ -1,6 +1,3 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+def is_palindrome(s):
+        return s == s[::-1]
+print(sum(range(10)))
