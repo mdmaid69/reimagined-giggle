@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  def multiply_numbers(x, y):
-        return x * y
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
