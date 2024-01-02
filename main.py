@@ -1,7 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def find_min(numbers):
-        return min(numbers)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
