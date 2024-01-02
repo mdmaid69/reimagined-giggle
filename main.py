@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-def calculate_power(work, time):
-        return work / time
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
