@@ -1,5 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  def count_elements(lst):
+        return len(lst)
