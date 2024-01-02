@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
