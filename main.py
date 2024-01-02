@@ -1,4 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def find_unique_words(sentence):
+        return set(sentence.split())
