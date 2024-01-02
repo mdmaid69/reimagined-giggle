@@ -1,6 +1,4 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
