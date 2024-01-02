@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import time
+print(time.time())
+text = "Hello, world!"
+print("Characters:", len(text))
