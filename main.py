@@ -1,7 +1,7 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
