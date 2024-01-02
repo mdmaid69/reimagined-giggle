@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
