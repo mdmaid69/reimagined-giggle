@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+x = 10
+y = 20
+print("Sum:", x + y)
