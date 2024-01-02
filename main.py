@@ -1,5 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_speed(distance, time):
-        return distance / time
+def cube_number(x):
+        return x**3
+import datetime
+print(datetime.datetime.now())
