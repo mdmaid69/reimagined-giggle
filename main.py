@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
