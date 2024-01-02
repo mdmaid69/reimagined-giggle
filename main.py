@@ -1,6 +1,7 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+from collections import Counter
+print(Counter("hello world"))
