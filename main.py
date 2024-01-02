@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import random
+print(random.randint(0, 100))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
