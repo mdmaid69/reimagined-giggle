@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
