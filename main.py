@@ -1,6 +1,6 @@
+import array
+def clear_array(array):
+        array *= 0
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
