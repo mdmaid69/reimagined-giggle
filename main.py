@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
