@@ -1,6 +1,6 @@
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
