@@ -1,5 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  def is_even(n):
+        return n % 2 == 0
