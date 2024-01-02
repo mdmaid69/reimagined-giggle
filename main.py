@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
