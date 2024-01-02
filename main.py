@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
