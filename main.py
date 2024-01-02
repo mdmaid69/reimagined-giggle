@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_speed(distance, time):
+        return distance / time
