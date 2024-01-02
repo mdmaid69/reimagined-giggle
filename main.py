@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_length(array):
+        return len(array)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_directory_name(path):
+        return os.path.dirname(path)
