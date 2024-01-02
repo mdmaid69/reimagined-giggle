@@ -1,6 +1,7 @@
   import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
         plt.show()
-def calculate_power(work, time):
-        return work / time
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
