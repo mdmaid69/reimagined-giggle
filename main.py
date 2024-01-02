@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import collections
+def create_user_list():
+        return collections.UserList()
 import time
-def get_time_since_epoch():
-        return time.time()
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
