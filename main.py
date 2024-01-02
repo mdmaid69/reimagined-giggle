@@ -1,6 +1,8 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def convert_array_to_string(array):
+        return array.tostring()
