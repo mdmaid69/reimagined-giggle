@@ -1,9 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
