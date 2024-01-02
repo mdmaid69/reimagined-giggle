@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
