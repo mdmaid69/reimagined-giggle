@@ -1,4 +1,8 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
