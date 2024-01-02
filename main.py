@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def cube_number(x):
+        return x**3
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
