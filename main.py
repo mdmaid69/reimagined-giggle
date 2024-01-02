@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def find_min(lst):
-        return min(lst)
+import collections
+def create_stack():
+        return collections.deque()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
