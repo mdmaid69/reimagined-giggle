@@ -1,5 +1,5 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_speed(distance, time):
-        return distance / time
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def remove_duplicates(lst):
+        return list(set(lst))
