@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_tangent(x):
+        return math.tan(x)
