@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
