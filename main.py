@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def clear_array(array):
-        array *= 0
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
