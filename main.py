@@ -1,4 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
