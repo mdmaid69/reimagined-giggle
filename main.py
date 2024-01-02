@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_pressure(force, area):
+        return force / area
+def convert_to_binary(n):
+        return bin(n)
