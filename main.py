@@ -1,4 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_acceleration(speed, time):
-        return speed / time
+text = "Hello, world!"
+print("Characters:", len(text))
+def count_characters(sentence):
+        return len(sentence)
