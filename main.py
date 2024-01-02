@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
