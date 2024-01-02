@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
