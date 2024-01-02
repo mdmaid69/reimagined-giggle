@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import platform
-def get_os_info():
-        return platform.uname()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
