@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
