@@ -1,4 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_item(array, i):
+        return array[i]
+import sys
+def exit_program():
+        sys.exit()
