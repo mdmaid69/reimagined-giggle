@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+from collections import Counter
+print(Counter("hello world"))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
