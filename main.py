@@ -1,8 +1,6 @@
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def calculate_error_function(x):
+        return math.erf(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
