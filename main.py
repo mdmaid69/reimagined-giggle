@@ -1,5 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
