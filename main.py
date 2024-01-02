@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
