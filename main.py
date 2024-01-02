@@ -1,7 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
