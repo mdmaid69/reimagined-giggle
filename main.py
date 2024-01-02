@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import collections
+def create_counter():
+        return collections.Counter()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
