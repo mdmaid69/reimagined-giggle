@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
