@@ -1,6 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def split_path(path):
+        return os.path.split(path)
