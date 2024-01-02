@@ -1,5 +1,8 @@
-import datetime
-print(datetime.datetime.now())
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
