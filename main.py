@@ -1,5 +1,6 @@
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
