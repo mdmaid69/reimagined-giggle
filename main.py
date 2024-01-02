@@ -1,5 +1,4 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  def reverse_list(lst):
+        return lst[::-1]
