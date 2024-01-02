@@ -1,8 +1,7 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
