@@ -1,8 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
