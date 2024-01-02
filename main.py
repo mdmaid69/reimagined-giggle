@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
