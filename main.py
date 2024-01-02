@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
