@@ -1,6 +1,7 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
