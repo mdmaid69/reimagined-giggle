@@ -1,10 +1,7 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import socket
 
-{body}")
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
