@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import sys
+def exit_program():
+        sys.exit()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
