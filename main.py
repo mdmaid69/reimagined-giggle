@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
