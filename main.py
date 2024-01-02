@@ -1,4 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
-def remove_duplicates(lst):
-        return list(set(lst))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
