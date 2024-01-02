@@ -1,11 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
