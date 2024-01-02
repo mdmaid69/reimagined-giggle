@@ -1,5 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import collections
+def create_stack():
+        return collections.deque()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
