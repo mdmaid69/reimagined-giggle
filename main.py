@@ -1,6 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def greet(name):
+        print(f"Hello, {name}!")
