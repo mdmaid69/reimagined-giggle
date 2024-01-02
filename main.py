@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_power(work, time):
+        return work / time
