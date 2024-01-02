@@ -1,6 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def multiply_numbers(x, y):
+        return x * y
+def cube_number(x):
+        return x**3
