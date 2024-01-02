@@ -1,6 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def convert_to_hex(n):
+        return hex(n)
+import random
+print(random.randint(0, 100))
