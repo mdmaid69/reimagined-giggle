@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
