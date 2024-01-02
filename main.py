@@ -1,5 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
