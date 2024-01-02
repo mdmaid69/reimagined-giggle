@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
