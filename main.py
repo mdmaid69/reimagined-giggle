@@ -1,6 +1,7 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def square_number(x):
+        return x**2
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
