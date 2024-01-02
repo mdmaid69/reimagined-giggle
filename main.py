@@ -1,7 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
