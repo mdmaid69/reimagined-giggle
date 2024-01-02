@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import array
+def get_list_from_array(array):
+        return array.tolist()
