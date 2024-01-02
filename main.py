@@ -1,5 +1,6 @@
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_power(work, time):
-        return work / time
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
