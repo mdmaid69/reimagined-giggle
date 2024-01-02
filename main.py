@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def multiply_numbers(x, y):
+        return x * y
