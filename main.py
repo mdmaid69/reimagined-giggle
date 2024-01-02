@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
