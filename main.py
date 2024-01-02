@@ -1,6 +1,6 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
