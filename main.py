@@ -1,4 +1,4 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-print([x**2 for x in range(10)])
+for i in range(5):
+        print(i)
+text = "Hello, world!"
+print("Characters:", len(text))
