@@ -1,7 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  def convert_to_hex(n):
+        return hex(n)
