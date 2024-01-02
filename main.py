@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
