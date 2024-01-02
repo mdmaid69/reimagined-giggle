@@ -1,5 +1,8 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def find_min(numbers):
-        return min(numbers)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
