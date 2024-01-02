@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import sys
-def print_python_version():
-        return sys.version
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
