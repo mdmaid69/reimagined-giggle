@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+x = 10
+y = 20
+print("Sum:", x + y)
