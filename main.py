@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def subtract_numbers(x, y):
+        return x - y
