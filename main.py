@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def is_palindrome(s):
-        return s == s[::-1]
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
