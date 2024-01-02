@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def is_palindrome(s):
+        return s == s[::-1]
