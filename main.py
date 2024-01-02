@@ -1,6 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
