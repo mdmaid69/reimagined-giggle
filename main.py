@@ -1,5 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def count_characters(sentence):
-        return len(sentence)
+  import sys
+  def get_python_version():
+        return sys.version
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
