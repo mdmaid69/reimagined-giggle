@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
