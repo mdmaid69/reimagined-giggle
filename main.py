@@ -1,10 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+x = 10
+y = 20
+print("Sum:", x + y)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
