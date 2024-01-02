@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
