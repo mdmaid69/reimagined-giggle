@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  def reverse_list(lst):
+        return lst[::-1]
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
