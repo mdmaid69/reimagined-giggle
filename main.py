@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
