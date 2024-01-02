@@ -1,4 +1,7 @@
-def greet(name):
-        print(f"Hello, {name}!")
 n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
