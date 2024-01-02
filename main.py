@@ -1,6 +1,5 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import logging
-def log_message(message):
-        logging.info(message)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
