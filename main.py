@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
