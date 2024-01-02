@@ -1,6 +1,3 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
 import threading
 
 def print_hello():
@@ -9,3 +6,6 @@ def print_hello():
 thread = threading.Thread(target=print_hello)
 thread.start()
 thread.join()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
