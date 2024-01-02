@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import tensorflow as tf
+print(tf.__version__)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
