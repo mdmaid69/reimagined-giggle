@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import time
-def get_current_time():
-        return time.ctime()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
