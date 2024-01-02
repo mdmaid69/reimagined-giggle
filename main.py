@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
