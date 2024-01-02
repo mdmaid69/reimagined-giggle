@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
