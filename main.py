@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_acceleration(speed, time):
-        return speed / time
+import time
+def get_current_time():
+        return time.time()
+  def convert_to_binary(n):
+        return bin(n)
