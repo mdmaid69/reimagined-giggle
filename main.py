@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def is_even(n):
+        return n % 2 == 0
