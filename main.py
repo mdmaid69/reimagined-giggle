@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import re
+print(re.match("h.*o", "hello world"))
