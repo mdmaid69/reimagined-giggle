@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
