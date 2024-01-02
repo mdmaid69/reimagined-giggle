@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_power(work, time):
+        return work / time
