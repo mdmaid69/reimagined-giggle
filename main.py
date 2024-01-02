@@ -1,3 +1,4 @@
-  def cube_number(x):
-        return x**3
-print("Hello, world!")
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+for i in range(10): print(i)
