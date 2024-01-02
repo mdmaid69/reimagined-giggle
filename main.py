@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+def reverse_list(lst):
+        return lst[::-1]
