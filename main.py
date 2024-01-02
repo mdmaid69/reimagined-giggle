@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def get_current_directory():
+        return os.getcwd()
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
