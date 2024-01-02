@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_speed(distance, time):
+        return distance / time
