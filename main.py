@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
