@@ -1,5 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def convert_to_binary(n):
-        return bin(n)
+def get_array_as_float(array):
+        return float(array[0])
