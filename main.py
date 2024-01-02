@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_pressure(force, area):
+        return force / area
+import os
+def get_current_working_directory():
+        return os.getcwd()
