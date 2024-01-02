@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
