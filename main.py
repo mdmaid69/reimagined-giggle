@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import os
+def change_working_directory(path):
+        os.chdir(path)
