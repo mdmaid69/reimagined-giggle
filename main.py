@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+  def is_odd(n):
+        return n % 2 != 0
