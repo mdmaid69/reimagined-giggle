@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_queue():
+        return collections.deque()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
