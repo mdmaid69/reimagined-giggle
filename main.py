@@ -1,8 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
 import array
-def get_array_from_bytes(bytes, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromunicode(unicode)
         return a
