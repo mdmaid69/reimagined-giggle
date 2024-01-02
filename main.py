@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
