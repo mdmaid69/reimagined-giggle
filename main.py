@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def get_array_as_int(array):
-        return int(array[0])
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
