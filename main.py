@@ -1,5 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+print(math.pi)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
