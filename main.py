@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def add_numbers(a, b):
+        return a + b
