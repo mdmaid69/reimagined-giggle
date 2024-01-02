@@ -1,6 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_string_from_array(array):
+        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
