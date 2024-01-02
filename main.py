@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
