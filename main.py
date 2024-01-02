@@ -1,5 +1,8 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
