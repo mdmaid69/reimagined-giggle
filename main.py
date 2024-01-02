@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
