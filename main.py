@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import collections
+def create_counter():
+        return collections.Counter()
