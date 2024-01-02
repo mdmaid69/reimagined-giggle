@@ -1,10 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
