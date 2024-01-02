@@ -1,6 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def is_odd(n):
+        return n % 2 != 0
+  def cube_number(x):
+        return x**3
