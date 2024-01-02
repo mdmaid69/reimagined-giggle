@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
