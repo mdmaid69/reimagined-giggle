@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
