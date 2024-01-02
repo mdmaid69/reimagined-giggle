@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
