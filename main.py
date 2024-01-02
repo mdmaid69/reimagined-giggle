@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
