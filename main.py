@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import getpass
+def get_username():
+        return getpass.getuser()
