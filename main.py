@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def sort_list(lst):
-        return sorted(lst)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_sine(x):
+        return math.sin(x)
