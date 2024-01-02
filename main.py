@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
