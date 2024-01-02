@@ -1,5 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def remove_duplicates(lst):
+        return list(set(lst))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
