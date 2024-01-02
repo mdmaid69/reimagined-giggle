@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import array
-def get_array_as_list(array):
-        return list(array)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
