@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def convert_to_binary(n):
+        return bin(n)
