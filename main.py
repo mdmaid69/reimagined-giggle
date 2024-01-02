@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
