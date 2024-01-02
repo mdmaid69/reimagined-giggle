@@ -1,5 +1,8 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
