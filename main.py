@@ -1,5 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def is_odd(n):
-        return n % 2 != 0
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
