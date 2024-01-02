@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
