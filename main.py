@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-import array
-def get_array_as_set(array):
-        return set(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def convert_to_binary(n):
+        return bin(n)
