@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
