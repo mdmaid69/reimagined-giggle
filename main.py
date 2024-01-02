@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
