@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def count_characters(sentence):
+        return len(sentence)
