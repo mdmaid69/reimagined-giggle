@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import logging
-def log_message(message):
-        logging.info(message)
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def reverse_array(array):
+        array.reverse()
