@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import array
-def get_array_length(array):
-        return len(array)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import math
+def calculate_floor(x):
+        return math.floor(x)
