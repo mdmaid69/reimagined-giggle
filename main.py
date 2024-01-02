@@ -1,5 +1,8 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-  def convert_to_hex(n):
-        return hex(n)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
