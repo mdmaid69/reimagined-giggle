@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def divide_numbers(x, y):
-        return x / y
+from collections import Counter
+print(Counter("hello world"))
+def is_even(n):
+        return n % 2 == 0
