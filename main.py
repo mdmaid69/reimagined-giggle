@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
