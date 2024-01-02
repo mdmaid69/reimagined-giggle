@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def clear_array(array):
+        array *= 0
