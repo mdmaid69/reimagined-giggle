@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
