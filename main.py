@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
