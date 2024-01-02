@@ -1,5 +1,3 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+print([x**2 for x in range(10)])
+def calculate_speed(distance, time):
+        return distance / time
