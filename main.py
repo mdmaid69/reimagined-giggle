@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def count_words(sentence):
+        return len(sentence.split())
