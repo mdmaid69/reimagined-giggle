@@ -1,4 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
