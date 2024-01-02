@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+print([x**2 for x in range(10)])
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
