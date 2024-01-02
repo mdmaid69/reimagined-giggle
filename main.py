@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import array
+def append_to_array(array, item):
+        array.append(item)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
