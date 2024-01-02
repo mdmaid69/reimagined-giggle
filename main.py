@@ -1,7 +1,7 @@
-text = "Hello, world!"
-print("Characters:", len(text))
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
