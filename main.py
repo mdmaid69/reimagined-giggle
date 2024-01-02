@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
