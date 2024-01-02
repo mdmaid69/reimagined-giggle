@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def find_min(lst):
-        return min(lst)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
