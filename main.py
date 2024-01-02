@@ -1,5 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+print([x**2 for x in range(10)])
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
