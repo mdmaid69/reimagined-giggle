@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import collections
-def create_stack():
-        return collections.deque()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  def remove_duplicates(lst):
+        return list(set(lst))
