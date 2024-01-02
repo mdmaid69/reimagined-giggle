@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import getpass
+def get_username():
+        return getpass.getuser()
+import collections
+def create_stack():
+        return collections.deque()
