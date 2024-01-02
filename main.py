@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
