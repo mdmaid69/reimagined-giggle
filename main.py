@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
