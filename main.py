@@ -1,5 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def sort_list(lst):
+        return sorted(lst)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
