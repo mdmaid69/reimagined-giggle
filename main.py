@@ -1,6 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_sine(x):
+        return math.sin(x)
