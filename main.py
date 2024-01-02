@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import collections
+def create_user_string():
+        return collections.UserString()
