@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
