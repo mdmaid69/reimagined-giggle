@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def convert_to_hex(n):
+        return hex(n)
+import sys
+def exit_program():
+        sys.exit()
