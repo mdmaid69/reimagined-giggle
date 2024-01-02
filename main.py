@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
