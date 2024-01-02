@@ -1,6 +1,7 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
