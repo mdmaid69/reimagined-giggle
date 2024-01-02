@@ -1,5 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import random
-print(random.randint(0, 100))
+  def remove_duplicates(lst):
+        return list(set(lst))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
