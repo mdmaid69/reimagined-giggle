@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_speed(distance, time):
+        return distance / time
