@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
