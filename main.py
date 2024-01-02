@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_as_bool(array):
+        return bool(array)
