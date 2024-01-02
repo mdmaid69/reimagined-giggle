@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_sine(x):
+        return math.sin(x)
