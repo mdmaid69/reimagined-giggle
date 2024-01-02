@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
