@@ -1,6 +1,11 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
