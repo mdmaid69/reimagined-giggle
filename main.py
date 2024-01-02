@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
