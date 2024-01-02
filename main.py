@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
