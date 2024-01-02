@@ -1,8 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import array
-def get_array_from_bytes(bytes, typecode):
+def get_array_from_string(string, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromstring(string)
         return a
+import math
+def calculate_cosine(x):
+        return math.cos(x)
