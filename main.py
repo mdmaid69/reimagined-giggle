@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
