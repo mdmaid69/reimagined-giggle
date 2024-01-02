@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
