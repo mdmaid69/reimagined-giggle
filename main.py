@@ -1,5 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import re
-print(re.match("h.*o", "hello world"))
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
