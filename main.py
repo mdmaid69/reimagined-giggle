@@ -1,6 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
