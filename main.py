@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
