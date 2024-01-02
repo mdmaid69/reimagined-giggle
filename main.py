@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import sys
-print(sys.version)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+text = "Hello, world!"
+print("Words:", len(text.split()))
