@@ -1,6 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import sys
+def exit_program():
+        sys.exit()
