@@ -1,5 +1,6 @@
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
