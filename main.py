@@ -1,5 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import time
-print(time.time())
+def calculate_power(work, time):
+        return work / time
+def greet(name):
+        print(f"Hello, {name}!")
