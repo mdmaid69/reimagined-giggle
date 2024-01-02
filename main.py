@@ -1,5 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_power(work, time):
+        return work / time
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
