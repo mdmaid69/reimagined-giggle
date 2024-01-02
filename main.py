@@ -1,7 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
