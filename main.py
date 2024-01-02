@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  def subtract_numbers(x, y):
+        return x - y
