@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
