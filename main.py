@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
