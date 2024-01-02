@@ -1,6 +1,6 @@
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
