@@ -1,6 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_as_memoryview(array):
+        return memoryview(array)
