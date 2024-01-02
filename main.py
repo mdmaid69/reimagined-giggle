@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def reverse_array(array):
-        array.reverse()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
