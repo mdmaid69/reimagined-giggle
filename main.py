@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def find_min(numbers):
-        return min(numbers)
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
