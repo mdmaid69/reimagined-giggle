@@ -1,5 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
