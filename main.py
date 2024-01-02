@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import datetime
+def get_today_date():
+        return datetime.date.today()
