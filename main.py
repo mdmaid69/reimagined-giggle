@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
