@@ -1,5 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  def is_odd(n):
-        return n % 2 != 0
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
