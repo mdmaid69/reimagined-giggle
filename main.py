@@ -1,5 +1,7 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
