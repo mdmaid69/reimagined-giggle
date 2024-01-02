@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_set(array):
+        return set(array)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
