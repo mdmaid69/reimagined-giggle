@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
