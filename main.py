@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
