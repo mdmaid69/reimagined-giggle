@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_pressure(force, area):
-        return force / area
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def remove_from_array(array, item):
+        array.remove(item)
