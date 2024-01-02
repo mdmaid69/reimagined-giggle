@@ -1,6 +1,6 @@
+import array
+def get_array_as_repr(array):
+        return repr(array)
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
