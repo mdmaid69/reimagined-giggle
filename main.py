@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import datetime
-print(datetime.datetime.now())
+import numpy as np
+print(np.array([1, 2, 3]))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
