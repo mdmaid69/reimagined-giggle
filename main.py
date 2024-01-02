@@ -1,4 +1,10 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
