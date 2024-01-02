@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  def add_numbers(x, y):
+        return x + y
