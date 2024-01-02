@@ -1,6 +1,6 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
