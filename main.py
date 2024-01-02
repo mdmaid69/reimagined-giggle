@@ -1,7 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
