@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def convert_to_binary(n):
+        return bin(n)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
