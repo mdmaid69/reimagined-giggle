@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
