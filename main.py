@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
