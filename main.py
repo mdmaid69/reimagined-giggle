@@ -1,8 +1,9 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
