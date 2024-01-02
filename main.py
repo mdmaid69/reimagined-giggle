@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
