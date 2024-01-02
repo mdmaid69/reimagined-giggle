@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def clear_array(array):
-        array *= 0
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
