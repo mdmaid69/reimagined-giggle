@@ -1,6 +1,8 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
