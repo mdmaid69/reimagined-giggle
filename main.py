@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
