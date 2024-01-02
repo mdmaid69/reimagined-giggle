@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+text = "Hello, world!"
+print("Reversed:", text[::-1])
