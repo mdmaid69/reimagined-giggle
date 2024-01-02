@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def remove_from_array(array, item):
+        array.remove(item)
