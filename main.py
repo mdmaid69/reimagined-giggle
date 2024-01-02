@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
