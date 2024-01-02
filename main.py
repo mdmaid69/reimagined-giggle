@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
