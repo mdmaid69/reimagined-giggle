@@ -1,7 +1,4 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def convert_to_octal(n):
+        return oct(n)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
