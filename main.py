@@ -1,5 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
