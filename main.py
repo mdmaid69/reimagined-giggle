@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
