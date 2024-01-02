@@ -1,5 +1,8 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import array
+def get_array_as_str(array):
+        return str(array)
