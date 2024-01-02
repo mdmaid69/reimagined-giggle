@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import time
-def get_current_time():
-        return time.time()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import random
+def roll_die():
+        return random.randint(1, 6)
