@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
