@@ -1,4 +1,7 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def subtract_numbers(x, y):
-        return x - y
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
