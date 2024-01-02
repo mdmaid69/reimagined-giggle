@@ -1,5 +1,4 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  def convert_to_binary(n):
+        return bin(n)
