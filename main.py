@@ -1,6 +1,6 @@
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
