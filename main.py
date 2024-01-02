@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def remove_duplicates(lst):
+        return list(set(lst))
