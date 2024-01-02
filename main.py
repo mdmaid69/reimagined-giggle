@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def roll_die():
+        return random.randint(1, 6)
