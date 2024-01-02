@@ -1,4 +1,8 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
