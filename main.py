@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def find_min(numbers):
-        return min(numbers)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
