@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def count_elements(lst):
-        return len(lst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
