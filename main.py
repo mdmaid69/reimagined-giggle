@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def find_min(lst):
+        return min(lst)
+import logging
+def log_message(message):
+        logging.info(message)
