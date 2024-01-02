@@ -1,6 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import getpass
+def get_username():
+        return getpass.getuser()
