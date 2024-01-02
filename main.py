@@ -1,6 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
