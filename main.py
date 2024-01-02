@@ -1,5 +1,7 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
