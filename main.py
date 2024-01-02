@@ -1,4 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-print(sum(range(10)))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def find_min(lst):
+        return min(lst)
