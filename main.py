@@ -1,5 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def convert_to_hex(n):
-        return hex(n)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import time
+def get_current_time():
+        return time.time()
