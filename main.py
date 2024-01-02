@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def find_unique_words(sentence):
+        return set(sentence.split())
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
