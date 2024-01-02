@@ -1,6 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
