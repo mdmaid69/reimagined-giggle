@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  def subtract_numbers(x, y):
+        return x - y
