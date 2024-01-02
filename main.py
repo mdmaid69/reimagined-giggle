@@ -1,5 +1,6 @@
 import math
-print(math.pi)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def calculate_sign(x):
+        return math.copysign(1, x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
