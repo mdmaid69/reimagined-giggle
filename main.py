@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def add_numbers(x, y):
+        return x + y
