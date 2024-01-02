@@ -1,7 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-from collections import Counter
-print(Counter("hello world"))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
