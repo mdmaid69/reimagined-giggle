@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_pressure(force, area):
+        return force / area
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
