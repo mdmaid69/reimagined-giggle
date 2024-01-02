@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
