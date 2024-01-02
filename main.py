@@ -1,7 +1,4 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def calculate_density(mass, volume):
-        return mass / volume
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  def subtract_numbers(x, y):
+        return x - y
