@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
