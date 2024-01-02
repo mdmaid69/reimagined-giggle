@@ -1,6 +1,5 @@
-print(sum(range(10)))
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import tensorflow as tf
+print(tf.__version__)
+import collections
+def create_priority_queue():
+        return collections.deque()
