@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-x = 10
-y = 20
-print("Sum:", x + y)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
