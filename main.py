@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
