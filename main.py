@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
