@@ -1,4 +1,8 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
 n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def sort_list(lst):
-        return sorted(lst)
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
