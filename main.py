@@ -1,5 +1,4 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def convert_to_binary(n):
+        return bin(n)
+  def is_even(n):
+        return n % 2 == 0
