@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+def remove_duplicates(lst):
+        return list(set(lst))
