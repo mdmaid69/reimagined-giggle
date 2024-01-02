@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def sort_numbers(numbers):
+        return sorted(numbers)
