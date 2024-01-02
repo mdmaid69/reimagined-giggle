@@ -1,3 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-print([x**2 for x in range(10)])
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_length(array):
+        return len(array)
