@@ -1,4 +1,8 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
