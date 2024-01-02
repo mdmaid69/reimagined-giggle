@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def add_numbers(x, y):
-        return x + y
+  def cube_number(x):
+        return x**3
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
