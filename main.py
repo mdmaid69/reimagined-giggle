@@ -1,5 +1,6 @@
-print([x**2 for x in range(10)])
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def subtract_numbers(x, y):
+        return x - y
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
