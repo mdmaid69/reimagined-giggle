@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
