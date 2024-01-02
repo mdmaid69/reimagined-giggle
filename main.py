@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import os
+def change_working_directory(path):
+        os.chdir(path)
