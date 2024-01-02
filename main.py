@@ -1,6 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
