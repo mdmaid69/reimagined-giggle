@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_length(array):
+        return len(array)
+def is_palindrome(s):
+        return s == s[::-1]
