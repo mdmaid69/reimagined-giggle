@@ -1,6 +1,7 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
