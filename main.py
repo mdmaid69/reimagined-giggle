@@ -1,5 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def convert_to_octal(n):
+        return oct(n)
