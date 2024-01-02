@@ -1,5 +1,6 @@
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_sign(x):
+        return math.copysign(1, x)
