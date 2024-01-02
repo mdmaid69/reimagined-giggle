@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
