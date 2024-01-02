@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
