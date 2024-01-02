@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import time
+def get_current_time():
+        return time.time()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
