@@ -1,5 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_volume(length, width, height):
-        return length * width * height
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
