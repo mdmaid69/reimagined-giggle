@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import json
+print(json.dumps({"name": "John", "age": 30}))
