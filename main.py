@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
