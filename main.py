@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def convert_to_hex(n):
+        return hex(n)
