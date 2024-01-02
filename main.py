@@ -1,6 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def reverse_list(lst):
+        return lst[::-1]
+def greet(name):
+        print(f"Hello, {name}!")
