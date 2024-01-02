@@ -1,5 +1,10 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_area_rectangle(l, w):
-        return l * w
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
