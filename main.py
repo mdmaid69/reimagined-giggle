@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
