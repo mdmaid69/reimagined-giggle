@@ -1,6 +1,4 @@
+for i in range(10): print(i)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def delete_file(file_name):
+        os.remove(file_name)
