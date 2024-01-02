@@ -1,7 +1,8 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
