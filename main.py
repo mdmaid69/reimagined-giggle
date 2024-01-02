@@ -1,7 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import numpy as np
+print(np.array([1, 2, 3]))
