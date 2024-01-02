@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
