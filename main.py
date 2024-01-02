@@ -1,10 +1,7 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_error_function(x):
+        return math.erf(x)
