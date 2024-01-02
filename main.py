@@ -1,7 +1,6 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_length(array):
+        return len(array)
