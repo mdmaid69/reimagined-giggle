@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def convert_array_to_unicode(array):
+        return array.tounicode()
