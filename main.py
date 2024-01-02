@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
