@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
