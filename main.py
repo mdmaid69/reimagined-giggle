@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
