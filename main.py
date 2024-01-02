@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
