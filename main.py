@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
