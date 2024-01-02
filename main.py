@@ -1,7 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
