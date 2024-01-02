@@ -1,3 +1,5 @@
-print("Hello, world!")
-def find_max(numbers):
-        return max(numbers)
+import os
+print(os.getcwd())
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
