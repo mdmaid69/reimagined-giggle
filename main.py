@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
