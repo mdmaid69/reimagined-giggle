@@ -1,5 +1,4 @@
-  def multiply_numbers(x, y):
-        return x * y
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import tensorflow as tf
+print(tf.__version__)
