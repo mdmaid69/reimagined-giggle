@@ -1,6 +1,6 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import random
+def roll_die():
+        return random.randint(1, 6)
