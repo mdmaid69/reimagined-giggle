@@ -1,7 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+name = "Python"
+print("Hello,", name)
