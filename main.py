@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def cube_number(x):
+        return x**3
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
