@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
