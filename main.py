@@ -1,6 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
