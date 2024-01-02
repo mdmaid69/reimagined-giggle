@@ -1,5 +1,5 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def convert_to_octal(n):
-        return oct(n)
+  def get_base_name(path):
+        return os.path.basename(path)
