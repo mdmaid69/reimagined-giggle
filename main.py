@@ -1,6 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+name = "Python"
+print("Hello,", name)
