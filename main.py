@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def reverse_string(s):
-        return s[::-1]
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
