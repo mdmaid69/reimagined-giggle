@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
