@@ -1,6 +1,5 @@
+def count_elements(lst):
+        return len(lst)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
