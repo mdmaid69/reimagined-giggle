@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def find_max(numbers):
-        return max(numbers)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  def reverse_list(lst):
+        return lst[::-1]
