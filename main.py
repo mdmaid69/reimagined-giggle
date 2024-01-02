@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+print("Hello, world!")
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
