@@ -1,5 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import tensorflow as tf
-print(tf.__version__)
+def cube_number(x):
+        return x**3
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
