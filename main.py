@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def square_number(x):
+        return x**2
