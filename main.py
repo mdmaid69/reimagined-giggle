@@ -1,6 +1,5 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
