@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_density(mass, volume):
+        return mass / volume
