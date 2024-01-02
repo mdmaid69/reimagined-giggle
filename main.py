@@ -1,12 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
