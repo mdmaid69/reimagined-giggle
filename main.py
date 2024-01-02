@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import time
+print(time.time())
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
