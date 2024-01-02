@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
