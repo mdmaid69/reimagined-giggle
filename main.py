@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
