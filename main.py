@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
