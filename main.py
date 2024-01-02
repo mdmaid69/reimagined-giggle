@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
