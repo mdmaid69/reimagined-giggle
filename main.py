@@ -1,5 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_power(work, time):
+        return work / time
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
