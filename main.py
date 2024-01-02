@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def find_max(lst):
+        return max(lst)
