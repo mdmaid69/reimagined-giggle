@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
