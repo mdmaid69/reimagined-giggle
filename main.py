@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
