@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_work(force, distance):
-        return force * distance
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_area_rectangle(l, w):
+        return l * w
