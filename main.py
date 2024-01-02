@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import getpass
-def get_username():
-        return getpass.getuser()
+import time
+def get_current_time():
+        return time.ctime()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
