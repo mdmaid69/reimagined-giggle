@@ -1,7 +1,6 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-def divide_numbers(x, y):
-        return x / y
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
