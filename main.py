@@ -1,6 +1,11 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
