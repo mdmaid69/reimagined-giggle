@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import array
-def get_array_length(array):
-        return len(array)
+def append_to_array(array, item):
+        array.append(item)
