@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
