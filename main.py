@@ -1,5 +1,8 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
