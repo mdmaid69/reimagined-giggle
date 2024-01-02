@@ -1,7 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
