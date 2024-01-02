@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def append_to_array(array, item):
+        array.append(item)
+for i in range(5):
+        print(i)
