@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_pressure(force, area):
+        return force / area
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
