@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
