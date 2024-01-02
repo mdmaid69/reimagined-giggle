@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
