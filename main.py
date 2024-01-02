@@ -1,7 +1,7 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
