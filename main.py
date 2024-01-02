@@ -1,7 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
