@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
