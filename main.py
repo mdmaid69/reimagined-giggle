@@ -1,5 +1,6 @@
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
