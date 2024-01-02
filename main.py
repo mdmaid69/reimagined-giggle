@@ -1,7 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def set_array_item(array, i, item):
+        array[i] = item
+x = 10
+y = 20
+print("Sum:", x + y)
