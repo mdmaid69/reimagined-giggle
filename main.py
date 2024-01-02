@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
