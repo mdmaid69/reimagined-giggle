@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
