@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import platform
-def get_python_version():
-        return platform.python_version()
+import time
+def get_current_time():
+        return time.ctime()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
