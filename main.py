@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-for i in range(5):
-        print(i)
+import collections
+def create_counter():
+        return collections.Counter()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
