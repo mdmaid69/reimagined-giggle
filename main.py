@@ -1,7 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def read_from_json(json_string):
+        return json.loads(json_string)
