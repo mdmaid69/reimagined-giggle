@@ -1,4 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-print([x**2 for x in range(10)])
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+text = "Hello, world!"
+print("Reversed:", text[::-1])
