@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
