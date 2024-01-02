@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
