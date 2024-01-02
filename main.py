@@ -1,5 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
