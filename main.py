@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+def get_current_time():
+        return time.ctime()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
