@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
