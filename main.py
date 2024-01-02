@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
