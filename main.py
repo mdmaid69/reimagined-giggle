@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
+def square_number(x):
+        return x**2
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_complex(array):
+        return complex(array[0])
