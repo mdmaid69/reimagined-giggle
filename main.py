@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
