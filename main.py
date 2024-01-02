@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
