@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
