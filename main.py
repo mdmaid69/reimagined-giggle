@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
 import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
