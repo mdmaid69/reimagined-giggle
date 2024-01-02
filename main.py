@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_area_rectangle(l, w):
+        return l * w
