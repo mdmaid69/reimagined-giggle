@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
