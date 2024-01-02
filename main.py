@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
