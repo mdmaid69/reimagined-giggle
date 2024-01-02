@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import getpass
+def get_username():
+        return getpass.getuser()
