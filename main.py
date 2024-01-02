@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
