@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def count_characters(sentence):
-        return len(sentence)
+text = "Hello, world!"
+print("Characters:", len(text))
+import array
+def get_array_as_bool(array):
+        return bool(array)
