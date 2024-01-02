@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
