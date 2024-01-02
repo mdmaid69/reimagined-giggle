@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
