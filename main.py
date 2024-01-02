@@ -1,4 +1,5 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def is_palindrome(s):
-        return s == s[::-1]
+import collections
+def create_priority_queue():
+        return collections.deque()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
