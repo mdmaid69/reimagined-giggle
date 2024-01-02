@@ -1,5 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_logarithm(base, x):
+        return math.log(x, base)
