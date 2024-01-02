@@ -1,8 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_acceleration(speed, time):
+        return speed / time
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
