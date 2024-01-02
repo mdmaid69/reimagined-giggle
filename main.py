@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def calculate_variance(arr):
+        return np.var(arr)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
