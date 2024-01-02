@@ -1,6 +1,8 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import getpass
+def get_username():
+        return getpass.getuser()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
