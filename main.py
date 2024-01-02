@@ -1,6 +1,4 @@
-import sys
-def exit_program():
-        sys.exit()
-import sys
-def print_python_version():
-        return sys.version
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def cube_number(x):
+        return x**3
