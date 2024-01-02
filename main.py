@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def is_odd(n):
-        return n % 2 != 0
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def square_number(x):
+        return x**2
