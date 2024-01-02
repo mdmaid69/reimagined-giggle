@@ -1,8 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_as_tuple(array):
+        return tuple(array)
