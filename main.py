@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
