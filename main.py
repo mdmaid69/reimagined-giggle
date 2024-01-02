@@ -1,5 +1,6 @@
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
