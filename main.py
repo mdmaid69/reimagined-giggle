@@ -1,7 +1,5 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
