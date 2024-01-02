@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
