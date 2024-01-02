@@ -1,5 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def get_directory_name(path):
+        return os.path.dirname(path)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
