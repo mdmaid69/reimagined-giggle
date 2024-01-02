@@ -1,5 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-def square_number(x):
-        return x**2
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
