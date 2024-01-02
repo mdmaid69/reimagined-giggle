@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
