@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+print([x**2 for x in range(10)])
+import os
+def get_current_working_directory():
+        return os.getcwd()
