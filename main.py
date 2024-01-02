@@ -1,5 +1,4 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
