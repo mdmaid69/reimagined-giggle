@@ -1,6 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
