@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
