@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
