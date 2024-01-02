@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_area(radius):
+        return 3.14 * radius * radius
