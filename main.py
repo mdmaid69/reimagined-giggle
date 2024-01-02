@@ -1,6 +1,12 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
