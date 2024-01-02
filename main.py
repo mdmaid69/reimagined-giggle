@@ -1,6 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
