@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import sys
+def exit_program():
+        sys.exit()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
