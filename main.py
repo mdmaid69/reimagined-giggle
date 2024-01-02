@@ -1,5 +1,9 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
