@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
