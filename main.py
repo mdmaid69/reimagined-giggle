@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def is_palindrome(s):
+        return s == s[::-1]
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
