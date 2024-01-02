@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import re
+print(re.match("h.*o", "hello world"))
+import random
+def roll_die():
+        return random.randint(1, 6)
