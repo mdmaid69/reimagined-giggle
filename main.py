@@ -1,6 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
