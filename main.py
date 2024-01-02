@@ -1,6 +1,8 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
