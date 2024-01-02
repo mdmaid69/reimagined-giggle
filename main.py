@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
