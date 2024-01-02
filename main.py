@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def count_elements(lst):
+        return len(lst)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
