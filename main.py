@@ -1,6 +1,5 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import logging
-def log_message(message):
-        logging.info(message)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
