@@ -1,6 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
