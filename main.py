@@ -1,5 +1,5 @@
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def count_words(sentence):
-        return len(sentence.split())
+def get_array_as_set(array):
+        return set(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
