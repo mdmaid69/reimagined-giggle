@@ -1,5 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
