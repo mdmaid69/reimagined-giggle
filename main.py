@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
