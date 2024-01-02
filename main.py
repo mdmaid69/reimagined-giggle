@@ -1,7 +1,5 @@
+def calculate_pressure(force, area):
+        return force / area
 import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
