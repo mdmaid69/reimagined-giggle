@@ -1,6 +1,8 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import sys
+def exit_program():
+        sys.exit()
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
