@@ -1,4 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-def is_palindrome(s):
-        return s == s[::-1]
+def convert_to_hex(n):
+        return hex(n)
+def calculate_pressure(force, area):
+        return force / area
