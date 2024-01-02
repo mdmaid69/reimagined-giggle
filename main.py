@@ -1,5 +1,5 @@
+import time
+print(time.time())
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def greet(name):
-        print(f"Hello, {name}!")
+def get_array_as_list(array):
+        return list(array)
