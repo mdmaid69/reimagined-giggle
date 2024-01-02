@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
