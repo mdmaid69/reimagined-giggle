@@ -1,3 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-for i in range(10): print(i)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
