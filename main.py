@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+print(math.pi)
