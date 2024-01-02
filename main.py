@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def square_number(x):
+        return x**2
