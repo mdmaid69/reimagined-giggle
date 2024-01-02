@@ -1,5 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+for i in range(10): print(i)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
