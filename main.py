@@ -1,6 +1,6 @@
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
