@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def get_array_as_str(array):
+        return str(array)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
