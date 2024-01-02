@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_density(mass, volume):
+        return mass / volume
