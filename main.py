@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_as_set(array):
+        return set(array)
