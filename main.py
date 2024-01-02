@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
