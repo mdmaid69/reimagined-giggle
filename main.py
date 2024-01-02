@@ -1,5 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
