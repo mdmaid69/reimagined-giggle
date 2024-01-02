@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
