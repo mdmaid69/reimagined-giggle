@@ -1,6 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
