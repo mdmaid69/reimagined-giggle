@@ -1,6 +1,7 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
