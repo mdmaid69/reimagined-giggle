@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
