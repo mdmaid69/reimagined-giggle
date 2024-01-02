@@ -1,6 +1,4 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def calculate_area_rectangle(l, w):
+        return l * w
