@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-for i in range(5):
-        print(i)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
