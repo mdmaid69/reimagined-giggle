@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
