@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
