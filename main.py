@@ -1,9 +1,5 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-  import os
-  def split_path(path):
-        return os.path.split(path)
+text = "Hello, world!"
+print("Characters:", len(text))
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
