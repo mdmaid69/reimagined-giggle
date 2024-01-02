@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
