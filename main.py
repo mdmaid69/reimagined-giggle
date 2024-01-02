@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
