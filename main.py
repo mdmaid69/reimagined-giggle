@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_str(array):
+        return str(array)
