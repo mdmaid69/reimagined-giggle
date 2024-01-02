@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
