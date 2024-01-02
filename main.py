@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
