@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
