@@ -1,7 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
