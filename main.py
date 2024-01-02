@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
