@@ -1,7 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
