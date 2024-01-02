@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import sys
+def print_python_version():
+        return sys.version
