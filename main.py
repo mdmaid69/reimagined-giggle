@@ -1,9 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_area_circle(r):
+        return 3.14 * r**2
