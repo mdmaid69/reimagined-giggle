@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
