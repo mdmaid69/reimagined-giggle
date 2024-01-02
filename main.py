@@ -1,8 +1,12 @@
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
