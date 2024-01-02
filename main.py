@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import numpy as np
-print(np.array([1, 2, 3]))
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
