@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
