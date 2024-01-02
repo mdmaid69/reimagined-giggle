@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
