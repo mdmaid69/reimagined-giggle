@@ -1,6 +1,7 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
