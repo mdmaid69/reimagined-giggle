@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+def calculate_acceleration(speed, time):
+        return speed / time
