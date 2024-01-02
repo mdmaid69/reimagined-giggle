@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
