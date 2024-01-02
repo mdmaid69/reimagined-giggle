@@ -1,5 +1,5 @@
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  def cube_number(x):
-        return x**3
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def reverse_list(lst):
+        return lst[::-1]
