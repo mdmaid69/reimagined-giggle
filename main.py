@@ -1,6 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
