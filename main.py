@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
