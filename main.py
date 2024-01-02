@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_density(mass, volume):
+        return mass / volume
