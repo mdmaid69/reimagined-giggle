@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-def find_unique_words(sentence):
-        return set(sentence.split())
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
