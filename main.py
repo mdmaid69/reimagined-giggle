@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_queue():
+        return collections.deque()
+import math
+print(math.pi)
