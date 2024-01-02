@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
