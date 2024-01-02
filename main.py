@@ -1,5 +1,8 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  def square_number(x):
-        return x**2
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
