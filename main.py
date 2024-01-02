@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
