@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
