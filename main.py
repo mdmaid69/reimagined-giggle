@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+for i in range(5):
+        print(i)
