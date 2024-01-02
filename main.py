@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
