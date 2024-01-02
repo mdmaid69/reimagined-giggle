@@ -1,5 +1,8 @@
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def remove_duplicates(lst):
-        return list(set(lst))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
