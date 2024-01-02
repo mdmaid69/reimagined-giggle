@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import array
+def append_to_array(array, item):
+        array.append(item)
