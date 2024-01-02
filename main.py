@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  def subtract_numbers(x, y):
+        return x - y
