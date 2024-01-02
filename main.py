@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import os
+def get_current_working_directory():
+        return os.getcwd()
+  def multiply_numbers(x, y):
+        return x * y
