@@ -1,5 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def greet(name):
+        print(f"Hello, {name}!")
+def calculate_speed(distance, time):
+        return distance / time
