@@ -1,5 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
