@@ -1,6 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def multiply_numbers(x, y):
+        return x * y
