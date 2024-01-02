@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
