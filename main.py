@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
