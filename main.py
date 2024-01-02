@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import array
-def get_array_item(array, i):
-        return array[i]
+import sys
+def exit_program():
+        sys.exit()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
