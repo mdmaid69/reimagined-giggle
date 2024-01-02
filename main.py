@@ -1,5 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_speed(distance, time):
+        return distance / time
