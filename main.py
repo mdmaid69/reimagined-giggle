@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_area(radius):
+        return 3.14 * radius * radius
