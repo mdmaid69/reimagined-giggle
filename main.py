@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
