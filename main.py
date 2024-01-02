@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  def add_numbers(x, y):
-        return x + y
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
