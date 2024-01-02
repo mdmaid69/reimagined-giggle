@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
