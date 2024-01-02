@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
