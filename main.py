@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def count_characters(sentence):
+        return len(sentence)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
