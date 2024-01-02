@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
