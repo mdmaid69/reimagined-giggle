@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
