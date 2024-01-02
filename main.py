@@ -1,4 +1,4 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import tensorflow as tf
-print(tf.__version__)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
