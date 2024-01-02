@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
