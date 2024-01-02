@@ -1,4 +1,7 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_power(work, time):
-        return work / time
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
