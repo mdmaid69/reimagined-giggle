@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def convert_to_binary(n):
+        return bin(n)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
