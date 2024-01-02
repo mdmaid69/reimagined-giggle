@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
