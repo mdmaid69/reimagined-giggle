@@ -1,6 +1,4 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import time
+print(time.time())
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
