@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def is_even(n):
-        return n % 2 == 0
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def reverse_string(s):
+        return s[::-1]
