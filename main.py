@@ -1,8 +1,4 @@
+def calculate_density(mass, volume):
+        return mass / volume
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
