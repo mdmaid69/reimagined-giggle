@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
