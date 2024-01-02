@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
