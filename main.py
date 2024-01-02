@@ -1,4 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_volume(length, width, height):
+        return length * width * height
