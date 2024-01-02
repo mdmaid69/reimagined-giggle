@@ -1,5 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
