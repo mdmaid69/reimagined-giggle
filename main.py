@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_area(radius):
+        return 3.14 * radius * radius
