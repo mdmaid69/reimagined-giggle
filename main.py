@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
