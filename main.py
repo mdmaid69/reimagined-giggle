@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
