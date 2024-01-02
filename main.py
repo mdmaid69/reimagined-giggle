@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def find_max(numbers):
+        return max(numbers)
