@@ -1,4 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_work(force, distance):
-        return force * distance
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
