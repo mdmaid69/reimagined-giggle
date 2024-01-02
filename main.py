@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_acceleration(speed, time):
+        return speed / time
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
