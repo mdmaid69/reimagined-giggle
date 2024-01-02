@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import collections
-def create_queue():
-        return collections.deque()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
