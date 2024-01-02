@@ -1,4 +1,8 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
