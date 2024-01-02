@@ -1,4 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def reverse_list(lst):
+        return lst[::-1]
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
