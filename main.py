@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
