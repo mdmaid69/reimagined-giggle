@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
