@@ -1,8 +1,9 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
