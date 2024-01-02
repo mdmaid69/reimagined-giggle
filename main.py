@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
