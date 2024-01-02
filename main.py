@@ -1,6 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
