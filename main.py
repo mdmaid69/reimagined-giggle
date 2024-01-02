@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_speed(distance, time):
+        return distance / time
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
