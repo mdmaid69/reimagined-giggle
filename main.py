@@ -1,6 +1,9 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
