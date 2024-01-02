@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def convert_to_hex(n):
-        return hex(n)
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
