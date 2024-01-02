@@ -1,5 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def calculate_area_rectangle(l, w):
+        return l * w
