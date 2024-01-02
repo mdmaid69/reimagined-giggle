@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def find_max(lst):
+        return max(lst)
