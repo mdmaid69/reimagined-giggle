@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def is_even(n):
+        return n % 2 == 0
