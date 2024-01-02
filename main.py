@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  def convert_to_binary(n):
-        return bin(n)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
