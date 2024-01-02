@@ -1,5 +1,8 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
