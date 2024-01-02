@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
