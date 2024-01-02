@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
