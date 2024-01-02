@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
