@@ -1,5 +1,6 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
