@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def get_array_item(array, i):
+        return array[i]
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
