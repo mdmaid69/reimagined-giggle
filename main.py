@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-for i in range(5):
-        print(i)
+import time
+def get_current_time():
+        return time.ctime()
+import sys
+print(sys.version)
