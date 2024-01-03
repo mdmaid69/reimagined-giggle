@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def clear_array(array):
-        array *= 0
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
