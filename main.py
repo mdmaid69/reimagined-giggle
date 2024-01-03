@@ -1,9 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
