@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import time
+def get_current_time():
+        return time.time()
+  def convert_to_hex(n):
+        return hex(n)
