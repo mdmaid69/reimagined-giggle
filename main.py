@@ -1,5 +1,7 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
