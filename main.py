@@ -1,7 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def cube_number(x):
+        return x**3
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
