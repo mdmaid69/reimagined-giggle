@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import sys
+def print_python_version():
+        return sys.version
+import datetime
+print(datetime.datetime.now())
