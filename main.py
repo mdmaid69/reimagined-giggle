@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
