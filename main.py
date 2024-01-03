@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
