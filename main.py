@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import time
-def get_time_since_epoch():
-        return time.time()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
