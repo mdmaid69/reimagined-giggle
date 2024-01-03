@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
