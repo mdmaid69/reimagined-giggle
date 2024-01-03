@@ -1,7 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def convert_array_to_unicode(array):
+        return array.tounicode()
