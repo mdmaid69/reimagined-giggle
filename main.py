@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def count_elements(lst):
-        return len(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
