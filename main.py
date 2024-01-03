@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_volume(length, width, height):
+        return length * width * height
+  def calculate_area_circle(r):
+        return 3.14 * r**2
