@@ -1,8 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def add_numbers(x, y):
+        return x + y
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
