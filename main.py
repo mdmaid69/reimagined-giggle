@@ -1,5 +1,8 @@
-import sys
-def exit_program():
-        sys.exit()
-  def count_elements(lst):
-        return len(lst)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import getpass
+def get_username():
+        return getpass.getuser()
