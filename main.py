@@ -1,5 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
 import math
-print(math.pi)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
