@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
