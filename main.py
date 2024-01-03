@@ -1,5 +1,8 @@
-def convert_to_octal(n):
-        return oct(n)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
