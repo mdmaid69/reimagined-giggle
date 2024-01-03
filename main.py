@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import time
-def get_current_time():
-        return time.time()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
