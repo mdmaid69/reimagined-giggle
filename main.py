@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
