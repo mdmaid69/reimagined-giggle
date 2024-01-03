@@ -1,6 +1,7 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
