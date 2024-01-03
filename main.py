@@ -1,4 +1,8 @@
-  def multiply_numbers(x, y):
-        return x * y
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
