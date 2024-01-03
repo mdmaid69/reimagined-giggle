@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
