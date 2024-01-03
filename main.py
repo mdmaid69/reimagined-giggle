@@ -1,6 +1,3 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+for i in range(10): print(i)
