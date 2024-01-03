@@ -1,8 +1,7 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import collections
+def create_user_string():
+        return collections.UserString()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
