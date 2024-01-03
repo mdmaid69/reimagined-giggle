@@ -1,4 +1,6 @@
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
 import sys
-print(sys.version)
-def is_even(n):
-        return n % 2 == 0
+def add_to_python_path(path):
+        sys.path.append(path)
