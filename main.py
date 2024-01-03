@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
