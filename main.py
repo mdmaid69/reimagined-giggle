@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-def is_palindrome(s):
-        return s == s[::-1]
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
