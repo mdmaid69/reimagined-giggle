@@ -1,6 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
