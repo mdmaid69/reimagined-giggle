@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
