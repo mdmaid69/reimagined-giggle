@@ -1,7 +1,8 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
