@@ -1,4 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def convert_to_hex(n):
+        return hex(n)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
