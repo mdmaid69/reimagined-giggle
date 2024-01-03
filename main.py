@@ -1,6 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def get_array_as_bytes(array):
+        return bytes(array)
