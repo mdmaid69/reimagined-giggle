@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
