@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import os
+  def split_path(path):
+        return os.path.split(path)
