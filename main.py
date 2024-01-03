@@ -1,5 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_power(work, time):
+        return work / time
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
