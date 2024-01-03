@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
