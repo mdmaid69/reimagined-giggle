@@ -1,4 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-for i in range(5):
-        print(i)
+import os
+print(os.getcwd())
+def find_min(numbers):
+        return min(numbers)
