@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def find_min(numbers):
+        return min(numbers)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
