@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+from collections import Counter
+print(Counter("hello world"))
