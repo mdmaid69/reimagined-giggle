@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_item(array, i):
+        return array[i]
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
