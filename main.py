@@ -1,4 +1,7 @@
-for i in range(10): print(i)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
