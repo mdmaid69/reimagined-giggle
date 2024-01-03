@@ -1,6 +1,8 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
