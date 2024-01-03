@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
 import array
-def get_array_item(array, i):
-        return array[i]
+def convert_array_to_unicode(array):
+        return array.tounicode()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
