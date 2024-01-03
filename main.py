@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def cube_number(x):
+        return x**3
+x = 10
+y = 20
+print("Sum:", x + y)
