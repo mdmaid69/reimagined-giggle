@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def reverse_list(lst):
+        return lst[::-1]
