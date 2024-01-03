@@ -1,5 +1,8 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
