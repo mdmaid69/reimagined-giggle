@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
