@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
