@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
