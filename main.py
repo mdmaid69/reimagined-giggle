@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
