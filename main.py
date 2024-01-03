@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
