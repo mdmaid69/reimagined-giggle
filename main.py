@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_speed(distance, time):
-        return distance / time
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def find_max(numbers):
+        return max(numbers)
