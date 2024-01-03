@@ -1,6 +1,8 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
