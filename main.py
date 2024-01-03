@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
