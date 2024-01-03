@@ -1,5 +1,7 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
