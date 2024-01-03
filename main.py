@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
