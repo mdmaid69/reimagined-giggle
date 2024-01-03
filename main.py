@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+from collections import Counter
+print(Counter("hello world"))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
