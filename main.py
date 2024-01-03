@@ -1,6 +1,4 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
