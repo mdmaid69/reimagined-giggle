@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+name = "Python"
+print("Hello,", name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
