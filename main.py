@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def is_even(n):
-        return n % 2 == 0
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
