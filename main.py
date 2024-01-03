@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
