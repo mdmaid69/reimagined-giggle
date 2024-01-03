@@ -1,6 +1,8 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
