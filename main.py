@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
