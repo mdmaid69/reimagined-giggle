@@ -1,5 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def add_numbers(x, y):
+        return x + y
