@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def find_max(lst):
+        return max(lst)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_factorial(n):
+        return math.factorial(n)
