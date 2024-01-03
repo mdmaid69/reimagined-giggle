@@ -1,5 +1,12 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def reverse_list(lst):
-        return lst[::-1]
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
