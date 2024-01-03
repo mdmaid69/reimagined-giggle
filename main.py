@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-print(math.pi)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
