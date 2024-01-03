@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
+def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def clear_array(array):
+        array *= 0
