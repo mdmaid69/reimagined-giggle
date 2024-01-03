@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def convert_to_hex(n):
-        return hex(n)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
