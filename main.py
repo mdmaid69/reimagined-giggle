@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def convert_to_octal(n):
+        return oct(n)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
