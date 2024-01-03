@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
