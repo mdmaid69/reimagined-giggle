@@ -1,5 +1,7 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
