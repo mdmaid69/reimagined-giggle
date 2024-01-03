@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
