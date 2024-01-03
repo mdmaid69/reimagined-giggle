@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
