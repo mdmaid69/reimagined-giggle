@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def is_even(n):
-        return n % 2 == 0
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
