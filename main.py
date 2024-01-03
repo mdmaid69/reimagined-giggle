@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
