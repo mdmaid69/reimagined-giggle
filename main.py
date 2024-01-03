@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
