@@ -1,5 +1,8 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def split_path(path):
+        return os.path.split(path)
