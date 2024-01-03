@@ -1,6 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def split_path(path):
+        return os.path.split(path)
