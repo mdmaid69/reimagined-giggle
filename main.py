@@ -1,5 +1,8 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
