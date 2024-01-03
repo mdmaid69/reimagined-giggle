@@ -1,5 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
