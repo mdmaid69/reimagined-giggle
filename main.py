@@ -1,7 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def is_odd(n):
+        return n % 2 != 0
+def multiply_numbers(x, y):
+        return x * y
