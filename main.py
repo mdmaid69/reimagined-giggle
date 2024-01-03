@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_power(work, time):
-        return work / time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
