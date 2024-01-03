@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
