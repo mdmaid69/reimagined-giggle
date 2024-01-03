@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+print("Sum:", sum(numbers))
