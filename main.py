@@ -1,5 +1,5 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def calculate_error_function(x):
+        return math.erf(x)
+def count_elements(lst):
+        return len(lst)
