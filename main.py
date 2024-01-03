@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
