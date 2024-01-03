@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
