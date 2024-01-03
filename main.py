@@ -1,6 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
