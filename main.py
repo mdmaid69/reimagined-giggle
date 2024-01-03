@@ -1,6 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+print([x**2 for x in range(10)])
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
