@@ -1,6 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
