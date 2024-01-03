@@ -1,6 +1,9 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
