@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def greet(name):
-        print(f"Hello, {name}!")
+def is_palindrome(s):
+        return s == s[::-1]
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
