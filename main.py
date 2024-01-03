@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_density(mass, volume):
+        return mass / volume
