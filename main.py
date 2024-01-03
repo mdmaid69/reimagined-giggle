@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import random
-print(random.randint(0, 100))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
