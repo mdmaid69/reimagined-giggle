@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def get_array_as_str(array):
+        return str(array)
