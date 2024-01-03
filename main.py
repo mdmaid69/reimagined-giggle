@@ -1,5 +1,8 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
