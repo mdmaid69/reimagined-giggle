@@ -1,7 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
