@@ -1,6 +1,8 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
