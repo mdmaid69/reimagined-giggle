@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import sys
+def print_python_version():
+        print(sys.version)
