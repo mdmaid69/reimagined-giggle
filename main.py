@@ -1,5 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-def multiply_numbers(x, y):
-        return x * y
+x = 10
+y = 20
+print("Sum:", x + y)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
