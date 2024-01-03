@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
