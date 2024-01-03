@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+for i in range(5):
+        print(i)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
