@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def convert_to_octal(n):
+        return oct(n)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
