@@ -1,6 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
