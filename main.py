@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def add_numbers(x, y):
+        return x + y
+import os
+print(os.getcwd())
