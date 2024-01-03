@@ -1,11 +1,6 @@
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import datetime
+def get_today_date():
+        return datetime.date.today()
