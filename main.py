@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
