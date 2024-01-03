@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def find_max(numbers):
+        return max(numbers)
