@@ -1,6 +1,7 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
