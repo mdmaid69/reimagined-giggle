@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import array
+def get_list_from_array(array):
+        return array.tolist()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
