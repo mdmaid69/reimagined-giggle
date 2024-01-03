@@ -1,5 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def find_max(numbers):
+        return max(numbers)
