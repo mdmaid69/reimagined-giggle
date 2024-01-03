@@ -1,7 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
