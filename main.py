@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
