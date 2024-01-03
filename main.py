@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
