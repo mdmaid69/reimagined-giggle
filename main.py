@@ -1,8 +1,9 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
