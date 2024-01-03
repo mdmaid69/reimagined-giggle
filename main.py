@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
