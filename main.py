@@ -1,6 +1,8 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import sys
+  def get_python_version():
+        return sys.version
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
