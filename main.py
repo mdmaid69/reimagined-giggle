@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
