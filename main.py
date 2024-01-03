@@ -1,8 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
