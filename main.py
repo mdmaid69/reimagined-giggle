@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
