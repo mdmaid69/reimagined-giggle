@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-def convert_to_hex(n):
-        return hex(n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
