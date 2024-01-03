@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_as_str(array):
-        return str(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
