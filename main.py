@@ -1,6 +1,5 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_error_function(x):
+        return math.erf(x)
+def sort_list(lst):
+        return sorted(lst)
