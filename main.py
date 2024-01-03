@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
