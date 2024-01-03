@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_exponential(x):
+        return math.exp(x)
