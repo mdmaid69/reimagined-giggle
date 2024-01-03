@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
