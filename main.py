@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import platform
+def get_python_version():
+        return platform.python_version()
