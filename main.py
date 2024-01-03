@@ -1,5 +1,7 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
