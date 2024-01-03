@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
