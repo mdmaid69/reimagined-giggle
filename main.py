@@ -1,4 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
