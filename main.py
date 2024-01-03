@@ -1,5 +1,8 @@
-def convert_to_hex(n):
-        return hex(n)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+import array
+def get_array_as_int(array):
+        return int(array[0])
