@@ -1,8 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
