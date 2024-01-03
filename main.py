@@ -1,9 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
