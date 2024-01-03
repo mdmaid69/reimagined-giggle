@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
