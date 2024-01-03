@@ -1,6 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import collections
+def create_user_string():
+        return collections.UserString()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
