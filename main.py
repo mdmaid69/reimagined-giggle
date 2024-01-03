@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  def is_odd(n):
-        return n % 2 != 0
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
