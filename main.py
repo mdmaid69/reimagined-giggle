@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import platform
+def get_os_info():
+        return platform.uname()
