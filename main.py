@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
