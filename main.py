@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def reverse_array(array):
+        array.reverse()
