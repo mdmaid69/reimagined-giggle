@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
