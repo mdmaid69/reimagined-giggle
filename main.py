@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
