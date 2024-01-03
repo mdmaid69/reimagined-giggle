@@ -1,5 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import sys
-def print_python_version():
-        print(sys.version)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_volume(length, width, height):
+        return length * width * height
