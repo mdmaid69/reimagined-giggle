@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import sys
+def print_python_version():
+        print(sys.version)
