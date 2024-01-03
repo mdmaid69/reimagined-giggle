@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_speed(distance, time):
+        return distance / time
 import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
