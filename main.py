@@ -1,4 +1,7 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_volume(length, width, height):
-        return length * width * height
+def cube_number(x):
+        return x**3
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
