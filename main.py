@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
