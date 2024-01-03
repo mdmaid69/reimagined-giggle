@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import platform
-def get_python_version():
-        return platform.python_version()
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_perpetuity(payment, rate):
+        return payment / rate
