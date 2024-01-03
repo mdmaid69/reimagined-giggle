@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
