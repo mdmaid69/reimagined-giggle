@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def append_to_array(array, item):
+        array.append(item)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
