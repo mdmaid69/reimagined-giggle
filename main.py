@@ -1,6 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import tensorflow as tf
+print(tf.__version__)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
