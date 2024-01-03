@@ -1,8 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def reverse_list(lst):
+        return lst[::-1]
