@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import random
-print(random.randint(0, 100))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import sys
+def print_python_version():
+        return sys.version
