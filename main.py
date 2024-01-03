@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
