@@ -1,3 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-print([x**2 for x in range(10)])
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
