@@ -1,5 +1,10 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import collections
-def create_user_string():
-        return collections.UserString()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
