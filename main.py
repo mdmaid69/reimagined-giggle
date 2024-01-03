@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def count_elements(lst):
+        return len(lst)
