@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
