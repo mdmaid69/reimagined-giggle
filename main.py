@@ -1,3 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-print([x**2 for x in range(10)])
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
