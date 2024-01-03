@@ -1,6 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
