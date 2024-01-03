@@ -1,5 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def count_elements(lst):
-        return len(lst)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
