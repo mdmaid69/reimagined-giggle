@@ -1,5 +1,6 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  def is_odd(n):
-        return n % 2 != 0
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
