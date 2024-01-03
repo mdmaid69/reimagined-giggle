@@ -1,6 +1,7 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import array
-def clear_array(array):
-        array *= 0
-import platform
-def get_os_info():
-        return platform.uname()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
