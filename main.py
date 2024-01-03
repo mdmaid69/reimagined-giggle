@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
