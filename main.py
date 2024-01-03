@@ -1,4 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
