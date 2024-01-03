@@ -1,4 +1,4 @@
-print([x**2 for x in range(10)])
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
