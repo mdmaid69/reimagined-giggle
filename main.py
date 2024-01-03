@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def reverse_list(lst):
+        return lst[::-1]
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
