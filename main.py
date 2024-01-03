@@ -1,6 +1,5 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def greet(name):
+        print(f"Hello, {name}!")
