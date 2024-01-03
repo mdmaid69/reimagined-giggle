@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def reverse_string(s):
+        return s[::-1]
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
