@@ -1,6 +1,12 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
