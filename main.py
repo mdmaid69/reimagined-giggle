@@ -1,10 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
