@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
