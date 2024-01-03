@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
