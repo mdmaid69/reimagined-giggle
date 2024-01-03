@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
