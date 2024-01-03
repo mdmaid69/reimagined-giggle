@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
