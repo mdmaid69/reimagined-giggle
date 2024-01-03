@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
