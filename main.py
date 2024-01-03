@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
