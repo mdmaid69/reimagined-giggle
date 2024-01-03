@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import logging
+def log_message(message):
+        logging.info(message)
