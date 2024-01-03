@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import logging
+def log_message(message):
+        logging.info(message)
