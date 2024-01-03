@@ -1,5 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
