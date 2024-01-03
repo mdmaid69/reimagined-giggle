@@ -1,5 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def count_elements(lst):
+        return len(lst)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
