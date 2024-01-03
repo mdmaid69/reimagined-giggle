@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
