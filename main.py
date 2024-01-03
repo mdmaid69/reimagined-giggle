@@ -1,5 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
