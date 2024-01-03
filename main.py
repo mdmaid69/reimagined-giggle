@@ -1,7 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
