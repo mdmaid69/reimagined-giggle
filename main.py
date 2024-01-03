@@ -1,6 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
