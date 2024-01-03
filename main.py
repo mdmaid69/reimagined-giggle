@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
