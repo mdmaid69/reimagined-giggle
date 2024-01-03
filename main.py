@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
