@@ -1,5 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import datetime
+print(datetime.datetime.now())
