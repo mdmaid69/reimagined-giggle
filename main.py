@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
