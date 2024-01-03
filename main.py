@@ -1,11 +1,6 @@
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def pop_from_array(array, i=-1):
+        return array.pop(i)
