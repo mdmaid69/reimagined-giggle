@@ -1,5 +1,7 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
 import array
-def append_to_array(array, item):
-        array.append(item)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
