@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
