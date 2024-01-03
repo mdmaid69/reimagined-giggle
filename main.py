@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def reverse_array(array):
+        array.reverse()
