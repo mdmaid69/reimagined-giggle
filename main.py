@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
