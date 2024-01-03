@@ -1,6 +1,6 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
