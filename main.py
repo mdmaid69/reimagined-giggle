@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
