@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
