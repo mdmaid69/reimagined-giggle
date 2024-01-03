@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
