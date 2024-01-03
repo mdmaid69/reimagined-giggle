@@ -1,6 +1,8 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
