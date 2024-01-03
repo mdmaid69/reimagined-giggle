@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
