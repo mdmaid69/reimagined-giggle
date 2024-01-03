@@ -1,8 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
