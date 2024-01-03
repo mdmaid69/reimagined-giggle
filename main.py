@@ -1,5 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
