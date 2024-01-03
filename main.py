@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
