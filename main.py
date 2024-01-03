@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
