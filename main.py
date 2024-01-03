@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import platform
+def get_python_version():
+        return platform.python_version()
