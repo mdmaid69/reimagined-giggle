@@ -1,5 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def divide_numbers(x, y):
-        return x / y
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
