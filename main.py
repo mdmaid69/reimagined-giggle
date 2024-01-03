@@ -1,5 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
