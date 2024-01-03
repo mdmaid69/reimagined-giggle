@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
