@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def reverse_array(array):
+        array.reverse()
