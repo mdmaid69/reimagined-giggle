@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+import os
+def change_working_directory(path):
+        os.chdir(path)
