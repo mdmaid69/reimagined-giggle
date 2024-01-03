@@ -1,8 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
