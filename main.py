@@ -1,9 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
