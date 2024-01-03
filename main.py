@@ -1,11 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
