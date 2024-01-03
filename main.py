@@ -1,7 +1,7 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_work(force, distance):
+        return force * distance
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
