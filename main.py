@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
