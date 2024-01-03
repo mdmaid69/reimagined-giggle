@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
