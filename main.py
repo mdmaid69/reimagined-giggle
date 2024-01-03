@@ -1,5 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
