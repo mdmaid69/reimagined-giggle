@@ -1,5 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-  def add_numbers(x, y):
-        return x + y
+def calculate_power(work, time):
+        return work / time
+import os
+print(os.getcwd())
