@@ -1,5 +1,5 @@
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_pressure(force, area):
+        return force / area
