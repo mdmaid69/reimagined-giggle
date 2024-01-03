@@ -1,4 +1,4 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-def calculate_work(force, distance):
-        return force * distance
+def calculate_volume(length, width, height):
+        return length * width * height
+def subtract_numbers(x, y):
+        return x - y
