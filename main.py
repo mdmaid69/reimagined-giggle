@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
