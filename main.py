@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
