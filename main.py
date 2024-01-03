@@ -1,5 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_factorial(n):
+        return math.factorial(n)
