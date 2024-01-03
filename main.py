@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
