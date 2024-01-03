@@ -1,5 +1,7 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  def convert_to_octal(n):
-        return oct(n)
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def add_numbers(x, y):
+        return x + y
