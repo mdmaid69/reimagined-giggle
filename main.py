@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def add_numbers(a, b):
-        return a + b
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
