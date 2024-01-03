@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
