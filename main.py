@@ -1,5 +1,6 @@
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_power(work, time):
-        return work / time
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_current_directory():
+        return os.getcwd()
