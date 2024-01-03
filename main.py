@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
