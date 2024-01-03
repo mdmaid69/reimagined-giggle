@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
