@@ -1,6 +1,8 @@
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def get_directory_name(path):
+        return os.path.dirname(path)
