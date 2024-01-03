@@ -1,5 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import random
+print(random.randint(0, 100))
