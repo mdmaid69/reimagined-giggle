@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import platform
-def get_python_version():
-        return platform.python_version()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
