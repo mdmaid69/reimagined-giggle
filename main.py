@@ -1,4 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+print(sum(range(10)))
