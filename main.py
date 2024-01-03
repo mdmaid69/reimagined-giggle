@@ -1,8 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def get_array_item(array, i):
+        return array[i]
