@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
+  def calculate_area_circle(r):
+        return 3.14 * r**2
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
