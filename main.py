@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
