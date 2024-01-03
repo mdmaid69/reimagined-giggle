@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_speed(distance, time):
-        return distance / time
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
