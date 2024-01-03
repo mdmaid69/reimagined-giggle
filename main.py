@@ -1,6 +1,6 @@
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def get_array_as_bytes(array):
+        return bytes(array)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
