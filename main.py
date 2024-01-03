@@ -1,5 +1,10 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def find_max(numbers):
-        return max(numbers)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
