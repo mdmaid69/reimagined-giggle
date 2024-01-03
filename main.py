@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def clear_array(array):
+        array *= 0
+import datetime
+print(datetime.datetime.now())
