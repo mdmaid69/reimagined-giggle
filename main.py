@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import time
-def get_current_time():
-        return time.ctime()
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
