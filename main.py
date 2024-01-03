@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
+def count_characters(sentence):
+        return len(sentence)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
