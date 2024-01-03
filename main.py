@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+def add_numbers(x, y):
+        return x + y
