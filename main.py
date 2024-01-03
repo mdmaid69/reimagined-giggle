@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
