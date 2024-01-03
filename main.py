@@ -1,5 +1,8 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
