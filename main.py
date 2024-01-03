@@ -1,4 +1,9 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-name = "Python"
-print("Hello,", name)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
