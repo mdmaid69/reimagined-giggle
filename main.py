@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
