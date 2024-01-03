@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import logging
+def log_message(message):
+        logging.info(message)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
