@@ -1,5 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
