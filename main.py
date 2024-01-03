@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import platform
+def get_python_version():
+        return platform.python_version()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
