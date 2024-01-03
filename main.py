@@ -1,4 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-print([x**2 for x in range(10)])
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
