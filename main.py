@@ -1,5 +1,5 @@
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_area_rectangle(l, w):
-        return l * w
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
