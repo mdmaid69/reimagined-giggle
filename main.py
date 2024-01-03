@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
