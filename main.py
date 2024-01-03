@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
+import platform
+def get_python_version():
+        return platform.python_version()
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def get_bytes_from_array(array):
+        return array.tobytes()
