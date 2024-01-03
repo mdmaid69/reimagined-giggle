@@ -1,5 +1,8 @@
-  def is_odd(n):
-        return n % 2 != 0
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
