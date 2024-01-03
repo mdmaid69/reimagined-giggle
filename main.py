@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import time
-print(time.time())
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_pressure(force, area):
+        return force / area
