@@ -1,8 +1,6 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import collections
+def create_counter():
+        return collections.Counter()
