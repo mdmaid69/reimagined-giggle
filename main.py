@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def sort_list(lst):
+        return sorted(lst)
