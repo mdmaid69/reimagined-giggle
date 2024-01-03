@@ -1,6 +1,6 @@
+import datetime
+def get_today_date():
+        return datetime.date.today()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
