@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def reverse_string(s):
-        return s[::-1]
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
