@@ -1,5 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_power(work, time):
-        return work / time
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_density(mass, volume):
+        return mass / volume
