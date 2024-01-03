@@ -1,6 +1,4 @@
-import collections
-def create_stack():
-        return collections.deque()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
