@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
