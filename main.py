@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_work(force, distance):
+        return force * distance
