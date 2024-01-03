@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import time
+def get_current_time():
+        return time.time()
