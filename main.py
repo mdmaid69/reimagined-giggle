@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
