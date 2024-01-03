@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
