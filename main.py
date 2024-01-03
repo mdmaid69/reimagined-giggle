@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
