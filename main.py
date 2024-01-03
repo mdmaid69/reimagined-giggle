@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
