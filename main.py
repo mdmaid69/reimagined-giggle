@@ -1,4 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-print([x**2 for x in range(10)])
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
