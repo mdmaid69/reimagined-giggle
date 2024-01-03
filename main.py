@@ -1,7 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
