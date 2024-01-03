@@ -1,5 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_speed(distance, time):
+        return distance / time
