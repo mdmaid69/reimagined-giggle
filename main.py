@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
