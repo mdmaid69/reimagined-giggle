@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
