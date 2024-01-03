@@ -1,5 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
