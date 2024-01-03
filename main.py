@@ -1,6 +1,4 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def count_elements(lst):
+        return len(lst)
