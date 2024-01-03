@@ -1,5 +1,5 @@
+import os
+print(os.getcwd())
   import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def calculate_variance(arr):
+        return np.var(arr)
