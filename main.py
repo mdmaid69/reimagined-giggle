@@ -1,7 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
