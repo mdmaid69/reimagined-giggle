@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
