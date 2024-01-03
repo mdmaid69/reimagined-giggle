@@ -1,5 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
