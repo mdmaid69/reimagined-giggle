@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
