@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
