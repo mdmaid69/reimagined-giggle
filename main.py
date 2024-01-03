@@ -1,6 +1,6 @@
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_square_root(x):
+        return math.sqrt(x)
