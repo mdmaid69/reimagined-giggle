@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_speed(distance, time):
-        return distance / time
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
