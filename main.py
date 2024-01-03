@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def convert_to_octal(n):
+        return oct(n)
