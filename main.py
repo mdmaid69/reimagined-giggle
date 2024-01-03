@@ -1,5 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
