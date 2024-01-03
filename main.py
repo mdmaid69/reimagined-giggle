@@ -1,4 +1,10 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
