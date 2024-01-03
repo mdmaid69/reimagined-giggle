@@ -1,5 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
