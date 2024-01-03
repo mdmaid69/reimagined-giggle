@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import tensorflow as tf
-print(tf.__version__)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def add_numbers(x, y):
+        return x + y
