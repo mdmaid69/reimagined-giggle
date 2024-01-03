@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import numpy as np
+print(np.array([1, 2, 3]))
