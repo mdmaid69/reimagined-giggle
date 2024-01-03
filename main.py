@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
