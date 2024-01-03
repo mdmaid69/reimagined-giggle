@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
