@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
