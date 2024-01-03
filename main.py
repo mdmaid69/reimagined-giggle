@@ -1,6 +1,6 @@
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
