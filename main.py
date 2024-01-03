@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
