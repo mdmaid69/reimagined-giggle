@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
