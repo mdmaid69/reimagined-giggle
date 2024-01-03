@@ -1,12 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import numpy as np
+print(np.array([1, 2, 3]))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
