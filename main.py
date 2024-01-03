@@ -1,7 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def cube_number(x):
+        return x**3
+import os
+def remove_directory(path):
+        os.rmdir(path)
