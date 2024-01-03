@@ -1,5 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
