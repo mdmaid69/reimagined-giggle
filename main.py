@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import array
-def reverse_array(array):
-        array.reverse()
+def convert_array_to_unicode(array):
+        return array.tounicode()
