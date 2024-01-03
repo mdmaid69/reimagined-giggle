@@ -1,7 +1,4 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def multiply_numbers(x, y):
+        return x * y
+def count_elements(lst):
+        return len(lst)
