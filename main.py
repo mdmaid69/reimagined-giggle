@@ -1,5 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def calculate_area(radius):
+        return 3.14 * radius * radius
