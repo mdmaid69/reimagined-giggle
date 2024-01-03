@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-def is_odd(n):
-        return n % 2 != 0
+import random
+print(random.randint(0, 100))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
