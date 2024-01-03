@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
