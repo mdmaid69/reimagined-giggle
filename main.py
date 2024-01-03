@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
