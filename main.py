@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+x = 10
+y = 20
+print("Sum:", x + y)
