@@ -1,5 +1,5 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def convert_to_hex(n):
-        return hex(n)
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
