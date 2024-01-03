@@ -1,6 +1,4 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def reverse_list(lst):
-        return lst[::-1]
+from collections import Counter
+print(Counter("hello world"))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
