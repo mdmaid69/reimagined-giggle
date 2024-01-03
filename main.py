@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
