@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_as_str(array):
+        return str(array)
+def sort_list(lst):
+        return sorted(lst)
