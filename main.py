@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_acceleration(speed, time):
+        return speed / time
+  def convert_to_binary(n):
+        return bin(n)
