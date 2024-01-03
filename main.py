@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_acceleration(speed, time):
-        return speed / time
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+from collections import Counter
+print(Counter("hello world"))
