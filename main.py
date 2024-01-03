@@ -1,6 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
