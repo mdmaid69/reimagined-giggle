@@ -1,5 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_power(work, time):
+        return work / time
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
