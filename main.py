@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
