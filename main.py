@@ -1,8 +1,7 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
