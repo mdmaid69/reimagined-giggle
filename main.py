@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def remove_duplicates(lst):
+        return list(set(lst))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
