@@ -1,6 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
