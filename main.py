@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+text = "Hello, world!"
+print("Characters:", len(text))
