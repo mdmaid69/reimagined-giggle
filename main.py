@@ -1,7 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
