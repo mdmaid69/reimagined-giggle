@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import math
+print(math.pi)
+x = 10
+y = 20
+print("Sum:", x + y)
