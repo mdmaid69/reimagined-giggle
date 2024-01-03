@@ -1,5 +1,6 @@
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
 import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import os
-print(os.getcwd())
+def get_current_date():
+        return datetime.date.today()
