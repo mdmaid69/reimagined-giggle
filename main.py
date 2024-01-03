@@ -1,5 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
