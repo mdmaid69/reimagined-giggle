@@ -1,4 +1,7 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-print([x**2 for x in range(10)])
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
