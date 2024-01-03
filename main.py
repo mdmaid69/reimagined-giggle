@@ -1,3 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-print(sum(range(10)))
+import re
+print(re.match("h.*o", "hello world"))
+import sys
+def print_python_version():
+        return sys.version
