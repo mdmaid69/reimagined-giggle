@@ -1,7 +1,6 @@
-def square_number(x):
-        return x**2
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
