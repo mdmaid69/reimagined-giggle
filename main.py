@@ -1,12 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
