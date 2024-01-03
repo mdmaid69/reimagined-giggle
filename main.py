@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import time
-print(time.time())
+def find_min(numbers):
+        return min(numbers)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
