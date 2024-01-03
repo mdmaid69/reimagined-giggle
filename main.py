@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
