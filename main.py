@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
