@@ -1,6 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import os
+def remove_directory(path):
+        os.rmdir(path)
