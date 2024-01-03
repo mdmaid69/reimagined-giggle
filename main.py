@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
