@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
