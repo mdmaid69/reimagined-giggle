@@ -1,5 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  def convert_to_binary(n):
-        return bin(n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
