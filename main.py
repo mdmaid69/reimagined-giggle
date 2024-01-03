@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_stack():
+        return collections.deque()
