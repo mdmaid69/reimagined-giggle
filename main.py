@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
