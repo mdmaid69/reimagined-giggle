@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_list_from_array(array):
-        return array.tolist()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def is_even(n):
+        return n % 2 == 0
