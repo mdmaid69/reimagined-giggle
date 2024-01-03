@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_acceleration(speed, time):
+        return speed / time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
