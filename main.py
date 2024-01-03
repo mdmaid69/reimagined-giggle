@@ -1,5 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def reverse_list(lst):
-        return lst[::-1]
+  def add_numbers(x, y):
+        return x + y
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
