@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
