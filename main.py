@@ -1,4 +1,4 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def is_palindrome(s):
+        return s == s[::-1]
+  def square_number(x):
+        return x**2
