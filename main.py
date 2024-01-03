@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
