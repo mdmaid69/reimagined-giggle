@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
