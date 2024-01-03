@@ -1,6 +1,5 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_pressure(force, area):
+        return force / area
