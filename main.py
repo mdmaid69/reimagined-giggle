@@ -1,5 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
