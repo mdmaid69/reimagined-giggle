@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def remove_duplicates(lst):
-        return list(set(lst))
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import random
+print(random.randint(0, 100))
