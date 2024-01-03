@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  def add_numbers(x, y):
-        return x + y
+import sys
+def exit_program():
+        sys.exit()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
