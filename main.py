@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import array
-def get_array_as_str(array):
-        return str(array)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def find_unique_words(sentence):
+        return set(sentence.split())
