@@ -1,11 +1,5 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_area_rectangle(l, w):
+        return l * w
