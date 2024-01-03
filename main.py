@@ -1,4 +1,5 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  def is_even(n):
-        return n % 2 == 0
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_as_repr(array):
+        return repr(array)
