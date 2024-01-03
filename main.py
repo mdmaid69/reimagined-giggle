@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
