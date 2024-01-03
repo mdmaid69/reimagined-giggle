@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import collections
-def create_counter():
-        return collections.Counter()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
