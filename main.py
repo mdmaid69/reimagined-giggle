@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
