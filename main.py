@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_pressure(force, area):
-        return force / area
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
