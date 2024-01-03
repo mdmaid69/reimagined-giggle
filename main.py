@@ -1,5 +1,7 @@
-import logging
-def log_message(message):
-        logging.info(message)
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import os
+def remove_directory(path):
+        os.rmdir(path)
