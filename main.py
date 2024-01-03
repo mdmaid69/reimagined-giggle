@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
