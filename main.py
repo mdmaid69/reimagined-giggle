@@ -1,5 +1,5 @@
+name = "Python"
+print("Hello,", name)
 import array
-def get_array_as_str(array):
-        return str(array)
-from collections import Counter
-print(Counter("hello world"))
+def pop_from_array(array, i=-1):
+        return array.pop(i)
