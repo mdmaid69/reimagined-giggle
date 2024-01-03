@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def get_array_length(array):
+        return len(array)
+def multiply_numbers(x, y):
+        return x * y
