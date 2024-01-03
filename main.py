@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def subtract_numbers(x, y):
-        return x - y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
