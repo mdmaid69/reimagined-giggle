@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
