@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
