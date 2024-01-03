@@ -1,5 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import sys
+def exit_program():
+        sys.exit()
