@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def convert_to_hex(n):
-        return hex(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_current_directory():
+        return os.getcwd()
