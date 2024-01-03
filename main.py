@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def find_max(lst):
+        return max(lst)
+import collections
+def create_user_string():
+        return collections.UserString()
