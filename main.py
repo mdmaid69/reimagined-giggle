@@ -1,5 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  def convert_to_hex(n):
-        return hex(n)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
