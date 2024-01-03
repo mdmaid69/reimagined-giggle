@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-def greet(name):
-        print(f"Hello, {name}!")
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
