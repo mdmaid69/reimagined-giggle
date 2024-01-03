@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import re
+print(re.match("h.*o", "hello world"))
