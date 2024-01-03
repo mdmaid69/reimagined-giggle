@@ -1,8 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  def convert_to_hex(n):
+        return hex(n)
