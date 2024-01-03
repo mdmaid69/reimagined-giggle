@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
