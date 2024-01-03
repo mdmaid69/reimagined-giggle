@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import collections
+def create_queue():
+        return collections.deque()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
