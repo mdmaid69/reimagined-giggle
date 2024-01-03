@@ -1,4 +1,6 @@
-name = "Python"
-print("Hello,", name)
-def is_palindrome(s):
-        return s == s[::-1]
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
