@@ -1,6 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  def square_number(x):
+        return x**2
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
