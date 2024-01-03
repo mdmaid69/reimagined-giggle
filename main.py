@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import random
+print(random.randint(0, 100))
