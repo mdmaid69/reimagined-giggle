@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import numpy as np
+print(np.array([1, 2, 3]))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
