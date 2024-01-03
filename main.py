@@ -1,6 +1,7 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_sine(x):
+        return math.sin(x)
