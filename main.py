@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+def calculate_area(radius):
+        return 3.14 * radius * radius
