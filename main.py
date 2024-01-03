@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
