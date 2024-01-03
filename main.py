@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
