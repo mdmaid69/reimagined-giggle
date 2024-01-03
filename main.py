@@ -1,7 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import random
+print(random.randint(0, 100))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
