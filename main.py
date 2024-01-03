@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
