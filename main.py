@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
