@@ -1,8 +1,5 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
