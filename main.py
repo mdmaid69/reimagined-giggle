@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import sys
+def exit_program():
+        sys.exit()
