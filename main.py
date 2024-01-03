@@ -1,5 +1,7 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
