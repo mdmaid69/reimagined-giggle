@@ -1,6 +1,6 @@
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
