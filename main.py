@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def reverse_string(s):
+        return s[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
