@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def reverse_string(s):
-        return s[::-1]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
