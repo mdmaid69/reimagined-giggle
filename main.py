@@ -1,6 +1,5 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
