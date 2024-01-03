@@ -1,4 +1,4 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def count_characters(sentence):
+        return len(sentence)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
