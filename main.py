@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
