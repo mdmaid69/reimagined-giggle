@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
