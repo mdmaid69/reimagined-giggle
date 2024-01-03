@@ -1,5 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def sort_list(lst):
+        return sorted(lst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
