@@ -1,6 +1,11 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
