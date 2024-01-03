@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
