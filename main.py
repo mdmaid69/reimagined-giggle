@@ -1,5 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+def calculate_area_rectangle(l, w):
+        return l * w
+x = 10
+y = 20
+print("Sum:", x + y)
