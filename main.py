@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def square_number(x):
-        return x**2
+def find_min(lst):
+        return min(lst)
+  def cube_number(x):
+        return x**3
