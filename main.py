@@ -1,6 +1,7 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
