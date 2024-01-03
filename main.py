@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
