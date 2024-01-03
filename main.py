@@ -1,6 +1,7 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import random
+print(random.randint(0, 100))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
