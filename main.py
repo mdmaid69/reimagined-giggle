@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_typecode(array):
+        return array.typecode
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
