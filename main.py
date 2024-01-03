@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+print(math.pi)
