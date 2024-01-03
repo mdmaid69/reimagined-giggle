@@ -1,3 +1,8 @@
-print([x**2 for x in range(10)])
-def reverse_string(s):
-        return s[::-1]
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
