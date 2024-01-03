@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import time
+def get_current_time():
+        return time.time()
