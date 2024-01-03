@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
