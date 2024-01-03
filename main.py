@@ -1,5 +1,7 @@
-  def convert_to_hex(n):
-        return hex(n)
-import time
-def get_current_time():
-        return time.ctime()
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
