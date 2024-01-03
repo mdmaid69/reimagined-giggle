@@ -1,4 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-for i in range(5):
-        print(i)
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+def calculate_speed(distance, time):
+        return distance / time
