@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-name = "Python"
-print("Hello,", name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import os
+  def get_current_directory():
+        return os.getcwd()
