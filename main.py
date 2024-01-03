@@ -1,5 +1,5 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_speed(distance, time):
+        return distance / time
