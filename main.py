@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
