@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
