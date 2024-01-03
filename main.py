@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
