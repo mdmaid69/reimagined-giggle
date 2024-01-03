@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
