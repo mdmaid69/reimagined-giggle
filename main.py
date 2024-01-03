@@ -1,4 +1,8 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_area_rectangle(l, w):
-        return l * w
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
