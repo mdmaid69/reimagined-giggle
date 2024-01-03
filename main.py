@@ -1,5 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def reverse_array(array):
+        array.reverse()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
