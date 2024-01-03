@@ -1,5 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  def is_even(n):
+        return n % 2 == 0
