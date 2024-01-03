@@ -1,6 +1,5 @@
+def remove_duplicates(lst):
+        return list(set(lst))
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  import sys
-  def get_python_version():
-        return sys.version
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
