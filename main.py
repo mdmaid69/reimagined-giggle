@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def calculate_area_rectangle(l, w):
+        return l * w
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
