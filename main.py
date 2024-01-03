@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
