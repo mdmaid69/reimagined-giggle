@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import collections
-def create_stack():
-        return collections.deque()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
