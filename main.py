@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
