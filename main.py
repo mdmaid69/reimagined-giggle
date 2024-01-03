@@ -1,5 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import re
-print(re.match("h.*o", "hello world"))
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
