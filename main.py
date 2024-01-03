@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import time
-def get_current_time():
-        return time.ctime()
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
