@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
