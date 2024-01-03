@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import collections
+def create_counter():
+        return collections.Counter()
+  def convert_to_octal(n):
+        return oct(n)
