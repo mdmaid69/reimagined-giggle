@@ -1,7 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
