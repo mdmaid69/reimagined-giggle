@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def count_words(sentence):
+        return len(sentence.split())
