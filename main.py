@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import json
+def convert_to_json(data):
+        return json.dumps(data)
