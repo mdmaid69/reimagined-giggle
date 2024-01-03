@@ -1,6 +1,6 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
