@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
