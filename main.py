@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_work(force, distance):
+        return force * distance
