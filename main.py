@@ -1,8 +1,8 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
