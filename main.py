@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import array
-def get_array_as_float(array):
-        return float(array[0])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
