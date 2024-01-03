@@ -1,6 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def subtract_numbers(x, y):
+        return x - y
