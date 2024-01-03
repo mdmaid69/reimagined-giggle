@@ -1,5 +1,6 @@
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-text = "Hello, world!"
-print("Characters:", len(text))
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def reverse_array(array):
+        array.reverse()
