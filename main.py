@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def convert_to_hex(n):
+        return hex(n)
+def remove_duplicates(lst):
+        return list(set(lst))
