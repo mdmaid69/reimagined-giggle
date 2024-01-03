@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def convert_to_binary(n):
+        return bin(n)
+def calculate_acceleration(speed, time):
+        return speed / time
