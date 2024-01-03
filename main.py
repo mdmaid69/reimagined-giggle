@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
