@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
