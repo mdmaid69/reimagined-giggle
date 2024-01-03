@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def multiply_numbers(x, y):
+        return x * y
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
