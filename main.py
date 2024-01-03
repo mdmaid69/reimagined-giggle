@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def count_characters(sentence):
+        return len(sentence)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
