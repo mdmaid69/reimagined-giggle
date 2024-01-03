@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
