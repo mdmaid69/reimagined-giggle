@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
