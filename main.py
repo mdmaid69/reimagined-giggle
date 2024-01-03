@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
