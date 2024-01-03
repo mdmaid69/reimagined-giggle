@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-  def square_number(x):
-        return x**2
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
