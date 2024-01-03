@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
