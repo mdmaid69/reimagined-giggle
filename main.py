@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_factorial(n):
+        return math.factorial(n)
