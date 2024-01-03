@@ -1,6 +1,4 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
