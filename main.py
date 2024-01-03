@@ -1,6 +1,7 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-name = "Python"
-print("Hello,", name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
