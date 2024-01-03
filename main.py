@@ -1,5 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
