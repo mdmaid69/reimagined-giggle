@@ -1,5 +1,6 @@
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
