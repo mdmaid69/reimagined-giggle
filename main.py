@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
