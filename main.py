@@ -1,5 +1,8 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def reverse_string(s):
-        return s[::-1]
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
