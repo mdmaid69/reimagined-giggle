@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
