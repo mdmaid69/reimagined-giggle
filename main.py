@@ -1,6 +1,8 @@
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
