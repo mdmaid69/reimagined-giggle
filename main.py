@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+def calculate_acceleration(speed, time):
+        return speed / time
