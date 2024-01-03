@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
