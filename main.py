@@ -1,6 +1,5 @@
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import random
-def roll_die():
-        return random.randint(1, 6)
+def get_array_itemsize(array):
+        return array.itemsize
