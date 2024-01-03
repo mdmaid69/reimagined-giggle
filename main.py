@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def cube_number(x):
+        return x**3
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
