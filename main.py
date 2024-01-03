@@ -1,7 +1,7 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
