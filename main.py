@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import array
-def get_array_as_set(array):
-        return set(array)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
