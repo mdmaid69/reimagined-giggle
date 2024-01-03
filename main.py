@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
