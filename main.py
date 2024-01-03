@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
