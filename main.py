@@ -1,4 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-for i in range(10): print(i)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+def calculate_speed(distance, time):
+        return distance / time
