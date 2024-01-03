@@ -1,6 +1,3 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import re
+print(re.match("h.*o", "hello world"))
+for i in range(10): print(i)
