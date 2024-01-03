@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_work(force, distance):
+        return force * distance
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
