@@ -1,6 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
