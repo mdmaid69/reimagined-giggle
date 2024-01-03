@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
