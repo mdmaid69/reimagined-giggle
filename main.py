@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def cube_number(x):
-        return x**3
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
