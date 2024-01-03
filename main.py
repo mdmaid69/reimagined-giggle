@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
