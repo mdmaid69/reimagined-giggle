@@ -1,6 +1,6 @@
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def set_array_item(array, i, item):
+        array[i] = item
