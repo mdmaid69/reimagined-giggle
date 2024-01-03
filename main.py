@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def is_odd(n):
+        return n % 2 != 0
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
