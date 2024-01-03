@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
