@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
