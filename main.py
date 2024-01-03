@@ -1,4 +1,8 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_acceleration(speed, time):
-        return speed / time
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
