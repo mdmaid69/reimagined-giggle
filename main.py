@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_volume(length, width, height):
-        return length * width * height
+def multiply_numbers(x, y):
+        return x * y
+import platform
+def get_os_info():
+        return platform.uname()
