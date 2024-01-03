@@ -1,5 +1,8 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
