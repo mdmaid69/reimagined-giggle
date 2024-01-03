@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def remove_from_array(array, item):
+        array.remove(item)
+import os
+def change_working_directory(path):
+        os.chdir(path)
