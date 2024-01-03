@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def is_odd(n):
-        return n % 2 != 0
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
