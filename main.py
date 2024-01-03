@@ -1,8 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def add_numbers(a, b):
+        return a + b
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
