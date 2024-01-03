@@ -1,4 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
