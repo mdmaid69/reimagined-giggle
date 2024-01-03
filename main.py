@@ -1,10 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def calculate_area_rectangle(l, w):
-        return l * w
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_density(mass, volume):
+        return mass / volume
