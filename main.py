@@ -1,7 +1,12 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
