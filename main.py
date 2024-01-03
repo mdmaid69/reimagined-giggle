@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import collections
+def create_priority_queue():
+        return collections.deque()
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
