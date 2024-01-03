@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
