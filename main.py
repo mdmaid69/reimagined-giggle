@@ -1,5 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-  def add_numbers(x, y):
-        return x + y
+import collections
+def create_user_list():
+        return collections.UserList()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
