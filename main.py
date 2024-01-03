@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
