@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def is_odd(n):
+        return n % 2 != 0
+import sys
+def print_python_version():
+        print(sys.version)
