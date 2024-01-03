@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
