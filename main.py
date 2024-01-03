@@ -1,5 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def convert_array_to_string(array):
+        return array.tostring()
