@@ -1,6 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
