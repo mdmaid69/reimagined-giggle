@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
