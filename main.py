@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
