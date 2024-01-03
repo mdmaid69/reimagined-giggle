@@ -1,6 +1,6 @@
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_sine(x):
+        return math.sin(x)
