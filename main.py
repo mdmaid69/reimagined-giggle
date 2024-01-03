@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
