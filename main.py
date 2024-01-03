@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def is_even(n):
+        return n % 2 == 0
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
