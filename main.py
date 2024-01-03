@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
