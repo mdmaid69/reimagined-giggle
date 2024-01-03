@@ -1,5 +1,6 @@
+import array
+def convert_array_to_string(array):
+        return array.tostring()
 import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
