@@ -1,8 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
