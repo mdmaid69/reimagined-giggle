@@ -1,5 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_speed(distance, time):
+        return distance / time
+import sys
+print(sys.version)
