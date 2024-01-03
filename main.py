@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import collections
+def create_queue():
+        return collections.deque()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
