@@ -1,8 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def reverse_list(lst):
+        return lst[::-1]
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_slice(array, i, j):
+        return array[i:j]
