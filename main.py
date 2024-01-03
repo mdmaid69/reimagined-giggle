@@ -1,5 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_circle_area(radius):
+        return math.pi * radius**2
