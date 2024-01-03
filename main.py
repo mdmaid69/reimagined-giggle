@@ -1,6 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
