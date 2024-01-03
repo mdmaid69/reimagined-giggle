@@ -1,6 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def find_min(lst):
+        return min(lst)
