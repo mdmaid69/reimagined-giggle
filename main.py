@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
