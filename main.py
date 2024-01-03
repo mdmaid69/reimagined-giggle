@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def cube_number(x):
-        return x**3
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
