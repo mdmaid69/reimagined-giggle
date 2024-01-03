@@ -1,4 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  def is_even(n):
-        return n % 2 == 0
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
