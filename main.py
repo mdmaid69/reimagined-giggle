@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
