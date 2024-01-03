@@ -1,6 +1,8 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
