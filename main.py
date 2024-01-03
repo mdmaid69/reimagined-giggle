@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import collections
+def create_user_dict():
+        return collections.UserDict()
