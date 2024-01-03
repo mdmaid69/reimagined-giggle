@@ -1,5 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
