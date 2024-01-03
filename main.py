@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def is_even(n):
+        return n % 2 == 0
