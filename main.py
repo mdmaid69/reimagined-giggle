@@ -1,6 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import array
-def clear_array(array):
-        array *= 0
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def count_elements(lst):
+        return len(lst)
