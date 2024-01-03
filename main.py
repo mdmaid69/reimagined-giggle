@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
