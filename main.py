@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
