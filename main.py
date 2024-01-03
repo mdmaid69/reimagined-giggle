@@ -1,7 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def divide_numbers(x, y):
+        return x / y
