@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
