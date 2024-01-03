@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def find_min(numbers):
+        return min(numbers)
+  import sys
+  def get_python_version():
+        return sys.version
