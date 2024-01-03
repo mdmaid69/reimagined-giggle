@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
