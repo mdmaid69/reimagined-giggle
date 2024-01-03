@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
