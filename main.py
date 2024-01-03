@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
