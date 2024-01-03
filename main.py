@@ -1,6 +1,5 @@
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import sys
-def print_python_version():
-        print(sys.version)
+  def split_path(path):
+        return os.path.split(path)
