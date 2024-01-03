@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+for i in range(10): print(i)
