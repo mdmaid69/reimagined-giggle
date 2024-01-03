@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import collections
+def create_priority_queue():
+        return collections.deque()
