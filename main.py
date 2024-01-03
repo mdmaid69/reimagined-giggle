@@ -1,6 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import platform
-def get_os_info():
-        return platform.uname()
+def reverse_array(array):
+        array.reverse()
+import sys
+def print_python_version():
+        print(sys.version)
