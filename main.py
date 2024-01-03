@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
