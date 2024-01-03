@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def add_numbers(a, b):
-        return a + b
+  def is_even(n):
+        return n % 2 == 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
