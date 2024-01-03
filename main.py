@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
