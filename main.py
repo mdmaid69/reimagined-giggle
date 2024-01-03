@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
