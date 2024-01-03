@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+def calculate_area_circle(r):
+        return 3.14 * r**2
