@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
