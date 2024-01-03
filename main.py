@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_array_as_list(array):
+        return list(array)
