@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
