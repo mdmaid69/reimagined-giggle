@@ -1,6 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
