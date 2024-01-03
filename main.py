@@ -1,5 +1,5 @@
+def find_min(numbers):
+        return min(numbers)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
