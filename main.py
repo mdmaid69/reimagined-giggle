@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def add_numbers(a, b):
-        return a + b
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
