@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
