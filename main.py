@@ -1,5 +1,8 @@
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
