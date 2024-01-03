@@ -1,6 +1,8 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
