@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_speed(distance, time):
+        return distance / time
