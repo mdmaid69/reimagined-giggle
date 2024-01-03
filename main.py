@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
