@@ -1,5 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def calculate_volume(length, width, height):
+        return length * width * height
