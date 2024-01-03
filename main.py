@@ -1,5 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
