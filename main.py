@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def sort_list(lst):
+        return sorted(lst)
