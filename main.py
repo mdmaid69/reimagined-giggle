@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+def count_words(sentence):
+        return len(sentence.split())
