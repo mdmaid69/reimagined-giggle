@@ -1,5 +1,5 @@
 text = "Hello, world!"
-print("Characters:", len(text))
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+print("Words:", len(text.split()))
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
