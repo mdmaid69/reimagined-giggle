@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
