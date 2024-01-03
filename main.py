@@ -1,6 +1,9 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import sys
+def print_python_version():
+        return sys.version
