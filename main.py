@@ -1,4 +1,9 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
