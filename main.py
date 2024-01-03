@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def count_words(sentence):
+        return len(sentence.split())
