@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def find_unique_words(sentence):
+        return set(sentence.split())
+import array
+def reverse_array(array):
+        array.reverse()
