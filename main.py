@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def count_characters(sentence):
+        return len(sentence)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
