@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import random
+print(random.randint(0, 100))
