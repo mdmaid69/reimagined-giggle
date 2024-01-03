@@ -1,5 +1,7 @@
-def calculate_density(mass, volume):
-        return mass / volume
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
