@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
