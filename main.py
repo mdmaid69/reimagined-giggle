@@ -1,8 +1,5 @@
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
