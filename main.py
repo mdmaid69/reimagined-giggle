@@ -1,5 +1,6 @@
+  import os
+  def get_current_directory():
+        return os.getcwd()
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_power(work, time):
-        return work / time
+def remove_from_array(array, item):
+        array.remove(item)
