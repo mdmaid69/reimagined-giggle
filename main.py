@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
