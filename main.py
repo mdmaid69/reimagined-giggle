@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
