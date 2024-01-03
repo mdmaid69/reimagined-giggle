@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import collections
+def create_counter():
+        return collections.Counter()
