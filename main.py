@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_acceleration(speed, time):
+        return speed / time
+for i in range(5):
+        print(i)
