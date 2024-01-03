@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_density(mass, volume):
+        return mass / volume
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
