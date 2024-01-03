@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def convert_to_binary(n):
+        return bin(n)
