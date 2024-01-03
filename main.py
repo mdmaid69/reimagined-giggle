@@ -1,5 +1,11 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+import sys
+def print_python_version():
+        return sys.version
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
