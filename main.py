@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+  import sys
+  def get_python_version():
+        return sys.version
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
