@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_user_list():
+        return collections.UserList()
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
