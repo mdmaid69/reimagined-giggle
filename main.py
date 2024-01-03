@@ -1,6 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def add_numbers(a, b):
+        return a + b
