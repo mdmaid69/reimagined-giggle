@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def convert_to_octal(n):
+        return oct(n)
