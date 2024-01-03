@@ -1,5 +1,6 @@
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
