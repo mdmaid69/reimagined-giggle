@@ -1,4 +1,8 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import datetime
+def get_days_until_next_year():
+        next_year = datetime.date.today().year + 1
+        next_new_year = datetime.date(next_year, 1, 1)
+        return (next_new_year - datetime.date.today()).days
