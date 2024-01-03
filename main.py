@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def find_unique_words(sentence):
+        return set(sentence.split())
