@@ -1,6 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-import time
-def get_time_since_epoch():
-        return time.time()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
