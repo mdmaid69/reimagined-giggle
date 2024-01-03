@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def greet(name):
+        print(f"Hello, {name}!")
