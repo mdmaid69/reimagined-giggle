@@ -1,6 +1,6 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_list(array):
+        return list(array)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
