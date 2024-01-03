@@ -1,5 +1,7 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  def convert_to_hex(n):
-        return hex(n)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
