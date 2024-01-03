@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
