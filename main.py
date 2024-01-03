@@ -1,8 +1,8 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
