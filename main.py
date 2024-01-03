@@ -1,8 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def find_min(numbers):
+        return min(numbers)
