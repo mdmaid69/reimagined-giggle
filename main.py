@@ -1,5 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
