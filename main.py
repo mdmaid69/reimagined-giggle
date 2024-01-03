@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
