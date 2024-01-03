@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import array
-def get_array_typecode(array):
-        return array.typecode
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
