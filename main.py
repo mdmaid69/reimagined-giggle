@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import collections
-def create_counter():
-        return collections.Counter()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import logging
+def log_message(message):
+        logging.info(message)
