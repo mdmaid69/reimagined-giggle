@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
