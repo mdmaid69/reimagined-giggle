@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import datetime
+def get_current_date():
+        return datetime.date.today()
