@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
