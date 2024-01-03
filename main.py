@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import collections
-def create_user_list():
-        return collections.UserList()
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
