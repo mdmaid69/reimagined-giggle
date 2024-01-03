@@ -1,6 +1,6 @@
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
