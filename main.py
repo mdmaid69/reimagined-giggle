@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import random
+print(random.randint(0, 100))
