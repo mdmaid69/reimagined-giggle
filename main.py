@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
