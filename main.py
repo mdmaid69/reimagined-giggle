@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
