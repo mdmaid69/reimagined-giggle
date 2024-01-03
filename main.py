@@ -1,4 +1,7 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
