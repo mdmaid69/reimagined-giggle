@@ -1,5 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
