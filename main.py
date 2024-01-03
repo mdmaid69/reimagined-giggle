@@ -1,5 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+text = "Hello, world!"
+print("Words:", len(text.split()))
