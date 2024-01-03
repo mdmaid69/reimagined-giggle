@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
 import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
