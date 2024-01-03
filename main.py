@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
