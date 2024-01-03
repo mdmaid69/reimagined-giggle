@@ -1,8 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
