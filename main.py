@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
