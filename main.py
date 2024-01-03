@@ -1,6 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
