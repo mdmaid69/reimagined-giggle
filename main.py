@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_current_directory():
+        return os.getcwd()
+def calculate_volume(length, width, height):
+        return length * width * height
