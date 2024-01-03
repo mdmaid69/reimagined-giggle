@@ -1,4 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_density(mass, volume):
-        return mass / volume
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
