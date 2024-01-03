@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
