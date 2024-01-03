@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def add_numbers(x, y):
+        return x + y
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
