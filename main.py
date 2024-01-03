@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
