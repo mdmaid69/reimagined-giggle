@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
