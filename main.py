@@ -1,4 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import time
-print(time.time())
+def calculate_area_rectangle(l, w):
+        return l * w
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
