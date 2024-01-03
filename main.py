@@ -1,4 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-name = "Python"
-print("Hello,", name)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import logging
+def log_message(message):
+        logging.info(message)
