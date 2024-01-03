@@ -1,6 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+def get_array_slice(array, i, j):
+        return array[i:j]
