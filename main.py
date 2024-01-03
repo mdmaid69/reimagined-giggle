@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
