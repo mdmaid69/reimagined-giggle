@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def convert_to_hex(n):
+        return hex(n)
