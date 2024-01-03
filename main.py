@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
