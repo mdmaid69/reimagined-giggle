@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
