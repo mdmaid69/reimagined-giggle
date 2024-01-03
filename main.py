@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_item(array, i):
-        return array[i]
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
