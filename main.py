@@ -1,4 +1,4 @@
-  def is_odd(n):
-        return n % 2 != 0
-def remove_duplicates(lst):
-        return list(set(lst))
+  def cube_number(x):
+        return x**3
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
