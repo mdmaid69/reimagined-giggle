@@ -1,7 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
