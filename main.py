@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def add_numbers(a, b):
-        return a + b
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
