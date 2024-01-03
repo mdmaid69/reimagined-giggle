@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
