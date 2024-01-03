@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
