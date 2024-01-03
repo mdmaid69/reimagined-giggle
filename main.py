@@ -1,5 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def square_number(x):
+        return x**2
