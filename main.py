@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
