@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def add_numbers(x, y):
+        return x + y
+import os
+def remove_directory(path):
+        os.rmdir(path)
