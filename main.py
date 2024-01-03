@@ -1,5 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
