@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
