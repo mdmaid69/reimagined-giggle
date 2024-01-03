@@ -1,5 +1,7 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import tensorflow as tf
+print(tf.__version__)
