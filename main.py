@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  def convert_to_binary(n):
-        return bin(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
