@@ -1,5 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+name = "Python"
+print("Hello,", name)
+def calculate_power(work, time):
+        return work / time
