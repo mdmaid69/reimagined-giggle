@@ -1,5 +1,5 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-  def multiply_numbers(x, y):
-        return x * y
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
