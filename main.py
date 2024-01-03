@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def find_unique_words(sentence):
+        return set(sentence.split())
