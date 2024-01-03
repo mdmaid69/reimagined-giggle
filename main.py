@@ -1,6 +1,4 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def square_number(x):
+        return x**2
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
