@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def sort_list(lst):
+        return sorted(lst)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
