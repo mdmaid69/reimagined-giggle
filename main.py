@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
