@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_force(mass, acceleration):
+        return mass * acceleration
