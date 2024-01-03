@@ -1,5 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def convert_to_octal(n):
+        return oct(n)
