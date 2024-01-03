@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
