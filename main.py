@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
