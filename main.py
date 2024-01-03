@@ -1,8 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def is_odd(n):
+        return n % 2 != 0
