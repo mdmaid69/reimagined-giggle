@@ -1,4 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_density(mass, volume):
-        return mass / volume
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
