@@ -1,10 +1,6 @@
-def calculate_irr(cash_flows):
-        rate = 0.1
-        for _ in range(100):
-        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-        if abs(npv) < 1e-6:
-                return rate
-        rate += 0.01
-        return None
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
