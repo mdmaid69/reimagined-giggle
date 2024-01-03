@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+for i in range(5):
+        print(i)
