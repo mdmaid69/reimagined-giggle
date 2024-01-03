@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
