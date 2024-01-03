@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+text = "Hello, world!"
+print("Characters:", len(text))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def delete_file(file_name):
+        os.remove(file_name)
