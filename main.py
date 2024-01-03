@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-def count_characters(sentence):
-        return len(sentence)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
