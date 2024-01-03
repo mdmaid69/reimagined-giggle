@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
