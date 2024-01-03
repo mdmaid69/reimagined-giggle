@@ -1,6 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_current_working_directory():
+        return os.getcwd()
