@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_array_as_bool(array):
+        return bool(array)
