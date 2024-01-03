@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_current_directory():
+        return os.getcwd()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
