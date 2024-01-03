@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def count_words(sentence):
+        return len(sentence.split())
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
