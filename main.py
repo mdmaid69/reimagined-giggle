@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import time
-def get_current_time():
-        return time.ctime()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
