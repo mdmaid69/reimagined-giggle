@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
