@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def count_words(sentence):
+        return len(sentence.split())
