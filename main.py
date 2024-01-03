@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
