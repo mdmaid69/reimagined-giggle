@@ -1,7 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import collections
-def create_stack():
-        return collections.deque()
+  def cube_number(x):
+        return x**3
+  def calculate_area_circle(r):
+        return 3.14 * r**2
