@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
