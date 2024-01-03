@@ -1,8 +1,5 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import sys
+def exit_program():
+        sys.exit()
