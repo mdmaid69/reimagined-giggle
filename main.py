@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def count_elements(lst):
-        return len(lst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
