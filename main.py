@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
