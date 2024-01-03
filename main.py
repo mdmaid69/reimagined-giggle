@@ -1,12 +1,4 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def is_palindrome(s):
+        return s == s[::-1]
