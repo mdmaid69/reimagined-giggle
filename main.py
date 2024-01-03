@@ -1,11 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
