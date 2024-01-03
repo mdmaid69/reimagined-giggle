@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
