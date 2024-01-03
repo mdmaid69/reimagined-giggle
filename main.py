@@ -1,4 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-print(sum(range(10)))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
