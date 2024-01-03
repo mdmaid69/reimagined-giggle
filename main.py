@@ -1,5 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-def calculate_work(force, distance):
-        return force * distance
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
