@@ -1,5 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def divide_numbers(x, y):
-        return x / y
+print(sum(range(10)))
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
