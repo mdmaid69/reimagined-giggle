@@ -1,5 +1,5 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
