@@ -1,6 +1,6 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
