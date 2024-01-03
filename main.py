@@ -1,6 +1,12 @@
-import sys
-def exit_program():
-        sys.exit()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
