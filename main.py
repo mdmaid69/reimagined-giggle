@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  def subtract_numbers(x, y):
+        return x - y
