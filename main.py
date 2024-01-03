@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
