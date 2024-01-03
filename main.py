@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def reverse_array(array):
+        array.reverse()
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
