@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
