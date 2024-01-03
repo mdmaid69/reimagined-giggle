@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_density(mass, volume):
+        return mass / volume
