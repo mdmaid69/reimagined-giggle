@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def clear_array(array):
+        array *= 0
