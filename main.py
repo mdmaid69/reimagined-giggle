@@ -1,4 +1,8 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-  def convert_to_octal(n):
-        return oct(n)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
