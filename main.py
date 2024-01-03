@@ -1,6 +1,7 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  def calculate_area_rectangle(l, w):
+        return l * w
