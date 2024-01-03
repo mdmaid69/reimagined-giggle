@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
