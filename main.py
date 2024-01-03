@@ -1,5 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def subtract_numbers(x, y):
+        return x - y
