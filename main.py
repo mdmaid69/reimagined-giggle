@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import collections
+def create_user_string():
+        return collections.UserString()
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
