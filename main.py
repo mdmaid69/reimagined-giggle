@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import re
-def find_all_occurrences(pattern, string):
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+  import re
+  def find_all_occurrences(pattern, string):
         return re.findall(pattern, string)
