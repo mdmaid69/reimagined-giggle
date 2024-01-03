@@ -1,5 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
