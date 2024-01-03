@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import collections
+def create_counter():
+        return collections.Counter()
