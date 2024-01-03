@@ -1,5 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
