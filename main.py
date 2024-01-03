@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_typecode(array):
+        return array.typecode
