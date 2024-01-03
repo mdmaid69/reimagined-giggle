@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
