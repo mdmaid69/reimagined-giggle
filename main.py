@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
