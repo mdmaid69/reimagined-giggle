@@ -1,4 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def convert_to_binary(n):
-        return bin(n)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def add_numbers(x, y):
+        return x + y
