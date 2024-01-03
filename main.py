@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_power(work, time):
+        return work / time
