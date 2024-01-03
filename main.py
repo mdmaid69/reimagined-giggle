@@ -1,6 +1,12 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
