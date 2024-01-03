@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def get_array_as_set(array):
+        return set(array)
+def add_numbers(a, b):
+        return a + b
