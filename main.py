@@ -1,5 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def sort_list(lst):
-        return sorted(lst)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_floor(x):
+        return math.floor(x)
