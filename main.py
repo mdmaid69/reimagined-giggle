@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import collections
-def create_priority_queue():
-        return collections.deque()
+import getpass
+def get_username():
+        return getpass.getuser()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
