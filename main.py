@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
