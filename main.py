@@ -1,6 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def reverse_string(s):
+        return s[::-1]
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
