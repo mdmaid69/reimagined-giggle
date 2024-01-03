@@ -1,5 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-def reverse_string(s):
-        return s[::-1]
+def convert_array_to_string(array):
+        return array.tostring()
+import random
+def roll_die():
+        return random.randint(1, 6)
