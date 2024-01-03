@@ -1,7 +1,6 @@
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import collections
-def create_user_string():
-        return collections.UserString()
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
