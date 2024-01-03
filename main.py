@@ -1,4 +1,8 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
