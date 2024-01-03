@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+from collections import Counter
+print(Counter("hello world"))
 import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+def generate_random_choice(choices):
+        return random.choice(choices)
