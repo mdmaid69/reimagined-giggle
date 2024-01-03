@@ -1,4 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-for i in range(10): print(i)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
