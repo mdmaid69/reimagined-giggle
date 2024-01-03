@@ -1,5 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-name = "Python"
-print("Hello,", name)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
