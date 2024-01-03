@@ -1,5 +1,13 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def square_number(x):
-        return x**2
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
