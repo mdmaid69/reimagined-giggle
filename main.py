@@ -1,6 +1,8 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
