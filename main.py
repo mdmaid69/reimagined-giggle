@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
