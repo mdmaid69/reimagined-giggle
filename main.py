@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+name = "Python"
+print("Hello,", name)
