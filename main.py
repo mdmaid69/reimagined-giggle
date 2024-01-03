@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+text = "Hello, world!"
+print("Reversed:", text[::-1])
