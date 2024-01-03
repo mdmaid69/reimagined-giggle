@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import sys
+  def get_python_version():
+        return sys.version
