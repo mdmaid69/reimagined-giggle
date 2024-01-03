@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
