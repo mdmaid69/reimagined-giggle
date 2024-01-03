@@ -1,7 +1,7 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_acceleration(speed, time):
-        return speed / time
+def get_array_as_str(array):
+        return str(array)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
