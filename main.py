@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import platform
+def get_os_info():
+        return platform.uname()
