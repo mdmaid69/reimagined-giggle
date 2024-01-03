@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_float(array):
+        return float(array[0])
