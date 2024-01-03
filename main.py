@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def find_min(lst):
+        return min(lst)
 import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def create_user_list():
+        return collections.UserList()
