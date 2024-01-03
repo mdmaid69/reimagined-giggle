@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def divide_numbers(x, y):
+        return x / y
