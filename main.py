@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
