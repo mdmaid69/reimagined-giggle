@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
