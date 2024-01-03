@@ -1,6 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
