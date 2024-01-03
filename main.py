@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
