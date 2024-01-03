@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
