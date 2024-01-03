@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
