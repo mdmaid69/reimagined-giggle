@@ -1,6 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
