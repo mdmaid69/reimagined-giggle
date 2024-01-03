@@ -1,5 +1,8 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  def multiply_numbers(x, y):
-        return x * y
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
