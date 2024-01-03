@@ -1,5 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
