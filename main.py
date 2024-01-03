@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def add_numbers(a, b):
-        return a + b
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
