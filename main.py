@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def sort_numbers(numbers):
+        return sorted(numbers)
