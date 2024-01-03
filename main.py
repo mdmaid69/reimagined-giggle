@@ -1,4 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_speed(distance, time):
-        return distance / time
+def find_max(numbers):
+        return max(numbers)
+import array
+def append_to_array(array, item):
+        array.append(item)
