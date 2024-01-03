@@ -1,9 +1,6 @@
   import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+  import os
   def get_file_mode(file_name):
         return os.stat(file_name).st_mode
-import xml.etree.ElementTree as ET
-root = ET.Element("root")
-doc = ET.SubElement(root, "doc")
-ET.SubElement(doc, "field1", name="blah").text = "some value1"
-ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
-tree = ET.ElementTree(root)
