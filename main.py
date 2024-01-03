@@ -1,6 +1,6 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
