@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import array
+def get_array_item(array, i):
+        return array[i]
