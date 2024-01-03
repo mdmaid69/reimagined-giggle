@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
