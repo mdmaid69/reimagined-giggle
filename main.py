@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
