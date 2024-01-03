@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+print(sum(range(10)))
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
