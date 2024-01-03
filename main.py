@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
