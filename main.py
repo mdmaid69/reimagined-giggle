@@ -1,6 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
