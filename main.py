@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
