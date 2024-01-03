@@ -1,7 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
