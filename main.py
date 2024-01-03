@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
