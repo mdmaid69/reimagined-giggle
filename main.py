@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import random
+print(random.randint(0, 100))
+def is_odd(n):
+        return n % 2 != 0
