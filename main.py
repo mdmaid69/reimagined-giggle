@@ -1,6 +1,5 @@
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_float(array):
+        return float(array[0])
+import datetime
+print(datetime.datetime.now())
