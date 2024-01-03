@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
