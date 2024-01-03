@@ -1,6 +1,3 @@
-import time
-def get_current_time():
-        return time.ctime()
-import collections
-def create_user_list():
-        return collections.UserList()
+def count_words(sentence):
+        return len(sentence.split())
+print([x**2 for x in range(10)])
