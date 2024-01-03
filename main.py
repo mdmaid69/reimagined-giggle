@@ -1,6 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def reverse_string(s):
+        return s[::-1]
+def convert_to_hex(n):
+        return hex(n)
