@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def calculate_area_rectangle(l, w):
+        return l * w
