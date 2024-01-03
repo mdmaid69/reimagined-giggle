@@ -1,6 +1,5 @@
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
