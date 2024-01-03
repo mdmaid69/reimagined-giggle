@@ -1,9 +1,6 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
