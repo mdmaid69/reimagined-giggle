@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
