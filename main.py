@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
