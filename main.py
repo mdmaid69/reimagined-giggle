@@ -1,6 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def reverse_list(lst):
+        return lst[::-1]
