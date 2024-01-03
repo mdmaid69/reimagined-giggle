@@ -1,6 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
