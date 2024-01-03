@@ -1,5 +1,3 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_speed(distance, time):
-        return distance / time
+  def remove_duplicates(lst):
+        return list(set(lst))
+for i in range(10): print(i)
