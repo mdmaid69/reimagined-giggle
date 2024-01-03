@@ -1,6 +1,6 @@
+import array
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def get_base_name(path):
+        return os.path.basename(path)
