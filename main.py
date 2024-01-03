@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
