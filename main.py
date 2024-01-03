@@ -1,6 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def set_array_item(array, i, item):
+        array[i] = item
+text = "Hello, world!"
+print("Reversed:", text[::-1])
