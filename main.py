@@ -1,6 +1,12 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
