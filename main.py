@@ -1,6 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+def calculate_pressure(force, area):
+        return force / area
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
