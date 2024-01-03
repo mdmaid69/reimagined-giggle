@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import random
-print(random.randint(0, 100))
+  def is_even(n):
+        return n % 2 == 0
+import array
+def append_to_array(array, item):
+        array.append(item)
