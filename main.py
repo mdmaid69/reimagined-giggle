@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
