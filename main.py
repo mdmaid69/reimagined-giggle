@@ -1,5 +1,6 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def get_array_as_repr(array):
+        return repr(array)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
