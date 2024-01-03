@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
