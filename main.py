@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
