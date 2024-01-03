@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
