@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def convert_to_hex(n):
+        return hex(n)
