@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import json
+print(json.dumps({"name": "John", "age": 30}))
