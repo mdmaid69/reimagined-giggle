@@ -1,5 +1,8 @@
-import re
-print(re.match("h.*o", "hello world"))
-x = 10
-y = 20
-print("Sum:", x + y)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
