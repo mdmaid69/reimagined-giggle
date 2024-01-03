@@ -1,5 +1,8 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def is_odd(n):
-        return n % 2 != 0
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
