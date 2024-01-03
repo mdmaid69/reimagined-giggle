@@ -1,5 +1,7 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
