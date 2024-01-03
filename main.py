@@ -1,5 +1,7 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_work(force, distance):
-        return force * distance
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+def cube_number(x):
+        return x**3
