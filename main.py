@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  def subtract_numbers(x, y):
+        return x - y
