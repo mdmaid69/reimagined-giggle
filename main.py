@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
