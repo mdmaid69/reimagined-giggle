@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  def is_even(n):
+        return n % 2 == 0
