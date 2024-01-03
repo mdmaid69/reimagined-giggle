@@ -1,5 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
