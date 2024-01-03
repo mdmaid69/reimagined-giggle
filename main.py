@@ -1,4 +1,8 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def find_min(numbers):
-        return min(numbers)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
