@@ -1,4 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
