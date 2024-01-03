@@ -1,6 +1,5 @@
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  def create_numpy_array(lst):
+        return np.array(lst)
+def remove_duplicates(lst):
+        return list(set(lst))
