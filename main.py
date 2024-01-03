@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def is_even(n):
+        return n % 2 == 0
