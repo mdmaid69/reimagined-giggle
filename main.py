@@ -1,5 +1,7 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import collections
+def create_user_list():
+        return collections.UserList()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
