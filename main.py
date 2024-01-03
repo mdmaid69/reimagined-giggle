@@ -1,6 +1,5 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
