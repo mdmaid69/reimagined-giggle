@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_length(array):
+        return len(array)
