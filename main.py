@@ -1,6 +1,8 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
