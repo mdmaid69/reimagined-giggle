@@ -1,5 +1,3 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+print("Hello, world!")
+def calculate_acceleration(speed, time):
+        return speed / time
