@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def is_even(n):
-        return n % 2 == 0
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import array
+def get_array_length(array):
+        return len(array)
