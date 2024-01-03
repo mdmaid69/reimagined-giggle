@@ -1,6 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
