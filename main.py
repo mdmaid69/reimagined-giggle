@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
