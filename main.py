@@ -1,6 +1,6 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
