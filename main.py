@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
