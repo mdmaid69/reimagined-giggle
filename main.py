@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
