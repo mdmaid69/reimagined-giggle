@@ -1,4 +1,4 @@
-def square_number(x):
-        return x**2
-  def count_elements(lst):
-        return len(lst)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
