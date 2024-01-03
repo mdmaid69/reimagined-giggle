@@ -1,6 +1,11 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import collections
-def create_stack():
-        return collections.deque()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
