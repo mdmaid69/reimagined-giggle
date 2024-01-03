@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
