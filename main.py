@@ -1,4 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
