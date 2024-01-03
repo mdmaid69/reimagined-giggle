@@ -1,5 +1,7 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
