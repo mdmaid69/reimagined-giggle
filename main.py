@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
