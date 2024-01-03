@@ -1,5 +1,7 @@
-import tensorflow as tf
-print(tf.__version__)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
