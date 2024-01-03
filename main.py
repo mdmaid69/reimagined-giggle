@@ -1,5 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import tensorflow as tf
-print(tf.__version__)
+def get_list_from_array(array):
+        return array.tolist()
