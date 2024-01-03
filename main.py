@@ -1,6 +1,5 @@
 import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
