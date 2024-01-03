@@ -1,6 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def get_array_itemsize(array):
+        return array.itemsize
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
