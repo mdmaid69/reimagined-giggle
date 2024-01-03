@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
