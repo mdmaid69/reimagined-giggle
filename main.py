@@ -1,6 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_to_binary(n):
+        return bin(n)
+  def square_number(x):
+        return x**2
