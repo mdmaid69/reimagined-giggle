@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_power(work, time):
+        return work / time
+def reverse_string(s):
+        return s[::-1]
