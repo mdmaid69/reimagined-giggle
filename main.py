@@ -1,6 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
