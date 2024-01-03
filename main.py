@@ -1,4 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
