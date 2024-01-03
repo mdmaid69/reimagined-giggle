@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
