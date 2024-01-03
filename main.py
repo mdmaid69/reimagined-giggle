@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def convert_to_binary(n):
-        return bin(n)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
