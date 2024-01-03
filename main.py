@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
