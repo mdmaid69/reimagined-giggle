@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
