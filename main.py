@@ -1,6 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_item(array, i):
+        return array[i]
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
