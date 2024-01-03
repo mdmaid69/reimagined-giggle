@@ -1,6 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
