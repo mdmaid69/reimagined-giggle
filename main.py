@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def divide_numbers(x, y):
+        return x / y
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
