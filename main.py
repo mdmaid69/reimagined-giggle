@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
