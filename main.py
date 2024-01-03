@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import collections
-def create_user_list():
-        return collections.UserList()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
