@@ -1,5 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_perpetuity(payment, rate):
+        return payment / rate
