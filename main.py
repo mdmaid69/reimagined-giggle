@@ -1,7 +1,7 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  def reverse_list(lst):
+        return lst[::-1]
