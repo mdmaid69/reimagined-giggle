@@ -1,5 +1,6 @@
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import numpy as np
-print(np.array([1, 2, 3]))
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
