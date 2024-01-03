@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
