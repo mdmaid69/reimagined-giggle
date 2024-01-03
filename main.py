@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
