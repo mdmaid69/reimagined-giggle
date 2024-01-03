@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-for i in range(5):
-        print(i)
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
