@@ -1,6 +1,6 @@
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
