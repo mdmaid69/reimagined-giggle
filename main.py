@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
