@@ -1,9 +1,8 @@
 import array
-def get_array_from_file(filename, typecode):
+def get_array_from_string(string, typecode):
         a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        a.fromstring(string)
         return a
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_cosine(x):
+        return math.cos(x)
