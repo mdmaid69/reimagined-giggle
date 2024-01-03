@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
