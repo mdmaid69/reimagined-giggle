@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def count_characters(sentence):
+        return len(sentence)
