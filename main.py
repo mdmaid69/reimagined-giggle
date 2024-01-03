@@ -1,6 +1,4 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Reversed:", text[::-1])
