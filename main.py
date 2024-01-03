@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
