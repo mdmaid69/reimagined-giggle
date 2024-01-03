@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
