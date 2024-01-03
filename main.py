@@ -1,7 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import sys
+  def get_python_version():
+        return sys.version
