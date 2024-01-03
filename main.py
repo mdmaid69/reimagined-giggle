@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
