@@ -1,7 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def is_odd(n):
+        return n % 2 != 0
+def add_numbers(a, b):
+        return a + b
