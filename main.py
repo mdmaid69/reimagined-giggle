@@ -1,6 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
