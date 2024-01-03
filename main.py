@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import sys
+def exit_program():
+        sys.exit()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
