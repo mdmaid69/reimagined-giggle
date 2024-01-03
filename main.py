@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def convert_to_hex(n):
+        return hex(n)
