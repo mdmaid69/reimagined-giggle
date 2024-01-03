@@ -1,6 +1,5 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_tangent(x):
+        return math.tan(x)
+  def convert_to_octal(n):
+        return oct(n)
