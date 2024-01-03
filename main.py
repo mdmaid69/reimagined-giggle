@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def convert_to_binary(n):
+        return bin(n)
