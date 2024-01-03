@@ -1,6 +1,4 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+text = "Hello, world!"
+print("Words:", len(text.split()))
