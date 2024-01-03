@@ -1,5 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
