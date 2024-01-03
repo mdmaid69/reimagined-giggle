@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_area_rectangle(l, w):
+        return l * w
+import json
+print(json.dumps({"name": "John", "age": 30}))
