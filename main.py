@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+x = 10
+y = 20
+print("Sum:", x + y)
