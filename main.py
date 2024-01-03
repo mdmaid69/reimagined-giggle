@@ -1,5 +1,7 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_area_rectangle(l, w):
+        return l * w
