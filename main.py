@@ -1,6 +1,8 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+import platform
+def get_python_version():
+        return platform.python_version()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
