@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
+def reverse_list(lst):
+        return lst[::-1]
 import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def get_array_as_memoryview(array):
+        return memoryview(array)
