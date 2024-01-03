@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_index(array, item):
+        return array.index(item)
