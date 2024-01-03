@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def find_unique_words(sentence):
+        return set(sentence.split())
