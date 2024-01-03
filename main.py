@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  def multiply_numbers(x, y):
-        return x * y
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
