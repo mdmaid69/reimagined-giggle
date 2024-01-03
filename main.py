@@ -1,4 +1,5 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-for i in range(10): print(i)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
