@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
+def find_unique_words(sentence):
+        return set(sentence.split())
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
