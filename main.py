@@ -1,6 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
