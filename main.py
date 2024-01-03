@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
