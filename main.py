@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import getpass
+def get_username():
+        return getpass.getuser()
+import time
+def get_time_since_epoch():
+        return time.time()
