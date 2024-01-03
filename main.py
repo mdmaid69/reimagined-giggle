@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import collections
+def create_user_dict():
+        return collections.UserDict()
