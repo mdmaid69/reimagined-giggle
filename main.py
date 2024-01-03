@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import platform
+def get_os_info():
+        return platform.uname()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
