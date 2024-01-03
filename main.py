@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def find_min(numbers):
-        return min(numbers)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
