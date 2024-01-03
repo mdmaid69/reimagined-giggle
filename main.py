@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_pressure(force, area):
+        return force / area
+def add_numbers(x, y):
+        return x + y
