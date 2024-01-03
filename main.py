@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_pressure(force, area):
+        return force / area
