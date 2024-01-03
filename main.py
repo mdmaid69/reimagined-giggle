@@ -1,5 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+text = "Hello, world!"
+print("Characters:", len(text))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
