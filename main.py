@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
