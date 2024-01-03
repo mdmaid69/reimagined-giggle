@@ -1,5 +1,4 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
