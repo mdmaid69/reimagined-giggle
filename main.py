@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
