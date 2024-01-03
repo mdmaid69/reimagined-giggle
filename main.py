@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
