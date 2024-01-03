@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def convert_to_octal(n):
+        return oct(n)
