@@ -1,6 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
