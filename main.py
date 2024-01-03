@@ -1,5 +1,7 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-from collections import Counter
-print(Counter("hello world"))
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
