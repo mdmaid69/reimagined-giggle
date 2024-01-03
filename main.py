@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
