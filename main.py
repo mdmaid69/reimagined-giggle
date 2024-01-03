@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
