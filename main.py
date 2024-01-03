@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+def greet(name):
+        print(f"Hello, {name}!")
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_sign(x):
+        return math.copysign(1, x)
