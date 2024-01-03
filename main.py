@@ -1,6 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
