@@ -1,6 +1,4 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
