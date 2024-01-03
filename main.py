@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
 import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
