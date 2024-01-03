@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
