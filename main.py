@@ -1,5 +1,6 @@
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import numpy as np
-print(np.array([1, 2, 3]))
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
