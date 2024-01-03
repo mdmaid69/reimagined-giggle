@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
