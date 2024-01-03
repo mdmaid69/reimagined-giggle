@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
