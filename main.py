@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-x = 10
-y = 20
-print("Sum:", x + y)
+def is_palindrome(s):
+        return s == s[::-1]
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
