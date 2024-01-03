@@ -1,6 +1,7 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_area_rectangle(l, w):
+        return l * w
