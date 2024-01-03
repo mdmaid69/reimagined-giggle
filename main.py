@@ -1,6 +1,6 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_current_directory():
+        return os.getcwd()
