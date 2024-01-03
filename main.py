@@ -1,7 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_array_as_complex(array):
+        return complex(array[0])
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
