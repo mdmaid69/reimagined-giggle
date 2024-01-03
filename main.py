@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
