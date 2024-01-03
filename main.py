@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
