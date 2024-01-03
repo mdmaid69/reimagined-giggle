@@ -1,5 +1,4 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
