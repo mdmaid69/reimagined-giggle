@@ -1,5 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def clear_array(array):
-        array *= 0
-import tensorflow as tf
-print(tf.__version__)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
