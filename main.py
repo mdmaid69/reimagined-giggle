@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
