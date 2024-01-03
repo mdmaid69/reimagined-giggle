@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
