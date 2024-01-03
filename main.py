@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def reverse_list(lst):
+        return lst[::-1]
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
