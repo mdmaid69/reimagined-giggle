@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
