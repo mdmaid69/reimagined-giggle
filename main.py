@@ -1,5 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
