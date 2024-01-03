@@ -1,5 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
