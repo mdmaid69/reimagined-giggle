@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
