@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
