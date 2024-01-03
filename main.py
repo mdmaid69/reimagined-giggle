@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_length(array):
+        return len(array)
