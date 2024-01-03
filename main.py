@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_acceleration(speed, time):
+        return speed / time
+import array
+def get_array_length(array):
+        return len(array)
