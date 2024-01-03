@@ -1,6 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+for i in range(5):
+        print(i)
