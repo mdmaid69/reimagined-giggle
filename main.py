@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
