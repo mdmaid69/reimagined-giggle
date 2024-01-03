@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def calculate_acceleration(speed, time):
+        return speed / time
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def delete_file(file_name):
+        os.remove(file_name)
