@@ -1,12 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
