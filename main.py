@@ -1,5 +1,7 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
