@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import array
+def append_to_array(array, item):
+        array.append(item)
