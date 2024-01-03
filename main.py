@@ -1,5 +1,6 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
