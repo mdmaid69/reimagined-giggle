@@ -1,5 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import tensorflow as tf
-print(tf.__version__)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
