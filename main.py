@@ -1,6 +1,5 @@
+  def calculate_area_rectangle(l, w):
+        return l * w
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_file_size(filename):
+        return os.path.getsize(filename)
