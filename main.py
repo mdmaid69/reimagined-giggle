@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
