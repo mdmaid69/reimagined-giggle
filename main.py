@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
