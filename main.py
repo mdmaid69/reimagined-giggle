@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
