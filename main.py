@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
