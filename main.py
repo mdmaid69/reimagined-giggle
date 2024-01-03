@@ -1,4 +1,4 @@
-def cube_number(x):
-        return x**3
-def find_max(lst):
-        return max(lst)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  def is_odd(n):
+        return n % 2 != 0
