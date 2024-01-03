@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def find_min(numbers):
+        return min(numbers)
