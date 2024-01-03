@@ -1,6 +1,6 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import platform
+def get_os_info():
+        return platform.uname()
