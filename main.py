@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
