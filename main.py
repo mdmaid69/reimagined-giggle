@@ -1,6 +1,4 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import collections
-def create_counter():
-        return collections.Counter()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
