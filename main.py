@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
