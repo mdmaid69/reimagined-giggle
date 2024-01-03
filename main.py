@@ -1,7 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
