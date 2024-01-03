@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def calculate_speed(distance, time):
-        return distance / time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
