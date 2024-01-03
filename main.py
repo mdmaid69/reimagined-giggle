@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import getpass
-def get_username():
-        return getpass.getuser()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
