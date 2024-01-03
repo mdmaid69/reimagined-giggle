@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
   import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def calculate_median(arr):
+        return np.median(arr)
