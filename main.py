@@ -1,6 +1,4 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def reverse_list(lst):
+        return lst[::-1]
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
