@@ -1,7 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
