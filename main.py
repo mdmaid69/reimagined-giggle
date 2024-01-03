@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def get_array_as_str(array):
+        return str(array)
