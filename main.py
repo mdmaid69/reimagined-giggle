@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
