@@ -1,9 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import os
+def change_working_directory(path):
+        os.chdir(path)
