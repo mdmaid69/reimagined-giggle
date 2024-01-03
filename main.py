@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_speed(distance, time):
+        return distance / time
