@@ -1,5 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
