@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+for i in range(10): print(i)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
