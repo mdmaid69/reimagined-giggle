@@ -1,5 +1,11 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import collections
+def create_user_list():
+        return collections.UserList()
