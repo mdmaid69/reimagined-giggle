@@ -1,5 +1,7 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-name = "Python"
-print("Hello,", name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
