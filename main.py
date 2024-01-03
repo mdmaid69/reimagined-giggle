@@ -1,5 +1,4 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def convert_to_hex(n):
+        return hex(n)
