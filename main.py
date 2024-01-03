@@ -1,8 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import os
+def remove_directory(path):
+        os.rmdir(path)
