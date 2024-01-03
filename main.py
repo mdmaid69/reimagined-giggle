@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
