@@ -1,5 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def multiply_numbers(x, y):
+        return x * y
+import sys
+def print_python_version():
+        return sys.version
