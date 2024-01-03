@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
