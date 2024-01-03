@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
