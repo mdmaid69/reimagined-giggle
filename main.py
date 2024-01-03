@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import time
+def get_time_since_epoch():
+        return time.time()
+import sys
+def print_python_version():
+        print(sys.version)
