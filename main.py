@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
