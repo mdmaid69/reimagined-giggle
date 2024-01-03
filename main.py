@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import time
+def get_time_since_epoch():
+        return time.time()
