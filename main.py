@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import array
+def clear_array(array):
+        array *= 0
