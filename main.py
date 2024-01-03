@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
+from collections import Counter
+print(Counter("hello world"))
 import array
-def reverse_array(array):
-        array.reverse()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
