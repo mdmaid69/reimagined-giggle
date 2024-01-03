@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
