@@ -1,6 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
