@@ -1,5 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
