@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def find_unique_words(sentence):
-        return set(sentence.split())
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
