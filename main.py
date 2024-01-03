@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def calculate_pressure(force, area):
-        return force / area
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import platform
+def get_python_version():
+        return platform.python_version()
