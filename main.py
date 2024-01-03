@@ -1,6 +1,6 @@
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
