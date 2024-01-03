@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import tensorflow as tf
+print(tf.__version__)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
