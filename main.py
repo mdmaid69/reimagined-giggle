@@ -1,4 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+  def convert_to_binary(n):
+        return bin(n)
+  def square_number(x):
+        return x**2
