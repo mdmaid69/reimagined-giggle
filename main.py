@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def get_list_from_array(array):
+        return array.tolist()
