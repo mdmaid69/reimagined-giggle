@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def convert_to_octal(n):
-        return oct(n)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import collections
+def create_priority_queue():
+        return collections.deque()
