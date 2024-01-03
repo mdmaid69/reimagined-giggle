@@ -1,5 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
