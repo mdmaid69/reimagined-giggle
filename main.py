@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
