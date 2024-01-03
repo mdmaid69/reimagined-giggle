@@ -1,5 +1,7 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
