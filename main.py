@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+for i in range(5):
+        print(i)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
