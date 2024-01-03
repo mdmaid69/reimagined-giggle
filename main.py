@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def cube_number(x):
+        return x**3
+import datetime
+print(datetime.datetime.now())
