@@ -1,6 +1,9 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
