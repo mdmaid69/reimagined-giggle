@@ -1,6 +1,6 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
