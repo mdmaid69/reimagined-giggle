@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_user_string():
+        return collections.UserString()
