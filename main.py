@@ -1,6 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
