@@ -1,5 +1,5 @@
+def calculate_density(mass, volume):
+        return mass / volume
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_arc_cosine(x):
+        return math.acos(x)
