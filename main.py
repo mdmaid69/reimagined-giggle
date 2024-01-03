@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import sys
+def exit_program():
+        sys.exit()
