@@ -1,6 +1,6 @@
+import collections
+def create_user_dict():
+        return collections.UserDict()
 import array
-def clear_array(array):
-        array *= 0
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def get_array_as_bytes(array):
+        return bytes(array)
