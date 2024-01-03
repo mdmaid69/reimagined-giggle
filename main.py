@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def get_array_as_str(array):
-        return str(array)
+import sys
+def print_python_version():
+        print(sys.version)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
