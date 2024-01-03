@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def convert_to_hex(n):
+        return hex(n)
