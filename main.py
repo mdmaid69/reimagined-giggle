@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
