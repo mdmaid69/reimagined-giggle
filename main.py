@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def is_odd(n):
+        return n % 2 != 0
