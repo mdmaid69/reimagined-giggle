@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
