@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
