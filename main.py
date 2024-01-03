@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def get_array_item(array, i):
+        return array[i]
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
