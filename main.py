@@ -1,3 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-print("Hello, world!")
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
