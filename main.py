@@ -1,5 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import tensorflow as tf
-print(tf.__version__)
+from collections import Counter
+print(Counter("hello world"))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
