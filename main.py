@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
