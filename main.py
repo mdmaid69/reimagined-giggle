@@ -1,5 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+text = "Hello, world!"
+print("Uppercase:", text.upper())
