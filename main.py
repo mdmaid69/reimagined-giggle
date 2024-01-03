@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
