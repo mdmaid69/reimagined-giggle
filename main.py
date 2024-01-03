@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
