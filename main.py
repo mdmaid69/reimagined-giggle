@@ -1,9 +1,7 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+def convert_to_binary(n):
+        return bin(n)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
