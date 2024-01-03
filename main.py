@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
