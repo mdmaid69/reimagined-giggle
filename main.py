@@ -1,7 +1,9 @@
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def count_elements(iterable):
+        return collections.Counter(iterable)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
