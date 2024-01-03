@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import time
-print(time.time())
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def find_unique_words(sentence):
+        return set(sentence.split())
