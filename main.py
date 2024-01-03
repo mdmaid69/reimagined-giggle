@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
