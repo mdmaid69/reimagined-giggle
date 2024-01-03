@@ -1,5 +1,9 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def add_numbers(x, y):
-        return x + y
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
