@@ -1,4 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-name = "Python"
-print("Hello,", name)
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
