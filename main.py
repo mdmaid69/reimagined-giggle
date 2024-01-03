@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+text = "Hello, world!"
+print("Uppercase:", text.upper())
 import array
-def get_array_length(array):
-        return len(array)
+def convert_array_to_bytes(array):
+        return array.tobytes()
