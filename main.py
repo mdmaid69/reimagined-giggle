@@ -1,7 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
