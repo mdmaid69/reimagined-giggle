@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
