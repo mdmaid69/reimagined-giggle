@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
