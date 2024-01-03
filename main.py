@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
