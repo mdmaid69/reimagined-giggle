@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
