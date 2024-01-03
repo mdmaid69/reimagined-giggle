@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import platform
+def get_os_info():
+        return platform.uname()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
