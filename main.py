@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
