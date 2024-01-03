@@ -1,5 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_pressure(force, area):
+        return force / area
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
