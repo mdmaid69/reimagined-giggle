@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def add_numbers(x, y):
+        return x + y
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def convert_array_to_unicode(array):
+        return array.tounicode()
