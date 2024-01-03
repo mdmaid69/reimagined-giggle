@@ -1,5 +1,5 @@
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
