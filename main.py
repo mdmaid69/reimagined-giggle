@@ -1,5 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
