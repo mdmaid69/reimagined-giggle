@@ -1,6 +1,6 @@
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def reverse_array(array):
-        array.reverse()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
