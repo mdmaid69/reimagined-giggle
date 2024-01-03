@@ -1,7 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
