@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
