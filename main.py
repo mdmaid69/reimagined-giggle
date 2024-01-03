@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import datetime
+def get_current_date():
+        return datetime.date.today()
