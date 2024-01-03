@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
