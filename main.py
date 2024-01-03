@@ -1,6 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
