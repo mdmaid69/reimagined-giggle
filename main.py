@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
