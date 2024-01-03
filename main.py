@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
