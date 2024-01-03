@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def convert_to_octal(n):
+        return oct(n)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
