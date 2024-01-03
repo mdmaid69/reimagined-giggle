@@ -1,9 +1,6 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def convert_to_binary(n):
-        return bin(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_item(array, i):
+        return array[i]
