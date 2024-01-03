@@ -1,6 +1,9 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
