@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import math
-print(math.pi)
+def calculate_power(work, time):
+        return work / time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
