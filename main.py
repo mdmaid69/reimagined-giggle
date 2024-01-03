@@ -1,6 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
