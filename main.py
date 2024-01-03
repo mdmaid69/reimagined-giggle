@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
