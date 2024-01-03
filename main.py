@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
