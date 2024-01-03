@@ -1,6 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import platform
-def get_os_info():
-        return platform.uname()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
