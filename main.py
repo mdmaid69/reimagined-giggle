@@ -1,6 +1,5 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def split_path(path):
+        return os.path.split(path)
+def count_characters(sentence):
+        return len(sentence)
