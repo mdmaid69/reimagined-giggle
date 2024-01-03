@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
