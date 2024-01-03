@@ -1,5 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
