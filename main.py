@@ -1,6 +1,7 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
