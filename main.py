@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-x = 10
-y = 20
-print("Sum:", x + y)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
