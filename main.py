@@ -1,6 +1,5 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
