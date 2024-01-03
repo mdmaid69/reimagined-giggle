@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import sys
+def exit_program():
+        sys.exit()
+def find_max(numbers):
+        return max(numbers)
