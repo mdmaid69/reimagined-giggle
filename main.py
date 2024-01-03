@@ -1,6 +1,7 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import getpass
-def get_username():
-        return getpass.getuser()
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import array
+def get_array_as_float(array):
+        return float(array[0])
