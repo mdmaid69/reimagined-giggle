@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
