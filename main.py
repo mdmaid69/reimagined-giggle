@@ -1,6 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
