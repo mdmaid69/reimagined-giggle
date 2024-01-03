@@ -1,4 +1,10 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
