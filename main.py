@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def reverse_list(lst):
+        return lst[::-1]
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
