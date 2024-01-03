@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
