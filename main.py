@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
