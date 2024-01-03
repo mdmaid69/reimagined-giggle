@@ -1,8 +1,6 @@
-  import random
-  def generate_random_number(start, end):
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+import random
+def generate_random_number(start, end):
         return random.randint(start, end)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
