@@ -1,8 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
