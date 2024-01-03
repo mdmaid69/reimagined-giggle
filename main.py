@@ -1,5 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_power(work, time):
-        return work / time
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
