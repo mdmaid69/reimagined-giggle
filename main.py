@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import re
-print(re.match("h.*o", "hello world"))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
