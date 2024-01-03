@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
