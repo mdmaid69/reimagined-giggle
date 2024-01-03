@@ -1,4 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
