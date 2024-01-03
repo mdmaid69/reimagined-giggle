@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
