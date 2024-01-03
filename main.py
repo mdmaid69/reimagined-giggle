@@ -1,7 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  def convert_to_binary(n):
+        return bin(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
