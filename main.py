@@ -1,6 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
