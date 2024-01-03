@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
