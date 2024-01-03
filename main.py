@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_length(array):
+        return len(array)
