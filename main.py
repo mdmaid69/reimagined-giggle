@@ -1,8 +1,6 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def get_array_typecode(array):
-        return array.typecode
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
