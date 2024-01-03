@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def convert_to_octal(n):
+        return oct(n)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
