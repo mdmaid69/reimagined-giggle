@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import json
+print(json.dumps({"name": "John", "age": 30}))
