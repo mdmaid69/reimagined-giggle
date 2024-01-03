@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+def convert_to_binary(n):
+        return bin(n)
