@@ -1,6 +1,6 @@
 import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
