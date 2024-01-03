@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+def calculate_acceleration(speed, time):
+        return speed / time
