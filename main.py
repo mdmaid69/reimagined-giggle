@@ -1,6 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
