@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def divide_numbers(x, y):
+        return x / y
