@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
