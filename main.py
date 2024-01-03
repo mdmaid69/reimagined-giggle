@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def find_min(lst):
-        return min(lst)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import collections
+def create_queue():
+        return collections.deque()
