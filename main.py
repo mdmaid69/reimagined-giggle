@@ -1,6 +1,7 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
