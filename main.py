@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
