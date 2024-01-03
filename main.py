@@ -1,5 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import time
+def get_current_time():
+        return time.ctime()
+def count_characters(sentence):
+        return len(sentence)
