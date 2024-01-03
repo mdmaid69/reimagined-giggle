@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def count_words(sentence):
+        return len(sentence.split())
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
