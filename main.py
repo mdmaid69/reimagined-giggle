@@ -1,8 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
