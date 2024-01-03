@@ -1,8 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
