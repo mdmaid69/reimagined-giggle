@@ -1,7 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def reverse_array(array):
+        array.reverse()
