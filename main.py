@@ -1,6 +1,6 @@
-def square_number(x):
-        return x**2
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
