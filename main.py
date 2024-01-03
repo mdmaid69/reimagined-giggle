@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
