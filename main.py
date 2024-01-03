@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
