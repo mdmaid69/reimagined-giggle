@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import collections
+def create_queue():
+        return collections.deque()
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
