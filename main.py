@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
