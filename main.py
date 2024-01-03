@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def multiply_numbers(x, y):
+        return x * y
