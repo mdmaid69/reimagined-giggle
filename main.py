@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+def cube_number(x):
+        return x**3
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
