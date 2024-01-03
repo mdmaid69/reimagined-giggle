@@ -1,5 +1,7 @@
-def convert_to_hex(n):
-        return hex(n)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
