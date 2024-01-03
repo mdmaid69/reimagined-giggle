@@ -1,5 +1,6 @@
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
