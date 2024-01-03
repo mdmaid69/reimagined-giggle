@@ -1,5 +1,8 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
