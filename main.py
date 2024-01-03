@@ -1,4 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
