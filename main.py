@@ -1,6 +1,6 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
