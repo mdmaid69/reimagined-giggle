@@ -1,6 +1,5 @@
+  def reverse_list(lst):
+        return lst[::-1]
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
