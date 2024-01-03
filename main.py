@@ -1,5 +1,8 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def get_array_typecode(array):
+        return array.typecode
