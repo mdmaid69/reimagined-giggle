@@ -1,6 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
