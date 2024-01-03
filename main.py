@@ -1,6 +1,6 @@
+import sys
+def print_python_version():
+        print(sys.version)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
