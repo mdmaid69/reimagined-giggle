@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
