@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
