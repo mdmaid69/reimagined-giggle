@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+text = "Hello, world!"
+print("Characters:", len(text))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
