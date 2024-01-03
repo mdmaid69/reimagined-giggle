@@ -1,6 +1,3 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+for i in range(10): print(i)
+text = "Hello, world!"
+print("Words:", len(text.split()))
