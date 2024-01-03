@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
