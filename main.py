@@ -1,4 +1,6 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_power(work, time):
-        return work / time
+import array
+def clear_array(array):
+        array *= 0
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
