@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_list_from_array(array):
+        return array.tolist()
