@@ -1,6 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
