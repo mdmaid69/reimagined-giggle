@@ -1,4 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_array_as_list(array):
+        return list(array)
