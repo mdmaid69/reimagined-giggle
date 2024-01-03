@@ -1,5 +1,7 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import collections
+def create_user_string():
+        return collections.UserString()
