@@ -1,7 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
