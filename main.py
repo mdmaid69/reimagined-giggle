@@ -1,5 +1,7 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
