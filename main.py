@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
