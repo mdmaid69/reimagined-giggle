@@ -1,6 +1,4 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def is_even(n):
+        return n % 2 == 0
+  def subtract_numbers(x, y):
+        return x - y
