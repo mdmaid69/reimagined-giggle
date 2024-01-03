@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import re
-print(re.match("h.*o", "hello world"))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
