@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+text = "Hello, world!"
+print("Words:", len(text.split()))
