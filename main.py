@@ -1,6 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
