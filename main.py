@@ -1,4 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
