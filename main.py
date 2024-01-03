@@ -1,5 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-import re
-print(re.match("h.*o", "hello world"))
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
