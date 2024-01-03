@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
