@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
