@@ -1,5 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def add_numbers(a, b):
-        return a + b
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import collections
+def create_priority_queue():
+        return collections.deque()
