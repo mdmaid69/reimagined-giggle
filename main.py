@@ -1,7 +1,6 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
