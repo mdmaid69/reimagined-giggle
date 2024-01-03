@@ -1,4 +1,6 @@
-def cube_number(x):
-        return x**3
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
