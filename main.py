@@ -1,5 +1,5 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
