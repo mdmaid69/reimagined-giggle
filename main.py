@@ -1,6 +1,8 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
