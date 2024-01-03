@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_acceleration(speed, time):
+        return speed / time
