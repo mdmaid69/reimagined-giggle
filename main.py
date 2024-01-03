@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import sys
+def print_python_version():
+        return sys.version
