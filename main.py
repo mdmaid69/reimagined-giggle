@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def calculate_area_circle(r):
+        return 3.14 * r**2
