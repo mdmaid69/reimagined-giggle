@@ -1,6 +1,5 @@
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def convert_array_to_bytes(array):
+        return array.tobytes()
