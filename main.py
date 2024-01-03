@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
