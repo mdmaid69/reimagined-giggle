@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_sine(x):
+        return math.sin(x)
