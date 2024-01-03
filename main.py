@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
