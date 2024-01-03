@@ -1,6 +1,6 @@
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
