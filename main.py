@@ -1,5 +1,6 @@
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
