@@ -1,6 +1,6 @@
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def create_queue():
+        return collections.deque()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
