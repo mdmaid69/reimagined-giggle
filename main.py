@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def count_characters(sentence):
+        return len(sentence)
