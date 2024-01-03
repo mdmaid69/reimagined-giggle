@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
 import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def convert_to_json(data):
+        return json.dumps(data)
