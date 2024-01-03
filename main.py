@@ -1,7 +1,4 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def calculate_power(work, time):
+        return work / time
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
