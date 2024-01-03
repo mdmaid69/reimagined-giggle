@@ -1,5 +1,6 @@
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
