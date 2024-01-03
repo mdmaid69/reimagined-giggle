@@ -1,6 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+text = "Hello, world!"
+print("Words:", len(text.split()))
