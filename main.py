@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import collections
-def create_priority_queue():
-        return collections.deque()
+from collections import Counter
+print(Counter("hello world"))
+import os
+def get_current_working_directory():
+        return os.getcwd()
