@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
