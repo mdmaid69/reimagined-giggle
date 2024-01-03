@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
