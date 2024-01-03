@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
