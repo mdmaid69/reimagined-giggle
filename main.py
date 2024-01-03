@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def calculate_acceleration(speed, time):
-        return speed / time
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import array
+def get_array_as_str(array):
+        return str(array)
