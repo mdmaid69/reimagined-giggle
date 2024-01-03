@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
