@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
