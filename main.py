@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import time
+def get_time_since_epoch():
+        return time.time()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
