@@ -1,6 +1,7 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
