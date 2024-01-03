@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
