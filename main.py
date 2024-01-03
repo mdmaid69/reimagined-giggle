@@ -1,6 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def is_even(n):
+        return n % 2 == 0
