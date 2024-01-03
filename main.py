@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def sort_list(lst):
+        return sorted(lst)
+  def reverse_list(lst):
+        return lst[::-1]
