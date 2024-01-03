@@ -1,5 +1,6 @@
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
