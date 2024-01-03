@@ -1,4 +1,6 @@
-for i in range(5):
-        print(i)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
