@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def is_odd(n):
+        return n % 2 != 0
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
