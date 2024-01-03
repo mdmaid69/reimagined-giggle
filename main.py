@@ -1,6 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  def split_path(path):
+        return os.path.split(path)
