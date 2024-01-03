@@ -1,5 +1,5 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
