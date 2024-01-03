@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
 list1 = [1, 2, 3]
 list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+print("Difference:", set(list1) - set(list2))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
