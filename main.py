@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import random
-def roll_die():
-        return random.randint(1, 6)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  def convert_to_octal(n):
+        return oct(n)
