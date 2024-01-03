@@ -1,5 +1,8 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_current_working_directory():
+        return os.getcwd()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
