@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
