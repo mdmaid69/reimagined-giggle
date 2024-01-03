@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def get_string_from_array(array):
+        return array.tobytes()
