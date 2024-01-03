@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import sys
+  def get_python_version():
+        return sys.version
