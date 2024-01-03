@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def sort_list(lst):
+        return sorted(lst)
