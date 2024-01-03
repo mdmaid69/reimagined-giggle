@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
