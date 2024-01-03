@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
