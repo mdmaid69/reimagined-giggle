@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import array
+def clear_array(array):
+        array *= 0
