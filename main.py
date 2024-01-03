@@ -1,5 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import array
+def convert_array_to_list(array):
+        return array.tolist()
