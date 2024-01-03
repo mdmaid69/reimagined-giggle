@@ -1,5 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
