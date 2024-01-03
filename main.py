@@ -1,6 +1,7 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
