@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
