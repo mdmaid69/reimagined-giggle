@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_acceleration(speed, time):
+        return speed / time
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
