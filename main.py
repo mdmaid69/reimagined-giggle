@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
