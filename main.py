@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def count_words(sentence):
+        return len(sentence.split())
