@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_power(work, time):
+        return work / time
