@@ -1,4 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  def reverse_list(lst):
+        return lst[::-1]
