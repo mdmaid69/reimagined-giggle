@@ -1,5 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
