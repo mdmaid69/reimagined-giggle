@@ -1,5 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  def square_number(x):
-        return x**2
+  def sort_list(lst):
+        return sorted(lst)
+  def calculate_area_rectangle(l, w):
+        return l * w
