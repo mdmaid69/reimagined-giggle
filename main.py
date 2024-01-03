@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
