@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
