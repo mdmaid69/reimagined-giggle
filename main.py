@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
