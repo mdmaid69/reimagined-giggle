@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import re
+print(re.match("h.*o", "hello world"))
+import collections
+def create_user_dict():
+        return collections.UserDict()
