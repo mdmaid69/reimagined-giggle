@@ -1,6 +1,3 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_density(mass, volume):
+        return mass / volume
+print("Hello, world!")
