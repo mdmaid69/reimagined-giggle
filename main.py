@@ -1,7 +1,8 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        a.fromstring(string)
         return a
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
