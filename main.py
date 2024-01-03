@@ -1,6 +1,8 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import sys
+def print_python_version():
+        print(sys.version)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
