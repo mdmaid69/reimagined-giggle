@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
