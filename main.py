@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def remove_duplicates(lst):
+        return list(set(lst))
+  def subtract_numbers(x, y):
+        return x - y
