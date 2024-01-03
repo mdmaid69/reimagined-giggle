@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
+import datetime
+def get_today_date():
+        return datetime.date.today()
 import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
