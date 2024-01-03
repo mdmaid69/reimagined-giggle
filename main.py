@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
