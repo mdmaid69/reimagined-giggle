@@ -1,6 +1,6 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def create_stack():
-        return collections.deque()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def append_to_array(array, item):
+        array.append(item)
