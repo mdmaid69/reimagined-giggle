@@ -1,5 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
