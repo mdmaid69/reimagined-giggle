@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def sort_numbers(numbers):
+        return sorted(numbers)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
