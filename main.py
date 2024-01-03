@@ -1,5 +1,12 @@
-  def is_even(n):
-        return n % 2 == 0
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
