@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+for i in range(5):
+        print(i)
+def convert_to_binary(n):
+        return bin(n)
