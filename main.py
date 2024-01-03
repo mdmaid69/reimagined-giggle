@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
