@@ -1,6 +1,5 @@
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def find_max(numbers):
+        return max(numbers)
