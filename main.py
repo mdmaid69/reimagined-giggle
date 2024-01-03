@@ -1,5 +1,4 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+text = "Hello, world!"
+print("Uppercase:", text.upper())
