@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
