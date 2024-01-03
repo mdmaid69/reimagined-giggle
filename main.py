@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
