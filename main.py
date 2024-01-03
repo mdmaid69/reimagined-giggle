@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import collections
-def create_queue():
-        return collections.deque()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def reverse_list(lst):
+        return lst[::-1]
