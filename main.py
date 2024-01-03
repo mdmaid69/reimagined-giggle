@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-import sys
-def exit_program():
-        sys.exit()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
