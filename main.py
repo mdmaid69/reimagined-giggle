@@ -1,6 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def get_array_item(array, i):
-        return array[i]
+def count_words(sentence):
+        return len(sentence.split())
+import re
+print(re.match("h.*o", "hello world"))
