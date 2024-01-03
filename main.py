@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
