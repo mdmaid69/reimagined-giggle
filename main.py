@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_pressure(force, area):
+        return force / area
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
