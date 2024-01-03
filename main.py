@@ -1,6 +1,9 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import os
-def get_current_working_directory():
-        return os.getcwd()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
