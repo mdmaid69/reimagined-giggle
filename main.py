@@ -1,6 +1,7 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
