@@ -1,6 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def count_elements(lst):
+        return len(lst)
