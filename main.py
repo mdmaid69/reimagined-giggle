@@ -1,5 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import re
-print(re.match("h.*o", "hello world"))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
