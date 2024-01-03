@@ -1,7 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
