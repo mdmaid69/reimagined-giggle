@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def is_odd(n):
-        return n % 2 != 0
+import datetime
+print(datetime.datetime.now())
+import collections
+def create_user_dict():
+        return collections.UserDict()
