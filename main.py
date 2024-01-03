@@ -1,8 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import numpy as np
+print(np.array([1, 2, 3]))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
