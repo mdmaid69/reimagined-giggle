@@ -1,6 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+print(math.pi)
+import time
+def get_current_time():
+        return time.ctime()
