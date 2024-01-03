@@ -1,6 +1,7 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
