@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
