@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
