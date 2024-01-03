@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
