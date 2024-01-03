@@ -1,6 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
