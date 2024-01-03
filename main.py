@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_acceleration(speed, time):
+        return speed / time
