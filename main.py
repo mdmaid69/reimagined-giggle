@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_density(mass, volume):
+        return mass / volume
