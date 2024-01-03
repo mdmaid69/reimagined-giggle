@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
