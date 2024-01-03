@@ -1,6 +1,6 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def calculate_exponential(x):
+        return math.exp(x)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
