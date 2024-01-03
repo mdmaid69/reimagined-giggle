@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
