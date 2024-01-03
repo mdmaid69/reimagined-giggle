@@ -1,5 +1,5 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
