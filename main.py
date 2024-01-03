@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+def find_unique_words(sentence):
+        return set(sentence.split())
