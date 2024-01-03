@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-print(math.pi)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
