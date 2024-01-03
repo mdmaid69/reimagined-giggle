@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def calculate_density(mass, volume):
+        return mass / volume
