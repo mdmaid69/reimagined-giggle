@@ -1,5 +1,7 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
