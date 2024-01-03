@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+def calculate_pressure(force, area):
+        return force / area
