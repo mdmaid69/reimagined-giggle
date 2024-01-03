@@ -1,6 +1,6 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
