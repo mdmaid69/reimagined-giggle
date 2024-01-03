@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-x = 10
-y = 20
-print("Sum:", x + y)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
