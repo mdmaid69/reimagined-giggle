@@ -1,6 +1,6 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
