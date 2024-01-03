@@ -1,11 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
