@@ -1,4 +1,7 @@
-import random
-print(random.randint(0, 100))
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import sys
+def print_python_version():
+        print(sys.version)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
