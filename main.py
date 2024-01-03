@@ -1,6 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
