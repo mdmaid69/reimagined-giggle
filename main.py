@@ -1,6 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
