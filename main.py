@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def subtract_numbers(x, y):
+        return x - y
