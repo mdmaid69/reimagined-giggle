@@ -1,5 +1,6 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
