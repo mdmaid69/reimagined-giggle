@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
