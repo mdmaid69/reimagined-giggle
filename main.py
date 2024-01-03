@@ -1,5 +1,4 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
