@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def find_min(lst):
-        return min(lst)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
