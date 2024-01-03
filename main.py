@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import time
+def get_current_time():
+        return time.ctime()
+  def add_numbers(x, y):
+        return x + y
