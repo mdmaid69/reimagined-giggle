@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
