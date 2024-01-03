@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
