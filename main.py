@@ -1,6 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
