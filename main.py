@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_work(force, distance):
+        return force * distance
