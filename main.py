@@ -1,5 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
