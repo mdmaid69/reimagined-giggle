@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import os
+print(os.getcwd())
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
