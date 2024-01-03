@@ -1,5 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def get_array_as_memoryview(array):
+        return memoryview(array)
