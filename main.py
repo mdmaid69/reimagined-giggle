@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def get_array_as_float(array):
+        return float(array[0])
