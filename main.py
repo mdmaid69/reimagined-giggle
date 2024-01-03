@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  def is_even(n):
+        return n % 2 == 0
