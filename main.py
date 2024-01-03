@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-def calculate_speed(distance, time):
-        return distance / time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
