@@ -1,5 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  def is_odd(n):
+        return n % 2 != 0
