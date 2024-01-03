@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def get_array_typecode(array):
+        return array.typecode
