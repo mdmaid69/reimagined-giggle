@@ -1,6 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_volume(length, width, height):
-        return length * width * height
+import logging
+def log_message(message):
+        logging.info(message)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
