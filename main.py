@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
