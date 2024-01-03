@@ -1,6 +1,7 @@
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
 import array
-def get_array_item(array, i):
-        return array[i]
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
