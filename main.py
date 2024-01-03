@@ -1,6 +1,5 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_as_repr(array):
+        return repr(array)
+def is_odd(n):
+        return n % 2 != 0
