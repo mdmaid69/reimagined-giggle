@@ -1,7 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
