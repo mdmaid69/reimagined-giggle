@@ -1,6 +1,8 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
