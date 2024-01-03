@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def find_min(numbers):
+        return min(numbers)
