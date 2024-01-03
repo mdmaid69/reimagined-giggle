@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
