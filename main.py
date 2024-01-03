@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-x = 10
-y = 20
-print("Sum:", x + y)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def is_even(n):
+        return n % 2 == 0
