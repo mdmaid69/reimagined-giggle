@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
