@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
