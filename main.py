@@ -1,6 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
