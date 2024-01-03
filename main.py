@@ -1,6 +1,8 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
