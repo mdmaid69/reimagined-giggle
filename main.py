@@ -1,7 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-for i in range(10): print(i)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
