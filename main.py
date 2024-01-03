@@ -1,5 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def add_numbers(x, y):
+        return x + y
+def divide_numbers(x, y):
+        return x / y
