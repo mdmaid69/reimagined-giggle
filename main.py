@@ -1,8 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
