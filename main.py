@@ -1,5 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-text = "Hello, world!"
-print("Characters:", len(text))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
