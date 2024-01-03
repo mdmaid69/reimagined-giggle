@@ -1,6 +1,8 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
