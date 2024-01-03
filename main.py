@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
