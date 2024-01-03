@@ -1,6 +1,9 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_index(array, item):
-        return array.index(item)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
