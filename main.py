@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
