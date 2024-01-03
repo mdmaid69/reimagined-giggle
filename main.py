@@ -1,4 +1,9 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def convert_to_octal(n):
-        return oct(n)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
