@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import array
-def get_array_as_list(array):
-        return list(array)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def divide_numbers(x, y):
+        return x / y
