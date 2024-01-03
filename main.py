@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import os
+print(os.getcwd())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
