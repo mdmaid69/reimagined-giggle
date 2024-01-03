@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
