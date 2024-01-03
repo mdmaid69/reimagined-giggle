@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
