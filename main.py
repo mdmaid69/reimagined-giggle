@@ -1,5 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_npv(rate, cash_flows):
+        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
