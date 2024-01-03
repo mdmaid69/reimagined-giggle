@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
