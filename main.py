@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
