@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def is_odd(n):
-        return n % 2 != 0
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_pressure(force, area):
+        return force / area
