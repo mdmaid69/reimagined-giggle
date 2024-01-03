@@ -1,6 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import array
+def get_array_as_repr(array):
+        return repr(array)
