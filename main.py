@@ -1,11 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
