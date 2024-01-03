@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_speed(distance, time):
+        return distance / time
