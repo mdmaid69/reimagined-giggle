@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
