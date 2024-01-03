@@ -1,6 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_sine(x):
+        return math.sin(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
