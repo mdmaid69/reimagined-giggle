@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
