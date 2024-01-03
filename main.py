@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+x = 10
+y = 20
+print("Sum:", x + y)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
