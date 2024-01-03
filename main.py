@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import time
-def get_current_time():
-        return time.time()
+import collections
+def create_stack():
+        return collections.deque()
+def find_max(lst):
+        return max(lst)
