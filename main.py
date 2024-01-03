@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
