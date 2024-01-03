@@ -1,5 +1,4 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+print(sum(range(10)))
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
