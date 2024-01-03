@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def find_union(list1, list2):
+        return set(list1) | set(list2)
