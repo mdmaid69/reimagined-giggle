@@ -1,5 +1,4 @@
-def convert_to_hex(n):
-        return hex(n)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_volume(length, width, height):
+        return length * width * height
+  def sort_list(lst):
+        return sorted(lst)
