@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import time
+print(time.time())
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
