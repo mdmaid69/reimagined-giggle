@@ -1,7 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
