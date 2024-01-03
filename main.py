@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def square_number(x):
+        return x**2
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
