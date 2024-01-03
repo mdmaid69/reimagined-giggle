@@ -1,6 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def split_path(path):
+        return os.path.split(path)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
