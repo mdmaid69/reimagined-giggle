@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
