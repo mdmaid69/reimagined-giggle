@@ -1,5 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
