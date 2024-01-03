@@ -1,7 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_pressure(force, area):
-        return force / area
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
