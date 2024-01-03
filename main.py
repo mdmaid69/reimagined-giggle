@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import random
+print(random.randint(0, 100))
+import datetime
+def get_today_date():
+        return datetime.date.today()
