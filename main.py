@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def convert_to_octal(n):
-        return oct(n)
+def calculate_density(mass, volume):
+        return mass / volume
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
