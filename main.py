@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import datetime
+print(datetime.datetime.now())
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
