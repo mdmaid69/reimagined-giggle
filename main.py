@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def reverse_list(lst):
-        return lst[::-1]
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
