@@ -1,4 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def multiply_numbers(x, y):
-        return x * y
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
