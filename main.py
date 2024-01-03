@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
