@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  def cube_number(x):
-        return x**3
+import array
+def get_array_as_set(array):
+        return set(array)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
