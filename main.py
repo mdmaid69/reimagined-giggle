@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def reverse_list(lst):
+        return lst[::-1]
