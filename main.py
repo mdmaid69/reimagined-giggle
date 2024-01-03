@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_pressure(force, area):
-        return force / area
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
