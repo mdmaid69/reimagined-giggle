@@ -1,4 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def find_min(lst):
+        return min(lst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
