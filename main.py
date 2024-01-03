@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import collections
-def create_priority_queue():
-        return collections.deque()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
