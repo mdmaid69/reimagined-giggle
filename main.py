@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import tensorflow as tf
+print(tf.__version__)
+import array
+def get_array_item(array, i):
+        return array[i]
