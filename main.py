@@ -1,6 +1,6 @@
+  import sys
+  def get_python_version():
+        return sys.version
 import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
