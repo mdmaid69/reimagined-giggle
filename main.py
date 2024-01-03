@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-for i in range(5):
-        print(i)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_current_directory():
+        return os.getcwd()
