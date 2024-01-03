@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
