@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def multiply_numbers(x, y):
+        return x * y
