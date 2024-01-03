@@ -1,10 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
