@@ -1,9 +1,8 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
