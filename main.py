@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
