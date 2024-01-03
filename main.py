@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def square_number(x):
+        return x**2
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
