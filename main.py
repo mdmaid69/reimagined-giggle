@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def subtract_numbers(x, y):
+        return x - y
