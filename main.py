@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
