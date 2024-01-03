@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def count_elements(lst):
+        return len(lst)
