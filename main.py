@@ -1,6 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def subtract_numbers(x, y):
+        return x - y
