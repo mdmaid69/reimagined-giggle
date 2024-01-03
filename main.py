@@ -1,5 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def get_array_as_str(array):
+        return str(array)
