@@ -1,4 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
