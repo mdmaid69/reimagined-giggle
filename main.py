@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-  def multiply_numbers(x, y):
-        return x * y
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
