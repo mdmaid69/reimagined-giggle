@@ -1,6 +1,4 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  def subtract_numbers(x, y):
+        return x - y
