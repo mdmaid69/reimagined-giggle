@@ -1,6 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def cube_number(x):
+        return x**3
+i = 0
+while i < 5:
+        print(i)
+        i += 1
