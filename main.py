@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import getpass
+def get_username():
+        return getpass.getuser()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
