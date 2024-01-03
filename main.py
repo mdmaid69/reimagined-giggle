@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
