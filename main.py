@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import array
+def get_array_index(array, item):
+        return array.index(item)
