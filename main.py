@@ -1,6 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
