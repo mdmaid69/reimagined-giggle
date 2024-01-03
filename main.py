@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def find_min(lst):
+        return min(lst)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
