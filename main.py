@@ -1,5 +1,6 @@
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def calculate_power(work, time):
-        return work / time
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
