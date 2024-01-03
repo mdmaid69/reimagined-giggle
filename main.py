@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+print(sum(range(10)))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
