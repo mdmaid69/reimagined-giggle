@@ -1,5 +1,7 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import getpass
+def get_username():
+        return getpass.getuser()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
