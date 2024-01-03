@@ -1,5 +1,4 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def find_min(numbers):
+        return min(numbers)
+def find_unique_words(sentence):
+        return set(sentence.split())
