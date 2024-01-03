@@ -1,5 +1,4 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
