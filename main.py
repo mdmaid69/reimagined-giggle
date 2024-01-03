@@ -1,6 +1,6 @@
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
