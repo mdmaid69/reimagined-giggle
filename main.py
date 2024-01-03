@@ -1,6 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import time
+print(time.time())
