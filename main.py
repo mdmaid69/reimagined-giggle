@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
 import sys
-def exit_program():
-        sys.exit()
+def print_python_version():
+        return sys.version
