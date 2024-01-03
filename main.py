@@ -1,5 +1,7 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_acceleration(speed, time):
+        return speed / time
