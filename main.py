@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def count_elements(lst):
-        return len(lst)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_cosine(x):
+        return math.cos(x)
