@@ -1,6 +1,7 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
