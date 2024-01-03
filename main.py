@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_user_string():
-        return collections.UserString()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
