@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
