@@ -1,7 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
