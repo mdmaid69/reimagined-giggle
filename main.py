@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
