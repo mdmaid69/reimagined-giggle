@@ -1,8 +1,12 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def get_array_as_memoryview(array):
+        return memoryview(array)
