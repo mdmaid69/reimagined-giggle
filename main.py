@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
