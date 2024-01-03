@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import math
+def calculate_floor(x):
+        return math.floor(x)
