@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+def calculate_work(force, distance):
+        return force * distance
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_as_frozenset(array):
+        return frozenset(array)
