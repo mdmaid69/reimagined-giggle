@@ -1,5 +1,7 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
