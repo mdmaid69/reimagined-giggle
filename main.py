@@ -1,5 +1,8 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
