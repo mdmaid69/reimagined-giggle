@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
