@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
