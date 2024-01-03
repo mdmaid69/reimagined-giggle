@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
