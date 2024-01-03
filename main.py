@@ -1,4 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-def find_unique_words(sentence):
-        return set(sentence.split())
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
