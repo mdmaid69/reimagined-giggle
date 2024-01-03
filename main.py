@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def get_array_as_str(array):
-        return str(array)
+  def convert_to_octal(n):
+        return oct(n)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
