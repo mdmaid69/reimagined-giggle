@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import sys
+print(sys.version)
