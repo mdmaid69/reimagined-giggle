@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
