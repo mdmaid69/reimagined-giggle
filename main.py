@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def reverse_string(s):
+        return s[::-1]
