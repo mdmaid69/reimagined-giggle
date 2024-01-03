@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def reverse_array(array):
-        array.reverse()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_work(force, distance):
+        return force * distance
