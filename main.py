@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def find_min(numbers):
+        return min(numbers)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
