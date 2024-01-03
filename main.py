@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
