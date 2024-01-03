@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def is_palindrome(s):
+        return s == s[::-1]
