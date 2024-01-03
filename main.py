@@ -1,5 +1,7 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
