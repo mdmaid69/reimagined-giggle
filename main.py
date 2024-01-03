@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
