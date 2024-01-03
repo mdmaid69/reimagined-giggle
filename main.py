@@ -1,4 +1,6 @@
-import sys
-print(sys.version)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
