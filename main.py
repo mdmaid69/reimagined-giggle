@@ -1,5 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
