@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
