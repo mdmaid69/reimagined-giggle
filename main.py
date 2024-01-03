@@ -1,5 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
