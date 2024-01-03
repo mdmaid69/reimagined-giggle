@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
