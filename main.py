@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
