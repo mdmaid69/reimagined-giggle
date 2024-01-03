@@ -1,6 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import array
-def get_array_as_set(array):
-        return set(array)
+def get_array_as_complex(array):
+        return complex(array[0])
