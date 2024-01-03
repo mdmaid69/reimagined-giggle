@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import array
-def get_array_item(array, i):
-        return array[i]
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+import random
+print(random.randint(0, 100))
