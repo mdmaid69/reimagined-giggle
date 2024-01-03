@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
