@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def square_number(x):
+        return x**2
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
