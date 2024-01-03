@@ -1,5 +1,6 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import os
-print(os.getcwd())
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
