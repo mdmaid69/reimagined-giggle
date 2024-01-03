@@ -1,6 +1,7 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def is_palindrome(s):
+        return s == s[::-1]
