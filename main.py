@@ -1,4 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def convert_to_hex(n):
+        return hex(n)
