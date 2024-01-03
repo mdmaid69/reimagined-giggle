@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
