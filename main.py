@@ -1,5 +1,7 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_floor(x):
-        return math.floor(x)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
