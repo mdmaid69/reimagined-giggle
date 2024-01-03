@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
