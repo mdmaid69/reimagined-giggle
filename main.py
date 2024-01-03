@@ -1,4 +1,5 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_area_circle(r):
+        return 3.14 * r**2
