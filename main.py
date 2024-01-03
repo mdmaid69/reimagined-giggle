@@ -1,6 +1,5 @@
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import sys
-  def get_python_version():
-        return sys.version
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
