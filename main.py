@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def find_union(list1, list2):
+        return set(list1) | set(list2)
