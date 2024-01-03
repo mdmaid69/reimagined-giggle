@@ -1,7 +1,8 @@
-import socket
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import unittest
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
