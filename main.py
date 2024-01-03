@@ -1,9 +1,5 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
   import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
