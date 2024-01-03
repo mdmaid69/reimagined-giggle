@@ -1,5 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def square_number(x):
-        return x**2
+def sort_list(lst):
+        return sorted(lst)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
