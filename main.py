@@ -1,5 +1,6 @@
+import array
+def get_array_as_bool(array):
+        return bool(array)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_cosine(x):
+        return math.cos(x)
