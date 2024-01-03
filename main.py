@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
