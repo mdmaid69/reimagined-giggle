@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def reverse_string(s):
-        return s[::-1]
+import logging
+def log_message(message):
+        logging.info(message)
+def greet(name):
+        print(f"Hello, {name}!")
