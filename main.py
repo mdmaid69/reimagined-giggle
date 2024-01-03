@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
