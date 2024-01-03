@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
