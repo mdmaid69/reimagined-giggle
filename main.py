@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_length(array):
+        return len(array)
+import array
+def get_list_from_array(array):
+        return array.tolist()
