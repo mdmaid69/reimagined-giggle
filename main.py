@@ -1,5 +1,6 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
