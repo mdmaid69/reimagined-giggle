@@ -1,5 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
