@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
