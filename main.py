@@ -1,4 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-  def subtract_numbers(x, y):
-        return x - y
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
