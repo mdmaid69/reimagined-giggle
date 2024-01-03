@@ -1,7 +1,9 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import sys
+  def get_python_version():
+        return sys.version
