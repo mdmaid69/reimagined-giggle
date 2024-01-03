@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
