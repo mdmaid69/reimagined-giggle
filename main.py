@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
