@@ -1,6 +1,4 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def sort_list(lst):
+        return sorted(lst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
