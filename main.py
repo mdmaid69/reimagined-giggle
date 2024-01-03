@@ -1,6 +1,11 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
