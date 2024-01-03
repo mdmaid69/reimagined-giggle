@@ -1,5 +1,6 @@
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import sys
+def print_python_version():
+        return sys.version
