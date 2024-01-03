@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_base_name(path):
+        return os.path.basename(path)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
