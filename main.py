@@ -1,5 +1,6 @@
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
