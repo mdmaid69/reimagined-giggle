@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import array
+def reverse_array(array):
+        array.reverse()
+def reverse_string(s):
+        return s[::-1]
