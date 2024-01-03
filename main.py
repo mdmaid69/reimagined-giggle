@@ -1,8 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import datetime
+def get_current_date():
+        return datetime.date.today()
