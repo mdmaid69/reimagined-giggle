@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import sys
-def exit_program():
-        sys.exit()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
