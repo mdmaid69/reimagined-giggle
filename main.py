@@ -1,6 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
