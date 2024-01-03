@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
