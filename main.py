@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
