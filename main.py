@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def add_numbers(x, y):
+        return x + y
+import platform
+def get_python_version():
+        return platform.python_version()
