@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
