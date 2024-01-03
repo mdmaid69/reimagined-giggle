@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def cube_number(x):
+        return x**3
