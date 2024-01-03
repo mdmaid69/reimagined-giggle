@@ -1,6 +1,7 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
