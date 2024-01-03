@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
