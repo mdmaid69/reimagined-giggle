@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def remove_duplicates(lst):
+        return list(set(lst))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
