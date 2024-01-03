@@ -1,6 +1,7 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
