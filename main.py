@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
