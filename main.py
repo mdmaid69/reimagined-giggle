@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
