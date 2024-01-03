@@ -1,5 +1,7 @@
-  def is_even(n):
-        return n % 2 == 0
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
