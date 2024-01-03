@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import random
+def roll_die():
+        return random.randint(1, 6)
