@@ -1,6 +1,4 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
+print(sum(range(10)))
 import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
