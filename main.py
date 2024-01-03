@@ -1,5 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+  def multiply_numbers(x, y):
+        return x * y
