@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import collections
+def create_priority_queue():
+        return collections.deque()
