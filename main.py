@@ -1,5 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-def cube_number(x):
-        return x**3
+def remove_duplicates(lst):
+        return list(set(lst))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
