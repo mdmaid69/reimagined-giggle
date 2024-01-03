@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
