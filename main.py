@@ -1,6 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
