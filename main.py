@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+def calculate_acceleration(speed, time):
+        return speed / time
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
