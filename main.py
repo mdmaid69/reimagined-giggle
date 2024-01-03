@@ -1,12 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def append_to_array(array, item):
+        array.append(item)
