@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-import sys
-def exit_program():
-        sys.exit()
+def add_numbers(x, y):
+        return x + y
+import array
+def convert_array_to_string(array):
+        return array.tostring()
