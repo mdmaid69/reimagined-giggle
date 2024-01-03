@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
