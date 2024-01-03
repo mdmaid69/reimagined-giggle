@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
