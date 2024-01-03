@@ -1,6 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def append_to_array(array, item):
+        array.append(item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
