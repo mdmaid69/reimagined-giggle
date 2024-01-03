@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
