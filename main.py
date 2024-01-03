@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def subtract_numbers(x, y):
+        return x - y
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
