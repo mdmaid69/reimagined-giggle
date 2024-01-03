@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_perpetuity(payment, rate):
+        return payment / rate
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_bool(array):
+        return bool(array)
