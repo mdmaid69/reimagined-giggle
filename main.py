@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def reverse_list(lst):
+        return lst[::-1]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
