@@ -1,6 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def get_array_as_float(array):
+        return float(array[0])
+def cube_number(x):
+        return x**3
