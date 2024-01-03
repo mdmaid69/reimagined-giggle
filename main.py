@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_sine(x):
+        return math.sin(x)
