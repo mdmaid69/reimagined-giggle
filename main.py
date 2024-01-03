@@ -1,3 +1,7 @@
-print([x**2 for x in range(10)])
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import time
+def get_current_time():
+        return time.time()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
