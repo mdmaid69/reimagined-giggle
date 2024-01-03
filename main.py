@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def reverse_array(array):
-        array.reverse()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+def count_words(sentence):
+        return len(sentence.split())
