@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import os
+def change_working_directory(path):
+        os.chdir(path)
