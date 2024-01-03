@@ -1,6 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
