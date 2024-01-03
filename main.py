@@ -1,5 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-def calculate_speed(distance, time):
-        return distance / time
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
