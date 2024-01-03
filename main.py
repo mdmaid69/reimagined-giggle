@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+x = 10
+y = 20
+print("Sum:", x + y)
+  def remove_duplicates(lst):
+        return list(set(lst))
