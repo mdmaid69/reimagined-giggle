@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_pressure(force, area):
+        return force / area
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
