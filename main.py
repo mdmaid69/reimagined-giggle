@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
