@@ -1,6 +1,6 @@
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
