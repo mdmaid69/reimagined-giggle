@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
