@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_error_function(x):
+        return math.erf(x)
