@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
