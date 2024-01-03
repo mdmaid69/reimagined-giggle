@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def square_number(x):
+        return x**2
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
