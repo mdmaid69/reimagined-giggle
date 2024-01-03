@@ -1,9 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import collections
+def create_priority_queue():
+        return collections.deque()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
