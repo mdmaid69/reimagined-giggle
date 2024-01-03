@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import time
+def get_current_time():
+        return time.ctime()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
