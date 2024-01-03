@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def calculate_sine(x):
+        return math.sin(x)
