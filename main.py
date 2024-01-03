@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
