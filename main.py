@@ -1,5 +1,7 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_pressure(force, area):
-        return force / area
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
