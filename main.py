@@ -1,5 +1,6 @@
+import math
+def calculate_tangent(x):
+        return math.tan(x)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  def reverse_list(lst):
-        return lst[::-1]
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
