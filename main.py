@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
