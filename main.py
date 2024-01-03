@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
