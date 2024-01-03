@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-name = "Python"
-print("Hello,", name)
+import time
+def get_time_since_epoch():
+        return time.time()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
