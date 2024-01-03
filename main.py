@@ -1,5 +1,4 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def add_numbers(x, y):
+        return x + y
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
