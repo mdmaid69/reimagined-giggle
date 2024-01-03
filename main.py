@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
