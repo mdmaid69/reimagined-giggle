@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
