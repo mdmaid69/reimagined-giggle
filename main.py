@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def split_path(path):
+        return os.path.split(path)
