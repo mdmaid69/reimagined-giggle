@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
