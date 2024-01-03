@@ -1,6 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
   import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import sys
-def exit_program():
-        sys.exit()
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
