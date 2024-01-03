@@ -1,6 +1,10 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import collections
+def create_queue():
+        return collections.deque()
