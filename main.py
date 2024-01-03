@@ -1,5 +1,5 @@
 import math
-print(math.pi)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
