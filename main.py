@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def get_array_as_list(array):
+        return list(array)
