@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
