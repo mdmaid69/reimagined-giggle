@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def convert_to_octal(n):
+        return oct(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
