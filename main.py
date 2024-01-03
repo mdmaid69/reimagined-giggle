@@ -1,5 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
