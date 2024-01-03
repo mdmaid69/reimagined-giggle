@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import platform
-def get_python_version():
-        return platform.python_version()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
