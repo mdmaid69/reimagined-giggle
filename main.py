@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import logging
-def log_message(message):
-        logging.info(message)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
