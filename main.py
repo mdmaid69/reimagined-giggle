@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def cube_number(x):
+        return x**3
