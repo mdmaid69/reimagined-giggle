@@ -1,5 +1,11 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
