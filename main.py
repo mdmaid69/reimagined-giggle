@@ -1,6 +1,6 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
