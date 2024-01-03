@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
