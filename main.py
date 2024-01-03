@@ -1,5 +1,6 @@
+import array
+def get_array_as_str(array):
+        return str(array)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-from collections import Counter
-print(Counter("hello world"))
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
