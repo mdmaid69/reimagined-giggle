@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import datetime
+def get_current_date():
+        return datetime.date.today()
