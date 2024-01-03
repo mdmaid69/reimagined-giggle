@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
