@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import collections
-def create_queue():
-        return collections.deque()
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def get_array_length(array):
+        return len(array)
