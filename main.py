@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import platform
+def get_os_info():
+        return platform.uname()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
