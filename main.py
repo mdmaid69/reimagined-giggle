@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def reverse_string(s):
+        return s[::-1]
