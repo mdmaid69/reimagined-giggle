@@ -1,7 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def find_min(numbers):
-        return min(numbers)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def calculate_force(mass, acceleration):
+        return mass * acceleration
