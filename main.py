@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
