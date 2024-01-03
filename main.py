@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
