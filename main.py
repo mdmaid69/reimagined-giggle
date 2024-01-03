@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-for i in range(5):
-        print(i)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
