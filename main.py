@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
