@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
