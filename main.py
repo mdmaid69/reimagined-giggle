@@ -1,5 +1,6 @@
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
