@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  def count_elements(lst):
+        return len(lst)
