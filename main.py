@@ -1,6 +1,6 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
