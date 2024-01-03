@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
