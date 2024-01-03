@@ -1,5 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def greet(name):
+        print(f"Hello, {name}!")
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
