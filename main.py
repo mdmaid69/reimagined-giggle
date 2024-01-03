@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
