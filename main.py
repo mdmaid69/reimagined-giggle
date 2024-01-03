@@ -1,6 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
