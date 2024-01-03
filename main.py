@@ -1,7 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+for i in range(5):
+        print(i)
+def calculate_pressure(force, area):
+        return force / area
