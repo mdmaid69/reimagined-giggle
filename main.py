@@ -1,5 +1,5 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
