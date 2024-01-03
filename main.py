@@ -1,5 +1,5 @@
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
