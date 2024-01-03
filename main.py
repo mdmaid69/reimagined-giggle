@@ -1,6 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
