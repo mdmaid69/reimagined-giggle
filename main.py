@@ -1,5 +1,7 @@
-import datetime
-print(datetime.datetime.now())
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
