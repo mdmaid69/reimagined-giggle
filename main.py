@@ -1,8 +1,4 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  def is_odd(n):
+        return n % 2 != 0
+def count_characters(sentence):
+        return len(sentence)
