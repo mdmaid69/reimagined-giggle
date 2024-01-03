@@ -1,4 +1,11 @@
-def convert_to_hex(n):
-        return hex(n)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
