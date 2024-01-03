@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import collections
-def create_stack():
-        return collections.deque()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
