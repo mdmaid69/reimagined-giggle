@@ -1,5 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
