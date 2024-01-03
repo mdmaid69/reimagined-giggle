@@ -1,5 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def convert_to_binary(n):
+        return bin(n)
