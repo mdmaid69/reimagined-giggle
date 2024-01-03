@@ -1,6 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
