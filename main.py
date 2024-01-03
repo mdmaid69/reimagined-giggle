@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
