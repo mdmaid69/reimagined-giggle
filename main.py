@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-import time
-def get_current_time():
-        return time.ctime()
+  def reverse_list(lst):
+        return lst[::-1]
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
