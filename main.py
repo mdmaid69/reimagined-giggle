@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import time
+def get_time_since_epoch():
+        return time.time()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
