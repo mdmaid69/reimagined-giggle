@@ -1,5 +1,4 @@
+print("Hello, world!")
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
