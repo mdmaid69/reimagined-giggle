@@ -1,6 +1,5 @@
+def reverse_string(s):
+        return s[::-1]
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
