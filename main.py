@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
