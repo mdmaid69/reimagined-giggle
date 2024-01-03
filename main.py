@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
