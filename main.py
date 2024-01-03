@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
