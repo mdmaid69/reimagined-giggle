@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
