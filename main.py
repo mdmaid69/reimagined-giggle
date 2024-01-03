@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import collections
-def create_queue():
-        return collections.deque()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
