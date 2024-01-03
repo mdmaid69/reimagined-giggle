@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
