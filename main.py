@@ -1,8 +1,5 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
