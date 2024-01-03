@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import sys
+def exit_program():
+        sys.exit()
