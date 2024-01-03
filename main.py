@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
