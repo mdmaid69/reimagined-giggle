@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
