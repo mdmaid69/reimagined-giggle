@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
