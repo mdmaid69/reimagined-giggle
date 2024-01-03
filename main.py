@@ -1,5 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
