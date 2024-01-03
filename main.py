@@ -1,5 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def greet(name):
-        print(f"Hello, {name}!")
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
