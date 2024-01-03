@@ -1,5 +1,4 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+text = "Hello, world!"
+print("Characters:", len(text))
