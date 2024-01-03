@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
