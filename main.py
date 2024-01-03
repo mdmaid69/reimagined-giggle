@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
