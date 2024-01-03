@@ -1,4 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_speed(distance, time):
+        return distance / time
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
