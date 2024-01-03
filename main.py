@@ -1,5 +1,4 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
