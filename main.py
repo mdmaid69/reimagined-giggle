@@ -1,6 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
