@@ -1,6 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def count_characters(sentence):
+        return len(sentence)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
