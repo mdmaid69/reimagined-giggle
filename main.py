@@ -1,5 +1,10 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
