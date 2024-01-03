@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
