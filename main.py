@@ -1,4 +1,4 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def find_min(numbers):
+        return min(numbers)
