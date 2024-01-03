@@ -1,5 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import json
+print(json.dumps({"name": "John", "age": 30}))
+text = "Hello, world!"
+print("Words:", len(text.split()))
