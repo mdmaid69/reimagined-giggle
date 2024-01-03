@@ -1,6 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def remove_duplicates(lst):
+        return list(set(lst))
