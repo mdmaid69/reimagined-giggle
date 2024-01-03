@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def multiply_numbers(x, y):
-        return x * y
+  def is_even(n):
+        return n % 2 == 0
+import numpy as np
+print(np.array([1, 2, 3]))
