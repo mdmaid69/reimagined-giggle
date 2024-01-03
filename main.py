@@ -1,6 +1,6 @@
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
