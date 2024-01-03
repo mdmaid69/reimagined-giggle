@@ -1,5 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
