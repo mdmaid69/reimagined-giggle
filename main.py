@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def is_odd(n):
+        return n % 2 != 0
