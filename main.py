@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
