@@ -1,4 +1,5 @@
-def square_number(x):
-        return x**2
-def reverse_list(lst):
-        return lst[::-1]
+def find_max(numbers):
+        return max(numbers)
+import collections
+def create_priority_queue():
+        return collections.deque()
