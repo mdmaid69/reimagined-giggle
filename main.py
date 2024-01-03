@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
