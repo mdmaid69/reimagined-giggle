@@ -1,5 +1,8 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def subtract_numbers(x, y):
-        return x - y
+  import sys
+  def get_python_version():
+        return sys.version
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
