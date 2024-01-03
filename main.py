@@ -1,7 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
