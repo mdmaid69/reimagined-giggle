@@ -1,8 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
