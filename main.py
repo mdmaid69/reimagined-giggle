@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def clear_array(array):
-        array *= 0
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
