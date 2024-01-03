@@ -1,5 +1,8 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
