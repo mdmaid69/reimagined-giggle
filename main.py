@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
