@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
+def is_even(n):
+        return n % 2 == 0
 import array
-def reverse_array(array):
-        array.reverse()
+def clear_array(array):
+        array *= 0
