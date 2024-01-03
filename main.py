@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
