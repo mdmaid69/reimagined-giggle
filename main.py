@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import sys
-def print_python_version():
-        return sys.version
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
