@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import os
+def change_working_directory(path):
+        os.chdir(path)
