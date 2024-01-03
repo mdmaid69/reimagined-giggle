@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
