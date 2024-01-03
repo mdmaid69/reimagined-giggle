@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-for i in range(5):
-        print(i)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
