@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def get_array_as_str(array):
-        return str(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+def reverse_list(lst):
+        return lst[::-1]
