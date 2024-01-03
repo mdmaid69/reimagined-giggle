@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def subtract_numbers(x, y):
+        return x - y
