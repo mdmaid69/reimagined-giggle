@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import sys
+def exit_program():
+        sys.exit()
