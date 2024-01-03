@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def sort_list(lst):
+        return sorted(lst)
