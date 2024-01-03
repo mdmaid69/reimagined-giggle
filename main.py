@@ -1,7 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def convert_to_hex(n):
+        return hex(n)
+def calculate_speed(distance, time):
+        return distance / time
