@@ -1,5 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import datetime
-print(datetime.datetime.now())
+  def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
