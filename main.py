@@ -1,5 +1,7 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+def find_min(lst):
+        return min(lst)
