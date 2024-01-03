@@ -1,6 +1,5 @@
+  def calculate_area_rectangle(l, w):
+        return l * w
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
