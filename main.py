@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
