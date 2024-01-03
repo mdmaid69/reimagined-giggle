@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
