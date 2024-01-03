@@ -1,6 +1,6 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import platform
-def get_os_info():
-        return platform.uname()
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
