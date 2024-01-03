@@ -1,5 +1,5 @@
-import math
-print(math.pi)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
