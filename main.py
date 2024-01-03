@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
