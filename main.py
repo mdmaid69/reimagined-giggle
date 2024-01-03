@@ -1,5 +1,7 @@
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_exponential(x):
+        return math.exp(x)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
