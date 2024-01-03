@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
