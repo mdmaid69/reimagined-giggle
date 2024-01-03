@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import array
+def reverse_array(array):
+        array.reverse()
+  def multiply_numbers(x, y):
+        return x * y
