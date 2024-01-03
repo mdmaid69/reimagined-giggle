@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
