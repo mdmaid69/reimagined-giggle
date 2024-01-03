@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def add_numbers(x, y):
+        return x + y
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
