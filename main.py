@@ -1,4 +1,4 @@
-  def add_numbers(x, y):
-        return x + y
-import random
-print(random.randint(0, 100))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+print(sum(range(10)))
