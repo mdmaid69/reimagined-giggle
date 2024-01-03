@@ -1,6 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
