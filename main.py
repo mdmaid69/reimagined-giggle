@@ -1,4 +1,8 @@
-  def count_elements(lst):
-        return len(lst)
-  def is_odd(n):
-        return n % 2 != 0
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
