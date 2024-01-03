@@ -1,5 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  def cube_number(x):
-        return x**3
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
