@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def cube_number(x):
-        return x**3
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import os
+def get_current_working_directory():
+        return os.getcwd()
