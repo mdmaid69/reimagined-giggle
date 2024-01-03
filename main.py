@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 import array
-def get_array_item(array, i):
-        return array[i]
+def convert_array_to_string(array):
+        return array.tostring()
