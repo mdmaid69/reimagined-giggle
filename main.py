@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_speed(distance, time):
-        return distance / time
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
