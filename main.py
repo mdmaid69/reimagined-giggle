@@ -1,7 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
