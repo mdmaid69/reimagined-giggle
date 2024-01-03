@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
