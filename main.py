@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
