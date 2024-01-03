@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
