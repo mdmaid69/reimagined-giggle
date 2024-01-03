@@ -1,8 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
