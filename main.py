@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
