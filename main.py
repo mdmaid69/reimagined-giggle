@@ -1,6 +1,8 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
