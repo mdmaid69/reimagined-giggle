@@ -1,6 +1,5 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
