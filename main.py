@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
