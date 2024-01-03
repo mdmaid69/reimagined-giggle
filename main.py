@@ -1,7 +1,7 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
