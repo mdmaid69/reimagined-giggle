@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
