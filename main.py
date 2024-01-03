@@ -1,6 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
