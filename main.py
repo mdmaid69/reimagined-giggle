@@ -1,6 +1,7 @@
-import array
-def get_array_as_list(array):
-        return list(array)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+i = 0
+while i < 5:
+        print(i)
+        i += 1
