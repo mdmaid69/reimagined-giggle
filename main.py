@@ -1,8 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
