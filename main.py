@@ -1,6 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
