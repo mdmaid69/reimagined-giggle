@@ -1,6 +1,5 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def cube_number(x):
+        return x**3
