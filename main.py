@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_index(array, item):
+        return array.index(item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
