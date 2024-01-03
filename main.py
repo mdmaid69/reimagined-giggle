@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_work(force, distance):
-        return force * distance
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
