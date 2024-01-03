@@ -1,5 +1,8 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def count_words(sentence):
+        return len(sentence.split())
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
