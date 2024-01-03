@@ -1,6 +1,6 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def get_array_as_set(array):
+        return set(array)
+import platform
+def get_os_info():
+        return platform.uname()
