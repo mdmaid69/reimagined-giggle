@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def is_odd(n):
+        return n % 2 != 0
