@@ -1,5 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import collections
+def create_priority_queue():
+        return collections.deque()
+import time
+def get_current_time():
+        return time.ctime()
