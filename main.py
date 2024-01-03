@@ -1,6 +1,6 @@
 import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def get_os_info():
+        return platform.uname()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
