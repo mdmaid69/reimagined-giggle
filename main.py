@@ -1,9 +1,7 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
