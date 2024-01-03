@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-def divide_numbers(x, y):
-        return x / y
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  def is_even(n):
+        return n % 2 == 0
