@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_average(lst):
+        return sum(lst) / len(lst)
