@@ -1,8 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+text = "Hello, world!"
+print("Words:", len(text.split()))
