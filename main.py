@@ -1,8 +1,5 @@
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
