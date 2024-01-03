@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
