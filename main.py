@@ -1,7 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def is_even(n):
+        return n % 2 == 0
+def greet(name):
+        print(f"Hello, {name}!")
