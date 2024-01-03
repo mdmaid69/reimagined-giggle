@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import time
+def get_current_time():
+        return time.time()
