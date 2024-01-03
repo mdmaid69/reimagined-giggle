@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def is_odd(n):
-        return n % 2 != 0
+import numpy as np
+print(np.array([1, 2, 3]))
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
