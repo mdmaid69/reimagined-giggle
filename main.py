@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+for i in range(5):
+        print(i)
