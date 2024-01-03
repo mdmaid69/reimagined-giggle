@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
