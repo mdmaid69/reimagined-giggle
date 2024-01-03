@@ -1,7 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def check_if_array_contains_item(array, item):
+        return item in array
