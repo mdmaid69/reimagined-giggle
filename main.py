@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def add_numbers(x, y):
-        return x + y
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
