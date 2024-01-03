@@ -1,5 +1,8 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  def convert_to_binary(n):
-        return bin(n)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
