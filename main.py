@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
