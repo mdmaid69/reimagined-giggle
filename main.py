@@ -1,6 +1,7 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import array
-def clear_array(array):
-        array *= 0
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
