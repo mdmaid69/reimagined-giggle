@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
