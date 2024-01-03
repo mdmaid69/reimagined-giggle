@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+def find_min(lst):
+        return min(lst)
