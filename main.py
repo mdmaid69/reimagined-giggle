@@ -1,5 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import datetime
+def get_today_date():
+        return datetime.date.today()
