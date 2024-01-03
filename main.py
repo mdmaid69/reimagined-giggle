@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import random
-def roll_die():
-        return random.randint(1, 6)
+  def is_odd(n):
+        return n % 2 != 0
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
