@@ -1,3 +1,4 @@
-import math
-print(math.pi)
-for i in range(10): print(i)
+def calculate_pressure(force, area):
+        return force / area
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
