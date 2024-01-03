@@ -1,6 +1,4 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def subtract_numbers(x, y):
+        return x - y
+def greet(name):
+        print(f"Hello, {name}!")
