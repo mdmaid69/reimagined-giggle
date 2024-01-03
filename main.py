@@ -1,6 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def multiply_numbers(x, y):
+        return x * y
