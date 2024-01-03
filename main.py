@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  def count_elements(lst):
+        return len(lst)
