@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
