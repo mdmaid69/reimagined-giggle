@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import re
+print(re.match("h.*o", "hello world"))
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
