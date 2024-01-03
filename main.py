@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
