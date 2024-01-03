@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import re
+print(re.match("h.*o", "hello world"))
