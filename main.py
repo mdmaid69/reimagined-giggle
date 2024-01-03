@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def add_numbers(x, y):
+        return x + y
