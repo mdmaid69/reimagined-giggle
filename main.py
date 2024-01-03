@@ -1,7 +1,5 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import os
+def change_working_directory(path):
+        os.chdir(path)
