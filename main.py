@@ -1,9 +1,6 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-def sort_numbers(numbers):
-        return sorted(numbers)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
