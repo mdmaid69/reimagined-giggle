@@ -1,5 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
