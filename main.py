@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
