@@ -1,4 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-  def cube_number(x):
-        return x**3
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
