@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+name = "Python"
+print("Hello,", name)
+import array
+def clear_array(array):
+        array *= 0
