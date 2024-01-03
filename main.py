@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def get_array_as_set(array):
+        return set(array)
+text = "Hello, world!"
+print("Characters:", len(text))
