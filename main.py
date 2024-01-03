@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
