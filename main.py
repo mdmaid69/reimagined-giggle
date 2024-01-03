@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
