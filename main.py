@@ -1,4 +1,6 @@
-def greet(name):
-        print(f"Hello, {name}!")
-def count_elements(lst):
-        return len(lst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
