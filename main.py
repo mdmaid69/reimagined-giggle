@@ -1,6 +1,5 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def delete_file(file_name):
+        os.remove(file_name)
+  def add_numbers(x, y):
+        return x + y
