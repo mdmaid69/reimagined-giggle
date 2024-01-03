@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
