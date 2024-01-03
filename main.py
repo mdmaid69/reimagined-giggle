@@ -1,6 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
