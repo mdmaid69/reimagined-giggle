@@ -1,5 +1,7 @@
-import collections
-def create_queue():
-        return collections.deque()
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
