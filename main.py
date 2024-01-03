@@ -1,6 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import array
-def get_array_as_str(array):
-        return str(array)
+  def square_number(x):
+        return x**2
+import math
+def calculate_error_function(x):
+        return math.erf(x)
