@@ -1,5 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
