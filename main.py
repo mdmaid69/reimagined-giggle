@@ -1,5 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import datetime
+print(datetime.datetime.now())
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
