@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import array
-def clear_array(array):
-        array *= 0
+  def convert_to_binary(n):
+        return bin(n)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
