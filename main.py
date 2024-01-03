@@ -1,6 +1,5 @@
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
