@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
