@@ -1,8 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
