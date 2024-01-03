@@ -1,5 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_as_int(array):
-        return int(array[0])
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
