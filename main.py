@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import os
-print(os.getcwd())
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_speed(distance, time):
+        return distance / time
