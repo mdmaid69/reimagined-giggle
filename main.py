@@ -1,5 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
