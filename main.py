@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
