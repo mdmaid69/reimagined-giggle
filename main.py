@@ -1,5 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import logging
+def log_message(message):
+        logging.info(message)
