@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
