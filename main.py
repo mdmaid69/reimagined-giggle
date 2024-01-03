@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
