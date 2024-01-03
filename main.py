@@ -1,8 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
