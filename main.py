@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def cube_number(x):
+        return x**3
