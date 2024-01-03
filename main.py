@@ -1,6 +1,6 @@
+import array
+def get_array_length(array):
+        return len(array)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
