@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
