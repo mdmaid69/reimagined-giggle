@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_sine(x):
+        return math.sin(x)
