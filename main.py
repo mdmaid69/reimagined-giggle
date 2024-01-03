@@ -1,5 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
