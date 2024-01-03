@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import sys
-def print_python_version():
-        return sys.version
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
