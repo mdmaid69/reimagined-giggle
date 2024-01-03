@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+for i in range(5):
+        print(i)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
