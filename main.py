@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
