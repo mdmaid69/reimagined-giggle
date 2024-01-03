@@ -1,7 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_acceleration(speed, time):
+        return speed / time
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
