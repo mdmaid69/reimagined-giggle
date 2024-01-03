@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-from collections import Counter
-print(Counter("hello world"))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def sort_numbers(numbers):
+        return sorted(numbers)
