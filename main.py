@@ -1,6 +1,6 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
