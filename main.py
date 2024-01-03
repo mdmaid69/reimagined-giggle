@@ -1,4 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
-  def convert_to_hex(n):
-        return hex(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
