@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+print(math.pi)
+def cube_number(x):
+        return x**3
