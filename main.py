@@ -1,4 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  def square_number(x):
-        return x**2
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
