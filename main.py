@@ -1,9 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
   import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
+  def plot_graph(x, y):
+        plt.plot(x, y)
         plt.show()
