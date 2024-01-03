@@ -1,5 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
