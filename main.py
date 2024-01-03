@@ -1,5 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
