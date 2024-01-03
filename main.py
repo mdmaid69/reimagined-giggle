@@ -1,5 +1,6 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
