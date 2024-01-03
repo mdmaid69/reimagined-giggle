@@ -1,5 +1,6 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+x = 10
+y = 20
+print("Sum:", x + y)
