@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_density(mass, volume):
+        return mass / volume
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
