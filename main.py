@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import platform
-def get_os_info():
-        return platform.uname()
+name = "Python"
+print("Hello,", name)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
