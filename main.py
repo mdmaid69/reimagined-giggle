@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
