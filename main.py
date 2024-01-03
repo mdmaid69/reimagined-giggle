@@ -1,6 +1,8 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def is_palindrome(s):
-        return s == s[::-1]
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
