@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_array_as_set(array):
+        return set(array)
