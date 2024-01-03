@@ -1,8 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
