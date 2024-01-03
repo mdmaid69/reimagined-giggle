@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
 import math
-print(math.pi)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  def is_odd(n):
+        return n % 2 != 0
