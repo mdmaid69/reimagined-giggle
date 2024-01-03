@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
