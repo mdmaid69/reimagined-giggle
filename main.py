@@ -1,4 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def find_min(lst):
-        return min(lst)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
