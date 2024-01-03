@@ -1,9 +1,7 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-  def multiply_numbers(x, y):
-        return x * y
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
