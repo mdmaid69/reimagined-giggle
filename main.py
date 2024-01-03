@@ -1,7 +1,7 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def remove_duplicates(lst):
-        return list(set(lst))
+  def cube_number(x):
+        return x**3
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
