@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def get_array_as_bool(array):
+        return bool(array)
