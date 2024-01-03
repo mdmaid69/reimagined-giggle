@@ -1,6 +1,6 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import sys
+def exit_program():
+        sys.exit()
