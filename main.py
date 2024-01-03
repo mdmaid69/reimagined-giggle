@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
