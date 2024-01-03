@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import math
+def calculate_cosine(x):
+        return math.cos(x)
