@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def get_list_from_array(array):
-        return array.tolist()
+def reverse_string(s):
+        return s[::-1]
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
