@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import sys
-def exit_program():
-        sys.exit()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def find_min(lst):
+        return min(lst)
