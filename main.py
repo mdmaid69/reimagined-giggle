@@ -1,6 +1,3 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+for i in range(10): print(i)
+  def remove_duplicates(lst):
+        return list(set(lst))
