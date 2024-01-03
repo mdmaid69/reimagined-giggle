@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def list_files_in_directory(path):
+        return os.listdir(path)
