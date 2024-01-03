@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import time
+def get_time_since_epoch():
+        return time.time()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
