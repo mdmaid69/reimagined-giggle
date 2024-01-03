@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
