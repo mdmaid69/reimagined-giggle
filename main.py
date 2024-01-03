@@ -1,5 +1,8 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def reverse_list(lst):
-        return lst[::-1]
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import array
+def get_array_as_int(array):
+        return int(array[0])
