@@ -1,6 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
 import array
-def clear_array(array):
-        array *= 0
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def get_array_as_str(array):
+        return str(array)
