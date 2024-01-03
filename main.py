@@ -1,5 +1,8 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
