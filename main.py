@@ -1,6 +1,7 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
 import array
-def get_array_as_list(array):
-        return list(array)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
