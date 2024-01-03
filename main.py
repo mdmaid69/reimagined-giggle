@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
