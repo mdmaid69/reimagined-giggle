@@ -1,7 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
