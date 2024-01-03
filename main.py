@@ -1,5 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
