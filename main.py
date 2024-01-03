@@ -1,6 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import numpy as np
+print(np.array([1, 2, 3]))
