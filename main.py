@@ -1,6 +1,8 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
