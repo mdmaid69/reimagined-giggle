@@ -1,6 +1,6 @@
 import sys
-def print_python_version():
-        return sys.version
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def exit_program():
+        sys.exit()
+import collections
+def create_counter():
+        return collections.Counter()
