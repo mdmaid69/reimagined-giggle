@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import sys
+def print_python_version():
+        return sys.version
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
