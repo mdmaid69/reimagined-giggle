@@ -1,4 +1,6 @@
-print("Hello, world!")
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
