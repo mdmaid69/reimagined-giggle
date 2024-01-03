@@ -1,7 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
