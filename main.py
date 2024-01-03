@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
