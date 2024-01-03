@@ -1,5 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_length(array):
+        return len(array)
+  def convert_to_hex(n):
+        return hex(n)
