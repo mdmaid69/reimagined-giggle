@@ -1,6 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import re
+print(re.match("h.*o", "hello world"))
+def remove_duplicates(lst):
+        return list(set(lst))
