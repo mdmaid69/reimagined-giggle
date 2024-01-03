@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
