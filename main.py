@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
