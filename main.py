@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
