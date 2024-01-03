@@ -1,6 +1,8 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
