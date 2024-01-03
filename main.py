@@ -1,6 +1,8 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
