@@ -1,5 +1,6 @@
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
 import array
-def get_array_as_int(array):
-        return int(array[0])
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def convert_array_to_list(array):
+        return array.tolist()
