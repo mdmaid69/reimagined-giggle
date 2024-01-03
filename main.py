@@ -1,4 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def convert_to_octal(n):
+        return oct(n)
+import collections
+def create_stack():
+        return collections.deque()
