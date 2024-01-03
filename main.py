@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def get_array_item(array, i):
+        return array[i]
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
