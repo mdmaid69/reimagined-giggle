@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import sys
-def print_python_version():
-        print(sys.version)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  def convert_to_binary(n):
+        return bin(n)
