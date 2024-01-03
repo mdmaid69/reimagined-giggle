@@ -1,4 +1,4 @@
-  def square_number(x):
-        return x**2
-def find_min(numbers):
-        return min(numbers)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
