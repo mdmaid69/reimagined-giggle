@@ -1,5 +1,7 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def is_even(n):
-        return n % 2 == 0
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
