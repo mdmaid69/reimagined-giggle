@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
