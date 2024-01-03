@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def is_odd(n):
+        return n % 2 != 0
+import array
+def get_list_from_array(array):
+        return array.tolist()
