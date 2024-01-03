@@ -1,5 +1,8 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
