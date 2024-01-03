@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def count_elements(lst):
+        return len(lst)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
