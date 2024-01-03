@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
