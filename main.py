@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+def square_number(x):
+        return x**2
