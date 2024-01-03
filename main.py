@@ -1,5 +1,7 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
