@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
