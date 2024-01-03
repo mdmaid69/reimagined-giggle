@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_work(force, distance):
-        return force * distance
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
