@@ -1,5 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def calculate_work(force, distance):
-        return force * distance
+import datetime
+print(datetime.datetime.now())
+import array
+def get_array_item(array, i):
+        return array[i]
