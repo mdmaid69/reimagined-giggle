@@ -1,8 +1,8 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
