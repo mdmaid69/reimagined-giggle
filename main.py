@@ -1,8 +1,6 @@
 import array
-def get_array_as_list(array):
-        return list(array)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
