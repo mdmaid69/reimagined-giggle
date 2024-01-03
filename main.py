@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
