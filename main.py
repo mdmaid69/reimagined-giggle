@@ -1,6 +1,8 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
