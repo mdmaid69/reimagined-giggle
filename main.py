@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
