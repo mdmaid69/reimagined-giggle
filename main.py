@@ -1,5 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_area_rectangle(l, w):
+        return l * w
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
