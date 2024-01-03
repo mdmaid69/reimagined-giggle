@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_pressure(force, area):
-        return force / area
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
