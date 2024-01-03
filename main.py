@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_pressure(force, area):
+        return force / area
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
