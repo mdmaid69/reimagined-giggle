@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def get_array_as_str(array):
+        return str(array)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
