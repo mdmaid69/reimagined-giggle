@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_counter():
+        return collections.Counter()
