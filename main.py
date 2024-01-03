@@ -1,5 +1,10 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import re
-print(re.match("h.*o", "hello world"))
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
