@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
