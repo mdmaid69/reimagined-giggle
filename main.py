@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import collections
+def create_queue():
+        return collections.deque()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
