@@ -1,6 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def append_to_array(array, item):
+        array.append(item)
+import platform
+def get_python_version():
+        return platform.python_version()
