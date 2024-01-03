@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
