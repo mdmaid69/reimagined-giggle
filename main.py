@@ -1,5 +1,6 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
