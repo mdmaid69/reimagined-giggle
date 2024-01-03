@@ -1,6 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
