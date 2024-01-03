@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
