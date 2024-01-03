@@ -1,6 +1,6 @@
+import array
+def clear_array(array):
+        array *= 0
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
