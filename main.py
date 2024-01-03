@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
