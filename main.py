@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def sort_numbers(numbers):
+        return sorted(numbers)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
