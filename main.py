@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def remove_duplicates(lst):
+        return list(set(lst))
