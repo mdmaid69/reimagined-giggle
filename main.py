@@ -1,5 +1,10 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+import platform
+def get_python_version():
+        return platform.python_version()
