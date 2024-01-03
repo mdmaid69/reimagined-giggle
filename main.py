@@ -1,10 +1,9 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import datetime
+def get_current_date():
+        return datetime.date.today()
