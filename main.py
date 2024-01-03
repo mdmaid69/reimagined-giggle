@@ -1,6 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
