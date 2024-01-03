@@ -1,5 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import tensorflow as tf
-print(tf.__version__)
+import random
+def roll_die():
+        return random.randint(1, 6)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
