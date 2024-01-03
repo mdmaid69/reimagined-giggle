@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def is_odd(n):
+        return n % 2 != 0
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
