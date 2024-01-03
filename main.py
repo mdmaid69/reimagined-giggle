@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
