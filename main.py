@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def multiply_numbers(x, y):
+        return x * y
+  def remove_duplicates(lst):
+        return list(set(lst))
