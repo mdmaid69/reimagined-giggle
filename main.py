@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_ceiling(x):
+        return math.ceil(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
