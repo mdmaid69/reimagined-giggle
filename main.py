@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def multiply_numbers(x, y):
-        return x * y
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_exponential(x):
+        return math.exp(x)
