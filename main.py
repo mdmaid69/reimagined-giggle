@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import sys
-def print_python_version():
-        return sys.version
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def convert_array_to_string(array):
+        return array.tostring()
