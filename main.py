@@ -1,7 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import sys
+def exit_program():
+        sys.exit()
+n = 10
+print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
