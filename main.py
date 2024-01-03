@@ -1,6 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+def calculate_density(mass, volume):
+        return mass / volume
