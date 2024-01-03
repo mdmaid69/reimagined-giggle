@@ -1,8 +1,4 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  def cube_number(x):
+        return x**3
