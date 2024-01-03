@@ -1,7 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
