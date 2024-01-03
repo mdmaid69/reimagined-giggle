@@ -1,6 +1,5 @@
+  def cube_number(x):
+        return x**3
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
