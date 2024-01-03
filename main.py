@@ -1,7 +1,4 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import time
+print(time.time())
