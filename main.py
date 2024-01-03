@@ -1,4 +1,7 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_speed(distance, time):
+        return distance / time
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
