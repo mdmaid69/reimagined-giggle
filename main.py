@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import array
-def get_array_item(array, i):
-        return array[i]
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+  def subtract_numbers(x, y):
+        return x - y
