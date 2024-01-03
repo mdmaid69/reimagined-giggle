@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  def count_elements(lst):
-        return len(lst)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
