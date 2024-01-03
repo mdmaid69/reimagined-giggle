@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
