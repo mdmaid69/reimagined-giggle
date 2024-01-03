@@ -1,6 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+def find_max(numbers):
+        return max(numbers)
