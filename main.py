@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
