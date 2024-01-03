@@ -1,5 +1,6 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
