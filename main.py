@@ -1,6 +1,9 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
