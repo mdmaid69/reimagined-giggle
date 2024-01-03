@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
