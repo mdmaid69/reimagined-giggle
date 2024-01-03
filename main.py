@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
