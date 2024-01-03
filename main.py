@@ -1,8 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
