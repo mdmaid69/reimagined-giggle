@@ -1,7 +1,4 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
