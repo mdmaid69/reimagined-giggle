@@ -1,8 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
