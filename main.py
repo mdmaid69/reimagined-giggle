@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
