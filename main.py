@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
