@@ -1,5 +1,6 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def sort_list(lst):
-        return sorted(lst)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import sys
+def print_python_version():
+        print(sys.version)
