@@ -1,5 +1,7 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import platform
+def get_os_info():
+        return platform.uname()
