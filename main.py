@@ -1,6 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def remove_duplicates(lst):
+        return list(set(lst))
