@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
