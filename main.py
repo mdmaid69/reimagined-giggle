@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
