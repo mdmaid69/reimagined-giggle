@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import time
-def get_time_since_epoch():
-        return time.time()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
