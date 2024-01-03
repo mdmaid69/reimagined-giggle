@@ -1,5 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
