@@ -1,7 +1,8 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
