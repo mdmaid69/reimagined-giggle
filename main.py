@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
