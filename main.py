@@ -1,12 +1,6 @@
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
   import os
   def get_file_blksize(file_name):
         return os.stat(file_name).st_blksize
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
