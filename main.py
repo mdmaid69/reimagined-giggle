@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import collections
+def create_user_string():
+        return collections.UserString()
