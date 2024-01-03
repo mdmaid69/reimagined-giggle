@@ -1,5 +1,4 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def is_even(n):
+        return n % 2 == 0
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
