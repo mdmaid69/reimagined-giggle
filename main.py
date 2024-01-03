@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
