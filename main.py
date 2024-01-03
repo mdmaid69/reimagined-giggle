@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-def calculate_acceleration(speed, time):
-        return speed / time
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+from collections import Counter
+print(Counter("hello world"))
