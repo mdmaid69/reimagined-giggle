@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
