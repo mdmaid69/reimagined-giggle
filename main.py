@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
