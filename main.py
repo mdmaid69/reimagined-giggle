@@ -1,6 +1,7 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
