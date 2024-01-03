@@ -1,6 +1,5 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def get_array_length(array):
+        return len(array)
+def calculate_acceleration(speed, time):
+        return speed / time
