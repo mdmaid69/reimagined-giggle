@@ -1,6 +1,5 @@
+  def square_number(x):
+        return x**2
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
