@@ -1,5 +1,6 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
