@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
