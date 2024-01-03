@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
