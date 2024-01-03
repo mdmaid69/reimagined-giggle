@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
