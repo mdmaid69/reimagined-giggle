@@ -1,5 +1,9 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
