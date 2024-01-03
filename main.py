@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
