@@ -1,5 +1,8 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
