@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
