@@ -1,5 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  def sort_list(lst):
-        return sorted(lst)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
