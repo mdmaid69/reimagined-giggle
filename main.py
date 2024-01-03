@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def find_max(numbers):
+        return max(numbers)
+import array
+def append_to_array(array, item):
+        array.append(item)
