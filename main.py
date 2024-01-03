@@ -1,7 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
+import array
+def append_to_array(array, item):
+        array.append(item)
