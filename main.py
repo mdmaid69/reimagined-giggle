@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
