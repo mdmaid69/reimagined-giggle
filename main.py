@@ -1,6 +1,6 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
