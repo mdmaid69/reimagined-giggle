@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
