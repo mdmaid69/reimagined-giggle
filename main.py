@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import array
+def get_list_from_array(array):
+        return array.tolist()
