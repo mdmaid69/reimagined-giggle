@@ -1,7 +1,12 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
