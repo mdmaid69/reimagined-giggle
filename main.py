@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
