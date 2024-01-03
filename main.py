@@ -1,7 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
