@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def cube_number(x):
-        return x**3
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
