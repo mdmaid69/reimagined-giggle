@@ -1,8 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
