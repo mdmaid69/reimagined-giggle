@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
