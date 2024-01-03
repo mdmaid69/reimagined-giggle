@@ -1,5 +1,5 @@
+import random
+print(random.randint(0, 100))
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
