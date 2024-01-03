@@ -1,5 +1,7 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+i = 0
+while i < 5:
+        print(i)
+        i += 1
