@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
