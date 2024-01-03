@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import array
-def append_to_array(array, item):
-        array.append(item)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
