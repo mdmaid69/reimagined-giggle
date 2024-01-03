@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
