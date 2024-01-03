@@ -1,4 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def find_min(lst):
-        return min(lst)
+import time
+def get_current_time():
+        return time.time()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
