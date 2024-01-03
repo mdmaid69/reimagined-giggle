@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
