@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import collections
+def create_user_string():
+        return collections.UserString()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
