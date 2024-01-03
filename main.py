@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import time
-def get_current_time():
-        return time.ctime()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
