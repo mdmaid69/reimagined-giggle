@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def clear_array(array):
+        array *= 0
