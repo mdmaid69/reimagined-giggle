@@ -1,5 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-for i in range(5):
-        print(i)
+name = "Python"
+print("Hello,", name)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
