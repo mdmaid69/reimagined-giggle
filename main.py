@@ -1,6 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-def is_odd(n):
-        return n % 2 != 0
+  def add_numbers(x, y):
+        return x + y
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
