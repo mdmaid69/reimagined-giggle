@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+print(sum(range(10)))
