@@ -1,5 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def convert_to_binary(n):
+        return bin(n)
