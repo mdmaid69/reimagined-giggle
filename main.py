@@ -1,5 +1,8 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  def convert_to_hex(n):
-        return hex(n)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
