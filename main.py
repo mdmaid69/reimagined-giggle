@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import time
+def get_current_time():
+        return time.ctime()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
