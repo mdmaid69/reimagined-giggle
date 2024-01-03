@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def cube_number(x):
+        return x**3
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
