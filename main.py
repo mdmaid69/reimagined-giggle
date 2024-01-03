@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
