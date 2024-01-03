@@ -1,5 +1,8 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
