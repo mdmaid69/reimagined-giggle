@@ -1,6 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
