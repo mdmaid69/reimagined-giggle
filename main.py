@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import array
+def get_array_as_list(array):
+        return list(array)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
