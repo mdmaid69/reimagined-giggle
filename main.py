@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
