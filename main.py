@@ -1,6 +1,4 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
