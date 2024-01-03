@@ -1,5 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_density(mass, volume):
+        return mass / volume
