@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
