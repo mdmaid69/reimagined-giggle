@@ -1,8 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def remove_duplicates(lst):
+        return list(set(lst))
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
