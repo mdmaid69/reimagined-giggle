@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
