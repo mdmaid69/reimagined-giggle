@@ -1,7 +1,5 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
