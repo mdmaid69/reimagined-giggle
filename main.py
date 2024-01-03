@@ -1,6 +1,4 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+print([x**2 for x in range(10)])
