@@ -1,7 +1,7 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
