@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import tensorflow as tf
-print(tf.__version__)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+x = 10
+y = 20
+print("Sum:", x + y)
