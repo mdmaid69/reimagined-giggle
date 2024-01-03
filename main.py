@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import time
+def get_time_since_epoch():
+        return time.time()
