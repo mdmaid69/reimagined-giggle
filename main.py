@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_file_uid(file_name):
+  def get_file_owner(file_name):
         return os.stat(file_name).st_uid
