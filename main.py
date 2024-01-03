@@ -1,6 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+x = 10
+y = 20
+print("Sum:", x + y)
