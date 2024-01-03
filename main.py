@@ -1,5 +1,10 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  def is_even(n):
-        return n % 2 == 0
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+def count_words(sentence):
+        return len(sentence.split())
