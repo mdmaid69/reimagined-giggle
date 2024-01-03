@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_pressure(force, area):
+        return force / area
