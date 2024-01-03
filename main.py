@@ -1,4 +1,5 @@
-print("Hello, world!")
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def remove_duplicates(lst):
+        return list(set(lst))
