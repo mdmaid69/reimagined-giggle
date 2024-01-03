@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
