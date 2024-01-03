@@ -1,5 +1,7 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-import numpy as np
-print(np.array([1, 2, 3]))
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
