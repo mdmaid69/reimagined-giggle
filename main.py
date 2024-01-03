@@ -1,5 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def convert_to_binary(n):
+        return bin(n)
