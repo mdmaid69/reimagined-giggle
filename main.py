@@ -1,5 +1,5 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
