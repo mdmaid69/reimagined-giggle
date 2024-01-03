@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
