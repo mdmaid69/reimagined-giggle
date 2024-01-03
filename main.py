@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+from collections import Counter
+print(Counter("hello world"))
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
