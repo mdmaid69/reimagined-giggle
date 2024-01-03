@@ -1,5 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_density(mass, volume):
-        return mass / volume
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
