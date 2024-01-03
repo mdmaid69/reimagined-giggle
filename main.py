@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
