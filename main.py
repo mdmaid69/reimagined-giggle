@@ -1,5 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  def is_even(n):
-        return n % 2 == 0
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
