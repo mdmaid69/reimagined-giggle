@@ -1,4 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-for i in range(10): print(i)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import collections
+def create_user_string():
+        return collections.UserString()
