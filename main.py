@@ -1,4 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-for i in range(10): print(i)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
