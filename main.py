@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import datetime
+def get_current_date():
+        return datetime.date.today()
