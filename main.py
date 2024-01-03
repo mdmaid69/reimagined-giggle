@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import collections
+def create_stack():
+        return collections.deque()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
