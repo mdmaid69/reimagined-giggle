@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import os
+print(os.getcwd())
