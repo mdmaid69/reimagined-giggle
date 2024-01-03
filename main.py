@@ -1,5 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def subtract_numbers(x, y):
+        return x - y
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
