@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def count_characters(sentence):
-        return len(sentence)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
