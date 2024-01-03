@@ -1,5 +1,4 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
