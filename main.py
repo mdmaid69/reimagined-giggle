@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
