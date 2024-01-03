@@ -1,5 +1,8 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
