@@ -1,5 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def is_palindrome(s):
-        return s == s[::-1]
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
