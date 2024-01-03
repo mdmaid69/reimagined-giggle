@@ -1,8 +1,6 @@
 import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def get_array_as_int(array):
+        return int(array[0])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
