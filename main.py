@@ -1,7 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
