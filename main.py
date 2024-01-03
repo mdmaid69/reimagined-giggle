@@ -1,6 +1,4 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
