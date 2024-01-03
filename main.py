@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
