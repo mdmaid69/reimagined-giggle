@@ -1,7 +1,8 @@
-def is_even(n):
-        return n % 2 == 0
 import array
-def convert_unicode_to_array(unicode, typecode):
+def get_array_from_bytes(bytes, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.frombytes(bytes)
         return a
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
