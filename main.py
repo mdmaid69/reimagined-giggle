@@ -1,5 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def sort_list(lst):
-        return sorted(lst)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
