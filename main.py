@@ -1,4 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
