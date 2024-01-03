@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_power(work, time):
+        return work / time
