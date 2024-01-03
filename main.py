@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+x = 10
+y = 20
+print("Sum:", x + y)
