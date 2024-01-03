@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
