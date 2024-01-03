@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def convert_to_hex(n):
+        return hex(n)
+import array
+def get_array_index(array, item):
+        return array.index(item)
