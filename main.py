@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+text = "Hello, world!"
+print("Reversed:", text[::-1])
