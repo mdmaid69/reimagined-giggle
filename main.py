@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
