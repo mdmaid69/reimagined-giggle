@@ -1,6 +1,5 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
