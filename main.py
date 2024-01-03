@@ -1,5 +1,6 @@
+import os
+def change_working_directory(path):
+        os.chdir(path)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  def is_even(n):
-        return n % 2 == 0
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
