@@ -1,8 +1,6 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
