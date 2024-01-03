@@ -1,6 +1,4 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+print(sum(range(10)))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
