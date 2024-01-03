@@ -1,5 +1,5 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def count_elements(lst):
-        return len(lst)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_pressure(force, area):
+        return force / area
