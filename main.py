@@ -1,6 +1,6 @@
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
