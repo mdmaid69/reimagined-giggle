@@ -1,11 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
