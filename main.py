@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def divide_numbers(x, y):
-        return x / y
+import platform
+def get_os_info():
+        return platform.uname()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
