@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import platform
+def get_os_info():
+        return platform.uname()
