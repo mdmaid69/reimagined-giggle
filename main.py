@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_area(radius):
+        return 3.14 * radius * radius
