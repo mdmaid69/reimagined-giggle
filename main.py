@@ -1,5 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_work(force, distance):
+        return force * distance
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
