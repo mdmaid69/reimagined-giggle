@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
