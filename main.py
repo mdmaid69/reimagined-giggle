@@ -1,6 +1,11 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import getpass
-def get_username():
-        return getpass.getuser()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+def calculate_average(lst):
+        return sum(lst) / len(lst)
