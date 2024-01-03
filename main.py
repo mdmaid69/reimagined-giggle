@@ -1,4 +1,11 @@
-def is_odd(n):
-        return n % 2 != 0
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_irr(cash_flows):
+        rate = 0.1
+        for _ in range(100):
+        npv = sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+        if abs(npv) < 1e-6:
+                return rate
+        rate += 0.01
+        return None
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
