@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
