@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
