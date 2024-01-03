@@ -1,5 +1,6 @@
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def count_words(sentence):
-        return len(sentence.split())
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
