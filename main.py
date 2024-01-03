@@ -1,6 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
