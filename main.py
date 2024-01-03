@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def add_numbers(a, b):
-        return a + b
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
