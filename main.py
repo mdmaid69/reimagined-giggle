@@ -1,5 +1,10 @@
-  def multiply_numbers(x, y):
-        return x * y
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
