@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import platform
-def get_python_version():
-        return platform.python_version()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import time
+def get_time_since_epoch():
+        return time.time()
