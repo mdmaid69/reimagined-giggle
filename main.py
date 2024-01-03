@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def multiply_numbers(x, y):
-        return x * y
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
