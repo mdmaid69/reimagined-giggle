@@ -1,7 +1,9 @@
-import socket
+import array
+def append_to_array(array, item):
+        array.append(item)
+from flask import Flask
+app = Flask(__name__)
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+@app.route("/")
+def hello():
+        return "Hello, World!"
