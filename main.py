@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
