@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import tensorflow as tf
+print(tf.__version__)
