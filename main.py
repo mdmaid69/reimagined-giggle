@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_list_from_array(array):
+        return array.tolist()
