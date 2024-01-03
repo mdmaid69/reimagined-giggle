@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
