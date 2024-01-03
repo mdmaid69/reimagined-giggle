@@ -1,6 +1,8 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
