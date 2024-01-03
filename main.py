@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
