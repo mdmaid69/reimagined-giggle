@@ -1,5 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
