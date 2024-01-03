@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  def convert_to_octal(n):
+        return oct(n)
