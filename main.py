@@ -1,4 +1,6 @@
-print("Hello, world!")
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
