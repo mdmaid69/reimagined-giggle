@@ -1,6 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
