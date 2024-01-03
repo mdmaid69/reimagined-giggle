@@ -1,4 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def sort_list(lst):
+        return sorted(lst)
