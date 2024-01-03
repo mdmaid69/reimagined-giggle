@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import platform
-def get_python_version():
-        return platform.python_version()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def split_path(path):
+        return os.path.split(path)
