@@ -1,6 +1,4 @@
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
