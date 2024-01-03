@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
