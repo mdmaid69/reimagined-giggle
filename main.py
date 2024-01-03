@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
