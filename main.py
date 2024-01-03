@@ -1,6 +1,4 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def is_even(n):
+        return n % 2 == 0
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
