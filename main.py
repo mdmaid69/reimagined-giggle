@@ -1,4 +1,5 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-for i in range(10): print(i)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
