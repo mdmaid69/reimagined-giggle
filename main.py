@@ -1,5 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_typecode(array):
+        return array.typecode
