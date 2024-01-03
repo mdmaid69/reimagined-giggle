@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def clear_array(array):
+        array *= 0
