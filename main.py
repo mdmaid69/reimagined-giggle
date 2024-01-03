@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_slice(array, i, j):
+        return array[i:j]
