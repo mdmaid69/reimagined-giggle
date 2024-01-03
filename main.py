@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
