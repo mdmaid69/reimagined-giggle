@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
