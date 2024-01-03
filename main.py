@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def square_number(x):
+        return x**2
+import math
+def calculate_floor(x):
+        return math.floor(x)
