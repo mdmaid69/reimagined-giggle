@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def find_max(lst):
-        return max(lst)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def greet(name):
+        print(f"Hello, {name}!")
