@@ -1,6 +1,5 @@
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def subtract_numbers(x, y):
+        return x - y
