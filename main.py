@@ -1,5 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-def calculate_power(work, time):
-        return work / time
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
