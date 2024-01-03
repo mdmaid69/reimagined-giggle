@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
