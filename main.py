@@ -1,8 +1,6 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
