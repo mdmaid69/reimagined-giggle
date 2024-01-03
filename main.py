@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
