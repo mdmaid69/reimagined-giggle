@@ -1,6 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
