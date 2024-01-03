@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import time
-def get_current_time():
-        return time.ctime()
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
