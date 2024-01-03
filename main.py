@@ -1,6 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
