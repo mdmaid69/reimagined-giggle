@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import time
-def get_time_since_epoch():
-        return time.time()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
