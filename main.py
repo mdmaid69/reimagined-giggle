@@ -1,5 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
 import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_density(mass, volume):
-        return mass / volume
+def get_current_working_directory():
+        return os.getcwd()
