@@ -1,6 +1,5 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_volume(length, width, height):
+        return length * width * height
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
