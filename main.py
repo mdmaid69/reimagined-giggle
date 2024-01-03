@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  def subtract_numbers(x, y):
+        return x - y
