@@ -1,4 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-import numpy as np
-print(np.array([1, 2, 3]))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
