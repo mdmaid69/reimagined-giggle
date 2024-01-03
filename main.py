@@ -1,6 +1,4 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def multiply_numbers(x, y):
+        return x * y
