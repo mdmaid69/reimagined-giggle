@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_power(work, time):
+        return work / time
