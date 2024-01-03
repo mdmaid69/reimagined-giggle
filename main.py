@@ -1,6 +1,5 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def is_odd(n):
+        return n % 2 != 0
