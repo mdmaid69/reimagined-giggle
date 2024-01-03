@@ -1,11 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
