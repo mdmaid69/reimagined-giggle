@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def square_number(x):
-        return x**2
+def calculate_gamma_function(x):
+        return math.gamma(x)
+def calculate_power(work, time):
+        return work / time
