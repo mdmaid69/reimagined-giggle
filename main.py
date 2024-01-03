@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def convert_to_hex(n):
+        return hex(n)
