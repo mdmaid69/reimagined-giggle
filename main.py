@@ -1,4 +1,7 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
