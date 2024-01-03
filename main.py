@@ -1,8 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import json
+print(json.dumps({"name": "John", "age": 30}))
