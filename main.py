@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
