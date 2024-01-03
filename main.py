@@ -1,5 +1,4 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
