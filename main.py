@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def sort_list(lst):
-        return sorted(lst)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
