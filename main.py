@@ -1,5 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
