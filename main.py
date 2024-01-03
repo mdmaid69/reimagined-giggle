@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
