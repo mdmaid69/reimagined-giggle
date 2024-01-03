@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def get_list_from_array(array):
+        return array.tolist()
