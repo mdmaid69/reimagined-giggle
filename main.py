@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
