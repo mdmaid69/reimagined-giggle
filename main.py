@@ -1,5 +1,4 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-def find_min(lst):
-        return min(lst)
+def subtract_numbers(x, y):
+        return x - y
+def multiply_numbers(x, y):
+        return x * y
