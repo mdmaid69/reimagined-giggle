@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import sys
+def exit_program():
+        sys.exit()
