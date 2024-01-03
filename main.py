@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def calculate_area_rectangle(l, w):
+        return l * w
