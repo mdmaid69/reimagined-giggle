@@ -1,5 +1,6 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def square_number(x):
-        return x**2
+def get_array_length(array):
+        return len(array)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
