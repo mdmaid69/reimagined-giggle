@@ -1,6 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
