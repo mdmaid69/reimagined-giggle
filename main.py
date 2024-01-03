@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
 import os
-def remove_directory(path):
-        os.rmdir(path)
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
