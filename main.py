@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def reverse_list(lst):
+        return lst[::-1]
