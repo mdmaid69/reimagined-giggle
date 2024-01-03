@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import os
+print(os.getcwd())
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
