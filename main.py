@@ -1,5 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_work(force, distance):
+        return force * distance
+  def convert_to_binary(n):
+        return bin(n)
