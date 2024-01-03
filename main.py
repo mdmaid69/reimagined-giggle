@@ -1,4 +1,7 @@
-  import sys
-  def get_python_version():
-        return sys.version
-print(sum(range(10)))
+import time
+def get_current_time():
+        return time.time()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
