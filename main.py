@@ -1,6 +1,7 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def count_characters(sentence):
+        return len(sentence)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
