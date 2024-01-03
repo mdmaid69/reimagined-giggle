@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import sys
+def exit_program():
+        sys.exit()
