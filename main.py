@@ -1,7 +1,4 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def reverse_list(lst):
-        return lst[::-1]
+import os
+print(os.getcwd())
+def find_min(lst):
+        return min(lst)
