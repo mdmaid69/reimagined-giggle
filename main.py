@@ -1,5 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
