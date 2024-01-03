@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  def is_odd(n):
+        return n % 2 != 0
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
