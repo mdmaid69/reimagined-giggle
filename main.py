@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
