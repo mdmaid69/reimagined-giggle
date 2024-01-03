@@ -1,6 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
