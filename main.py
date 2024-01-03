@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  def sort_list(lst):
-        return sorted(lst)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def is_palindrome(s):
+        return s == s[::-1]
