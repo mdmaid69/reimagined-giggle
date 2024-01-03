@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
