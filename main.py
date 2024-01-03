@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def add_numbers(x, y):
+        return x + y
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
