@@ -1,6 +1,6 @@
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import collections
-def create_counter():
-        return collections.Counter()
+def get_array_as_bool(array):
+        return bool(array)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
