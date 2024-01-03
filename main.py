@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
