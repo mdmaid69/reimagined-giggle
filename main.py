@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_current_working_directory():
+        return os.getcwd()
