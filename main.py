@@ -1,5 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def square_number(x):
-        return x**2
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
