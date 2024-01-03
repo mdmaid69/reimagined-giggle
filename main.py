@@ -1,4 +1,5 @@
-def find_min(lst):
-        return min(lst)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+def reverse_string(s):
+        return s[::-1]
