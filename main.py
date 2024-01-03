@@ -1,6 +1,5 @@
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+print(math.pi)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
