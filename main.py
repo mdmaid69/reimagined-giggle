@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
