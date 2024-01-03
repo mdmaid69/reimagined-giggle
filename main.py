@@ -1,6 +1,7 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import sys
-def print_python_version():
-        return sys.version
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
