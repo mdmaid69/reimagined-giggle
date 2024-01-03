@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import random
-print(random.randint(0, 100))
+import os
+def get_current_working_directory():
+        return os.getcwd()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
