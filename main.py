@@ -1,5 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def remove_duplicates(lst):
+        return list(set(lst))
+  def is_odd(n):
+        return n % 2 != 0
