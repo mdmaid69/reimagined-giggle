@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import platform
+def get_os_info():
+        return platform.uname()
+  def convert_to_hex(n):
+        return hex(n)
