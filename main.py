@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def convert_to_octal(n):
-        return oct(n)
+  def multiply_numbers(x, y):
+        return x * y
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
