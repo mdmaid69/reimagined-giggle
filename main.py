@@ -1,4 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
