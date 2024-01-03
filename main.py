@@ -1,5 +1,8 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
