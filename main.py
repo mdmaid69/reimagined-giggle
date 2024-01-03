@@ -1,6 +1,8 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
