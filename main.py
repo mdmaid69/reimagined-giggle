@@ -1,5 +1,5 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
