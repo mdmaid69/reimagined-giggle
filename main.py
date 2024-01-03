@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  def calculate_area_rectangle(l, w):
+        return l * w
