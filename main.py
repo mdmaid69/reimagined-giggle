@@ -1,5 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def subtract_numbers(x, y):
-        return x - y
+def get_array_as_repr(array):
+        return repr(array)
