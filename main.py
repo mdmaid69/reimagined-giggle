@@ -1,5 +1,7 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
