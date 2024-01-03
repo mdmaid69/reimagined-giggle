@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def create_user_list():
+        return collections.UserList()
+text = "Hello, world!"
+print("Words:", len(text.split()))
