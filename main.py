@@ -1,6 +1,9 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import array
+def append_to_array(array, item):
+        array.append(item)
