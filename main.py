@@ -1,5 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+text = "Hello, world!"
+print("Characters:", len(text))
