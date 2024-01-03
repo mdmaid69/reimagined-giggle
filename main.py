@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
