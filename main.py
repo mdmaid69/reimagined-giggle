@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def remove_duplicates(lst):
+        return list(set(lst))
