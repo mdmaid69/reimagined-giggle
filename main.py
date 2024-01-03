@@ -1,10 +1,4 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_speed(distance, time):
+        return distance / time
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
