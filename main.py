@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_power(work, time):
+        return work / time
