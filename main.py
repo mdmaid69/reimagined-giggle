@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
