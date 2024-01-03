@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
