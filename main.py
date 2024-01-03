@@ -1,6 +1,6 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
