@@ -1,6 +1,6 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
