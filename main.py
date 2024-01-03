@@ -1,6 +1,6 @@
   import os
-  def get_current_directory():
-        return os.getcwd()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
