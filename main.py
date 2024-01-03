@@ -1,6 +1,6 @@
 import array
-def get_array_length(array):
-        return len(array)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
