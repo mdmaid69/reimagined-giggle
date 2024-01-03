@@ -1,5 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
