@@ -1,4 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
