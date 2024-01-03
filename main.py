@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_pressure(force, area):
+        return force / area
+from collections import Counter
+print(Counter("hello world"))
