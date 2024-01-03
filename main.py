@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
