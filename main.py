@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_item(array, i):
+        return array[i]
