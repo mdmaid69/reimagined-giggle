@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def convert_to_binary(n):
+        return bin(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
