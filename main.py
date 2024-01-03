@@ -1,6 +1,4 @@
 import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+print(random.randint(0, 100))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
