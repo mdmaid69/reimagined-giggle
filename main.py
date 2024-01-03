@@ -1,6 +1,5 @@
+def is_even(n):
+        return n % 2 == 0
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def set_array_item(array, i, item):
+        array[i] = item
