@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_current_directory():
+        return os.getcwd()
