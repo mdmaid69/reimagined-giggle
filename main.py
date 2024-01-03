@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def get_array_as_int(array):
+        return int(array[0])
