@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def find_max(numbers):
+        return max(numbers)
+import numpy as np
+print(np.array([1, 2, 3]))
