@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def count_words(sentence):
+        return len(sentence.split())
+def find_min(numbers):
+        return min(numbers)
