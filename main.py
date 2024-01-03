@@ -1,5 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
