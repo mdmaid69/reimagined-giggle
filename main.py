@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import sys
-def exit_program():
-        sys.exit()
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
