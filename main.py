@@ -1,6 +1,5 @@
+  def count_elements(lst):
+        return len(lst)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
