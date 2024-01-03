@@ -1,6 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def get_array_as_set(array):
+        return set(array)
