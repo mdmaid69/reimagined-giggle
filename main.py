@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def convert_to_octal(n):
-        return oct(n)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import getpass
+def get_username():
+        return getpass.getuser()
