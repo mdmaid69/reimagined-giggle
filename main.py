@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import sys
+def exit_program():
+        sys.exit()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
