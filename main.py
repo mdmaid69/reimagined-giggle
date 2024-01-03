@@ -1,6 +1,7 @@
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
