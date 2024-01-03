@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
