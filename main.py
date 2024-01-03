@@ -1,5 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def subtract_numbers(x, y):
-        return x - y
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
