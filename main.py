@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-text = "Hello, world!"
-print("Characters:", len(text))
+  def cube_number(x):
+        return x**3
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
