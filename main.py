@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-text = "Hello, world!"
-print("Characters:", len(text))
+def subtract_numbers(x, y):
+        return x - y
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
