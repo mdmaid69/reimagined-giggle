@@ -1,6 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
