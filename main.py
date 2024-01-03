@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import math
-print(math.pi)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
