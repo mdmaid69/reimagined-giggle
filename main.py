@@ -1,5 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
