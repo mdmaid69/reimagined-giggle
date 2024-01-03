@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import os
+def change_working_directory(path):
+        os.chdir(path)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
