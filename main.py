@@ -1,8 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
