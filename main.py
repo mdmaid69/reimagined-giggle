@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def calculate_area_rectangle(l, w):
+        return l * w
