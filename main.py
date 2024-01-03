@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_area_circle(r):
+        return 3.14 * r**2
 import math
-print(math.pi)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
