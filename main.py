@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def count_elements(lst):
+        return len(lst)
