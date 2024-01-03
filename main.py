@@ -1,6 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import sys
-def print_python_version():
-        print(sys.version)
+def count_words(sentence):
+        return len(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
