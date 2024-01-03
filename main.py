@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
