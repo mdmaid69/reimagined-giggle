@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import sys
-def print_python_version():
-        print(sys.version)
+import datetime
+print(datetime.datetime.now())
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
