@@ -1,5 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def is_palindrome(s):
-        return s == s[::-1]
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def count_characters(sentence):
+        return len(sentence)
