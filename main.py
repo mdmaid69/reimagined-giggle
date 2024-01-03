@@ -1,6 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def remove_from_array(array, item):
+        array.remove(item)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
