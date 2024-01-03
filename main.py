@@ -1,7 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
