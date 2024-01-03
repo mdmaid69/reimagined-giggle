@@ -1,4 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
