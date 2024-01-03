@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
