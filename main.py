@@ -1,5 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
