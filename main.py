@@ -1,7 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
