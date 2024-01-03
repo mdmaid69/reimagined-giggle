@@ -1,6 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
