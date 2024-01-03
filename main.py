@@ -1,4 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
