@@ -1,6 +1,7 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
