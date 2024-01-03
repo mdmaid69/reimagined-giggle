@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
