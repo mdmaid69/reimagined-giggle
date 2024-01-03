@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
