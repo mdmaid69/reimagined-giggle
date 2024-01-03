@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def count_words(sentence):
+        return len(sentence.split())
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
