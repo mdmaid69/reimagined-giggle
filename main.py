@@ -1,7 +1,6 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
