@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import time
-def get_time_since_epoch():
-        return time.time()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
