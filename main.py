@@ -1,5 +1,10 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_power(work, time):
+        return work / time
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
