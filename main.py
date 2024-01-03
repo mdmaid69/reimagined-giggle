@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def square_number(x):
+        return x**2
+  import sys
+  def get_python_version():
+        return sys.version
