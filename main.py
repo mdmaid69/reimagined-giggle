@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
 import array
-def get_array_index(array, item):
-        return array.index(item)
+def convert_array_to_list(array):
+        return array.tolist()
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
