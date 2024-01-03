@@ -1,7 +1,10 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_area_rectangle(l, w):
+        return l * w
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
