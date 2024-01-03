@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  def add_numbers(x, y):
+        return x + y
+import array
+def convert_array_to_string(array):
+        return array.tostring()
