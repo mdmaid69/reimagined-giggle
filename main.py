@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
