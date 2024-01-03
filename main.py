@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
