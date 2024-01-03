@@ -1,5 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-def square_number(x):
-        return x**2
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
