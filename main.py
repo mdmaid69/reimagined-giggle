@@ -1,8 +1,5 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
