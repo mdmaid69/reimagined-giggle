@@ -1,5 +1,6 @@
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
