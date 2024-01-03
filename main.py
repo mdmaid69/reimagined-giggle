@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
