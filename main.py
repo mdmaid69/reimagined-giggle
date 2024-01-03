@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_cosine(x):
+        return math.cos(x)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
