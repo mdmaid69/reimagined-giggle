@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def subtract_numbers(x, y):
+        return x - y
+import json
+print(json.dumps({"name": "John", "age": 30}))
