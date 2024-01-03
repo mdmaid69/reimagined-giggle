@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
