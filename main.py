@@ -1,5 +1,7 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
