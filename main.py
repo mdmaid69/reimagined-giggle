@@ -1,6 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import getpass
+def get_username():
+        return getpass.getuser()
+  def sort_list(lst):
+        return sorted(lst)
