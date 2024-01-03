@@ -1,6 +1,12 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import collections
-def create_priority_queue():
-        return collections.deque()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
