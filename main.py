@@ -1,4 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-def calculate_area_rectangle(l, w):
-        return l * w
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+import logging
+def log_message(message):
+        logging.info(message)
