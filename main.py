@@ -1,5 +1,7 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_pressure(force, area):
-        return force / area
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import json
+print(json.dumps({"name": "John", "age": 30}))
