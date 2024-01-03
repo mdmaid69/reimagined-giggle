@@ -1,5 +1,8 @@
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
