@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import sys
+def exit_program():
+        sys.exit()
