@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
