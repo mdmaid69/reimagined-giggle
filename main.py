@@ -1,6 +1,8 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
