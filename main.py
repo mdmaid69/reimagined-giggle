@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
