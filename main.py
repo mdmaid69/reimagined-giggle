@@ -1,5 +1,10 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def count_characters(sentence):
-        return len(sentence)
+import time
+def get_time_since_epoch():
+        return time.time()
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
