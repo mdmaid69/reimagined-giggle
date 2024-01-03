@@ -1,6 +1,5 @@
+def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
