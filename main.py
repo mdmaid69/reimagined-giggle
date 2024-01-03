@@ -1,6 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import numpy as np
+print(np.array([1, 2, 3]))
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
