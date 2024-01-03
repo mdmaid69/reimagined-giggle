@@ -1,6 +1,5 @@
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import tensorflow as tf
+print(tf.__version__)
