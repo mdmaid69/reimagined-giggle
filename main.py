@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import array
+def set_array_item(array, i, item):
+        array[i] = item
