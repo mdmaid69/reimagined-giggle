@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
