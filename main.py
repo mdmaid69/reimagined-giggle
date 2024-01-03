@@ -1,5 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+for i in range(5):
+        print(i)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
