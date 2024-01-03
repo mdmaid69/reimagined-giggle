@@ -1,9 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+def calculate_area_circle(r):
+        return 3.14 * r**2
