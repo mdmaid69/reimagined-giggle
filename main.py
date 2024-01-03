@@ -1,5 +1,8 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
