@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
