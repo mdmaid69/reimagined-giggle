@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
