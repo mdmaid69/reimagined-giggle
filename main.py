@@ -1,4 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  def square_number(x):
-        return x**2
+x = 10
+y = 20
+print("Sum:", x + y)
+print([x**2 for x in range(10)])
