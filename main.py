@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
