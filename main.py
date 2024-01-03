@@ -1,6 +1,6 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
