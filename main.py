@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import time
+def get_current_time():
+        return time.ctime()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
