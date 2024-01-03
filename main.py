@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  def calculate_area_rectangle(l, w):
+        return l * w
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
