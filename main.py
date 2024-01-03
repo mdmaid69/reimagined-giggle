@@ -1,5 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def calculate_area(radius):
+        return 3.14 * radius * radius
