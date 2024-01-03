@@ -1,4 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-def calculate_work(force, distance):
-        return force * distance
+  def multiply_numbers(x, y):
+        return x * y
+  import os
+  def split_path(path):
+        return os.path.split(path)
