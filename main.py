@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
