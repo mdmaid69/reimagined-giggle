@@ -1,5 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def remove_duplicates(lst):
-        return list(set(lst))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
