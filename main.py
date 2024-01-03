@@ -1,8 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def remove_duplicates(lst):
+        return list(set(lst))
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
