@@ -1,7 +1,6 @@
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
