@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
