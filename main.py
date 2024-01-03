@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  def subtract_numbers(x, y):
+        return x - y
