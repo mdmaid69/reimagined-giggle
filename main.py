@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
