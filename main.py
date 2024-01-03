@@ -1,6 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  def is_even(n):
+        return n % 2 == 0
