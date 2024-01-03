@@ -1,6 +1,5 @@
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
