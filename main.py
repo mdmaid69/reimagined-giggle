@@ -1,6 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
