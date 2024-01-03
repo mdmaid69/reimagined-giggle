@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
