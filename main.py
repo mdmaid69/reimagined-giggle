@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
