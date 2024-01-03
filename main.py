@@ -1,4 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def convert_to_binary(n):
+        return bin(n)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
