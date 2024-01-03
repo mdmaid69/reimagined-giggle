@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
