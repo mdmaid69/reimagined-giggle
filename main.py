@@ -1,6 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
