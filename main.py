@@ -1,6 +1,12 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
