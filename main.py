@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
