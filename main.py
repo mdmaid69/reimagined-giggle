@@ -1,5 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
