@@ -1,5 +1,8 @@
-  def count_elements(lst):
-        return len(lst)
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
