@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
