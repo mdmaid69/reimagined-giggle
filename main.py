@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
