@@ -1,8 +1,6 @@
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
