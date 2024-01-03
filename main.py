@@ -1,4 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def subtract_numbers(x, y):
+        return x - y
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
