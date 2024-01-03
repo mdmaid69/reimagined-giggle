@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
