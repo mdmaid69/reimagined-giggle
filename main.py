@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def is_even(n):
+        return n % 2 == 0
