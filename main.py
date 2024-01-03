@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import numpy as np
+print(np.array([1, 2, 3]))
+from collections import Counter
+print(Counter("hello world"))
