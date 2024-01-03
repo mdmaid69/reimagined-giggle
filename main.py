@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
