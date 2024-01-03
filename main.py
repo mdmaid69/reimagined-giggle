@@ -1,4 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
