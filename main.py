@@ -1,6 +1,7 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
