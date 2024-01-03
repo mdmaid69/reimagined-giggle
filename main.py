@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def convert_to_octal(n):
+        return oct(n)
