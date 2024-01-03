@@ -1,5 +1,6 @@
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
