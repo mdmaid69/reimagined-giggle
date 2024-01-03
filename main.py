@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import sys
+def print_python_version():
+        return sys.version
+import array
+def get_array_as_float(array):
+        return float(array[0])
