@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
