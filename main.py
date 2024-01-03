@@ -1,6 +1,6 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
