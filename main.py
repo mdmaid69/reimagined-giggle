@@ -1,10 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
