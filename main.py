@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+def is_even(n):
+        return n % 2 == 0
