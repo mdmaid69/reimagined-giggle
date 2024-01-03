@@ -1,5 +1,5 @@
+def sort_numbers(numbers):
+        return sorted(numbers)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import numpy as np
-print(np.array([1, 2, 3]))
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
