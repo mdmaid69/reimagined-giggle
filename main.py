@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def is_even(n):
+        return n % 2 == 0
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
