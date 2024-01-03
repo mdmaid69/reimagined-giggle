@@ -1,6 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
