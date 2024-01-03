@@ -1,5 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def calculate_area_rectangle(l, w):
+        return l * w
+  def square_number(x):
+        return x**2
