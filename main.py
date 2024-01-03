@@ -1,7 +1,4 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
