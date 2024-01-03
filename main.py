@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import sys
-def exit_program():
-        sys.exit()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def add_numbers(x, y):
+        return x + y
