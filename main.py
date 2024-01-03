@@ -1,6 +1,5 @@
+def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_exponential(x):
+        return math.exp(x)
