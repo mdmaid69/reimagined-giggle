@@ -1,6 +1,4 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import datetime
-def get_today_date():
-        return datetime.date.today()
+name = "Python"
+print("Hello,", name)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
