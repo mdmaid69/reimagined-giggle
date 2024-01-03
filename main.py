@@ -1,4 +1,7 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
