@@ -1,4 +1,5 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
