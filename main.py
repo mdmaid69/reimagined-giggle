@@ -1,8 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
