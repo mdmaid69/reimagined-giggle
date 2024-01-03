@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import time
+print(time.time())
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
