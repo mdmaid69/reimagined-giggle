@@ -1,6 +1,6 @@
-import collections
-def create_queue():
-        return collections.deque()
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
