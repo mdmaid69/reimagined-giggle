@@ -1,5 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
