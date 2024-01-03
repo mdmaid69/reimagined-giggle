@@ -1,6 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
