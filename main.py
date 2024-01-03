@@ -1,8 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
