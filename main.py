@@ -1,5 +1,6 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_square_root(x):
+        return math.sqrt(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
