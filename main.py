@@ -1,6 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
