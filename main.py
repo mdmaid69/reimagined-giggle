@@ -1,5 +1,5 @@
-import math
-print(math.pi)
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
