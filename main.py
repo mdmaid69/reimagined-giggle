@@ -1,6 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
