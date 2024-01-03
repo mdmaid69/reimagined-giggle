@@ -1,5 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_density(mass, volume):
+        return mass / volume
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
