@@ -1,6 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  def multiply_numbers(x, y):
+        return x * y
