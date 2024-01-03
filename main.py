@@ -1,5 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
