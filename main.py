@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
