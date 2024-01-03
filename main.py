@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
