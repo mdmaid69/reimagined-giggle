@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_density(mass, volume):
+        return mass / volume
