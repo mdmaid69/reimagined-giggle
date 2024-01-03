@@ -1,5 +1,8 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
