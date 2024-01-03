@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
