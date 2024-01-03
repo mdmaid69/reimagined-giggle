@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
