@@ -1,6 +1,11 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
