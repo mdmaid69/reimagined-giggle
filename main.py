@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  def remove_duplicates(lst):
-        return list(set(lst))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
