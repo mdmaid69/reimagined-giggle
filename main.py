@@ -1,6 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
