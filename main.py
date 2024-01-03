@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  def is_even(n):
+        return n % 2 == 0
