@@ -1,7 +1,6 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
