@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
