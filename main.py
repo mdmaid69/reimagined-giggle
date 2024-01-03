@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import time
+print(time.time())
