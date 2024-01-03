@@ -1,4 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-print([x**2 for x in range(10)])
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_current_directory():
+        return os.getcwd()
