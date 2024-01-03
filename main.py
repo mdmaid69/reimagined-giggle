@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
