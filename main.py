@@ -1,8 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+x = 10
+y = 20
+print("Sum:", x + y)
