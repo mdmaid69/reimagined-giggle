@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
