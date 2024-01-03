@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def convert_array_to_unicode(array):
+        return array.tounicode()
