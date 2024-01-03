@@ -1,4 +1,3 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+print([x**2 for x in range(10)])
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
