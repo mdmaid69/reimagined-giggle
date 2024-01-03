@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-def sort_list(lst):
-        return sorted(lst)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
