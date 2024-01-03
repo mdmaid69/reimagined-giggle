@@ -1,6 +1,5 @@
+for i in range(5):
+        print(i)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
