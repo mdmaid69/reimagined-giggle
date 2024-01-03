@@ -1,4 +1,5 @@
-print(sum(range(10)))
+def calculate_power(work, time):
+        return work / time
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_tangent(x):
+        return math.tan(x)
