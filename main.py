@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
