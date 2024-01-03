@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def is_odd(n):
+        return n % 2 != 0
+import collections
+def create_priority_queue():
+        return collections.deque()
