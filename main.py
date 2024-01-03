@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_density(mass, volume):
+        return mass / volume
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
