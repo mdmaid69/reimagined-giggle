@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
