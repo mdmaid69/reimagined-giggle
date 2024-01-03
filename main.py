@@ -1,6 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+print(sum(range(10)))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
