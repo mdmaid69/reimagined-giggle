@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
