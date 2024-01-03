@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_speed(distance, time):
+        return distance / time
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
