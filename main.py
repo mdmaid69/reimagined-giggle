@@ -1,6 +1,4 @@
+  def convert_to_binary(n):
+        return bin(n)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+print(math.pi)
