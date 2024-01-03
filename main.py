@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
 from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def reverse_string(s):
-        return s[::-1]
+print(Counter("hello world"))
