@@ -1,6 +1,6 @@
+import array
+def get_array_as_float(array):
+        return float(array[0])
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_floor(x):
+        return math.floor(x)
