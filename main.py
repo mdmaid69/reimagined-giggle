@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
