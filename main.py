@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_volume(length, width, height):
+        return length * width * height
