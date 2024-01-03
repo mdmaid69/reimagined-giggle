@@ -1,6 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import platform
+def get_os_info():
+        return platform.uname()
+import time
+def get_time_since_epoch():
+        return time.time()
