@@ -1,5 +1,4 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def count_elements(lst):
+        return len(lst)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
