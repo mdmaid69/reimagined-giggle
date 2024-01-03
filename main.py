@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
