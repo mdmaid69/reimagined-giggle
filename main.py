@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
