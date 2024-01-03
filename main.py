@@ -1,5 +1,4 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def find_max(lst):
-        return max(lst)
+def calculate_power(work, time):
+        return work / time
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
