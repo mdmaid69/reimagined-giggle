@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
