@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+print(math.pi)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
