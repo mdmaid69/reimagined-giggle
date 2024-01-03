@@ -1,4 +1,9 @@
-  def square_number(x):
-        return x**2
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
