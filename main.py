@@ -1,6 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+def calculate_work(force, distance):
+        return force * distance
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_repr(array):
+        return repr(array)
