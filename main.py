@@ -1,6 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-x = 10
-y = 20
-print("Sum:", x + y)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
