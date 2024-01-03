@@ -1,6 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
