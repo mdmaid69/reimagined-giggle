@@ -1,6 +1,5 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def calculate_power(work, time):
+        return work / time
+import datetime
+def get_current_date():
+        return datetime.date.today()
