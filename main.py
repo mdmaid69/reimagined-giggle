@@ -1,5 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import random
-print(random.randint(0, 100))
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
