@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
