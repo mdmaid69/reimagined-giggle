@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
