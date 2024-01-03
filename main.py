@@ -1,5 +1,11 @@
-  def count_elements(lst):
-        return len(lst)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
