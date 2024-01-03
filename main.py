@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
