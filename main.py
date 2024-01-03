@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_acceleration(speed, time):
+        return speed / time
+import tensorflow as tf
+print(tf.__version__)
