@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
