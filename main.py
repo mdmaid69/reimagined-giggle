@@ -1,6 +1,8 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
