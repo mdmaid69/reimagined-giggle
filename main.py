@@ -1,7 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
