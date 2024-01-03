@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
