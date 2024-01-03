@@ -1,5 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
