@@ -1,7 +1,7 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
