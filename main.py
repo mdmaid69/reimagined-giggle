@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import collections
-def create_user_string():
-        return collections.UserString()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
