@@ -1,5 +1,4 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def reverse_list(lst):
+        return lst[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
