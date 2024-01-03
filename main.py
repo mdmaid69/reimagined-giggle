@@ -1,6 +1,9 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import collections
+def create_queue():
+        return collections.deque()
