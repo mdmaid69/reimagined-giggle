@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
