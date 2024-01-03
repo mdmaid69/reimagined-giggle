@@ -1,5 +1,5 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
