@@ -1,6 +1,4 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def find_max(lst):
+        return max(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
