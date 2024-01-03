@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import sys
-  def get_python_version():
-        return sys.version
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
