@@ -1,6 +1,3 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+print(sum(range(10)))
+def calculate_density(mass, volume):
+        return mass / volume
