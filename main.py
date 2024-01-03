@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def get_array_index(array, item):
+        return array.index(item)
