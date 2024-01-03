@@ -1,5 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_speed(distance, time):
-        return distance / time
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def convert_to_binary(n):
+        return bin(n)
