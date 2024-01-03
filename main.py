@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
