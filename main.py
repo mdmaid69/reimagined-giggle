@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  def remove_duplicates(lst):
+        return list(set(lst))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
