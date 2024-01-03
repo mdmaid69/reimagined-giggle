@@ -1,6 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  def sort_list(lst):
+        return sorted(lst)
