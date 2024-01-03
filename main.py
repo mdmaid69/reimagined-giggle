@@ -1,5 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
