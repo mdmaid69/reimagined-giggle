@@ -1,6 +1,5 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def get_array_as_repr(array):
+        return repr(array)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
