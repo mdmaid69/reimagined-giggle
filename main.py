@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def sort_list(lst):
+        return sorted(lst)
