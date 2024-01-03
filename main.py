@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
