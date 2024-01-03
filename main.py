@@ -1,6 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
