@@ -1,5 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-def add_numbers(a, b):
-        return a + b
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def count_characters(sentence):
+        return len(sentence)
