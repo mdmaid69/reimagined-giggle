@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
