@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
