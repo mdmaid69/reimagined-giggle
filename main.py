@@ -1,5 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import numpy as np
+print(np.array([1, 2, 3]))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
