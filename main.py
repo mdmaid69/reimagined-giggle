@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
