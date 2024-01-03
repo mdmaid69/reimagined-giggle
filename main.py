@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
