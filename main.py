@@ -1,5 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-text = "Hello, world!"
-print("Characters:", len(text))
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_acceleration(speed, time):
+        return speed / time
