@@ -1,6 +1,4 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_work(force, distance):
+        return force * distance
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
