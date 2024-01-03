@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def reverse_list(lst):
+        return lst[::-1]
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_factorial(n):
+        return math.factorial(n)
