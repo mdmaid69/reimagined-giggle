@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
