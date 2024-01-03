@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import array
-def get_array_item(array, i):
-        return array[i]
+def pop_from_array(array, i=-1):
+        return array.pop(i)
