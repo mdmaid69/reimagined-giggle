@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
