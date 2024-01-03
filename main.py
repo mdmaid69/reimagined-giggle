@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
