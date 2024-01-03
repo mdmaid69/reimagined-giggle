@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  def square_number(x):
+        return x**2
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
