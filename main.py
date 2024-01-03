@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
 import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
