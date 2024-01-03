@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
