@@ -1,6 +1,6 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
   import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def create_numpy_array(lst):
+        return np.array(lst)
