@@ -1,7 +1,11 @@
-import unittest
+import queue
 
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
