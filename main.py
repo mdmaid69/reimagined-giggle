@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import time
+def get_time_since_epoch():
+        return time.time()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
