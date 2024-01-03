@@ -1,8 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def reverse_string(s):
+        return s[::-1]
