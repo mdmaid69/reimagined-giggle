@@ -1,5 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
