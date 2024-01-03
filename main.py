@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
