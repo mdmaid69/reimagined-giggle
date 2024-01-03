@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
