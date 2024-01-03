@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import sys
+def print_python_version():
+        return sys.version
