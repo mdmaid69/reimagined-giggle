@@ -1,6 +1,12 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
