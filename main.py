@@ -1,6 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_work(force, distance):
+        return force * distance
