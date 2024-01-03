@@ -1,6 +1,6 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
