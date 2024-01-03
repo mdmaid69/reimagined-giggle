@@ -1,5 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-x = 10
-y = 20
-print("Sum:", x + y)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
