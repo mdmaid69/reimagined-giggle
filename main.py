@@ -1,8 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def sort_numbers(numbers):
+        return sorted(numbers)
+def calculate_power(work, time):
+        return work / time
