@@ -1,5 +1,9 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def is_odd(n):
-        return n % 2 != 0
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
