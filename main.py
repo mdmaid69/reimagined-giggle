@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_as_list(array):
+        return list(array)
