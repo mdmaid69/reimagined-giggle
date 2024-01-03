@@ -1,5 +1,7 @@
-  def add_numbers(x, y):
-        return x + y
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  def convert_to_hex(n):
+        return hex(n)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
