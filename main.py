@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
