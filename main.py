@@ -1,5 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
+import math
+def calculate_floor(x):
+        return math.floor(x)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
