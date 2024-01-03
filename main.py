@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
