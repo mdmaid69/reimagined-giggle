@@ -1,5 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
 import array
-def get_list_from_array(array):
-        return array.tolist()
+def get_array_item_count(array, item):
+        return array.count(item)
+import getpass
+def get_username():
+        return getpass.getuser()
