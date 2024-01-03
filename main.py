@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
