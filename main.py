@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
