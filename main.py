@@ -1,7 +1,6 @@
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import array
-def get_array_item(array, i):
-        return array[i]
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def get_array_as_float(array):
+        return float(array[0])
