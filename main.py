@@ -1,6 +1,7 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import collections
+def create_stack():
+        return collections.deque()
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
