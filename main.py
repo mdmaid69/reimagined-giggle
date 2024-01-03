@@ -1,7 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+text = "Hello, world!"
+print("Reversed:", text[::-1])
