@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_base_name(path):
+        return os.path.basename(path)
+import re
+print(re.match("h.*o", "hello world"))
