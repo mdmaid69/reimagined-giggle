@@ -1,6 +1,8 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
