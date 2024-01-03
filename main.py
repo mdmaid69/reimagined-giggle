@@ -1,6 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
