@@ -1,5 +1,4 @@
-  def cube_number(x):
-        return x**3
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def count_elements(lst):
+        return len(lst)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
