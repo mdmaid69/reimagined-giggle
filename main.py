@@ -1,6 +1,5 @@
+import datetime
+print(datetime.datetime.now())
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
