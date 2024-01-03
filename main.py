@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def find_unique_words(sentence):
+        return set(sentence.split())
