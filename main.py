@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import array
-def clear_array(array):
-        array *= 0
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def split_path(path):
+        return os.path.split(path)
