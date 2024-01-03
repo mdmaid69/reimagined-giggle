@@ -1,4 +1,6 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
