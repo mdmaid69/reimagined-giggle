@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
