@@ -1,5 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
