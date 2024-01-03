@@ -1,6 +1,5 @@
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
