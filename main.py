@@ -1,5 +1,5 @@
 import math
-def calculate_error_function(x):
-        return math.erf(x)
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  def square_number(x):
+        return x**2
