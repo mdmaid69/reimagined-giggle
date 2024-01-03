@@ -1,5 +1,8 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
