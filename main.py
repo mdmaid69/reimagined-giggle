@@ -1,7 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import array
+def reverse_array(array):
+        array.reverse()
+def calculate_area_rectangle(l, w):
+        return l * w
