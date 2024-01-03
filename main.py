@@ -1,9 +1,5 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
