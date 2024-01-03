@@ -1,6 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import sys
-def print_python_version():
-        return sys.version
+def cube_number(x):
+        return x**3
+def find_union(list1, list2):
+        return set(list1) | set(list2)
