@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
