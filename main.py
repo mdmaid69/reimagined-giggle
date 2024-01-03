@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
