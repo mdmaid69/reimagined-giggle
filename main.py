@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+  def is_even(n):
+        return n % 2 == 0
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
