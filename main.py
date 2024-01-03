@@ -1,4 +1,5 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-text = "Hello, world!"
-print("Characters:", len(text))
+def count_elements(lst):
+        return len(lst)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
