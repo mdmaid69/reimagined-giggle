@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import time
-def get_current_time():
-        return time.time()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
