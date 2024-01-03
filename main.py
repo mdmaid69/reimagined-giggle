@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
