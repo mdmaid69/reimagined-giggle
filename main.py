@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
