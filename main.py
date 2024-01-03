@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_work(force, distance):
+        return force * distance
+text = "Hello, world!"
+print("Words:", len(text.split()))
