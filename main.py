@@ -1,5 +1,6 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_power(work, time):
-        return work / time
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import platform
+def get_python_version():
+        return platform.python_version()
