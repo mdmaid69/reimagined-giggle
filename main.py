@@ -1,8 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
