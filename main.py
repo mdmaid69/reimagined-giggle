@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
