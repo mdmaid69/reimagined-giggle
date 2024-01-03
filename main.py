@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import sys
+  def get_python_version():
+        return sys.version
