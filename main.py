@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
