@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
