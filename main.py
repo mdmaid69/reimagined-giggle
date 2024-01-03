@@ -1,5 +1,7 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  def add_numbers(x, y):
-        return x + y
+import array
+def clear_array(array):
+        array *= 0
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
