@@ -1,5 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  def convert_to_binary(n):
-        return bin(n)
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
