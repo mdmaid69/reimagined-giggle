@@ -1,9 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def add_numbers(x, y):
+        return x + y
