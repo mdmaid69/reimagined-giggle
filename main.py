@@ -1,9 +1,5 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import random
+def roll_die():
+        return random.randint(1, 6)
