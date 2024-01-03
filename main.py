@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def cube_number(x):
+        return x**3
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
