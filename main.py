@@ -1,8 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
