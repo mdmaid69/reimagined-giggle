@@ -1,6 +1,8 @@
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
