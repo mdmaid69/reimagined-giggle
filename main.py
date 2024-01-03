@@ -1,6 +1,8 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_work(force, distance):
-        return force * distance
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
