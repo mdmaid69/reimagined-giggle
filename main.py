@@ -1,4 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-print(math.pi)
+  def cube_number(x):
+        return x**3
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
