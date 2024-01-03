@@ -1,6 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import platform
+def get_python_version():
+        return platform.python_version()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
