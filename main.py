@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
