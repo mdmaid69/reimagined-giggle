@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def calculate_speed(distance, time):
+        return distance / time
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
