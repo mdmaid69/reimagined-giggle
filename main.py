@@ -1,5 +1,6 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
