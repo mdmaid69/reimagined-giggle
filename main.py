@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
