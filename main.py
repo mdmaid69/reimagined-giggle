@@ -1,5 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
