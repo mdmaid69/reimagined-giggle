@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def add_numbers(x, y):
+        return x + y
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
