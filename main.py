@@ -1,6 +1,9 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
