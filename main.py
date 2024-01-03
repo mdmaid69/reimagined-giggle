@@ -1,6 +1,6 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def get_array_item(array, i):
+        return array[i]
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
