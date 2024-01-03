@@ -1,4 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import random
-print(random.randint(0, 100))
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
