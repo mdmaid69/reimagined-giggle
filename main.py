@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
