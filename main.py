@@ -1,5 +1,4 @@
-import time
-print(time.time())
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def is_even(n):
+        return n % 2 == 0
+text = "Hello, world!"
+print("Characters:", len(text))
