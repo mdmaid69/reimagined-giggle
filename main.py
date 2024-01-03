@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_work(force, distance):
-        return force * distance
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
