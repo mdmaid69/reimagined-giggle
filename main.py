@@ -1,6 +1,3 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+print(sum(range(10)))
