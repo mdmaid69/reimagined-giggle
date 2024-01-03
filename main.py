@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_power(work, time):
-        return work / time
+def find_max(lst):
+        return max(lst)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
