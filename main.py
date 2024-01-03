@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import collections
-def create_user_string():
-        return collections.UserString()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
