@@ -1,6 +1,6 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import platform
-def get_python_version():
-        return platform.python_version()
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
