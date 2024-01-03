@@ -1,12 +1,6 @@
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
