@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def cube_number(x):
+        return x**3
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
