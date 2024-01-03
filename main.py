@@ -1,5 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def get_string_from_array(array):
+        return array.tobytes()
+def find_max(numbers):
+        return max(numbers)
