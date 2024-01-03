@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
