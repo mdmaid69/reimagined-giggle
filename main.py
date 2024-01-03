@@ -1,7 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
