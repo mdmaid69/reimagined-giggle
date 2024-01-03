@@ -1,5 +1,7 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
