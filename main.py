@@ -1,6 +1,6 @@
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
