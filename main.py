@@ -1,6 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def calculate_area_rectangle(l, w):
+        return l * w
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_absolute_value(x):
+        return math.fabs(x)
