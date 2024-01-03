@@ -1,6 +1,7 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
