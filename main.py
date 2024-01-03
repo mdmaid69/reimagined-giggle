@@ -1,4 +1,4 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import os
-print(os.getcwd())
+  def add_numbers(x, y):
+        return x + y
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
