@@ -1,6 +1,5 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def is_palindrome(s):
+        return s == s[::-1]
