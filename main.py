@@ -1,5 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def count_characters(sentence):
+        return len(sentence)
