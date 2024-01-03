@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def subtract_numbers(x, y):
-        return x - y
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
