@@ -1,6 +1,5 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def get_array_as_set(array):
+        return set(array)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
