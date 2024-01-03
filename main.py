@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
