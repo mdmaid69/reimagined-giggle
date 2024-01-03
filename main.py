@@ -1,5 +1,8 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
