@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def convert_to_octal(n):
-        return oct(n)
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_typecode(array):
+        return array.typecode
