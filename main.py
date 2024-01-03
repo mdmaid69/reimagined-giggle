@@ -1,5 +1,6 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  def subtract_numbers(x, y):
-        return x - y
+def convert_array_to_string(array):
+        return array.tostring()
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
