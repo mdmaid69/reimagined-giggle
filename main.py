@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
