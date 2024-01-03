@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+text = "Hello, world!"
+print("Words:", len(text.split()))
