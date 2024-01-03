@@ -1,4 +1,7 @@
-def find_min(numbers):
-        return min(numbers)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
