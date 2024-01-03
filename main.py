@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
