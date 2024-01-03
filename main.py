@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import time
-print(time.time())
+import sys
+def exit_program():
+        sys.exit()
+import array
+def clear_array(array):
+        array *= 0
