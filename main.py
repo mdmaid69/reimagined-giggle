@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def greet(name):
+        print(f"Hello, {name}!")
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
