@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
