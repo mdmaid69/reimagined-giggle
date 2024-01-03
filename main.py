@@ -1,6 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
