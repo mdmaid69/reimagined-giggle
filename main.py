@@ -1,4 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def get_array_as_list(array):
+        return list(array)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
