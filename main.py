@@ -1,6 +1,8 @@
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def get_array_as_complex(array):
+        return complex(array[0])
