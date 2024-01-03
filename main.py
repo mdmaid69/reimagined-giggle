@@ -1,8 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def is_even(n):
+        return n % 2 == 0
