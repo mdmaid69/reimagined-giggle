@@ -1,6 +1,5 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
