@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
