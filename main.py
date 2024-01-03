@@ -1,5 +1,7 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
