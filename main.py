@@ -1,5 +1,3 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+print([x**2 for x in range(10)])
+def convert_to_octal(n):
+        return oct(n)
