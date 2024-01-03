@@ -1,6 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
