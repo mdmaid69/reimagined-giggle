@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
