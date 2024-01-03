@@ -1,5 +1,4 @@
-def count_characters(sentence):
-        return len(sentence)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def calculate_area_circle(r):
+        return 3.14 * r**2
