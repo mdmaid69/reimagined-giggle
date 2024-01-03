@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def divide_numbers(x, y):
+        return x / y
