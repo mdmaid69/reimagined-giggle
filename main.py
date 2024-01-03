@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  def convert_to_binary(n):
+        return bin(n)
