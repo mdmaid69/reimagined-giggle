@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
