@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
