@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
