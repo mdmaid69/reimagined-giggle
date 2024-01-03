@@ -1,4 +1,7 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def square_number(x):
-        return x**2
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
