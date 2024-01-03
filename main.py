@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def calculate_area_rectangle(l, w):
+        return l * w
+  def count_elements(lst):
+        return len(lst)
