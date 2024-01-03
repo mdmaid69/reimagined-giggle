@@ -1,4 +1,5 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
