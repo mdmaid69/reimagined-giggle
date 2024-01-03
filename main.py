@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def reverse_string(s):
+        return s[::-1]
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
