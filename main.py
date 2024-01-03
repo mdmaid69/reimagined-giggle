@@ -1,5 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
