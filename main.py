@@ -1,5 +1,6 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-def count_elements(lst):
-        return len(lst)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
