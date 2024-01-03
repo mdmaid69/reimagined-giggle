@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def is_odd(n):
+        return n % 2 != 0
+import sys
+def print_python_version():
+        return sys.version
