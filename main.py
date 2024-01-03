@@ -1,8 +1,5 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_volume(length, width, height):
+        return length * width * height
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
