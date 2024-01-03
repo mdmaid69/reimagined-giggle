@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
