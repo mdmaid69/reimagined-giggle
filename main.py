@@ -1,4 +1,4 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_power(work, time):
-        return work / time
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
