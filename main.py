@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def subtract_numbers(x, y):
+        return x - y
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
