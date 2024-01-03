@@ -1,5 +1,7 @@
-  def square_number(x):
-        return x**2
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
