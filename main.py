@@ -1,6 +1,11 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
