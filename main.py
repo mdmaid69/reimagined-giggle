@@ -1,4 +1,4 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  def cube_number(x):
-        return x**3
+def calculate_work(force, distance):
+        return force * distance
+def calculate_power(work, time):
+        return work / time
