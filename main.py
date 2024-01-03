@@ -1,7 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
