@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
