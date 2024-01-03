@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
