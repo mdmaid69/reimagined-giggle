@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
