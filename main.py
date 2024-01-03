@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def greet(name):
+        print(f"Hello, {name}!")
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
