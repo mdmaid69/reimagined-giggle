@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
