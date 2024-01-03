@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
