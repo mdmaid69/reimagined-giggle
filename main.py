@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import os
+def remove_directory(path):
+        os.rmdir(path)
