@@ -1,5 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import json
+print(json.dumps({"name": "John", "age": 30}))
