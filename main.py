@@ -1,5 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
