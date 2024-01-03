@@ -1,8 +1,7 @@
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def calculate_gamma_function(x):
+        return math.gamma(x)
