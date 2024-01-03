@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
