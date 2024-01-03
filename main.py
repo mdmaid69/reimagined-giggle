@@ -1,6 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def convert_to_binary(n):
+        return bin(n)
