@@ -1,6 +1,7 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
