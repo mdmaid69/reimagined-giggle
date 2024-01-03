@@ -1,7 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def is_even(n):
+        return n % 2 == 0
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
