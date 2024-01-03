@@ -1,7 +1,7 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def convert_array_to_string(array):
+        return array.tostring()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
