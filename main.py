@@ -1,5 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-def count_elements(lst):
-        return len(lst)
+def get_array_as_repr(array):
+        return repr(array)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
