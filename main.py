@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
