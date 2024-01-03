@@ -1,5 +1,4 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def calculate_area_rectangle(l, w):
+        return l * w
+def find_min(numbers):
+        return min(numbers)
