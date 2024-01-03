@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_acceleration(speed, time):
+        return speed / time
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
