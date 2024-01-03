@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
 import array
-def get_array_itemsize(array):
-        return array.itemsize
+def append_to_array(array, item):
+        array.append(item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
