@@ -1,4 +1,5 @@
-print(sum(range(10)))
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def convert_to_binary(n):
+        return bin(n)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
