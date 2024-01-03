@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_volume(length, width, height):
+        return length * width * height
 import array
-def clear_array(array):
-        array *= 0
+def get_array_as_tuple(array):
+        return tuple(array)
