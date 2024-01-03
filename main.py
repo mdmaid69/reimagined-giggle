@@ -1,6 +1,6 @@
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
