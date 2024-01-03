@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
