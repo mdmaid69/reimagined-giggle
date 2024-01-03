@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+import random
+def roll_die():
+        return random.randint(1, 6)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
