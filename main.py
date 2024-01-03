@@ -1,6 +1,5 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  def square_number(x):
+        return x**2
