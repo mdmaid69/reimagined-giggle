@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_pressure(force, area):
-        return force / area
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
