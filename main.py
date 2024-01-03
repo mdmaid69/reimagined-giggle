@@ -1,8 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
