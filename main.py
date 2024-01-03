@@ -1,5 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
