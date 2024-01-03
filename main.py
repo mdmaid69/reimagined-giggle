@@ -1,5 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
