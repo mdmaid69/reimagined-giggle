@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
