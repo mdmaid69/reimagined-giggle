@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
