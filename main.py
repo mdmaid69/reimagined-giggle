@@ -1,6 +1,5 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+def reverse_string(s):
+        return s[::-1]
