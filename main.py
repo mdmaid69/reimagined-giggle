@@ -1,8 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  import sys
-  def get_python_version():
-        return sys.version
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
