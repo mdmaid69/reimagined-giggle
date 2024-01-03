@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
