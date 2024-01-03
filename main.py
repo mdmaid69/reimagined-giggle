@@ -1,5 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-  import sys
-  def get_python_version():
-        return sys.version
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_speed(distance, time):
+        return distance / time
