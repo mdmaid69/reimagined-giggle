@@ -1,6 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
