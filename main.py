@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
