@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import sys
+  def get_python_version():
+        return sys.version
+def is_even(n):
+        return n % 2 == 0
