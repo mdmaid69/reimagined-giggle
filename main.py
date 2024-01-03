@@ -1,5 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import tensorflow as tf
-print(tf.__version__)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
