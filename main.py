@@ -1,4 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-  def convert_to_octal(n):
-        return oct(n)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
