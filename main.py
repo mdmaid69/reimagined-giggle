@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def calculate_pressure(force, area):
+        return force / area
