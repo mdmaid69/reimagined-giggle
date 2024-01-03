@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
