@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
