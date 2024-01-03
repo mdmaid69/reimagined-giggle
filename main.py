@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
