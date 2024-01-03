@@ -1,9 +1,6 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
