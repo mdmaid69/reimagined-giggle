@@ -1,6 +1,12 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import time
+def get_current_time():
+        return time.ctime()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
