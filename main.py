@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
   import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
