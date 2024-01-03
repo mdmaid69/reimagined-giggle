@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import os
+def get_current_working_directory():
+        return os.getcwd()
