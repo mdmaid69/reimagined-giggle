@@ -1,5 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
