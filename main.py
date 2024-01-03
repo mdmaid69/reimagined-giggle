@@ -1,6 +1,6 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
