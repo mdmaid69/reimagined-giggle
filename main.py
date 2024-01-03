@@ -1,7 +1,4 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
