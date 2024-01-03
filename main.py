@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
