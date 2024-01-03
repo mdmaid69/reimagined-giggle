@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def greet(name):
+        print(f"Hello, {name}!")
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
