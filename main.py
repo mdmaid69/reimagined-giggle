@@ -1,5 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_absolute_value(x):
+        return math.fabs(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
