@@ -1,6 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
