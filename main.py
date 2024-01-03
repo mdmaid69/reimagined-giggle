@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
