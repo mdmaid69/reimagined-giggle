@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import collections
-def create_user_list():
-        return collections.UserList()
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def count_elements(lst):
+        return len(lst)
