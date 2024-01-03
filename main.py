@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
