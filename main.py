@@ -1,12 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
