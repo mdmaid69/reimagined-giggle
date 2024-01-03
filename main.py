@@ -1,5 +1,4 @@
-name = "Python"
-print("Hello,", name)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_work(force, distance):
+        return force * distance
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
