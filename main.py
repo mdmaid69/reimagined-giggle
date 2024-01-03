@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import collections
+def create_user_list():
+        return collections.UserList()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
