@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
