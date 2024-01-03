@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 text = "Hello, world!"
-print("Uppercase:", text.upper())
+print("Words:", len(text.split()))
