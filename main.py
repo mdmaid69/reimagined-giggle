@@ -1,6 +1,6 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
 import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
