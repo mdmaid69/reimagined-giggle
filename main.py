@@ -1,6 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def reverse_list(lst):
+        return lst[::-1]
+text = "Hello, world!"
+print("Words:", len(text.split()))
