@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
