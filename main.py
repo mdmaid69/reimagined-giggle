@@ -1,5 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-name = "Python"
-print("Hello,", name)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+import collections
+def create_stack():
+        return collections.deque()
