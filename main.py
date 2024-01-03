@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_pressure(force, area):
+        return force / area
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
