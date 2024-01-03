@@ -1,6 +1,6 @@
+import collections
+def create_queue():
+        return collections.deque()
 import array
-def get_array_item(array, i):
-        return array[i]
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def get_array_as_tuple(array):
+        return tuple(array)
