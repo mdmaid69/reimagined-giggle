@@ -1,8 +1,4 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-          if n % i == 0:
-        return False
-        return True
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
