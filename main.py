@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
