@@ -1,6 +1,6 @@
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
