@@ -1,5 +1,7 @@
-def find_min(lst):
-        return min(lst)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
