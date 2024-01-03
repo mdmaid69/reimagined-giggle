@@ -1,5 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
