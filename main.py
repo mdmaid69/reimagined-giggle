@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+text = "Hello, world!"
+print("Characters:", len(text))
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def extend_array(array, iterable):
+        array.extend(iterable)
