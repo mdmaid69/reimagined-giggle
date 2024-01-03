@@ -1,5 +1,6 @@
 n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+print("Powers of 2:", [2**x for x in range(n)])
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
