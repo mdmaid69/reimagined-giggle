@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+import array
+def get_array_as_int(array):
+        return int(array[0])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
