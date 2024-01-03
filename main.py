@@ -1,6 +1,7 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
 import array
-def get_array_length(array):
-        return len(array)
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
