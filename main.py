@@ -1,7 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
