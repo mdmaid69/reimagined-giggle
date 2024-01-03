@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import platform
+def get_python_version():
+        return platform.python_version()
