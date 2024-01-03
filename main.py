@@ -1,5 +1,7 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-def calculate_pressure(force, area):
-        return force / area
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
