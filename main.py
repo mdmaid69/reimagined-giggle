@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import collections
+def create_user_string():
+        return collections.UserString()
+def convert_to_hex(n):
+        return hex(n)
