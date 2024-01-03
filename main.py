@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
