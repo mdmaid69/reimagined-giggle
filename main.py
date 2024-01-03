@@ -1,5 +1,5 @@
-import math
-print(math.pi)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import collections
+def create_user_string():
+        return collections.UserString()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
