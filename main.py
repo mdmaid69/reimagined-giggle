@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import collections
+def create_counter():
+        return collections.Counter()
+def find_union(list1, list2):
+        return set(list1) | set(list2)
