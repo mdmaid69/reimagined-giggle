@@ -1,5 +1,8 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import collections
-def create_user_string():
-        return collections.UserString()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
