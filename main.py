@@ -1,5 +1,6 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def subtract_numbers(x, y):
-        return x - y
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
