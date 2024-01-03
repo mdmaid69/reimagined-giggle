@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def reverse_array(array):
+        array.reverse()
