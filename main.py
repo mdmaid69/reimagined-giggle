@@ -1,4 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import sys
-print(sys.version)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def find_max(numbers):
+        return max(numbers)
