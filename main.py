@@ -1,7 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
