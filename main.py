@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def find_min(lst):
+        return min(lst)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
