@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
