@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
