@@ -1,8 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_tangent(x):
+        return math.tan(x)
