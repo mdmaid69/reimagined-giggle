@@ -1,6 +1,7 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
