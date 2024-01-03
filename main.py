@@ -1,6 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def cube_number(x):
+        return x**3
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
