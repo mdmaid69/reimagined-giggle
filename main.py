@@ -1,5 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
