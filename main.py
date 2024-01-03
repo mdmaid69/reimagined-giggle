@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
