@@ -1,8 +1,7 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+def calculate_acceleration(speed, time):
+        return speed / time
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
