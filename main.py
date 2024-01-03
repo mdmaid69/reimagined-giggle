@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
