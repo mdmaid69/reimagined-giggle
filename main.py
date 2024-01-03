@@ -1,5 +1,5 @@
-  def subtract_numbers(x, y):
-        return x - y
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
