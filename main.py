@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def cube_number(x):
+        return x**3
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
