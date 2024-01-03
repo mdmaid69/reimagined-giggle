@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def calculate_volume(length, width, height):
+        return length * width * height
+import sys
+def print_python_version():
+        return sys.version
