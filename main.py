@@ -1,5 +1,6 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
