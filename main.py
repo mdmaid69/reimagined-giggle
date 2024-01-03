@@ -1,8 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
