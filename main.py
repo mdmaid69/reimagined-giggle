@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def calculate_pressure(force, area):
-        return force / area
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
