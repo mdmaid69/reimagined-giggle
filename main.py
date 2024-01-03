@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
