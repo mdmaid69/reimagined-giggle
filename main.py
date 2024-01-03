@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def split_path(path):
+        return os.path.split(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
