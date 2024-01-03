@@ -1,4 +1,5 @@
+import array
+def convert_array_to_list(array):
+        return array.tolist()
 def calculate_perimeter_triangle(a, b, c):
         return a + b + c
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
