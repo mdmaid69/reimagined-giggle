@@ -1,5 +1,6 @@
 import math
-print(math.pi)
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
