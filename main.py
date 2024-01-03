@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  def square_number(x):
-        return x**2
+import time
+print(time.time())
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
