@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_acceleration(speed, time):
+        return speed / time
+import json
+def convert_to_json(data):
+        return json.dumps(data)
