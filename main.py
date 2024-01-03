@@ -1,6 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
