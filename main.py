@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def sort_numbers(numbers):
-        return sorted(numbers)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
