@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
