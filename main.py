@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  def subtract_numbers(x, y):
-        return x - y
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
