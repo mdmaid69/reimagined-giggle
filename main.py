@@ -1,4 +1,5 @@
-for i in range(5):
-        print(i)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
