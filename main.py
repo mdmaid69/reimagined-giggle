@@ -1,6 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
+for i in range(10): print(i)
