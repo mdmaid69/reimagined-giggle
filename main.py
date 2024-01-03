@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-def convert_to_hex(n):
-        return hex(n)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def sort_numbers(numbers):
+        return sorted(numbers)
