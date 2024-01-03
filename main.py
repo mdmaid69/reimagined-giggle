@@ -1,6 +1,8 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
