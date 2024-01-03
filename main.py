@@ -1,8 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+text = "Hello, world!"
+print("Words:", len(text.split()))
