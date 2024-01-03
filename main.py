@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
