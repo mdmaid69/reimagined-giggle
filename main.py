@@ -1,5 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def sort_list(lst):
+        return sorted(lst)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
