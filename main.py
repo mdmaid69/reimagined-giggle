@@ -1,5 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  def square_number(x):
-        return x**2
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_speed(distance, time):
+        return distance / time
