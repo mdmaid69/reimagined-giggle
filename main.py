@@ -1,7 +1,6 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
