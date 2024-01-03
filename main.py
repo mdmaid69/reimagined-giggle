@@ -1,6 +1,7 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+import os
+def get_current_working_directory():
+        return os.getcwd()
