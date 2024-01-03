@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def get_array_as_str(array):
+        return str(array)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
