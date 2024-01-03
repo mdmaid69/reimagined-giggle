@@ -1,4 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
