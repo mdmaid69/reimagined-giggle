@@ -1,6 +1,5 @@
+import numpy as np
+print(np.array([1, 2, 3]))
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_ceiling(x):
+        return math.ceil(x)
