@@ -1,4 +1,6 @@
+import os
+def remove_directory(path):
+        os.rmdir(path)
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-print([x**2 for x in range(10)])
+def calculate_error_function(x):
+        return math.erf(x)
