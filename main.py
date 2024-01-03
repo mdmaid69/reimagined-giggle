@@ -1,8 +1,8 @@
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def iterate_over_array(array):
+        for item in array:
+        print(item)
