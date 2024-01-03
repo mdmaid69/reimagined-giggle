@@ -1,5 +1,5 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def subtract_numbers(x, y):
+        return x - y
+import sys
+def print_python_version():
+        return sys.version
