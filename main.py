@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def reverse_list(lst):
-        return lst[::-1]
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
