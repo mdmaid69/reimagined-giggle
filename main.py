@@ -1,5 +1,4 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  def sort_list(lst):
+        return sorted(lst)
+  def cube_number(x):
+        return x**3
