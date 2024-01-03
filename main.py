@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
