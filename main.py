@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
