@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
