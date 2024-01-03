@@ -7,6 +7,6 @@ def memoize(func):
                 cache[args] = func(*args)
         return cache[args]
         return wrapper
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
