@@ -1,8 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
