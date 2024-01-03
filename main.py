@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_area_rectangle(l, w):
+        return l * w
