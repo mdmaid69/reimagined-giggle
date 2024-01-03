@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
