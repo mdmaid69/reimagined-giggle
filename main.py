@@ -1,6 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
