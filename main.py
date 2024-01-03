@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+  def convert_to_octal(n):
+        return oct(n)
