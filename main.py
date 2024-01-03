@@ -1,6 +1,7 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
