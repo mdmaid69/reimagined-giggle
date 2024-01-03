@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+from collections import Counter
+print(Counter("hello world"))
