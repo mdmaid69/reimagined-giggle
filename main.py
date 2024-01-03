@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
