@@ -1,6 +1,6 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
