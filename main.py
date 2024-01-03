@@ -1,6 +1,4 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+for i in range(5):
+        print(i)
