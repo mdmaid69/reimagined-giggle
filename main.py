@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
