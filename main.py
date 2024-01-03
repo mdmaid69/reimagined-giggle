@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
