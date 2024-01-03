@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
