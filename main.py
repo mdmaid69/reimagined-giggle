@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def greet(name):
+        print(f"Hello, {name}!")
