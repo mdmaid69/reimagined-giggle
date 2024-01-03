@@ -1,7 +1,6 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
