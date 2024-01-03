@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_area_rectangle(l, w):
+        return l * w
