@@ -1,5 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
