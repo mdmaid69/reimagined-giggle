@@ -1,4 +1,4 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import re
-print(re.match("h.*o", "hello world"))
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
