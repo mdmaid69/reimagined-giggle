@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_work(force, distance):
+        return force * distance
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
