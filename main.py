@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import getpass
+def get_username():
+        return getpass.getuser()
+def find_max(numbers):
+        return max(numbers)
