@@ -1,6 +1,8 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import getpass
-def get_username():
-        return getpass.getuser()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
