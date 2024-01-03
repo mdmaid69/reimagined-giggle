@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
