@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
+def subtract_numbers(x, y):
+        return x - y
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
