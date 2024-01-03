@@ -1,5 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
