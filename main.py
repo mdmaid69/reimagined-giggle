@@ -1,6 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
