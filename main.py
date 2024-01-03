@@ -1,5 +1,5 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  def convert_to_binary(n):
-        return bin(n)
+def convert_array_to_string(array):
+        return array.tostring()
+def is_palindrome(s):
+        return s == s[::-1]
