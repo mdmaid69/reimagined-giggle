@@ -1,4 +1,6 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
