@@ -1,6 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_sine(x):
+        return math.sin(x)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
