@@ -1,5 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
