@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
