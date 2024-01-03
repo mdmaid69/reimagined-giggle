@@ -1,6 +1,6 @@
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
