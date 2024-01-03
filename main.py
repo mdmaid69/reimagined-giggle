@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
