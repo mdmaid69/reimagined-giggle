@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
