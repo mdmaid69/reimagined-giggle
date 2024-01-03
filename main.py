@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def find_max(numbers):
+        return max(numbers)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
