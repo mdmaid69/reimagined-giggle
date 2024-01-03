@@ -1,4 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import datetime
-print(datetime.datetime.now())
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def cube_number(x):
+        return x**3
