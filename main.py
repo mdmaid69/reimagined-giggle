@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
