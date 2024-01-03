@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
