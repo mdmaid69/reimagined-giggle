@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
