@@ -1,9 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
