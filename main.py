@@ -1,6 +1,5 @@
+text = "Hello, world!"
+print("Reversed:", text[::-1])
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
