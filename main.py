@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_sine(x):
+        return math.sin(x)
