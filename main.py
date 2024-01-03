@@ -1,4 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-def calculate_acceleration(speed, time):
-        return speed / time
+def multiply_numbers(x, y):
+        return x * y
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
