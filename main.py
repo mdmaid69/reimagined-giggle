@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
