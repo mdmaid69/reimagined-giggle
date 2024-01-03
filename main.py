@@ -1,7 +1,4 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  def sort_list(lst):
+        return sorted(lst)
+def add_numbers(x, y):
+        return x + y
