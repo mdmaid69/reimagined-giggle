@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
