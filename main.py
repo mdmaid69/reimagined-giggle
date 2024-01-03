@@ -1,6 +1,5 @@
 import array
-def append_to_array(array, item):
-        array.append(item)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
