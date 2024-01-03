@@ -1,6 +1,5 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def get_array_as_complex(array):
+        return complex(array[0])
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
