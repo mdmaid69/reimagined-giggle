@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
