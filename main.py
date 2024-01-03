@@ -1,6 +1,5 @@
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_tangent(x):
+        return math.tan(x)
