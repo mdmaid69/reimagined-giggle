@@ -1,4 +1,7 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+for i in range(10): print(i)
