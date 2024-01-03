@@ -1,4 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-print([x**2 for x in range(10)])
+def calculate_factorial(n):
+        return math.factorial(n)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
