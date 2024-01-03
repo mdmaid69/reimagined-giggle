@@ -1,6 +1,5 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def get_array_as_frozenset(array):
+        return frozenset(array)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
