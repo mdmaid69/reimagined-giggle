@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_pressure(force, area):
+        return force / area
