@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def cube_number(x):
-        return x**3
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
