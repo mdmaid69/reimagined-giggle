@@ -1,5 +1,8 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def convert_to_hex(n):
-        return hex(n)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
