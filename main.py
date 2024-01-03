@@ -1,4 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def get_array_as_bool(array):
+        return bool(array)
