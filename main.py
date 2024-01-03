@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
