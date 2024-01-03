@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+print([x**2 for x in range(10)])
