@@ -1,6 +1,8 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
