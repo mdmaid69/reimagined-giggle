@@ -1,6 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
