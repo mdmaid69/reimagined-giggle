@@ -1,6 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
