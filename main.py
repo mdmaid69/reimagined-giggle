@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
