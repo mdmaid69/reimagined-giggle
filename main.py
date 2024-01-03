@@ -1,8 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
