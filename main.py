@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def sort_list(lst):
+        return sorted(lst)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
