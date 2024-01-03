@@ -1,6 +1,6 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
