@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def get_array_length(array):
+        return len(array)
