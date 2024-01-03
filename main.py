@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+text = "Hello, world!"
+print("Words:", len(text.split()))
