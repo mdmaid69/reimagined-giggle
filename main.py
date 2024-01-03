@@ -1,4 +1,6 @@
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
 import os
-print(os.getcwd())
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def get_file_size(filename):
+        return os.path.getsize(filename)
