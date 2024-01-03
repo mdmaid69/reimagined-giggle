@@ -1,5 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_arc_tangent(x):
+        return math.atan(x)
