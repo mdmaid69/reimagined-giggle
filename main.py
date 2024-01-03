@@ -1,8 +1,7 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import os
+def get_current_working_directory():
+        return os.getcwd()
