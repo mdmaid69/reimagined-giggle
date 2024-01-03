@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-  def calculate_area_rectangle(l, w):
-        return l * w
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
