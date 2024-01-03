@@ -1,7 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+import random
+def roll_die():
+        return random.randint(1, 6)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
