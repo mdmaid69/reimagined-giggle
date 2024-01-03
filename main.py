@@ -1,6 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
