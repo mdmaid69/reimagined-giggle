@@ -1,5 +1,7 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_acceleration(speed, time):
+        return speed / time
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
