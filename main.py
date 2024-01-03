@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import logging
-def log_message(message):
-        logging.info(message)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+def square_number(x):
+        return x**2
