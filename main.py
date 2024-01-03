@@ -1,5 +1,5 @@
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
