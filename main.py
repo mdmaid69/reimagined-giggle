@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+def add_numbers(a, b):
+        return a + b
