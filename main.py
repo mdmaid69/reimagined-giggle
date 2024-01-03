@@ -1,5 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
