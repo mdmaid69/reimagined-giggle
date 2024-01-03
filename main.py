@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_area_circle(r):
+        return 3.14 * r**2
