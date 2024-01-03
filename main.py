@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def is_odd(n):
+        return n % 2 != 0
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
