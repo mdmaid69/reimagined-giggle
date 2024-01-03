@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def reverse_list(lst):
+        return lst[::-1]
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
