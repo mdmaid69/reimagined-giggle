@@ -1,5 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
