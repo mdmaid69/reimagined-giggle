@@ -1,5 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
