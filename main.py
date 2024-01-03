@@ -1,4 +1,6 @@
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-print("Hello, world!")
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
