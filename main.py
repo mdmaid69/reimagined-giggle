@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
