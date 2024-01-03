@@ -1,5 +1,7 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def add_numbers(x, y):
+        return x + y
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
