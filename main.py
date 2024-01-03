@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
