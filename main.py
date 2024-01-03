@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
