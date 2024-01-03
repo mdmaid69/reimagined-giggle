@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import sys
+print(sys.version)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
