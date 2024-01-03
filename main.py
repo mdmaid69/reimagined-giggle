@@ -1,6 +1,6 @@
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def convert_array_to_string(array):
+        return array.tostring()
