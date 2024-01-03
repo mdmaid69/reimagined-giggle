@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
