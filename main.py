@@ -1,6 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_volume(length, width, height):
+        return length * width * height
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
