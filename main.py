@@ -1,9 +1,6 @@
+name = "Python"
+print("Hello,", name)
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def iterate_over_array(array):
+        for item in array:
+        print(item)
