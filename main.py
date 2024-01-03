@@ -1,5 +1,6 @@
 import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
