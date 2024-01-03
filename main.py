@@ -1,4 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+print([x**2 for x in range(10)])
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
