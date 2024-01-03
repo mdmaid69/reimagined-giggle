@@ -1,5 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def reverse_string(s):
-        return s[::-1]
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
