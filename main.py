@@ -1,6 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 import array
-def reverse_array(array):
-        array.reverse()
-import sys
-def exit_program():
-        sys.exit()
+def get_array_as_int(array):
+        return int(array[0])
