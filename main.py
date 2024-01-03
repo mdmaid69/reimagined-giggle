@@ -1,5 +1,5 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_power(work, time):
+        return work / time
+import datetime
+def get_current_date():
+        return datetime.date.today()
