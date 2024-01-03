@@ -1,5 +1,4 @@
-def find_min(numbers):
-        return min(numbers)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
