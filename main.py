@@ -1,7 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def reverse_list(lst):
+        return lst[::-1]
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
