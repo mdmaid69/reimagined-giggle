@@ -1,6 +1,6 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
