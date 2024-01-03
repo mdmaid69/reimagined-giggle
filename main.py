@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import collections
+def create_stack():
+        return collections.deque()
