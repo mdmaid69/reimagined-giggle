@@ -1,5 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  import sys
+  def get_python_version():
+        return sys.version
