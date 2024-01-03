@@ -1,6 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import array
-def clear_array(array):
-        array *= 0
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import os
+def change_working_directory(path):
+        os.chdir(path)
