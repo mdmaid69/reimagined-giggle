@@ -1,5 +1,6 @@
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
