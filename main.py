@@ -1,3 +1,5 @@
-print(sum(range(10)))
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import datetime
+print(datetime.datetime.now())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
