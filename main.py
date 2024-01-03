@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
