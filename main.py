@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
