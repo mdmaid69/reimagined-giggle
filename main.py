@@ -1,5 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+import getpass
+def get_username():
+        return getpass.getuser()
