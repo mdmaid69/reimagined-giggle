@@ -1,4 +1,5 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+  def add_numbers(x, y):
+        return x + y
