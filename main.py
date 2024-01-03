@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import time
-def get_current_time():
-        return time.ctime()
+import sys
+def exit_program():
+        sys.exit()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
