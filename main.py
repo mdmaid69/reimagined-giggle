@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  import os
+  def split_path(path):
+        return os.path.split(path)
