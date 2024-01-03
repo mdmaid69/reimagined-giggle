@@ -1,12 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-import sys
-def print_python_version():
-        print(sys.version)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import collections
+def create_queue():
+        return collections.deque()
