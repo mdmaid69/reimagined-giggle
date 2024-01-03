@@ -1,4 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def exit_program():
+        sys.exit()
+def is_even(n):
+        return n % 2 == 0
