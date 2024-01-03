@@ -1,5 +1,5 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  def reverse_list(lst):
-        return lst[::-1]
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+print(math.pi)
