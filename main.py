@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def split_path(path):
+        return os.path.split(path)
