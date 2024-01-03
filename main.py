@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
+def is_odd(n):
+        return n % 2 != 0
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
