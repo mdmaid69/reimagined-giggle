@@ -1,5 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+  def count_elements(lst):
+        return len(lst)
