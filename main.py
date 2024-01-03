@@ -1,6 +1,4 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
