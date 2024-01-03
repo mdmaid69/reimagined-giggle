@@ -1,8 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def calculate_area_circle(r):
-        return 3.14 * r**2
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
