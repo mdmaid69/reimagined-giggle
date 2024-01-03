@@ -1,5 +1,6 @@
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import re
-print(re.match("h.*o", "hello world"))
+def split_string(pattern, string):
+        return re.split(pattern, string)
