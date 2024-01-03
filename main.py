@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import tensorflow as tf
+print(tf.__version__)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
