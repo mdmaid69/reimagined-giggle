@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def find_max(numbers):
+        return max(numbers)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
