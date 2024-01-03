@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
