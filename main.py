@@ -1,6 +1,4 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+print(sum(range(10)))
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
