@@ -1,9 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
