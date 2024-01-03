@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
