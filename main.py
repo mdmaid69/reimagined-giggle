@@ -1,6 +1,5 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import array
-def get_array_typecode(array):
-        return array.typecode
+def greet(name):
+        print(f"Hello, {name}!")
+import json
+def convert_to_json(data):
+        return json.dumps(data)
