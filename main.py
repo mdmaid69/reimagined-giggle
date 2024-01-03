@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
