@@ -1,9 +1,5 @@
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
