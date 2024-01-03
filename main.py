@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
