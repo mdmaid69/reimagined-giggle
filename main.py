@@ -1,6 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
