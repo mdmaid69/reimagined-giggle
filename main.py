@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
