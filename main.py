@@ -1,6 +1,6 @@
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
