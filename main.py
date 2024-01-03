@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
