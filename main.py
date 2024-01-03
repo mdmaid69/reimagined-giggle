@@ -1,7 +1,5 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
