@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
