@@ -1,5 +1,6 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
