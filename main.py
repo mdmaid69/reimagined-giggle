@@ -1,5 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def convert_to_hex(n):
+        return hex(n)
