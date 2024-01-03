@@ -1,6 +1,7 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
