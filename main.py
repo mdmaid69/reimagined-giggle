@@ -1,6 +1,7 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
