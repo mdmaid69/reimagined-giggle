@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
