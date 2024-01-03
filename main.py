@@ -1,6 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
