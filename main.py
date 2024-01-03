@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
