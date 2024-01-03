@@ -1,4 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-def find_min(lst):
-        return min(lst)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_area(radius):
+        return 3.14 * radius * radius
