@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def convert_to_hex(n):
-        return hex(n)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
