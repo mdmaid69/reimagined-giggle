@@ -1,5 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import datetime
-print(datetime.datetime.now())
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
