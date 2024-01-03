@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+  def multiply_numbers(x, y):
+        return x * y
