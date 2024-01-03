@@ -1,6 +1,6 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
