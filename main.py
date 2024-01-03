@@ -1,5 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def square_number(x):
-        return x**2
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_speed(distance, time):
+        return distance / time
