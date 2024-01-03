@@ -1,6 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
