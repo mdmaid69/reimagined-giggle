@@ -1,5 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
