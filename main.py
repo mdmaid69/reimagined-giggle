@@ -1,6 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
