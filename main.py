@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
