@@ -1,6 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def subtract_numbers(x, y):
+        return x - y
