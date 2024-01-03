@@ -1,7 +1,5 @@
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
