@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  def square_number(x):
-        return x**2
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
