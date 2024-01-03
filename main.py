@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
