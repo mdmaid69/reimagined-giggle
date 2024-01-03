@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
