@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
