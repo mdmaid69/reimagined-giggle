@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def find_max(lst):
+        return max(lst)
+import numpy as np
+print(np.array([1, 2, 3]))
