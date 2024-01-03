@@ -1,6 +1,6 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import getpass
-def get_username():
-        return getpass.getuser()
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
