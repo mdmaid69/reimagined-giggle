@@ -1,6 +1,4 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+name = "Python"
+print("Hello,", name)
+def reverse_string(s):
+        return s[::-1]
