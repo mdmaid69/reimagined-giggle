@@ -1,5 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def is_palindrome(s):
-        return s == s[::-1]
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
