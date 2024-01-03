@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
