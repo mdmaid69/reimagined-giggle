@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import array
-def get_array_as_set(array):
-        return set(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
