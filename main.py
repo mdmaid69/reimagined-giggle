@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
