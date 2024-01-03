@@ -1,5 +1,5 @@
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+def calculate_factorial(n):
+        return math.factorial(n)
