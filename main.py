@@ -1,6 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import tensorflow as tf
+print(tf.__version__)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
