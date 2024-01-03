@@ -1,6 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
