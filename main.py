@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
