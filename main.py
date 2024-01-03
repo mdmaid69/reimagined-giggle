@@ -1,4 +1,5 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def is_odd(n):
-        return n % 2 != 0
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+for i in range(5):
+        print(i)
