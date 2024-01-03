@@ -1,5 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-name = "Python"
-print("Hello,", name)
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
