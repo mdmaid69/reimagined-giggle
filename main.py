@@ -1,4 +1,5 @@
-for i in range(10): print(i)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import random
+def roll_die():
+        return random.randint(1, 6)
