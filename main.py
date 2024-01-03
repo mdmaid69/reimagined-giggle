@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_pressure(force, area):
-        return force / area
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
