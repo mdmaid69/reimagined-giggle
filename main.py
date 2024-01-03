@@ -1,4 +1,7 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def count_elements(lst):
-        return len(lst)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_sine(x):
+        return math.sin(x)
