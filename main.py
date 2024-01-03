@@ -1,6 +1,4 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def get_array_as_float(array):
-        return float(array[0])
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+def remove_duplicates(lst):
+        return list(set(lst))
