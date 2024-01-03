@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
   import os
-  def get_current_directory():
+  def get_current_working_directory():
         return os.getcwd()
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
