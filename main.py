@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
