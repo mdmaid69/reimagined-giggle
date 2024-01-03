@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
