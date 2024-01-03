@@ -4,6 +4,6 @@ def parse_arguments():
         parser.add_argument("--input")
         parser.add_argument("--output")
         return parser.parse_args()
-import sys
-def print_python_version():
-        return sys.version
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
