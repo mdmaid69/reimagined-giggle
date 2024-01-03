@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-import array
-def get_array_length(array):
-        return len(array)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
