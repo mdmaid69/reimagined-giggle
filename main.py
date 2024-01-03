@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
