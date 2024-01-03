@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+def calculate_acceleration(speed, time):
+        return speed / time
