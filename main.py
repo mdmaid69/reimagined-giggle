@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def reverse_string(s):
-        return s[::-1]
+  def square_number(x):
+        return x**2
+import array
+def get_array_index(array, item):
+        return array.index(item)
