@@ -1,7 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
