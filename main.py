@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
