@@ -1,5 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
