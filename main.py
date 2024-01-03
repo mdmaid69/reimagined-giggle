@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
