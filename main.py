@@ -1,5 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import time
-def get_current_time():
-        return time.ctime()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
