@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
