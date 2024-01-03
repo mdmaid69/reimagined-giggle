@@ -1,5 +1,5 @@
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import random
-print(random.randint(0, 100))
+def calculate_error_function(x):
+        return math.erf(x)
