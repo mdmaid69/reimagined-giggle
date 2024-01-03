@@ -1,6 +1,12 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
