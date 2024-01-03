@@ -1,5 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
