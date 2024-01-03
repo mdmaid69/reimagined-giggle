@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
