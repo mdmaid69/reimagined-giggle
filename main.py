@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
