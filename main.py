@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def count_characters(sentence):
+        return len(sentence)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
