@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import collections
+def create_user_dict():
+        return collections.UserDict()
