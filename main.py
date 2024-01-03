@@ -1,7 +1,7 @@
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
 import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
