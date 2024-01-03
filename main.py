@@ -1,5 +1,6 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def remove_from_array(array, item):
+        array.remove(item)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
