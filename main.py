@@ -1,6 +1,8 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
