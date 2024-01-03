@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def sort_list(lst):
-        return sorted(lst)
+def subtract_numbers(x, y):
+        return x - y
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
