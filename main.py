@@ -1,5 +1,5 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
