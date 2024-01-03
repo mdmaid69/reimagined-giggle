@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_item(array, i):
-        return array[i]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import time
+def get_current_time():
+        return time.time()
