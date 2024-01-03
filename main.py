@@ -1,6 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def get_array_as_bytearray(array):
+        return bytearray(array)
