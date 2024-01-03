@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+for i in range(5):
+        print(i)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
