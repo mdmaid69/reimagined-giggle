@@ -1,5 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def is_even(n):
+        return n % 2 == 0
