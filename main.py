@@ -1,5 +1,3 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+print([x**2 for x in range(10)])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
