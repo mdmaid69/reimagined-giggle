@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
