@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import re
+print(re.match("h.*o", "hello world"))
+def calculate_area(radius):
+        return 3.14 * radius * radius
