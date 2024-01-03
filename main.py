@@ -1,6 +1,6 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import sys
+def print_python_version():
+        return sys.version
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
