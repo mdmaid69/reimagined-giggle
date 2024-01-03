@@ -1,6 +1,6 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
