@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
