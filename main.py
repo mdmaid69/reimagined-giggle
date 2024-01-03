@@ -1,5 +1,9 @@
-def is_odd(n):
-        return n % 2 != 0
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
