@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
