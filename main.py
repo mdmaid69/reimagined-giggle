@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
