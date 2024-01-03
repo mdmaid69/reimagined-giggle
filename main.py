@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import sys
+print(sys.version)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
