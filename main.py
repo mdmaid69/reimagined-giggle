@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_sine(x):
+        return math.sin(x)
