@@ -1,6 +1,11 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
