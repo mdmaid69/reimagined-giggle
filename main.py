@@ -1,4 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import random
-print(random.randint(0, 100))
+import platform
+def get_os_info():
+        return platform.uname()
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
