@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
