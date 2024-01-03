@@ -1,5 +1,5 @@
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
