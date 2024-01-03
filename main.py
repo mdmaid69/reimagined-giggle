@@ -1,8 +1,5 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
