@@ -1,5 +1,4 @@
-def find_min(lst):
-        return min(lst)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+def sort_numbers(numbers):
+        return sorted(numbers)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
