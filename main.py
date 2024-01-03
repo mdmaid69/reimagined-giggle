@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
