@@ -1,7 +1,4 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
