@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
