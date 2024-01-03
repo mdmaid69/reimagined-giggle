@@ -1,5 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-def calculate_speed(distance, time):
-        return distance / time
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  def multiply_numbers(x, y):
+        return x * y
