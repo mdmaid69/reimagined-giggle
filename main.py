@@ -1,5 +1,9 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
