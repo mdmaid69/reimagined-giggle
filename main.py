@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-x = 10
-y = 20
-print("Sum:", x + y)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
