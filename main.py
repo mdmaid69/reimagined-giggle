@@ -1,5 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
