@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
