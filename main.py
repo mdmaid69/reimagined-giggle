@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import getpass
-def get_username():
-        return getpass.getuser()
+def greet(name):
+        print(f"Hello, {name}!")
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
