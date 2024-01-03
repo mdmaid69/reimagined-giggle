@@ -1,6 +1,5 @@
-  def convert_to_octal(n):
-        return oct(n)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
