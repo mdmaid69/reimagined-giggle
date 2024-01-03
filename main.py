@@ -1,6 +1,6 @@
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
