@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_speed(distance, time):
+        return distance / time
