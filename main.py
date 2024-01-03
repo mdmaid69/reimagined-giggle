@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
