@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import math
+print(math.pi)
+import sys
+def print_python_version():
+        return sys.version
