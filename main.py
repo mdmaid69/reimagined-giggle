@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  def delete_file(file_name):
+        os.remove(file_name)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
