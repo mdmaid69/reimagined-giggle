@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
 import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
