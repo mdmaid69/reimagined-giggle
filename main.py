@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
