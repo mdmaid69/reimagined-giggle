@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
