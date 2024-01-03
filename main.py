@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def is_odd(n):
+        return n % 2 != 0
