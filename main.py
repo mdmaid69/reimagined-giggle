@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def find_max(numbers):
+        return max(numbers)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
