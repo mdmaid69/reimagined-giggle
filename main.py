@@ -1,5 +1,7 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def calculate_area(radius):
-        return 3.14 * radius * radius
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
