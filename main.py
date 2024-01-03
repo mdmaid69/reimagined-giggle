@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import sys
+def exit_program():
+        sys.exit()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
