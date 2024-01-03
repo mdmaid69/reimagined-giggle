@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_acceleration(speed, time):
+        return speed / time
