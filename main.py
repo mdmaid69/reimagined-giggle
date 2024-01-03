@@ -1,5 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
