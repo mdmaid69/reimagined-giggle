@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
