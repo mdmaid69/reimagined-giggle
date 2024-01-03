@@ -1,5 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import math
+def calculate_floor(x):
+        return math.floor(x)
