@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
