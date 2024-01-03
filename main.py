@@ -1,4 +1,6 @@
-  def cube_number(x):
-        return x**3
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
