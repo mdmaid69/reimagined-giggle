@@ -1,5 +1,10 @@
-import sys
-def print_python_version():
-        print(sys.version)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def add_numbers(x, y):
+        return x + y
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
