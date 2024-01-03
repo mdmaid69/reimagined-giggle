@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
