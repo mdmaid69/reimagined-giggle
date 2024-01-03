@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  def remove_duplicates(lst):
+        return list(set(lst))
