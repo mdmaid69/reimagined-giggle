@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-def is_palindrome(s):
-        return s == s[::-1]
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
