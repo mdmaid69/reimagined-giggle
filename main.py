@@ -1,7 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def add_numbers(a, b):
+        return a + b
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
