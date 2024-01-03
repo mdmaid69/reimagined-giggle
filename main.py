@@ -1,6 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
