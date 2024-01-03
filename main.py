@@ -1,5 +1,7 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def convert_to_octal(n):
+        return oct(n)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
