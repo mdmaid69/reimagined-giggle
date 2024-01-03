@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
