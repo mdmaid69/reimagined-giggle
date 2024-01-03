@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import random
-print(random.randint(0, 100))
+  def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
