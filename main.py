@@ -1,8 +1,7 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.frombytes(bytes)
         return a
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
