@@ -1,7 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
