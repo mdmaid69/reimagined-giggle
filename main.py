@@ -1,6 +1,5 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import platform
+def get_os_info():
+        return platform.uname()
+  def add_numbers(x, y):
+        return x + y
