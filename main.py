@@ -1,4 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-print("Hello, world!")
+  def convert_to_binary(n):
+        return bin(n)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
