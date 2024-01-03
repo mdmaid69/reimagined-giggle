@@ -1,6 +1,6 @@
+import array
+def get_array_as_repr(array):
+        return repr(array)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
