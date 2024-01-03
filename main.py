@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_priority_queue():
+        return collections.deque()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
