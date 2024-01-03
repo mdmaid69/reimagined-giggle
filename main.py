@@ -1,5 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  def is_odd(n):
-        return n % 2 != 0
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
