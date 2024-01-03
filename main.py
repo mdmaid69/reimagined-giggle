@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
