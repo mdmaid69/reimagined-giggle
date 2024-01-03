@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import collections
-def create_counter():
-        return collections.Counter()
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
