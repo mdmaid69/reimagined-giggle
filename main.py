@@ -1,7 +1,6 @@
 import collections
-def create_user_list():
-        return collections.UserList()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_array_typecode(array):
+        return array.typecode
