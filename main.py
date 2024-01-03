@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
