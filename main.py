@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
