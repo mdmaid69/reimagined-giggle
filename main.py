@@ -1,6 +1,5 @@
+def add_numbers(a, b):
+        return a + b
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
