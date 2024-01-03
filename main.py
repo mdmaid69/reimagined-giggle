@@ -1,7 +1,7 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
