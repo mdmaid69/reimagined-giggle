@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
 import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
