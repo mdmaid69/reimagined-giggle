@@ -1,11 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import tensorflow as tf
-print(tf.__version__)
+import array
+def get_array_as_list(array):
+        return list(array)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
