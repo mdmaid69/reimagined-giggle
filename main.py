@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def count_characters(sentence):
+        return len(sentence)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
