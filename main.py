@@ -1,6 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
