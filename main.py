@@ -1,7 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+from collections import Counter
+print(Counter("hello world"))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
