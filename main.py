@@ -1,6 +1,10 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def subtract_numbers(x, y):
+        return x - y
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
