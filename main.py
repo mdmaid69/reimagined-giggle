@@ -1,5 +1,13 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
