@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import collections
-def create_queue():
-        return collections.deque()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def reverse_list(lst):
+        return lst[::-1]
