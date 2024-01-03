@@ -1,5 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+def convert_to_octal(n):
+        return oct(n)
