@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
 import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
