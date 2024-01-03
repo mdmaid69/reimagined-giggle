@@ -1,6 +1,7 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-x = 10
-y = 20
-print("Sum:", x + y)
+import collections
+def create_stack():
+        return collections.deque()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
