@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import random
-def roll_die():
-        return random.randint(1, 6)
+for i in range(5):
+        print(i)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
