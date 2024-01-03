@@ -1,5 +1,6 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def find_min(numbers):
-        return min(numbers)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
