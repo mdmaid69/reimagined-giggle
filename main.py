@@ -1,8 +1,5 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def calculate_density(mass, volume):
+        return mass / volume
