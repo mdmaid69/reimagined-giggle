@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
