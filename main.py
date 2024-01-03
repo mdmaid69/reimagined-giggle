@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
