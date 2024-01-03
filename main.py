@@ -1,6 +1,3 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+for i in range(10): print(i)
