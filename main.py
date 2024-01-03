@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import platform
-def get_os_info():
-        return platform.uname()
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
