@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
