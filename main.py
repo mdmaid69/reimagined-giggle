@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+name = "Python"
+print("Hello,", name)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
