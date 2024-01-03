@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
