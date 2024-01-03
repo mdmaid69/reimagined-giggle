@@ -1,6 +1,5 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
 import array
-def reverse_array(array):
-        array.reverse()
+def convert_array_to_list(array):
+        return array.tolist()
+def square_number(x):
+        return x**2
