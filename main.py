@@ -1,6 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
