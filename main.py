@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
