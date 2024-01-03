@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
