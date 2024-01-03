@@ -1,7 +1,4 @@
 sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+print("Unique words:", len(set(sentence.split())))
+def calculate_power(work, time):
+        return work / time
