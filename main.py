@@ -1,6 +1,4 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+for i in range(10): print(i)
