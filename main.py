@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import array
+def get_array_item(array, i):
+        return array[i]
