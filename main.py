@@ -1,6 +1,7 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
