@@ -1,5 +1,4 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def calculate_power(work, time):
-        return work / time
+def calculate_acceleration(speed, time):
+        return speed / time
+from collections import Counter
+print(Counter("hello world"))
