@@ -1,5 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import datetime
-print(datetime.datetime.now())
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
