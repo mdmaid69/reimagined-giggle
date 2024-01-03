@@ -1,7 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
