@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
