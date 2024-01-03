@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
