@@ -1,6 +1,6 @@
 import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
