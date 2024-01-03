@@ -1,8 +1,14 @@
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
 import array
-def get_array_from_bytes(bytes, typecode):
+def get_array_from_file(filename, typecode):
         a = array.array(typecode)
-        a.frombytes(bytes)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
         return a
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
