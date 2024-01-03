@@ -1,6 +1,4 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+print([x**2 for x in range(10)])
