@@ -1,5 +1,6 @@
-import time
-print(time.time())
 import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
