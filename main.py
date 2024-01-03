@@ -1,6 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
