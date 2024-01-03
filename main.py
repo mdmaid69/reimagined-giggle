@@ -1,7 +1,5 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import numpy as np
+print(np.array([1, 2, 3]))
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
