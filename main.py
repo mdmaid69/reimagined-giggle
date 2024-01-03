@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import array
-def get_array_as_int(array):
-        return int(array[0])
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
