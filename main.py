@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
