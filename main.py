@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
