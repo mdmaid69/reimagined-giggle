@@ -1,10 +1,7 @@
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
