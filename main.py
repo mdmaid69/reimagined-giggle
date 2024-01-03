@@ -1,6 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+for i in range(10): print(i)
 import array
-def get_array_as_set(array):
-        return set(array)
+def get_array_slice(array, i, j):
+        return array[i:j]
