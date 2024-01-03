@@ -1,4 +1,6 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def add_numbers(a, b):
-        return a + b
+import collections
+def create_queue():
+        return collections.deque()
+import array
+def get_array_typecode(array):
+        return array.typecode
