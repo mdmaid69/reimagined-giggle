@@ -1,5 +1,8 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
