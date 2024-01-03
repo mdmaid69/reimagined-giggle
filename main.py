@@ -1,5 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
