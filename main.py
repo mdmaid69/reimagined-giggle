@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
