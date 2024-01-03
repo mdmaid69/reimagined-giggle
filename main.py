@@ -1,6 +1,4 @@
-import array
-def clear_array(array):
-        array *= 0
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  def convert_to_octal(n):
+        return oct(n)
