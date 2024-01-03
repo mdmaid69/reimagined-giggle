@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def is_odd(n):
-        return n % 2 != 0
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
