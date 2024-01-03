@@ -1,4 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_density(mass, volume):
-        return mass / volume
+import random
+def roll_die():
+        return random.randint(1, 6)
+import array
+def get_array_as_str(array):
+        return str(array)
