@@ -1,6 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import time
+def get_time_since_epoch():
+        return time.time()
