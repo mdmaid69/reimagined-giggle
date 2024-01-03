@@ -1,5 +1,4 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def count_elements(lst):
+        return len(lst)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
