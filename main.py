@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
