@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def add_numbers(a, b):
+        return a + b
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
