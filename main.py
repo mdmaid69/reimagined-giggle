@@ -1,7 +1,8 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
