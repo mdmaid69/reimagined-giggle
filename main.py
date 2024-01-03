@@ -1,6 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
