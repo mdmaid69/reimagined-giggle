@@ -1,5 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-def multiply_numbers(x, y):
-        return x * y
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def is_palindrome(s):
+        return s == s[::-1]
