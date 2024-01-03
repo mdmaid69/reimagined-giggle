@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def count_words(sentence):
+        return len(sentence.split())
+import json
+print(json.dumps({"name": "John", "age": 30}))
