@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
