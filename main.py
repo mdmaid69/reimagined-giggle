@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
 import array
-def clear_array(array):
-        array *= 0
+def get_bytes_from_array(array):
+        return array.tobytes()
+import json
+print(json.dumps({"name": "John", "age": 30}))
