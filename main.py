@@ -1,5 +1,7 @@
-import time
-def get_current_time():
-        return time.time()
-  def convert_to_hex(n):
-        return hex(n)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
