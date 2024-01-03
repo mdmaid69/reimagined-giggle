@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
