@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
