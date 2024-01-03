@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def is_even(n):
+        return n % 2 == 0
