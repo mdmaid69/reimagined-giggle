@@ -1,4 +1,5 @@
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-print([x**2 for x in range(10)])
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
