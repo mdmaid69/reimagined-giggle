@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
