@@ -1,5 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def is_odd(n):
-        return n % 2 != 0
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
