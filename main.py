@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
