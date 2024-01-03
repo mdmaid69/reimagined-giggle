@@ -1,5 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import collections
-def create_counter():
-        return collections.Counter()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
