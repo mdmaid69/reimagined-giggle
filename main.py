@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-  def convert_to_octal(n):
-        return oct(n)
+import sys
+def exit_program():
+        sys.exit()
+  def count_elements(lst):
+        return len(lst)
