@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def reverse_list(lst):
-        return lst[::-1]
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  def remove_duplicates(lst):
+        return list(set(lst))
