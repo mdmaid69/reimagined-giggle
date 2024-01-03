@@ -1,4 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
