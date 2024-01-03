@@ -1,7 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def read_from_json(json_string):
+        return json.loads(json_string)
