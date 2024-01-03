@@ -1,4 +1,7 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_acceleration(speed, time):
-        return speed / time
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import time
+def get_time_since_epoch():
+        return time.time()
