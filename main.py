@@ -1,5 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import re
+print(re.match("h.*o", "hello world"))
