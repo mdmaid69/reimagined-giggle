@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def get_array_as_repr(array):
+        return repr(array)
