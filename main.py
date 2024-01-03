@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def calculate_work(force, distance):
-        return force * distance
+def cube_number(x):
+        return x**3
+import json
+def convert_to_json(data):
+        return json.dumps(data)
