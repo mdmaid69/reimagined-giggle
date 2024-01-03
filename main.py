@@ -1,5 +1,8 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
