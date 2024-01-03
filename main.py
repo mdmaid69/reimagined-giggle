@@ -1,5 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
