@@ -1,6 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import time
+def get_current_time():
+        return time.time()
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
