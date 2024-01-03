@@ -1,5 +1,8 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
