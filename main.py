@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
