@@ -1,3 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-print(sum(range(10)))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_list_from_array(array):
+        return array.tolist()
