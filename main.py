@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+x = 10
+y = 20
+print("Sum:", x + y)
