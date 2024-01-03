@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
