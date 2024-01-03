@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
