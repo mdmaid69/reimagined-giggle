@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import time
+def get_time_since_epoch():
+        return time.time()
