@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import sys
-def exit_program():
-        sys.exit()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
