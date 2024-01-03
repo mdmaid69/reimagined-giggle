@@ -1,5 +1,4 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  def convert_to_binary(n):
+        return bin(n)
