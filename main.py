@@ -1,4 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-import tensorflow as tf
-print(tf.__version__)
+print(sum(range(10)))
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
