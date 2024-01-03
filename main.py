@@ -1,8 +1,6 @@
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_as_tuple(array):
+        return tuple(array)
