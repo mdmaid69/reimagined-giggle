@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
