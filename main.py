@@ -1,7 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import random
+print(random.randint(0, 100))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
