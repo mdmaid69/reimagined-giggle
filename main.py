@@ -1,6 +1,5 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
