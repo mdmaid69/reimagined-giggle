@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
