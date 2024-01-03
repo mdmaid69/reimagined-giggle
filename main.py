@@ -1,6 +1,5 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-x = 10
-y = 20
-print("Sum:", x + y)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def calculate_volume(length, width, height):
+        return length * width * height
