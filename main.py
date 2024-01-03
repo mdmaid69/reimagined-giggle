@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
