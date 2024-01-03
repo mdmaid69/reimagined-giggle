@@ -1,7 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
