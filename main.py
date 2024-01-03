@@ -1,5 +1,6 @@
+import os
+def get_current_working_directory():
+        return os.getcwd()
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def remove_from_array(array, item):
+        array.remove(item)
