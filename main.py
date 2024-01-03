@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+def calculate_power(work, time):
+        return work / time
