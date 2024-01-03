@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
