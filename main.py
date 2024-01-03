@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
