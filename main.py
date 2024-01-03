@@ -1,6 +1,4 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def add_numbers(a, b):
+        return a + b
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
