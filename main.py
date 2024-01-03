@@ -1,4 +1,6 @@
-def convert_to_octal(n):
-        return oct(n)
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
