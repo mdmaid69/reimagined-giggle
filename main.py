@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def reverse_list(lst):
+        return lst[::-1]
