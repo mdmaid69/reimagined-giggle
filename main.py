@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
