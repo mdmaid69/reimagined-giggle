@@ -1,5 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  def subtract_numbers(x, y):
+        return x - y
