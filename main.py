@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def cube_number(x):
+        return x**3
