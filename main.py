@@ -1,4 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-from collections import Counter
-print(Counter("hello world"))
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+import random
+print(random.randint(0, 100))
