@@ -1,5 +1,8 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def greet(name):
-        print(f"Hello, {name}!")
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
