@@ -1,4 +1,3 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def convert_to_octal(n):
-        return oct(n)
+def find_unique_words(sentence):
+        return set(sentence.split())
+print(sum(range(10)))
