@@ -1,6 +1,5 @@
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
 import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+print(re.match("h.*o", "hello world"))
