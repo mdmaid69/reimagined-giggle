@@ -1,5 +1,7 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
