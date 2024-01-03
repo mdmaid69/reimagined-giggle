@@ -1,5 +1,5 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import numpy as np
+print(np.array([1, 2, 3]))
+import platform
+def get_python_version():
+        return platform.python_version()
