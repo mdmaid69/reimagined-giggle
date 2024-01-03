@@ -1,5 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-def subtract_numbers(x, y):
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def subtract_numbers(x, y):
         return x - y
