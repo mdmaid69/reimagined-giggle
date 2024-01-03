@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
