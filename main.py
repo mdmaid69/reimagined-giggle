@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
