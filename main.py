@@ -1,6 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
