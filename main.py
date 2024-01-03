@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
