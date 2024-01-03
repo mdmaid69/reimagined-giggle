@@ -1,6 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  def is_even(n):
+        return n % 2 == 0
