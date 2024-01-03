@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
