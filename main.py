@@ -1,5 +1,6 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
