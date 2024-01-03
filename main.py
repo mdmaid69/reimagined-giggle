@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-import collections
-def create_priority_queue():
-        return collections.deque()
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
