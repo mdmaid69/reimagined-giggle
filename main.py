@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import re
+print(re.match("h.*o", "hello world"))
