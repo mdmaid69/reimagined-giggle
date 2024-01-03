@@ -1,6 +1,7 @@
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
 import array
-def append_to_array(array, item):
-        array.append(item)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
