@@ -1,5 +1,5 @@
+  def sort_list(lst):
+        return sorted(lst)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
