@@ -1,4 +1,4 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-def divide_numbers(x, y):
-        return x / y
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def is_odd(n):
+        return n % 2 != 0
