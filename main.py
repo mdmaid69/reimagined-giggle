@@ -1,6 +1,3 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-import array
-def get_array_as_str(array):
-        return str(array)
+for i in range(10): print(i)
+  def subtract_numbers(x, y):
+        return x - y
