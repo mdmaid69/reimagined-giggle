@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
