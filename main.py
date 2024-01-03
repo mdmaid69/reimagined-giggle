@@ -1,6 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
+import collections
+def create_user_list():
+        return collections.UserList()
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
