@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
