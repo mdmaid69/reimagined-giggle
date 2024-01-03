@@ -1,5 +1,6 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
