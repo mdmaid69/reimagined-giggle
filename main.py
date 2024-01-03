@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
