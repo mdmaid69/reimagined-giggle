@@ -1,8 +1,6 @@
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  def get_directory_name(path):
+        return os.path.dirname(path)
