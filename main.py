@@ -1,7 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
