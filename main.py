@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
