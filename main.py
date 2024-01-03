@@ -1,6 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_list_from_array(array):
+        return array.tolist()
