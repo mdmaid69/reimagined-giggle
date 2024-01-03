@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import random
-def roll_die():
-        return random.randint(1, 6)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def convert_to_binary(n):
+        return bin(n)
