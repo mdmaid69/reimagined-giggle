@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def subtract_numbers(x, y):
+        return x - y
