@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+def calculate_pressure(force, area):
+        return force / area
