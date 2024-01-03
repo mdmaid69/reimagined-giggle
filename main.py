@@ -1,4 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-def reverse_list(lst):
-        return lst[::-1]
+import collections
+def create_user_string():
+        return collections.UserString()
+import platform
+def get_os_info():
+        return platform.uname()
