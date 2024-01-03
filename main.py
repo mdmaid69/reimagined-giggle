@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
