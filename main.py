@@ -1,6 +1,5 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def reverse_array(array):
+        array.reverse()
+  def convert_to_binary(n):
+        return bin(n)
