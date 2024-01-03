@@ -1,6 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
