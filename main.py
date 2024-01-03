@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
