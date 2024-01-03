@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def count_characters(sentence):
+        return len(sentence)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
