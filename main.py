@@ -1,6 +1,6 @@
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-x = 10
-y = 20
-print("Sum:", x + y)
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
