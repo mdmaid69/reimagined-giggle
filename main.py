@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_buffer_info(array):
+        return array.buffer_info()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
