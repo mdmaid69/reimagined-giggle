@@ -1,4 +1,8 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-def cube_number(x):
-        return x**3
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
