@@ -1,5 +1,6 @@
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
