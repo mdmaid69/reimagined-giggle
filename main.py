@@ -1,5 +1,4 @@
-def calculate_pressure(force, area):
-        return force / area
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+def greet(name):
+        print(f"Hello, {name}!")
