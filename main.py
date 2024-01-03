@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def count_elements(lst):
-        return len(lst)
+def add_numbers(a, b):
+        return a + b
+import json
+def convert_to_json(data):
+        return json.dumps(data)
