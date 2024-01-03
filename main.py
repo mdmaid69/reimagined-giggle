@@ -1,6 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
