@@ -1,5 +1,5 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
