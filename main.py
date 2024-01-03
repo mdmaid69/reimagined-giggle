@@ -1,8 +1,5 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def sort_numbers(numbers):
+        return sorted(numbers)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
