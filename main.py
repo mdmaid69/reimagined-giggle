@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
