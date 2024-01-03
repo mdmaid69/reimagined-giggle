@@ -1,6 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import math
+def calculate_sine(x):
+        return math.sin(x)
