@@ -1,6 +1,6 @@
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
