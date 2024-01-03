@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
