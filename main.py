@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
