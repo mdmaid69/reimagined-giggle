@@ -1,6 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+def convert_array_to_string(array):
+        return array.tostring()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
