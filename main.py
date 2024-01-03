@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
