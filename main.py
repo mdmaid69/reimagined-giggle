@@ -1,5 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
