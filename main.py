@@ -1,5 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  def count_elements(lst):
+        return len(lst)
