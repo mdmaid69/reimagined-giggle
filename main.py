@@ -1,4 +1,4 @@
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
-def count_characters(sentence):
-        return len(sentence)
+def calculate_speed(distance, time):
+        return distance / time
+  def convert_to_binary(n):
+        return bin(n)
