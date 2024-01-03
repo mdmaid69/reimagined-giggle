@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
