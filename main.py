@@ -1,5 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-name = "Python"
-print("Hello,", name)
+for i in range(10): print(i)
+import sys
+def exit_program():
+        sys.exit()
