@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
