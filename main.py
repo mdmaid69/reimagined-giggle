@@ -1,6 +1,8 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
