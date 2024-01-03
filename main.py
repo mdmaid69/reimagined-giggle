@@ -1,5 +1,4 @@
-def cube_number(x):
-        return x**3
-import collections
-def create_priority_queue():
-        return collections.deque()
+  def convert_to_octal(n):
+        return oct(n)
+  def remove_duplicates(lst):
+        return list(set(lst))
