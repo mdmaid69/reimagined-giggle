@@ -1,6 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
