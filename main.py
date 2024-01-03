@@ -1,5 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-name = "Python"
-print("Hello,", name)
+def add_numbers(x, y):
+        return x + y
+def is_odd(n):
+        return n % 2 != 0
