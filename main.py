@@ -1,4 +1,5 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-for i in range(10): print(i)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
