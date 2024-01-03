@@ -1,6 +1,6 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import collections
-def create_counter():
-        return collections.Counter()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
