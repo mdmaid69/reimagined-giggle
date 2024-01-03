@@ -1,6 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
