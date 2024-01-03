@@ -1,6 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def reverse_list(lst):
+        return lst[::-1]
