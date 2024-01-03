@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+def find_min(numbers):
+        return min(numbers)
+import array
+def get_array_length(array):
+        return len(array)
