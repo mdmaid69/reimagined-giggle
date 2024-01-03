@@ -1,6 +1,4 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import sys
-def print_python_version():
-        return sys.version
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+def convert_to_octal(n):
+        return oct(n)
