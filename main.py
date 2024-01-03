@@ -1,6 +1,6 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
