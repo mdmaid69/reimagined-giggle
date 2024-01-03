@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
