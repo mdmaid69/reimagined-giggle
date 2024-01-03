@@ -1,6 +1,5 @@
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import platform
-def get_os_info():
-        return platform.uname()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
