@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_work(force, distance):
+        return force * distance
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
