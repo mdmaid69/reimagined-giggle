@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  def convert_to_octal(n):
+        return oct(n)
+  def is_odd(n):
+        return n % 2 != 0
