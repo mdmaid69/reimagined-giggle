@@ -1,6 +1,5 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
