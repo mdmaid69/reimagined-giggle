@@ -1,5 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def is_palindrome(s):
+        return s == s[::-1]
