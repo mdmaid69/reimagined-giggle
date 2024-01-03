@@ -1,5 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
