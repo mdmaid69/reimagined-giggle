@@ -1,8 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
