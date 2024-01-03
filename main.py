@@ -1,5 +1,7 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
