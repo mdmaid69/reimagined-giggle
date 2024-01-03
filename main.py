@@ -1,8 +1,6 @@
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def calculate_square_root(x):
+        return math.sqrt(x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
