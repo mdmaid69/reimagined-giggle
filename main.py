@@ -1,5 +1,6 @@
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_area_rectangle(l, w):
-        return l * w
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
