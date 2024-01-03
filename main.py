@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
