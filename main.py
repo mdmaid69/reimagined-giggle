@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
