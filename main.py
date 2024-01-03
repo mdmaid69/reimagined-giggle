@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+text = "Hello, world!"
+print("Characters:", len(text))
