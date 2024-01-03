@@ -1,5 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
