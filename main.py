@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import sys
-def print_python_version():
-        return sys.version
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
