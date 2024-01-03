@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
