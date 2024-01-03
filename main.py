@@ -1,5 +1,4 @@
-import sys
-def print_python_version():
-        print(sys.version)
-def find_max(numbers):
-        return max(numbers)
+def calculate_density(mass, volume):
+        return mass / volume
+text = "Hello, world!"
+print("Characters:", len(text))
