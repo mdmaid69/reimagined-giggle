@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import time
+def get_time_since_epoch():
+        return time.time()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
