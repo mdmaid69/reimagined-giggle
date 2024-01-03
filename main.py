@@ -1,6 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import collections
+def create_counter():
+        return collections.Counter()
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
