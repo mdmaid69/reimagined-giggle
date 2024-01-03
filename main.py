@@ -1,8 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_priority_queue():
+        return collections.deque()
