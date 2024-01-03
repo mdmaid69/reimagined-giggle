@@ -1,7 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import collections
+def create_user_dict():
+        return collections.UserDict()
