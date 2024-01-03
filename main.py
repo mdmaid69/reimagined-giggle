@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+def convert_to_json(data):
+        return json.dumps(data)
