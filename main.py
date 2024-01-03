@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  def convert_to_hex(n):
-        return hex(n)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
