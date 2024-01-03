@@ -1,6 +1,4 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
