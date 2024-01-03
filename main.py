@@ -1,6 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
