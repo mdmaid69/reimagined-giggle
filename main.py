@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
