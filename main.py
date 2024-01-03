@@ -1,5 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import datetime
+def get_today_date():
+        return datetime.date.today()
