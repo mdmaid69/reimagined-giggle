@@ -1,5 +1,6 @@
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def divide_numbers(x, y):
-        return x / y
+def get_array_as_bytes(array):
+        return bytes(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
