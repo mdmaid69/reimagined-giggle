@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import collections
-def create_counter():
-        return collections.Counter()
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
