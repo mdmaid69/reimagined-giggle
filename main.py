@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def remove_duplicates(lst):
+        return list(set(lst))
