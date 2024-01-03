@@ -1,5 +1,4 @@
-  import os
-  def get_file_owner(file_name):
-        return os.stat(file_name).st_uid
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def reverse_string(s):
+        return s[::-1]
+def calculate_pressure(force, area):
+        return force / area
