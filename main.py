@@ -1,6 +1,4 @@
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+print([x**2 for x in range(10)])
