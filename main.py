@@ -1,4 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
