@@ -1,6 +1,6 @@
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
