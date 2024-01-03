@@ -1,5 +1,5 @@
-def cube_number(x):
-        return x**3
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def square_number(x):
+        return x**2
