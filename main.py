@@ -1,6 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
