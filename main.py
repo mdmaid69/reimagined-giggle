@@ -1,8 +1,8 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
