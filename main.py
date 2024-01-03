@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def append_to_array(array, item):
+        array.append(item)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
