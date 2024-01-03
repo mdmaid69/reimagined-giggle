@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
