@@ -1,6 +1,6 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
 import random
-def roll_die():
-        return random.randint(1, 6)
+def generate_random_choice(choices):
+        return random.choice(choices)
