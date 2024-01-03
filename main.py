@@ -1,6 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
