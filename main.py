@@ -1,4 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
