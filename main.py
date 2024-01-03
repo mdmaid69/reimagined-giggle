@@ -1,5 +1,6 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
