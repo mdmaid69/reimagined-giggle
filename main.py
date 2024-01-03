@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-for i in range(5):
-        print(i)
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
