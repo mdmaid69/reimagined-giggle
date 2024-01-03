@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
