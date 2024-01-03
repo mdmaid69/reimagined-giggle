@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
