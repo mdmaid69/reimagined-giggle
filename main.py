@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import random
+def roll_die():
+        return random.randint(1, 6)
