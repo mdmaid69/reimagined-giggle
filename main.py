@@ -1,5 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_work(force, distance):
+        return force * distance
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
