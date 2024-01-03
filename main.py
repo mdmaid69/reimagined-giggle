@@ -1,6 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
