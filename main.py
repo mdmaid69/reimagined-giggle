@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_speed(distance, time):
+        return distance / time
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
