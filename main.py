@@ -1,6 +1,3 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def get_list_from_array(array):
-        return array.tolist()
+for i in range(10): print(i)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
