@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_sine(x):
+        return math.sin(x)
