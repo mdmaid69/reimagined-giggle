@@ -1,3 +1,8 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-print(sum(range(10)))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
