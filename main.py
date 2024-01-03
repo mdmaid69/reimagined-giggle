@@ -1,5 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def reverse_list(lst):
+        return lst[::-1]
