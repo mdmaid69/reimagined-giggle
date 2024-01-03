@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-name = "Python"
-print("Hello,", name)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  def multiply_numbers(x, y):
+        return x * y
