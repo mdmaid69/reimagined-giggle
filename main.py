@@ -1,7 +1,5 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+def greet(name):
+        print(f"Hello, {name}!")
