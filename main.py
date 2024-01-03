@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
