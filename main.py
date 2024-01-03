@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def is_even(n):
+        return n % 2 == 0
+from collections import Counter
+print(Counter("hello world"))
