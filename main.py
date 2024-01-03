@@ -1,5 +1,6 @@
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  def add_numbers(x, y):
-        return x + y
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_tangent(x):
+        return math.tan(x)
