@@ -1,5 +1,8 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+import array
+def get_array_as_repr(array):
+        return repr(array)
