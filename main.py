@@ -1,5 +1,5 @@
-import time
-print(time.time())
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def is_odd(n):
+        return n % 2 != 0
+import os
+def get_current_working_directory():
+        return os.getcwd()
