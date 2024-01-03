@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
