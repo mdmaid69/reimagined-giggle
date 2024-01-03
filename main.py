@@ -1,6 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
