@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
