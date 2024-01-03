@@ -1,6 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
   import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
