@@ -1,4 +1,5 @@
 import json
-print(json.dumps({"name": "John", "age": 30}))
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
