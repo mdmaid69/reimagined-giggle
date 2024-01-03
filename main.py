@@ -1,5 +1,7 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
