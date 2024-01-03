@@ -1,8 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def convert_to_binary(n):
+        return bin(n)
