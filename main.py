@@ -1,9 +1,6 @@
 import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
+def extend_array(array, iterable):
+        array.extend(iterable)
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
