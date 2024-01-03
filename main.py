@@ -1,8 +1,6 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import array
+def reverse_array(array):
+        array.reverse()
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
