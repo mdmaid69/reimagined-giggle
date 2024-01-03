@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def find_unique_words(sentence):
+        return set(sentence.split())
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
