@@ -1,5 +1,8 @@
-def count_characters(sentence):
-        return len(sentence)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
