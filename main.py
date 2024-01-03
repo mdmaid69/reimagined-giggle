@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import time
-def get_current_time():
-        return time.time()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def sort_list(lst):
+        return sorted(lst)
