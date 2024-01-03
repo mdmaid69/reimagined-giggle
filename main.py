@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def multiply_numbers(x, y):
+        return x * y
