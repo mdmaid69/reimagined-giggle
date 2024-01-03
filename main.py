@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
