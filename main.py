@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
 import array
-def get_array_typecode(array):
-        return array.typecode
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
