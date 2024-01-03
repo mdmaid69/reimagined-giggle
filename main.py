@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def square_number(x):
-        return x**2
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def sort_list(lst):
+        return sorted(lst)
