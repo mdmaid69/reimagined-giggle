@@ -1,6 +1,6 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import sys
+  def get_python_version():
+        return sys.version
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
