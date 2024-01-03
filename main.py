@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
