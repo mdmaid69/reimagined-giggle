@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import platform
-def get_os_info():
-        return platform.uname()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import datetime
+def get_current_date():
+        return datetime.date.today()
