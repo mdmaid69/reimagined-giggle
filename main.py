@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
