@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def calculate_work(force, distance):
-        return force * distance
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
