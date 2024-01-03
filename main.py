@@ -1,6 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+import collections
+def create_counter():
+        return collections.Counter()
