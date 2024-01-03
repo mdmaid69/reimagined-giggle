@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
