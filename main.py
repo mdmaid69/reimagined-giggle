@@ -1,6 +1,5 @@
+  def convert_to_hex(n):
+        return hex(n)
 import time
-def get_time_since_epoch():
-        return time.time()
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def get_current_time():
+        return time.ctime()
