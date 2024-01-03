@@ -1,5 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-for i in range(5):
-        print(i)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+print(sum(range(10)))
