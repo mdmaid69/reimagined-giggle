@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
