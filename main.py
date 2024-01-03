@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
