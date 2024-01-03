@@ -1,5 +1,4 @@
-def subtract_numbers(x, y):
-        return x - y
-import platform
-def get_os_info():
-        return platform.uname()
+def is_palindrome(s):
+        return s == s[::-1]
+import math
+print(math.pi)
