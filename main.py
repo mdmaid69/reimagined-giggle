@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import datetime
-def get_today_date():
-        return datetime.date.today()
+def multiply_numbers(x, y):
+        return x * y
+def subtract_numbers(x, y):
+        return x - y
