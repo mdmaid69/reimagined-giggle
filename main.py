@@ -1,6 +1,6 @@
+import collections
+def create_stack():
+        return collections.deque()
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
