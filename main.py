@@ -1,6 +1,10 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_error_function(x):
+        return math.erf(x)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
