@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def multiply_numbers(x, y):
+        return x * y
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
