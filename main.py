@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import collections
-def create_user_list():
-        return collections.UserList()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
