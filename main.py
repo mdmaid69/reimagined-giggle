@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_typecode(array):
-        return array.typecode
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
