@@ -1,6 +1,6 @@
 import array
-def get_array_item(array, i):
-        return array[i]
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def get_array_typecode(array):
+        return array.typecode
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
