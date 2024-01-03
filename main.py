@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-x = 10
-y = 20
-print("Sum:", x + y)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
