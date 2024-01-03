@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def convert_to_octal(n):
+        return oct(n)
