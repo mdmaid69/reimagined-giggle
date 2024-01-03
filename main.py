@@ -1,6 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
