@@ -1,10 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def count_elements(lst):
+        return len(lst)
