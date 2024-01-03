@@ -1,6 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
