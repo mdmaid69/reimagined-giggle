@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import platform
+def get_os_info():
+        return platform.uname()
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
