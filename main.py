@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
