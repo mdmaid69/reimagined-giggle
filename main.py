@@ -1,4 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
