@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
