@@ -1,5 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def is_odd(n):
-        return n % 2 != 0
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
