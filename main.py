@@ -1,5 +1,5 @@
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
   import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
