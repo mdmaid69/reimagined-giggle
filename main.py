@@ -1,5 +1,5 @@
-def count_elements(lst):
-        return len(lst)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
