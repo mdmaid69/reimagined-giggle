@@ -1,6 +1,6 @@
 import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
