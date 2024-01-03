@@ -1,5 +1,7 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
