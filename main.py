@@ -1,5 +1,5 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_power(work, time):
+        return work / time
