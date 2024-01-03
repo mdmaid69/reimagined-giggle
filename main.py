@@ -1,8 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
