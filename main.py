@@ -1,10 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import sys
+def print_python_version():
+        print(sys.version)
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
