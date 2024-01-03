@@ -1,7 +1,8 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
