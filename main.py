@@ -1,4 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
