@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  def convert_to_octal(n):
+        return oct(n)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
