@@ -1,6 +1,9 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
