@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import time
+def get_current_time():
+        return time.ctime()
