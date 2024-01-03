@@ -1,5 +1,7 @@
 import array
-def clear_array(array):
-        array *= 0
-import time
-print(time.time())
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
