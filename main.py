@@ -1,5 +1,6 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
