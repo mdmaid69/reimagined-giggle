@@ -1,5 +1,8 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def square_number(x):
-        return x**2
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
