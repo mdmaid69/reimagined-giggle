@@ -1,5 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_acceleration(speed, time):
-        return speed / time
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
