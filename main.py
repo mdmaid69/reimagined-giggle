@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-for i in range(5):
-        print(i)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
