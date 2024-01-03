@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import collections
+def create_priority_queue():
+        return collections.deque()
