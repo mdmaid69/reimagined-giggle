@@ -1,6 +1,6 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
