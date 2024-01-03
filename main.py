@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
