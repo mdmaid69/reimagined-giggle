@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import getpass
+def get_username():
+        return getpass.getuser()
+import logging
+def log_message(message):
+        logging.info(message)
