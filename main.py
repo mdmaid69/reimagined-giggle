@@ -1,5 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
