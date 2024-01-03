@@ -1,4 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
