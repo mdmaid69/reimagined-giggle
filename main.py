@@ -1,4 +1,6 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
