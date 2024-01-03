@@ -1,5 +1,3 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+for i in range(10): print(i)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
