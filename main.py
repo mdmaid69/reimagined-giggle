@@ -1,7 +1,6 @@
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
 import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
