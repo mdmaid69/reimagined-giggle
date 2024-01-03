@@ -1,5 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
