@@ -1,5 +1,6 @@
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
-import random
-print(random.randint(0, 100))
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
