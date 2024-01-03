@@ -1,5 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-  def is_even(n):
-        return n % 2 == 0
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
