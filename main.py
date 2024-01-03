@@ -1,6 +1,5 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def remove_from_array(array, item):
+        array.remove(item)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
