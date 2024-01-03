@@ -1,8 +1,8 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  def calculate_area_rectangle(l, w):
+        return l * w
