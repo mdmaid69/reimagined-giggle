@@ -1,5 +1,4 @@
-from collections import Counter
-print(Counter("hello world"))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_density(mass, volume):
+        return mass / volume
