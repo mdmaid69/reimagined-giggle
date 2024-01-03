@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_work(force, distance):
+        return force * distance
+import sys
+def exit_program():
+        sys.exit()
