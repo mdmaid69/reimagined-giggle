@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  def square_number(x):
+        return x**2
