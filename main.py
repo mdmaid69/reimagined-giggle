@@ -1,9 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def convert_to_binary(n):
+        return bin(n)
+import random
+print(random.randint(0, 100))
