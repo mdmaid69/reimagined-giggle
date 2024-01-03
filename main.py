@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
