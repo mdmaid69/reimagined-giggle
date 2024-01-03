@@ -1,5 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import array
+def get_array_typecode(array):
+        return array.typecode
