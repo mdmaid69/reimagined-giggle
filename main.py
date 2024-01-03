@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
