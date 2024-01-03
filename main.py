@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import time
-def get_current_time():
-        return time.time()
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import json
+def convert_to_json(data):
+        return json.dumps(data)
