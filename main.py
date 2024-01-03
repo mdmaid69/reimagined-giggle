@@ -1,4 +1,10 @@
-  def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
+import array
+def append_to_array(array, item):
+        array.append(item)
