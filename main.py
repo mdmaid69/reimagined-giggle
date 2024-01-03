@@ -1,5 +1,6 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
