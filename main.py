@@ -1,6 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
