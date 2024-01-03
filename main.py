@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def reverse_array(array):
+        array.reverse()
