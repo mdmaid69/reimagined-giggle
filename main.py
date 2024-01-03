@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def convert_to_hex(n):
-        return hex(n)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
