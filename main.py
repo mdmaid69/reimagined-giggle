@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
