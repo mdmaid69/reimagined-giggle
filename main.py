@@ -1,6 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
