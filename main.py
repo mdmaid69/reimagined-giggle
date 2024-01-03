@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-for i in range(5):
-        print(i)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+import array
+def append_to_array(array, item):
+        array.append(item)
