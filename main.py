@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import array
-def get_list_from_array(array):
-        return array.tolist()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
