@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
 import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def get_array_as_bytes(array):
+        return bytes(array)
