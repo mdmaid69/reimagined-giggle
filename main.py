@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
