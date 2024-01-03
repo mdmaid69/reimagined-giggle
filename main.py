@@ -1,6 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
