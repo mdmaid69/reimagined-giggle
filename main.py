@@ -1,6 +1,4 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def count_elements(lst):
+        return len(lst)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
