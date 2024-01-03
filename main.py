@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import random
+def roll_die():
+        return random.randint(1, 6)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
