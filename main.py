@@ -1,7 +1,8 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
