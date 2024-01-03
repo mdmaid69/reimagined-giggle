@@ -1,5 +1,5 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
