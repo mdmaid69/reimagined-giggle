@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def cube_number(x):
+        return x**3
 import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
