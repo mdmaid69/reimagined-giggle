@@ -1,4 +1,4 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+import random
+print(random.randint(0, 100))
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
