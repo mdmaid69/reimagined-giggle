@@ -1,5 +1,5 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-text = "Hello, world!"
-print("Characters:", len(text))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def reverse_string(s):
+        return s[::-1]
