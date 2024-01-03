@@ -1,5 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
