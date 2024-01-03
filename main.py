@@ -1,5 +1,6 @@
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_density(mass, volume):
-        return mass / volume
+def get_array_as_bytes(array):
+        return bytes(array)
