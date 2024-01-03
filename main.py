@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-def add_numbers(a, b):
-        return a + b
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def remove_from_array(array, item):
+        array.remove(item)
