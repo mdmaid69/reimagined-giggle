@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
