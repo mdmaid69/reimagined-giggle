@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_as_int(array):
+        return int(array[0])
