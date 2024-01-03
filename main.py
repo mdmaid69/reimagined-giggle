@@ -1,6 +1,6 @@
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
