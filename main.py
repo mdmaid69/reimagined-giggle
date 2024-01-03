@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
 import array
-def get_string_from_array(array):
-        return array.tobytes()
+def get_array_as_float(array):
+        return float(array[0])
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
