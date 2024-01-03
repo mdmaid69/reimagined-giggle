@@ -1,8 +1,4 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import re
+print(re.match("h.*o", "hello world"))
