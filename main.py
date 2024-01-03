@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-name = "Python"
-print("Hello,", name)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
