@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
