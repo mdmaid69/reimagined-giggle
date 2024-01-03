@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import time
-print(time.time())
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def append_to_array(array, item):
+        array.append(item)
