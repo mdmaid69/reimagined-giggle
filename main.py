@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
