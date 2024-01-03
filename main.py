@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def calculate_speed(distance, time):
+        return distance / time
