@@ -1,5 +1,4 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-def square_number(x):
-        return x**2
+print("Hello, world!")
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
