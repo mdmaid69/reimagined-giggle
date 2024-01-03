@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
