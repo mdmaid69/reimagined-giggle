@@ -1,8 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
