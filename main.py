@@ -1,6 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
