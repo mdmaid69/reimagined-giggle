@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
