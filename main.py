@@ -1,5 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def convert_to_hex(n):
-        return hex(n)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
