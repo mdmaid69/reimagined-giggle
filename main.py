@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_work(force, distance):
+        return force * distance
