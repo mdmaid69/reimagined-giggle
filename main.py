@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
