@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def find_max(numbers):
-        return max(numbers)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
