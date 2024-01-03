@@ -1,5 +1,8 @@
-def convert_to_binary(n):
-        return bin(n)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
