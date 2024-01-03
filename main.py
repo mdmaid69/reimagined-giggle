@@ -1,4 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def sort_list(lst):
-        return sorted(lst)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
