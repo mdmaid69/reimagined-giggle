@@ -1,6 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def get_array_length(array):
+        return len(array)
+def calculate_speed(distance, time):
+        return distance / time
