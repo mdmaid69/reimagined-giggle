@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
