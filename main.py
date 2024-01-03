@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import os
+def remove_directory(path):
+        os.rmdir(path)
