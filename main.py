@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
