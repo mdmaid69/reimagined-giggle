@@ -1,4 +1,7 @@
-def calculate_power(work, time):
-        return work / time
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
