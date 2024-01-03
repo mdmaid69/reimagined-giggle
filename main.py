@@ -1,6 +1,4 @@
-import getpass
-def get_username():
-        return getpass.getuser()
+print("Hello, world!")
 import sys
-def exit_program():
-        sys.exit()
+def add_to_python_path(path):
+        sys.path.append(path)
