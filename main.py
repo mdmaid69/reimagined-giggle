@@ -1,5 +1,8 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import array
+def get_array_as_repr(array):
+        return repr(array)
