@@ -1,4 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def find_max(lst):
-        return max(lst)
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
