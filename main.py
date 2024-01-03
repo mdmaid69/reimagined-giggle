@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
