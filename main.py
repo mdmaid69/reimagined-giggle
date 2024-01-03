@@ -1,5 +1,8 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
