@@ -1,5 +1,6 @@
+  import sys
+  def get_python_version():
+        return sys.version
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_acceleration(speed, time):
-        return speed / time
+def append_to_array(array, item):
+        array.append(item)
