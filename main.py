@@ -1,5 +1,5 @@
+def count_words(sentence):
+        return len(sentence.split())
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-text = "Hello, world!"
-print("Characters:", len(text))
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
