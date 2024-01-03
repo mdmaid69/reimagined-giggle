@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import random
+print(random.randint(0, 100))
+import os
+def get_current_working_directory():
+        return os.getcwd()
