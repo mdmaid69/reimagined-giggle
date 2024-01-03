@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
