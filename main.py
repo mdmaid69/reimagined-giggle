@@ -1,5 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def is_odd(n):
+        return n % 2 != 0
