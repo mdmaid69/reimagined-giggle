@@ -1,6 +1,8 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
