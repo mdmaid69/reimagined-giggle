@@ -1,6 +1,6 @@
+import collections
+def create_user_list():
+        return collections.UserList()
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
