@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
