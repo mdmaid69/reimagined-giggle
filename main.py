@@ -1,10 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
