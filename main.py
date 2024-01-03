@@ -1,5 +1,7 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import collections
-def create_user_list():
-        return collections.UserList()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
