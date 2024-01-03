@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+text = "Hello, world!"
+print("Characters:", len(text))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
