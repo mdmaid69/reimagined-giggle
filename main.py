@@ -1,5 +1,8 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
