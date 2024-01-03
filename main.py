@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
