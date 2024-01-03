@@ -1,6 +1,9 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
