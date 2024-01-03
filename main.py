@@ -1,6 +1,12 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
