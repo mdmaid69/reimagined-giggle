@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-  def sort_list(lst):
-        return sorted(lst)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
