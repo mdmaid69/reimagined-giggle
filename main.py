@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  def count_elements(lst):
+        return len(lst)
