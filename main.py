@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def cube_number(x):
+        return x**3
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
