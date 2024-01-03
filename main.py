@@ -1,8 +1,8 @@
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
