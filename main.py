@@ -1,6 +1,3 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import collections
-def create_priority_queue():
-        return collections.deque()
+def square_number(x):
+        return x**2
+for i in range(10): print(i)
