@@ -1,5 +1,9 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def convert_to_hex(n):
-        return hex(n)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
