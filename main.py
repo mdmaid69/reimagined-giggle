@@ -1,6 +1,8 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+  def split_path(path):
+        return os.path.split(path)
