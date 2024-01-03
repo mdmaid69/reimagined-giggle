@@ -1,5 +1,8 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
