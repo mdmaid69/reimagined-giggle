@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
