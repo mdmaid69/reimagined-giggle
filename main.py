@@ -1,5 +1,6 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
