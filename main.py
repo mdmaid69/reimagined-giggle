@@ -1,6 +1,8 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
