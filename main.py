@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  def subtract_numbers(x, y):
+        return x - y
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
