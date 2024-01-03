@@ -1,8 +1,6 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
