@@ -1,5 +1,8 @@
-def calculate_power(work, time):
-        return work / time
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
