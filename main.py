@@ -1,6 +1,7 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
