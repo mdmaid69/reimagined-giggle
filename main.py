@@ -1,4 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-print("Hello, world!")
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
