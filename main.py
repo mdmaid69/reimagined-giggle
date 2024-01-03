@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import sys
-def exit_program():
-        sys.exit()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
