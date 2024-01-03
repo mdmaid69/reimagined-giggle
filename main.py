@@ -1,4 +1,8 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-for i in range(10): print(i)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
