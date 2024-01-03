@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def clear_array(array):
+        array *= 0
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
