@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
