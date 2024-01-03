@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+def sort_numbers(numbers):
+        return sorted(numbers)
