@@ -1,6 +1,3 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+print([x**2 for x in range(10)])
+def cube_number(x):
+        return x**3
