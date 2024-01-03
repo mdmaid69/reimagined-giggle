@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
