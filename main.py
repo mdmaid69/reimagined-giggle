@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def is_odd(n):
-        return n % 2 != 0
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+import array
+def clear_array(array):
+        array *= 0
