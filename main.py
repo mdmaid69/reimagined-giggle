@@ -1,5 +1,4 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def greet(name):
+        print(f"Hello, {name}!")
