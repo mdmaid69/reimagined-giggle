@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
