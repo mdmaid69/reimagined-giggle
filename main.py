@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def convert_to_binary(n):
+        return bin(n)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
