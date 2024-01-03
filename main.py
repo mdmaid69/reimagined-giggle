@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
