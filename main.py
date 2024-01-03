@@ -1,5 +1,4 @@
-print([x**2 for x in range(10)])
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
