@@ -1,7 +1,9 @@
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
         plt.show()
-import time
-def get_time_since_epoch():
-        return time.time()
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
