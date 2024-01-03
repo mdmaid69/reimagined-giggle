@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import platform
+def get_os_info():
+        return platform.uname()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
