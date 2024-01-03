@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
