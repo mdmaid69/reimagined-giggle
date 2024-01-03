@@ -1,13 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
