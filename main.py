@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
