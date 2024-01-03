@@ -1,6 +1,4 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
