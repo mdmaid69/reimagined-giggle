@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def find_min(numbers):
+        return min(numbers)
