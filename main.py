@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
