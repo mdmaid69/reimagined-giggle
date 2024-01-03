@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def convert_to_hex(n):
-        return hex(n)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
