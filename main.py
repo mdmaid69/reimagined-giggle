@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  def cube_number(x):
+        return x**3
