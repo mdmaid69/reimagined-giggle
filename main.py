@@ -1,6 +1,4 @@
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def is_odd(n):
+        return n % 2 != 0
+def find_max(lst):
+        return max(lst)
