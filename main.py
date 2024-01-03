@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  def count_elements(lst):
-        return len(lst)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
