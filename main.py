@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
