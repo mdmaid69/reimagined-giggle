@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-import array
-def get_array_typecode(array):
-        return array.typecode
+def find_unique_words(sentence):
+        return set(sentence.split())
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
