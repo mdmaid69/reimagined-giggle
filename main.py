@@ -1,5 +1,6 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
