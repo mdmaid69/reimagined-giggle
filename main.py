@@ -1,6 +1,4 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import collections
-def create_user_string():
-        return collections.UserString()
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_pressure(force, area):
+        return force / area
