@@ -1,6 +1,5 @@
+  def multiply_numbers(x, y):
+        return x * y
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
