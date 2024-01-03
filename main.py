@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
