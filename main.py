@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+from collections import Counter
+print(Counter("hello world"))
