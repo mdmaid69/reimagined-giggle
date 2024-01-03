@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
