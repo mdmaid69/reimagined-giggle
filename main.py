@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
