@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  def convert_to_binary(n):
+        return bin(n)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
