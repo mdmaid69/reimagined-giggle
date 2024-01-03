@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def square_number(x):
+        return x**2
