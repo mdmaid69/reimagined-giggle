@@ -1,4 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-  def add_numbers(x, y):
-        return x + y
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
