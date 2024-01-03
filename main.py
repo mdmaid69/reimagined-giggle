@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
