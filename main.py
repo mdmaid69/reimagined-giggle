@@ -1,6 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import collections
+def create_user_list():
+        return collections.UserList()
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def reverse_array(array):
+        array.reverse()
