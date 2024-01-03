@@ -1,5 +1,4 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
