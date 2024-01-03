@@ -1,8 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
