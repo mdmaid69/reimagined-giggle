@@ -1,5 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
