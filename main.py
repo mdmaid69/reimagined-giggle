@@ -1,5 +1,5 @@
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def reverse_string(s):
-        return s[::-1]
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+def convert_to_hex(n):
+        return hex(n)
