@@ -1,6 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
