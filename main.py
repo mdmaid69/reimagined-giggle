@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
