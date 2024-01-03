@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
