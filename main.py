@@ -1,5 +1,6 @@
-import time
-print(time.time())
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_arc_sine(x):
+        return math.asin(x)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
