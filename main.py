@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
