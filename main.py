@@ -1,4 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
