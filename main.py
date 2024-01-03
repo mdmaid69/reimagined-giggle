@@ -1,5 +1,12 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
