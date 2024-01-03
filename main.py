@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
