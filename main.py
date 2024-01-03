@@ -1,8 +1,6 @@
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
