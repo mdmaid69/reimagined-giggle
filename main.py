@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
