@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  def multiply_numbers(x, y):
+        return x * y
