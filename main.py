@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
