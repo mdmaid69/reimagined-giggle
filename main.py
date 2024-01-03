@@ -1,5 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
