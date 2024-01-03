@@ -1,7 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
