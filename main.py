@@ -1,5 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def reverse_string(s):
+        return s[::-1]
