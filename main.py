@@ -1,5 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
