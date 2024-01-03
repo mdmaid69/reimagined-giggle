@@ -1,6 +1,8 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
