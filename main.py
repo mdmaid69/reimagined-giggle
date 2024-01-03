@@ -1,5 +1,4 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import getpass
-def get_username():
-        return getpass.getuser()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
