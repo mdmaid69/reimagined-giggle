@@ -1,6 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-  import sys
-  def get_python_version():
-        return sys.version
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
