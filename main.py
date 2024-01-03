@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-import numpy as np
-print(np.array([1, 2, 3]))
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  def calculate_area_rectangle(l, w):
+        return l * w
