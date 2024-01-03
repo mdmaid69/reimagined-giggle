@@ -1,5 +1,6 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def get_list_from_array(array):
+        return array.tolist()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
