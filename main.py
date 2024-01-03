@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  def add_numbers(x, y):
+        return x + y
