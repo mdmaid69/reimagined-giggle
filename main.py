@@ -1,5 +1,5 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
