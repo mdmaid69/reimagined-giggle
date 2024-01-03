@@ -1,4 +1,8 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-for i in range(10): print(i)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
