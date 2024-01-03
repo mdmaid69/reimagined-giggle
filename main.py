@@ -1,6 +1,7 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
