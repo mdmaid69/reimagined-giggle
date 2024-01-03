@@ -1,5 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_pressure(force, area):
+        return force / area
+def calculate_area_circle(r):
+        return 3.14 * r**2
