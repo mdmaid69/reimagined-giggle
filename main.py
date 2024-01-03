@@ -1,5 +1,5 @@
-print([x**2 for x in range(10)])
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
