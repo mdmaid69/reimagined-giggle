@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
