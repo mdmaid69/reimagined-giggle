@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def square_number(x):
+        return x**2
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
