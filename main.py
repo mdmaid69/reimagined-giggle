@@ -1,5 +1,8 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
