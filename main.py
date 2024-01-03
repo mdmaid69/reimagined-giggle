@@ -1,6 +1,5 @@
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
