@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def add_numbers(x, y):
+        return x + y
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
