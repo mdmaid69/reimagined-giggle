@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-  def count_elements(lst):
-        return len(lst)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
