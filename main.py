@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_sine(x):
+        return math.sin(x)
