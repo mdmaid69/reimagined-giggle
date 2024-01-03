@@ -1,6 +1,7 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
