@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+def reverse_list(lst):
+        return lst[::-1]
+  def square_number(x):
+        return x**2
