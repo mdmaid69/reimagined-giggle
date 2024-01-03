@@ -1,6 +1,6 @@
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+def convert_array_to_string(array):
+        return array.tostring()
