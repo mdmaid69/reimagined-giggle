@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def delete_file(file_name):
+        os.remove(file_name)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
