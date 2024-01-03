@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
