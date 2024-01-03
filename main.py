@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def append_to_array(array, item):
+        array.append(item)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
