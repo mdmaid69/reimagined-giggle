@@ -1,14 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def append_to_array(array, item):
+        array.append(item)
