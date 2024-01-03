@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
