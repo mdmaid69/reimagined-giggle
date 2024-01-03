@@ -1,4 +1,3 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+for i in range(10): print(i)
+def reverse_string(s):
+        return s[::-1]
