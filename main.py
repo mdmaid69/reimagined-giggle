@@ -1,6 +1,6 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
