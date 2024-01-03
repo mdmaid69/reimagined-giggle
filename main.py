@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_work(force, distance):
+        return force * distance
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
