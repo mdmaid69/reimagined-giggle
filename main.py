@@ -1,6 +1,6 @@
   import os
   def get_file_mode(file_name):
         return os.stat(file_name).st_mode
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
