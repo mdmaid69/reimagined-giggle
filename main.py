@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import sys
-def exit_program():
-        sys.exit()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
