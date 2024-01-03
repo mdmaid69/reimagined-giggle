@@ -1,4 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
