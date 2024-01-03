@@ -1,5 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import random
-print(random.randint(0, 100))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import logging
+def log_message(message):
+        logging.info(message)
