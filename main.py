@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
