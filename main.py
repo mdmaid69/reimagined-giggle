@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_work(force, distance):
+        return force * distance
