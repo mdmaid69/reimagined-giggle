@@ -1,6 +1,8 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
