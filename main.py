@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import collections
-def create_stack():
-        return collections.deque()
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
