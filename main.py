@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_as_repr(array):
+        return repr(array)
