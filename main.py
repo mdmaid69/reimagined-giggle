@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  def calculate_area_circle(r):
+        return 3.14 * r**2
