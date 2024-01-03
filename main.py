@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+import collections
+def create_user_string():
+        return collections.UserString()
