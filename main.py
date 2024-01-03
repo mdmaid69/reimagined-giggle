@@ -1,4 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
