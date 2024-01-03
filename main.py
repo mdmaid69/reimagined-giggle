@@ -1,5 +1,5 @@
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
-def calculate_power(work, time):
-        return work / time
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
