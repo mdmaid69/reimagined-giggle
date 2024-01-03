@@ -1,4 +1,8 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
