@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def count_words(sentence):
+        return len(sentence.split())
