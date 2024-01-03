@@ -1,5 +1,4 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
