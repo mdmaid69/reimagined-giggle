@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def find_max(lst):
+        return max(lst)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
