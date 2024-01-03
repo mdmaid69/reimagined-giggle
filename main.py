@@ -1,6 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+def calculate_pressure(force, area):
+        return force / area
