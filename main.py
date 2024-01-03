@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+  def sort_list(lst):
+        return sorted(lst)
