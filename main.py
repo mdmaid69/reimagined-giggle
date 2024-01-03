@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import array
-def reverse_array(array):
-        array.reverse()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import time
+def get_current_time():
+        return time.ctime()
