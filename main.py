@@ -1,6 +1,7 @@
   import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-def calculate_acceleration(speed, time):
-        return speed / time
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
+def find_min(lst):
+        return min(lst)
