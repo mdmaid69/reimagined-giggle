@@ -1,8 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+print(sum(range(10)))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
