@@ -1,6 +1,6 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
