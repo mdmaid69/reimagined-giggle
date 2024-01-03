@@ -1,6 +1,5 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_min(lst):
+        return min(lst)
