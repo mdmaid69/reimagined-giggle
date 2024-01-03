@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
