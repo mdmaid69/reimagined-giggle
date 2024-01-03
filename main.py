@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def is_palindrome(s):
+        return s == s[::-1]
