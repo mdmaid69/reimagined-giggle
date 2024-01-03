@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
