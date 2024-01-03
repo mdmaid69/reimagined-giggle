@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import collections
-def create_user_dict():
-        return collections.UserDict()
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import time
+def get_time_since_epoch():
+        return time.time()
