@@ -1,5 +1,4 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import math
-print(math.pi)
+def calculate_acceleration(speed, time):
+        return speed / time
+def convert_to_binary(n):
+        return bin(n)
