@@ -1,4 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
