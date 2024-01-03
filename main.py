@@ -1,5 +1,4 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
