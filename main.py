@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
