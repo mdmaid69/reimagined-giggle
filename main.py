@@ -1,5 +1,7 @@
-def cube_number(x):
-        return x**3
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
