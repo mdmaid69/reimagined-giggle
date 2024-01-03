@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
