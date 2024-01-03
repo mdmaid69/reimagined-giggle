@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
