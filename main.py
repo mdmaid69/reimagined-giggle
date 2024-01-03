@@ -1,7 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
