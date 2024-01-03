@@ -1,5 +1,7 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_area_circle(r):
+        return 3.14 * r**2
