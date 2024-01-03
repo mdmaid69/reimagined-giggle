@@ -1,5 +1,4 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def subtract_numbers(x, y):
-        return x - y
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def multiply_numbers(x, y):
+        return x * y
