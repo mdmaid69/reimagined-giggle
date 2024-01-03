@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def cube_number(x):
+        return x**3
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
