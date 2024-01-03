@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def is_palindrome(s):
+        return s == s[::-1]
