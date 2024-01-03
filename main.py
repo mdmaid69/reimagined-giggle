@@ -1,4 +1,4 @@
-def find_max(numbers):
-        return max(numbers)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_density(mass, volume):
+        return mass / volume
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
