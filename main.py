@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import platform
+def get_python_version():
+        return platform.python_version()
+def convert_to_hex(n):
+        return hex(n)
