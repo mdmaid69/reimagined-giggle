@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import os
+def remove_directory(path):
+        os.rmdir(path)
