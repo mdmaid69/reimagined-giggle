@@ -1,4 +1,5 @@
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
-  def count_elements(lst):
-        return len(lst)
+def count_words(sentence):
+        return len(sentence.split())
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
