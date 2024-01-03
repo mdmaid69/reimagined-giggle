@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
