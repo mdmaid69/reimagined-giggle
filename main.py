@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def divide_numbers(x, y):
+        return x / y
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
