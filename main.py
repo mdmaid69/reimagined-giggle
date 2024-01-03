@@ -1,5 +1,6 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+import platform
+def get_python_version():
+        return platform.python_version()
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
