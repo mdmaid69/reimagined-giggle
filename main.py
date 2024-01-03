@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  import sys
+  def get_python_version():
+        return sys.version
+def subtract_numbers(x, y):
+        return x - y
