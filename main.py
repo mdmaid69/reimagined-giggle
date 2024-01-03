@@ -1,5 +1,7 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
