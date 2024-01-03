@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def greet(name):
+        print(f"Hello, {name}!")
