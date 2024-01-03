@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def calculate_area_circle(r):
-        return 3.14 * r**2
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
