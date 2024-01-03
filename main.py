@@ -1,5 +1,6 @@
 import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_speed(distance, time):
-        return distance / time
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
