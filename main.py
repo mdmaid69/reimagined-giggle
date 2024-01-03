@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
