@@ -1,4 +1,8 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def set_array_item(array, i, item):
+        array[i] = item
