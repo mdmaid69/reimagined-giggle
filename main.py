@@ -1,6 +1,5 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
