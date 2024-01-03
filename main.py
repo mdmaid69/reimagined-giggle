@@ -1,5 +1,4 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_pressure(force, area):
+        return force / area
