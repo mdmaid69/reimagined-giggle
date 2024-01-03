@@ -1,5 +1,6 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import array
+def get_array_as_bool(array):
+        return bool(array)
