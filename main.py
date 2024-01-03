@@ -1,4 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-def find_min(numbers):
-        return min(numbers)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
