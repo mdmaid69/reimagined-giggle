@@ -1,6 +1,10 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
