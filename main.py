@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+def calculate_force(mass, acceleration):
+        return mass * acceleration
