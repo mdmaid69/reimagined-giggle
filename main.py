@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
