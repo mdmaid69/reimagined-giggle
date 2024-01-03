@@ -1,5 +1,7 @@
-  def is_odd(n):
-        return n % 2 != 0
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
