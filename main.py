@@ -1,6 +1,4 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+print([x**2 for x in range(10)])
