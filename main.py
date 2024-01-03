@@ -1,6 +1,3 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+print(sum(range(10)))
