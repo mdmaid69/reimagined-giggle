@@ -1,6 +1,7 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def count_characters(sentence):
+        return len(sentence)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
