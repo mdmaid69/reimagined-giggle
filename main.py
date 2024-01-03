@@ -1,6 +1,9 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
