@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import array
-def get_array_as_str(array):
-        return str(array)
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
