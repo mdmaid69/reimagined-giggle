@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
