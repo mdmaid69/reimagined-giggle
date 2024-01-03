@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
