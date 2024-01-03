@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
