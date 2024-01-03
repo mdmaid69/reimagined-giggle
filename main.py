@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
