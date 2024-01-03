@@ -1,6 +1,8 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import logging
-def log_message(message):
-        logging.info(message)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
