@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import collections
-def create_user_list():
-        return collections.UserList()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
