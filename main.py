@@ -1,5 +1,7 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
