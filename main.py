@@ -1,4 +1,6 @@
-def calculate_average(lst):
-        return sum(lst) / len(lst)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import collections
+def create_user_dict():
+        return collections.UserDict()
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
