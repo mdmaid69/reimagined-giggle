@@ -1,6 +1,5 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def subtract_numbers(x, y):
+        return x - y
