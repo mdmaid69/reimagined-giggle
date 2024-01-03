@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
