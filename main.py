@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def multiply_numbers(x, y):
+        return x * y
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
