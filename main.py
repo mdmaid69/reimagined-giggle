@@ -1,4 +1,8 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
