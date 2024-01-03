@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
