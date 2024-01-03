@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
