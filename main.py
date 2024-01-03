@@ -1,5 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def count_characters(sentence):
+        return len(sentence)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
