@@ -1,6 +1,5 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  def subtract_numbers(x, y):
+        return x - y
