@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
