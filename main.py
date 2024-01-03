@@ -1,6 +1,6 @@
+import collections
+def create_user_string():
+        return collections.UserString()
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
