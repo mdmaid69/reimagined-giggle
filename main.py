@@ -1,6 +1,6 @@
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def get_array_itemsize(array):
+        return array.itemsize
