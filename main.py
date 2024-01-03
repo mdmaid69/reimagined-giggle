@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-from collections import Counter
-print(Counter("hello world"))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
