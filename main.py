@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
