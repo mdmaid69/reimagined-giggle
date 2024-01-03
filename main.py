@@ -1,6 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+def calculate_density(mass, volume):
+        return mass / volume
