@@ -1,6 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import collections
+def create_counter():
+        return collections.Counter()
