@@ -1,6 +1,8 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
