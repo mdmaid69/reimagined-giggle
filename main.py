@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
