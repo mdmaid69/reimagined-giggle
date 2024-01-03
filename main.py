@@ -1,5 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
