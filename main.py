@@ -1,4 +1,7 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
