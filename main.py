@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import re
+print(re.match("h.*o", "hello world"))
