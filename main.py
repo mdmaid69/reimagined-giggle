@@ -1,6 +1,6 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import collections
+def create_counter():
+        return collections.Counter()
