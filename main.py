@@ -1,6 +1,7 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
