@@ -1,5 +1,6 @@
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-def add_numbers(a, b):
-        return a + b
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
