@@ -1,6 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  def multiply_numbers(x, y):
+        return x * y
