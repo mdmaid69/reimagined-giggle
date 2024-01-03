@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-x = 10
-y = 20
-print("Sum:", x + y)
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
