@@ -1,5 +1,6 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def count_elements(lst):
-        return len(lst)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
