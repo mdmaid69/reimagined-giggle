@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+  def convert_to_hex(n):
+        return hex(n)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_string_from_array(array):
+        return array.tobytes()
