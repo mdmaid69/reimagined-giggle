@@ -1,6 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import math
+def calculate_sine(x):
+        return math.sin(x)
