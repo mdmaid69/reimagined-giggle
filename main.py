@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
