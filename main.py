@@ -1,5 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
