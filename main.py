@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def sort_numbers(numbers):
+        return sorted(numbers)
