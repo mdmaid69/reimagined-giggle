@@ -1,5 +1,5 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
