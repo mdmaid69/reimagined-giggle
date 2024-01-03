@@ -1,6 +1,5 @@
 import array
-def get_array_as_int(array):
-        return int(array[0])
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_area_rectangle(l, w):
+        return l * w
