@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+x = 10
+y = 20
+print("Sum:", x + y)
+import os
+def get_current_working_directory():
+        return os.getcwd()
