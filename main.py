@@ -1,5 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-def convert_to_octal(n):
-        return oct(n)
+  def multiply_numbers(x, y):
+        return x * y
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
