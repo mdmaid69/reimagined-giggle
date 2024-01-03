@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def convert_to_binary(n):
+        return bin(n)
