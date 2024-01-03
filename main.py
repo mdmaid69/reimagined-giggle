@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
