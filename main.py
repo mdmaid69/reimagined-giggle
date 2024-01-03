@@ -1,5 +1,6 @@
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def is_palindrome(s):
-        return s == s[::-1]
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
