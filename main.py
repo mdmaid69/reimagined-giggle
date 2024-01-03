@@ -1,7 +1,5 @@
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
