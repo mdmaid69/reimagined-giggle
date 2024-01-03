@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
