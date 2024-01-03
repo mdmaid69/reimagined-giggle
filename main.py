@@ -1,6 +1,4 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import array
-def append_to_array(array, item):
-        array.append(item)
+for i in range(10): print(i)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
