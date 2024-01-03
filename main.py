@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
