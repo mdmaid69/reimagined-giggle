@@ -1,6 +1,6 @@
-print(sum(range(10)))
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
