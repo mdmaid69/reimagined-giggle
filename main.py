@@ -1,8 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import sys
+def exit_program():
+        sys.exit()
