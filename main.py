@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
