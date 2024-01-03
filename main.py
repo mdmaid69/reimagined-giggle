@@ -1,8 +1,7 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
-  def calculate_area_rectangle(l, w):
-        return l * w
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
