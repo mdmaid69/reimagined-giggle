@@ -1,10 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+  def convert_to_hex(n):
+        return hex(n)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
