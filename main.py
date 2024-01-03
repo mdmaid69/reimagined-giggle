@@ -1,5 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
