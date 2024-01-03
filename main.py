@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
