@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import sys
-print(sys.version)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import math
+def calculate_floor(x):
+        return math.floor(x)
