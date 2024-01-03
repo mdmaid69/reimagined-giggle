@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
