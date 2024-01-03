@@ -1,5 +1,7 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
