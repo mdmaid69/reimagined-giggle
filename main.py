@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
