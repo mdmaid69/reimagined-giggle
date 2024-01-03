@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
