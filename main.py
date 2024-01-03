@@ -1,5 +1,4 @@
-import datetime
-print(datetime.datetime.now())
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+import tensorflow as tf
+print(tf.__version__)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
