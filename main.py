@@ -1,12 +1,6 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
