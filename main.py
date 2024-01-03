@@ -1,5 +1,6 @@
+import array
+def set_array_item(array, i, item):
+        array[i] = item
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
