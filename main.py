@@ -1,4 +1,4 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def calculate_power(work, time):
+        return work / time
+def count_characters(sentence):
+        return len(sentence)
