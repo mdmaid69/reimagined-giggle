@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
