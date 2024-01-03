@@ -1,6 +1,5 @@
+def divide_numbers(x, y):
+        return x / y
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
