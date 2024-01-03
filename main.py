@@ -1,4 +1,9 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
