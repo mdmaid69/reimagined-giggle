@@ -1,6 +1,7 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
