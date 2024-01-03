@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
