@@ -1,11 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def calculate_speed(distance, time):
+        return distance / time
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
