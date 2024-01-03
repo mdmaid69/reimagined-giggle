@@ -1,5 +1,8 @@
-def subtract_numbers(x, y):
-        return x - y
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
