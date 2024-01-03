@@ -1,6 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import time
+def get_current_time():
+        return time.ctime()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
