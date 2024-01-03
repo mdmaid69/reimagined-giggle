@@ -1,5 +1,5 @@
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+def find_min(lst):
+        return min(lst)
