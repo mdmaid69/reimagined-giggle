@@ -1,5 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import time
+print(time.time())
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
