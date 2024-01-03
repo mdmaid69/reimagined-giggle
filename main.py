@@ -1,7 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def cube_number(x):
-        return x**3
+import re
+print(re.match("h.*o", "hello world"))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
