@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
