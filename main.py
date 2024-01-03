@@ -1,6 +1,6 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
