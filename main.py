@@ -1,5 +1,6 @@
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
