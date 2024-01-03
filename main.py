@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
