@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
