@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_floor(x):
+        return math.floor(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
