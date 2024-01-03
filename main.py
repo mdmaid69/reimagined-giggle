@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+def calculate_volume(length, width, height):
+        return length * width * height
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
