@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def divide_numbers(x, y):
+        return x / y
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
