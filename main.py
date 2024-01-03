@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import time
-def get_current_time():
-        return time.time()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+  def convert_to_hex(n):
+        return hex(n)
