@@ -1,8 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import datetime
+def get_current_date():
+        return datetime.date.today()
