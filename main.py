@@ -1,5 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
