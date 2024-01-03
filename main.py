@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
