@@ -1,4 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def find_max(numbers):
-        return max(numbers)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  def cube_number(x):
+        return x**3
