@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
