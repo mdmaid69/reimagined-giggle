@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
+  import re
+  def find_all_occurrences(pattern, string):
         return re.findall(pattern, string)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_power(work, time):
+        return work / time
