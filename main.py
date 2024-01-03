@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
