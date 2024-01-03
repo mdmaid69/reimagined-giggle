@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def is_even(n):
-        return n % 2 == 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_work(force, distance):
+        return force * distance
