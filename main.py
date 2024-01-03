@@ -1,6 +1,6 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
