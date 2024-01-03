@@ -1,5 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
