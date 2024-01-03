@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-def calculate_acceleration(speed, time):
-        return speed / time
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_as_float(array):
+        return float(array[0])
