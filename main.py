@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-def calculate_acceleration(speed, time):
-        return speed / time
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def square_number(x):
+        return x**2
