@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
