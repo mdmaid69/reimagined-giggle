@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import getpass
+def get_username():
+        return getpass.getuser()
