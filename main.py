@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
