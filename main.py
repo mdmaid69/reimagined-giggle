@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def remove_duplicates(lst):
+        return list(set(lst))
