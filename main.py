@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
