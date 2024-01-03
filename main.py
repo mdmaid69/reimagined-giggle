@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-def add_numbers(x, y):
-        return x + y
+import array
+def get_array_as_set(array):
+        return set(array)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
