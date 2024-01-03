@@ -1,5 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
