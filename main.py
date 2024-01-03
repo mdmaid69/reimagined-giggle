@@ -1,4 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-for i in range(10): print(i)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_speed(distance, time):
+        return distance / time
