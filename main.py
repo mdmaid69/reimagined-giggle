@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def get_array_as_str(array):
+        return str(array)
+from collections import Counter
+print(Counter("hello world"))
