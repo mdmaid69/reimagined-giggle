@@ -1,7 +1,6 @@
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
