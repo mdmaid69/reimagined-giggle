@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def greet(name):
+        print(f"Hello, {name}!")
+import platform
+def get_python_version():
+        return platform.python_version()
