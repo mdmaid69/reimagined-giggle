@@ -1,5 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def get_array_as_repr(array):
+        return repr(array)
