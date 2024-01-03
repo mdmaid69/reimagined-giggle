@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import random
-print(random.randint(0, 100))
+import os
+print(os.getcwd())
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
