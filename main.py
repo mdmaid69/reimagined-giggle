@@ -1,5 +1,8 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
