@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
