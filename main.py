@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def get_array_as_float(array):
+        return float(array[0])
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
