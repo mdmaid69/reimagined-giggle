@@ -1,5 +1,4 @@
-def reverse_list(lst):
-        return lst[::-1]
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+print(sum(range(10)))
+x = 10
+y = 20
+print("Sum:", x + y)
