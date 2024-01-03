@@ -1,6 +1,6 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
