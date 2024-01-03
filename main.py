@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
