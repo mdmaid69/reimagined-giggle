@@ -1,5 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-import array
-def get_array_typecode(array):
-        return array.typecode
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
