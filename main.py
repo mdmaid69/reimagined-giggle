@@ -1,8 +1,6 @@
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
