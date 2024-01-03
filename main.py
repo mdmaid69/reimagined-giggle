@@ -1,5 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  def reverse_list(lst):
-        return lst[::-1]
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
