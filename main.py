@@ -1,4 +1,4 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-print("Hello, world!")
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
