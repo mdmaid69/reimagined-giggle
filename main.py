@@ -1,6 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
