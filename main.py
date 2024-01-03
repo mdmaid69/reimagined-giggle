@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
