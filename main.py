@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
 import array
-def get_array_as_list(array):
-        return list(array)
+def get_array_typecode(array):
+        return array.typecode
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
