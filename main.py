@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
