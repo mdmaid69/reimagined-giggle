@@ -1,6 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import sys
-def print_python_version():
-        print(sys.version)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
