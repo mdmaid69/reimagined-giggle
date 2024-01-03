@@ -1,5 +1,6 @@
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
