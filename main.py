@@ -1,4 +1,8 @@
-def reverse_list(lst):
-        return lst[::-1]
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
