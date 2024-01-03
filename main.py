@@ -1,10 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+def calculate_power(work, time):
+        return work / time
