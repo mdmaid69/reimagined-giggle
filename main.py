@@ -1,6 +1,7 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
