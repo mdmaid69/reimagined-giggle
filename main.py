@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
