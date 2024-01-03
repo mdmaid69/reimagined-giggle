@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def sort_list(lst):
-        return sorted(lst)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
