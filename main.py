@@ -1,4 +1,6 @@
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import time
+def get_current_time():
+        return time.time()
+import datetime
+def get_current_date():
+        return datetime.date.today()
