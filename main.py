@@ -1,6 +1,6 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
