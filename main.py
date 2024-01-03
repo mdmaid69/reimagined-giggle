@@ -1,5 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_pressure(force, area):
+        return force / area
+def find_unique_words(sentence):
+        return set(sentence.split())
