@@ -1,5 +1,7 @@
-import sys
-def exit_program():
-        sys.exit()
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
