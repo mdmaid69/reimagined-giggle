@@ -1,5 +1,4 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
