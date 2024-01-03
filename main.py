@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
