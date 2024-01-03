@@ -1,5 +1,6 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
