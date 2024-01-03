@@ -1,5 +1,8 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
