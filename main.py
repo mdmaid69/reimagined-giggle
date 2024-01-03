@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
 import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
