@@ -1,5 +1,4 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
