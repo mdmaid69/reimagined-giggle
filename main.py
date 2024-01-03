@@ -1,5 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def reverse_list(lst):
-        return lst[::-1]
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import numpy as np
+print(np.array([1, 2, 3]))
