@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
