@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def cube_number(x):
+        return x**3
 import array
-def get_array_item_count(array, item):
-        return array.count(item)
+def set_array_item(array, i, item):
+        array[i] = item
