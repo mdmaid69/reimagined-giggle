@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  def square_number(x):
+        return x**2
+import collections
+def create_user_dict():
+        return collections.UserDict()
