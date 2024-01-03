@@ -1,5 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
