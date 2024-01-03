@@ -1,6 +1,7 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
 import json
-def convert_to_json(data):
-        return json.dumps(data)
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
