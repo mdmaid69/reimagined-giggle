@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def count_words(sentence):
-        return len(sentence.split())
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
