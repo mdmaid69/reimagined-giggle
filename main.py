@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
