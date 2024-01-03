@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def split_path(path):
-        return os.path.split(path)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
