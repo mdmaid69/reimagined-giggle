@@ -1,6 +1,5 @@
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
