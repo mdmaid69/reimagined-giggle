@@ -1,5 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-def calculate_speed(distance, time):
-        return distance / time
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
