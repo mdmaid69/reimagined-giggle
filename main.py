@@ -1,8 +1,9 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
