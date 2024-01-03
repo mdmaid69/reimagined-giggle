@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
