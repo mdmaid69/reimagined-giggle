@@ -1,5 +1,4 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_speed(distance, time):
+        return distance / time
+from collections import Counter
+print(Counter("hello world"))
