@@ -1,4 +1,7 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_acceleration(speed, time):
+        return speed / time
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
