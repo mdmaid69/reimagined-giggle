@@ -1,8 +1,5 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import time
+print(time.time())
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
