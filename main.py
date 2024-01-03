@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
