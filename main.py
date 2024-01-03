@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
