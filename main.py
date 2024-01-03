@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def get_array_as_set(array):
+        return set(array)
