@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
