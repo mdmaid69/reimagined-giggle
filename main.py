@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
