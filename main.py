@@ -1,4 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+import array
+def clear_array(array):
+        array *= 0
