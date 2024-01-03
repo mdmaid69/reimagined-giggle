@@ -1,5 +1,5 @@
-name = "Python"
-print("Hello,", name)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def reverse_list(lst):
+        return lst[::-1]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
