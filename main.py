@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-  def add_numbers(x, y):
-        return x + y
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
