@@ -1,6 +1,6 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import time
-def get_current_time():
-        return time.time()
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
