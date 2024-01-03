@@ -1,5 +1,5 @@
+def greet(name):
+        print(f"Hello, {name}!")
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
