@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def clear_array(array):
+        array *= 0
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
