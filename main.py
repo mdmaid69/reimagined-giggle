@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import collections
-def create_user_string():
-        return collections.UserString()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
