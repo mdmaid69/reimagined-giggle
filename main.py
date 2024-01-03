@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
