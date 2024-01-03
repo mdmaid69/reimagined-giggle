@@ -1,7 +1,4 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+name = "Python"
+print("Hello,", name)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
