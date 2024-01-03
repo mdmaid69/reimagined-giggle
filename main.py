@@ -1,4 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
