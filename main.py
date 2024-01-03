@@ -1,5 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_floor(x):
+        return math.floor(x)
