@@ -1,6 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import time
-def get_current_time():
-        return time.time()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+def convert_to_octal(n):
+        return oct(n)
