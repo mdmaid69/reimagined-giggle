@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
