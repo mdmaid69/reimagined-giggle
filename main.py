@@ -1,4 +1,6 @@
-  def square_number(x):
-        return x**2
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
