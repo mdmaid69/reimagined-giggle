@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
