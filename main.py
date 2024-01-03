@@ -1,5 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def square_number(x):
-        return x**2
+  def is_odd(n):
+        return n % 2 != 0
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
