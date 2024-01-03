@@ -1,6 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
