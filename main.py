@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def add_numbers(x, y):
+        return x + y
