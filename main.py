@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
