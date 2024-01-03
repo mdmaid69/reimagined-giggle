@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
