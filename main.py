@@ -1,6 +1,6 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
