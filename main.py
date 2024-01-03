@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import collections
-def create_stack():
-        return collections.deque()
+from collections import Counter
+print(Counter("hello world"))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
