@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import time
-def get_current_time():
-        return time.ctime()
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+x = 10
+y = 20
+print("Sum:", x + y)
