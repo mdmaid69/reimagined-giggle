@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
