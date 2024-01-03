@@ -1,6 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
