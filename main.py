@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def multiply_numbers(x, y):
+        return x * y
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
