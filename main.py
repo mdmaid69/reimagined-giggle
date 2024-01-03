@@ -1,4 +1,9 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
