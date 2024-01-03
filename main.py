@@ -1,5 +1,12 @@
+import queue
+
+q = queue.Queue()
+
 for i in range(5):
-        print(i)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
