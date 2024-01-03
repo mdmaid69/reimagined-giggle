@@ -1,6 +1,5 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import time
+def get_time_since_epoch():
+        return time.time()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
