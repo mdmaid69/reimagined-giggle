@@ -1,6 +1,7 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+  def is_odd(n):
+        return n % 2 != 0
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
