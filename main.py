@@ -1,5 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def add_numbers(a, b):
-        return a + b
+def find_max(numbers):
+        return max(numbers)
+import array
+def get_array_as_list(array):
+        return list(array)
