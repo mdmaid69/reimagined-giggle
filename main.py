@@ -1,5 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-def find_max(lst):
-        return max(lst)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
