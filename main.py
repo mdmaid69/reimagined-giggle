@@ -1,5 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
