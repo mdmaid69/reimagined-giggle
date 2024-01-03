@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+  def cube_number(x):
+        return x**3
