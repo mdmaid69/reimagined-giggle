@@ -1,5 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
