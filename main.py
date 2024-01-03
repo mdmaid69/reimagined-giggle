@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  def multiply_numbers(x, y):
+        return x * y
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
