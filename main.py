@@ -1,6 +1,5 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+def divide_numbers(x, y):
+        return x / y
