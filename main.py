@@ -1,5 +1,3 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  def convert_to_binary(n):
-        return bin(n)
+print(sum(range(10)))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
