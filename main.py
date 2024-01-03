@@ -1,12 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+  def is_even(n):
+        return n % 2 == 0
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
