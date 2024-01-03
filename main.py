@@ -1,7 +1,5 @@
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def get_string_from_array(array):
+        return array.tobytes()
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
