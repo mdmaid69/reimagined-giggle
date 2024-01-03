@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_current_directory():
+        return os.getcwd()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
