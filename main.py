@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
