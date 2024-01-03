@@ -1,5 +1,4 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+  def remove_duplicates(lst):
+        return list(set(lst))
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
