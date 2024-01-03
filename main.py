@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
