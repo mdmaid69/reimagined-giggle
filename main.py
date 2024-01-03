@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
