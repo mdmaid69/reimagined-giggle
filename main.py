@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  def square_number(x):
+        return x**2
