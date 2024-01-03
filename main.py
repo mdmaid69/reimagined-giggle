@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
