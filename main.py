@@ -1,6 +1,4 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
