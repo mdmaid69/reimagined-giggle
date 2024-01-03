@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def add_numbers(a, b):
+        return a + b
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
