@@ -1,5 +1,6 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
