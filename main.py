@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
