@@ -1,7 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
