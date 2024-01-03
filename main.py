@@ -1,6 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import sys
+print(sys.version)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
