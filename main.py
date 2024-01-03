@@ -1,5 +1,5 @@
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def count_characters(sentence):
-        return len(sentence)
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
