@@ -1,6 +1,8 @@
-import time
-def get_current_time():
-        return time.ctime()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
