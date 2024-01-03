@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
