@@ -1,5 +1,6 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
