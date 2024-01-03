@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
