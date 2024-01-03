@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import sys
+def print_python_version():
+        return sys.version
