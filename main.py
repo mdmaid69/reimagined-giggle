@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
