@@ -1,6 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+def calculate_pressure(force, area):
+        return force / area
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
