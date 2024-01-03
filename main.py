@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
