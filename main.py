@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import collections
+def create_stack():
+        return collections.deque()
+import numpy as np
+print(np.array([1, 2, 3]))
