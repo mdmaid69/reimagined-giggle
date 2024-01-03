@@ -1,6 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import sys
+def print_python_version():
+        return sys.version
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
