@@ -1,5 +1,6 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def divide_numbers(x, y):
-        return x / y
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
