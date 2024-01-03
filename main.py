@@ -1,6 +1,5 @@
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import os
-def remove_directory(path):
-        os.rmdir(path)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
