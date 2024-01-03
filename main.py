@@ -1,5 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def divide_numbers(x, y):
-        return x / y
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
