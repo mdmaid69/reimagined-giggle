@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
