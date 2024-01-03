@@ -1,6 +1,6 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
