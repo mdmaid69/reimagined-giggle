@@ -1,6 +1,5 @@
+def cube_number(x):
+        return x**3
 import array
-def convert_array_to_string(array):
-        return array.tostring()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+def convert_array_to_bytes(array):
+        return array.tobytes()
