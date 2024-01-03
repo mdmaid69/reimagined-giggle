@@ -1,6 +1,6 @@
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
