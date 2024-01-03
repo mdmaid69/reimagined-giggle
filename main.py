@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-def is_even(n):
-        return n % 2 == 0
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def find_min(numbers):
+        return min(numbers)
