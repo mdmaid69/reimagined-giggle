@@ -1,6 +1,4 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def divide_numbers(x, y):
+        return x / y
+  def convert_to_binary(n):
+        return bin(n)
