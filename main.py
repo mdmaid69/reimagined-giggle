@@ -1,5 +1,5 @@
+def find_max(numbers):
+        return max(numbers)
 import array
-def get_array_as_int(array):
-        return int(array[0])
-def square_number(x):
-        return x**2
+def pop_from_array(array, i=-1):
+        return array.pop(i)
