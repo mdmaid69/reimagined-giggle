@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
