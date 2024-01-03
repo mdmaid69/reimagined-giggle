@@ -1,5 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_work(force, distance):
+        return force * distance
+import platform
+def get_python_version():
+        return platform.python_version()
