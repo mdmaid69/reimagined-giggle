@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+  def calculate_area_rectangle(l, w):
+        return l * w
