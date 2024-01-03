@@ -1,6 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_speed(distance, time):
+        return distance / time
