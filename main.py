@@ -1,6 +1,5 @@
-import array
-def get_list_from_array(array):
-        return array.tolist()
-import math
-def calculate_sine(x):
-        return math.sin(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import collections
+def create_user_list():
+        return collections.UserList()
