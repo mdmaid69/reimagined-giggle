@@ -1,5 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
