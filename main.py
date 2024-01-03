@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_pressure(force, area):
+        return force / area
