@@ -1,6 +1,4 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
