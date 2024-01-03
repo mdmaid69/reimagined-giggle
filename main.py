@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
