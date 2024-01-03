@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
