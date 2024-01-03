@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+  def is_even(n):
+        return n % 2 == 0
