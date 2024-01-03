@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
