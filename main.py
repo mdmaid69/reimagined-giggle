@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
