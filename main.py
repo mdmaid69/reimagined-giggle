@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import platform
-def get_python_version():
-        return platform.python_version()
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
