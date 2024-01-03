@@ -1,6 +1,6 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
