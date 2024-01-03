@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
