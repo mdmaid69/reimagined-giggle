@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
