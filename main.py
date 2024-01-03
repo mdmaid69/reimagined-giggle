@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
