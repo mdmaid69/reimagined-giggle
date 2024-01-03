@@ -1,5 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-def calculate_acceleration(speed, time):
-        return speed / time
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
