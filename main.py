@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
