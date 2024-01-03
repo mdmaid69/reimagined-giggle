@@ -1,6 +1,8 @@
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
