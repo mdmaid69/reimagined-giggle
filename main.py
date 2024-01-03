@@ -1,6 +1,7 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def sort_list(lst):
+        return sorted(lst)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
