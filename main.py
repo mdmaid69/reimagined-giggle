@@ -1,5 +1,10 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
