@@ -1,5 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def count_characters(sentence):
+        return len(sentence)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
