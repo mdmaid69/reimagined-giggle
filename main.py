@@ -1,6 +1,5 @@
+def calculate_work(force, distance):
+        return force * distance
 import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def set_array_item(array, i, item):
+        array[i] = item
