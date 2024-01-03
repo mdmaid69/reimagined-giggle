@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+  def subtract_numbers(x, y):
+        return x - y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
