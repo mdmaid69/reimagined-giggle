@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_sine(x):
+        return math.sin(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
