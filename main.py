@@ -1,6 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
