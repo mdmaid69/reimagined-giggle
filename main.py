@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
   import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def calculate_median(arr):
+        return np.median(arr)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
