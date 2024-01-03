@@ -1,5 +1,5 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-x = 10
-y = 20
-print("Sum:", x + y)
+def find_max(lst):
+        return max(lst)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
