@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
