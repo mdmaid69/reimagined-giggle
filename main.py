@@ -1,5 +1,4 @@
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def cube_number(x):
-        return x**3
+def calculate_work(force, distance):
+        return force * distance
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
