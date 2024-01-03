@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+def count_characters(sentence):
+        return len(sentence)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
