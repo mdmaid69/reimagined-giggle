@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
