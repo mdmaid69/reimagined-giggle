@@ -1,6 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
