@@ -1,5 +1,5 @@
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
-def find_max(numbers):
-        return max(numbers)
+import numpy as np
+print(np.array([1, 2, 3]))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
