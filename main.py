@@ -1,6 +1,6 @@
 import random
-def roll_die():
-        return random.randint(1, 6)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def generate_random_choice(choices):
+        return random.choice(choices)
+import collections
+def create_user_list():
+        return collections.UserList()
