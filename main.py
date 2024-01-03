@@ -1,5 +1,11 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-def is_palindrome(s):
-        return s == s[::-1]
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
