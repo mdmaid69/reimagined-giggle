@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
