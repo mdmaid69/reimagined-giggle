@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  def convert_to_hex(n):
+        return hex(n)
