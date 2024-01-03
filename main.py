@@ -1,6 +1,5 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def cube_number(x):
+        return x**3
