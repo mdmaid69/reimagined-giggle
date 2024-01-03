@@ -1,5 +1,8 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
