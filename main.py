@@ -1,6 +1,5 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+from collections import Counter
+print(Counter("hello world"))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
