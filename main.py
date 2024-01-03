@@ -1,6 +1,4 @@
-import os
-def remove_directory(path):
-        os.rmdir(path)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
