@@ -1,6 +1,8 @@
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
