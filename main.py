@@ -1,5 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-def calculate_volume(length, width, height):
-        return length * width * height
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
