@@ -1,7 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
