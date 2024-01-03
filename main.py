@@ -1,5 +1,6 @@
-  def cube_number(x):
-        return x**3
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_density(mass, volume):
+        return mass / volume
