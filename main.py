@@ -1,5 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  def count_elements(lst):
+        return len(lst)
