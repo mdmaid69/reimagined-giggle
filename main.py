@@ -1,6 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
