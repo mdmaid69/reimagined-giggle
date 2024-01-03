@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
