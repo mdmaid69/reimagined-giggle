@@ -1,5 +1,6 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-  def add_numbers(x, y):
-        return x + y
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+import platform
+def get_python_version():
+        return platform.python_version()
