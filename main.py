@@ -1,8 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_int(array):
+        return int(array[0])
