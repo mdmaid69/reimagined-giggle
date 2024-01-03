@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
   import os
-  def get_current_directory():
-        return os.getcwd()
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
