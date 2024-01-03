@@ -1,5 +1,7 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
