@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def divide_numbers(x, y):
+        return x / y
