@@ -1,3 +1,7 @@
-print(sum(range(10)))
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import re
+print(re.match("h.*o", "hello world"))
