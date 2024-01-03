@@ -1,6 +1,6 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import collections
+def create_user_dict():
+        return collections.UserDict()
