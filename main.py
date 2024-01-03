@@ -1,6 +1,8 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
