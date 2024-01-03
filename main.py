@@ -1,4 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-for i in range(10): print(i)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
