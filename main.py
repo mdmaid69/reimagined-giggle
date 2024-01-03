@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import sys
+def exit_program():
+        sys.exit()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
