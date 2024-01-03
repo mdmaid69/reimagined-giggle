@@ -1,7 +1,8 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
