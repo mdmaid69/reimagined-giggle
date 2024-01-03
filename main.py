@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
