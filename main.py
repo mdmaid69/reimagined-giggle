@@ -1,5 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-  def is_even(n):
-        return n % 2 == 0
+def calculate_density(mass, volume):
+        return mass / volume
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
