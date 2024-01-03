@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
