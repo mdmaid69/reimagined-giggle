@@ -1,5 +1,5 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-def find_max(numbers):
-        return max(numbers)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
