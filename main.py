@@ -1,5 +1,8 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
