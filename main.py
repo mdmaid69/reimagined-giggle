@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
