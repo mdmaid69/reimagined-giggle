@@ -1,5 +1,4 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_pressure(force, area):
-        return force / area
+def cube_number(x):
+        return x**3
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
