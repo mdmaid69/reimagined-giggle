@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
