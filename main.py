@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
