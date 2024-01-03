@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
