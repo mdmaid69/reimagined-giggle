@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-text = "Hello, world!"
-print("Words:", len(text.split()))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+def calculate_average(lst):
+        return sum(lst) / len(lst)
