@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+for i in range(5):
+        print(i)
+def calculate_area(radius):
+        return 3.14 * radius * radius
