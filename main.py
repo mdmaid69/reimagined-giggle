@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
