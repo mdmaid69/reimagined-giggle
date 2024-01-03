@@ -1,5 +1,5 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def convert_to_octal(n):
-        return oct(n)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import time
+print(time.time())
