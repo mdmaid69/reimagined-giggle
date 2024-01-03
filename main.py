@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
