@@ -1,6 +1,7 @@
-import array
-def clear_array(array):
-        array *= 0
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
