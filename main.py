@@ -1,6 +1,7 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
