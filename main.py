@@ -1,6 +1,5 @@
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+def calculate_perpetuity(payment, rate):
+        return payment / rate
