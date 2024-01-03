@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
 import array
-def get_array_as_list(array):
-        return list(array)
+def check_if_array_contains_item(array, item):
+        return item in array
