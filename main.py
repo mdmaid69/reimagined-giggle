@@ -1,8 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def convert_array_to_bytes(array):
+        return array.tobytes()
