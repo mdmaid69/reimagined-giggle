@@ -1,5 +1,4 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_acceleration(speed, time):
+        return speed / time
