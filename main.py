@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_area_circle(r):
+        return 3.14 * r**2
