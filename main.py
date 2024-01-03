@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
