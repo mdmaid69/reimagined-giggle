@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
