@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  def square_number(x):
-        return x**2
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
