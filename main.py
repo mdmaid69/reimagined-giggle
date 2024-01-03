@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
