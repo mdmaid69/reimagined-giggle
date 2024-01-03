@@ -1,6 +1,5 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def count_elements(lst):
+        return len(lst)
+import array
+def get_array_as_bool(array):
+        return bool(array)
