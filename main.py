@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
