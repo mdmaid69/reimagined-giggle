@@ -1,5 +1,5 @@
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
