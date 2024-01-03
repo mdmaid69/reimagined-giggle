@@ -1,5 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-from collections import Counter
-print(Counter("hello world"))
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
