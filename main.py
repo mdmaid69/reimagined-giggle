@@ -1,7 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import array
-def get_array_as_set(array):
-        return set(array)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
