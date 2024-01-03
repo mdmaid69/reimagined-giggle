@@ -1,5 +1,7 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
 import json
-print(json.dumps({"name": "John", "age": 30}))
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
