@@ -1,9 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
