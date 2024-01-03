@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+print(sum(range(10)))
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
