@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
