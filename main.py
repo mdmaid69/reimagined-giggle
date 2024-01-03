@@ -1,4 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+for i in range(5):
+        print(i)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
