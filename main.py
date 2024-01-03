@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
