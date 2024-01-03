@@ -1,5 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def square_number(x):
-        return x**2
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
