@@ -1,6 +1,4 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_force(mass, acceleration):
+        return mass * acceleration
