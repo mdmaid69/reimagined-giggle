@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
