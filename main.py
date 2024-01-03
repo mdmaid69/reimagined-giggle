@@ -1,6 +1,5 @@
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+def cube_number(x):
+        return x**3
