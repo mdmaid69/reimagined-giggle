@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
