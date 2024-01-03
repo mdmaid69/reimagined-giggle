@@ -1,5 +1,9 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
