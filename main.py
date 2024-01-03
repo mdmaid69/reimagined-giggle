@@ -1,4 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-name = "Python"
-print("Hello,", name)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+def calculate_volume(length, width, height):
+        return length * width * height
