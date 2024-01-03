@@ -1,6 +1,5 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+  def cube_number(x):
+        return x**3
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
