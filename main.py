@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  import sys
-  def get_python_version():
-        return sys.version
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
