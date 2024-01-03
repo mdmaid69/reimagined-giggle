@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+def calculate_speed(distance, time):
+        return distance / time
