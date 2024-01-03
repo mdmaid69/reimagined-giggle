@@ -1,5 +1,9 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
