@@ -1,5 +1,5 @@
-import array
-def get_array_length(array):
-        return len(array)
-def multiply_numbers(x, y):
-        return x * y
+  def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
