@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def is_even(n):
-        return n % 2 == 0
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
