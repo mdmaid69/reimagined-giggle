@@ -1,5 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  def sort_list(lst):
-        return sorted(lst)
+import collections
+def create_user_string():
+        return collections.UserString()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
