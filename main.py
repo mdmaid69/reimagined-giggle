@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import array
-def clear_array(array):
-        array *= 0
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_floor(x):
+        return math.floor(x)
