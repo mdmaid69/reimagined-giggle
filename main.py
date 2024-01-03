@@ -1,6 +1,5 @@
 import math
-def calculate_floor(x):
-        return math.floor(x)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+print(math.pi)
+import platform
+def get_os_info():
+        return platform.uname()
