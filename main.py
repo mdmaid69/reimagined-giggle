@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
