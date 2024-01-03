@@ -1,6 +1,6 @@
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def remove_from_array(array, item):
+        array.remove(item)
