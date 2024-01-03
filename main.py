@@ -1,5 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
