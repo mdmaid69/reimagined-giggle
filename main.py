@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import datetime
+print(datetime.datetime.now())
