@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
