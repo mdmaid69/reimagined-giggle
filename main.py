@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+def cube_number(x):
+        return x**3
