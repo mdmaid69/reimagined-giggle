@@ -1,5 +1,5 @@
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import sys
-print(sys.version)
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
+def find_max(numbers):
+        return max(numbers)
