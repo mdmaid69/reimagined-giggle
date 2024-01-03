@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import datetime
+print(datetime.datetime.now())
+def cube_number(x):
+        return x**3
