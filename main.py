@@ -1,6 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import platform
-def get_os_info():
-        return platform.uname()
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
