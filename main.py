@@ -1,5 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def reverse_array(array):
+        array.reverse()
+def convert_to_binary(n):
+        return bin(n)
