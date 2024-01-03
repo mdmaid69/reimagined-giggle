@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
