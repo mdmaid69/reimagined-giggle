@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
