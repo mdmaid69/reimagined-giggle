@@ -1,5 +1,5 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def sort_list(lst):
+        return sorted(lst)
