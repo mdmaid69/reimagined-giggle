@@ -1,4 +1,4 @@
-  def convert_to_binary(n):
-        return bin(n)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+print(math.pi)
+  def square_number(x):
+        return x**2
