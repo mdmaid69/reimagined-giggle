@@ -1,6 +1,8 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
