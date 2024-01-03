@@ -1,6 +1,6 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
