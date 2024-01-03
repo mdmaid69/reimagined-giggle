@@ -1,6 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
