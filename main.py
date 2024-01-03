@@ -1,6 +1,8 @@
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
