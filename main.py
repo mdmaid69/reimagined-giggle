@@ -1,6 +1,6 @@
 import array
-def get_array_typecode(array):
-        return array.typecode
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def set_array_item(array, i, item):
+        array[i] = item
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
