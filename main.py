@@ -1,6 +1,4 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
