@@ -1,8 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  def delete_file(file_name):
+        os.remove(file_name)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
