@@ -1,5 +1,5 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  def reverse_list(lst):
-        return lst[::-1]
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
