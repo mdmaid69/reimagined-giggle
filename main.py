@@ -1,8 +1,6 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
