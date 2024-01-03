@@ -1,14 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
