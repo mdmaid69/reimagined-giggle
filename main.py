@@ -1,5 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
