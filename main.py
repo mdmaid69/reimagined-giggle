@@ -1,6 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
