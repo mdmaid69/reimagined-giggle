@@ -1,4 +1,5 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-def convert_to_hex(n):
-        return hex(n)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
