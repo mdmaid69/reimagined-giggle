@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+def find_min(numbers):
+        return min(numbers)
