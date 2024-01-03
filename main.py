@@ -1,5 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
