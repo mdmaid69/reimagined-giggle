@@ -1,6 +1,6 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
