@@ -1,6 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def extend_array(array, iterable):
+        array.extend(iterable)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
