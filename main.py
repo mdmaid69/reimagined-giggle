@@ -1,7 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-def calculate_acceleration(speed, time):
-        return speed / time
+def get_array_as_bool(array):
+        return bool(array)
+  def is_odd(n):
+        return n % 2 != 0
