@@ -1,5 +1,6 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_cosine(x):
+        return math.cos(x)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
