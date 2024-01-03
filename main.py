@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-import tensorflow as tf
-print(tf.__version__)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import array
+def get_array_as_bool(array):
+        return bool(array)
