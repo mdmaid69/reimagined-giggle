@@ -1,4 +1,7 @@
-def find_max(lst):
-        return max(lst)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+text = "Hello, world!"
+print("Characters:", len(text))
