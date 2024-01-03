@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
