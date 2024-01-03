@@ -1,7 +1,6 @@
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
