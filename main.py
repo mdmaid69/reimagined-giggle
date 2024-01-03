@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def calculate_speed(distance, time):
+        return distance / time
