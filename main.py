@@ -1,5 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-name = "Python"
-print("Hello,", name)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+def greet(name):
+        print(f"Hello, {name}!")
