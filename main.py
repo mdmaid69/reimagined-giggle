@@ -1,5 +1,5 @@
+def convert_to_octal(n):
+        return oct(n)
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def divide_numbers(x, y):
-        return x / y
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
