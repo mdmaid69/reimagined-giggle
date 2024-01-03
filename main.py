@@ -1,6 +1,5 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import numpy as np
+print(np.array([1, 2, 3]))
