@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import math
+def calculate_cosine(x):
+        return math.cos(x)
