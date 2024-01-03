@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+  def reverse_list(lst):
+        return lst[::-1]
+import time
+def get_time_since_epoch():
+        return time.time()
