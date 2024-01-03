@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+  def convert_to_octal(n):
+        return oct(n)
+import tensorflow as tf
+print(tf.__version__)
