@@ -1,5 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-from collections import Counter
-print(Counter("hello world"))
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
