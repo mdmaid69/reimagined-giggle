@@ -1,10 +1,7 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-def calculate_payback_period(cash_flows):
-        cumulative_cash_flow = 0
-        for i, cf in enumerate(cash_flows):
-        cumulative_cash_flow += cf
-        if cumulative_cash_flow >= 0:
-                return i
-        return None
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
