@@ -1,6 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+print(sum(range(10)))
 import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
