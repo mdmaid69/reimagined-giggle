@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
