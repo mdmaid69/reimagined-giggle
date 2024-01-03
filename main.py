@@ -1,6 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
