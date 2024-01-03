@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import collections
+def create_user_list():
+        return collections.UserList()
