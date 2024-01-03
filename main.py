@@ -1,5 +1,5 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def calculate_tangent(x):
+        return math.tan(x)
+  def subtract_numbers(x, y):
+        return x - y
