@@ -1,6 +1,6 @@
-import collections
-def create_stack():
-        return collections.deque()
 import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+def clear_array(array):
+        array *= 0
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
