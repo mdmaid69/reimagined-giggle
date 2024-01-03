@@ -1,6 +1,5 @@
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
