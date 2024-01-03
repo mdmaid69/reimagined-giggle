@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import collections
-def create_stack():
-        return collections.deque()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import tensorflow as tf
+print(tf.__version__)
