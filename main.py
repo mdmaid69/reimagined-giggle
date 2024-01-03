@@ -1,4 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-text = "Hello, world!"
-print("Characters:", len(text))
+import array
+def clear_array(array):
+        array *= 0
+def remove_duplicates(lst):
+        return list(set(lst))
