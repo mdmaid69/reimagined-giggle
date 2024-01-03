@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
