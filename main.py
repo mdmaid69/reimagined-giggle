@@ -1,6 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
