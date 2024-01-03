@@ -1,4 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-def greet(name):
-        print(f"Hello, {name}!")
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
