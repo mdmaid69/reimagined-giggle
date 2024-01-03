@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
