@@ -1,5 +1,5 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-def sort_numbers(numbers):
-        return sorted(numbers)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
