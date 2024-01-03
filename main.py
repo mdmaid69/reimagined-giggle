@@ -1,6 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import array
-def clear_array(array):
-        array *= 0
+def get_array_as_str(array):
+        return str(array)
