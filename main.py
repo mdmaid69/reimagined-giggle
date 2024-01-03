@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
