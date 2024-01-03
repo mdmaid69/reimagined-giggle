@@ -1,5 +1,5 @@
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_exponential(x):
+        return math.exp(x)
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
