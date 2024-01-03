@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
