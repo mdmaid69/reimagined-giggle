@@ -1,5 +1,6 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_error_function(x):
+        return math.erf(x)
