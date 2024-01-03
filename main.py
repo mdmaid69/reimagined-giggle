@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+print("Hello, world!")
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
