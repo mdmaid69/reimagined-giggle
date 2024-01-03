@@ -1,5 +1,6 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
