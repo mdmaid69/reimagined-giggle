@@ -1,5 +1,6 @@
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
