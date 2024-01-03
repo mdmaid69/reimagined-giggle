@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
