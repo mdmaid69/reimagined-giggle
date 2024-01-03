@@ -1,6 +1,7 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import sys
-def exit_program():
-        sys.exit()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
