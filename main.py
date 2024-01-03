@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_int(array):
+        return int(array[0])
