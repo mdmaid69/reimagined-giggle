@@ -1,6 +1,6 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
