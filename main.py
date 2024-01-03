@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  def sort_list(lst):
+        return sorted(lst)
+import sys
+def print_python_version():
+        return sys.version
