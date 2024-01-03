@@ -1,5 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
   import os
-  def get_current_working_directory():
-        return os.getcwd()
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
