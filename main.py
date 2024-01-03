@@ -1,5 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def find_unique_words(sentence):
+        return set(sentence.split())
