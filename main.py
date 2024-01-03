@@ -1,6 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
