@@ -1,5 +1,7 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
