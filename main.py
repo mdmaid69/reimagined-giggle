@@ -1,5 +1,6 @@
+import array
+def get_array_as_int(array):
+        return int(array[0])
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
