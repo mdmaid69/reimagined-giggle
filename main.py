@@ -1,6 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_as_str(array):
-        return str(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
