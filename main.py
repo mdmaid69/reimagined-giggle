@@ -1,5 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-def calculate_speed(distance, time):
-        return distance / time
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
