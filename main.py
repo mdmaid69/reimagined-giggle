@@ -1,5 +1,7 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
