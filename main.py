@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+x = 10
+y = 20
+print("Sum:", x + y)
