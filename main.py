@@ -1,5 +1,10 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def sort_list(lst):
+        return sorted(lst)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
