@@ -1,6 +1,4 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def reverse_list(lst):
+        return lst[::-1]
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
