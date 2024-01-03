@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
