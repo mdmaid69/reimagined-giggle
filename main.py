@@ -1,5 +1,5 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_queue():
-        return collections.deque()
+def calculate_power(work, time):
+        return work / time
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
