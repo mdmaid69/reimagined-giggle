@@ -1,6 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def is_odd(n):
+        return n % 2 != 0
