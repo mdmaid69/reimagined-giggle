@@ -1,4 +1,6 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  def convert_to_binary(n):
-        return bin(n)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
