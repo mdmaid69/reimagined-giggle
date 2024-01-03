@@ -1,5 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import numpy as np
-print(np.array([1, 2, 3]))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def reverse_list(lst):
+        return lst[::-1]
