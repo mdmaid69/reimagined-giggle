@@ -1,6 +1,12 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
