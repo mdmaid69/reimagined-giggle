@@ -1,10 +1,7 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+import socket
 
-{body}")
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
