@@ -1,6 +1,4 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_perpetuity(payment, rate):
+        return payment / rate
