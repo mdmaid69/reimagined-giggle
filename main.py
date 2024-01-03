@@ -1,6 +1,9 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
