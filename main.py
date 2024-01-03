@@ -1,6 +1,5 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
