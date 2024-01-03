@@ -1,9 +1,5 @@
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+def convert_to_octal(n):
+        return oct(n)
