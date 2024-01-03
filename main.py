@@ -1,6 +1,5 @@
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
 import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
