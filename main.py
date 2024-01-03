@@ -1,5 +1,6 @@
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Difference:", set(list1) - set(list2))
   import os
-  def get_current_directory():
-        return os.getcwd()
-  def reverse_list(lst):
-        return lst[::-1]
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
