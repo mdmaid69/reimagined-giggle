@@ -1,6 +1,6 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
