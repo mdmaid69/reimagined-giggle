@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
