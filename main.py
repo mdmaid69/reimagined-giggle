@@ -1,5 +1,5 @@
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def calculate_pressure(force, area):
+        return force / area
