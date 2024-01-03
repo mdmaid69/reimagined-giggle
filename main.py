@@ -1,6 +1,5 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
