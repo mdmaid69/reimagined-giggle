@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
