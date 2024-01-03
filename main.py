@@ -1,5 +1,5 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+def count_characters(sentence):
+        return len(sentence)
