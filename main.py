@@ -1,4 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
