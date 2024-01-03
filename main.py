@@ -1,6 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
