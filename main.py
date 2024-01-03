@@ -1,5 +1,5 @@
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
-def greet(name):
-        print(f"Hello, {name}!")
+for i in range(5):
+        print(i)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
