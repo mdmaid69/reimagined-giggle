@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
