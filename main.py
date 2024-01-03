@@ -1,5 +1,6 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import platform
+def get_os_info():
+        return platform.uname()
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
