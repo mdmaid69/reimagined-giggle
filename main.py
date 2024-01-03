@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+def cube_number(x):
+        return x**3
