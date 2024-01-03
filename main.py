@@ -1,5 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+  import sys
+  def get_python_version():
+        return sys.version
