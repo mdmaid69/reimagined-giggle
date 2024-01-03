@@ -1,5 +1,6 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
