@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
