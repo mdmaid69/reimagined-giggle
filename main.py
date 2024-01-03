@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
