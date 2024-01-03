@@ -1,6 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import tensorflow as tf
+print(tf.__version__)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
