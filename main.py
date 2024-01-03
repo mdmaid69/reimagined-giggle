@@ -1,7 +1,6 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
