@@ -1,4 +1,6 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
