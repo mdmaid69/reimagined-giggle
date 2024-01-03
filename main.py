@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import collections
+def create_user_list():
+        return collections.UserList()
+def count_words(sentence):
+        return len(sentence.split())
