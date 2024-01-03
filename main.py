@@ -1,5 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import platform
+def get_os_info():
+        return platform.uname()
+def find_min(numbers):
+        return min(numbers)
