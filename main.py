@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
