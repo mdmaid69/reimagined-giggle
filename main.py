@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import array
+def get_array_length(array):
+        return len(array)
