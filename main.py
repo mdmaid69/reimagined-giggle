@@ -1,6 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import getpass
-def get_username():
-        return getpass.getuser()
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
