@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
