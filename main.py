@@ -1,6 +1,5 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
