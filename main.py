@@ -1,6 +1,7 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
