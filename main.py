@@ -1,6 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
