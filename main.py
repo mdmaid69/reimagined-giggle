@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
