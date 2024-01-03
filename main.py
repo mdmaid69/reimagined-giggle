@@ -1,4 +1,9 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def find_min(lst):
-        return min(lst)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
