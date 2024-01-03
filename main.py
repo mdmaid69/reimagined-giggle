@@ -1,7 +1,9 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
