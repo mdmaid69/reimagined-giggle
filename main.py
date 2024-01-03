@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
