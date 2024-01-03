@@ -1,4 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
