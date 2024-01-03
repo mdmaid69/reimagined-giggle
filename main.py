@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
