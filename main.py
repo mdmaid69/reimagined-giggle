@@ -1,5 +1,6 @@
-for i in range(5):
-        print(i)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
