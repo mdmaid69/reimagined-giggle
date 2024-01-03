@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def clear_array(array):
-        array *= 0
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
