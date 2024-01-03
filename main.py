@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import datetime
+print(datetime.datetime.now())
