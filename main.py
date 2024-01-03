@@ -1,5 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
