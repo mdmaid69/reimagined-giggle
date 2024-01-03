@@ -1,5 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def find_max(numbers):
+        return max(numbers)
