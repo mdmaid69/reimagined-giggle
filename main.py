@@ -1,5 +1,7 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import numpy as np
-print(np.array([1, 2, 3]))
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
