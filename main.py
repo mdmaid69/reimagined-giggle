@@ -1,5 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
