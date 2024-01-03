@@ -1,5 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import array
+def reverse_array(array):
+        array.reverse()
