@@ -1,6 +1,5 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_acceleration(speed, time):
+        return speed / time
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
