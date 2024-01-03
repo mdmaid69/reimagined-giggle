@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def is_even(n):
+        return n % 2 == 0
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
