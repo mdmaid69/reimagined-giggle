@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
 import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
