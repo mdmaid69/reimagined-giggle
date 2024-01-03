@@ -1,4 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
