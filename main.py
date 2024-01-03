@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
