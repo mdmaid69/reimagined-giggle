@@ -1,6 +1,6 @@
   import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
