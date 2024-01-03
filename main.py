@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
