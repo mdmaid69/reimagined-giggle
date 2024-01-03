@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def count_elements(lst):
+        return len(lst)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
