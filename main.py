@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-  import sys
-  def get_python_version():
-        return sys.version
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
