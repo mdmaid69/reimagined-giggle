@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
