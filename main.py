@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
