@@ -1,6 +1,8 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
