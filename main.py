@@ -1,7 +1,4 @@
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+for i in range(10): print(i)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
