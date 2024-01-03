@@ -1,5 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
