@@ -1,5 +1,6 @@
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
