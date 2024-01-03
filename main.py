@@ -1,5 +1,4 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def find_unique_words(sentence):
+        return set(sentence.split())
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
