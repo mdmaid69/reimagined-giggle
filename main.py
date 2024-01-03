@@ -1,11 +1,5 @@
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_density(mass, volume):
+        return mass / volume
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
