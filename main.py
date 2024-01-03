@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
