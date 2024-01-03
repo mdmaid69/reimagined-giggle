@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import random
+def roll_die():
+        return random.randint(1, 6)
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
