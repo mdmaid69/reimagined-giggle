@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
 text = "Hello, world!"
-print("Words:", len(text.split()))
+print("Uppercase:", text.upper())
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
