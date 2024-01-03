@@ -1,6 +1,5 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import logging
-def log_message(message):
-        logging.info(message)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
