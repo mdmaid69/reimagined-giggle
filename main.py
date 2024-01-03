@@ -1,6 +1,8 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
