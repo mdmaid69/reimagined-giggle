@@ -1,4 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
