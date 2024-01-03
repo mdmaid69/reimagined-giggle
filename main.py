@@ -1,6 +1,5 @@
+  def calculate_area_rectangle(l, w):
+        return l * w
 import array
-def get_array_as_float(array):
-        return float(array[0])
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def reverse_array(array):
+        array.reverse()
