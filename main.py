@@ -1,4 +1,8 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_speed(distance, time):
-        return distance / time
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
