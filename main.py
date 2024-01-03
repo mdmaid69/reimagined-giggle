@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_sine(x):
-        return math.sin(x)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
