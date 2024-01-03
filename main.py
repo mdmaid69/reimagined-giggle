@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
