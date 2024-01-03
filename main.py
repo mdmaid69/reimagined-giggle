@@ -1,5 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
