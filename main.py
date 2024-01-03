@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
