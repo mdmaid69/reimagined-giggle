@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-def cube_number(x):
-        return x**3
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import os
+def remove_directory(path):
+        os.rmdir(path)
