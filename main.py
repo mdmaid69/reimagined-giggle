@@ -1,4 +1,5 @@
-def sort_list(lst):
-        return sorted(lst)
-def convert_to_binary(n):
-        return bin(n)
+def calculate_volume(length, width, height):
+        return length * width * height
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
