@@ -1,6 +1,5 @@
+import math
+print(math.pi)
 import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def insert_into_array(array, i, item):
+        array.insert(i, item)
