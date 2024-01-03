@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
