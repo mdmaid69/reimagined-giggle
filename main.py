@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-def reverse_list(lst):
-        return lst[::-1]
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
