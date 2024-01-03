@@ -1,7 +1,6 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import collections
+def create_queue():
+        return collections.deque()
+import time
+def get_time_since_epoch():
+        return time.time()
