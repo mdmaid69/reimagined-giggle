@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-def reverse_string(s):
-        return s[::-1]
+def calculate_volume(length, width, height):
+        return length * width * height
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
