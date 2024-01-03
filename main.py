@@ -1,4 +1,12 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
