@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
