@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import sys
-def print_python_version():
-        print(sys.version)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import os
+  def get_file_blocks_allocated(file_name):
+        return os.stat(file_name).st_blocks
