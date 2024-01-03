@@ -1,6 +1,5 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def sort_numbers(numbers):
+        return sorted(numbers)
