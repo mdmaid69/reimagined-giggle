@@ -1,6 +1,3 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def square_number(x):
+        return x**2
+for i in range(10): print(i)
