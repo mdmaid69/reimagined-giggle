@@ -1,5 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
 import array
-def reverse_array(array):
-        array.reverse()
+def get_array_itemsize(array):
+        return array.itemsize
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
