@@ -1,6 +1,5 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+  def cube_number(x):
+        return x**3
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
