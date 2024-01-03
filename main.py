@@ -1,6 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
