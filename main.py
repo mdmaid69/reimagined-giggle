@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
 import math
 def calculate_error_function(x):
         return math.erf(x)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
