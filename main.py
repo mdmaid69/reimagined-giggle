@@ -1,6 +1,6 @@
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
