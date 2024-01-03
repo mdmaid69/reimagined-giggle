@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
