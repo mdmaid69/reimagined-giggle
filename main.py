@@ -1,7 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
