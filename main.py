@@ -1,7 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
