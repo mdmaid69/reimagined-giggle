@@ -1,6 +1,6 @@
-  def convert_to_octal(n):
-        return oct(n)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
