@@ -1,7 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
