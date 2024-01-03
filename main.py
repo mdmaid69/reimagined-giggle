@@ -1,7 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import os
+def remove_directory(path):
+        os.rmdir(path)
