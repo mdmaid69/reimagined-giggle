@@ -1,7 +1,5 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+name = "Python"
+print("Hello,", name)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
