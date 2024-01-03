@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
