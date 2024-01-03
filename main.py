@@ -1,6 +1,5 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_factorial(n):
+        return math.factorial(n)
+def count_characters(sentence):
+        return len(sentence)
