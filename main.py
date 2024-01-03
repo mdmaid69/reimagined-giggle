@@ -1,5 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def square_number(x):
-        return x**2
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+x = 10
+y = 20
+print("Sum:", x + y)
