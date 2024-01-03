@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
