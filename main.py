@@ -1,6 +1,5 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
