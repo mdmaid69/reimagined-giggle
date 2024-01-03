@@ -1,6 +1,7 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
