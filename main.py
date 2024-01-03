@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def calculate_density(mass, volume):
-        return mass / volume
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
