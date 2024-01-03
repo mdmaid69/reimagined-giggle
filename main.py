@@ -1,6 +1,7 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def subtract_numbers(x, y):
-        return x - y
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
