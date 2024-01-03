@@ -1,7 +1,7 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+text = "Hello, world!"
+print("Uppercase:", text.upper())
