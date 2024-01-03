@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import math
+def calculate_cosine(x):
+        return math.cos(x)
