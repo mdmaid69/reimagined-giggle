@@ -1,4 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  def calculate_area_rectangle(l, w):
-        return l * w
+import time
+def get_current_time():
+        return time.ctime()
+  def add_numbers(x, y):
+        return x + y
