@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
