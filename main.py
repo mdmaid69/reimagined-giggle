@@ -1,7 +1,6 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
