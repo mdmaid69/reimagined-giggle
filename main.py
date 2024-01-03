@@ -1,6 +1,8 @@
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
