@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
+import math
+def calculate_error_function(x):
+        return math.erf(x)
