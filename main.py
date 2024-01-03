@@ -1,5 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
