@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import collections
-def create_counter():
-        return collections.Counter()
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
