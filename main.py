@@ -1,6 +1,4 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def convert_to_octal(n):
+        return oct(n)
