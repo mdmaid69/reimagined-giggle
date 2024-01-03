@@ -1,7 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
         plt.show()
