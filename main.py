@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def cube_number(x):
+        return x**3
