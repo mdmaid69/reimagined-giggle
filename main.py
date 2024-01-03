@@ -1,6 +1,6 @@
+  import sys
+  def get_python_version():
+        return sys.version
 import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def get_array_buffer_info(array):
+        return array.buffer_info()
