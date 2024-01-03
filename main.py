@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
