@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
