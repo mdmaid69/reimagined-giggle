@@ -1,5 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def is_palindrome(s):
-        return s == s[::-1]
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def clear_array(array):
+        array *= 0
