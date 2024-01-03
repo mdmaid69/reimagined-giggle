@@ -1,5 +1,5 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def count_elements(lst):
+        return len(lst)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
