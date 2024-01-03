@@ -1,6 +1,5 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
