@@ -1,6 +1,6 @@
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
