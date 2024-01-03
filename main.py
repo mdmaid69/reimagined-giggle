@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
