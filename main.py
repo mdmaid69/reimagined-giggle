@@ -1,5 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-def reverse_string(s):
-        return s[::-1]
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
