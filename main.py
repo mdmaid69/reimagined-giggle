@@ -1,6 +1,8 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
