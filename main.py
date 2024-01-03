@@ -1,5 +1,5 @@
-def reverse_list(lst):
-        return lst[::-1]
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
