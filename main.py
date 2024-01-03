@@ -1,6 +1,6 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
