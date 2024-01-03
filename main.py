@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import os
-print(os.getcwd())
+def calculate_volume(length, width, height):
+        return length * width * height
+  def convert_to_hex(n):
+        return hex(n)
