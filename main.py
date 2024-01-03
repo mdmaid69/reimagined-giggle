@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
