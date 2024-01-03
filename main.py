@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def square_number(x):
-        return x**2
+def calculate_area_rectangle(l, w):
+        return l * w
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
