@@ -1,5 +1,5 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+from collections import Counter
+print(Counter("hello world"))
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
