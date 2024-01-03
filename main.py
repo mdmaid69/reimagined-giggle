@@ -1,8 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+def calculate_speed(distance, time):
+        return distance / time
