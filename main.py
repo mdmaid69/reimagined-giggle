@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
+import platform
+def get_os_info():
+        return platform.uname()
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
