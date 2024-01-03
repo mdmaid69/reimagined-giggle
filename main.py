@@ -1,5 +1,6 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
