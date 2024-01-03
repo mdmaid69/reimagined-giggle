@@ -1,5 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import tensorflow as tf
+print(tf.__version__)
+def find_max(lst):
+        return max(lst)
