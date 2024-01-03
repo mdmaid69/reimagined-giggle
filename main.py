@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+def find_union(list1, list2):
+        return set(list1) | set(list2)
