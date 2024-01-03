@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import collections
+def create_user_string():
+        return collections.UserString()
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
