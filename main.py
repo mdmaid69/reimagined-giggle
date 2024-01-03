@@ -1,5 +1,6 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def delete_file(file_name):
+        os.remove(file_name)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
