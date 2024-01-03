@@ -1,4 +1,8 @@
-def find_min(numbers):
-        return min(numbers)
-def remove_duplicates(lst):
-        return list(set(lst))
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
