@@ -1,7 +1,6 @@
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
