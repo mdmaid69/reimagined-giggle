@@ -1,5 +1,4 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-def calculate_pressure(force, area):
-        return force / area
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
