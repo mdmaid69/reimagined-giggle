@@ -1,5 +1,6 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-def calculate_power(work, time):
-        return work / time
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
