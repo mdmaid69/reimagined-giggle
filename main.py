@@ -1,4 +1,4 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def sort_numbers(numbers):
-        return sorted(numbers)
+def square_number(x):
+        return x**2
+  def count_elements(lst):
+        return len(lst)
