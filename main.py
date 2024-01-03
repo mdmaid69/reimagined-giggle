@@ -1,5 +1,6 @@
-def find_min(numbers):
-        return min(numbers)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import collections
+def create_user_list():
+        return collections.UserList()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
