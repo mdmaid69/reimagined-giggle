@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
