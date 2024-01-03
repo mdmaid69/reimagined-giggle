@@ -1,6 +1,7 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-import collections
-def create_user_string():
-        return collections.UserString()
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
