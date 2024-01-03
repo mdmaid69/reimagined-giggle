@@ -1,6 +1,6 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
