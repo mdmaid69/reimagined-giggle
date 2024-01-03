@@ -1,6 +1,7 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
