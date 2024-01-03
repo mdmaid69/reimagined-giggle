@@ -1,5 +1,7 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-def sort_list(lst):
-        return sorted(lst)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
