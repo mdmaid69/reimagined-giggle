@@ -1,5 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
