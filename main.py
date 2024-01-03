@@ -1,6 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import collections
+def create_user_string():
+        return collections.UserString()
+def convert_to_binary(n):
+        return bin(n)
