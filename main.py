@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def count_words(sentence):
+        return len(sentence.split())
