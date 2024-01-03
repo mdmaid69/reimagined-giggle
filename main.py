@@ -1,5 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import collections
+def create_user_list():
+        return collections.UserList()
+def reverse_string(s):
+        return s[::-1]
