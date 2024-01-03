@@ -1,5 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
