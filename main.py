@@ -1,4 +1,6 @@
-def is_even(n):
-        return n % 2 == 0
-  def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_typecode(array):
+        return array.typecode
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
