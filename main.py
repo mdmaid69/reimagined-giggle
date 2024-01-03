@@ -1,10 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
