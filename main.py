@@ -1,5 +1,7 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+i = 0
+while i < 5:
+        print(i)
+        i += 1
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
