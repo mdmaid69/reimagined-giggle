@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
 import array
-def clear_array(array):
-        array *= 0
+def append_to_array(array, item):
+        array.append(item)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
