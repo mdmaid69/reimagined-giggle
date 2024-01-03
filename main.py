@@ -1,6 +1,4 @@
 import time
-def get_current_time():
-        return time.time()
-import array
-def get_array_as_set(array):
-        return set(array)
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+print([x**2 for x in range(10)])
