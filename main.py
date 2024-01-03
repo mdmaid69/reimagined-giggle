@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
