@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import array
-def append_to_array(array, item):
-        array.append(item)
+import sys
+def print_python_version():
+        print(sys.version)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
