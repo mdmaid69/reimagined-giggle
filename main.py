@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
