@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
