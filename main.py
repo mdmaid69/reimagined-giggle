@@ -1,5 +1,6 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import array
+def clear_array(array):
+        array *= 0
