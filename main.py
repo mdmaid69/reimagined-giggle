@@ -1,4 +1,11 @@
-def calculate_quick_ratio(current_assets, inventory, current_liabilities):
-        return (current_assets - inventory) / current_liabilities
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
