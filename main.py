@@ -1,4 +1,6 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import re
-print(re.match("h.*o", "hello world"))
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
