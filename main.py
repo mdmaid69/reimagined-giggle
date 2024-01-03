@@ -1,7 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
