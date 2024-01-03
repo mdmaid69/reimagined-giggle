@@ -1,6 +1,5 @@
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
