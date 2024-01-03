@@ -1,6 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+def add_numbers(x, y):
+        return x + y
+import array
+def convert_array_to_string(array):
+        return array.tostring()
