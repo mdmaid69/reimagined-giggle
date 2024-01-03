@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
