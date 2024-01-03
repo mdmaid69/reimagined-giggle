@@ -1,7 +1,7 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_area_rectangle(l, w):
-        return l * w
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
