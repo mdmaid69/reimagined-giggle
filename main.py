@@ -1,4 +1,6 @@
-import math
-print(math.pi)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
