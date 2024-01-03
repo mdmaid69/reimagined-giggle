@@ -1,7 +1,5 @@
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-def calculate_pressure(force, area):
-        return force / area
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
