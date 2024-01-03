@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
