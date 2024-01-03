@@ -1,4 +1,5 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-print("Hello, world!")
+def calculate_density(mass, volume):
+        return mass / volume
+import time
+def get_time_since_epoch():
+        return time.time()
