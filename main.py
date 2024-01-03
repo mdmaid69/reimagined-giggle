@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
