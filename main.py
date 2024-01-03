@@ -1,6 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  def is_odd(n):
+        return n % 2 != 0
