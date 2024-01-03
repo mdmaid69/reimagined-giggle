@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def get_array_item(array, i):
+        return array[i]
