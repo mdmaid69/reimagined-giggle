@@ -1,6 +1,7 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
