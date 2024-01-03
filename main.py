@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
