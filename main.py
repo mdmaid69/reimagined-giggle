@@ -1,5 +1,6 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-def sort_list(lst):
-        return sorted(lst)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
