@@ -1,7 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+import array
+def append_to_array(array, item):
+        array.append(item)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
