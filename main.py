@@ -1,8 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
