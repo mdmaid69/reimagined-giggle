@@ -1,6 +1,5 @@
+def calculate_average(lst):
+        return sum(lst) / len(lst)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
