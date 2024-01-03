@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-def add_numbers(a, b):
-        return a + b
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
