@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
