@@ -1,5 +1,11 @@
-  import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import array
+def append_to_array(array, item):
+        array.append(item)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
