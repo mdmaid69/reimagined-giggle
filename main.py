@@ -1,5 +1,8 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
