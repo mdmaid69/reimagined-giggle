@@ -1,6 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import collections
+def create_queue():
+        return collections.deque()
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
