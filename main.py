@@ -1,8 +1,4 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def is_palindrome(s):
+        return s == s[::-1]
