@@ -1,7 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
