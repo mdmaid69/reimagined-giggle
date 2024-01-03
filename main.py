@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+  def convert_to_octal(n):
+        return oct(n)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
