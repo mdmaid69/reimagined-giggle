@@ -1,6 +1,4 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_volume(length, width, height):
+        return length * width * height
