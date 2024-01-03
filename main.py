@@ -1,7 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import random
+print(random.randint(0, 100))
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
