@@ -1,5 +1,6 @@
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+  def split_path(path):
+        return os.path.split(path)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
