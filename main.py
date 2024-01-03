@@ -1,5 +1,6 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def get_list_from_array(array):
+        return array.tolist()
 import math
-print(math.pi)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
