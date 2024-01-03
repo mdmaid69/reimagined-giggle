@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def exit_program():
-        sys.exit()
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_force(mass, acceleration):
+        return mass * acceleration
