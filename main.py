@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import getpass
+def get_username():
+        return getpass.getuser()
