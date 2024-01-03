@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
+  def square_number(x):
+        return x**2
