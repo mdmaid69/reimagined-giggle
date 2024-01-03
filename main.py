@@ -1,5 +1,8 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import json
+def convert_to_json(data):
+        return json.dumps(data)
