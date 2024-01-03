@@ -1,8 +1,4 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
