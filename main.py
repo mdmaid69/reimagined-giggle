@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+def calculate_pressure(force, area):
+        return force / area
