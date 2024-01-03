@@ -1,6 +1,8 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
 import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
