@@ -1,8 +1,6 @@
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def get_array_as_repr(array):
+        return repr(array)
