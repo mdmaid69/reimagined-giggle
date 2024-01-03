@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+def calculate_pressure(force, area):
+        return force / area
