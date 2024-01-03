@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-import time
-def get_current_time():
-        return time.ctime()
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+def convert_to_hex(n):
+        return hex(n)
