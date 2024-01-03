@@ -1,5 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
