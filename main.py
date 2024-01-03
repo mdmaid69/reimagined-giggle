@@ -1,5 +1,6 @@
-def sort_list(lst):
-        return sorted(lst)
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
