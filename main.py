@@ -1,5 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-def convert_to_octal(n):
-        return oct(n)
+def calculate_density(mass, volume):
+        return mass / volume
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
