@@ -1,5 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
