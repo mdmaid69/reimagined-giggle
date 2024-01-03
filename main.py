@@ -1,6 +1,5 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_force(mass, acceleration):
+        return mass * acceleration
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+  def get_base_name(path):
+        return os.path.basename(path)
