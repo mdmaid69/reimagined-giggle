@@ -1,6 +1,10 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import time
-def get_time_since_epoch():
-        return time.time()
+def subtract_numbers(x, y):
+        return x - y
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
