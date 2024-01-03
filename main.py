@@ -1,5 +1,5 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
