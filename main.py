@@ -1,5 +1,6 @@
-  def multiply_numbers(x, y):
-        return x * y
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
