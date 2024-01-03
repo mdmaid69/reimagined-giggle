@@ -1,6 +1,5 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
