@@ -1,5 +1,7 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-def calculate_power(work, time):
-        return work / time
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+text = "Hello, world!"
+print("Words:", len(text.split()))
