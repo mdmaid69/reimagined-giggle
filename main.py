@@ -1,6 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+def calculate_force(mass, acceleration):
+        return mass * acceleration
