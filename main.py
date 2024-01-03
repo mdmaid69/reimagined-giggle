@@ -1,6 +1,4 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_pressure(force, area):
+        return force / area
