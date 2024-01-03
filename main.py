@@ -1,5 +1,6 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
