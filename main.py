@@ -1,7 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
