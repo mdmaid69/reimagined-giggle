@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
