@@ -1,6 +1,4 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+text = "Hello, world!"
+print("Uppercase:", text.upper())
