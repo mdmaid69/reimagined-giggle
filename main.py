@@ -1,7 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import array
+def append_to_array(array, item):
+        array.append(item)
