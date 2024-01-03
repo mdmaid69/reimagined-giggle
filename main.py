@@ -1,5 +1,5 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-def calculate_density(mass, volume):
-        return mass / volume
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+def find_min(lst):
+        return min(lst)
