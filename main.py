@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
