@@ -1,6 +1,7 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def find_max(lst):
+        return max(lst)
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
