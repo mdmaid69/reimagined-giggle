@@ -1,6 +1,8 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
