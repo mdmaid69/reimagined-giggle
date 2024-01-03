@@ -1,12 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def calculate_pressure(force, area):
+        return force / area
+import datetime
+def get_today_date():
+        return datetime.date.today()
