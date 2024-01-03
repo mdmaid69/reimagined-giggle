@@ -1,5 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
