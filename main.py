@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def subtract_numbers(x, y):
+        return x - y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
