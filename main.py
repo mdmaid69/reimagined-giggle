@@ -1,5 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_density(mass, volume):
+        return mass / volume
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
