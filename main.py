@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_pressure(force, area):
+        return force / area
