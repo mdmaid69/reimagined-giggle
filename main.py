@@ -1,6 +1,13 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
