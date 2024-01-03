@@ -1,6 +1,7 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def is_odd(n):
-        return n % 2 != 0
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
