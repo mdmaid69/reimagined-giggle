@@ -1,5 +1,11 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
