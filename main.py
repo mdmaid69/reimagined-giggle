@@ -1,8 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-def reverse_list(lst):
-        return lst[::-1]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_typecode(array):
+        return array.typecode
