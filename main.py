@@ -1,8 +1,5 @@
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
