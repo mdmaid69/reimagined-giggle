@@ -1,6 +1,7 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
