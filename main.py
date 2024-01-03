@@ -1,4 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
