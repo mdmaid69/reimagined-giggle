@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_itemsize(array):
+        return array.itemsize
