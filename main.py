@@ -1,5 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import collections
-def create_user_dict():
-        return collections.UserDict()
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+name = "Python"
+print("Hello,", name)
