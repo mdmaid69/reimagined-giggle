@@ -1,7 +1,4 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+def convert_to_binary(n):
+        return bin(n)
