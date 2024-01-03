@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
