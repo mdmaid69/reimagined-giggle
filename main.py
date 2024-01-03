@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import collections
-def create_queue():
-        return collections.deque()
+def multiply_numbers(x, y):
+        return x * y
+def find_max(lst):
+        return max(lst)
