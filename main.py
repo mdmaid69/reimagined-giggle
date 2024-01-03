@@ -1,6 +1,5 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
