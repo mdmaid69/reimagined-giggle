@@ -1,5 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  def cube_number(x):
-        return x**3
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
