@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
