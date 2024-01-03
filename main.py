@@ -1,11 +1,4 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def sort_list(lst):
+        return sorted(lst)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
