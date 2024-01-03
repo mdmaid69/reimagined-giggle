@@ -1,6 +1,5 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
+def calculate_work(force, distance):
+        return force * distance
+x = 10
+y = 20
+print("Sum:", x + y)
