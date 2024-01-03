@@ -1,5 +1,8 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def subtract_numbers(x, y):
-        return x - y
+def find_unique_words(sentence):
+        return set(sentence.split())
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
