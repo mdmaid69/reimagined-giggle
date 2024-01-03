@@ -1,5 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-  def subtract_numbers(x, y):
-        return x - y
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import sys
+print(sys.version)
