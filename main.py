@@ -1,5 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
+import array
+def get_array_as_str(array):
+        return str(array)
