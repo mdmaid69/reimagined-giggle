@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
