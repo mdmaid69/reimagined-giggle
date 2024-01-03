@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-import random
-print(random.randint(0, 100))
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
