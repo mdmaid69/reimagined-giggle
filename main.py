@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def add_numbers(a, b):
+        return a + b
 import collections
-def create_stack():
+def create_priority_queue():
         return collections.deque()
