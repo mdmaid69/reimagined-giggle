@@ -1,5 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import sys
-def print_python_version():
-        print(sys.version)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+import os
+def change_working_directory(path):
+        os.chdir(path)
