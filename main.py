@@ -1,7 +1,5 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-def count_elements(lst):
-        return len(lst)
+  def multiply_numbers(x, y):
+        return x * y
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
