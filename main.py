@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+  def subtract_numbers(x, y):
+        return x - y
