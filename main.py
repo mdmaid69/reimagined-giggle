@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def delete_file(file_name):
+        os.remove(file_name)
+def is_even(n):
+        return n % 2 == 0
