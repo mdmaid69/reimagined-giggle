@@ -1,6 +1,4 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-import array
-def get_array_as_str(array):
-        return str(array)
+def convert_to_octal(n):
+        return oct(n)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
