@@ -1,4 +1,5 @@
-def calculate_speed(distance, time):
-        return distance / time
-def multiply_numbers(x, y):
-        return x * y
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
