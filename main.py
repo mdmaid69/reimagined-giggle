@@ -1,5 +1,6 @@
-def count_words(sentence):
-        return len(sentence.split())
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
