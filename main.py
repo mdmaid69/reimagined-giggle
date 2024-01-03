@@ -1,4 +1,7 @@
-def subtract_numbers(x, y):
-        return x - y
-def find_min(lst):
-        return min(lst)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
