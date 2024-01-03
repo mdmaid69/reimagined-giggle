@@ -1,6 +1,6 @@
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
