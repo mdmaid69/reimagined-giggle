@@ -1,4 +1,6 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-  def cube_number(x):
-        return x**3
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import random
+def roll_die():
+        return random.randint(1, 6)
