@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+def calculate_power(work, time):
+        return work / time
+import numpy as np
+print(np.array([1, 2, 3]))
