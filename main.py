@@ -1,4 +1,4 @@
-def sort_list(lst):
-        return sorted(lst)
-def convert_to_hex(n):
-        return hex(n)
+def calculate_density(mass, volume):
+        return mass / volume
+def calculate_work(force, distance):
+        return force * distance
