@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
