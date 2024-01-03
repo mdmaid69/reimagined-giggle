@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+def sort_numbers(numbers):
+        return sorted(numbers)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
