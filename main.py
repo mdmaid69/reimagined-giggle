@@ -1,6 +1,6 @@
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
