@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def find_min(numbers):
+        return min(numbers)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
