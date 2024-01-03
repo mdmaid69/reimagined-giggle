@@ -1,5 +1,9 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-  def convert_to_octal(n):
-        return oct(n)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
