@@ -1,8 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
+def sort_numbers(numbers):
+        return sorted(numbers)
