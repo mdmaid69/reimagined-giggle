@@ -1,5 +1,6 @@
-import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
