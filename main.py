@@ -1,5 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import array
+def convert_array_to_list(array):
+        return array.tolist()
