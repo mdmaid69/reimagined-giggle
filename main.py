@@ -1,7 +1,6 @@
 import array
-def reverse_array(array):
-        array.reverse()
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+def get_array_as_set(array):
+        return set(array)
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
