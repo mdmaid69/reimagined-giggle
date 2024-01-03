@@ -1,5 +1,7 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import requests
+  def get_web_page(url):
+        response = requests.get(url)
+        return response.text if response.status_code == 200 else "Unable to fetch web page"
