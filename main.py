@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import array
-def clear_array(array):
-        array *= 0
+import getpass
+def get_username():
+        return getpass.getuser()
+def calculate_power(work, time):
+        return work / time
