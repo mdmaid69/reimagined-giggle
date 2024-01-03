@@ -1,6 +1,5 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import tensorflow as tf
+print(tf.__version__)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
