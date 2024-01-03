@@ -1,8 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
