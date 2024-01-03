@@ -1,7 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
