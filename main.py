@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def append_to_array(array, item):
-        array.append(item)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
