@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import datetime
+def get_today_date():
+        return datetime.date.today()
