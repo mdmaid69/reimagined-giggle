@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
+  def add_numbers(x, y):
+        return x + y
 import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+def calculate_floor(x):
+        return math.floor(x)
