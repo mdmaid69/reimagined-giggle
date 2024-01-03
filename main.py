@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
