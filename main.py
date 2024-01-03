@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def get_list_from_array(array):
+        return array.tolist()
