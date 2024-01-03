@@ -1,8 +1,7 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
