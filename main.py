@@ -1,6 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  import sys
-  def get_python_version():
-        return sys.version
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+def is_even(n):
+        return n % 2 == 0
