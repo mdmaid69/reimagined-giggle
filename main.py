@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
