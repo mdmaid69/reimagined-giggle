@@ -1,5 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-for i in range(5):
-        print(i)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import sys
+def print_python_version():
+        return sys.version
