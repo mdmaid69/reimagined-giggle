@@ -1,8 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
+from collections import Counter
+print(Counter("hello world"))
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
