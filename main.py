@@ -1,6 +1,10 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
