@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import array
+def get_array_as_list(array):
+        return list(array)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
