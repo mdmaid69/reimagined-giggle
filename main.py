@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import time
-def get_current_time():
-        return time.time()
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
