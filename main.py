@@ -1,5 +1,6 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import collections
+def create_priority_queue():
+        return collections.deque()
