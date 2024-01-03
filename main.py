@@ -1,5 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import random
-print(random.randint(0, 100))
+  import os
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
+def add_numbers(x, y):
+        return x + y
