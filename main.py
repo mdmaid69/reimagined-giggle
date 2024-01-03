@@ -1,4 +1,4 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def subtract_numbers(x, y):
-        return x - y
+def calculate_work(force, distance):
+        return force * distance
+import os
+print(os.getcwd())
