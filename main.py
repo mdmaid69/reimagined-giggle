@@ -1,9 +1,6 @@
-import array
-def get_array_from_file(filename, typecode):
-        a = array.array(typecode)
-        with open(filename, "rb") as f:
-        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
-        return a
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
