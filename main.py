@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
