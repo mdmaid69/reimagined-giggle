@@ -1,4 +1,5 @@
-def is_odd(n):
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+  def is_odd(n):
         return n % 2 != 0
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
