@@ -1,5 +1,4 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+def convert_to_binary(n):
+        return bin(n)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
