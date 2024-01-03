@@ -1,5 +1,7 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import array
+def get_array_item(array, i):
+        return array[i]
