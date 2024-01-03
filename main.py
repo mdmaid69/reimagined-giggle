@@ -1,4 +1,4 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def reverse_list(lst):
+        return lst[::-1]
