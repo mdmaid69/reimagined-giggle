@@ -1,5 +1,6 @@
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
