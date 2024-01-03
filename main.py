@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
