@@ -1,6 +1,5 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+  def reverse_list(lst):
+        return lst[::-1]
+import collections
+def create_counter():
+        return collections.Counter()
