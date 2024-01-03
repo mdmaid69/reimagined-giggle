@@ -1,5 +1,7 @@
+  def remove_duplicates(lst):
+        return list(set(lst))
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
