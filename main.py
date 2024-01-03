@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def cube_number(x):
+        return x**3
+import array
+def get_array_as_float(array):
+        return float(array[0])
