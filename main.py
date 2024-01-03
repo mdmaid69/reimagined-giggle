@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
