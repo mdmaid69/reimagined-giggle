@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+import getpass
+def get_username():
+        return getpass.getuser()
