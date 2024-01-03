@@ -1,5 +1,5 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
