@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
