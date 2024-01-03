@@ -1,6 +1,6 @@
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
   import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
