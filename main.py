@@ -1,6 +1,6 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
