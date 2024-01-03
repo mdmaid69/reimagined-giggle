@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
