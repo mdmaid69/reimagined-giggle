@@ -1,4 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def find_min(lst):
-        return min(lst)
+import array
+def get_array_as_int(array):
+        return int(array[0])
+def find_max(lst):
+        return max(lst)
