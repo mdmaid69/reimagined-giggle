@@ -1,5 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
