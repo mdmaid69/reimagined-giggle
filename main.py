@@ -1,5 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-import platform
-def get_python_version():
-        return platform.python_version()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
