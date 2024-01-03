@@ -1,5 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-import array
-def get_array_typecode(array):
-        return array.typecode
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
