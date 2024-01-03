@@ -1,6 +1,5 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
