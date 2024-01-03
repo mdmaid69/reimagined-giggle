@@ -1,4 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
