@@ -1,6 +1,4 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def multiply_numbers(x, y):
+        return x * y
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
