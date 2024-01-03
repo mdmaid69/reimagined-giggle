@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+for i in range(10): print(i)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
