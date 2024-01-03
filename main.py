@@ -1,5 +1,5 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
