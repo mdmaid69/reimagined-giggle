@@ -1,5 +1,6 @@
+import logging
+def log_message(message):
+        logging.info(message)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import datetime
-print(datetime.datetime.now())
+def get_array_as_repr(array):
+        return repr(array)
