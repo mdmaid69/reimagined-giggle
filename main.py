@@ -1,5 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
