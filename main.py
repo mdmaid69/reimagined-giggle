@@ -1,4 +1,5 @@
-def calculate_npv(rate, cash_flows):
-        return sum(cf / (1 + rate)**i for i, cf in enumerate(cash_flows))
-def count_characters(sentence):
-        return len(sentence)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import array
+def reverse_array(array):
+        array.reverse()
