@@ -1,6 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_speed(distance, time):
+        return distance / time
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
