@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
