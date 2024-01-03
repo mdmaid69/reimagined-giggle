@@ -1,5 +1,8 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-def calculate_power(work, time):
-        return work / time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
