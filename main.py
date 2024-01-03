@@ -1,5 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def calculate_work(force, distance):
-        return force * distance
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
