@@ -1,6 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
