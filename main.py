@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_current_directory():
-        return os.getcwd()
+name = "Python"
+print("Hello,", name)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
