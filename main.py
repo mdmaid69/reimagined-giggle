@@ -1,5 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+def greet(name):
+        print(f"Hello, {name}!")
