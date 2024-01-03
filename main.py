@@ -1,6 +1,6 @@
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import array
+def get_array_as_float(array):
+        return float(array[0])
