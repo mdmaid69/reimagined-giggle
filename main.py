@@ -1,4 +1,6 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
