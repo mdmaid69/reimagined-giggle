@@ -1,4 +1,7 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def convert_to_binary(n):
+        return bin(n)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
