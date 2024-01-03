@@ -1,5 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
+import tensorflow as tf
+print(tf.__version__)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def convert_array_to_unicode(array):
+        return array.tounicode()
