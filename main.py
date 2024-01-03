@@ -1,7 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+print("Hello, world!")
