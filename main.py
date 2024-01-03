@@ -1,5 +1,9 @@
-def calculate_speed(distance, time):
-        return distance / time
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
