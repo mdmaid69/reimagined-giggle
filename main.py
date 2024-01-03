@@ -1,6 +1,5 @@
+def calculate_force(mass, acceleration):
+        return mass * acceleration
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-import sys
-def exit_program():
-        sys.exit()
+def calculate_absolute_value(x):
+        return math.fabs(x)
