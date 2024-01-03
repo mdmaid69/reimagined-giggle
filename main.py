@@ -1,5 +1,5 @@
-import os
-print(os.getcwd())
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+import re
+print(re.match("h.*o", "hello world"))
