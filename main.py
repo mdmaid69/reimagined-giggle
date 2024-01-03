@@ -1,5 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import time
-print(time.time())
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_exponential(x):
+        return math.exp(x)
