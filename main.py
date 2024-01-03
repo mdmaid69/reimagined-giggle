@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
