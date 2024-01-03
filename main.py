@@ -1,5 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def count_words(sentence):
+        return len(sentence.split())
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
