@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
