@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
