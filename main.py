@@ -1,5 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-def square_number(x):
-        return x**2
+import collections
+def create_priority_queue():
+        return collections.deque()
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
