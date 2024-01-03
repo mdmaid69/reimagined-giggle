@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
