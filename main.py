@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def is_palindrome(s):
-        return s == s[::-1]
+import array
+def get_array_as_str(array):
+        return str(array)
+def calculate_work(force, distance):
+        return force * distance
