@@ -1,6 +1,7 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
