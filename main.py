@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import time
+def get_current_time():
+        return time.ctime()
