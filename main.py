@@ -1,6 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
