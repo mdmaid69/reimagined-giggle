@@ -1,4 +1,6 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
