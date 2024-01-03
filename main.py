@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-text = "Hello, world!"
-print("Characters:", len(text))
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
