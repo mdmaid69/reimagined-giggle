@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import array
+def append_to_array(array, item):
+        array.append(item)
