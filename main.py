@@ -1,4 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import random
-print(random.randint(0, 100))
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
