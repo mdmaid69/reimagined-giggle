@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
