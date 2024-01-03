@@ -1,6 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import logging
-def log_message(message):
-        logging.info(message)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
