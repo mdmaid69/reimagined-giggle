@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def convert_to_octal(n):
-        return oct(n)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
