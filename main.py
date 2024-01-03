@@ -1,5 +1,6 @@
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
