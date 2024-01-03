@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
