@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-  def subtract_numbers(x, y):
-        return x - y
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
