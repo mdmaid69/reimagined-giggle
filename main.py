@@ -1,8 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
