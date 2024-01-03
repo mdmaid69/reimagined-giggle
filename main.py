@@ -1,6 +1,6 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
