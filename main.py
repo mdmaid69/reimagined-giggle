@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import math
+def calculate_cosine(x):
+        return math.cos(x)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
