@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
