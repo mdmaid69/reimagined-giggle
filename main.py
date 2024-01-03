@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
