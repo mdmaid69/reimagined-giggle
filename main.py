@@ -1,6 +1,6 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
