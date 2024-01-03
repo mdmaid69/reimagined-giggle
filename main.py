@@ -1,5 +1,5 @@
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
-def cube_number(x):
-        return x**3
+def calculate_volume(length, width, height):
+        return length * width * height
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
