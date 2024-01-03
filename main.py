@@ -1,5 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
