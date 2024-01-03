@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
