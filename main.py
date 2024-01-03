@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+print(sum(range(10)))
