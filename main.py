@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-x = 10
-y = 20
-print("Sum:", x + y)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
