@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
