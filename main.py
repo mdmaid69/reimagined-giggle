@@ -1,5 +1,5 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import json
+print(json.dumps({"name": "John", "age": 30}))
+  import os
+  def get_absolute_path(file_name):
+        return os.path.abspath(file_name)
