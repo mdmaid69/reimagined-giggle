@@ -1,5 +1,5 @@
-  def sort_list(lst):
-        return sorted(lst)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def get_array_typecode(array):
+        return array.typecode
