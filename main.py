@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+import sys
+def print_python_version():
+        return sys.version
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
