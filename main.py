@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import collections
-def create_user_list():
-        return collections.UserList()
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
