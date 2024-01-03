@@ -1,5 +1,4 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+text = "Hello, world!"
+print("Characters:", len(text))
