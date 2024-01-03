@@ -1,6 +1,4 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  def cube_number(x):
+        return x**3
