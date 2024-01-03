@@ -1,6 +1,5 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
