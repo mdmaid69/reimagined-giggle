@@ -1,6 +1,4 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_area_rectangle(l, w):
+        return l * w
+  def convert_to_hex(n):
+        return hex(n)
