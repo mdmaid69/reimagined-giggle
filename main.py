@@ -1,5 +1,5 @@
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-def greet(name):
-        print(f"Hello, {name}!")
+import os
+def change_working_directory(path):
+        os.chdir(path)
+def count_elements(lst):
+        return len(lst)
