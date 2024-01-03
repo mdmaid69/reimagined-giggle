@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import random
-print(random.randint(0, 100))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
