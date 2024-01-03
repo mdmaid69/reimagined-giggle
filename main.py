@@ -1,6 +1,4 @@
-import time
-def get_time_since_epoch():
-        return time.time()
-import math
-def calculate_floor(x):
-        return math.floor(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
+def subtract_numbers(x, y):
+        return x - y
