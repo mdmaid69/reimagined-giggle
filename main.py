@@ -1,5 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
