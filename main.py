@@ -1,4 +1,5 @@
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def reverse_list(lst):
+        return lst[::-1]
+import array
+def convert_array_to_string(array):
+        return array.tostring()
