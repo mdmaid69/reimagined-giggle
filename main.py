@@ -1,4 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import datetime
-print(datetime.datetime.now())
+def count_elements(lst):
+        return len(lst)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
