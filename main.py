@@ -1,4 +1,7 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  def count_elements(lst):
-        return len(lst)
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import array
+def clear_array(array):
+        array *= 0
