@@ -1,11 +1,5 @@
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+def find_min(lst):
+        return min(lst)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
