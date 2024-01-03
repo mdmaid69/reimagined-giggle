@@ -1,6 +1,5 @@
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
 import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
