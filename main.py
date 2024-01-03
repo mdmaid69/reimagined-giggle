@@ -1,6 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-  import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
