@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def add_numbers(a, b):
-        return a + b
+import collections
+def create_user_list():
+        return collections.UserList()
+import array
+def convert_array_to_list(array):
+        return array.tolist()
