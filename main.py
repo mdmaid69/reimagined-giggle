@@ -1,5 +1,6 @@
-import time
-print(time.time())
+import array
+def get_array_length(array):
+        return len(array)
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
