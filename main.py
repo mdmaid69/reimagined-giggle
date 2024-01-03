@@ -1,8 +1,5 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
