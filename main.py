@@ -1,6 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def sort_list(lst):
+        return sorted(lst)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
