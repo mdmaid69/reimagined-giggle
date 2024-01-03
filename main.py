@@ -1,7 +1,5 @@
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
