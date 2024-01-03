@@ -1,7 +1,4 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
