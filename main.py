@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-from collections import Counter
-print(Counter("hello world"))
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
