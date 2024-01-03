@@ -1,4 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-def calculate_density(mass, volume):
-        return mass / volume
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
