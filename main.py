@@ -1,4 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-def calculate_volume(length, width, height):
-        return length * width * height
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
