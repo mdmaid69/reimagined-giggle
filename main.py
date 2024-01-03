@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def add_numbers(a, b):
+        return a + b
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
