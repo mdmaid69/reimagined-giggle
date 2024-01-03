@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Characters:", len(text))
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def add_numbers(a, b):
+        return a + b
+  import os
+  def get_current_working_directory():
+        return os.getcwd()
