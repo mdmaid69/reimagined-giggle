@@ -1,5 +1,5 @@
 import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_work(force, distance):
-        return force * distance
+def convert_array_to_string(array):
+        return array.tostring()
+def calculate_power(work, time):
+        return work / time
