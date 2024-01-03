@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import collections
+def create_queue():
+        return collections.deque()
