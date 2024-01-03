@@ -1,5 +1,7 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
