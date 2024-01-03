@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
