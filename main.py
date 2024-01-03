@@ -1,6 +1,7 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
