@@ -1,5 +1,6 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def calculate_speed(distance, time):
-        return distance / time
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
