@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import array
-def get_array_as_float(array):
-        return float(array[0])
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
