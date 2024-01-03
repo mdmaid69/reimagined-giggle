@@ -1,4 +1,6 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
