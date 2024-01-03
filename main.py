@@ -1,4 +1,6 @@
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
