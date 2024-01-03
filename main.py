@@ -1,8 +1,4 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+  def multiply_numbers(x, y):
+        return x * y
+  def convert_to_binary(n):
+        return bin(n)
