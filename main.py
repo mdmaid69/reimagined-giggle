@@ -1,3 +1,5 @@
-def find_min(numbers):
-        return min(numbers)
-print("Hello, world!")
+def calculate_acceleration(speed, time):
+        return speed / time
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
