@@ -1,8 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
 import array
-def get_array_itemsize(array):
-        return array.itemsize
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def get_array_as_int(array):
+        return int(array[0])
