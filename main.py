@@ -1,6 +1,6 @@
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def split_path(path):
+        return os.path.split(path)
