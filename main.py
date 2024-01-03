@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+  def multiply_numbers(x, y):
+        return x * y
