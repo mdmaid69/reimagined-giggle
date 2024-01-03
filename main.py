@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
