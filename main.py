@@ -1,7 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-for i in range(10): print(i)
+import array
+def get_array_as_repr(array):
+        return repr(array)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
