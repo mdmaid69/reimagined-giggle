@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
