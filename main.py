@@ -1,7 +1,7 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-def calculate_pressure(force, area):
-        return force / area
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
