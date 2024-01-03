@@ -1,5 +1,5 @@
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+def convert_array_to_string(array):
+        return array.tostring()
