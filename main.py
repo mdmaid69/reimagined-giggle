@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import datetime
+def get_current_date():
+        return datetime.date.today()
