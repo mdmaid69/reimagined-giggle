@@ -1,7 +1,6 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
