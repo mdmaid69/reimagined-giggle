@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
