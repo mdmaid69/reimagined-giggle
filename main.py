@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
