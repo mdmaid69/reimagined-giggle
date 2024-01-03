@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
   import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
