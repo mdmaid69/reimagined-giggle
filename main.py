@@ -1,6 +1,5 @@
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def append_to_array(array, item):
-        array.append(item)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def is_palindrome(s):
+        return s == s[::-1]
