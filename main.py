@@ -1,5 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import sys
-print(sys.version)
+def calculate_speed(distance, time):
+        return distance / time
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
