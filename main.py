@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
