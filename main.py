@@ -1,6 +1,5 @@
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
