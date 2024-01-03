@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def count_characters(sentence):
+        return len(sentence)
