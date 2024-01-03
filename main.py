@@ -1,4 +1,8 @@
-def is_palindrome(s):
-        return s == s[::-1]
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+import array
+def get_array_as_set(array):
+        return set(array)
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
