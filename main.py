@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def count_elements(lst):
-        return len(lst)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
