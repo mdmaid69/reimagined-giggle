@@ -1,6 +1,5 @@
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import datetime
+def get_current_date():
+        return datetime.date.today()
+def find_min(lst):
+        return min(lst)
