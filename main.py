@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+import logging
+def log_message(message):
+        logging.info(message)
+import os
+def change_working_directory(path):
+        os.chdir(path)
