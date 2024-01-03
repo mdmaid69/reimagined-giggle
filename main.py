@@ -1,6 +1,6 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
