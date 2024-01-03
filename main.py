@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import array
+def get_array_as_repr(array):
+        return repr(array)
