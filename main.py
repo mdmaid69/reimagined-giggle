@@ -1,6 +1,7 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import collections
-def create_user_list():
-        return collections.UserList()
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
+import sys
+def exit_program():
+        sys.exit()
