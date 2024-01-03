@@ -1,5 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
