@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
