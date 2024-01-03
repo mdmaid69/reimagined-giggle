@@ -1,6 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_bytes_from_array(array):
+        return array.tobytes()
