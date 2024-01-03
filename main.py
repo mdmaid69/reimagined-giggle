@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
