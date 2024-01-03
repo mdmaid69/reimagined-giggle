@@ -1,6 +1,6 @@
-import getpass
-def get_username():
-        return getpass.getuser()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
