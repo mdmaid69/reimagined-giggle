@@ -1,4 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-def convert_to_binary(n):
-        return bin(n)
+def find_max(numbers):
+        return max(numbers)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
