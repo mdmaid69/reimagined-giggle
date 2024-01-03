@@ -1,5 +1,6 @@
-import array
-def get_array_as_list(array):
-        return list(array)
-def calculate_pressure(force, area):
-        return force / area
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
