@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_typecode(array):
-        return array.typecode
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import math
+def calculate_floor(x):
+        return math.floor(x)
