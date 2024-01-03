@@ -1,6 +1,6 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
