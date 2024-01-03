@@ -1,6 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import collections
+def create_priority_queue():
+        return collections.deque()
 import array
-def get_array_as_str(array):
-        return str(array)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
