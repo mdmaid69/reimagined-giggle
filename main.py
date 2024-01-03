@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
