@@ -1,5 +1,7 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-  def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
