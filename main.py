@@ -1,6 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def cube_number(x):
+        return x**3
+import time
+def get_current_time():
+        return time.ctime()
