@@ -1,6 +1,7 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
