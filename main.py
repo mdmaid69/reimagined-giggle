@@ -1,5 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-def calculate_acceleration(speed, time):
-        return speed / time
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import datetime
+print(datetime.datetime.now())
