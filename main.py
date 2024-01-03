@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import time
-def get_current_time():
-        return time.time()
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import sys
+print(sys.version)
