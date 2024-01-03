@@ -1,5 +1,9 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
