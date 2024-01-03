@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
