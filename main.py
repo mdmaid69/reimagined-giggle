@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
 import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
