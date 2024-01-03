@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
