@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
