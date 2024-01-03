@@ -1,9 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
