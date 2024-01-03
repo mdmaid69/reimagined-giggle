@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-def calculate_density(mass, volume):
-        return mass / volume
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
