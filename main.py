@@ -1,5 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-def count_elements(lst):
-        return len(lst)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
