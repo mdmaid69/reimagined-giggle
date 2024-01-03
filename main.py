@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-for i in range(5):
-        print(i)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
