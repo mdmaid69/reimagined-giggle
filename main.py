@@ -1,6 +1,8 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import array
+def get_array_typecode(array):
+        return array.typecode
