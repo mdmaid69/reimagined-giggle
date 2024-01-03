@@ -1,6 +1,5 @@
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
