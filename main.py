@@ -1,5 +1,5 @@
 import re
-print(re.match("h.*o", "hello world"))
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
