@@ -1,6 +1,6 @@
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
