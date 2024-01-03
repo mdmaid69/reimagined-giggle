@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
