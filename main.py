@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
