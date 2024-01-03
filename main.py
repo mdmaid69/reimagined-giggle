@@ -1,6 +1,4 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def divide_numbers(x, y):
+        return x / y
+import numpy as np
+print(np.array([1, 2, 3]))
