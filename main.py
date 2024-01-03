@@ -1,5 +1,6 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
