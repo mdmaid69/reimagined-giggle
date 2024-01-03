@@ -1,5 +1,4 @@
-def multiply_numbers(x, y):
-        return x * y
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def find_unique_words(sentence):
+        return set(sentence.split())
+  def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
