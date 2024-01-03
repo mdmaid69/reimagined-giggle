@@ -1,4 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
