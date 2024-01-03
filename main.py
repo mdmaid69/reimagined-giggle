@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def get_string_from_array(array):
+        return array.tobytes()
