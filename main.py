@@ -1,5 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_creation_time(file_name):
-        return os.path.getctime(file_name)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+def find_unique_words(sentence):
+        return set(sentence.split())
