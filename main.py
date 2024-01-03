@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def greet(name):
-        print(f"Hello, {name}!")
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
