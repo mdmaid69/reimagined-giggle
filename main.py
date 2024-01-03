@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import array
-def get_array_item(array, i):
-        return array[i]
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
