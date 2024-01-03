@@ -1,6 +1,5 @@
+  def is_odd(n):
+        return n % 2 != 0
   import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
