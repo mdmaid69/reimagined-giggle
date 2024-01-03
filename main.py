@@ -1,6 +1,5 @@
   import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
