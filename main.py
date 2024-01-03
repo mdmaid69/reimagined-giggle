@@ -1,6 +1,5 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
