@@ -1,4 +1,6 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
