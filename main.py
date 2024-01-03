@@ -1,6 +1,5 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def get_array_item_count(array, item):
+        return array.count(item)
