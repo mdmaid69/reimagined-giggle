@@ -1,5 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
