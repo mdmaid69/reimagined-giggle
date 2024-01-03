@@ -1,6 +1,6 @@
 import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
