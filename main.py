@@ -1,7 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+def convert_to_hex(n):
+        return hex(n)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
