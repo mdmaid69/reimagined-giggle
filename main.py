@@ -1,7 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import collections
+def create_user_list():
+        return collections.UserList()
