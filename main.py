@@ -1,5 +1,7 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
