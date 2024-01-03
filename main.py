@@ -1,7 +1,5 @@
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
