@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+def find_unique_words(sentence):
+        return set(sentence.split())
