@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-import collections
-def create_user_dict():
-        return collections.UserDict()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
