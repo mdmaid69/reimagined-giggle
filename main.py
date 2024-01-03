@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
