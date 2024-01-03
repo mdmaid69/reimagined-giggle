@@ -1,6 +1,8 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
