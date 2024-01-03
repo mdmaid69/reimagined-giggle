@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
   import os
-  def get_file_ctime_ns(file_name):
-        return os.stat(file_name).st_ctime_ns
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+def calculate_power(work, time):
+        return work / time
