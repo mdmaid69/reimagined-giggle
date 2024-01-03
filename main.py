@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+  def reverse_list(lst):
+        return lst[::-1]
