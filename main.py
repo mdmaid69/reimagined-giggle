@@ -1,8 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import datetime
+print(datetime.datetime.now())
