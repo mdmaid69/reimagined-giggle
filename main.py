@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+def calculate_power(work, time):
+        return work / time
