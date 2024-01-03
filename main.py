@@ -1,5 +1,6 @@
-n = 10
-print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import sqlite3
+conn = sqlite3.connect(":memory:")
+c = conn.cursor()
+c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
