@@ -1,5 +1,6 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-def reverse_list(lst):
-        return lst[::-1]
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import collections
+def create_queue():
+        return collections.deque()
