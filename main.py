@@ -1,4 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
-  def convert_to_hex(n):
-        return hex(n)
+  def count_elements(lst):
+        return len(lst)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
