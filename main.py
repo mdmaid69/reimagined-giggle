@@ -1,6 +1,6 @@
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def remove_from_array(array, item):
+        array.remove(item)
