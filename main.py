@@ -1,5 +1,6 @@
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+def calculate_error_function(x):
+        return math.erf(x)
