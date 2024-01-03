@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
