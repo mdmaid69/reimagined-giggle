@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_string_from_array(array):
+        return array.tobytes()
