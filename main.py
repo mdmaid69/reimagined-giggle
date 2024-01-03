@@ -1,5 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  def cube_number(x):
-        return x**3
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
