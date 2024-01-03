@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import getpass
+def get_username():
+        return getpass.getuser()
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
