@@ -1,6 +1,6 @@
   import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
