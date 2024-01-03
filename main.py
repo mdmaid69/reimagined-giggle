@@ -1,4 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import tensorflow as tf
-print(tf.__version__)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  def add_numbers(x, y):
+        return x + y
