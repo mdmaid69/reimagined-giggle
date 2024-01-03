@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+  def reverse_list(lst):
+        return lst[::-1]
