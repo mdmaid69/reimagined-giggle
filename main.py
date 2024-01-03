@@ -1,5 +1,6 @@
+import random
+def roll_die():
+        return random.randint(1, 6)
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def calculate_pressure(force, area):
-        return force / area
+def convert_array_to_string(array):
+        return array.tostring()
