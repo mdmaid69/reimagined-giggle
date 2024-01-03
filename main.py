@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
