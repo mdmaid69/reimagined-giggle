@@ -1,7 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
