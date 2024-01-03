@@ -1,5 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def is_even(n):
+        return n % 2 == 0
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
