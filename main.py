@@ -1,6 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import time
+def get_current_time():
+        return time.ctime()
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
