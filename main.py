@@ -1,8 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
