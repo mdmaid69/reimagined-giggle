@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
