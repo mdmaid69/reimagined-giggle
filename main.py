@@ -1,4 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import tensorflow as tf
-print(tf.__version__)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
