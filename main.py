@@ -1,8 +1,5 @@
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def get_array_typecode(array):
+        return array.typecode
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
