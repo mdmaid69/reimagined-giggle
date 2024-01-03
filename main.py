@@ -1,6 +1,5 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
