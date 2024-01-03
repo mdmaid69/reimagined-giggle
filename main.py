@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
