@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+def cube_number(x):
+        return x**3
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
