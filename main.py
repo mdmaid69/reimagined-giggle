@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
