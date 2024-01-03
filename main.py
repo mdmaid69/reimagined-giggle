@@ -1,6 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+  def multiply_numbers(x, y):
+        return x * y
