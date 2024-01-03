@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
   import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+  def get_current_working_directory():
+        return os.getcwd()
+def calculate_speed(distance, time):
+        return distance / time
