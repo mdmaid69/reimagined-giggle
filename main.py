@@ -1,6 +1,6 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
   import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
