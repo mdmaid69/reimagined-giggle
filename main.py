@@ -1,6 +1,6 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def remove_from_array(array, item):
+        array.remove(item)
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
