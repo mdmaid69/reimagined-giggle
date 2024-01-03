@@ -1,6 +1,9 @@
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
