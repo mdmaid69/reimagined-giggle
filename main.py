@@ -1,6 +1,6 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
