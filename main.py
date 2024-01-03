@@ -1,8 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import random
+def roll_die():
+        return random.randint(1, 6)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
