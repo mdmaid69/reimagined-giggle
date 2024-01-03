@@ -1,6 +1,6 @@
 import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
