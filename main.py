@@ -1,5 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import tensorflow as tf
-print(tf.__version__)
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
