@@ -1,8 +1,4 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+from collections import Counter
+print(Counter("hello world"))
