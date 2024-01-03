@@ -1,6 +1,8 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import collections
-def create_counter():
-        return collections.Counter()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
