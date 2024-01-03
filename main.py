@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
+import os
+print(os.getcwd())
