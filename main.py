@@ -1,6 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-import sys
-def print_python_version():
-        print(sys.version)
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import array
+def append_to_array(array, item):
+        array.append(item)
