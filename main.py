@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
