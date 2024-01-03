@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
