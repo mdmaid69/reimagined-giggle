@@ -1,6 +1,6 @@
   import os
-  def split_path(path):
-        return os.path.split(path)
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
