@@ -1,6 +1,5 @@
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
