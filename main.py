@@ -1,6 +1,6 @@
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
   import os
-  def split_path(path):
-        return os.path.split(path)
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
