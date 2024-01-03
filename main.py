@@ -1,5 +1,5 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
-def add_numbers(a, b):
-        return a + b
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
