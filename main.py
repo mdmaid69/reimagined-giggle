@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import array
+def get_array_as_set(array):
+        return set(array)
+  def is_even(n):
+        return n % 2 == 0
