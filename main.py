@@ -1,6 +1,5 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import random
+print(random.randint(0, 100))
+import math
+def calculate_logarithm_base_10(x):
+        return math.log10(x)
