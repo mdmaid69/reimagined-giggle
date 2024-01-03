@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_force(mass, acceleration):
+        return mass * acceleration
