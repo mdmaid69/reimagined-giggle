@@ -1,4 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-def cube_number(x):
-        return x**3
+import datetime
+def get_today_date():
+        return datetime.date.today()
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
