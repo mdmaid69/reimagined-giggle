@@ -1,5 +1,10 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-  def reverse_list(lst):
-        return lst[::-1]
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
+  def is_even(n):
+        return n % 2 == 0
