@@ -1,4 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
-def calculate_volume(length, width, height):
-        return length * width * height
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
