@@ -1,6 +1,5 @@
 import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def extend_array(array, iterable):
+        array.extend(iterable)
+def calculate_area_rectangle(l, w):
+        return l * w
