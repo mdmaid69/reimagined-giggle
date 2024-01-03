@@ -1,6 +1,7 @@
-import platform
-def get_os_info():
-        return platform.uname()
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
