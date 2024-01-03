@@ -1,4 +1,6 @@
-def find_min(lst):
-        return min(lst)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
