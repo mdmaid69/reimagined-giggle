@@ -1,8 +1,6 @@
   import os
-  def get_file_blocks(file_name):
+  def get_file_blocks_allocated(file_name):
         return os.stat(file_name).st_blocks
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
