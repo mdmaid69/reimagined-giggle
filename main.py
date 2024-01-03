@@ -1,6 +1,5 @@
+def calculate_speed(distance, time):
+        return distance / time
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import array
-def reverse_array(array):
-        array.reverse()
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
