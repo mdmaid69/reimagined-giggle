@@ -1,7 +1,6 @@
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def convert_array_to_bytes(array):
+        return array.tobytes()
