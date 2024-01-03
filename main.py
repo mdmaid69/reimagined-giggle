@@ -1,6 +1,7 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
+def add_numbers(a, b):
+        return a + b
+import array
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
