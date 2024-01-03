@@ -1,6 +1,4 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def multiply_numbers(x, y):
+        return x * y
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
