@@ -1,6 +1,4 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+  def is_odd(n):
+        return n % 2 != 0
