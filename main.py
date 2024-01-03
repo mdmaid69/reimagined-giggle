@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+def convert_to_octal(n):
+        return oct(n)
