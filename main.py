@@ -1,6 +1,6 @@
-for i in range(5):
-        print(i)
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
