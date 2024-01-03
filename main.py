@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import collections
+def create_user_string():
+        return collections.UserString()
