@@ -1,7 +1,5 @@
-for i in range(5):
-        print(i)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def add_numbers(x, y):
+        return x + y
