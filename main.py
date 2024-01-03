@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+import array
+def get_list_from_array(array):
+        return array.tolist()
