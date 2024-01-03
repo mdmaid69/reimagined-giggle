@@ -1,8 +1,6 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import platform
+def get_os_info():
+        return platform.uname()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
