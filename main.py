@@ -1,6 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import array
-def get_array_index(array, item):
-        return array.index(item)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import collections
+def create_queue():
+        return collections.deque()
