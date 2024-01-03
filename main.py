@@ -1,6 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def remove_duplicates(lst):
+        return list(set(lst))
