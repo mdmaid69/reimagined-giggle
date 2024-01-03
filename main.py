@@ -1,5 +1,6 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
