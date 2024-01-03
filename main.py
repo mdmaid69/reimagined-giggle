@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import collections
+def create_user_string():
+        return collections.UserString()
