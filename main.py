@@ -1,5 +1,4 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def remove_duplicates(lst):
-        return list(set(lst))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+  def square_number(x):
+        return x**2
