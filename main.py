@@ -1,5 +1,6 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import platform
-def get_python_version():
-        return platform.python_version()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
