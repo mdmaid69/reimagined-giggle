@@ -1,6 +1,5 @@
+def reverse_string(s):
+        return s[::-1]
   import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import sys
-def print_python_version():
-        print(sys.version)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
