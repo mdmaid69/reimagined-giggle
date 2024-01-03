@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def split_path(path):
+        return os.path.split(path)
