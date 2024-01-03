@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import http.server
+def start_http_server(port):
+        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
