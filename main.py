@@ -1,7 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
