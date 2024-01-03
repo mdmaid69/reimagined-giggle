@@ -1,9 +1,5 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
-  def remove_duplicates(lst):
-        return list(set(lst))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+  def count_elements(lst):
+        return len(lst)
