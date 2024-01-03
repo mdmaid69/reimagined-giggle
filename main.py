@@ -1,6 +1,5 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def find_max(lst):
+        return max(lst)
+import array
+def get_array_item(array, i):
+        return array[i]
