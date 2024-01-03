@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+import array
+def append_to_array(array, item):
+        array.append(item)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
