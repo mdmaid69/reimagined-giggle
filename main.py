@@ -1,4 +1,4 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  def convert_to_hex(n):
+        return hex(n)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
