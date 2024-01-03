@@ -1,6 +1,7 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
