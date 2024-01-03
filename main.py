@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
