@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
