@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def is_odd(n):
+        return n % 2 != 0
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
