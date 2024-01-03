@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
