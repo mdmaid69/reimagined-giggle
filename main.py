@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import getpass
+def get_username():
+        return getpass.getuser()
