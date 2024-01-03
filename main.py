@@ -1,6 +1,6 @@
   import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
