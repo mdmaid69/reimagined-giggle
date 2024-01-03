@@ -1,6 +1,5 @@
-import collections
-def create_queue():
-        return collections.deque()
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def square_number(x):
+        return x**2
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
