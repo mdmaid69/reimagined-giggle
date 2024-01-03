@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
