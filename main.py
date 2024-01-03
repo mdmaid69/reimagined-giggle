@@ -1,5 +1,9 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-def calculate_speed(distance, time):
-        return distance / time
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
