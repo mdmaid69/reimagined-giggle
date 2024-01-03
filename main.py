@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+import collections
+def create_counter():
+        return collections.Counter()
