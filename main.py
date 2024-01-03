@@ -1,5 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import re
-print(re.match("h.*o", "hello world"))
+def reverse_string(s):
+        return s[::-1]
+import platform
+def get_python_version():
+        return platform.python_version()
