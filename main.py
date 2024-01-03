@@ -1,3 +1,5 @@
-print("Hello, world!")
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import sys
+  def get_python_version():
+        return sys.version
