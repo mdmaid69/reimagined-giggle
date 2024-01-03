@@ -1,6 +1,6 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
