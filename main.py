@@ -1,5 +1,5 @@
-  def multiply_numbers(x, y):
-        return x * y
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import array
+def get_array_item(array, i):
+        return array[i]
+def calculate_average(lst):
+        return sum(lst) / len(lst)
