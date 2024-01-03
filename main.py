@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
