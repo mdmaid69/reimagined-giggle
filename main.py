@@ -1,6 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+print(sum(range(10)))
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
