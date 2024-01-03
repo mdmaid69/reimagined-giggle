@@ -1,6 +1,5 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  def is_even(n):
+        return n % 2 == 0
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
