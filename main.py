@@ -1,6 +1,4 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
