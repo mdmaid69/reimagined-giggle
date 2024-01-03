@@ -1,6 +1,6 @@
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
