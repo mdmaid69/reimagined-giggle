@@ -1,6 +1,9 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import logging
-def log_message(message):
-        logging.info(message)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
