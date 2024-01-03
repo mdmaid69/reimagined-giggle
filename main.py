@@ -1,8 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+x = 10
+y = 20
+print("Sum:", x + y)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
