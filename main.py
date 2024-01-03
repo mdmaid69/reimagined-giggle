@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-  def is_even(n):
-        return n % 2 == 0
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
