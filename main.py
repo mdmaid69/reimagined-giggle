@@ -1,5 +1,4 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def reverse_array(array):
-        array.reverse()
+def count_characters(sentence):
+        return len(sentence)
+  def sort_list(lst):
+        return sorted(lst)
