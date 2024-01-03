@@ -1,5 +1,7 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
