@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import sys
-  def get_python_version():
-        return sys.version
+def calculate_circle_area(radius):
+        return math.pi * radius**2
