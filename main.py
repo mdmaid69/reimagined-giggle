@@ -1,8 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
