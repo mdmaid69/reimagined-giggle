@@ -1,8 +1,6 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+import os
+def remove_directory(path):
+        os.rmdir(path)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
