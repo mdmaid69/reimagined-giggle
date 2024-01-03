@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import platform
-def get_python_version():
-        return platform.python_version()
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
