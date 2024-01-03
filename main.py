@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def greet(name):
+        print(f"Hello, {name}!")
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
