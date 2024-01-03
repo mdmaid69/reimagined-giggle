@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  def multiply_numbers(x, y):
+        return x * y
