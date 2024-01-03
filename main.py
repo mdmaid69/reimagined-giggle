@@ -1,6 +1,5 @@
-import collections
-def create_stack():
-        return collections.deque()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def add_numbers(x, y):
+        return x + y
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
