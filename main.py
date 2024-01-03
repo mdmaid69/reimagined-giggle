@@ -1,5 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
