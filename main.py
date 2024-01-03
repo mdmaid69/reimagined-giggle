@@ -1,6 +1,6 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import collections
-def create_stack():
-        return collections.deque()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
