@@ -1,9 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
+import platform
+def get_python_version():
+        return platform.python_version()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
