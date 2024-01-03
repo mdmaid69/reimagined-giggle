@@ -1,4 +1,5 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import collections
+def create_queue():
+        return collections.deque()
