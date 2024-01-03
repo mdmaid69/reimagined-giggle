@@ -1,6 +1,5 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+from collections import Counter
+print(Counter("hello world"))
+  import sys
+  def get_python_version():
+        return sys.version
