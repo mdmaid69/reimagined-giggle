@@ -1,6 +1,6 @@
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+def clear_array(array):
+        array *= 0
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
