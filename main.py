@@ -1,6 +1,8 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
