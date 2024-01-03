@@ -1,6 +1,5 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_pressure(force, area):
+        return force / area
