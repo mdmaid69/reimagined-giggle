@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
