@@ -1,5 +1,4 @@
-def greet(name):
-        print(f"Hello, {name}!")
-import array
-def get_array_typecode(array):
-        return array.typecode
+for i in range(5):
+        print(i)
+def calculate_volume(length, width, height):
+        return length * width * height
