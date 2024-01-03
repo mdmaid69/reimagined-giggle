@@ -1,8 +1,4 @@
-import datetime
-def get_days_until_next_year():
-        next_year = datetime.date.today().year + 1
-        next_new_year = datetime.date(next_year, 1, 1)
-        return (next_new_year - datetime.date.today()).days
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def count_words(sentence):
+        return len(sentence.split())
+def greet(name):
+        print(f"Hello, {name}!")
