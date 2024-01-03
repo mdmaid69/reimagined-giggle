@@ -1,4 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-  def square_number(x):
-        return x**2
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import time
+def get_current_time():
+        return time.time()
