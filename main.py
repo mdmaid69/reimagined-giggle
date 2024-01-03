@@ -1,4 +1,6 @@
-def calculate_pressure(force, area):
-        return force / area
-def cube_number(x):
-        return x**3
+import array
+def get_array_index(array, item):
+        return array.index(item)
+import math
+def calculate_floor(x):
+        return math.floor(x)
