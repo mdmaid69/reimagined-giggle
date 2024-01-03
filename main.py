@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def convert_to_octal(n):
-        return oct(n)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
