@@ -1,4 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
