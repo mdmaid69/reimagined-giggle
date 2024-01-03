@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
 import array
-def clear_array(array):
-        array *= 0
+def remove_from_array(array, item):
+        array.remove(item)
