@@ -1,6 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def get_array_as_str(array):
+        return str(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
