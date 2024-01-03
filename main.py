@@ -1,7 +1,5 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-  def multiply_numbers(x, y):
-        return x * y
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
