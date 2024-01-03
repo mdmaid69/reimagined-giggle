@@ -1,5 +1,5 @@
-def find_unique_words(sentence):
-        return set(sentence.split())
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
