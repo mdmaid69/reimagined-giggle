@@ -1,5 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
