@@ -1,7 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
