@@ -1,5 +1,8 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def find_max(numbers):
-        return max(numbers)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
