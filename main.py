@@ -1,4 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  def reverse_list(lst):
-        return lst[::-1]
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
