@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
