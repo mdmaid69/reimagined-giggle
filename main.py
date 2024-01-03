@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import numpy as np
-print(np.array([1, 2, 3]))
+  import os
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+import array
+def convert_array_to_string(array):
+        return array.tostring()
