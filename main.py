@@ -1,6 +1,7 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import collections
-def create_stack():
-        return collections.deque()
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
