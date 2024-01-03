@@ -1,5 +1,6 @@
-import time
-print(time.time())
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
