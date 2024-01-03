@@ -1,6 +1,6 @@
 import math
-def calculate_inverse_hyperbolic_tangent(x):
+def calculate_hyperbolic_arc_tangent(x):
         return math.atanh(x)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
