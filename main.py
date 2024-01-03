@@ -1,5 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
