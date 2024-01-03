@@ -1,9 +1,5 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+def count_characters(sentence):
+        return len(sentence)
