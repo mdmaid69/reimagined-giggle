@@ -1,6 +1,6 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_error_function(x):
+        return math.erf(x)
