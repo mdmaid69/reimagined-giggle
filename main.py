@@ -1,6 +1,6 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
