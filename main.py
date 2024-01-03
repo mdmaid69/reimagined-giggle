@@ -1,4 +1,6 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-print([x**2 for x in range(10)])
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
