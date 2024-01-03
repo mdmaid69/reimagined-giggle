@@ -1,6 +1,8 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
