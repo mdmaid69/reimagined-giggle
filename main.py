@@ -1,7 +1,5 @@
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+  def count_elements(lst):
+        return len(lst)
