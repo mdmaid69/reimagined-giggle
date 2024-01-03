@@ -1,5 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
