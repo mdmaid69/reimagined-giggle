@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import time
-def get_current_time():
-        return time.ctime()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def calculate_area_rectangle(l, w):
+        return l * w
