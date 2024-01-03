@@ -1,6 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+def check_if_array_contains_item(array, item):
+        return item in array
+def square_number(x):
+        return x**2
