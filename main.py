@@ -1,5 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
