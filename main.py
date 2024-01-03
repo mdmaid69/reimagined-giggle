@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def find_unique_words(sentence):
+        return set(sentence.split())
+import sys
+def print_python_version():
+        return sys.version
