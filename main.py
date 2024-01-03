@@ -1,6 +1,6 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
