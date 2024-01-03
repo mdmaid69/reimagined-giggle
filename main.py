@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def reverse_string(s):
+        return s[::-1]
