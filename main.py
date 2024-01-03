@@ -1,6 +1,5 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import os
-def get_current_working_directory():
-        return os.getcwd()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+  def convert_to_hex(n):
+        return hex(n)
