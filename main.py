@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
+import time
+def get_current_time():
+        return time.time()
 n = 10
 print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
