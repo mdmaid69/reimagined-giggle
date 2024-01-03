@@ -1,5 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import sys
+def exit_program():
+        sys.exit()
