@@ -1,5 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
