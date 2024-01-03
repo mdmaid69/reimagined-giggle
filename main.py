@@ -1,6 +1,6 @@
-import collections
-def create_user_string():
-        return collections.UserString()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def append_to_array(array, item):
+        array.append(item)
+import platform
+def get_python_version():
+        return platform.python_version()
