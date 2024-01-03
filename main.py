@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import getpass
-def get_username():
-        return getpass.getuser()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import collections
+def create_user_string():
+        return collections.UserString()
