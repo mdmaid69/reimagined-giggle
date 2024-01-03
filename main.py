@@ -1,6 +1,6 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
