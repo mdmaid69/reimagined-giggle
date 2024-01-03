@@ -1,6 +1,5 @@
-import collections
-def create_counter():
-        return collections.Counter()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
