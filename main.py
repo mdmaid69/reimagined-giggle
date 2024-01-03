@@ -1,6 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def square_number(x):
+        return x**2
+import json
+print(json.dumps({"name": "John", "age": 30}))
