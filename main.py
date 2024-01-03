@@ -1,6 +1,5 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import sys
+def exit_program():
+        sys.exit()
