@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_ceiling(x):
+        return math.ceil(x)
+  import os
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
