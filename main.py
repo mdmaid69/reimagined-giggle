@@ -1,6 +1,6 @@
-import array
-def set_array_item(array, i, item):
-        array[i] = item
-import collections
-def create_priority_queue():
-        return collections.deque()
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
