@@ -1,9 +1,5 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
