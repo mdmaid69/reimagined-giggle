@@ -1,6 +1,11 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+  def sort_list(lst):
+        return sorted(lst)
