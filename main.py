@@ -1,5 +1,6 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
