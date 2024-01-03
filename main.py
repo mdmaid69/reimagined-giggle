@@ -1,7 +1,6 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+import platform
+def get_os_info():
+        return platform.uname()
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
