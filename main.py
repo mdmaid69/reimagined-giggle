@@ -1,8 +1,5 @@
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import time
+print(time.time())
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
