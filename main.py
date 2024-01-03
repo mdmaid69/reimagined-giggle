@@ -1,5 +1,6 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-def greet(name):
-        print(f"Hello, {name}!")
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
