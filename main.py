@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-for i in range(5):
-        print(i)
+def calculate_density(mass, volume):
+        return mass / volume
+import datetime
+def get_today_date():
+        return datetime.date.today()
