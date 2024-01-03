@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
 import array
-def convert_array_to_list(array):
-        return array.tolist()
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
