@@ -1,6 +1,10 @@
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
