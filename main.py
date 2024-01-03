@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
 import array
-def clear_array(array):
-        array *= 0
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+def calculate_pressure(force, area):
+        return force / area
