@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
