@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
