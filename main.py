@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def find_min(numbers):
+        return min(numbers)
 import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+def clear_array(array):
+        array *= 0
