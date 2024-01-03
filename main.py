@@ -1,6 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
+def subtract_numbers(x, y):
+        return x - y
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
