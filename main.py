@@ -1,7 +1,5 @@
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
