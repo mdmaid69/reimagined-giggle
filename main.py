@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def calculate_work(force, distance):
+        return force * distance
+import array
+def get_array_item(array, i):
+        return array[i]
