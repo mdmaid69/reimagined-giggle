@@ -1,5 +1,5 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
