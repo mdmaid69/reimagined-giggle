@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
