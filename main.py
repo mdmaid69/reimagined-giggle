@@ -1,4 +1,5 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
