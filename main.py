@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
