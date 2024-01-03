@@ -1,6 +1,5 @@
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
