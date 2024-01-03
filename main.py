@@ -1,5 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-import collections
-def create_user_string():
-        return collections.UserString()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def find_union(list1, list2):
+        return set(list1) | set(list2)
