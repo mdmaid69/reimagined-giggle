@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import collections
-def create_user_list():
-        return collections.UserList()
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
