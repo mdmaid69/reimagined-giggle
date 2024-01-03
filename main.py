@@ -1,6 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
