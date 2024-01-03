@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
