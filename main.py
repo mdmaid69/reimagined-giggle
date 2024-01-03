@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  def reverse_list(lst):
+        return lst[::-1]
+import getpass
+def get_username():
+        return getpass.getuser()
