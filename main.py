@@ -1,11 +1,5 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+  def convert_to_octal(n):
+        return oct(n)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
