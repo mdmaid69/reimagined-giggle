@@ -1,4 +1,4 @@
-def calculate_speed(distance, time):
-        return distance / time
-from collections import Counter
-print(Counter("hello world"))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def count_words(sentence):
+        return len(sentence.split())
