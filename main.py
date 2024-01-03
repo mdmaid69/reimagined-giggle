@@ -1,5 +1,4 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
