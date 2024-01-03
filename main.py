@@ -1,6 +1,4 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_speed(distance, time):
+        return distance / time
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
