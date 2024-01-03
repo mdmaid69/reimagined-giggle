@@ -1,8 +1,5 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-  import sys
-  def get_python_version():
-        return sys.version
+import json
+print(json.dumps({"name": "John", "age": 30}))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
