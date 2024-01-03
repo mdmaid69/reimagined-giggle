@@ -1,4 +1,6 @@
-print([x**2 for x in range(10)])
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import time
+def get_current_time():
+        return time.time()
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
