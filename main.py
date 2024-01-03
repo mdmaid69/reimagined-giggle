@@ -1,6 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
