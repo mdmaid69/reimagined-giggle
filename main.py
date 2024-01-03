@@ -1,7 +1,6 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  def convert_to_octal(n):
-        return oct(n)
+import sys
+def exit_program():
+        sys.exit()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
