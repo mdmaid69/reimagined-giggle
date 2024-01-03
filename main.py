@@ -1,6 +1,6 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
