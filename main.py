@@ -1,6 +1,4 @@
-import array
-def get_array_length(array):
-        return len(array)
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def is_even(n):
+        return n % 2 == 0
+def calculate_acceleration(speed, time):
+        return speed / time
