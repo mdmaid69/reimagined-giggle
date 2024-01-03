@@ -1,6 +1,6 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
