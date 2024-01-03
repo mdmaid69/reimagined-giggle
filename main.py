@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_speed(distance, time):
+        return distance / time
+import os
+def remove_directory(path):
+        os.rmdir(path)
