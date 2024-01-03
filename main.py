@@ -1,6 +1,4 @@
-  import os
-  def split_path(path):
-        return os.path.split(path)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+  def square_number(x):
+        return x**2
+def find_min(numbers):
+        return min(numbers)
