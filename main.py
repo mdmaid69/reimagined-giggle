@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
