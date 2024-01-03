@@ -1,5 +1,5 @@
-import array
-def clear_array(array):
-        array *= 0
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
