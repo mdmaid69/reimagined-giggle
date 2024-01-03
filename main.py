@@ -1,6 +1,5 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import platform
-def get_python_version():
-        return platform.python_version()
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
