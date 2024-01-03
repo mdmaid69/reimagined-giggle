@@ -1,5 +1,4 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import numpy as np
+print(np.array([1, 2, 3]))
+def calculate_density(mass, volume):
+        return mass / volume
