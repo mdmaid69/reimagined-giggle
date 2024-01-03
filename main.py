@@ -1,6 +1,8 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
