@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
+import collections
+def create_stack():
+        return collections.deque()
