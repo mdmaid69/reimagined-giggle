@@ -1,6 +1,4 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
