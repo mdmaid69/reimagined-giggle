@@ -1,3 +1,4 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-print([x**2 for x in range(10)])
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
