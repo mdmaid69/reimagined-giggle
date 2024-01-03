@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
