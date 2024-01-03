@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def calculate_density(mass, volume):
-        return mass / volume
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
