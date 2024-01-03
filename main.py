@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def create_priority_queue():
+        return collections.deque()
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
