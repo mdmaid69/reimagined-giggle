@@ -1,5 +1,5 @@
-import sys
-print(sys.version)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+  def reverse_list(lst):
+        return lst[::-1]
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
