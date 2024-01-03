@@ -1,5 +1,5 @@
-def find_min(lst):
-        return min(lst)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+import array
+def get_array_as_set(array):
+        return set(array)
