@@ -1,5 +1,8 @@
-def calculate_density(mass, volume):
-        return mass / volume
 import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def delete_directory(path):
+        shutil.rmtree(path)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
