@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import os
+def get_current_working_directory():
+        return os.getcwd()
