@@ -1,5 +1,6 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
