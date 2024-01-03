@@ -1,5 +1,6 @@
-def convert_to_hex(n):
-        return hex(n)
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
