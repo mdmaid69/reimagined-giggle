@@ -1,6 +1,5 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
