@@ -1,5 +1,6 @@
 import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
