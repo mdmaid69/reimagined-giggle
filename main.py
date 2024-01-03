@@ -1,7 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+from collections import Counter
+print(Counter("hello world"))
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
