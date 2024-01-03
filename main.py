@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
