@@ -1,4 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-for i in range(10): print(i)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+def calculate_speed(distance, time):
+        return distance / time
