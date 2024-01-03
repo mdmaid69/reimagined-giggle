@@ -1,5 +1,7 @@
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
