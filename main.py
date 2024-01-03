@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import sys
-def print_python_version():
-        print(sys.version)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
