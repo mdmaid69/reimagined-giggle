@@ -1,5 +1,4 @@
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def is_palindrome(s):
+        return s == s[::-1]
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
