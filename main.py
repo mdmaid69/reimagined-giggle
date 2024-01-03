@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        return sys.version
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
