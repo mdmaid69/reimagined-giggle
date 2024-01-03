@@ -1,5 +1,6 @@
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
