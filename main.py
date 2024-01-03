@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-def calculate_area_rectangle(l, w):
-        return l * w
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
