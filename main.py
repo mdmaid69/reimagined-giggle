@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  def multiply_numbers(x, y):
+        return x * y
