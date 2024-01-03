@@ -1,5 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-def is_palindrome(s):
-        return s == s[::-1]
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
