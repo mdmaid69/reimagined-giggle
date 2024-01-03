@@ -1,5 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import array
+def get_array_as_list(array):
+        return list(array)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
