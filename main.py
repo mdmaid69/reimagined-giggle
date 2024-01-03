@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  import sys
+  def get_python_version():
+        return sys.version
+def greet(name):
+        print(f"Hello, {name}!")
