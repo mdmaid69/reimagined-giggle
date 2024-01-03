@@ -1,8 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_exponential(x):
+        return math.exp(x)
