@@ -1,9 +1,12 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
