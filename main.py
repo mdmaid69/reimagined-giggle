@@ -1,6 +1,8 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
