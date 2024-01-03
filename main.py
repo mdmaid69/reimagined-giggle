@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import getpass
-def get_username():
-        return getpass.getuser()
+import platform
+def get_python_version():
+        return platform.python_version()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
