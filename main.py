@@ -1,4 +1,4 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-print([x**2 for x in range(10)])
+for i in range(5):
+        print(i)
+  def add_numbers(x, y):
+        return x + y
