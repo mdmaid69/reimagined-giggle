@@ -1,6 +1,4 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-def calculate_volume(length, width, height):
-        return length * width * height
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
