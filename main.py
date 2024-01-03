@@ -1,6 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
