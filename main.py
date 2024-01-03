@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import random
+def roll_die():
+        return random.randint(1, 6)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
