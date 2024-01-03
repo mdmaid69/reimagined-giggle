@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_extension(file_name):
-        return os.path.splitext(file_name)[1]
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+def is_palindrome(s):
+        return s == s[::-1]
