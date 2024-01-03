@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def reverse_list(lst):
-        return lst[::-1]
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
