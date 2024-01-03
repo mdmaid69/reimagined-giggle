@@ -1,5 +1,4 @@
-  def convert_to_hex(n):
-        return hex(n)
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def square_number(x):
+        return x**2
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
