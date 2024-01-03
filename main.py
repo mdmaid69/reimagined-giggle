@@ -1,5 +1,8 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
