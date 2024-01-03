@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
