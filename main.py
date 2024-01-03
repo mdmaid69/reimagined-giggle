@@ -1,5 +1,6 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_pressure(force, area):
-        return force / area
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
