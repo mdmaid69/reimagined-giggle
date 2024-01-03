@@ -1,5 +1,5 @@
-def greet(name):
-        print(f"Hello, {name}!")
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+def calculate_power(work, time):
+        return work / time
