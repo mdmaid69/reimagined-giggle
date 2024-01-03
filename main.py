@@ -1,6 +1,6 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import array
+def get_array_index(array, item):
+        return array.index(item)
