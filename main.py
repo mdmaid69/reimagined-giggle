@@ -1,5 +1,5 @@
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def convert_to_octal(n):
-        return oct(n)
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
