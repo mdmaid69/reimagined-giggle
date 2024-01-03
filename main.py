@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def convert_to_binary(n):
-        return bin(n)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
