@@ -1,5 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
