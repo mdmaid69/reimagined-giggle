@@ -1,5 +1,6 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def count_words(sentence):
-        return len(sentence.split())
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+import sys
+def print_python_version():
+        print(sys.version)
