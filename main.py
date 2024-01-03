@@ -1,5 +1,5 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-def convert_to_hex(n):
-        return hex(n)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+def calculate_volume(length, width, height):
+        return length * width * height
