@@ -1,5 +1,5 @@
+import json
+print(json.dumps({"name": "John", "age": 30}))
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
