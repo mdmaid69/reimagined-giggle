@@ -1,6 +1,5 @@
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
