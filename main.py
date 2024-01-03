@@ -1,5 +1,4 @@
-import tensorflow as tf
-print(tf.__version__)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import sys
+print(sys.version)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
