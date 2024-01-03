@@ -1,10 +1,6 @@
+import collections
+def create_stack():
+        return collections.deque()
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+def calculate_tangent(x):
+        return math.tan(x)
