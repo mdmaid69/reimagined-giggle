@@ -1,5 +1,8 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
