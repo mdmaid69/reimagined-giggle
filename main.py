@@ -1,6 +1,7 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-import time
-def get_current_time():
-        return time.time()
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
