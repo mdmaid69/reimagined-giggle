@@ -1,7 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
