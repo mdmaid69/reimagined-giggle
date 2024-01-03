@@ -1,6 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
