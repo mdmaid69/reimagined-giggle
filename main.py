@@ -1,6 +1,7 @@
-import time
-def get_current_time():
-        return time.ctime()
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
