@@ -1,6 +1,5 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_as_set(array):
+        return set(array)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
