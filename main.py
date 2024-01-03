@@ -1,6 +1,6 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+import os
+def change_working_directory(path):
+        os.chdir(path)
   import os
-  def get_file_group(file_name):
-        return os.stat(file_name).st_gid
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
