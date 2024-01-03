@@ -1,9 +1,7 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
