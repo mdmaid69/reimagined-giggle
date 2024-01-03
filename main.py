@@ -1,6 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
