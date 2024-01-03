@@ -1,5 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-import array
-def get_array_as_int(array):
-        return int(array[0])
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
