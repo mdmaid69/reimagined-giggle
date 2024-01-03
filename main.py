@@ -1,5 +1,7 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import sys
-print(sys.version)
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
