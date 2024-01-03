@@ -1,10 +1,6 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-def count_words(sentence):
-        return len(sentence.split())
+import math
+def calculate_exponential(x):
+        return math.exp(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
