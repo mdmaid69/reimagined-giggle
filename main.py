@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+import array
+def get_array_as_list(array):
+        return list(array)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
