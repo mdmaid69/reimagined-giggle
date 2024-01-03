@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
