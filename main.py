@@ -1,6 +1,5 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+text = "Hello, world!"
+print("Reversed:", text[::-1])
