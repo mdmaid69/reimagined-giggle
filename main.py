@@ -1,4 +1,5 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+import re
+print(re.match("h.*o", "hello world"))
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
