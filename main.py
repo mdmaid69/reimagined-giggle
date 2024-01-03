@@ -1,4 +1,11 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
