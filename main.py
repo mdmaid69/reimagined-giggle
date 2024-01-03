@@ -1,5 +1,6 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import collections
+def create_user_string():
+        return collections.UserString()
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
