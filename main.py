@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import platform
+def get_os_info():
+        return platform.uname()
