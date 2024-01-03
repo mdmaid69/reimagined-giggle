@@ -1,4 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-def is_odd(n):
-        return n % 2 != 0
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
