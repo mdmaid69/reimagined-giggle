@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
