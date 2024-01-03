@@ -1,3 +1,8 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-print([x**2 for x in range(10)])
+import array
+def reverse_array(array):
+        array.reverse()
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
