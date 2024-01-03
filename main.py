@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+import datetime
+def get_current_date():
+        return datetime.date.today()
