@@ -1,6 +1,5 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+  def add_numbers(x, y):
+        return x + y
+x = 10
+y = 20
+print("Sum:", x + y)
