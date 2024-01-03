@@ -1,6 +1,9 @@
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
+import collections
+def create_stack():
+        return collections.deque()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
