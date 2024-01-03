@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+def calculate_density(mass, volume):
+        return mass / volume
