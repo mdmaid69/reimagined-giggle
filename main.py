@@ -1,6 +1,6 @@
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
