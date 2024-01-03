@@ -1,5 +1,6 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
