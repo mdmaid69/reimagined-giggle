@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
 import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import array
+def get_array_as_str(array):
+        return str(array)
