@@ -1,4 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def count_elements(lst):
-        return len(lst)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
+import sys
+def print_python_version():
+        print(sys.version)
