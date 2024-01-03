@@ -1,6 +1,7 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+def sort_numbers(numbers):
+        return sorted(numbers)
