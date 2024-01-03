@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def count_words(sentence):
-        return len(sentence.split())
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import json
+def convert_to_json(data):
+        return json.dumps(data)
