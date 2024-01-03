@@ -1,6 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
