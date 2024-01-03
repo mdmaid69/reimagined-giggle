@@ -1,6 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
