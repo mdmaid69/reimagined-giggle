@@ -1,5 +1,5 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def find_min(lst):
+        return min(lst)
   import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
