@@ -1,5 +1,10 @@
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-def cube_number(x):
-        return x**3
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
