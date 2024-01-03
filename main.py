@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def cube_number(x):
+        return x**3
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
