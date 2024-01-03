@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
