@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
