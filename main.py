@@ -1,5 +1,5 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
