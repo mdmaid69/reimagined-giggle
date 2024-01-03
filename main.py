@@ -1,6 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
 import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
