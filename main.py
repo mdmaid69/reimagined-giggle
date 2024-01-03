@@ -1,6 +1,5 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import getpass
-def get_username():
-        return getpass.getuser()
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import sys
+def print_python_version():
+        print(sys.version)
