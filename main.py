@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_sine(x):
+        return math.sin(x)
