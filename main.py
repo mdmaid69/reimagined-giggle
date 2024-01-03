@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def find_min(numbers):
+        return min(numbers)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
