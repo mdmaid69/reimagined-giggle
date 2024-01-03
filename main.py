@@ -1,8 +1,5 @@
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
+import datetime
+print(datetime.datetime.now())
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
