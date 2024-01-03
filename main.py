@@ -1,7 +1,4 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
+def calculate_speed(distance, time):
+        return distance / time
