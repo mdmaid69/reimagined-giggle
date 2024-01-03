@@ -1,6 +1,12 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
