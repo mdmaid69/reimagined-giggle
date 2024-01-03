@@ -1,5 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-def convert_to_octal(n):
-        return oct(n)
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+def calculate_area(radius):
+        return 3.14 * radius * radius
