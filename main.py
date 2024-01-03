@@ -1,7 +1,6 @@
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
