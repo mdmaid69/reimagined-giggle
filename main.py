@@ -1,6 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def convert_to_binary(n):
+        return bin(n)
+def is_odd(n):
+        return n % 2 != 0
