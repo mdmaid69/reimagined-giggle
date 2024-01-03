@@ -1,11 +1,6 @@
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
-def multiply_numbers(x, y):
-        return x * y
+import collections
+def create_user_string():
+        return collections.UserString()
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
