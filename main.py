@@ -1,9 +1,8 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
