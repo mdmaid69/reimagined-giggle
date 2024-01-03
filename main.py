@@ -1,8 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def calculate_pressure(force, area):
+        return force / area
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
