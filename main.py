@@ -1,7 +1,7 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
