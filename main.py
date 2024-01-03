@@ -1,7 +1,3 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+print(sum(range(10)))
+name = "Python"
+print("Hello,", name)
