@@ -1,5 +1,5 @@
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def find_min(lst):
-        return min(lst)
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
