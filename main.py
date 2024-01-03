@@ -1,5 +1,5 @@
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
