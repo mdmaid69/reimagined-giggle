@@ -1,6 +1,8 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import time
-def get_current_time():
-        return time.ctime()
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
