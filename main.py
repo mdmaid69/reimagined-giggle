@@ -1,6 +1,6 @@
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+import array
+def clear_array(array):
+        array *= 0
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
