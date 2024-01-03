@@ -1,7 +1,6 @@
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
