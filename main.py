@@ -1,6 +1,5 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_exponential(x):
+        return math.exp(x)
