@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
