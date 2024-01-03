@@ -1,6 +1,8 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_acceleration(speed, time):
-        return speed / time
+import json
+def convert_to_json(data):
+        return json.dumps(data)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
