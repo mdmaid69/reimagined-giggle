@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_density(mass, volume):
+        return mass / volume
+import hashlib
+def hash_string(s):
+        return hashlib.sha256(s.encode()).hexdigest()
