@@ -1,7 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
+name = "Python"
+print("Hello,", name)
