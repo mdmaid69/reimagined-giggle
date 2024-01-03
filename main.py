@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
