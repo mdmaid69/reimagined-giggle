@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-  def convert_to_octal(n):
-        return oct(n)
+x = 10
+y = 20
+print("Sum:", x + y)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
