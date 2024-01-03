@@ -1,6 +1,6 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def get_array_as_str(array):
+        return str(array)
