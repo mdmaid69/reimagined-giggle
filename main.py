@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+  import os
+  def split_path(path):
+        return os.path.split(path)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def get_array_item_count(array, item):
+        return array.count(item)
