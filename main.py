@@ -1,5 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import array
-def get_array_index(array, item):
-        return array.index(item)
+import sys
+def exit_program():
+        sys.exit()
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
