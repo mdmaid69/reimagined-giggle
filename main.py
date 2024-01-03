@@ -1,6 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
