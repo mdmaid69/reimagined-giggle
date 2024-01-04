@@ -1,6 +1,5 @@
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
+def is_palindrome(s):
+        return s == s[::-1]
