@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+  def is_odd(n):
+        return n % 2 != 0
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
