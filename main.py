@@ -1,6 +1,5 @@
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
