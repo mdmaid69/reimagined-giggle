@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
