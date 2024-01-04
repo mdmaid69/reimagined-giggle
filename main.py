@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-def calculate_speed(distance, time):
-        return distance / time
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
