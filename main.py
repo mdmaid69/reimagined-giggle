@@ -1,8 +1,5 @@
-import array
-def get_array_as_repr(array):
-        return repr(array)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import collections
+def create_user_dict():
+        return collections.UserDict()
