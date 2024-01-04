@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def calculate_work(force, distance):
-        return force * distance
+import random
+print(random.randint(0, 100))
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
