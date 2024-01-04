@@ -1,5 +1,6 @@
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
