@@ -1,5 +1,4 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+def sort_list(lst):
+        return sorted(lst)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
