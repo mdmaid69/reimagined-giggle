@@ -1,5 +1,6 @@
   import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  def get_file_extension(file_name):
+        return os.path.splitext(file_name)[1]
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
