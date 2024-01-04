@@ -1,4 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
