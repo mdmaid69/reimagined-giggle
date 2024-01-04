@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
