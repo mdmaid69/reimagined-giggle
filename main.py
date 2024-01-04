@@ -1,8 +1,5 @@
-  import sqlite3
-  def execute_sql_query(connection, query):
-        cursor = connection.cursor()
-        cursor.execute(query)
-        return cursor.fetchall()
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+def calculate_density(mass, volume):
+        return mass / volume
+x = 10
+y = 20
+print("Sum:", x + y)
