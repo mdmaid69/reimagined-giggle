@@ -1,5 +1,7 @@
-def find_min(lst):
-        return min(lst)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
