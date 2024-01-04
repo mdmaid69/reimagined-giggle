@@ -1,6 +1,6 @@
-  def subtract_numbers(x, y):
-        return x - y
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
