@@ -1,5 +1,5 @@
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  def sort_list(lst):
-        return sorted(lst)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
