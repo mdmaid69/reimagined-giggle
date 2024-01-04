@@ -1,6 +1,5 @@
-import collections
-def create_user_string():
-        return collections.UserString()
+  def count_elements(lst):
+        return len(lst)
 import array
-def get_array_as_tuple(array):
-        return tuple(array)
+def get_array_as_frozenset(array):
+        return frozenset(array)
