@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
