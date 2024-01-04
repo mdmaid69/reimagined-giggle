@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_hypotenuse(a, b):
+        return math.sqrt(a**2 + b**2)
