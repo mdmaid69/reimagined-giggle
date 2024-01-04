@@ -1,5 +1,6 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+import collections
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
