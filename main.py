@@ -1,7 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import getpass
+def get_username():
+        return getpass.getuser()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
