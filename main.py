@@ -1,5 +1,9 @@
-  def is_odd(n):
-        return n % 2 != 0
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+import bisect
+def binary_search(sorted_list, item):
+        i = bisect.bisect_left(sorted_list, item)
+        if i != len(sorted_list) and sorted_list[i] == item:
+        return i
+        else:
+        return -1
+from collections import Counter
+print(Counter("hello world"))
