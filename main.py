@@ -1,5 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_area_circle(r):
+        return 3.14 * r**2
+def find_max(lst):
+        return max(lst)
