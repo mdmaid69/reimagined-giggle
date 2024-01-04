@@ -1,6 +1,8 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import os
+def change_working_directory(path):
+        os.chdir(path)
+import csv
+def write_csv_file(filename, data):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
