@@ -1,4 +1,4 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
