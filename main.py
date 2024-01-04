@@ -1,5 +1,6 @@
-import array
-def reverse_array(array):
-        array.reverse()
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
