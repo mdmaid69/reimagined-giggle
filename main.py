@@ -1,6 +1,5 @@
+from collections import Counter
+print(Counter("hello world"))
   import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import sys
-def exit_program():
-        sys.exit()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
