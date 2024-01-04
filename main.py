@@ -1,5 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def count_elements(lst):
-        return len(lst)
+text = "Hello, world!"
+print("Characters:", len(text))
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
