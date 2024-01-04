@@ -1,12 +1,5 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
