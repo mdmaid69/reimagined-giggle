@@ -1,4 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import os
-print(os.getcwd())
+import collections
+def create_user_list():
+        return collections.UserList()
+import datetime
+print(datetime.datetime.now())
