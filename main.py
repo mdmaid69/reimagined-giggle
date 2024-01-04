@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
