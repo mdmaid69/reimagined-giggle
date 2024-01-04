@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+import os
+print(os.getcwd())
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
