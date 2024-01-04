@@ -1,8 +1,4 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+print([x**2 for x in range(10)])
