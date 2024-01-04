@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import platform
-def get_os_info():
-        return platform.uname()
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
