@@ -1,4 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+def calculate_speed(distance, time):
+        return distance / time
+  import os
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
