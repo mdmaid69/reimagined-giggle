@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
 import collections
-def create_user_list():
-        return collections.UserList()
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
