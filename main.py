@@ -1,5 +1,12 @@
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
