@@ -1,5 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-for i in range(5):
-        print(i)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
