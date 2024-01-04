@@ -1,8 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
