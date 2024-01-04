@@ -1,5 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_environment_variable(var_name):
+        return os.getenv(var_name)
