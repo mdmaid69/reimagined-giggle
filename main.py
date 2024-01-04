@@ -1,6 +1,5 @@
-import array
-def get_string_from_array(array):
-        return array.tobytes()
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
