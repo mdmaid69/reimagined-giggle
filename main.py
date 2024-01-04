@@ -1,6 +1,6 @@
 import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
