@@ -1,5 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import collections
-def create_stack():
-        return collections.deque()
+  def convert_to_hex(n):
+        return hex(n)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
