@@ -1,5 +1,4 @@
-import random
-print(random.randint(0, 100))
-import collections
-def create_counter():
-        return collections.Counter()
+  def sort_list(lst):
+        return sorted(lst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
