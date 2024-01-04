@@ -1,6 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
