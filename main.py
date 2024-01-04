@@ -1,6 +1,9 @@
-import array
-def get_array_as_int(array):
-        return int(array[0])
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
