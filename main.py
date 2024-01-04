@@ -1,6 +1,6 @@
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
