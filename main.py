@@ -1,5 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def calculate_area(radius):
+        return 3.14 * radius * radius
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
