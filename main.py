@@ -1,5 +1,4 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+def square_number(x):
+        return x**2
