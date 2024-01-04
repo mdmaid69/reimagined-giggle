@@ -1,5 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def is_even(n):
-        return n % 2 == 0
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
