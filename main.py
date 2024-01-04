@@ -1,6 +1,4 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
