@@ -1,5 +1,3 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def cube_number(x):
+        return x**3
+for i in range(10): print(i)
