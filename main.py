@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
