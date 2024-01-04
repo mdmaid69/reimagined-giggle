@@ -1,5 +1,4 @@
-def find_union(list1, list2):
-        return set(list1) | set(list2)
-  import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
+print(sum(range(10)))
