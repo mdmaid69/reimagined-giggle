@@ -1,6 +1,6 @@
   import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+  def get_directory_name(path):
+        return os.path.dirname(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
