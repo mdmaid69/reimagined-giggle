@@ -1,5 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-def calculate_power(work, time):
-        return work / time
+def convert_to_binary(n):
+        return bin(n)
+def calculate_area_rectangle(l, w):
+        return l * w
