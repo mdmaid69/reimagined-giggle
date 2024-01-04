@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
 import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def remove_duplicates(lst):
-        return list(set(lst))
+def create_counter():
+        return collections.Counter()
