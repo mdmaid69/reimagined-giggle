@@ -1,5 +1,3 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def count_words(sentence):
-        return len(sentence.split())
+print([x**2 for x in range(10)])
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
