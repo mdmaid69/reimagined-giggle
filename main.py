@@ -1,5 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
