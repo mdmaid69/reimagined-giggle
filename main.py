@@ -1,6 +1,4 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_force(mass, acceleration):
+        return mass * acceleration
