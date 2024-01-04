@@ -1,6 +1,6 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
