@@ -1,8 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+def calculate_acceleration(speed, time):
+        return speed / time
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
