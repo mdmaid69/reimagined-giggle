@@ -1,6 +1,5 @@
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
+def cube_number(x):
+        return x**3
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
