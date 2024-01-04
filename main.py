@@ -1,6 +1,4 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+def multiply_numbers(x, y):
+        return x * y
+def divide_numbers(x, y):
+        return x / y
