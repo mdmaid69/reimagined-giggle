@@ -1,3 +1,5 @@
-def cube_number(x):
-        return x**3
-print([x**2 for x in range(10)])
+import tensorflow as tf
+print(tf.__version__)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
