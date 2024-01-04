@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
