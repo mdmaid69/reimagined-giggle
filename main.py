@@ -1,5 +1,5 @@
-def is_odd(n):
-        return n % 2 != 0
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import time
+print(time.time())
