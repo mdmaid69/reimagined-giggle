@@ -1,4 +1,8 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
