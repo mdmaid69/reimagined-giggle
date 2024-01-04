@@ -1,5 +1,5 @@
-  def is_odd(n):
-        return n % 2 != 0
-import sys
-def print_python_version():
-        print(sys.version)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
