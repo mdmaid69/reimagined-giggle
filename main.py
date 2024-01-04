@@ -1,6 +1,6 @@
-import sys
-def exit_program():
-        sys.exit()
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+import platform
+def get_os_info():
+        return platform.uname()
