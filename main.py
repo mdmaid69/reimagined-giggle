@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
 import array
-def reverse_array(array):
-        array.reverse()
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import sys
+def exit_program():
+        sys.exit()
