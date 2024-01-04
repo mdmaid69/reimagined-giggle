@@ -1,6 +1,7 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
