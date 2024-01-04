@@ -1,6 +1,6 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
+  import sys
+  def get_python_version():
+        return sys.version
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
