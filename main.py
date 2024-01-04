@@ -1,8 +1,6 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+x = 10
+y = 20
+print("Sum:", x + y)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
