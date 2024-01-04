@@ -1,5 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-def find_max(lst):
-        return max(lst)
+  def square_number(x):
+        return x**2
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
