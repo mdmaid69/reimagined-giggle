@@ -1,4 +1,5 @@
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-print([x**2 for x in range(10)])
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import math
+print(math.pi)
