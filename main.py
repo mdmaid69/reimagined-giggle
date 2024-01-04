@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
