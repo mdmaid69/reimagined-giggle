@@ -1,5 +1,6 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
