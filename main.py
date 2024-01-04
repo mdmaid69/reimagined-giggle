@@ -1,5 +1,5 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
