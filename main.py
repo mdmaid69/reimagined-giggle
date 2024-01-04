@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import sys
+print(sys.version)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
