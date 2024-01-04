@@ -1,5 +1,8 @@
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
 import math
-def calculate_circle_area(radius):
-        return math.pi * radius**2
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
