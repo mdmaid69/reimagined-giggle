@@ -1,6 +1,4 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import logging
-def log_message(message):
-        logging.info(message)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
