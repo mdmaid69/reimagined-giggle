@@ -1,5 +1,6 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
+  import os
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
