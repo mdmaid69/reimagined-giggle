@@ -1,5 +1,6 @@
-def is_palindrome(s):
-        return s == s[::-1]
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
