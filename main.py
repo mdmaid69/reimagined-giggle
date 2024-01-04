@@ -1,5 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_area(radius):
-        return 3.14 * radius * radius
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
