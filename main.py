@@ -1,6 +1,5 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
