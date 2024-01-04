@@ -1,5 +1,8 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import csv
+  def write_to_csv_file(file_name, data):
+        with open(file_name, "w", newline="") as file:
+          writer = csv.writer(file)
+          writer.writerows(data)
