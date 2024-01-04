@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
