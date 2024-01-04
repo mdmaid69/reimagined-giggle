@@ -1,6 +1,6 @@
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_exponential(x):
+        return math.exp(x)
