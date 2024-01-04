@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+import sys
+def print_python_version():
+        return sys.version
