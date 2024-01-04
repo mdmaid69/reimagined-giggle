@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import sys
-def print_python_version():
-        return sys.version
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
