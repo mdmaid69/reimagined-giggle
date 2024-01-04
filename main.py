@@ -1,4 +1,4 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
-def calculate_volume(length, width, height):
-        return length * width * height
+  def is_odd(n):
+        return n % 2 != 0
+text = "Hello, world!"
+print("Reversed:", text[::-1])
