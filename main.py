@@ -1,5 +1,5 @@
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
