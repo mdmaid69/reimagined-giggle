@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-def calculate_work(force, distance):
-        return force * distance
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
