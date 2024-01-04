@@ -1,6 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
