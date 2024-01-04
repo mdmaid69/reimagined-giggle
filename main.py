@@ -1,7 +1,5 @@
 import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def convert_to_json(data):
+        return json.dumps(data)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
