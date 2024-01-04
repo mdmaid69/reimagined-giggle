@@ -1,4 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def clear_array(array):
+        array *= 0
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
