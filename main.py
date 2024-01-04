@@ -1,5 +1,6 @@
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import logging
-def log_message(message):
-        logging.info(message)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
