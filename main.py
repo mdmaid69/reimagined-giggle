@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import time
-def get_time_since_epoch():
-        return time.time()
+def count_characters(sentence):
+        return len(sentence)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
