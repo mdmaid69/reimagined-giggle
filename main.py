@@ -1,5 +1,6 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-import numpy as np
-print(np.array([1, 2, 3]))
+import platform
+def get_python_version():
+        return platform.python_version()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
