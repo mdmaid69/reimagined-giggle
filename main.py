@@ -1,5 +1,4 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def find_union(list1, list2):
+        return set(list1) | set(list2)
