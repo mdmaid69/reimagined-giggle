@@ -1,5 +1,7 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+def get_array_as_float(array):
+        return float(array[0])
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
