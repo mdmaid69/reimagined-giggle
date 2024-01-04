@@ -1,10 +1,6 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def get_string_from_array(array):
+        return array.tobytes()
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
