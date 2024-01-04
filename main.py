@@ -1,6 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def get_array_slice(array, i, j):
+        return array[i:j]
