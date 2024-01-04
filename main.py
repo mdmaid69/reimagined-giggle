@@ -1,5 +1,5 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
+def calculate_pressure(force, area):
+        return force / area
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
