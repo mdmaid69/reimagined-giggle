@@ -1,5 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
