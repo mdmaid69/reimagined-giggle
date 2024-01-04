@@ -1,6 +1,8 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
