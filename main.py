@@ -1,5 +1,5 @@
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
