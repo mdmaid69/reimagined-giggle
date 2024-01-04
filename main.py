@@ -1,5 +1,5 @@
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def divide_numbers(x, y):
-        return x / y
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+  def is_even(n):
+        return n % 2 == 0
