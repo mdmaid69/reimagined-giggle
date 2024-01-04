@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import re
-  def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
+import time
+def get_time_since_epoch():
+        return time.time()
