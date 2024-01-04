@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
   import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
