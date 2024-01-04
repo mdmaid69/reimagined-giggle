@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
