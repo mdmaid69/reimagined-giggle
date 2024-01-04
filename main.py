@@ -1,6 +1,5 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+def count_characters(sentence):
+        return len(sentence)
