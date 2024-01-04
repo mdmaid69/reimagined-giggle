@@ -1,5 +1,8 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-n = 10
-print("Square numbers:", [x**2 for x in range(n)])
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
