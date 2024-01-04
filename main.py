@@ -1,6 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
 import array
-def get_array_as_bool(array):
-        return bool(array)
+def get_array_length(array):
+        return len(array)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
