@@ -1,6 +1,5 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def get_array_typecode(array):
+        return array.typecode
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
