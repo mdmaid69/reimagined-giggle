@@ -1,5 +1,5 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_array_as_bytearray(array):
+        return bytearray(array)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
