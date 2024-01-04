@@ -1,8 +1,5 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
