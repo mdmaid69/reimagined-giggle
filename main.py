@@ -1,6 +1,6 @@
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import collections
-def create_user_string():
-        return collections.UserString()
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+  def remove_duplicates(lst):
+        return list(set(lst))
