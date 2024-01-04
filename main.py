@@ -1,5 +1,4 @@
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def convert_to_octal(n):
+        return oct(n)
