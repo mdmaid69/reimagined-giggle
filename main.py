@@ -1,6 +1,12 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
