@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
