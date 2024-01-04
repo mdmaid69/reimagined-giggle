@@ -1,6 +1,6 @@
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
 import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def create_queue():
+        return collections.deque()
