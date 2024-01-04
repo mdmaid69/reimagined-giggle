@@ -1,6 +1,7 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def get_array_length(array):
-        return len(array)
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
