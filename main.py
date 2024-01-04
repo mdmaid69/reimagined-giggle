@@ -1,6 +1,5 @@
-import logging
-def log_message(message):
-        logging.info(message)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import array
+def get_array_as_list(array):
+        return list(array)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
