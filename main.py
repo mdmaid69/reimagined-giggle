@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.ctime()
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+print(sum(range(10)))
