@@ -1,5 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
