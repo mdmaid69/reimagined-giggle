@@ -1,6 +1,4 @@
-import array
-def get_array_as_bytes(array):
-        return bytes(array)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
