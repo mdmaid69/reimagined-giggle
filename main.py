@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
