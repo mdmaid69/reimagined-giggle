@@ -1,5 +1,7 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  def is_odd(n):
+        return n % 2 != 0
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
