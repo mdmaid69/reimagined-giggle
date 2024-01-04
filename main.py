@@ -1,6 +1,4 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def multiply_numbers(x, y):
+        return x * y
