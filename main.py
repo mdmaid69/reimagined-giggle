@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
