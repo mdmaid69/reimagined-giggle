@@ -1,6 +1,6 @@
 import array
-def convert_array_to_list(array):
-        return array.tolist()
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+def get_array_as_bool(array):
+        return bool(array)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
