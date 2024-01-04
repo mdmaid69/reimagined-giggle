@@ -1,6 +1,8 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
