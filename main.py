@@ -1,3 +1,6 @@
-print([x**2 for x in range(10)])
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
