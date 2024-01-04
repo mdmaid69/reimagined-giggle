@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
