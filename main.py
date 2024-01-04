@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
