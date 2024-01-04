@@ -1,9 +1,4 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import sys
+print(sys.version)
