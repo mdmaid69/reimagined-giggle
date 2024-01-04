@@ -1,5 +1,6 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-  import os
-  def split_path(path):
-        return os.path.split(path)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
