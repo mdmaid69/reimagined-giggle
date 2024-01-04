@@ -1,5 +1,7 @@
-def reverse_string(s):
-        return s[::-1]
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
