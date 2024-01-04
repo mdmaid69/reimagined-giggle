@@ -1,5 +1,6 @@
-  def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
