@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
+  def multiply_numbers(x, y):
+        return x * y
