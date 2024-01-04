@@ -1,5 +1,5 @@
-import math
-def calculate_cosine(x):
-        return math.cos(x)
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def append_to_array(array, item):
+        array.append(item)
+def convert_to_octal(n):
+        return oct(n)
