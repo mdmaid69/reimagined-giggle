@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
 import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
