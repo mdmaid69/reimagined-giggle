@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
+  import re
+  def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
