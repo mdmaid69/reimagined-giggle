@@ -1,6 +1,5 @@
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
