@@ -1,5 +1,6 @@
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def add_numbers(a, b):
-        return a + b
+def calculate_ceiling(x):
+        return math.ceil(x)
