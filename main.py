@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
