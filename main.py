@@ -1,9 +1,6 @@
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
