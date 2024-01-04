@@ -1,6 +1,6 @@
 import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def get_array_as_set(array):
+        return set(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
