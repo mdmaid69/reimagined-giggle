@@ -1,5 +1,9 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
