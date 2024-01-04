@@ -1,6 +1,5 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-x = 10
-y = 20
-print("Sum:", x + y)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
