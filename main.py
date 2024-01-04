@@ -1,5 +1,5 @@
-def divide_numbers(x, y):
-        return x / y
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import platform
+def get_os_info():
+        return platform.uname()
+  def subtract_numbers(x, y):
+        return x - y
