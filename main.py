@@ -1,6 +1,6 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
 import math
-def calculate_sine(x):
-        return math.sin(x)
+def calculate_permutations(n, k):
+        return math.perm(n, k)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
