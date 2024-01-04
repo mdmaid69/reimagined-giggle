@@ -1,6 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+def calculate_speed(distance, time):
+        return distance / time
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
