@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
