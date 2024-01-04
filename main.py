@@ -1,8 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import csv
-def save_csv(data, filename):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_sine(x):
+        return math.sin(x)
