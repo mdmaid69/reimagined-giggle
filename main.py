@@ -1,4 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
