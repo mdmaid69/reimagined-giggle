@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import collections
-def create_user_dict():
-        return collections.UserDict()
+  def is_even(n):
+        return n % 2 == 0
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
