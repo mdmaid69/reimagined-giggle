@@ -1,14 +1,5 @@
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-import queue
-
-q = queue.Queue()
-
-for i in range(5):
-        q.put(i)
-
-while not q.empty():
-        print(q.get())
+def check_if_array_contains_item(array, item):
+        return item in array
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
