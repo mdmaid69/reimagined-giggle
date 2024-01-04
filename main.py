@@ -1,5 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  def get_current_working_directory():
+        return os.getcwd()
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
