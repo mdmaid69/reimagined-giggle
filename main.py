@@ -1,5 +1,5 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
+import numpy as np
+print(np.array([1, 2, 3]))
