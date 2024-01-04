@@ -1,6 +1,5 @@
+  def is_even(n):
+        return n % 2 == 0
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_as_bool(array):
-        return bool(array)
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
