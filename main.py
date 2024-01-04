@@ -1,9 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
+import math
+def calculate_sine(x):
+        return math.sin(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
