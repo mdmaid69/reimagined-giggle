@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
