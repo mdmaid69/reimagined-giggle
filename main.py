@@ -1,6 +1,5 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import array
+def get_array_as_float(array):
+        return float(array[0])
