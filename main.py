@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+  import os
+  def split_path(path):
+        return os.path.split(path)
