@@ -1,5 +1,6 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def split_path(path):
+        return os.path.split(path)
+import itertools
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
