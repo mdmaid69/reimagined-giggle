@@ -1,6 +1,4 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+  def convert_to_binary(n):
+        return bin(n)
