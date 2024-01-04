@@ -1,5 +1,6 @@
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
   import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
