@@ -1,6 +1,5 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+  def is_even(n):
+        return n % 2 == 0
