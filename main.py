@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-import tensorflow as tf
-print(tf.__version__)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
