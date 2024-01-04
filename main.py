@@ -1,5 +1,5 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import datetime
+def get_current_date():
+        return datetime.date.today()
