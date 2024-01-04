@@ -1,5 +1,4 @@
-import collections
-def group_by(iterable, key_func):
-        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
-def calculate_perpetuity(payment, rate):
-        return payment / rate
+  import os
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+print([x**2 for x in range(10)])
