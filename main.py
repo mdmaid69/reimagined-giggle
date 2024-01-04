@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+def divide_numbers(x, y):
+        return x / y
+import array
+def get_array_itemsize(array):
+        return array.itemsize
