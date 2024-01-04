@@ -1,5 +1,6 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
