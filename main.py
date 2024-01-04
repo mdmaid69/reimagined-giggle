@@ -1,6 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-  def remove_duplicates(lst):
-        return list(set(lst))
+def get_array_as_bytearray(array):
+        return bytearray(array)
