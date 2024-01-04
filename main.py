@@ -1,5 +1,5 @@
-import platform
-def get_os_info():
-        return platform.uname()
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+def convert_to_binary(n):
+        return bin(n)
+import collections
+def create_priority_queue():
+        return collections.deque()
