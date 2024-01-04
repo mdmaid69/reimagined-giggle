@@ -1,6 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import time
-def get_time_since_epoch():
-        return time.time()
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
