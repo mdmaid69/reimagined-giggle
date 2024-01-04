@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
