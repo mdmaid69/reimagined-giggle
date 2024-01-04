@@ -1,5 +1,6 @@
-def subtract_numbers(x, y):
-        return x - y
-  import sys
-  def get_python_version():
-        return sys.version
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
