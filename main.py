@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
