@@ -1,5 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
