@@ -1,6 +1,5 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_number_of_links(file_name):
+        return os.stat(file_name).st_nlink
+def calculate_area_circle(r):
+        return 3.14 * r**2
