@@ -1,6 +1,5 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import logging
-def log_message(message):
-        logging.info(message)
+def is_palindrome(s):
+        return s == s[::-1]
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
