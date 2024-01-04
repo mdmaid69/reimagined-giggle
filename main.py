@@ -1,6 +1,6 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import random
+def roll_die():
+        return random.randint(1, 6)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
