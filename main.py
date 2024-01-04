@@ -1,8 +1,8 @@
 import array
-def convert_unicode_to_array(unicode, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
-        a.fromunicode(unicode)
+        a.fromstring(string)
         return a
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
