@@ -1,4 +1,5 @@
-def count_words(sentence):
-        return len(sentence.split())
-import numpy as np
-print(np.array([1, 2, 3]))
+def calculate_area_rectangle(l, w):
+        return l * w
+import logging
+def log_message(message):
+        logging.info(message)
