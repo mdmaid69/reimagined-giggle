@@ -1,5 +1,5 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
