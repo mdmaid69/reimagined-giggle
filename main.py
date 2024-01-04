@@ -1,5 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  def reverse_list(lst):
-        return lst[::-1]
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
