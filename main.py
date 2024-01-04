@@ -1,4 +1,7 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-def calculate_density(mass, volume):
-        return mass / volume
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
