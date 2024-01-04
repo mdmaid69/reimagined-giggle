@@ -1,6 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
