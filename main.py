@@ -1,6 +1,5 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
