@@ -1,6 +1,6 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def reverse_list(lst):
+        return lst[::-1]
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
