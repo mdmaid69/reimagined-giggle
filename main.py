@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-import math
-def calculate_error_function(x):
-        return math.erf(x)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
