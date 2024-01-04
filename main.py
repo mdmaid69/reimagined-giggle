@@ -1,5 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+def find_max(numbers):
+        return max(numbers)
