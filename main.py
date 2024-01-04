@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+def calculate_force(mass, acceleration):
+        return mass * acceleration
