@@ -1,6 +1,6 @@
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
