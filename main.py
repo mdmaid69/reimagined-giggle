@@ -1,8 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-import array
-def get_array_length(array):
-        return len(array)
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import time
+def get_current_time():
+        return time.ctime()
