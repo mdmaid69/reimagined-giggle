@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+import sys
+def exit_program():
+        sys.exit()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
