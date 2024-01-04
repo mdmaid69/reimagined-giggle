@@ -1,6 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-def calculate_power(work, time):
-        return work / time
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
