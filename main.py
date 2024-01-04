@@ -1,5 +1,6 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
