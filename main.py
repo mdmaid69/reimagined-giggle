@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def convert_to_binary(n):
-        return bin(n)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
