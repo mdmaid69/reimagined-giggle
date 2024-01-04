@@ -1,3 +1,6 @@
-for i in range(10): print(i)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
