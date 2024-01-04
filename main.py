@@ -1,6 +1,4 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def multiply_numbers(x, y):
+        return x * y
+def find_min(numbers):
+        return min(numbers)
