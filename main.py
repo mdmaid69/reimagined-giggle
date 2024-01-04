@@ -1,6 +1,4 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+  def square_number(x):
+        return x**2
+def calculate_perpetuity(payment, rate):
+        return payment / rate
