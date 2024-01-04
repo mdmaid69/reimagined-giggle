@@ -1,6 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
