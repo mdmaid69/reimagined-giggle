@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import sys
-def print_python_version():
-        return sys.version
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+  def remove_duplicates(lst):
+        return list(set(lst))
