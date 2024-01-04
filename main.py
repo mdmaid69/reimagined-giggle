@@ -1,5 +1,6 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
