@@ -1,6 +1,4 @@
-import array
-def get_array_itemsize(array):
-        return array.itemsize
-x = 10
-y = 20
-print("Sum:", x + y)
+def calculate_work(force, distance):
+        return force * distance
+def calculate_power(work, time):
+        return work / time
