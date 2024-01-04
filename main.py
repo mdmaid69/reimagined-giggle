@@ -1,4 +1,6 @@
-for i in range(10): print(i)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
