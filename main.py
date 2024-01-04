@@ -1,6 +1,5 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
-import random
-print(random.randint(0, 100))
+import os
+print(os.getcwd())
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
