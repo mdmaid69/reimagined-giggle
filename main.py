@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import os
-def get_current_working_directory():
-        return os.getcwd()
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
