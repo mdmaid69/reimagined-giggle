@@ -1,6 +1,5 @@
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+def convert_array_to_list(array):
+        return array.tolist()
