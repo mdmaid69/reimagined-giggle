@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import sys
-def exit_program():
-        sys.exit()
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
