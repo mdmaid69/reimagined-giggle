@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
