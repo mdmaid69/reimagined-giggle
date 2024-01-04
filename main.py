@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+print(sum(range(10)))
