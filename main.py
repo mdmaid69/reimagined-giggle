@@ -1,7 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
