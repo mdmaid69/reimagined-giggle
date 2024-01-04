@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import platform
-def get_os_info():
-        return platform.uname()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
