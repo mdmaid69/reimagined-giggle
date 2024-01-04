@@ -1,5 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-import array
-def get_array_as_bool(array):
-        return bool(array)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+text = "Hello, world!"
+print("Characters:", len(text))
