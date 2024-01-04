@@ -1,4 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
