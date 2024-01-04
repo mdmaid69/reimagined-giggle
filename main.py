@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
