@@ -1,7 +1,6 @@
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
 import array
-def get_array_typecode(array):
-        return array.typecode
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def get_bytes_from_array(array):
+        return array.tobytes()
