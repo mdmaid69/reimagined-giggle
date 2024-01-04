@@ -1,6 +1,6 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
 import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+def create_priority_queue():
+        return collections.deque()
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
