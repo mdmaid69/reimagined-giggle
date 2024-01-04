@@ -1,5 +1,8 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
