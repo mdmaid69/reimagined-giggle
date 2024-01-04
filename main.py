@@ -1,6 +1,6 @@
-import os
-def get_current_working_directory():
-        return os.getcwd()
-import array
-def append_to_array(array, item):
-        array.append(item)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
