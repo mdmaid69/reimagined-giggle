@@ -1,7 +1,6 @@
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
 import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
