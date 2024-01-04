@@ -1,6 +1,8 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
