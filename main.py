@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
