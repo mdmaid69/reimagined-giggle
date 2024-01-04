@@ -1,6 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_density(mass, volume):
+        return mass / volume
+  def is_odd(n):
+        return n % 2 != 0
