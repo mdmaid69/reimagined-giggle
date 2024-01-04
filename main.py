@@ -1,6 +1,6 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+i = 0
+while i < 5:
+        print(i)
+        i += 1
