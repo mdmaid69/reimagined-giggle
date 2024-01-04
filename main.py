@@ -1,5 +1,10 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import platform
-def get_python_version():
-        return platform.python_version()
+  def subtract_numbers(x, y):
+        return x - y
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
