@@ -1,4 +1,7 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-def convert_to_octal(n):
-        return oct(n)
+import re
+print(re.match("h.*o", "hello world"))
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
