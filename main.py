@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import sys
-  def get_python_version():
-        return sys.version
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
