@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
