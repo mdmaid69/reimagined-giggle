@@ -1,5 +1,3 @@
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
-def reverse_list(lst):
-        return lst[::-1]
+for i in range(10): print(i)
+def find_max(numbers):
+        return max(numbers)
