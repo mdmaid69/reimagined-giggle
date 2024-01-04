@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
