@@ -1,5 +1,5 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def get_list_from_array(array):
-        return array.tolist()
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  def convert_to_octal(n):
+        return oct(n)
