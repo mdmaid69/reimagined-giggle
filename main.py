@@ -1,6 +1,7 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
