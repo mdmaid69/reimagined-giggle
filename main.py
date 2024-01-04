@@ -1,6 +1,6 @@
-import time
-def get_time_since_epoch():
-        return time.time()
+import array
+def get_array_index(array, item):
+        return array.index(item)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
