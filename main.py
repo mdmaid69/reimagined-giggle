@@ -1,5 +1,6 @@
-  def convert_to_binary(n):
-        return bin(n)
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+x = 10
+y = 20
+print("Sum:", x + y)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
