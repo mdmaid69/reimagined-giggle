@@ -1,5 +1,5 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-for i in range(5):
-        print(i)
+import time
+def get_current_time():
+        return time.time()
+  def convert_to_hex(n):
+        return hex(n)
