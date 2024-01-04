@@ -1,6 +1,6 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
