@@ -1,6 +1,6 @@
+import array
+def get_array_as_int(array):
+        return int(array[0])
 import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_circle_area(radius):
+        return math.pi * radius**2
