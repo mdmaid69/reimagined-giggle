@@ -1,5 +1,5 @@
-for i in range(5):
-        print(i)
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_pressure(force, area):
+        return force / area
