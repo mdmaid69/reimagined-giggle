@@ -1,5 +1,8 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
