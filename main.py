@@ -1,6 +1,5 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
