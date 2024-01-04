@@ -1,7 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
