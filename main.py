@@ -1,5 +1,5 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
