@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
