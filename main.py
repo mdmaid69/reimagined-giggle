@@ -1,6 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+def find_union(list1, list2):
+        return set(list1) | set(list2)
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
