@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
