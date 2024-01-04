@@ -1,3 +1,5 @@
-  def add_numbers(x, y):
-        return x + y
-print(sum(range(10)))
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+import random
+print(random.randint(0, 100))
