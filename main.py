@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def reverse_string(s):
-        return s[::-1]
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import array
+def convert_array_to_string(array):
+        return array.tostring()
