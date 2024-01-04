@@ -1,6 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
+  import os
+  def get_file_permissions(file_name):
+        return os.stat(file_name).st_mode
