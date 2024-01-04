@@ -1,6 +1,7 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
