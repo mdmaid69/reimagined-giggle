@@ -1,5 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+def reverse_list(lst):
+        return lst[::-1]
