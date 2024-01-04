@@ -1,7 +1,4 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
