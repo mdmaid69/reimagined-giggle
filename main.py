@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
+  import os
+  def get_file_mtime_ns(file_name):
+        return os.stat(file_name).st_mtime_ns
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
