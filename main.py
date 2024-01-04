@@ -1,8 +1,6 @@
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
 import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
