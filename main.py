@@ -1,6 +1,5 @@
-def find_frequency(sentence):
-        from collections import Counter
-        return Counter(sentence.split())
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+import time
+print(time.time())
+import getpass
+def get_username():
+        return getpass.getuser()
