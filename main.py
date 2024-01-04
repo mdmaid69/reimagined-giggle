@@ -1,3 +1,5 @@
-for i in range(10): print(i)
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+def count_characters(sentence):
+        return len(sentence)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
