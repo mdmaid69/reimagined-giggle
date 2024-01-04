@@ -1,6 +1,8 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+  def calculate_area_circle(r):
+        return 3.14 * r**2
