@@ -1,11 +1,5 @@
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
-import array
-def append_to_array(array, item):
-        array.append(item)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+def reverse_list(lst):
+        return lst[::-1]
