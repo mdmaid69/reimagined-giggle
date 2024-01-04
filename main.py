@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
+def find_min(lst):
+        return min(lst)
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
