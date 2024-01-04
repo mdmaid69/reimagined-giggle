@@ -1,6 +1,4 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
