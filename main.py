@@ -1,5 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-def calculate_area_rectangle(l, w):
-        return l * w
+def convert_to_binary(n):
+        return bin(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
