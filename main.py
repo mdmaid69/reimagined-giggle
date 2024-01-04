@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def calculate_power(work, time):
+        return work / time
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
