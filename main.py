@@ -1,4 +1,11 @@
 def calculate_mortgage(principal, rate, time):
         return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
