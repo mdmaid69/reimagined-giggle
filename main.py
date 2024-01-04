@@ -1,8 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import csv
-def load_csv(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
