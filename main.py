@@ -1,6 +1,12 @@
-def is_palindrome(s):
-        return s == s[::-1]
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+import array
+def get_array_index(array, item):
+        return array.index(item)
