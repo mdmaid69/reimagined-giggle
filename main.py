@@ -1,6 +1,8 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import datetime
-def get_today_date():
-        return datetime.date.today()
+import array
+def get_array_as_list(array):
+        return list(array)
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
