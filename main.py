@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
-def multiply_numbers(x, y):
-        return x * y
+import time
+print(time.time())
+def calculate_power(work, time):
+        return work / time
