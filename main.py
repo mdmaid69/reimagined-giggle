@@ -1,6 +1,6 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import array
+def get_array_as_repr(array):
+        return repr(array)
