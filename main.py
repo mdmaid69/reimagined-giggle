@@ -1,6 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+import random
+print(random.randint(0, 100))
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
