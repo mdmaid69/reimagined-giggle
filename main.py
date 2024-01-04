@@ -1,5 +1,6 @@
+import math
+def calculate_sine(x):
+        return math.sin(x)
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
