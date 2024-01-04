@@ -1,5 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import numpy as np
+print(np.array([1, 2, 3]))
