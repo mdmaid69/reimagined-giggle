@@ -1,6 +1,5 @@
-  import sqlite3
-  def connect_to_database(db_name):
-        return sqlite3.connect(db_name)
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+def calculate_power(work, time):
+        return work / time
