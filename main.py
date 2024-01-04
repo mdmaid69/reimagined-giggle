@@ -1,6 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_histogram(data, bins):
-        plt.hist(data, bins=bins)
-        plt.show()
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
+import math
+def calculate_sine(x):
+        return math.sin(x)
