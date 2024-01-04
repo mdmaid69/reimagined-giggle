@@ -1,6 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
