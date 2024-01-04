@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+  def convert_to_hex(n):
+        return hex(n)
 import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
