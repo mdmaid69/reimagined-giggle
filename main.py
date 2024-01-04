@@ -1,6 +1,5 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
-import random
-def roll_die():
-        return random.randint(1, 6)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def calculate_area_rectangle(l, w):
+        return l * w
