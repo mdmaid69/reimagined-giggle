@@ -1,6 +1,6 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
