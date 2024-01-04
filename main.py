@@ -1,6 +1,5 @@
-  import os
-  def set_environment_variable(var_name, value):
-        os.environ[var_name] = value
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
