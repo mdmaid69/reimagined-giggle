@@ -1,6 +1,11 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def square_number(x):
+        return x**2
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
