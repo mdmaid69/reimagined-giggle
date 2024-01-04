@@ -1,4 +1,6 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-print([x**2 for x in range(10)])
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
