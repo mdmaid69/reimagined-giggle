@@ -1,6 +1,6 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def clear_array(array):
-        array *= 0
+import logging
+def log_message(message):
+        logging.info(message)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
