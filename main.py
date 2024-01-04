@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
