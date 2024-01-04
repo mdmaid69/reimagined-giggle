@@ -1,5 +1,9 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-def sort_numbers(numbers):
-        return sorted(numbers)
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
