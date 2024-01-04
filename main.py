@@ -1,8 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import tensorflow as tf
+print(tf.__version__)
+import collections
+def create_stack():
+        return collections.deque()
