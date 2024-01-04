@@ -1,6 +1,8 @@
-import array
-def get_array_as_bool(array):
-        return bool(array)
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
