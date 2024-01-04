@@ -1,6 +1,6 @@
-import re
-def find_pattern(pattern, string):
+  import re
+  def find_all_occurrences(pattern, string):
         return re.findall(pattern, string)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
