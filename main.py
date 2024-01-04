@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+import math
+def calculate_floor(x):
+        return math.floor(x)
