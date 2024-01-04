@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_buffer_info(array):
+        return array.buffer_info()
+  def sort_list(lst):
+        return sorted(lst)
