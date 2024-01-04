@@ -1,5 +1,5 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+def calculate_speed(distance, time):
+        return distance / time
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
