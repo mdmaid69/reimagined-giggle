@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+import array
+def get_array_length(array):
+        return len(array)
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
