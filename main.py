@@ -1,5 +1,6 @@
-import datetime
-print(datetime.datetime.now())
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
