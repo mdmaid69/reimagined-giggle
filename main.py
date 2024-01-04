@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+text = "Hello, world!"
+print("Words:", len(text.split()))
 import array
-def get_array_length(array):
-        return len(array)
+def check_if_array_contains_item(array, item):
+        return item in array
