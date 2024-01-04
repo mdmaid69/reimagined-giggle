@@ -1,6 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def count_words(sentence):
+        return len(sentence.split())
