@@ -1,6 +1,5 @@
-  import os
-  def change_file_permissions(file_name, mode):
-        os.chmod(file_name, mode)
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
