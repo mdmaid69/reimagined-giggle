@@ -1,6 +1,5 @@
-import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
