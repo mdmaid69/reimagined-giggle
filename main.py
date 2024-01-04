@@ -1,4 +1,5 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-def calculate_work(force, distance):
-        return force * distance
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
