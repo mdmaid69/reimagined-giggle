@@ -1,8 +1,8 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
