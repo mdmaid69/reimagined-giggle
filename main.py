@@ -1,5 +1,5 @@
-def calculate_area_rectangle(l, w):
-        return l * w
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
