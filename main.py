@@ -1,4 +1,9 @@
-  def cube_number(x):
-        return x**3
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import time
+def get_time_since_epoch():
+        return time.time()
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
