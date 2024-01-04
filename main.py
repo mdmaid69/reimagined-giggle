@@ -1,4 +1,6 @@
 import math
-def calculate_factorial(n):
-        return math.factorial(n)
-print(sum(range(10)))
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
