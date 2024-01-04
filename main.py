@@ -1,6 +1,4 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+from collections import Counter
+print(Counter("hello world"))
