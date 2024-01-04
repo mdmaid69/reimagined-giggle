@@ -1,6 +1,4 @@
-import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def add_numbers(a, b):
+        return a + b
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
