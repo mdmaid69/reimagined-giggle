@@ -1,5 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
