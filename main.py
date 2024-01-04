@@ -1,5 +1,6 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
