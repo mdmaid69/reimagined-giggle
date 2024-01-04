@@ -1,6 +1,6 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
 import array
-def set_array_item(array, i, item):
-        array[i] = item
+def get_list_from_array(array):
+        return array.tolist()
