@@ -1,5 +1,5 @@
-def square_number(x):
-        return x**2
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
