@@ -1,6 +1,5 @@
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
