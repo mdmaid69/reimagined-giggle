@@ -1,7 +1,6 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
