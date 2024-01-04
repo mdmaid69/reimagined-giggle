@@ -1,5 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
