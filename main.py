@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
