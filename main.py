@@ -1,6 +1,10 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+                if n % i == 0:
+                return False
+        return True
