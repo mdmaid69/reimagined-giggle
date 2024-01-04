@@ -1,4 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def calculate_volume(length, width, height):
-        return length * width * height
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
