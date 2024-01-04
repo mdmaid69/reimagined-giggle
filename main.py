@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-n = 10
-print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
