@@ -1,8 +1,6 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import time
+def get_time_since_epoch():
+        return time.time()
