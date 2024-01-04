@@ -1,5 +1,5 @@
-  def square_number(x):
-        return x**2
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+def calculate_power(work, time):
+        return work / time
+import math
+def calculate_sine(x):
+        return math.sin(x)
