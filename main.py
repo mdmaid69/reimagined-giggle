@@ -1,5 +1,6 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
