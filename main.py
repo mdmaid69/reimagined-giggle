@@ -1,5 +1,7 @@
-import os
-print(os.getcwd())
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
