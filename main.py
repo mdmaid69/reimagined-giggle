@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+def calculate_work(force, distance):
+        return force * distance
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
