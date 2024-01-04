@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+  import sys
+  def get_python_version():
+        return sys.version
