@@ -1,8 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-import math
-def calculate_exponential(x):
-        return math.exp(x)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+import json
+def convert_to_json(data):
+        return json.dumps(data)
