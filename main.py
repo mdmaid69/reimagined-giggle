@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import array
+def get_list_from_array(array):
+        return array.tolist()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
