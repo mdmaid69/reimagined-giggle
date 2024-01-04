@@ -1,5 +1,4 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+def calculate_pressure(force, area):
+        return force / area
