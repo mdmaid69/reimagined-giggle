@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+import array
+def get_bytes_from_array(array):
+        return array.tobytes()
