@@ -1,6 +1,5 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
+import random
+def roll_die():
+        return random.randint(1, 6)
