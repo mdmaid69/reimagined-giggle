@@ -1,7 +1,5 @@
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+def is_odd(n):
+        return n % 2 != 0
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def get_array_item(array, i):
+        return array[i]
