@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+def calculate_force(mass, acceleration):
+        return mass * acceleration
