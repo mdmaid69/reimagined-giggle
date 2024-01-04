@@ -1,6 +1,5 @@
 import array
-def check_if_array_contains_item(array, item):
-        return item in array
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def get_array_as_int(array):
+        return int(array[0])
+  def remove_duplicates(lst):
+        return list(set(lst))
