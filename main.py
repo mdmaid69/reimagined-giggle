@@ -1,5 +1,5 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-def calculate_area_rectangle(l, w):
-        return l * w
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+  import os
+  def split_path(path):
+        return os.path.split(path)
