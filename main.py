@@ -1,5 +1,7 @@
-def reverse_list(lst):
-        return lst[::-1]
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_pressure(force, area):
+        return force / area
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
