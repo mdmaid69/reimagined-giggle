@@ -1,5 +1,6 @@
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+text = "Hello, world!"
+print("Characters:", len(text))
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
