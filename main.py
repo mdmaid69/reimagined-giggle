@@ -1,5 +1,6 @@
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
