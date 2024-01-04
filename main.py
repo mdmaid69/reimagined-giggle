@@ -1,6 +1,4 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import collections
-def create_queue():
-        return collections.deque()
+for i in range(5):
+        print(i)
+def greet(name):
+        print(f"Hello, {name}!")
