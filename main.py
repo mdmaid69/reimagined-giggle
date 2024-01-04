@@ -1,6 +1,6 @@
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+import sys
+def print_python_version():
+        return sys.version
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
