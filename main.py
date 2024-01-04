@@ -1,3 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-for i in range(10): print(i)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
