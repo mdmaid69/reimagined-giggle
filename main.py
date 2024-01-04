@@ -1,6 +1,5 @@
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import numpy as np
-  def calculate_correlation(arr1, arr2):
-        return np.corrcoef(arr1, arr2)
+def get_array_item_count(array, item):
+        return array.count(item)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
