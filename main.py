@@ -1,6 +1,5 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
+def add_numbers(x, y):
+        return x + y
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
