@@ -1,6 +1,5 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
