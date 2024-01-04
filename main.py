@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
+import time
+def get_current_time():
+        return time.ctime()
