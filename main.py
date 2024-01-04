@@ -1,6 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+  def is_odd(n):
+        return n % 2 != 0
