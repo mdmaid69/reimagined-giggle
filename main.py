@@ -1,5 +1,6 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
+import os
+def change_working_directory(path):
+        os.chdir(path)
