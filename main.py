@@ -1,5 +1,10 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+def calculate_payback_period(cash_flows):
+        cumulative_cash_flow = 0
+        for i, cf in enumerate(cash_flows):
+        cumulative_cash_flow += cf
+        if cumulative_cash_flow >= 0:
+                return i
+        return None
