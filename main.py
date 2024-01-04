@@ -1,6 +1,6 @@
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
