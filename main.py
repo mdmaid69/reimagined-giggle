@@ -1,6 +1,5 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
+def calculate_pressure(force, area):
+        return force / area
+import math
+def calculate_greatest_common_divisor(a, b):
+        return math.gcd(a, b)
