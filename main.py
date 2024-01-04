@@ -1,5 +1,6 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
