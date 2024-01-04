@@ -1,4 +1,11 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def calculate_volume(length, width, height):
-        return length * width * height
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
