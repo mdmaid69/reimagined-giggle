@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+def convert_to_octal(n):
+        return oct(n)
