@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+name = "Python"
+print("Hello,", name)
