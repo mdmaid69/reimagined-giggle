@@ -1,3 +1,5 @@
-print([x**2 for x in range(10)])
-import re
-print(re.match("h.*o", "hello world"))
+  def convert_to_octal(n):
+        return oct(n)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
