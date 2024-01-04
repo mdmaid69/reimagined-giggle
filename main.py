@@ -1,6 +1,5 @@
-import math
-def calculate_factorial(n):
-        return math.factorial(n)
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import re
+print(re.match("h.*o", "hello world"))
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
