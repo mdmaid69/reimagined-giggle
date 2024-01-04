@@ -1,5 +1,8 @@
-import random
-print(random.randint(0, 100))
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
