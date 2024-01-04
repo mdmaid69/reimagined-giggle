@@ -1,9 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import array
+def get_array_as_list(array):
+        return list(array)
