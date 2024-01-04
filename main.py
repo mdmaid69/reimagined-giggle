@@ -1,4 +1,6 @@
-  def is_odd(n):
-        return n % 2 != 0
-from collections import Counter
-print(Counter("hello world"))
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
