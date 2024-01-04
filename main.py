@@ -1,6 +1,4 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-import array
-def convert_array_to_list(array):
-        return array.tolist()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+def calculate_average(lst):
+        return sum(lst) / len(lst)
