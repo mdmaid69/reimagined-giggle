@@ -1,5 +1,6 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
+import collections
+def create_counter():
+        return collections.Counter()
