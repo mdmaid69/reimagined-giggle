@@ -1,4 +1,6 @@
-print(sum(range(10)))
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_arc_sine(x):
+        return math.asin(x)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
