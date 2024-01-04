@@ -1,6 +1,5 @@
-import getpass
-def get_password(prompt):
-        return getpass.getpass(prompt)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
