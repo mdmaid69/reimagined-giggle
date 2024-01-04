@@ -1,6 +1,6 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+import array
+def get_array_item(array, i):
+        return array[i]
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
