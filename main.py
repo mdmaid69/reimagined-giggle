@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import time
-def get_time_since_epoch():
-        return time.time()
+def calculate_density(mass, volume):
+        return mass / volume
+def find_unique_words(sentence):
+        return set(sentence.split())
