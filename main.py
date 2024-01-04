@@ -1,6 +1,4 @@
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
