@@ -1,6 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
 sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
