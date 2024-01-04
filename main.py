@@ -1,7 +1,5 @@
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
 import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
+def get_array_as_int(array):
+        return int(array[0])
