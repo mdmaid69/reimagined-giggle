@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import os
+def remove_directory(path):
+        os.rmdir(path)
