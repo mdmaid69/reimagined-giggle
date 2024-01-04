@@ -1,4 +1,5 @@
-def find_max(lst):
-        return max(lst)
-def calculate_power(work, time):
-        return work / time
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import array
+def get_list_from_array(array):
+        return array.tolist()
