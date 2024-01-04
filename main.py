@@ -1,6 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
 import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import math
+def calculate_permutations(n, k):
+        return math.perm(n, k)
