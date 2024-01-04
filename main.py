@@ -1,5 +1,7 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def count_characters(sentence):
-        return len(sentence)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
