@@ -1,6 +1,7 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
