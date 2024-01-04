@@ -1,5 +1,7 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+def is_palindrome(s):
+        return s == s[::-1]
