@@ -1,8 +1,6 @@
 import array
-def get_array_as_frozenset(array):
-        return frozenset(array)
-import http.client
-conn = http.client.HTTPSConnection("www.python.org")
-conn.request("GET", "/")
-r1 = conn.getresponse()
-print(r1.status, r1.reason)
+def get_list_from_array(array):
+        return array.tolist()
+import platform
+def get_os_info():
+        return platform.uname()
