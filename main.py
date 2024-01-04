@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
   import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
