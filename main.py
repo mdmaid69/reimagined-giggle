@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
