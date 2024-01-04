@@ -1,5 +1,6 @@
   import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  def count_elements(lst):
-        return len(lst)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
