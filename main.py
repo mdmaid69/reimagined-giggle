@@ -1,6 +1,6 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
