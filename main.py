@@ -1,6 +1,6 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
