@@ -1,8 +1,6 @@
-def is_prime(n):
-        if n < 2: return False
-        for i in range(2, int(n**0.5) + 1):
-        if n % i == 0:
-                return False
-        return True
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
