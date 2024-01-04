@@ -1,5 +1,6 @@
-def find_min(lst):
-        return min(lst)
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import sys
+def exit_program():
+        sys.exit()
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
