@@ -1,8 +1,4 @@
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import random
+print(random.randint(0, 100))
