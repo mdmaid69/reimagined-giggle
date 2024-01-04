@@ -1,9 +1,5 @@
-  import requests
-  def get_web_page(url):
-        response = requests.get(url)
-        return response.text if response.status_code == 200 else "Unable to fetch web page"
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
+def multiply_numbers(x, y):
+        return x * y
