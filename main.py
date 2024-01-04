@@ -1,5 +1,6 @@
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import random
-print(random.randint(0, 100))
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
