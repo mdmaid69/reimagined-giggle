@@ -1,6 +1,6 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import json
+def convert_to_json(data):
+        return json.dumps(data)
