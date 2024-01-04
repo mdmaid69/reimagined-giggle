@@ -1,5 +1,6 @@
-from collections import Counter
-print(Counter("hello world"))
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
