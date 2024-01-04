@@ -1,6 +1,6 @@
-import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
