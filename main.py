@@ -1,5 +1,5 @@
   import os
-  def get_file_blocks_allocated(file_name):
-        return os.stat(file_name).st_blocks
-import json
-print(json.dumps({"name": "John", "age": 30}))
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
+text = "Hello, world!"
+print("Words:", len(text.split()))
