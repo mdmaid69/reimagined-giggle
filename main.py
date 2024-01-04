@@ -1,6 +1,11 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-def multiply_numbers(x, y):
-        return x * y
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
