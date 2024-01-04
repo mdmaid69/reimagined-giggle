@@ -1,6 +1,9 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+import xml.etree.ElementTree as ET
+root = ET.Element("root")
+doc = ET.SubElement(root, "doc")
+ET.SubElement(doc, "field1", name="blah").text = "some value1"
+ET.SubElement(doc, "field2", name="asdfasd").text = "some vlaue2"
+tree = ET.ElementTree(root)
