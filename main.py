@@ -1,4 +1,6 @@
-def convert_to_binary(n):
-        return bin(n)
-  def reverse_list(lst):
-        return lst[::-1]
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
