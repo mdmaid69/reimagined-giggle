@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
+def is_palindrome(s):
+        return s == s[::-1]
