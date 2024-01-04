@@ -1,6 +1,5 @@
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
