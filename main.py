@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_floor(x):
-        return math.floor(x)
+import sys
+def print_python_version():
+        return sys.version
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
