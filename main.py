@@ -1,6 +1,5 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
+def find_min(lst):
+        return min(lst)
+import math
+def calculate_cone_volume(radius, height):
+        return 1/3 * math.pi * radius**2 * height
