@@ -1,5 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+x = 10
+y = 20
+print("Sum:", x + y)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
