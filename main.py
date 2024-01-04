@@ -1,6 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
