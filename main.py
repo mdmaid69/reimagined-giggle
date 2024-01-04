@@ -1,6 +1,5 @@
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
-import collections
-def create_counter():
-        return collections.Counter()
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
