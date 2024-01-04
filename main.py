@@ -1,6 +1,6 @@
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
