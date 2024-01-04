@@ -1,5 +1,5 @@
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
