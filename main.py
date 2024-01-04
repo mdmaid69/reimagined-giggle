@@ -1,6 +1,6 @@
+x = 10
+y = 20
+print("Sum:", x + y)
   import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
