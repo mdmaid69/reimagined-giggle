@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+  import sys
+  def get_python_version():
+        return sys.version
