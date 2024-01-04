@@ -1,6 +1,6 @@
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
