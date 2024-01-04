@@ -1,6 +1,6 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-import array
-def get_array_typecode(array):
-        return array.typecode
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
