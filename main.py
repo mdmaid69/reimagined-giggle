@@ -1,5 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-def calculate_work(force, distance):
-        return force * distance
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import tensorflow as tf
+print(tf.__version__)
