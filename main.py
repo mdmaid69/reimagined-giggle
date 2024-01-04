@@ -1,6 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_error_function(x):
+        return math.erf(x)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
