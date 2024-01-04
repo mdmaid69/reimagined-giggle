@@ -1,5 +1,6 @@
-import http.server
-def start_http_server(port):
-        http.server.HTTPServer(("", port), http.server.SimpleHTTPRequestHandler).serve_forever()
-name = "Python"
-print("Hello,", name)
+import math
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
