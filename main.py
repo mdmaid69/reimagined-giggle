@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
+def find_max(lst):
+        return max(lst)
