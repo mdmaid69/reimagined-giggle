@@ -1,5 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def find_min(numbers):
+        return min(numbers)
+import math
+def calculate_floor(x):
+        return math.floor(x)
