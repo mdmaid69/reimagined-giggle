@@ -1,6 +1,6 @@
   import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
