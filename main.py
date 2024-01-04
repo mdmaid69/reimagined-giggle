@@ -1,6 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+def sort_list(lst):
+        return sorted(lst)
+  import os
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
