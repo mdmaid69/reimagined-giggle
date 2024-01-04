@@ -1,4 +1,8 @@
-def calculate_work(force, distance):
-        return force * distance
-text = "Hello, world!"
-print("Words:", len(text.split()))
+  import sqlite3
+  def execute_sql_query(connection, query):
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
