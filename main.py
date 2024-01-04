@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def count_elements(lst):
+        return len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
