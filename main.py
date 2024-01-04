@@ -1,7 +1,7 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-  import os
-  def get_file_size_in_bytes(file_name):
-        return os.stat(file_name).st_size
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def is_prime(n):
+        for i in range(2, int(n**0.5) + 1):
+          if n % i == 0:
+        return False
+        return True
