@@ -1,6 +1,6 @@
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
