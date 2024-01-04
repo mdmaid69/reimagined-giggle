@@ -1,6 +1,5 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import os
+def change_working_directory(path):
+        os.chdir(path)
+  def multiply_numbers(x, y):
+        return x * y
