@@ -1,4 +1,6 @@
 import math
-print(math.pi)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_tangent(x):
+        return math.tan(x)
+  import os
+  def get_file_group(file_name):
+        return os.stat(file_name).st_gid
