@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
