@@ -1,4 +1,5 @@
-def remove_duplicates(lst):
-        return list(set(lst))
-  def subtract_numbers(x, y):
-        return x - y
+def cube_number(x):
+        return x**3
+import math
+def calculate_sine(x):
+        return math.sin(x)
