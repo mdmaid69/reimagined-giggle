@@ -1,7 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
