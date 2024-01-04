@@ -1,6 +1,7 @@
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import array
+def get_list_from_array(array):
+        return array.tolist()
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
