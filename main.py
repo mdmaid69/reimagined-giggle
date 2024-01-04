@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import collections
-def create_stack():
-        return collections.deque()
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
