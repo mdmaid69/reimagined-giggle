@@ -1,8 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
