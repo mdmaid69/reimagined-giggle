@@ -1,5 +1,4 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def count_elements(lst):
+        return len(lst)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
