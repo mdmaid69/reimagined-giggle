@@ -1,5 +1,6 @@
-import tensorflow as tf
-print(tf.__version__)
   import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import array
+def get_array_as_list(array):
+        return list(array)
