@@ -1,9 +1,5 @@
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
-import bisect
-def binary_search(sorted_list, item):
-        i = bisect.bisect_left(sorted_list, item)
-        if i != len(sorted_list) and sorted_list[i] == item:
-        return i
-        else:
-        return -1
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
