@@ -1,6 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
