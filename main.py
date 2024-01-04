@@ -1,5 +1,5 @@
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+  def reverse_list(lst):
+        return lst[::-1]
