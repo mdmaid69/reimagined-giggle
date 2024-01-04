@@ -1,4 +1,5 @@
-name = "Python"
-print("Hello,", name)
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
