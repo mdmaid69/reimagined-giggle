@@ -1,6 +1,5 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def calculate_area_rectangle(l, w):
+        return l * w
+import random
+def roll_die():
+        return random.randint(1, 6)
