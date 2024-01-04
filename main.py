@@ -1,6 +1,6 @@
+import collections
+def create_priority_queue():
+        return collections.deque()
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
