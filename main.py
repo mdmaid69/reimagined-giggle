@@ -1,6 +1,6 @@
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
