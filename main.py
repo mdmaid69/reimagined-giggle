@@ -1,8 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
