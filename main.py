@@ -1,6 +1,6 @@
 import array
-def extend_array(array, iterable):
-        array.extend(iterable)
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
+def get_array_length(array):
+        return len(array)
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
