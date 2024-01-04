@@ -1,4 +1,6 @@
-def calculate_distance(x1, y1, x2, y2):
-        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-def calculate_return_on_assets(net_income, total_assets):
-        return net_income / total_assets
+import array
+def get_array_index(array, item):
+        return array.index(item)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
