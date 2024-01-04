@@ -1,6 +1,6 @@
-import array
-def get_array_index(array, item):
-        return array.index(item)
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import math
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
