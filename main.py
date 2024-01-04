@@ -1,5 +1,8 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
