@@ -1,6 +1,6 @@
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
