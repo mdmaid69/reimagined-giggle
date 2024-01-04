@@ -1,8 +1,5 @@
-import csv
-with open("some.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["spam", "eggs", "bacon", "ham"])
-        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+print(math.pi)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
