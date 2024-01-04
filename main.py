@@ -1,6 +1,6 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import itertools
-def get_permutations(iterable):
-        return list(itertools.permutations(iterable))
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import array
+def get_array_index(array, item):
+        return array.index(item)
