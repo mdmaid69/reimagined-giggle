@@ -1,5 +1,5 @@
+def square_number(x):
+        return x**2
 import os
-def remove_directory(path):
-        os.rmdir(path)
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def list_files_in_directory(path):
+        return os.listdir(path)
