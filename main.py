@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
+  def convert_to_binary(n):
+        return bin(n)
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def split_path(path):
+        return os.path.split(path)
