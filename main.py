@@ -1,6 +1,4 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def find_max(numbers):
+        return max(numbers)
+def reverse_list(lst):
+        return lst[::-1]
