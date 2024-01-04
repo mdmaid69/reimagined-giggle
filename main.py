@@ -1,6 +1,8 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
 import array
-def get_array_as_bytes(array):
-        return bytes(array)
+def convert_string_to_array(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
