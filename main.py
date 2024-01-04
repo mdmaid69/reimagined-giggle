@@ -1,5 +1,5 @@
-import os
-def get_file_creation_time(filename):
-        return os.path.getctime(filename)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
