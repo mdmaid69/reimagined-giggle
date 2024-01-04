@@ -1,6 +1,4 @@
-import time
-def get_current_time():
-        return time.time()
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def reverse_string(s):
+        return s[::-1]
