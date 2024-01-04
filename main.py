@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def count_characters(sentence):
-        return len(sentence)
+def calculate_average(lst):
+        return sum(lst) / len(lst)
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
