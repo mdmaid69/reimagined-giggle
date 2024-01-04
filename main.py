@@ -1,5 +1,6 @@
-import time
-def get_current_time():
-        return time.time()
-def calculate_work(force, distance):
-        return force * distance
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
+import array
+def clear_array(array):
+        array *= 0
