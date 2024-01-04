@@ -1,4 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  import matplotlib.pyplot as plt
+  def plot_bar_graph(x, y):
+        plt.bar(x, y)
+        plt.show()
