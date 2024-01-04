@@ -1,6 +1,4 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import datetime
+print(datetime.datetime.now())
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
