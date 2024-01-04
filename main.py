@@ -1,6 +1,4 @@
-import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
