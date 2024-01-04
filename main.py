@@ -1,6 +1,4 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  def reverse_list(lst):
+        return lst[::-1]
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
