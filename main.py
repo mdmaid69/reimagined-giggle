@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
+x = 10
+y = 20
+print("Sum:", x + y)
+import array
+def get_array_length(array):
+        return len(array)
