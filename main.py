@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import collections
-def create_user_string():
-        return collections.UserString()
+def convert_to_octal(n):
+        return oct(n)
+import array
+def get_list_from_array(array):
+        return array.tolist()
