@@ -1,6 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import platform
+def get_os_info():
+        return platform.uname()
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
