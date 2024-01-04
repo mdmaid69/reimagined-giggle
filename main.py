@@ -1,7 +1,5 @@
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
