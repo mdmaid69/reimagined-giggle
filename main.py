@@ -1,5 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
