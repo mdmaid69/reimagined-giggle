@@ -1,5 +1,6 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-def convert_to_binary(n):
-        return bin(n)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
