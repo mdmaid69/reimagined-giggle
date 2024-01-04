@@ -1,6 +1,11 @@
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
