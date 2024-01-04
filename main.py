@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def calculate_speed(distance, time):
+        return distance / time
