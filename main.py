@@ -1,6 +1,6 @@
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-import collections
-def create_user_list():
-        return collections.UserList()
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
