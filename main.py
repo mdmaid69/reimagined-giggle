@@ -1,4 +1,5 @@
-def subtract_numbers(x, y):
-        return x - y
-def calculate_volume(length, width, height):
-        return length * width * height
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
