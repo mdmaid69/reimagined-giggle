@@ -1,5 +1,5 @@
-def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+def reverse_list(lst):
+        return lst[::-1]
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
