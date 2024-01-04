@@ -1,4 +1,5 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def convert_to_hex(n):
+        return hex(n)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
