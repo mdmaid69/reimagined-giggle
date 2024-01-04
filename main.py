@@ -1,4 +1,5 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def cube_number(x):
-        return x**3
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+def calculate_speed(distance, time):
+        return distance / time
