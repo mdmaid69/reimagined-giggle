@@ -1,6 +1,6 @@
+import time
+def get_current_time():
+        return time.time()
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-  import os
-  def get_current_directory():
-        return os.getcwd()
+def get_array_as_memoryview(array):
+        return memoryview(array)
