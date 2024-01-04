@@ -1,5 +1,5 @@
-import tensorflow as tf
-print(tf.__version__)
-import os
-def remove_directory(path):
-        os.rmdir(path)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  def sort_list(lst):
+        return sorted(lst)
