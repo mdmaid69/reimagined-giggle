@@ -1,5 +1,6 @@
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-  def subtract_numbers(x, y):
-        return x - y
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
