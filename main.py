@@ -1,5 +1,4 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  def calculate_area_rectangle(l, w):
+        return l * w
