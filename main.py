@@ -1,5 +1,6 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
