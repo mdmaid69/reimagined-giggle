@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
+def find_min(numbers):
+        return min(numbers)
+import os
+def remove_directory(path):
+        os.rmdir(path)
