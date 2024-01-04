@@ -1,6 +1,7 @@
-import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
+import threading
+def create_thread(target):
+        thread = threading.Thread(target=target)
+        thread.start()
+        return thread
+  def convert_to_octal(n):
+        return oct(n)
