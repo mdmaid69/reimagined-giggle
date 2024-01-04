@@ -1,5 +1,4 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def find_min(numbers):
+        return min(numbers)
