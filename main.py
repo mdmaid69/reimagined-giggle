@@ -1,8 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import math
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
+import getpass
+def get_username():
+        return getpass.getuser()
