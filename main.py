@@ -1,5 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
+import math
+def calculate_polar_to_cartesian_coordinates(r, theta):
+        return math.polar((r, theta))
