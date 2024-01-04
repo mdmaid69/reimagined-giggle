@@ -1,6 +1,7 @@
-import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
 import array
-def get_array_as_float(array):
-        return float(array[0])
+def iterate_over_array(array):
+        for item in array:
+        print(item)
