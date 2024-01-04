@@ -1,9 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+def reverse_string(s):
+        return s[::-1]
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
