@@ -1,4 +1,6 @@
-  def reverse_list(lst):
-        return lst[::-1]
-def square_number(x):
-        return x**2
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
