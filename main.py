@@ -1,6 +1,6 @@
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
