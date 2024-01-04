@@ -1,6 +1,5 @@
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
   import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
