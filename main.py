@@ -1,5 +1,6 @@
-def calculate_compound_interest(principal, rate, time):
-        return principal * (1 + rate)**time - principal
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import os
+def get_current_working_directory():
+        return os.getcwd()
