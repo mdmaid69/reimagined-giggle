@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import array
-def get_array_as_int(array):
-        return int(array[0])
+def find_min(lst):
+        return min(lst)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
