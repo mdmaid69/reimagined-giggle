@@ -1,6 +1,6 @@
   import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
