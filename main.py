@@ -1,8 +1,7 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+def cube_number(x):
+        return x**3
 import array
-def get_array_from_string(string, typecode):
+def convert_bytes_to_array(bytes, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.frombytes(bytes)
         return a
