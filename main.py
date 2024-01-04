@@ -1,7 +1,7 @@
-import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+def calculate_ceiling(x):
+        return math.ceil(x)
