@@ -1,6 +1,6 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import datetime
+def get_today_date():
+        return datetime.date.today()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
