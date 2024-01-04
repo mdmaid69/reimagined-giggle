@@ -1,5 +1,7 @@
-import math
-def calculate_pythagorean_theorem(a, b):
-        return math.sqrt(a**2 + b**2)
-  def calculate_area_rectangle(l, w):
-        return l * w
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
