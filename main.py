@@ -1,4 +1,7 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
