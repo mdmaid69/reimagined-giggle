@@ -1,5 +1,5 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-  def convert_to_hex(n):
-        return hex(n)
+def calculate_speed(distance, time):
+        return distance / time
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
