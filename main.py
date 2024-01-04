@@ -1,5 +1,9 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
+def factorial(n):
+        if n == 0:
+        return 1
+        else:
+        return n * factorial(n-1)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
