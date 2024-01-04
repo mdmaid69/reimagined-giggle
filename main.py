@@ -1,6 +1,3 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+print([x**2 for x in range(10)])
+def square_number(x):
+        return x**2
