@@ -1,5 +1,6 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-def sort_numbers(numbers):
-        return sorted(numbers)
+import array
+def get_array_typecode(array):
+        return array.typecode
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
