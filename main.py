@@ -1,5 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+def multiply_numbers(x, y):
+        return x * y
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
