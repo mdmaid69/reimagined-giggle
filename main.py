@@ -1,5 +1,5 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
