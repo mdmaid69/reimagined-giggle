@@ -1,6 +1,5 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import random
-def roll_die():
-        return random.randint(1, 6)
+import array
+def get_array_length(array):
+        return len(array)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
