@@ -1,4 +1,6 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-for i in range(10): print(i)
+  import os
+  def get_file_blocks(file_name):
+        return os.stat(file_name).st_blocks
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
