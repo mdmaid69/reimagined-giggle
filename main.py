@@ -1,6 +1,3 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+print([x**2 for x in range(10)])
+def remove_duplicates(lst):
+        return list(set(lst))
