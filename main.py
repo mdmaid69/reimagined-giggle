@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-  def convert_to_binary(n):
-        return bin(n)
+def add_numbers(x, y):
+        return x + y
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
