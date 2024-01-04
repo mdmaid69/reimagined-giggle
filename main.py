@@ -1,6 +1,4 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
