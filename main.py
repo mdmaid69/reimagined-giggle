@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
 def calculate_speed(distance, time):
         return distance / time
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
