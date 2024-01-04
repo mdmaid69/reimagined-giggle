@@ -1,5 +1,6 @@
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
