@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
