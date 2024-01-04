@@ -1,4 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+  def remove_duplicates(lst):
+        return list(set(lst))
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
