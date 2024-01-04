@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
   import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
