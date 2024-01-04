@@ -1,5 +1,4 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-def greet(name):
-        print(f"Hello, {name}!")
+import math
+print(math.pi)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
