@@ -1,5 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import array
+def extend_array(array, iterable):
+        array.extend(iterable)
