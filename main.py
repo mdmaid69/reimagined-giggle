@@ -1,5 +1,6 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
 import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
