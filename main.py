@@ -1,6 +1,6 @@
 import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
