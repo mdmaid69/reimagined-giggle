@@ -1,5 +1,6 @@
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
