@@ -1,5 +1,5 @@
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
 import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
