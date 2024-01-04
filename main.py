@@ -1,5 +1,6 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import array
+def reverse_array(array):
+        array.reverse()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
