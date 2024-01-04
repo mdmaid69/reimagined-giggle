@@ -1,8 +1,6 @@
-import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import array
+def append_to_array(array, item):
+        array.append(item)
