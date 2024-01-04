@@ -1,8 +1,7 @@
-import csv
-def read_csv_file(filename):
+import math
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+import json
+def load_json(filename):
         with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+        return json.load(f)
