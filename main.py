@@ -1,7 +1,6 @@
-def factorial(n):
-        if n == 0:
-        return 1
-        else:
-        return n * factorial(n-1)
-def reverse_string(s):
-        return s[::-1]
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
