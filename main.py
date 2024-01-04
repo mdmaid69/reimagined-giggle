@@ -1,4 +1,6 @@
-  def add_numbers(x, y):
-        return x + y
-def reverse_list(lst):
-        return lst[::-1]
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
