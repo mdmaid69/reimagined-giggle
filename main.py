@@ -1,5 +1,6 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
-name = "Python"
-print("Hello,", name)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
