@@ -1,5 +1,7 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+def fibonacci(n):
+        a, b = 0, 1
+        while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
+def find_min(numbers):
+        return min(numbers)
