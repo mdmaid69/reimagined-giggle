@@ -1,5 +1,4 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
-def reverse_list(lst):
-        return lst[::-1]
+def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def divide_numbers(x, y):
+        return x / y
