@@ -1,6 +1,6 @@
-import datetime
-def get_current_date():
-        return datetime.date.today()
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
