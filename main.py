@@ -1,5 +1,6 @@
-  import sys
-  def get_python_version():
-        return sys.version
-def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  def square_number(x):
+        return x**2
