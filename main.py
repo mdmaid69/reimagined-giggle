@@ -1,5 +1,8 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
