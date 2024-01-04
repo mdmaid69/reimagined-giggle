@@ -1,5 +1,7 @@
-def convert_to_octal(n):
-        return oct(n)
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
+import math
+def calculate_error_function(x):
+        return math.erf(x)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
