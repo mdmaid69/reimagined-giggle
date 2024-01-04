@@ -1,8 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-        return "Hello, World!"
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+  def divide_numbers(x, y):
+        return x / y if y != 0 else "Cannot divide by zero"
