@@ -1,6 +1,6 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
+import time
+def get_current_time():
+        return time.ctime()
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
