@@ -1,6 +1,8 @@
+def is_even(n):
+        return n % 2 == 0
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
