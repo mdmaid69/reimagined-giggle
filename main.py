@@ -1,6 +1,5 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-import platform
-def get_python_version():
-        return platform.python_version()
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
+  def remove_duplicates(lst):
+        return list(set(lst))
