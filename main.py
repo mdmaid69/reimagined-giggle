@@ -1,6 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
