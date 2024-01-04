@@ -1,5 +1,5 @@
-def calculate_pressure(force, area):
-        return force / area
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_quick_ratio(current_assets, inventory, current_liabilities):
+        return (current_assets - inventory) / current_liabilities
+import sys
+def print_python_version():
+        print(sys.version)
