@@ -1,5 +1,4 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
+  def add_numbers(x, y):
+        return x + y
