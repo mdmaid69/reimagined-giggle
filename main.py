@@ -1,5 +1,6 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+import datetime
+def get_current_date():
+        return datetime.date.today()
+import array
+def get_list_from_array(array):
+        return array.tolist()
