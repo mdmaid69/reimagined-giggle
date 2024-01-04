@@ -1,6 +1,5 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import collections
+def create_counter():
+        return collections.Counter()
+numbers = [1, 2, 3, 4, 5]
+print("Squared:", [n**2 for n in numbers])
