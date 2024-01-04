@@ -1,5 +1,6 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
