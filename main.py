@@ -1,6 +1,5 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
 import array
-def get_array_as_set(array):
-        return set(array)
+def convert_array_to_list(array):
+        return array.tolist()
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
