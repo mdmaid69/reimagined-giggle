@@ -1,5 +1,5 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
 import array
-def remove_from_array(array, item):
-        array.remove(item)
+def convert_array_to_string(array):
+        return array.tostring()
