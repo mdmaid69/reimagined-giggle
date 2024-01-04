@@ -1,6 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+def is_even(n):
+        return n % 2 == 0
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
