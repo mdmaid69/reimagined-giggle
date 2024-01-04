@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+def greet(name):
+        print(f"Hello, {name}!")
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
