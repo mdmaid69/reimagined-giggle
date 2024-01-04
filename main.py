@@ -1,8 +1,4 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
+print(sum(range(10)))
