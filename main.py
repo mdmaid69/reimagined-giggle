@@ -1,5 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
