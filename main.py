@@ -1,9 +1,6 @@
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
