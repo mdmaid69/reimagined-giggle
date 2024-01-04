@@ -1,10 +1,7 @@
-import time
-def measure_execution_time(func, *args):
-        start = time.time()
-        result = func(*args)
-        end = time.time()
-        print(f"Execution time: {end - start} seconds")
-        return result
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
