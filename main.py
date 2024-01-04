@@ -1,6 +1,4 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Difference:", set(list1) - set(list2))
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def add_numbers(x, y):
+        return x + y
+def calculate_speed(distance, time):
+        return distance / time
