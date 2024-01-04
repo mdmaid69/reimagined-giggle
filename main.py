@@ -1,5 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import os
+def get_current_working_directory():
+        return os.getcwd()
+import array
+def set_array_item(array, i, item):
+        array[i] = item
