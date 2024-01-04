@@ -1,6 +1,7 @@
-import array
-def get_array_item(array, i):
-        return array[i]
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import numpy as np
+print(np.array([1, 2, 3]))
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
