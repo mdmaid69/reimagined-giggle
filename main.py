@@ -1,5 +1,5 @@
-import random
-def generate_random_number(start, end):
+  import random
+  def generate_random_number(start, end):
         return random.randint(start, end)
-def remove_duplicates(lst):
-        return list(set(lst))
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
