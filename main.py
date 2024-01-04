@@ -1,5 +1,6 @@
-import array
-def convert_array_to_list(array):
-        return array.tolist()
-  def convert_to_octal(n):
-        return oct(n)
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
