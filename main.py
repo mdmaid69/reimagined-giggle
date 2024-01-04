@@ -1,6 +1,4 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
+  def convert_to_octal(n):
+        return oct(n)
+def sort_numbers(numbers):
+        return sorted(numbers)
