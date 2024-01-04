@@ -1,6 +1,7 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-  import os
-  def delete_file(file_name):
-        os.remove(file_name)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
