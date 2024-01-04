@@ -1,6 +1,6 @@
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
 import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
