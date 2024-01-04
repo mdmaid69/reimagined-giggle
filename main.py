@@ -1,5 +1,4 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Common elements:", set(list1) & set(list2))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
