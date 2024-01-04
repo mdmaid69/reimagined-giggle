@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
