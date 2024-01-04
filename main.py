@@ -1,8 +1,6 @@
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
 import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def convert_array_to_bytes(array):
+        return array.tobytes()
