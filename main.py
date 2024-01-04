@@ -1,5 +1,4 @@
-def convert_to_binary(n):
-        return bin(n)
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
