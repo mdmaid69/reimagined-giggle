@@ -1,4 +1,5 @@
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-print(sum(range(10)))
+  def get_file_inode(file_name):
+        return os.stat(file_name).st_ino
+  def sort_list(lst):
+        return sorted(lst)
