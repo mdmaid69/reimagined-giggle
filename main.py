@@ -1,5 +1,5 @@
-def add_numbers(x, y):
-        return x + y
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
