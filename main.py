@@ -1,6 +1,6 @@
 import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
