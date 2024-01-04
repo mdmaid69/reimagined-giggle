@@ -1,4 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+def calculate_power(work, time):
+        return work / time
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
