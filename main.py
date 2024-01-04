@@ -1,5 +1,5 @@
-def calculate_density(mass, volume):
-        return mass / volume
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+def is_palindrome(s):
+        return s == s[::-1]
+x = 10
+y = 20
+print("Sum:", x + y)
