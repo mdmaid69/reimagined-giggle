@@ -1,6 +1,7 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
