@@ -1,8 +1,6 @@
+import array
+def get_list_from_array(array):
+        return array.tolist()
 import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
