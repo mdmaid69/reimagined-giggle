@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-def calculate_speed(distance, time):
-        return distance / time
+import math
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
