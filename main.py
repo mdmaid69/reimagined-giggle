@@ -1,4 +1,9 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
+import array
+def get_array_from_file(filename, typecode):
+        a = array.array(typecode)
+        with open(filename, "rb") as f:
+        a.fromfile(f, os.path.getsize(filename) // a.itemsize)
+        return a
