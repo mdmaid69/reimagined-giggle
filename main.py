@@ -1,5 +1,6 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-def find_max(lst):
-        return max(lst)
+import array
+def get_array_item(array, i):
+        return array[i]
+import os
+def remove_directory(path):
+        os.rmdir(path)
