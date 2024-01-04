@@ -1,4 +1,6 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-def convert_to_octal(n):
-        return oct(n)
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+import platform
+def get_python_version():
+        return platform.python_version()
