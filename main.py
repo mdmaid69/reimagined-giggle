@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
