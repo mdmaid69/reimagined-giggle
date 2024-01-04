@@ -1,5 +1,4 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
