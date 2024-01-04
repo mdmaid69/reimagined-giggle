@@ -1,5 +1,6 @@
+import math
+def calculate_inverse_hyperbolic_cosine(x):
+        return math.acosh(x)
   import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  def square_number(x):
-        return x**2
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
