@@ -1,6 +1,5 @@
-import math
-def calculate_modulus(x, y):
-        return math.fmod(x, y)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def count_words(sentence):
+        return len(sentence.split())
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
