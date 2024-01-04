@@ -1,5 +1,5 @@
 import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-text = "Hello, world!"
-print("Words:", len(text.split()))
+def calculate_exponential(x):
+        return math.exp(x)
+def sort_numbers(numbers):
+        return sorted(numbers)
