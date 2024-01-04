@@ -1,6 +1,4 @@
-import os
-def change_working_directory(path):
-        os.chdir(path)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_annuity(payment, rate, time):
+        return payment * ((1 - (1 + rate)**-time) / rate)
+def convert_to_hex(n):
+        return hex(n)
