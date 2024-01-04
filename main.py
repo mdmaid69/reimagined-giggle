@@ -1,4 +1,6 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
