@@ -1,6 +1,4 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def convert_to_hex(n):
+        return hex(n)
+def divide_numbers(x, y):
+        return x / y
