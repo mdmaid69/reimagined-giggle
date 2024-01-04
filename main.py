@@ -1,8 +1,4 @@
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+for i in range(5):
+        print(i)
+  def add_numbers(x, y):
+        return x + y
