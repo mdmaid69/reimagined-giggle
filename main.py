@@ -1,5 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+import platform
+def get_os_info():
+        return platform.uname()
