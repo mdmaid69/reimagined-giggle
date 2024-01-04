@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
 import math
-def calculate_ceiling(x):
-        return math.ceil(x)
+def calculate_power(base, exponent):
+        return math.pow(base, exponent)
