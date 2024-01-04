@@ -1,5 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+def count_words(sentence):
+        return len(sentence.split())
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
