@@ -1,6 +1,6 @@
-  import os
-  def check_if_directory_exists(dir_name):
-        return os.path.isdir(dir_name)
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
