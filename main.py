@@ -1,6 +1,5 @@
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
   import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-import array
-def get_array_length(array):
-        return len(array)
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
