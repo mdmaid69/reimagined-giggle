@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-import sys
-def exit_program():
-        sys.exit()
+  def convert_to_octal(n):
+        return oct(n)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
