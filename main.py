@@ -1,5 +1,6 @@
-import array
-def get_array_length(array):
-        return len(array)
-def add_numbers(x, y):
-        return x + y
+import math
+def calculate_logarithm_of_gamma_function(x):
+        return math.lgamma(x)
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
