@@ -1,5 +1,6 @@
+import math
+def calculate_exponential(x):
+        return math.exp(x)
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
