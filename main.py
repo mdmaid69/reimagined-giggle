@@ -1,6 +1,6 @@
+  import random
+  def generate_random_number(start, end):
+        return random.randint(start, end)
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def get_string_from_array(array):
-        return array.tobytes()
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
