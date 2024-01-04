@@ -1,5 +1,4 @@
-def sort_numbers(numbers):
-        return sorted(numbers)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+import random
+print(random.randint(0, 100))
+def is_palindrome(s):
+        return s == s[::-1]
