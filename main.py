@@ -1,7 +1,5 @@
-import array
-def pop_from_array(array, i=-1):
-        return array.pop(i)
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
