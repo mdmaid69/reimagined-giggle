@@ -1,5 +1,5 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-text = "Hello, world!"
-print("Characters:", len(text))
+import collections
+def create_priority_queue():
+        return collections.deque()
+  def is_even(n):
+        return n % 2 == 0
