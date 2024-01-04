@@ -1,5 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
   import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def get_directory_name(path):
+        return os.path.dirname(path)
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
