@@ -1,5 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
