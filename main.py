@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+import array
+def get_array_as_float(array):
+        return float(array[0])
