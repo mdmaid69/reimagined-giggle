@@ -1,8 +1,5 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
+def convert_to_binary(n):
+        return bin(n)
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
