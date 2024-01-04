@@ -1,5 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import sklearn.datasets
-print(sklearn.datasets.load_iris())
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
