@@ -1,5 +1,4 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import array
-def get_array_as_set(array):
-        return set(array)
+  def sort_list(lst):
+        return sorted(lst)
+n = 10
+print("Cube numbers:", [x**3 for x in range(n)])
