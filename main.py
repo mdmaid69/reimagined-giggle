@@ -1,5 +1,3 @@
-def calculate_work(force, distance):
-        return force * distance
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+print(sum(range(10)))
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
