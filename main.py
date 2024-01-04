@@ -1,6 +1,4 @@
-import hashlib
-def hash_string(s):
-        return hashlib.sha256(s.encode()).hexdigest()
-import os
-def get_current_working_directory():
-        return os.getcwd()
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
