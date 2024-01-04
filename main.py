@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import re
+def split_string(pattern, string):
+        return re.split(pattern, string)
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
