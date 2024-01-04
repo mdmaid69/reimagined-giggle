@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
