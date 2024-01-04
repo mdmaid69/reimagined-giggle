@@ -1,5 +1,6 @@
 import array
-def set_array_item(array, i, item):
-        array[i] = item
-def calculate_area_rectangle(l, w):
-        return l * w
+def get_list_from_array(array):
+        return array.tolist()
+import math
+def calculate_floor(x):
+        return math.floor(x)
