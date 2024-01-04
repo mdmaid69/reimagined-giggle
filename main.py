@@ -1,5 +1,4 @@
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
-def calculate_work(force, distance):
-        return force * distance
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
