@@ -1,5 +1,5 @@
-import numpy as np
-print(np.array([1, 2, 3]))
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
+import array
+def pop_from_array(array, i=-1):
+        return array.pop(i)
