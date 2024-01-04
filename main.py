@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-import collections
-def create_stack():
-        return collections.deque()
+text = "Hello, world!"
+print("Characters:", len(text))
+import logging
+def log_message(message):
+        logging.info(message)
