@@ -1,6 +1,4 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
