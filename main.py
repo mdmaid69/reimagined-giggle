@@ -1,5 +1,7 @@
-def add_numbers(x, y):
-        return x + y
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+i = 0
+while i < 5:
+        print(i)
+        i += 1
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
