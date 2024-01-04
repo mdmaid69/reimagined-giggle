@@ -1,5 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-def add_numbers(a, b):
-        return a + b
+def convert_to_octal(n):
+        return oct(n)
+import array
+def convert_array_to_string(array):
+        return array.tostring()
