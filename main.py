@@ -1,6 +1,5 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import time
-def get_current_time():
-        return time.ctime()
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def find_unique_words(sentence):
+        return set(sentence.split())
