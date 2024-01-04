@@ -1,5 +1,5 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-name = "Python"
-print("Hello,", name)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+import math
+def calculate_tangent(x):
+        return math.tan(x)
