@@ -1,4 +1,5 @@
-  def is_even(n):
-        return n % 2 == 0
-n = 10
-print("Cube numbers:", [x**3 for x in range(n)])
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
