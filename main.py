@@ -1,5 +1,5 @@
-import math
-def calculate_sine(x):
-        return math.sin(x)
-def multiply_numbers(x, y):
-        return x * y
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+def reverse_list(lst):
+        return lst[::-1]
