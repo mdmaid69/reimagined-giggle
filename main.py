@@ -1,8 +1,5 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import os
-def remove_directory(path):
-        os.rmdir(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
