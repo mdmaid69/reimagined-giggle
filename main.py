@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
