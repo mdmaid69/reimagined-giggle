@@ -5,6 +5,6 @@ def send_email(smtp_server, port, username, password, from_addr, to_addr, subjec
         server.sendmail(from_addr, to_addr, f"Subject: {subject}
 
 {body}")
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
