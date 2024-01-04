@@ -1,6 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_polar_to_cartesian_coordinates(r, theta):
-        return math.polar((r, theta))
+def find_min(lst):
+        return min(lst)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
