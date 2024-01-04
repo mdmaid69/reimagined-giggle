@@ -1,6 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
+def is_odd(n):
+        return n % 2 != 0
+import collections
+def group_by(iterable, key_func):
+        return collections.defaultdict(list, ((key, list(group)) for key, group in itertools.groupby(sorted(iterable, key=key_func), key_func)))
