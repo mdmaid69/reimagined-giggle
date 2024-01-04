@@ -1,6 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_number_of_links(file_name):
-        return os.stat(file_name).st_nlink
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import random
+def flip_coin():
+        return "Heads" if random.random() < 0.5 else "Tails"
