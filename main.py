@@ -1,5 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+  import numpy as np
+  def calculate_correlation(arr1, arr2):
+        return np.corrcoef(arr1, arr2)
