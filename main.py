@@ -1,5 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
