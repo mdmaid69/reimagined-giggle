@@ -1,5 +1,5 @@
 import array
-def get_array_buffer_info(array):
-        return array.buffer_info()
-def count_characters(sentence):
-        return len(sentence)
+def convert_array_to_string(array):
+        return array.tostring()
+import json
+print(json.dumps({"name": "John", "age": 30}))
