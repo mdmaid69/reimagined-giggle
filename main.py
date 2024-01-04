@@ -1,5 +1,7 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
