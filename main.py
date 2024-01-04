@@ -1,6 +1,5 @@
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
