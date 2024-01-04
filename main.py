@@ -1,5 +1,5 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import array
+def get_array_as_str(array):
+        return str(array)
