@@ -1,8 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def is_prime(n):
-        for i in range(2, int(n**0.5) + 1):
-                if n % i == 0:
-                return False
-        return True
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
