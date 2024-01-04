@@ -1,8 +1,5 @@
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
 import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def get_array_as_repr(array):
+        return repr(array)
