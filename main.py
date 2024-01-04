@@ -1,6 +1,5 @@
+import tensorflow as tf
+print(tf.__version__)
 import math
-def calculate_cosine(x):
-        return math.cos(x)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
