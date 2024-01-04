@@ -1,5 +1,5 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+  def square_number(x):
+        return x**2
+import array
+def convert_array_to_string(array):
+        return array.tostring()
