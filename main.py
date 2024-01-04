@@ -1,6 +1,4 @@
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def remove_duplicates(lst):
+        return list(set(lst))
+def convert_to_octal(n):
+        return oct(n)
