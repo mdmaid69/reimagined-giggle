@@ -1,5 +1,6 @@
-  def calculate_area_rectangle(l, w):
-        return l * w
-import array
-def extend_array(array, iterable):
-        array.extend(iterable)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_device(file_name):
+        return os.stat(file_name).st_dev
