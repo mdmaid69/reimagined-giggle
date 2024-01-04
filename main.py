@@ -1,6 +1,5 @@
-  import os
-  def get_file_permissions(file_name):
-        return os.stat(file_name).st_mode
-  import re
-  def replace_all_occurrences(pattern, replace_with, string):
-        return re.sub(pattern, replace_with, string)
+text = "Hello, world!"
+print("Uppercase:", text.upper())
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
