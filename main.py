@@ -1,6 +1,4 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
