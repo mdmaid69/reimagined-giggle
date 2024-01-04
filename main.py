@@ -1,5 +1,4 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  def calculate_average(lst):
+        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
+def count_elements(lst):
+        return len(lst)
