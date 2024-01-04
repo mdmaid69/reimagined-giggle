@@ -1,5 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  def remove_duplicates(lst):
+        return list(set(lst))
+import collections
+def create_stack():
+        return collections.deque()
