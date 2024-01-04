@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import numpy as np
+print(np.array([1, 2, 3]))
