@@ -1,6 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-  import os
-  def get_file_qspare(file_name):
-        return os.stat(file_name).st_qspare
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
