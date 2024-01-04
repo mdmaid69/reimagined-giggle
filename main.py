@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def reverse_array(array):
-        array.reverse()
+  import sys
+  def get_python_version():
+        return sys.version
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
