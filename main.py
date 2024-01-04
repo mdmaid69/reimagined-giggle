@@ -1,5 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+def calculate_average(numbers):
+        return sum(numbers) / len(numbers)
