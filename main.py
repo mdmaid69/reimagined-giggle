@@ -1,6 +1,5 @@
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
