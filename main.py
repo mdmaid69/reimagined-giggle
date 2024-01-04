@@ -1,6 +1,6 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+import array
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
+def calculate_gamma_function(x):
+        return math.gamma(x)
