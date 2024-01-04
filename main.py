@@ -1,6 +1,5 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+import math
+def calculate_cosine(x):
+        return math.cos(x)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
