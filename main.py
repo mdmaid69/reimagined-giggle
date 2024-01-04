@@ -1,4 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
+def add_numbers(x, y):
+        return x + y
+import math
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
