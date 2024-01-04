@@ -1,5 +1,6 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import time
-print(time.time())
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
