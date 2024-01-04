@@ -1,6 +1,6 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
