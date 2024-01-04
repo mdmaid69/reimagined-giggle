@@ -1,6 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def convert_to_hex(n):
+        return hex(n)
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
