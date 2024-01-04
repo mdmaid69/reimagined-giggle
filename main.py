@@ -1,5 +1,6 @@
-def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
