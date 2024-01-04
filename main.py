@@ -1,6 +1,7 @@
-list1 = [1, 2, 3]
-list2 = [2, 3, 4]
-print("Union:", set(list1) | set(list2))
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
