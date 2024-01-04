@@ -1,6 +1,6 @@
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
 import math
-def calculate_arc_sine(x):
-        return math.asin(x)
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
