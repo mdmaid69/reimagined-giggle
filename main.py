@@ -1,5 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-def is_odd(n):
-        return n % 2 != 0
+import array
+def clear_array(array):
+        array *= 0
+import platform
+def get_os_info():
+        return platform.uname()
