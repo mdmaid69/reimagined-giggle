@@ -1,6 +1,8 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+import array
+def get_array_from_string(string, typecode):
+        a = array.array(typecode)
+        a.fromstring(string)
+        return a
