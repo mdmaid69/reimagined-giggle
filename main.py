@@ -1,5 +1,9 @@
-import subprocess
-def run_command(cmd):
-        return subprocess.check_output(cmd, shell=True)
-def calculate_power(work, time):
-        return work / time
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
