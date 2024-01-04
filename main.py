@@ -1,8 +1,4 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
