@@ -1,5 +1,4 @@
-import json
-def convert_to_json(data):
-        return json.dumps(data)
-  def count_elements(lst):
-        return len(lst)
+print(sum(range(10)))
+  import os
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
