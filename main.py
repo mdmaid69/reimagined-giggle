@@ -1,5 +1,6 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
