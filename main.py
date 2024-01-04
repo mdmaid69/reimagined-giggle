@@ -1,5 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
 import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+def calculate_hyperbolic_arc_cosine(x):
+        return math.acosh(x)
+  def count_elements(lst):
+        return len(lst)
