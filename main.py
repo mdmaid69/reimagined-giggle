@@ -1,5 +1,4 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
