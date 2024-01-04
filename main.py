@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
