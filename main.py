@@ -1,5 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+import math
+def calculate_circle_circumference(radius):
+        return 2 * math.pi * radius
+  import os
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
