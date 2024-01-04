@@ -1,5 +1,6 @@
-  import time
-  def wait_for_seconds(seconds):
-        time.sleep(seconds)
-  def is_even(n):
-        return n % 2 == 0
+import array
+def clear_array(array):
+        array *= 0
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
