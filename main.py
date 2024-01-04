@@ -1,6 +1,5 @@
-import sys
-def exit_program():
-        sys.exit()
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+def is_even(n):
+        return n % 2 == 0
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
