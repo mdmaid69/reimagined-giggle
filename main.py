@@ -1,5 +1,4 @@
-import math
-def calculate_neper_number_to_power_x(x):
-        return math.exp(x)
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+print([x**2 for x in range(10)])
