@@ -1,6 +1,5 @@
-import collections
-def create_user_list():
-        return collections.UserList()
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import sys
+def print_python_version():
+        print(sys.version)
+def reverse_string(s):
+        return s[::-1]
