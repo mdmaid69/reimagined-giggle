@@ -1,6 +1,6 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-import collections
-def create_stack():
-        return collections.deque()
+import array
+def reverse_array(array):
+        array.reverse()
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
