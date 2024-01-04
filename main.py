@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
+import array
+def remove_from_array(array, item):
+        array.remove(item)
