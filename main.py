@@ -1,4 +1,5 @@
-import json
-print(json.dumps({"name": "John", "age": 30}))
-def cube_number(x):
-        return x**3
+  import numpy as np
+  def calculate_variance(arr):
+        return np.var(arr)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
