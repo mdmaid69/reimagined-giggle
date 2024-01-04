@@ -1,6 +1,6 @@
   import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
 import array
-def append_to_array(array, item):
-        array.append(item)
+def get_array_as_complex(array):
+        return complex(array[0])
