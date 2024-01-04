@@ -1,8 +1,6 @@
-import sqlite3
-conn = sqlite3.connect(":memory:")
-c = conn.cursor()
-c.execute("""CREATE TABLE stocks (date text, trans text, symbol text, qty real, price real)""")
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
