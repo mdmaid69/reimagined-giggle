@@ -1,4 +1,6 @@
-print("Hello, world!")
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
 import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
+def insert_into_array(array, i, item):
+        array.insert(i, item)
