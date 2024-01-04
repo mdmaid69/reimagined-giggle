@@ -1,5 +1,4 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def calculate_volume(length, width, height):
-        return length * width * height
+def convert_to_binary(n):
+        return bin(n)
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
