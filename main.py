@@ -1,6 +1,6 @@
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
 import math
-def calculate_exponential(x):
-        return math.exp(x)
+def calculate_factorial(n):
+        return math.factorial(n)
+import array
+def get_array_as_str(array):
+        return str(array)
