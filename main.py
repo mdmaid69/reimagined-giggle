@@ -1,6 +1,5 @@
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+def remove_duplicates(lst):
+        return list(set(lst))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
