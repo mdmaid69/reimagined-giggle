@@ -1,5 +1,4 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-def count_words(sentence):
-        return len(sentence.split())
+def count_elements(lst):
+        return len(lst)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
