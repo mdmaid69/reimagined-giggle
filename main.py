@@ -1,4 +1,5 @@
-def calculate_return_on_equity(net_income, total_equity):
-        return net_income / total_equity
-def calculate_acceleration(speed, time):
-        return speed / time
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+  import os
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
