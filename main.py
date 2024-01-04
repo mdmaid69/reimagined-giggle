@@ -1,6 +1,10 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+import threading
+
+def print_hello():
+        print("Hello, world!")
+
+thread = threading.Thread(target=print_hello)
+thread.start()
+thread.join()
