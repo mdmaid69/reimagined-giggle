@@ -1,6 +1,6 @@
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
-import math
-def calculate_sine(x):
-        return math.sin(x)
+import logging
+def log_message(message):
+        logging.info(message)
+import array
+def get_array_as_frozenset(array):
+        return frozenset(array)
