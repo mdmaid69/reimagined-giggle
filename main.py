@@ -1,5 +1,6 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-def reverse_string(s):
-        return s[::-1]
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import array
+def get_string_from_array(array):
+        return array.tobytes()
