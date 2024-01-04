@@ -1,5 +1,12 @@
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
-def is_even(n):
-        return n % 2 == 0
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
+import functools
+def memoize(func):
+        cache = {}
+        @functools.wraps(func)
+        def wrapper(*args):
+        if args not in cache:
+                cache[args] = func(*args)
+        return cache[args]
+        return wrapper
