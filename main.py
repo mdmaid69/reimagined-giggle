@@ -1,6 +1,4 @@
-  import os
-  def get_file_modification_time(file_name):
-        return os.path.getmtime(file_name)
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
