@@ -1,6 +1,4 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+def find_max(numbers):
+        return max(numbers)
