@@ -1,5 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
