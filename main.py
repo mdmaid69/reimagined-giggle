@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-import json
-def convert_to_json(data):
-        return json.dumps(data)
+def count_words(sentence):
+        return len(sentence.split())
+import time
+def get_current_time():
+        return time.ctime()
