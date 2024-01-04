@@ -1,6 +1,5 @@
 import array
-def get_array_as_repr(array):
-        return repr(array)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
