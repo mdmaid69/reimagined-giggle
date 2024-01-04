@@ -1,6 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
