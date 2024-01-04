@@ -1,6 +1,5 @@
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+sentence = "Hello, world!"
+print("Unique words:", len(set(sentence.split())))
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
