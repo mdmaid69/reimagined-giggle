@@ -1,10 +1,5 @@
-import smtplib
-def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
-        with smtplib.SMTP(smtp_server, port) as server:
-        server.login(username, password)
-        server.sendmail(from_addr, to_addr, f"Subject: {subject}
-
-{body}")
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import pandas as pd
+print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
