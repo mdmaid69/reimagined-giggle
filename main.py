@@ -1,6 +1,4 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import sys
+print(sys.version)
+def calculate_power(work, time):
+        return work / time
