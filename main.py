@@ -1,5 +1,6 @@
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
