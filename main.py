@@ -1,5 +1,4 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-  def is_odd(n):
-        return n % 2 != 0
+  def multiply_numbers(x, y):
+        return x * y
+def count_characters(sentence):
+        return len(sentence)
