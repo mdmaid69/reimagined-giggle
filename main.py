@@ -1,5 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
+i = 0
+while i < 5:
+        print(i)
+        i += 1
