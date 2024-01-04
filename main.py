@@ -1,6 +1,6 @@
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_arc_sine(x):
-        return math.asin(x)
+def pop_from_array(array, i=-1):
+        return array.pop(i)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
