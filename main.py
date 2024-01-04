@@ -1,5 +1,4 @@
-def count_words(sentence):
-        return len(sentence.split())
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
