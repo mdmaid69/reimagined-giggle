@@ -1,6 +1,7 @@
-import os
-def get_file_size(filename):
-        return os.path.getsize(filename)
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+text = "Hello, world!"
+print("Reversed:", text[::-1])
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
