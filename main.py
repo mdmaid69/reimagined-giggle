@@ -1,5 +1,6 @@
-  def square_number(x):
-        return x**2
-import array
-def get_array_as_repr(array):
-        return repr(array)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
