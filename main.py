@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Common elements:", set(list1) & set(list2))
