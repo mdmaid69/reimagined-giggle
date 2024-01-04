@@ -1,5 +1,5 @@
+def find_union(list1, list2):
+        return set(list1) | set(list2)
 import math
-print(math.pi)
-import math
-def calculate_complementary_error_function(x):
-        return math.erfc(x)
+def calculate_arc_tangent(x):
+        return math.atan(x)
