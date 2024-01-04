@@ -1,5 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
+def convert_to_hex(n):
+        return hex(n)
+def cube_number(x):
+        return x**3
