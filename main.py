@@ -1,6 +1,5 @@
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
-import sys
-def print_python_version():
-        return sys.version
+import array
+def get_array_index(array, item):
+        return array.index(item)
+def fibonacci(n):
+        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
