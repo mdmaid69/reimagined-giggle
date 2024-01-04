@@ -1,5 +1,5 @@
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
-  def fibonacci(n):
-        return n if n <= 1 else fibonacci(n-1) + fibonacci(n-2)
+  import os
+  def get_file_creation_time(file_name):
+        return os.path.getctime(file_name)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
