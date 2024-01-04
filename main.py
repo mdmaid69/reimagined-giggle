@@ -1,4 +1,8 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import csv
+def read_csv_file(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
