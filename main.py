@@ -1,5 +1,5 @@
-  def remove_duplicates(lst):
-        return list(set(lst))
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def clear_array(array):
+        array *= 0
+text = "Hello, world!"
+print("Words:", len(text.split()))
