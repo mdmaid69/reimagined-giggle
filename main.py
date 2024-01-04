@@ -1,7 +1,6 @@
-import time
-def get_current_time():
-        return time.ctime()
-import socket
-
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+  import os
+  def split_path(path):
+        return os.path.split(path)
