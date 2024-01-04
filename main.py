@@ -1,5 +1,5 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
+  def calculate_area_rectangle(l, w):
+        return l * w
+import math
+def calculate_cube_root(x):
+        return math.pow(x, 1/3)
