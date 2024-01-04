@@ -1,6 +1,5 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
