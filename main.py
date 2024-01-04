@@ -1,5 +1,6 @@
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
 import array
-def remove_from_array(array, item):
-        array.remove(item)
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+def get_array_as_complex(array):
+        return complex(array[0])
