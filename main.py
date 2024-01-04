@@ -1,5 +1,6 @@
-  def find_min(lst):
-        return min(lst) if len(lst) != 0 else "List is empty"
-  import os
-  def get_file_birthtime(file_name):
-        return os.stat(file_name).st_birthtime
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
