@@ -1,5 +1,5 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
+import sys
+print(sys.version)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
