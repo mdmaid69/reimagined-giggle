@@ -1,6 +1,6 @@
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
-import sys
-def exit_program():
-        sys.exit()
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
+  import sys
+  def get_python_version():
+        return sys.version
