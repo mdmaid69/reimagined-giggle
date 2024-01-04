@@ -1,6 +1,5 @@
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
