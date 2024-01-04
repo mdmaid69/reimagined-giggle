@@ -1,6 +1,6 @@
-import heapq
-def pop_push_heap(heap, item):
-        return heapq.heapreplace(heap, item)
+import array
+def get_array_as_int(array):
+        return int(array[0])
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_floor(x):
+        return math.floor(x)
