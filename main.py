@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+text = "Hello, world!"
+print("Characters:", len(text))
