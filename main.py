@@ -1,4 +1,5 @@
-print([x**2 for x in range(10)])
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+n = 10
+print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
