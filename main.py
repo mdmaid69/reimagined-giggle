@@ -1,5 +1,5 @@
-def find_max(lst):
-        return max(lst)
-import datetime
-def get_current_date():
-        return datetime.date.today()
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import random
+print(random.randint(0, 100))
