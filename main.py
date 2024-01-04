@@ -1,6 +1,5 @@
-import shutil
-def move_file(src, dst):
-        shutil.move(src, dst)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
