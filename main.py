@@ -1,5 +1,6 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-def count_characters(sentence):
-        return len(sentence)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
