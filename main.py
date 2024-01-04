@@ -1,6 +1,5 @@
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
   import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
