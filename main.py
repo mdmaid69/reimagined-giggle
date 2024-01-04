@@ -1,7 +1,4 @@
-import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
-  def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+def add_numbers(x, y):
+        return x + y
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
