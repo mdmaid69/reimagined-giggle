@@ -1,6 +1,5 @@
-def find_difference(list1, list2):
-        return set(list1) - set(list2)
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+def is_even(n):
+        return n % 2 == 0
