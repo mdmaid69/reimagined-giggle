@@ -1,6 +1,5 @@
-import collections
-def create_chain_map(*maps):
-        return collections.ChainMap(*maps)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+  import os
+  def delete_file(file_name):
+        os.remove(file_name)
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
