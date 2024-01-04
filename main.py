@@ -1,5 +1,6 @@
 import array
-def clear_array(array):
-        array *= 0
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def get_list_from_array(array):
+        return array.tolist()
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
