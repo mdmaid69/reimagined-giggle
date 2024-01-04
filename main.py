@@ -1,5 +1,6 @@
-import sys
-print(sys.version)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+x = 10
+y = 20
+print("Sum:", x + y)
+import json
+def read_from_json(json_string):
+        return json.loads(json_string)
