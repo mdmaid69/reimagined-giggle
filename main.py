@@ -1,5 +1,6 @@
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
-import sys
-def exit_program():
-        sys.exit()
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+  import numpy as np
+  def calculate_mean(arr):
+        return np.mean(arr)
