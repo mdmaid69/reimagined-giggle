@@ -1,4 +1,5 @@
-import random
-print(random.randint(0, 100))
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+def calculate_work(force, distance):
+        return force * distance
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
