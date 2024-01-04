@@ -1,10 +1,6 @@
-import csv
-def read_csv_file(filename):
-        with open(filename, "r") as f:
-        reader = csv.reader(f)
-        return list(reader)
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
+import collections
+def create_user_dict():
+        return collections.UserDict()
