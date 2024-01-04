@@ -1,4 +1,6 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import os
+  def get_file_name_without_extension(file_name):
+        return os.path.splitext(file_name)[0]
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
