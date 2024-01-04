@@ -1,4 +1,7 @@
-def multiply_numbers(x, y):
-        return x * y
-def cube_number(x):
-        return x**3
+import csv
+def load_csv(filename):
+        with open(filename, "r") as f:
+        reader = csv.reader(f)
+        return list(reader)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
