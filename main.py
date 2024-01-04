@@ -1,6 +1,4 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-  import os
-  def check_if_file_exists(file_name):
-        return os.path.isfile(file_name)
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
