@@ -1,6 +1,6 @@
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
