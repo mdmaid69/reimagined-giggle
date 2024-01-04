@@ -1,6 +1,4 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-x = 10
-y = 20
-print("Sum:", x + y)
+def find_min(numbers):
+        return min(numbers)
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
