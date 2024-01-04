@@ -1,7 +1,6 @@
+  import os
+  def rename_file(old_name, new_name):
+        os.rename(old_name, new_name)
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
