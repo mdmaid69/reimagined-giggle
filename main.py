@@ -1,4 +1,4 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-  def sort_list(lst):
-        return sorted(lst)
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
