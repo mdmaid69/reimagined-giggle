@@ -1,5 +1,5 @@
-from collections import Counter
-print(Counter("hello world"))
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+def calculate_mortgage(principal, rate, time):
+        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
