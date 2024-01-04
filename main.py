@@ -1,5 +1,5 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_density(mass, volume):
+        return mass / volume
+  import os
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
