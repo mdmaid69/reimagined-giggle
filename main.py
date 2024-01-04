@@ -1,4 +1,6 @@
-def calculate_pe_ratio(price_per_share, eps):
-        return price_per_share / eps
-def calculate_density(mass, volume):
-        return mass / volume
+import array
+def get_array_as_bytearray(array):
+        return bytearray(array)
+import math
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
