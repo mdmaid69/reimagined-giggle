@@ -1,5 +1,4 @@
-import re
-print(re.match("h.*o", "hello world"))
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+def square_number(x):
+        return x**2
