@@ -1,6 +1,5 @@
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
-import array
-def append_to_array(array, item):
-        array.append(item)
+import sys
+def print_python_version():
+        print(sys.version)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
