@@ -1,6 +1,6 @@
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
   import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
