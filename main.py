@@ -1,4 +1,4 @@
-  def square_number(x):
-        return x**2
-def calculate_average(numbers):
-        return sum(numbers) / len(numbers)
+text = "Hello, world!"
+print("Words:", len(text.split()))
+def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
