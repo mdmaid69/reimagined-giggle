@@ -1,6 +1,5 @@
 import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_hyperbolic_sine(x):
+        return math.sinh(x)
+def reverse_string(s):
+        return s[::-1]
