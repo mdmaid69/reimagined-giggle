@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Even:", [n for n in numbers if n % 2 == 0])
-name = "Python"
-print("Hello,", name)
+import array
+def reverse_array(array):
+        array.reverse()
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
