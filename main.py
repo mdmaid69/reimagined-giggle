@@ -1,5 +1,6 @@
   import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-for i in range(5):
-        print(i)
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+  import os
+  def get_file_uid(file_name):
+        return os.stat(file_name).st_uid
