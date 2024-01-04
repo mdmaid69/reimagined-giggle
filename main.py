@@ -1,5 +1,4 @@
-import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-def sort_numbers(numbers):
-        return sorted(numbers)
+import re
+print(re.match("h.*o", "hello world"))
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
