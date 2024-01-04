@@ -1,6 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
   import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
