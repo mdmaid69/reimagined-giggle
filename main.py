@@ -1,5 +1,4 @@
-def count_elements(lst):
-        return len(lst)
-import time
-def get_time_since_epoch():
-        return time.time()
+  def convert_to_hex(n):
+        return hex(n)
+import tensorflow as tf
+print(tf.__version__)
