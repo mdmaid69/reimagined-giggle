@@ -1,5 +1,4 @@
-def calculate_perpetuity(payment, rate):
-        return payment / rate
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+print([x**2 for x in range(10)])
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
