@@ -1,6 +1,4 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+  def is_odd(n):
+        return n % 2 != 0
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
