@@ -1,4 +1,4 @@
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
-def calculate_simple_interest(principal, rate, time):
-        return principal * rate * time
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+def square_number(x):
+        return x**2
