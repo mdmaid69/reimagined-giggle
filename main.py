@@ -1,6 +1,6 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-import array
-def get_array_length(array):
-        return len(array)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import sys
+def print_python_version():
+        print(sys.version)
