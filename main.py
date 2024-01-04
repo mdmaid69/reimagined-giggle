@@ -1,6 +1,6 @@
   import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def calculate_variance(arr):
+        return np.var(arr)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
