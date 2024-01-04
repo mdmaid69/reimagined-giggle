@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import os
+def change_working_directory(path):
+        os.chdir(path)
 import array
-def get_array_as_int(array):
-        return int(array[0])
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
