@@ -1,6 +1,6 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def get_list_from_array(array):
+        return array.tolist()
