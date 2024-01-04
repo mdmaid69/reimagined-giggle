@@ -1,5 +1,5 @@
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
-def subtract_numbers(x, y):
-        return x - y
+def calculate_power(work, time):
+        return work / time
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
