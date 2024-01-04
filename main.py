@@ -1,8 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import csv
-  def write_to_csv_file(file_name, data):
-        with open(file_name, "w", newline="") as file:
-          writer = csv.writer(file)
-          writer.writerows(data)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+  import os
+  def get_file_gen(file_name):
+        return os.stat(file_name).st_gen
