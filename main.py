@@ -1,6 +1,6 @@
-  def sort_list(lst):
-        return sorted(lst)
 import array
-def iterate_over_array(array):
-        for item in array:
-        print(item)
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
