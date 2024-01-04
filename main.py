@@ -1,6 +1,5 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+def calculate_density(mass, volume):
+        return mass / volume
