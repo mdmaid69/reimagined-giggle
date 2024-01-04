@@ -1,4 +1,5 @@
-  def calculate_average(lst):
-        return sum(lst) / len(lst) if len(lst) != 0 else "List is empty"
-def calculate_work(force, distance):
-        return force * distance
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_volume(length, width, height):
+        return length * width * height
