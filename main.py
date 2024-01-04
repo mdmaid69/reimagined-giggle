@@ -1,5 +1,7 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-import numpy as np
-print(np.array([1, 2, 3]))
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
