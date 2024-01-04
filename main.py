@@ -1,5 +1,5 @@
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
-def is_palindrome(s):
-        return s == s[::-1]
+import math
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import datetime
+print(datetime.datetime.now())
