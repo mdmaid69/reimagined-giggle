@@ -1,5 +1,4 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-import array
-def append_to_array(array, item):
-        array.append(item)
+  def multiply_numbers(x, y):
+        return x * y
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
