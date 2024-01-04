@@ -1,5 +1,4 @@
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
-def calculate_acceleration(speed, time):
-        return speed / time
+print(sum(range(10)))
+import array
+def get_array_as_int(array):
+        return int(array[0])
