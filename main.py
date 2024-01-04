@@ -1,4 +1,6 @@
-import random
-print(random.randint(0, 100))
-def greet(name):
-        print(f"Hello, {name}!")
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
+import array
+def clear_array(array):
+        array *= 0
