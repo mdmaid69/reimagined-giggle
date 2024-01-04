@@ -1,5 +1,6 @@
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import array
+def check_if_array_does_not_contain_item(array, item):
+        return item not in array
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
