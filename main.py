@@ -1,6 +1,6 @@
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def calculate_logarithm(base, x):
+        return math.log(x, base)
