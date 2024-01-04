@@ -1,6 +1,3 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import array
-def get_array_typecode(array):
-        return array.typecode
+print(sum(range(10)))
+  def subtract_numbers(x, y):
+        return x - y
