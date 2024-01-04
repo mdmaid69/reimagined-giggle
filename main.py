@@ -1,5 +1,5 @@
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
+import array
+def get_array_as_bool(array):
+        return bool(array)
+def calculate_profit_margin(revenue, cost):
+        return (revenue - cost) / revenue
