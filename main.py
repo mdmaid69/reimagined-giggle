@@ -1,5 +1,6 @@
+import math
+def calculate_factorial(n):
+        return math.factorial(n)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
-def count_characters(sentence):
-        return len(sentence)
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
