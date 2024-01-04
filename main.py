@@ -1,6 +1,8 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
+import unittest
+
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
   import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
