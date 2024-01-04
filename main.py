@@ -1,5 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
-def add_numbers(a, b):
-        return a + b
+  import re
+  def replace_all_occurrences(pattern, replace_with, string):
+        return re.sub(pattern, replace_with, string)
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
