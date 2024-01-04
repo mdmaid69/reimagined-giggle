@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
   import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
