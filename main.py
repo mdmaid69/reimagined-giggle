@@ -1,7 +1,6 @@
-def calculate_work(force, distance):
-        return force * distance
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import datetime
+def get_current_date():
+        return datetime.date.today()
