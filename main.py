@@ -1,6 +1,5 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import math
+def calculate_hyperbolic_arc_sine(x):
+        return math.asinh(x)
