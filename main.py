@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_complementary_error_function(x):
+        return math.erfc(x)
+def remove_duplicates(lst):
+        return list(set(lst))
