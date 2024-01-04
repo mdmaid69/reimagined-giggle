@@ -1,6 +1,5 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
+def subtract_numbers(x, y):
+        return x - y
