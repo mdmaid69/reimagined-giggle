@@ -1,5 +1,6 @@
-def calculate_power(work, time):
-        return work / time
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+import array
+def get_array_as_bytes(array):
+        return bytes(array)
