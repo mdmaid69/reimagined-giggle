@@ -1,6 +1,5 @@
-  import os
-  def get_file_inode(file_name):
-        return os.stat(file_name).st_ino
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
