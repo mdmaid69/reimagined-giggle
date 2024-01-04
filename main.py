@@ -1,4 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
-def remove_duplicates(lst):
-        return list(set(lst))
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import heapq
+def merge_sorted_iterables(*iterables):
+        return heapq.merge(*iterables)
