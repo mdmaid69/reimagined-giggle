@@ -1,6 +1,6 @@
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def get_file_atime_ns(file_name):
+        return os.stat(file_name).st_atime_ns
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
