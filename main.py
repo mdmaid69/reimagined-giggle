@@ -1,7 +1,6 @@
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+import getpass
+def get_username():
+        return getpass.getuser()
 import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
