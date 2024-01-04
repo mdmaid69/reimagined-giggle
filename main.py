@@ -1,7 +1,8 @@
-import heapq
-def push_to_heap(heap, item):
-        heapq.heappush(heap, item)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def convert_unicode_to_array(unicode, typecode):
+        a = array.array(typecode)
+        a.fromunicode(unicode)
+        return a
+import array
+def get_array_length(array):
+        return len(array)
