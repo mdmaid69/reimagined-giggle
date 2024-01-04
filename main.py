@@ -1,6 +1,5 @@
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
+def find_min(lst):
+        return min(lst)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
