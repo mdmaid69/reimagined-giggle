@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
