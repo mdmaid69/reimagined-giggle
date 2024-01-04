@@ -1,5 +1,6 @@
   import os
-  def get_file_atime_ns(file_name):
-        return os.stat(file_name).st_atime_ns
-  def square_number(x):
-        return x**2
+  def get_current_directory():
+        return os.getcwd()
+  import json
+  def convert_json_to_dict(json_str):
+        return json.loads(json_str)
