@@ -1,5 +1,5 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def count_characters(sentence):
-        return len(sentence)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
