@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import collections
-def create_user_list():
-        return collections.UserList()
+import math
+def calculate_tangent(x):
+        return math.tan(x)
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
