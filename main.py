@@ -1,8 +1,6 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
+import os
+def get_file_size(filename):
+        return os.path.getsize(filename)
