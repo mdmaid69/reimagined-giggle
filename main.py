@@ -1,7 +1,7 @@
-import unittest
-
-class TestStringMethods(unittest.TestCase):
-        def test_upper(self):
-        self.assertEqual("foo".upper(), "FOO")
-def add_numbers(a, b):
-        return a + b
+import sys
+def exit_program():
+        sys.exit()
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
