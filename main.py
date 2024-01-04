@@ -1,12 +1,5 @@
-import math
-def calculate_bessel_function_of_first_kind(n, x):
-        return math.jn(n, x)
-import functools
-def memoize(func):
-        cache = {}
-        @functools.wraps(func)
-        def wrapper(*args):
-        if args not in cache:
-                cache[args] = func(*args)
-        return cache[args]
-        return wrapper
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
