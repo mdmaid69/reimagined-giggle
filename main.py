@@ -1,7 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+import collections
+def create_priority_queue():
+        return collections.deque()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
