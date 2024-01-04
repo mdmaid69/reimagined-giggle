@@ -1,7 +1,5 @@
-  import matplotlib.pyplot as plt
-  def plot_scatter_graph(x, y):
-        plt.scatter(x, y)
-        plt.show()
-import math
-def calculate_euclidean_distance(p, q):
-        return math.dist(p, q)
+import os
+print(os.getcwd())
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
