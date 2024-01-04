@@ -1,5 +1,6 @@
-n = 10
-print("Prime numbers:", [x for x in range(2, n) if all(x % i != 0 for i in range(2, int(x**0.5) + 1))])
-  import os
-  def get_file_access_time(file_name):
-        return os.path.getatime(file_name)
+import math
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
