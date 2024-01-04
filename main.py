@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+import platform
+def get_os_info():
+        return platform.uname()
+def calculate_volume(length, width, height):
+        return length * width * height
