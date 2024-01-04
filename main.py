@@ -1,6 +1,5 @@
-import array
-def get_array_typecode(array):
-        return array.typecode
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+import collections
+def create_user_dict():
+        return collections.UserDict()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
