@@ -1,5 +1,6 @@
-def cube_number(x):
-        return x**3
-import multiprocessing
-def get_cpu_count():
-        return multiprocessing.cpu_count()
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
