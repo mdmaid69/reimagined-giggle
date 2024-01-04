@@ -1,5 +1,6 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-  def add_numbers(x, y):
-        return x + y
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
