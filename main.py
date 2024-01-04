@@ -1,4 +1,6 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-  def cube_number(x):
-        return x**3
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+import array
+def get_array_index(array, item):
+        return array.index(item)
