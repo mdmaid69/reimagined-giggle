@@ -1,4 +1,5 @@
-def calculate_factorial(n):
-        return 1 if n == 0 else n * calculate_factorial(n-1)
-def add_numbers(a, b):
-        return a + b
+def calculate_acceleration(speed, time):
+        return speed / time
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
