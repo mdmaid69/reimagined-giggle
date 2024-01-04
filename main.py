@@ -1,7 +1,6 @@
   import os
-  def get_current_working_directory():
-        return os.getcwd()
-  import matplotlib.pyplot as plt
-  def plot_pie_chart(labels, sizes):
-        plt.pie(sizes, labels=labels)
-        plt.show()
+  def get_file_gid(file_name):
+        return os.stat(file_name).st_gid
+import math
+def calculate_arc_tangent(x):
+        return math.atan(x)
