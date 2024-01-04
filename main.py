@@ -1,5 +1,6 @@
-def reverse_list(lst):
-        return lst[::-1]
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
