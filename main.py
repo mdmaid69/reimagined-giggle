@@ -1,4 +1,5 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
+def find_max(lst):
+        return max(lst)
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
