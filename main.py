@@ -1,6 +1,8 @@
-import socket
+import unittest
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-def find_max(numbers):
-        return max(numbers)
+class TestStringMethods(unittest.TestCase):
+        def test_upper(self):
+        self.assertEqual("foo".upper(), "FOO")
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
