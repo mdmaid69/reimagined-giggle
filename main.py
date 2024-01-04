@@ -1,6 +1,9 @@
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+        return "Hello, World!"
 import math
-def calculate_combinations(n, k):
-        return math.comb(n, k)
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+def calculate_ceiling(x):
+        return math.ceil(x)
