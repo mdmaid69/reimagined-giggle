@@ -1,7 +1,6 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import random
-def shuffle_list(my_list):
-        random.shuffle(my_list)
-        return my_list
+  import os
+  def get_current_directory():
+        return os.getcwd()
+import math
+def calculate_bessel_function_of_second_kind(n, x):
+        return math.yn(n, x)
