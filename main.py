@@ -1,4 +1,5 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-print("Hello, world!")
+numbers = [1, 2, 3, 4, 5]
+print("Even:", [n for n in numbers if n % 2 == 0])
+import math
+def calculate_product_of_sequence(start, stop, step):
+        return math.prod(range(start, stop, step))
