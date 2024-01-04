@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
-import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
