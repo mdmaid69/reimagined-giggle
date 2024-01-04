@@ -1,5 +1,6 @@
-import array
-def get_array_as_str(array):
-        return str(array)
-def calculate_average(lst):
-        return sum(lst) / len(lst)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
+  import numpy as np
+  def create_numpy_array(lst):
+        return np.array(lst)
