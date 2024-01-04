@@ -1,5 +1,5 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
-import array
-def get_array_length(array):
-        return len(array)
+def reverse_string(s):
+        return s[::-1]
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
