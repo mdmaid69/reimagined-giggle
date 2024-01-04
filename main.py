@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import array
+def get_array_typecode(array):
+        return array.typecode
