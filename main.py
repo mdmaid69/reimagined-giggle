@@ -1,6 +1,11 @@
-import os
-print(os.getcwd())
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
