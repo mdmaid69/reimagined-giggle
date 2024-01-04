@@ -1,5 +1,6 @@
-import datetime
-def get_today_date():
-        return datetime.date.today()
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
