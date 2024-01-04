@@ -1,5 +1,8 @@
-def count_elements(lst):
-        return len(lst)
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
