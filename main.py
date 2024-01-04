@@ -1,6 +1,4 @@
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import random
+print(random.randint(0, 100))
+def find_min(lst):
+        return min(lst)
