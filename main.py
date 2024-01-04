@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-def calculate_work(force, distance):
-        return force * distance
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+import array
+def get_array_as_format(array, format_spec):
+        return format(array, format_spec)
