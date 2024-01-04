@@ -1,6 +1,4 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import shutil
-def copy_file(src, dst):
-        shutil.copy(src, dst)
+def cube_number(x):
+        return x**3
+def calculate_eps(net_income, shares_outstanding):
+        return net_income / shares_outstanding
