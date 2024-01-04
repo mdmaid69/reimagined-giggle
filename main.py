@@ -1,6 +1,5 @@
-import collections
-def create_default_dict(default_type):
-        return collections.defaultdict(default_type)
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
+def sort_list(lst):
+        return sorted(lst)
