@@ -1,5 +1,5 @@
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
+  import os
+  def get_file_birthtime_ns(file_name):
+        return os.stat(file_name).st_birthtime_ns
