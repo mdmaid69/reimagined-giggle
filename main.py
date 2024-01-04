@@ -1,5 +1,5 @@
-  def convert_to_hex(n):
-        return hex(n)
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+import collections
+def create_user_dict():
+        return collections.UserDict()
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
