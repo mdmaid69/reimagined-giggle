@@ -1,6 +1,4 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+def count_elements(lst):
+        return len(lst)
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
