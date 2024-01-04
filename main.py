@@ -1,6 +1,5 @@
-import collections
-def create_ordered_dict():
-        return collections.OrderedDict()
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+def reverse_list(lst):
+        return lst[::-1]
+import logging
+logging.basicConfig(level=logging.INFO)
+logging.info("This is an info message")
