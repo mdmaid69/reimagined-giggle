@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+  import os
+  def get_file_lspare(file_name):
+        return os.stat(file_name).st_lspare
