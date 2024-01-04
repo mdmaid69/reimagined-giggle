@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def get_array_as_set(array):
-        return set(array)
+import itertools
+def get_permutations(iterable):
+        return list(itertools.permutations(iterable))
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
