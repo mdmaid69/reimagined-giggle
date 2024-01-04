@@ -1,6 +1,4 @@
-import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-import os
-def change_working_directory(path):
-        os.chdir(path)
+def is_palindrome(s):
+        return s == s[::-1]
+  def reverse_list(lst):
+        return lst[::-1]
