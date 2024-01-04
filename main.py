@@ -1,8 +1,6 @@
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
-import array
-def get_array_as_int(array):
-        return int(array[0])
+  import os
+  def check_if_file_exists(file_name):
+        return os.path.isfile(file_name)
+  import os
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
