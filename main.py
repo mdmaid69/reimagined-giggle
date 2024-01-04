@@ -1,6 +1,5 @@
 import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-import array
-def get_array_length(array):
-        return len(array)
+def calculate_cartesian_to_polar_coordinates(x, y):
+        return math.rect(x, y)
+def find_max(numbers):
+        return max(numbers)
