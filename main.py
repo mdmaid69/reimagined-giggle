@@ -1,6 +1,5 @@
-import platform
-def get_python_version():
-        return platform.python_version()
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
+import collections
+def create_counter():
+        return collections.Counter()
+def calculate_area_rectangle(l, w):
+        return l * w
