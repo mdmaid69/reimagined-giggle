@@ -1,6 +1,6 @@
+import math
+def calculate_modulus(x, y):
+        return math.fmod(x, y)
   import os
-  def delete_file(file_name):
-        os.remove(file_name)
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
+  def get_file_birthtime(file_name):
+        return os.stat(file_name).st_birthtime
