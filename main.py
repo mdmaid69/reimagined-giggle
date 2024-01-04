@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_variance(arr):
-        return np.var(arr)
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
+def convert_to_binary(n):
+        return bin(n)
+import math
+def calculate_sine(x):
+        return math.sin(x)
