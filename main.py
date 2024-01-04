@@ -1,10 +1,4 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import threading
-
-def print_hello():
-        print("Hello, world!")
-
-thread = threading.Thread(target=print_hello)
-thread.start()
-thread.join()
+text = "Hello, world!"
+print("Characters:", len(text))
+def find_min(lst):
+        return min(lst)
