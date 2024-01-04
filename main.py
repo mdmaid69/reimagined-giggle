@@ -1,5 +1,6 @@
-import random
-def roll_die():
-        return random.randint(1, 6)
-  def add_numbers(x, y):
-        return x + y
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
+sentence = "Hello, world!"
+from collections import Counter
+print("Word frequencies:", Counter(sentence.split()))
