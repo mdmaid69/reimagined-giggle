@@ -1,5 +1,6 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
