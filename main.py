@@ -1,5 +1,7 @@
-def reverse_list(lst):
-        return lst[::-1]
+  import matplotlib.pyplot as plt
+  def plot_graph(x, y):
+        plt.plot(x, y)
+        plt.show()
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
