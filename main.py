@@ -1,5 +1,5 @@
 import array
-def clear_array(array):
-        array *= 0
-  def calculate_area_circle(r):
-        return 3.14 * r**2
+def get_array_as_str(array):
+        return str(array)
+text = "Hello, world!"
+print("Words:", len(text.split()))
