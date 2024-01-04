@@ -1,6 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
+import shutil
+def copy_file(src, dst):
+        shutil.copy(src, dst)
+  def calculate_area_rectangle(l, w):
+        return l * w
