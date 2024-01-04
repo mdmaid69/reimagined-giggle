@@ -1,6 +1,8 @@
-import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
-  import sqlite3
-  def close_database_connection(connection):
-        connection.close()
+  import os
+  def change_current_working_directory(dir_name):
+        os.chdir(dir_name)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
