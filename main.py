@@ -1,5 +1,5 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-import re
-print(re.match("h.*o", "hello world"))
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
+text = "Hello, world!"
+print("Characters:", len(text))
