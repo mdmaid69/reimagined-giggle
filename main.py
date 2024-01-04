@@ -1,6 +1,5 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import time
-def get_current_time():
-        return time.ctime()
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
