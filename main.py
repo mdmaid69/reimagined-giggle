@@ -1,6 +1,4 @@
-  import os
-  def get_absolute_path(file_name):
-        return os.path.abspath(file_name)
-import getpass
-def get_username():
-        return getpass.getuser()
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
+text = "Hello, world!"
+print("Uppercase:", text.upper())
