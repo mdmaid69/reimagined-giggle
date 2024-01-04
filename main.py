@@ -1,4 +1,6 @@
-  def is_even(n):
-        return n % 2 == 0
-def add_numbers(x, y):
-        return x + y
+import array
+def remove_from_array(array, item):
+        array.remove(item)
+import array
+def append_to_array(array, item):
+        array.append(item)
