@@ -1,5 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-def find_max(numbers):
-        return max(numbers)
+  def count_elements(lst):
+        return len(lst)
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
