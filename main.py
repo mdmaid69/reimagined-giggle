@@ -1,6 +1,7 @@
 import array
-def get_string_from_array(array):
-        return array.tobytes()
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+def set_array_item(array, i, item):
+        array[i] = item
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
