@@ -1,5 +1,8 @@
-sentence = "Hello, world!"
-from collections import Counter
-print("Word frequencies:", Counter(sentence.split()))
-def calculate_equity_ratio(total_equity, total_assets):
-        return total_equity / total_assets
+import array
+def convert_array_to_list(array):
+        return array.tolist()
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
