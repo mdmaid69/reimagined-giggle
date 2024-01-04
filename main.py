@@ -1,6 +1,6 @@
 import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+def calculate_hyperbolic_tangent(x):
+        return math.tanh(x)
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
