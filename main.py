@@ -1,6 +1,5 @@
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
-  import os
-  def get_file_ctime(file_name):
-        return os.stat(file_name).st_ctime
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def convert_to_binary(n):
+        return bin(n)
