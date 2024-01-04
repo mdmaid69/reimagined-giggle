@@ -1,5 +1,5 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def count_characters(sentence):
-        return len(sentence)
+  def convert_to_hex(n):
+        return hex(n)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
