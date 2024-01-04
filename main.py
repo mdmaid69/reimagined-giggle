@@ -1,8 +1,4 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-import heapq
-def create_heap(iterable):
-        h = list(iterable)
-        heapq.heapify(h)
-        return h
+def find_unique_words(sentence):
+        return set(sentence.split())
+  def calculate_factorial(n):
+        return 1 if n == 0 else n * calculate_factorial(n-1)
