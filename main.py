@@ -1,5 +1,5 @@
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
-import numpy as np
-print(np.array([1, 2, 3]))
+import array
+def create_array(typecode, initializer):
+        return array.array(typecode, initializer)
+def calculate_pressure(force, area):
+        return force / area
