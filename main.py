@@ -1,6 +1,5 @@
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import array
-def get_array_as_list(array):
-        return list(array)
-import sys
-def print_python_version():
-        print(sys.version)
+def set_array_item(array, i, item):
+        array[i] = item
