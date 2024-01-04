@@ -1,7 +1,5 @@
-import json
-def load_json(filename):
-        with open(filename, "r") as f:
-        return json.load(f)
-  import os
-  def get_current_directory():
-        return os.getcwd()
+import getpass
+def get_password(prompt):
+        return getpass.getpass(prompt)
+import numpy as np
+print(np.array([1, 2, 3]))
