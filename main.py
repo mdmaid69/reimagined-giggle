@@ -1,6 +1,5 @@
-  import os
-  def create_directory(dir_name):
-        os.makedirs(dir_name, exist_ok=True)
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
+def calculate_area(radius):
+        return 3.14 * radius * radius
+import collections
+def create_chain_map(*maps):
+        return collections.ChainMap(*maps)
