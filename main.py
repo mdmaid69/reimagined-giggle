@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_median(arr):
-        return np.median(arr)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import math
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import pandas as pd
+  def read_excel_file(file_name):
+        return pd.read_excel(file_name)
