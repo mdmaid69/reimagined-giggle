@@ -1,5 +1,5 @@
-import array
-def create_array(typecode, initializer):
-        return array.array(typecode, initializer)
-def calculate_pressure(force, area):
-        return force / area
+for i in range(5):
+        print(i)
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
