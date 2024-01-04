@@ -1,5 +1,6 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
 import math
-def calculate_circle_circumference(radius):
-        return 2 * math.pi * radius
+def calculate_degrees_to_radians(degrees):
+        return math.radians(degrees)
