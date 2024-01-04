@@ -1,6 +1,5 @@
-import collections
-def count_elements(iterable):
-        return collections.Counter(iterable)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
