@@ -1,5 +1,5 @@
-  def cube_number(x):
-        return x**3
-  import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import collections
+def create_named_tuple(name, fields):
+        return collections.namedtuple(name, fields)
