@@ -1,8 +1,8 @@
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
 import array
-def get_array_from_string(string, typecode):
+def convert_unicode_to_array(unicode, typecode):
         a = array.array(typecode)
-        a.fromstring(string)
+        a.fromunicode(unicode)
         return a
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
