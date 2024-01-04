@@ -1,5 +1,7 @@
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+  import matplotlib.pyplot as plt
+  def plot_pie_chart(labels, sizes):
+        plt.pie(sizes, labels=labels)
+        plt.show()
   import os
-  def split_path(path):
-        return os.path.split(path)
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
