@@ -1,6 +1,6 @@
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
   import os
-  def get_file_device(file_name):
-        return os.stat(file_name).st_dev
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
