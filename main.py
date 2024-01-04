@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+  import sqlite3
+  def close_database_connection(connection):
+        connection.close()
+  def convert_to_binary(n):
+        return bin(n)
