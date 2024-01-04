@@ -1,8 +1,4 @@
-import random
-def generate_random_choice(choices):
-        return random.choice(choices)
-import threading
-def create_thread(target):
-        thread = threading.Thread(target=target)
-        thread.start()
-        return thread
+def convert_to_hex(n):
+        return hex(n)
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
