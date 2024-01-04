@@ -1,6 +1,6 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+import json
+def load_json(filename):
+        with open(filename, "r") as f:
+        return json.load(f)
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
