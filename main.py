@@ -1,6 +1,6 @@
-  import os
-  def join_paths(path1, path2):
-        return os.path.join(path1, path2)
-import random
-def generate_random_sample(population, k):
-        return random.sample(population, k)
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
