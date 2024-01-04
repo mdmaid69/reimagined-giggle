@@ -1,5 +1,6 @@
-def divide_numbers(x, y):
-        return x / y
-import tempfile
-def create_temp_directory():
-        return tempfile.TemporaryDirectory()
+import math
+def calculate_euclidean_distance(p, q):
+        return math.dist(p, q)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
