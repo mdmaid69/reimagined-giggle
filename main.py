@@ -1,6 +1,5 @@
-import math
-def calculate_floor(x):
-        return math.floor(x)
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
+def subtract_numbers(x, y):
+        return x - y
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
