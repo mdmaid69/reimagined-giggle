@@ -1,6 +1,6 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
