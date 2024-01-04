@@ -1,6 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-import math
-def calculate_hyperbolic_tangent(x):
-        return math.tanh(x)
+import collections
+def create_user_list():
+        return collections.UserList()
+import datetime
+def get_current_date():
+        return datetime.date.today()
