@@ -1,5 +1,5 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
