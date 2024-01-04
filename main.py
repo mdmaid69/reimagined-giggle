@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-  import json
-  def convert_dict_to_json(d):
-        return json.dumps(d)
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
+import array
+def remove_from_array(array, item):
+        array.remove(item)
