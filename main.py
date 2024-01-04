@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import math
-def calculate_hyperbolic_sine(x):
-        return math.sinh(x)
+def calculate_density(mass, volume):
+        return mass / volume
+import collections
+def create_queue():
+        return collections.deque()
