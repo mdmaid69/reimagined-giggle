@@ -1,6 +1,8 @@
-def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
