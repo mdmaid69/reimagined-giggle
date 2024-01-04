@@ -1,4 +1,9 @@
-def calculate_profit_margin(revenue, cost):
-        return (revenue - cost) / revenue
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
