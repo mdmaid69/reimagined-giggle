@@ -1,5 +1,9 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import os
-def change_working_directory(path):
-        os.chdir(path)
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
