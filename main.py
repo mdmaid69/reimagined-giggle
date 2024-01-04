@@ -1,6 +1,6 @@
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("www.python.org", 80))
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
