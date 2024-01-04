@@ -1,4 +1,5 @@
-print("Hello, world!")
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+def calculate_debt_ratio(total_debt, total_assets):
+        return total_debt / total_assets
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
