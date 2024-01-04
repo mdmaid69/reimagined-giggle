@@ -1,7 +1,5 @@
-import array
-def write_array_to_file(filename, array):
-        with open(filename, "wb") as f:
-        array.tofile(f)
-import time
-def get_current_time():
-        return time.time()
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
