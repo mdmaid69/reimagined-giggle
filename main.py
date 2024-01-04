@@ -1,6 +1,5 @@
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
-import array
-def remove_from_array(array, item):
-        array.remove(item)
+import os
+def get_current_working_directory():
+        return os.getcwd()
+n = 10
+print("Is prime:", all(n % i != 0 for i in range(2, int(n**0.5) + 1)))
