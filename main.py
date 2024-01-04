@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
+for i in range(10): print(i)
 import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def calculate_least_common_multiple(a, b):
+        return abs(a*b) // math.gcd(a, b)
