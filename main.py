@@ -1,5 +1,6 @@
 import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-def find_max(numbers):
-        return max(numbers)
+def flatten(iterable):
+        return list(itertools.chain.from_iterable(iterable))
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
