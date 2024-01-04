@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
+def convert_to_binary(n):
+        return bin(n)
+import time
+def get_time_since_epoch():
+        return time.time()
