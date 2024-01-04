@@ -1,4 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-def cube_number(x):
-        return x**3
+import sys
+def print_python_version():
+        print(sys.version)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
