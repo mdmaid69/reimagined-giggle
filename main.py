@@ -1,6 +1,5 @@
-import math
-def calculate_hyperbolic_arc_tangent(x):
-        return math.atanh(x)
-import random
-def generate_random_number(start, end):
-        return random.randint(start, end)
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
