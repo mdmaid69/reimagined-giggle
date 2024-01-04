@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def convert_array_to_string(array):
-        return array.tostring()
+  def is_even(n):
+        return n % 2 == 0
+import sys
+def exit_program():
+        sys.exit()
