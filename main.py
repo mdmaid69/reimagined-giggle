@@ -1,4 +1,6 @@
+import array
+def get_array_typecode(array):
+        return array.typecode
 import math
-def calculate_remainder(x, y):
-        return math.remainder(x, y)
-print([x**2 for x in range(10)])
+def calculate_hyperbolic_arc_tangent(x):
+        return math.atanh(x)
