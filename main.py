@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import platform
+def get_python_version():
+        return platform.python_version()
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
