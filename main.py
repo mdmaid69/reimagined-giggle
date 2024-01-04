@@ -1,8 +1,6 @@
+import math
+def calculate_arc_cosine(x):
+        return math.acos(x)
   import os
-  def get_base_name(path):
-        return os.path.basename(path)
-n = 5
-result = 1
-for i in range(1, n + 1):
-        result *= i
-print("Factorial:", result)
+  def get_file_qspare(file_name):
+        return os.stat(file_name).st_qspare
