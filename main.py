@@ -1,4 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-text = "Hello, world!"
-print("Uppercase:", text.upper())
+  def reverse_list(lst):
+        return lst[::-1]
+def is_even(n):
+        return n % 2 == 0
