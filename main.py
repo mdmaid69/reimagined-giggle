@@ -1,6 +1,6 @@
-import os
-def get_environment_variable(var):
-        return os.getenv(var)
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+import itertools
+def get_cartesian_product(*iterables):
+        return list(itertools.product(*iterables))
