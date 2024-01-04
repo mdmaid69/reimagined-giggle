@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
   import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
+  def check_if_directory_exists(dir_name):
+        return os.path.isdir(dir_name)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
