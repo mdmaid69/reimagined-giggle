@@ -1,5 +1,6 @@
-import math
-print(math.pi)
-import array
-def get_array_item(array, i):
-        return array[i]
+  def convert_to_binary(n):
+        return bin(n)
+import json
+def save_json(data, filename):
+        with open(filename, "w") as f:
+        json.dump(data, f)
