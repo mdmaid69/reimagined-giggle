@@ -1,7 +1,5 @@
-import time
-def get_current_time():
-        return time.ctime()
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def calculate_power(work, time):
+        return work / time
