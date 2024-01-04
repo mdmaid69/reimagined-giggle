@@ -1,6 +1,8 @@
-import platform
-def get_os_info():
-        return platform.uname()
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
+  import matplotlib.pyplot as plt
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
+        plt.show()
