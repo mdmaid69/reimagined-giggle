@@ -1,6 +1,6 @@
-import logging
-logging.basicConfig(level=logging.INFO)
-logging.info("This is an info message")
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+import array
+def get_array_as_memoryview(array):
+        return memoryview(array)
