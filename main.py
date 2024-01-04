@@ -1,8 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import array
-def get_array_from_string(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  def is_odd(n):
+        return n % 2 != 0
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
