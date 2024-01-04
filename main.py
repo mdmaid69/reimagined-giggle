@@ -1,6 +1,6 @@
-  import os
-  def get_current_working_directory():
-        return os.getcwd()
+import random
+def roll_die():
+        return random.randint(1, 6)
 import math
-def calculate_sphere_volume(radius):
-        return 4/3 * math.pi * radius**3
+def calculate_arc_cosine(x):
+        return math.acos(x)
