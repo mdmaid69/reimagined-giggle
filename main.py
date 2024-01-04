@@ -1,5 +1,5 @@
-def calculate_current_ratio(current_assets, current_liabilities):
-        return current_assets / current_liabilities
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  def subtract_numbers(x, y):
+        return x - y
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
