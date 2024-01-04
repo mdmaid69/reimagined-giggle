@@ -1,5 +1,12 @@
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
-import array
-def get_array_itemsize(array):
-        return array.itemsize
+  import os
+  def get_file_modification_time(file_name):
+        return os.path.getmtime(file_name)
+import queue
+
+q = queue.Queue()
+
+for i in range(5):
+        q.put(i)
+
+while not q.empty():
+        print(q.get())
