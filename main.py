@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import time
-def get_current_time():
-        return time.ctime()
+for i in range(5):
+        print(i)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
