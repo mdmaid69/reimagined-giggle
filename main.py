@@ -1,6 +1,6 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-import math
-def calculate_product_of_sequence(start, stop, step):
-        return math.prod(range(start, stop, step))
+import array
+def get_string_from_array(array):
+        return array.tobytes()
+  import os
+  def change_file_permissions(file_name, mode):
+        os.chmod(file_name, mode)
