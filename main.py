@@ -1,6 +1,6 @@
 import math
-def calculate_hypotenuse(a, b):
-        return math.sqrt(a**2 + b**2)
-  import os
-  def get_file_gen(file_name):
-        return os.stat(file_name).st_gen
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
