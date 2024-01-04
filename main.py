@@ -1,6 +1,5 @@
-import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_blksize(file_name):
-        return os.stat(file_name).st_blksize
+n = 10
+print("Square numbers:", [x**2 for x in range(n)])
+def find_frequency(sentence):
+        from collections import Counter
+        return Counter(sentence.split())
