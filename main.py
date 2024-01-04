@@ -1,4 +1,6 @@
-  def count_elements(lst):
-        return len(lst)
-def is_odd(n):
-        return n % 2 != 0
+import array
+def convert_array_to_unicode(array):
+        return array.tounicode()
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
