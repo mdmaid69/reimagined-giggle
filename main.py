@@ -1,6 +1,5 @@
-import math
-def calculate_root(x, n):
-        return math.pow(x, 1/n)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def remove_duplicates(lst):
+        return list(set(lst))
+import array
+def convert_array_to_list(array):
+        return array.tolist()
