@@ -1,5 +1,6 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-for i in range(5):
-        print(i)
+import array
+def get_array_as_complex(array):
+        return complex(array[0])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
