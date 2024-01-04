@@ -1,5 +1,5 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+def add_numbers(x, y):
+        return x + y
+import array
+def get_string_from_array(array):
+        return array.tobytes()
