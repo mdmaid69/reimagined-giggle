@@ -1,4 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-def calculate_debt_ratio(total_debt, total_assets):
-        return total_debt / total_assets
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
