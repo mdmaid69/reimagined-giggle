@@ -1,6 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-import math
-def calculate_cube_root(x):
-        return math.pow(x, 1/3)
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+  def subtract_numbers(x, y):
+        return x - y
