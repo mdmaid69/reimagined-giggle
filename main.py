@@ -1,4 +1,5 @@
-def calculate_amortization(principal, rate, time):
-        return (principal * rate) / (1 - (1 + rate)**-time)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import sklearn.datasets
+print(sklearn.datasets.load_iris())
+import logging
+def setup_logging(level):
+        logging.basicConfig(level=level)
