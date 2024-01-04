@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def divide_numbers(x, y):
-        return x / y
+def multiply_numbers(x, y):
+        return x * y
+import array
+def reverse_array(array):
+        array.reverse()
