@@ -1,6 +1,5 @@
-import re
-def find_pattern(pattern, string):
-        return re.findall(pattern, string)
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+n = 10
+print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
