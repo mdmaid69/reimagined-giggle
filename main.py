@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import math
-def calculate_tangent(x):
-        return math.tan(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
