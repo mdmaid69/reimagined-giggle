@@ -1,5 +1,6 @@
-import math
-def calculate_degrees_to_radians(degrees):
-        return math.radians(degrees)
-def calculate_eps(net_income, shares_outstanding):
-        return net_income / shares_outstanding
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
