@@ -1,6 +1,5 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-import array
-def get_array_length(array):
-        return len(array)
+def get_array_as_memoryview(array):
+        return memoryview(array)
+def calculate_amortization(principal, rate, time):
+        return (principal * rate) / (1 - (1 + rate)**-time)
