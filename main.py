@@ -1,7 +1,5 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import collections
+def create_stack():
+        return collections.deque()
+def calculate_return_on_equity(net_income, total_equity):
+        return net_income / total_equity
