@@ -1,5 +1,6 @@
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
 import array
-def get_array_typecode(array):
-        return array.typecode
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+def insert_into_array(array, i, item):
+        array.insert(i, item)
