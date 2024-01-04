@@ -1,5 +1,6 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  def multiply_numbers(x, y):
-        return x * y
+import sys
+def print_python_version():
+        print(sys.version)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
