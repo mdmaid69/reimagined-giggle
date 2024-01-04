@@ -1,5 +1,5 @@
-import array
-def append_to_array(array, item):
-        array.append(item)
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_circle_area(radius):
+        return math.pi * radius**2
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
