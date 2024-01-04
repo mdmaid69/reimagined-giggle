@@ -1,5 +1,6 @@
-  import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
-def reverse_list(lst):
-        return lst[::-1]
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
+import re
+def replace_pattern(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
