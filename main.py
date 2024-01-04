@@ -1,5 +1,4 @@
-def is_odd(n):
-        return n % 2 != 0
-import array
-def get_array_item(array, i):
-        return array[i]
+  def convert_to_hex(n):
+        return hex(n)
+  def calculate_area_rectangle(l, w):
+        return l * w
