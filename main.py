@@ -1,6 +1,7 @@
 import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
