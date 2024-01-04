@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-import array
-def get_array_as_memoryview(array):
-        return memoryview(array)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import sys
+print(sys.version)
