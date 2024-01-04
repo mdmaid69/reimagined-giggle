@@ -1,4 +1,6 @@
-def add_numbers(a, b):
-        return a + b
-def calculate_interest(principal, rate, time):
-        return principal * (1 + rate)**time
+import platform
+def get_python_version():
+        return platform.python_version()
+  import os
+  def get_file_ctime(file_name):
+        return os.stat(file_name).st_ctime
