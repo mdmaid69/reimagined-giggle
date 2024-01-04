@@ -1,7 +1,5 @@
-def count_characters(sentence):
-        return len(sentence)
-def fibonacci(n):
-        a, b = 0, 1
-        while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def calculate_speed(distance, time):
+        return distance / time
