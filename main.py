@@ -1,6 +1,5 @@
-  import os
-  def get_file_blocks(file_name):
-        return os.stat(file_name).st_blocks
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+  def reverse_list(lst):
+        return lst[::-1]
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
