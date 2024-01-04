@@ -1,5 +1,6 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-  def multiply_numbers(x, y):
-        return x * y
+  import csv
+  def read_csv_file(file_name):
+        with open(file_name, "r") as file:
+          return list(csv.reader(file))
+text = "Hello, world!"
+print("Words:", len(text.split()))
