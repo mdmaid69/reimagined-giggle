@@ -1,7 +1,7 @@
-import csv
-def write_csv_file(filename, data):
-        with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerows(data)
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+import random
+def shuffle_list(my_list):
+        random.shuffle(my_list)
+        return my_list
+import math
+def calculate_ceiling(x):
+        return math.ceil(x)
