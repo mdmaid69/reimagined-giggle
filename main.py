@@ -1,6 +1,8 @@
   import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-  import random
-  def generate_random_number(start, end):
-        return random.randint(start, end)
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
+import heapq
+def create_heap(iterable):
+        h = list(iterable)
+        heapq.heapify(h)
+        return h
