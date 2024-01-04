@@ -1,5 +1,4 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-  def square_number(x):
-        return x**2
+def calculate_pressure(force, area):
+        return force / area
+  def calculate_area_rectangle(l, w):
+        return l * w
