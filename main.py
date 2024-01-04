@@ -1,5 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  def is_odd(n):
-        return n % 2 != 0
+def calculate_acceleration(speed, time):
+        return speed / time
+  import os
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
