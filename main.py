@@ -1,6 +1,4 @@
-  import os
-  def get_file_gid(file_name):
-        return os.stat(file_name).st_gid
-import array
-def get_array_as_complex(array):
-        return complex(array[0])
+import random
+print(random.randint(0, 100))
+text = "Hello, world!"
+print("Reversed:", text[::-1])
