@@ -1,5 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-import getpass
-def get_username():
-        return getpass.getuser()
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_distance(x1, y1, x2, y2):
+        return ((x2 - x1)**2 + (y2 - y1)**2)**0.5
