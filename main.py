@@ -1,6 +1,5 @@
-import math
-def calculate_absolute_value(x):
-        return math.fabs(x)
+  def calculate_perimeter_triangle(a, b, c):
+        return a + b + c
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
