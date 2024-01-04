@@ -1,6 +1,5 @@
+def calculate_power(work, time):
+        return work / time
   import os
-  def delete_directory(dir_name):
-        os.rmdir(dir_name)
-  import os
-  def get_file_mtime_ns(file_name):
-        return os.stat(file_name).st_mtime_ns
+  def get_file_rdev(file_name):
+        return os.stat(file_name).st_rdev
