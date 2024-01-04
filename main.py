@@ -1,7 +1,8 @@
-import math
-def calculate_logarithm(base, x):
-        return math.log(x, base)
-  import matplotlib.pyplot as plt
-  def plot_bar_graph(x, y):
-        plt.bar(x, y)
-        plt.show()
+import csv
+with open("some.csv", "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["spam", "eggs", "bacon", "ham"])
+        writer.writerow(["Hello, world!", "eggs", "bacon", "ham"])
+import sys
+def print_python_version():
+        print(sys.version)
