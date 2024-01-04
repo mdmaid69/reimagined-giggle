@@ -1,5 +1,10 @@
-def calculate_work(force, distance):
-        return force * distance
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
+import smtplib
+def send_email(smtp_server, port, username, password, from_addr, to_addr, subject, body):
+        with smtplib.SMTP(smtp_server, port) as server:
+        server.login(username, password)
+        server.sendmail(from_addr, to_addr, f"Subject: {subject}
+
+{body}")
