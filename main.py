@@ -1,6 +1,5 @@
-import sys
-def print_python_version():
-        return sys.version
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+import math
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
+def convert_to_hex(n):
+        return hex(n)
