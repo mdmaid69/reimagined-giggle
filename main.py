@@ -1,4 +1,5 @@
-import collections
-def create_user_dict():
-        return collections.UserDict()
-for i in range(10): print(i)
+def calculate_area_circle(r):
+        return 3.14 * r**2
+import math
+def calculate_square_root(x):
+        return math.sqrt(x)
