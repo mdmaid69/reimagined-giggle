@@ -1,5 +1,6 @@
-import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
-import math
-print(math.pi)
+import sys
+def add_to_python_path(path):
+        sys.path.append(path)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
