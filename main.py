@@ -1,4 +1,6 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-numbers = [1, 2, 3, 4, 5]
-print("Max:", max(numbers))
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import collections
+def create_priority_queue():
+        return collections.deque()
