@@ -1,5 +1,9 @@
-def calculate_area(radius):
-        return 3.14 * radius * radius
-import re
-def replace_pattern(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
+def is_prime(n):
+        if n < 2: return False
+        for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+                return False
+        return True
+import time
+def get_time_since_epoch():
+        return time.time()
