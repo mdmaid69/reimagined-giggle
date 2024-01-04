@@ -1,4 +1,6 @@
-def find_max(lst):
-        return max(lst)
-import math
-print(math.pi)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
