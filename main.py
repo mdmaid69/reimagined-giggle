@@ -1,6 +1,7 @@
-def subtract_numbers(x, y):
-        return x - y
   import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
+  def plot_scatter_graph(x, y):
+        plt.scatter(x, y)
         plt.show()
+import collections
+def create_user_list():
+        return collections.UserList()
