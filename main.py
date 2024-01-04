@@ -1,6 +1,6 @@
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+  import sqlite3
+  def connect_to_database(db_name):
+        return sqlite3.connect(db_name)
 import math
-def calculate_power(base, exponent):
-        return math.pow(base, exponent)
+def calculate_neper_number_to_power_x(x):
+        return math.exp(x)
