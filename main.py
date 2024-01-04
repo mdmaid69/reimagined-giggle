@@ -1,6 +1,8 @@
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
-import math
-def calculate_inverse_hyperbolic_tangent(x):
-        return math.atanh(x)
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
+import csv
+def save_csv(data, filename):
+        with open(filename, "w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerows(data)
