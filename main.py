@@ -1,5 +1,5 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def convert_to_hex(n):
-        return hex(n)
+  def calculate_area_circle(r):
+        return 3.14 * r**2
+x = 10
+y = 20
+print("Sum:", x + y)
