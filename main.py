@@ -1,4 +1,6 @@
-def calculate_volume(length, width, height):
-        return length * width * height
-def calculate_acceleration(speed, time):
-        return speed / time
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def reverse_array(array):
+        array.reverse()
