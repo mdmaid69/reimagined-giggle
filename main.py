@@ -1,5 +1,4 @@
-import math
-def calculate_sign(x):
-        return math.copysign(1, x)
-def calculate_area_rectangle(l, w):
-        return l * w
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+n = 10
+print("Even numbers:", [x for x in range(n) if x % 2 == 0])
