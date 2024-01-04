@@ -1,5 +1,5 @@
-def calculate_area_circle(r):
-        return 3.14 * r**2
-import math
-def calculate_logarithm_base_2(x):
-        return math.log2(x)
+import time
+def get_formatted_time():
+        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+  def add_numbers(x, y):
+        return x + y
