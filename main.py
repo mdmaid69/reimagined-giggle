@@ -1,9 +1,6 @@
-i = 0
-while i < 5:
-        print(i)
-        i += 1
 import array
-def get_array_from_bytes(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+def check_if_array_contains_item(array, item):
+        return item in array
+import math
+def calculate_sphere_volume(radius):
+        return 4/3 * math.pi * radius**3
