@@ -1,7 +1,6 @@
-import re
-def split_by_pattern(pattern, string):
-        return re.split(pattern, string)
-import json
-def save_json(data, filename):
-        with open(filename, "w") as f:
-        json.dump(data, f)
+import array
+def insert_into_array(array, i, item):
+        array.insert(i, item)
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
