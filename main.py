@@ -1,5 +1,5 @@
-def is_even(n):
-        return n % 2 == 0
-import itertools
-def get_combinations(iterable, r):
-        return list(itertools.combinations(iterable, r))
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
+def sort_list(lst):
+        return sorted(lst)
