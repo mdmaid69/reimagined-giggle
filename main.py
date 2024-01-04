@@ -1,5 +1,5 @@
 import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-def multiply_numbers(x, y):
-        return x * y
+def get_list_from_array(array):
+        return array.tolist()
+def is_odd(n):
+        return n % 2 != 0
