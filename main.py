@@ -1,9 +1,4 @@
-import math
-def calculate_logarithm_of_gamma_function(x):
-        return math.lgamma(x)
-import argparse
-def parse_arguments():
-        parser = argparse.ArgumentParser()
-        parser.add_argument("--input")
-        parser.add_argument("--output")
-        return parser.parse_args()
+from collections import Counter
+print(Counter("hello world"))
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
