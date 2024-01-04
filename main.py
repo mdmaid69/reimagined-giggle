@@ -1,7 +1,7 @@
 import array
-def get_array_from_string(string, typecode):
+def convert_string_to_array(string, typecode):
         a = array.array(typecode)
         a.fromstring(string)
         return a
-def is_palindrome(s):
-        return s == s[::-1]
+def calculate_area_circle(r):
+        return 3.14 * r**2
