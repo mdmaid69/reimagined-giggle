@@ -1,6 +1,5 @@
-import re
-def replace_all_occurrences(pattern, replacement, string):
-        return re.sub(pattern, replacement, string)
-import re
-def split_string(pattern, string):
-        return re.split(pattern, string)
+import math
+def calculate_floor(x):
+        return math.floor(x)
+def subtract_numbers(x, y):
+        return x - y
