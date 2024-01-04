@@ -1,5 +1,6 @@
-def calculate_force(mass, acceleration):
-        return mass * acceleration
+  import os
+  def get_file_block_size(file_name):
+        return os.stat(file_name).st_blksize
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_logarithm_base_e(x):
+        return math.log(x)
