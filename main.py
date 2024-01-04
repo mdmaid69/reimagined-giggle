@@ -1,5 +1,5 @@
-  def reverse_list(lst):
-        return lst[::-1]
 import array
-def get_array_item(array, i):
-        return array[i]
+def get_bytes_from_array(array):
+        return array.tobytes()
+def find_max(numbers):
+        return max(numbers)
