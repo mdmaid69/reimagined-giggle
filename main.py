@@ -1,4 +1,5 @@
-def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-n = 10
-print("Factorial numbers:", [1 if x == 0 else x * factorial(x - 1) for x in range(n)])
+import math
+def calculate_remainder(x, y):
+        return math.remainder(x, y)
+def convert_to_octal(n):
+        return oct(n)
