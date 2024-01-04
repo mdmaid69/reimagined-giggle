@@ -1,6 +1,5 @@
+def reverse_list(lst):
+        return lst[::-1]
 import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
+def calculate_floor(x):
+        return math.floor(x)
