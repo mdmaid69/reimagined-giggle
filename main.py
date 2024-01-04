@@ -1,4 +1,5 @@
-  def divide_numbers(x, y):
-        return x / y if y != 0 else "Cannot divide by zero"
-  def calculate_area_rectangle(l, w):
-        return l * w
+  def cube_number(x):
+        return x**3
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
