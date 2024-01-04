@@ -1,5 +1,5 @@
-def calculate_annuity(payment, rate, time):
-        return payment * ((1 - (1 + rate)**-time) / rate)
-import math
-def calculate_hyperbolic_arc_cosine(x):
-        return math.acosh(x)
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
+def calculate_present_value(future_value, rate, time):
+        return future_value / (1 + rate)**time
