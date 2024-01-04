@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-import platform
-def get_python_version():
-        return platform.python_version()
+import itertools
+def get_combinations(iterable, r):
+        return list(itertools.combinations(iterable, r))
+import array
+def convert_list_to_array(list, typecode):
+        return array.array(typecode, list)
