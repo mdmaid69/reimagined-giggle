@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
+def add_numbers(x, y):
+        return x + y
 import math
-def calculate_error_function(x):
-        return math.erf(x)
+def calculate_sine(x):
+        return math.sin(x)
