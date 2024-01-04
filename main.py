@@ -1,6 +1,6 @@
-import array
-def get_array_as_set(array):
-        return set(array)
-import array
-def check_if_array_contains_item(array, item):
-        return item in array
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+import random
+def generate_random_choice(choices):
+        return random.choice(choices)
