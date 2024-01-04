@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import math
+def calculate_logarithm(base, x):
+        return math.log(x, base)
+import os
+def get_environment_variable(var):
+        return os.getenv(var)
