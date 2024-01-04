@@ -1,5 +1,6 @@
-def count_characters(sentence):
-        return len(sentence)
-import math
-def calculate_inverse_hyperbolic_cosine(x):
-        return math.acosh(x)
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [4, 5, 6])
+plt.show()
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
