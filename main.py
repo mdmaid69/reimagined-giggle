@@ -1,4 +1,5 @@
-def calculate_power(work, time):
-        return work / time
-  def convert_to_binary(n):
-        return bin(n)
+def calculate_force(mass, acceleration):
+        return mass * acceleration
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
