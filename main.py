@@ -1,5 +1,5 @@
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
-def calculate_work(force, distance):
-        return force * distance
+import shutil
+def delete_directory(path):
+        shutil.rmtree(path)
+import functools
+print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
