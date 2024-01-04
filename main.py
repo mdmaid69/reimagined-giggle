@@ -1,5 +1,5 @@
-import math
-def calculate_error_function(x):
-        return math.erf(x)
-def reverse_list(lst):
-        return lst[::-1]
+  import os
+  def get_file_dev(file_name):
+        return os.stat(file_name).st_dev
+def find_min(lst):
+        return min(lst)
