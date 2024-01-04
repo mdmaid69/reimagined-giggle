@@ -1,4 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-n = 10
-print("Powers of 2:", [2**x for x in range(n)])
+import array
+def reverse_array(array):
+        array.reverse()
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
