@@ -1,6 +1,5 @@
-import array
-def get_array_as_tuple(array):
-        return tuple(array)
-x = 10
-y = 20
-print("Sum:", x + y)
+import sys
+def print_python_version():
+        return sys.version
+def calculate_force(mass, acceleration):
+        return mass * acceleration
