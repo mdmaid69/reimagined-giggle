@@ -1,5 +1,6 @@
+  import os
+  def get_file_flags(file_name):
+        return os.stat(file_name).st_flags
 import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-import functools
-print(functools.reduce(lambda x, y: x+y, [1, 2, 3, 4, 5]))
+def get_array_slice(array, i, j):
+        return array[i:j]
