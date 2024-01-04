@@ -1,4 +1,5 @@
-def calculate_mortgage(principal, rate, time):
-        return (principal * rate * (1 + rate)**time) / ((1 + rate)**time - 1)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def remove_duplicates(lst):
+        return list(set(lst))
+import os
+def list_files_in_directory(path):
+        return os.listdir(path)
