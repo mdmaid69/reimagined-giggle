@@ -1,5 +1,6 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import json
-print(json.dumps({"name": "John", "age": 30}))
+import datetime
+def get_current_datetime():
+        return datetime.datetime.now()
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
