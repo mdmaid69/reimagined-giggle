@@ -1,6 +1,5 @@
-import collections
-def create_named_tuple(name, fields):
-        return collections.namedtuple(name, fields)
+def convert_to_octal(n):
+        return oct(n)
   import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
+  def list_files_in_directory(dir_name):
+        return os.listdir(dir_name)
