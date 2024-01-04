@@ -1,6 +1,5 @@
-import heapq
-def push_pop_heap(heap, item):
-        return heapq.heappushpop(heap, item)
-import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
+def calculate_work(force, distance):
+        return force * distance
+  import os
+  def get_file_atime(file_name):
+        return os.stat(file_name).st_atime
