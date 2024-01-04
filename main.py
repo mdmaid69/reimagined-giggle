@@ -1,6 +1,8 @@
-import os
-def get_file_modification_time(filename):
-        return os.path.getmtime(filename)
 import array
-def insert_into_array(array, i, item):
-        array.insert(i, item)
+def get_array_buffer_info(array):
+        return array.buffer_info()
+n = 5
+result = 1
+for i in range(1, n + 1):
+        result *= i
+print("Factorial:", result)
