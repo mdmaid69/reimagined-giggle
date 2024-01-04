@@ -1,7 +1,5 @@
-import re
-print(re.match("h.*o", "hello world"))
+  import sys
+  def get_python_version():
+        return sys.version
 n = 10
-a, b = 0, 1
-while a < n:
-        print(a, end=" ")
-        a, b = b, a+b
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
