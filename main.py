@@ -1,5 +1,5 @@
-import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-def subtract_numbers(x, y):
-        return x - y
+name = "Python"
+print("Hello,", name)
+  import os
+  def get_file_size(file_name):
+        return os.path.getsize(file_name)
