@@ -1,5 +1,8 @@
-  def find_max(lst):
-        return max(lst) if len(lst) != 0 else "List is empty"
+import math
+def calculate_gamma_function(x):
+        return math.gamma(x)
 import array
-def convert_array_to_string(array):
-        return array.tostring()
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
