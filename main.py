@@ -1,5 +1,6 @@
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
-import os
-def list_files_in_directory(path):
-        return os.listdir(path)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
+  import os
+  def get_file_access_time(file_name):
+        return os.path.getatime(file_name)
