@@ -1,6 +1,6 @@
+  import os
+  def get_directory_name(path):
+        return os.path.dirname(path)
 import array
-def get_array_index(array, item):
-        return array.index(item)
-import math
-def calculate_hyperbolic_arc_sine(x):
-        return math.asinh(x)
+def get_array_as_complex(array):
+        return complex(array[0])
