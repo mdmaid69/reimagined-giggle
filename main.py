@@ -1,6 +1,8 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+import http.client
+conn = http.client.HTTPSConnection("www.python.org")
+conn.request("GET", "/")
+r1 = conn.getresponse()
+print(r1.status, r1.reason)
+import array
+def get_array_as_tuple(array):
+        return tuple(array)
