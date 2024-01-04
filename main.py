@@ -1,5 +1,6 @@
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
-text = "Hello, world!"
-print("Reversed:", text[::-1])
+import shutil
+def move_file(src, dst):
+        shutil.move(src, dst)
+import multiprocessing
+def get_cpu_count():
+        return multiprocessing.cpu_count()
