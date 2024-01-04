@@ -1,4 +1,6 @@
-  import math
-  def calculate_square_root(n):
-        return math.sqrt(n)
-for i in range(10): print(i)
+import math
+def calculate_inverse_hyperbolic_sine(x):
+        return math.asinh(x)
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
