@@ -1,5 +1,6 @@
-numbers = [1, 2, 3, 4, 5]
-print("Average:", sum(numbers) / len(numbers))
+import array
+def get_list_from_array(array):
+        return array.tolist()
   import os
-  def get_file_rdev(file_name):
-        return os.stat(file_name).st_rdev
+  def get_file_ctime_ns(file_name):
+        return os.stat(file_name).st_ctime_ns
