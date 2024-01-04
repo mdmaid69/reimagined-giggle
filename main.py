@@ -1,5 +1,5 @@
-import collections
-def create_priority_queue():
-        return collections.deque()
-def remove_duplicates(lst):
-        return list(set(lst))
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+def convert_to_octal(n):
+        return oct(n)
