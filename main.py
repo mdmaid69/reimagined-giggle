@@ -1,4 +1,5 @@
-  def calculate_circumference_circle(r):
-        return 2 * 3.14 * r
-def convert_to_octal(n):
-        return oct(n)
+def convert_to_hex(n):
+        return hex(n)
+import array
+def set_array_slice(array, i, j, iterable):
+        array[i:j] = iterable
