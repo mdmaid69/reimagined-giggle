@@ -1,5 +1,5 @@
-import array
-def get_array_item_count(array, item):
-        return array.count(item)
-  def convert_to_binary(n):
-        return bin(n)
+  import numpy as np
+  def calculate_standard_deviation(arr):
+        return np.std(arr)
+  def reverse_list(lst):
+        return lst[::-1]
