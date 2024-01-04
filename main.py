@@ -1,6 +1,6 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import shutil
-def delete_directory(path):
-        shutil.rmtree(path)
+import array
+def get_array_as_float(array):
+        return float(array[0])
+  import numpy as np
+  def calculate_median(arr):
+        return np.median(arr)
