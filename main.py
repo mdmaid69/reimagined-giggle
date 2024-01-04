@@ -1,4 +1,8 @@
-  def calculate_area_triangle(b, h):
-        return 0.5 * b * h
-def sort_list(lst):
-        return sorted(lst)
+import logging
+def log_message(message):
+        logging.info(message)
+n = 10
+a, b = 0, 1
+while a < n:
+        print(a, end=" ")
+        a, b = b, a+b
