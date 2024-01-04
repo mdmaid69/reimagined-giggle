@@ -1,6 +1,5 @@
+def calculate_pe_ratio(price_per_share, eps):
+        return price_per_share / eps
 import math
-def calculate_permutations(n, k):
-        return math.perm(n, k)
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+def calculate_logarithm_base_e(x):
+        return math.log(x)
