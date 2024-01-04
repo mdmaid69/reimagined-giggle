@@ -1,6 +1,6 @@
-import sys
-def print_python_version():
-        print(sys.version)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+import platform
+def get_python_version():
+        return platform.python_version()
+import array
+def remove_from_array(array, item):
+        array.remove(item)
