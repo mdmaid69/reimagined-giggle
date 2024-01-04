@@ -1,6 +1,6 @@
-import math
-def calculate_cartesian_to_polar_coordinates(x, y):
-        return math.rect(x, y)
-  import datetime
-  def get_current_date():
-        return datetime.datetime.now().date()
+  import os
+  def join_paths(path1, path2):
+        return os.path.join(path1, path2)
+import heapq
+def pop_from_heap(heap):
+        return heapq.heappop(heap)
