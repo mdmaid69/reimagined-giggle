@@ -1,4 +1,5 @@
-def reverse_string(s):
-        return s[::-1]
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
