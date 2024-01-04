@@ -1,6 +1,5 @@
-import logging
-def setup_logging(level):
-        logging.basicConfig(level=level)
-import math
-def calculate_cosine(x):
-        return math.cos(x)
+def convert_to_hex(n):
+        return hex(n)
+  import math
+  def calculate_square_root(n):
+        return math.sqrt(n)
