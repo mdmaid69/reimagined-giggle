@@ -1,6 +1,5 @@
-import math
-def calculate_square_root(x):
-        return math.sqrt(x)
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
