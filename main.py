@@ -1,7 +1,6 @@
-text = "Hello, world!"
-print("Uppercase:", text.upper())
-import array
-def convert_string_to_array(string, typecode):
-        a = array.array(typecode)
-        a.fromstring(string)
-        return a
+  import matplotlib.pyplot as plt
+  def plot_histogram(data, bins):
+        plt.hist(data, bins=bins)
+        plt.show()
+import re
+print(re.match("h.*o", "hello world"))
