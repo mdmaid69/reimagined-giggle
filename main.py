@@ -1,5 +1,5 @@
-def is_palindrome(s):
-        return s == s[::-1]
-  import os
-  def get_file_uid(file_name):
-        return os.stat(file_name).st_uid
+n = 10
+print("Powers of 2:", [2**x for x in range(n)])
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
