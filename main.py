@@ -1,8 +1,5 @@
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
   import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import array
-def convert_bytes_to_array(bytes, typecode):
-        a = array.array(typecode)
-        a.frombytes(bytes)
-        return a
+  def get_file_blksize(file_name):
+        return os.stat(file_name).st_blksize
