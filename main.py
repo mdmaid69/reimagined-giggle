@@ -1,5 +1,4 @@
-  import os
-  def get_parent_directory(dir_name):
-        return os.path.dirname(dir_name)
-def calculate_roi(gain, cost):
-        return (gain - cost) / cost
+def convert_to_hex(n):
+        return hex(n)
+def find_common_elements(list1, list2):
+        return set(list1) & set(list2)
