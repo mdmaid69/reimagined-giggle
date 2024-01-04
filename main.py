@@ -1,6 +1,5 @@
+  def calculate_circumference_circle(r):
+        return 2 * 3.14 * r
 import array
-def get_array_as_float(array):
-        return float(array[0])
-  import os
-  def rename_file(old_name, new_name):
-        os.rename(old_name, new_name)
+def get_array_from_list(list, typecode):
+        return array.array(typecode, list)
