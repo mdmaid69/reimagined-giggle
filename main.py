@@ -1,4 +1,6 @@
-  def calculate_area_circle(r):
-        return 3.14 * r**2
-def find_min(lst):
-        return min(lst)
+  def calculate_area_triangle(b, h):
+        return 0.5 * b * h
+import array
+def write_array_to_file(filename, array):
+        with open(filename, "wb") as f:
+        array.tofile(f)
