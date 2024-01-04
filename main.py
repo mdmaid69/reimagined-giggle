@@ -1,5 +1,6 @@
-def calculate_speed(distance, time):
-        return distance / time
 import math
-def calculate_logarithm_base_e(x):
-        return math.log(x)
+def calculate_radians_to_degrees(radians):
+        return math.degrees(radians)
+  import os
+  def get_file_mode(file_name):
+        return os.stat(file_name).st_mode
