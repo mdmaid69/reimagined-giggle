@@ -1,6 +1,4 @@
-import array
-def get_array_slice(array, i, j):
-        return array[i:j]
-import array
-def clear_array(array):
-        array *= 0
+def calculate_perpetuity(payment, rate):
+        return payment / rate
+def count_elements(lst):
+        return len(lst)
