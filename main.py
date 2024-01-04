@@ -1,4 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import os
-print(os.getcwd())
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
+  def is_odd(n):
+        return n % 2 != 0
