@@ -1,4 +1,5 @@
-  def convert_to_binary(n):
-        return bin(n)
-import sys
-print(sys.version)
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+def convert_to_hex(n):
+        return hex(n)
