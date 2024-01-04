@@ -1,6 +1,5 @@
-import array
-def get_array_as_set(array):
-        return set(array)
 import math
-def calculate_bessel_function_of_second_kind(n, x):
-        return math.yn(n, x)
+print(math.pi)
+import os
+def get_current_working_directory():
+        return os.getcwd()
