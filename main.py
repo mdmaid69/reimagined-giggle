@@ -1,6 +1,5 @@
-import array
-def reverse_array(array):
-        array.reverse()
-import glob
-def find_files(pattern):
-        return glob.glob(pattern)
+  def cube_number(x):
+        return x**3
+import re
+def replace_all_occurrences(pattern, replacement, string):
+        return re.sub(pattern, replacement, string)
