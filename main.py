@@ -1,5 +1,6 @@
-import array
-def set_array_slice(array, i, j, iterable):
-        array[i:j] = iterable
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import sys
+def print_python_version():
+        return sys.version
+  import os
+  def get_file_nlink(file_name):
+        return os.stat(file_name).st_nlink
