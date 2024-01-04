@@ -1,6 +1,5 @@
 import array
-def get_bytes_from_array(array):
-        return array.tobytes()
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+def append_to_array(array, item):
+        array.append(item)
+def square_number(x):
+        return x**2
