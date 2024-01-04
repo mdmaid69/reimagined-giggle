@@ -1,5 +1,5 @@
-import pandas as pd
-print(pd.DataFrame({"A": [1, 2], "B": [3, 4]}))
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+def calculate_future_value(principal, rate, time):
+        return principal * (1 + rate)**time
+import re
+def split_by_pattern(pattern, string):
+        return re.split(pattern, string)
