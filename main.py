@@ -1,6 +1,8 @@
-import json
-def pretty_print_json(data):
-        return json.dumps(data, indent=4)
-import math
-def calculate_euclidean_norm(v):
-        return math.hypot(*v)
+import random
+def generate_random_sample(population, k):
+        return random.sample(population, k)
+import array
+def convert_bytes_to_array(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
