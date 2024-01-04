@@ -1,5 +1,5 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-  def sort_list(lst):
-        return sorted(lst)
+  def remove_duplicates(lst):
+        return list(set(lst))
+import json
+def pretty_print_json(data):
+        return json.dumps(data, indent=4)
