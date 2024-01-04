@@ -1,6 +1,4 @@
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
-import json
-def read_from_json(json_string):
-        return json.loads(json_string)
+print([x**2 for x in range(10)])
+import urllib.request
+def download_file(url, filename):
+        urllib.request.urlretrieve(url, filename)
