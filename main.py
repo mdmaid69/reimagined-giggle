@@ -1,7 +1,6 @@
-import array
-def convert_unicode_to_array(unicode, typecode):
-        a = array.array(typecode)
-        a.fromunicode(unicode)
-        return a
-def calculate_speed(distance, time):
-        return distance / time
+import glob
+def find_files(pattern):
+        return glob.glob(pattern)
+  import os
+  def get_current_directory():
+        return os.getcwd()
