@@ -1,7 +1,6 @@
-  import csv
-  def read_csv_file(file_name):
-        with open(file_name, "r") as file:
-          return list(csv.reader(file))
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+import math
+def calculate_bessel_function_of_first_kind(n, x):
+        return math.jn(n, x)
+import subprocess
+def run_command(cmd):
+        return subprocess.check_output(cmd, shell=True)
