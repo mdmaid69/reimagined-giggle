@@ -1,5 +1,5 @@
-import random
-print(random.randint(0, 100))
-import array
-def convert_list_to_array(list, typecode):
-        return array.array(typecode, list)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+numbers = [1, 2, 3, 4, 5]
+print("Sum:", sum(numbers))
