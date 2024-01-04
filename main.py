@@ -1,4 +1,6 @@
-def find_max(numbers):
-        return max(numbers)
-def calculate_power(work, time):
-        return work / time
+import heapq
+def pop_push_heap(heap, item):
+        return heapq.heapreplace(heap, item)
+import collections
+def count_elements(iterable):
+        return collections.Counter(iterable)
