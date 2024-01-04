@@ -1,4 +1,6 @@
-def reverse_string(s):
-        return s[::-1]
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_itemsize(array):
+        return array.itemsize
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
