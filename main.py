@@ -1,5 +1,6 @@
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
-  def remove_duplicates(lst):
-        return list(set(lst))
+import math
+def calculate_sine(x):
+        return math.sin(x)
+import heapq
+def push_to_heap(heap, item):
+        heapq.heappush(heap, item)
