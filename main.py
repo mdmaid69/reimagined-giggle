@@ -1,5 +1,4 @@
-numbers = [1, 2, 3, 4, 5]
-print("Squared:", [n**2 for n in numbers])
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  import os
+  def set_environment_variable(var_name, value):
+        os.environ[var_name] = value
+print([x**2 for x in range(10)])
