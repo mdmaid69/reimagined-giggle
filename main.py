@@ -1,6 +1,5 @@
-import datetime
-def get_current_datetime():
-        return datetime.datetime.now()
-import collections
-def create_user_string():
-        return collections.UserString()
+text = "Hello, world!"
+print("Is palindrome:", text == text[::-1])
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
