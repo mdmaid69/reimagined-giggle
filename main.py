@@ -1,5 +1,6 @@
-import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-def add_numbers(a, b):
-        return a + b
+import time
+def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import math
+def calculate_hyperbolic_cosine(x):
+        return math.cosh(x)
