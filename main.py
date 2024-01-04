@@ -1,5 +1,5 @@
-import array
-def get_array_from_list(list, typecode):
-        return array.array(typecode, list)
-def find_union(list1, list2):
-        return set(list1) | set(list2)
+  def convert_to_octal(n):
+        return oct(n)
+import tempfile
+def create_temp_directory():
+        return tempfile.TemporaryDirectory()
