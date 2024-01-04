@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Reversed:", text[::-1])
-import array
-def get_array_as_set(array):
-        return set(array)
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_simple_interest(principal, rate, time):
+        return principal * rate * time
