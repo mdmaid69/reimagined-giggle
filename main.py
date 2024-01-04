@@ -1,5 +1,5 @@
-import time
-def get_current_time():
-        return time.time()
-numbers = [1, 2, 3, 4, 5]
-print("Sum:", sum(numbers))
+import collections
+def create_queue():
+        return collections.deque()
+  def find_max(lst):
+        return max(lst) if len(lst) != 0 else "List is empty"
