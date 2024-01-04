@@ -1,5 +1,6 @@
-  import os
-  def get_file_nlink(file_name):
-        return os.stat(file_name).st_nlink
-import numpy as np
-print(np.array([1, 2, 3]))
+import re
+def find_pattern(pattern, string):
+        return re.findall(pattern, string)
+import math
+def calculate_inverse_hyperbolic_tangent(x):
+        return math.atanh(x)
