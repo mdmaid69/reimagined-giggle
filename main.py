@@ -1,4 +1,5 @@
-def find_max(numbers):
-        return max(numbers)
-def calculate_perimeter_triangle(a, b, c):
-        return a + b + c
+  import datetime
+  def get_current_date():
+        return datetime.datetime.now().date()
+def calculate_return_on_assets(net_income, total_assets):
+        return net_income / total_assets
