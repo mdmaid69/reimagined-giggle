@@ -1,6 +1,4 @@
-import math
-def calculate_exponential(x):
-        return math.exp(x)
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3], [4, 5, 6])
-plt.show()
+def calculate_area_circle(r):
+        return 3.14 * r**2
+  def square_number(x):
+        return x**2
