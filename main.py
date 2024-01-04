@@ -1,6 +1,5 @@
-import heapq
-def get_smallest_elements(iterable, n):
-        return heapq.nsmallest(n, iterable)
-import array
-def clear_array(array):
-        array *= 0
+x = 10
+y = 20
+print("Sum:", x + y)
+def calculate_perpetuity(payment, rate):
+        return payment / rate
