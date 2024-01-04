@@ -1,5 +1,4 @@
-import time
-def wait_for_seconds(seconds):
-        time.sleep(seconds)
-def is_even(n):
-        return n % 2 == 0
+def calculate_work(force, distance):
+        return force * distance
+numbers = [1, 2, 3, 4, 5]
+print("Max:", max(numbers))
