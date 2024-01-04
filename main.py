@@ -1,5 +1,10 @@
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
-  def calculate_area_rectangle(l, w):
-        return l * w
+import array
+def get_array_as_float(array):
+        return float(array[0])
+import time
+def measure_execution_time(func, *args):
+        start = time.time()
+        result = func(*args)
+        end = time.time()
+        print(f"Execution time: {end - start} seconds")
+        return result
