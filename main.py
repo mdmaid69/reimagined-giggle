@@ -1,5 +1,5 @@
-import array
-def convert_array_to_bytes(array):
-        return array.tobytes()
-text = "Hello, world!"
-print("Characters:", len(text))
+  import os
+  def get_file_mtime(file_name):
+        return os.stat(file_name).st_mtime
+def calculate_compound_interest(principal, rate, time):
+        return principal * (1 + rate)**time - principal
