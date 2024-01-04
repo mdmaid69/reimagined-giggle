@@ -1,5 +1,4 @@
-def add_numbers(x, y):
-        return x + y
-import collections
-def create_user_list():
-        return collections.UserList()
+def calculate_pressure(force, area):
+        return force / area
+def subtract_numbers(x, y):
+        return x - y
