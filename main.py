@@ -1,5 +1,4 @@
-def calculate_work(force, distance):
-        return force * distance
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
+  def calculate_area_rectangle(l, w):
+        return l * w
