@@ -1,6 +1,5 @@
-import array
-def get_array_as_format(array, format_spec):
-        return format(array, format_spec)
-import math
-def calculate_gamma_function(x):
-        return math.gamma(x)
+import heapq
+def get_smallest_elements(iterable, n):
+        return heapq.nsmallest(n, iterable)
+def calculate_acceleration(speed, time):
+        return speed / time
