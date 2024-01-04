@@ -1,6 +1,6 @@
-import itertools
-def flatten(iterable):
-        return list(itertools.chain.from_iterable(iterable))
-import random
-def roll_die():
-        return random.randint(1, 6)
+  import os
+  def get_parent_directory(dir_name):
+        return os.path.dirname(dir_name)
+  import os
+  def get_file_size_in_bytes(file_name):
+        return os.stat(file_name).st_size
