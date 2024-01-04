@@ -1,4 +1,4 @@
-def calculate_acceleration(speed, time):
-        return speed / time
-import time
-print(time.time())
+def count_words(sentence):
+        return len(sentence.split())
+def count_words(sentence):
+        return len(sentence.split())
