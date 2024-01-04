@@ -1,5 +1,6 @@
-  import os
-  def get_file_size(file_name):
-        return os.stat(file_name).st_size
-def calculate_energy(mass, c=3*10**8):
-        return mass * c**2
+import math
+def calculate_root(x, n):
+        return math.pow(x, 1/n)
+list1 = [1, 2, 3]
+list2 = [2, 3, 4]
+print("Union:", set(list1) | set(list2))
