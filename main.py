@@ -1,6 +1,6 @@
-import math
-def calculate_logarithm_base_10(x):
-        return math.log10(x)
-import tempfile
-def create_temp_file():
-        return tempfile.NamedTemporaryFile(delete=False)
+import collections
+def create_stack():
+        return collections.deque()
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
