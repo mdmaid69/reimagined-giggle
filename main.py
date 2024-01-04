@@ -1,6 +1,5 @@
-import math
-def calculate_least_common_multiple(a, b):
-        return abs(a*b) // math.gcd(a, b)
-  import os
-  def get_file_size(file_name):
-        return os.path.getsize(file_name)
+import tensorflow as tf
+print(tf.__version__)
+import collections
+def create_queue():
+        return collections.deque()
