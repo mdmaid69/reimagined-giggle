@@ -1,4 +1,3 @@
-def find_min(lst):
-        return min(lst)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+print([x**2 for x in range(10)])
+def calculate_perpetuity(payment, rate):
+        return payment / rate
