@@ -1,6 +1,6 @@
+import platform
+def get_os_info():
+        return platform.uname()
 import math
-def calculate_tangent(x):
-        return math.tan(x)
-import math
-def calculate_hyperbolic_cosine(x):
-        return math.cosh(x)
+def calculate_gamma_function(x):
+        return math.gamma(x)
