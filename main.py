@@ -1,4 +1,5 @@
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+  import os
+  def get_file_owner(file_name):
+        return os.stat(file_name).st_uid
+def calculate_interest(principal, rate, time):
+        return principal * (1 + rate)**time
