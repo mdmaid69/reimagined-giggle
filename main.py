@@ -1,6 +1,6 @@
-import math
-def calculate_cylinder_volume(radius, height):
-        return math.pi * radius**2 * height
-  import os
-  def get_file_dev(file_name):
-        return os.stat(file_name).st_dev
+import random
+def roll_die():
+        return random.randint(1, 6)
+import time
+def get_current_time():
+        return time.time()
