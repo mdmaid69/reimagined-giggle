@@ -1,5 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-def calculate_area_rectangle(l, w):
-        return l * w
+  def find_min(lst):
+        return min(lst) if len(lst) != 0 else "List is empty"
+import array
+def clear_array(array):
+        array *= 0
