@@ -1,5 +1,5 @@
-def calculate_present_value(future_value, rate, time):
-        return future_value / (1 + rate)**time
-import heapq
-def get_largest_elements(iterable, n):
-        return heapq.nlargest(n, iterable)
+import os
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def calculate_roi(gain, cost):
+        return (gain - cost) / cost
