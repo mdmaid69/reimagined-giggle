@@ -1,5 +1,5 @@
-  import os
-  def get_base_name(path):
-        return os.path.basename(path)
-def calculate_area(radius):
-        return 3.14 * radius * radius
+import tempfile
+def create_temp_file():
+        return tempfile.NamedTemporaryFile(delete=False)
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
