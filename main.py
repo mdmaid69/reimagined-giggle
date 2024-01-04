@@ -1,6 +1,4 @@
-  import os
-  def get_file_name_without_extension(file_name):
-        return os.path.splitext(file_name)[0]
-  import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+def calculate_work(force, distance):
+        return force * distance
+def is_even(n):
+        return n % 2 == 0
