@@ -1,5 +1,6 @@
-def is_odd(n):
-        return n % 2 != 0
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
+import re
+def find_all_occurrences(pattern, string):
+        return re.findall(pattern, string)
+import os
+def create_directory(path):
+        os.makedirs(path, exist_ok=True)
