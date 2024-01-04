@@ -1,6 +1,6 @@
-import itertools
-def get_cartesian_product(*iterables):
-        return list(itertools.product(*iterables))
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
+import heapq
+def push_pop_heap(heap, item):
+        return heapq.heappushpop(heap, item)
+  import json
+  def convert_dict_to_json(d):
+        return json.dumps(d)
