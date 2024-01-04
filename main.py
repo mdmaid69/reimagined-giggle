@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import collections
-def create_counter():
-        return collections.Counter()
+def calculate_speed(distance, time):
+        return distance / time
+import array
+def get_array_index(array, item):
+        return array.index(item)
