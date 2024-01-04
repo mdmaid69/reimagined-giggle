@@ -1,5 +1,6 @@
-def multiply_numbers(x, y):
-        return x * y
+import sys
+def exit_program():
+        sys.exit()
   import os
-  def get_file_block_size(file_name):
-        return os.stat(file_name).st_blksize
+  def get_file_ino(file_name):
+        return os.stat(file_name).st_ino
