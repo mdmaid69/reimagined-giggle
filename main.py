@@ -1,6 +1,4 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-import heapq
-def merge_sorted_iterables(*iterables):
-        return heapq.merge(*iterables)
+import itertools
+print(list(itertools.permutations([1, 2, 3])))
+def count_elements(lst):
+        return len(lst)
