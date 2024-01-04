@@ -1,6 +1,4 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  import pandas as pd
-  def write_to_excel_file(file_name, data):
-        df = pd.DataFrame(data)
-        df.to_excel(file_name, index=False)
+print([x**2 for x in range(10)])
+import array
+def get_array_as_dict(array):
+        return {i: item for i, item in enumerate(array)}
