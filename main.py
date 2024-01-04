@@ -1,5 +1,5 @@
-n = 10
-print("Odd numbers:", [x for x in range(n) if x % 2 != 0])
-import time
-def get_current_time():
-        return time.time()
+import collections
+def create_queue():
+        return collections.deque()
+def calculate_current_ratio(current_assets, current_liabilities):
+        return current_assets / current_liabilities
