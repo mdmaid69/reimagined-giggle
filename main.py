@@ -1,5 +1,5 @@
-  def count_elements(lst):
-        return len(lst)
-  import numpy as np
-  def calculate_standard_deviation(arr):
-        return np.std(arr)
+n = 10
+print("Fibonacci:", [((1 + 5**0.5) / 2)**n / 5**0.5 for n in range(n)])
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
