@@ -1,5 +1,5 @@
 import os
-def create_directory(path):
-        os.makedirs(path, exist_ok=True)
-  def calculate_area_rectangle(l, w):
-        return l * w
+def get_file_modification_time(filename):
+        return os.path.getmtime(filename)
+def count_words(sentence):
+        return len(sentence.split())
