@@ -1,5 +1,5 @@
 import math
-def calculate_exponential(x):
-        return math.exp(x)
-def find_unique_words(sentence):
-        return set(sentence.split())
+def calculate_tangent(x):
+        return math.tan(x)
+numbers = [1, 2, 3, 4, 5]
+print("Average:", sum(numbers) / len(numbers))
