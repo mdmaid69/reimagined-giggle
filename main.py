@@ -1,6 +1,4 @@
-import array
-def convert_array_to_unicode(array):
-        return array.tounicode()
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
+def calculate_work(force, distance):
+        return force * distance
+def calculate_equity_ratio(total_equity, total_assets):
+        return total_equity / total_assets
