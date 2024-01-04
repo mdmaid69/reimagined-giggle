@@ -1,5 +1,6 @@
-  import numpy as np
-  def calculate_mean(arr):
-        return np.mean(arr)
-def greet(name):
-        print(f"Hello, {name}!")
+  import time
+  def wait_for_seconds(seconds):
+        time.sleep(seconds)
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
