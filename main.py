@@ -1,4 +1,5 @@
-text = "Hello, world!"
-print("Is palindrome:", text == text[::-1])
-  def cube_number(x):
-        return x**3
+import math
+def calculate_euclidean_norm(v):
+        return math.hypot(*v)
+import json
+print(json.dumps({"name": "John", "age": 30}))
