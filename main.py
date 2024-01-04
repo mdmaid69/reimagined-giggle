@@ -1,5 +1,8 @@
-import sys
-def add_to_python_path(path):
-        sys.path.append(path)
-def find_unique_words(sentence):
-        return set(sentence.split())
+import array
+def get_array_from_bytes(bytes, typecode):
+        a = array.array(typecode)
+        a.frombytes(bytes)
+        return a
+import array
+def get_array_item_count(array, item):
+        return array.count(item)
