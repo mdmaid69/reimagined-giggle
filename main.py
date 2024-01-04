@@ -1,5 +1,5 @@
-import math
-def calculate_greatest_common_divisor(a, b):
-        return math.gcd(a, b)
-n = 10
-print("Even numbers:", [x for x in range(n) if x % 2 == 0])
+  def calculate_perimeter_rectangle(l, w):
+        return 2 * (l + w)
+  import os
+  def get_base_name(path):
+        return os.path.basename(path)
