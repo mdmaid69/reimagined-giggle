@@ -1,5 +1,6 @@
-  import pandas as pd
-  def read_excel_file(file_name):
-        return pd.read_excel(file_name)
-from collections import Counter
-print(Counter("hello world"))
+import array
+def set_array_item(array, i, item):
+        array[i] = item
+import collections
+def create_ordered_dict():
+        return collections.OrderedDict()
