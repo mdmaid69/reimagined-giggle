@@ -1,7 +1,5 @@
-  import os
-  def get_environment_variable(var_name):
-        return os.getenv(var_name)
-i = 0
-while i < 5:
-        print(i)
-        i += 1
+import math
+def calculate_logarithm_base_e(x):
+        return math.log(x)
+def count_words(sentence):
+        return len(sentence.split())
