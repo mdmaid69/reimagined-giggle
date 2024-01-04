@@ -1,6 +1,5 @@
-  import os
-  def get_file_mode(file_name):
-        return os.stat(file_name).st_mode
-import time
-def get_formatted_time():
-        return time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
+def calculate_density(mass, volume):
+        return mass / volume
+import array
+def get_array_as_float(array):
+        return float(array[0])
