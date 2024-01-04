@@ -1,5 +1,5 @@
-import datetime
-print(datetime.datetime.now())
-  import os
-  def get_file_lspare(file_name):
-        return os.stat(file_name).st_lspare
+import collections
+def create_user_string():
+        return collections.UserString()
+  def convert_to_binary(n):
+        return bin(n)
