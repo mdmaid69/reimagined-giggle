@@ -1,5 +1,5 @@
-text = "Hello, world!"
-print("Words:", len(text.split()))
-  import numpy as np
-  def create_numpy_array(lst):
-        return np.array(lst)
+  def square_number(x):
+        return x**2
+import heapq
+def get_largest_elements(iterable, n):
+        return heapq.nlargest(n, iterable)
