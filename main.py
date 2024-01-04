@@ -1,6 +1,4 @@
-  import os
-  def list_files_in_directory(dir_name):
-        return os.listdir(dir_name)
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+import json
+print(json.dumps({"name": "John", "age": 30}))
+def find_difference(list1, list2):
+        return set(list1) - set(list2)
