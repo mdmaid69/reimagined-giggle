@@ -1,8 +1,8 @@
-import socket
+  def cube_number(x):
+        return x**3
+from flask import Flask
+app = Flask(__name__)
 
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-s.connect(("www.python.org", 80))
-  import matplotlib.pyplot as plt
-  def plot_graph(x, y):
-        plt.plot(x, y)
-        plt.show()
+@app.route("/")
+def hello():
+        return "Hello, World!"
