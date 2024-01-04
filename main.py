@@ -1,5 +1,9 @@
-  def cube_number(x):
-        return x**3
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+import sys
+def print_python_version():
+        print(sys.version)
+import argparse
+def parse_arguments():
+        parser = argparse.ArgumentParser()
+        parser.add_argument("--input")
+        parser.add_argument("--output")
+        return parser.parse_args()
