@@ -1,6 +1,5 @@
-  import json
-  def convert_json_to_dict(json_str):
-        return json.loads(json_str)
-import math
-def calculate_inverse_hyperbolic_sine(x):
-        return math.asinh(x)
+  def subtract_numbers(x, y):
+        return x - y
+import array
+def convert_array_to_bytes(array):
+        return array.tobytes()
