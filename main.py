@@ -1,6 +1,5 @@
-import math
-def calculate_tangent(x):
-        return math.tan(x)
-  import os
-  def get_directory_name(path):
-        return os.path.dirname(path)
+def calculate_power(work, time):
+        return work / time
+import array
+def clear_array(array):
+        array *= 0
