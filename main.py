@@ -1,4 +1,5 @@
-def calculate_future_value(principal, rate, time):
-        return principal * (1 + rate)**time
-def remove_duplicates(lst):
-        return list(set(lst))
+def subtract_numbers(x, y):
+        return x - y
+import array
+def get_array_item(array, i):
+        return array[i]
