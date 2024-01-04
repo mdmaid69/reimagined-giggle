@@ -1,6 +1,6 @@
 import random
-def flip_coin():
-        return "Heads" if random.random() < 0.5 else "Tails"
-  import os
-  def get_file_birthtime_ns(file_name):
-        return os.stat(file_name).st_birthtime_ns
+def generate_random_number(start, end):
+        return random.randint(start, end)
+import array
+def get_list_from_array(array):
+        return array.tolist()
