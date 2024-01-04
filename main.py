@@ -1,6 +1,4 @@
-import array
-def convert_array_to_string(array):
-        return array.tostring()
-import array
-def set_array_item(array, i, item):
-        array[i] = item
+print([x**2 for x in range(10)])
+import os
+def get_file_creation_time(filename):
+        return os.path.getctime(filename)
