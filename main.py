@@ -1,5 +1,5 @@
-def convert_to_octal(n):
-        return oct(n)
-import collections
-def create_user_string():
-        return collections.UserString()
+name = "Python"
+print("Hello,", name)
+import math
+def calculate_absolute_value(x):
+        return math.fabs(x)
