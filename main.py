@@ -1,6 +1,5 @@
-x = 10
-y = 20
-print("Sum:", x + y)
-  import os
-  def get_file_atime(file_name):
-        return os.stat(file_name).st_atime
+def sort_list(lst):
+        return sorted(lst)
+import math
+def calculate_pythagorean_theorem(a, b):
+        return math.sqrt(a**2 + b**2)
