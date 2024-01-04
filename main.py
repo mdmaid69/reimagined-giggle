@@ -1,5 +1,4 @@
-  import os
-  def get_file_flags(file_name):
-        return os.stat(file_name).st_flags
-  def multiply_numbers(x, y):
-        return x * y
+import platform
+def get_os_info():
+        return platform.uname()
+print([x**2 for x in range(10)])
