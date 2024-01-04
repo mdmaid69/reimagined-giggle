@@ -1,6 +1,5 @@
 import math
-def calculate_radians_to_degrees(radians):
-        return math.degrees(radians)
-import re
-def find_all_occurrences(pattern, string):
-        return re.findall(pattern, string)
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+def divide_numbers(x, y):
+        return x / y
