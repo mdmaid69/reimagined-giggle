@@ -1,4 +1,6 @@
-def find_common_elements(list1, list2):
-        return set(list1) & set(list2)
-import itertools
-print(list(itertools.permutations([1, 2, 3])))
+  import os
+  def get_file_size(file_name):
+        return os.stat(file_name).st_size
+import collections
+def create_default_dict(default_type):
+        return collections.defaultdict(default_type)
