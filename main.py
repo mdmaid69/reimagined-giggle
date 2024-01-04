@@ -1,4 +1,6 @@
-def calculate_density(mass, volume):
-        return mass / volume
-  def calculate_perimeter_rectangle(l, w):
-        return 2 * (l + w)
+import math
+def calculate_combinations(n, k):
+        return math.comb(n, k)
+import getpass
+def get_username():
+        return getpass.getuser()
