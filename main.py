@@ -1,6 +1,7 @@
-import heapq
-def pop_from_heap(heap):
-        return heapq.heappop(heap)
-import math
-def calculate_cone_volume(radius, height):
-        return 1/3 * math.pi * radius**2 * height
+import array
+def iterate_over_array(array):
+        for item in array:
+        print(item)
+  import os
+  def create_directory(dir_name):
+        os.makedirs(dir_name, exist_ok=True)
