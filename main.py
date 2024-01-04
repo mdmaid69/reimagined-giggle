@@ -1,5 +1,5 @@
-  import os
-  def get_file_mtime(file_name):
-        return os.stat(file_name).st_mtime
-  def sort_list(lst):
-        return sorted(lst)
+import math
+def calculate_sign(x):
+        return math.copysign(1, x)
+def calculate_acceleration(speed, time):
+        return speed / time
