@@ -1,6 +1,5 @@
-  import os
-  def change_current_working_directory(dir_name):
-        os.chdir(dir_name)
-import math
-def calculate_arc_tangent(x):
-        return math.atan(x)
+import random
+def generate_random_number(start, end):
+        return random.randint(start, end)
+def remove_duplicates(lst):
+        return list(set(lst))
