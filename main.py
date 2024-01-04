@@ -1,5 +1,5 @@
-  import os
-  def get_current_directory():
-        return os.getcwd()
-def calculate_acceleration(speed, time):
-        return speed / time
+import os
+print(os.getcwd())
+import array
+def check_if_array_contains_item(array, item):
+        return item in array
