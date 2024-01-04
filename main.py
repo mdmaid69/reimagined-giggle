@@ -1,6 +1,5 @@
-import array
-def get_bytes_from_array(array):
-        return array.tobytes()
+  def multiply_numbers(x, y):
+        return x * y
   import os
-  def get_file_ino(file_name):
-        return os.stat(file_name).st_ino
+  def delete_directory(dir_name):
+        os.rmdir(dir_name)
