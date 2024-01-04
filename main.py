@@ -1,6 +1,5 @@
+import re
+print(re.match("h.*o", "hello world"))
 import array
-def get_array_as_bytearray(array):
-        return bytearray(array)
-import urllib.request
-def download_file(url, filename):
-        urllib.request.urlretrieve(url, filename)
+def get_array_as_int(array):
+        return int(array[0])
