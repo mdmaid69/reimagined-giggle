@@ -1,6 +1,6 @@
-import array
-def check_if_array_does_not_contain_item(array, item):
-        return item not in array
-import array
-def get_array_as_dict(array):
-        return {i: item for i, item in enumerate(array)}
+  import pandas as pd
+  def write_to_excel_file(file_name, data):
+        df = pd.DataFrame(data)
+        df.to_excel(file_name, index=False)
+def calculate_energy(mass, c=3*10**8):
+        return mass * c**2
