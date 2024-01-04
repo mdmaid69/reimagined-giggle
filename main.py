@@ -1,5 +1,6 @@
 import math
-def calculate_arc_cosine(x):
-        return math.acos(x)
-sentence = "Hello, world!"
-print("Unique words:", len(set(sentence.split())))
+def calculate_cylinder_volume(radius, height):
+        return math.pi * radius**2 * height
+import math
+def calculate_logarithm_base_2(x):
+        return math.log2(x)
